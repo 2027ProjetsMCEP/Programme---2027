@@ -80,6 +80,10 @@ def claims(ent, p):
 
 cands = json.load(open("candidats.json"))
 overrides = json.load(open("choix.json")) if os.path.exists("choix.json") else {}
+# « _seulement » : ne traiter que les candidats listés dans choix.json, sans les photos de comparaison
+ONLY = overrides.pop("_seulement", False)
+if ONLY:
+    cands = [c for c in cands if c["id"] in overrides]
 os.makedirs("photos/raw", exist_ok=True)
 res = []
 for c in cands:
@@ -124,6 +128,10 @@ for c in cands:
                 save(info["url"], "photos/raw/" + c["id"] + ext)
                 info["local"] = "photos/raw/" + c["id"] + ext
                 rec["photo"] = info
+        if ONLY:
+            res.append(rec)
+            print(c["id"], (rec["photo"] or {}).get("fichier"), flush=True)
+            continue
         # Autres photos libres de la même personne, pour pouvoir choisir un portrait officiel si besoin
         s = api(CM, action="query", list="search", srsearch='"' + c["nom"] + '" filetype:bitmap', srnamespace=6, srlimit=8)
         alts = [x["title"][5:] for x in s.get("query", {}).get("search", [])]
@@ -145,4 +153,4 @@ for c in cands:
     res.append(rec)
     print(c["id"], rec["choisi"], (rec["photo"] or {}).get("fichier"), len(rec["autres"]), rec.get("erreur", ""), flush=True)
 
-json.dump(res, open("resultats.json", "w"), ensure_ascii=False, indent=1)
+json.dump(res, open("resultats_choix.json" if ONLY else "resultats.json", "w"), ensure_ascii=False, indent=1)
