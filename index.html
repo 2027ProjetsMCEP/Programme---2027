@@ -1,0 +1,739 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#090D1F">
+<meta name="robots" content="noindex">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Programmes 2027">
+<style>html{padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}</style>
+<title>Programmes 2027</title>
+<meta name="description" content="Les programmes des candidats à la présidentielle 2027, l'actu de la campagne et les sondages, en clair et avec les sources.">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+<style>
+/* Appli mobile, thème sombre immersif (choix assumé : un seul thème). Une colonne de 560px au plus, barre du haut translucide, barre d'onglets fixe en bas, fil vidéo plein écran. Le bleu sert aux actions, le rouge au compte à rebours et aux nouveautés ; aucun candidat n'a de couleur propre. */
+:root {
+  --bg: #090D1F;
+  --card: #121834;
+  --ink: #F2F4FA;
+  --ink-2: #B4BCD6;
+  --ink-3: #8089A8;
+  --line: #222B50;
+  --chip: #1B2346;
+  --bleu: #7D98FF;
+  --bleu-2: #3F55B5;
+  --bleu-soft: #1A2552;
+  --rouge: #FF5C70;
+  --rouge-soft: #3A1424;
+  --ok: #5FD39A; --ok-soft: #0F2E21;
+  --warn: #F2C063; --warn-soft: #33270E;
+  --mute: #AAB3CC; --mute-soft: #1E2645;
+  --save: #4CD0C9; --save-soft: #0E2C30;
+  --flag-b: #2F55E4; --flag-w: #F2F4FA; --flag-r: #FF5C70;
+  --reel-a: #2A45C4;
+  --reel-b: #0B1238;
+  --on-reel: #FFFFFF;
+  --on-reel-2: #C9D3F7;
+  --f-display: "Bricolage Grotesque", "Avenir Next", "Segoe UI", system-ui, sans-serif;
+  --f-body: "Instrument Sans", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --nav-h: 64px;
+  --bar-h: 54px;
+  color-scheme: dark;
+}
+* { box-sizing: border-box; }
+[hidden] { display: none !important; }
+html, body { height: 100%; }
+body { background: var(--bg); color: var(--ink); font-family: var(--f-body); font-size: 16px; line-height: 1.5; -webkit-font-smoothing: antialiased; -webkit-tap-highlight-color: transparent; }
+a { color: inherit; }
+button, select { font: inherit; color: inherit; }
+:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; border-radius: 6px; }
+h1, h2, h3 { font-family: var(--f-display); margin: 0; line-height: 1.15; letter-spacing: -0.01em; text-wrap: balance; }
+p { margin: 0; }
+
+.app { max-width: 560px; margin: 0 auto; min-height: 100%; }
+.flag { display: flex; height: 3px; }
+.flag i { flex: 1; }
+.flag i:nth-child(1) { background: var(--flag-b); } .flag i:nth-child(2) { background: var(--flag-w); } .flag i:nth-child(3) { background: var(--flag-r); }
+
+/* Barre du haut */
+.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; height: var(--bar-h); display: flex; align-items: center; gap: 8px; padding-inline: 12px 16px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(1.5) blur(12px); -webkit-backdrop-filter: saturate(1.5) blur(12px); border-bottom: 1px solid transparent; }
+.bar.scrolled { border-bottom-color: var(--line); }
+.bar .back { width: 38px; height: 38px; border: 0; border-radius: 50%; background: transparent; display: grid; place-items: center; cursor: pointer; flex: none; }
+.bar .back:hover { background: var(--chip); }
+.bar .back svg { width: 22px; height: 22px; }
+.bar .ttl { flex: 1; min-width: 0; font-family: var(--f-display); font-weight: 700; font-size: 1.12rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; padding-left: 4px; }
+.bar .ttl .wm em { font-style: normal; color: var(--rouge); }
+.jx { flex: none; font-weight: 700; font-size: 0.8rem; color: var(--rouge); background: var(--rouge-soft); padding: 4px 10px; border-radius: 999px; font-variant-numeric: tabular-nums; }
+
+main { padding: 6px 16px calc(var(--nav-h) + 28px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 12px; }
+
+/* Barre d'onglets */
+.nav { position: fixed; z-index: 30; bottom: 0; left: 50%; transform: translateX(-50%); width: min(100%, 560px); display: grid; grid-template-columns: repeat(5, 1fr); background: color-mix(in srgb, var(--card) 94%, transparent); backdrop-filter: saturate(1.5) blur(14px); -webkit-backdrop-filter: saturate(1.5) blur(14px); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
+.nav a { height: var(--nav-h); display: grid; place-items: center; align-content: center; gap: 3px; text-decoration: none; color: var(--ink-3); font-size: 0.7rem; font-weight: 600; }
+.nav a svg { width: 24px; height: 24px; }
+.nav a[aria-current="page"] { color: var(--bleu); }
+.nav a[aria-current="page"] svg { stroke-width: 2.2; }
+
+/* Cartes */
+.card { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 16px; display: grid; gap: 12px; min-width: 0; }
+.card > h2 { font-size: 1.12rem; display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.card > h2 a, .link { font-family: var(--f-body); font-size: 0.86rem; font-weight: 600; color: var(--bleu); text-decoration: none; }
+.lead { font-size: 0.95rem; color: var(--ink-2); }
+.small { font-size: 0.82rem; color: var(--ink-3); }
+.small a { color: var(--ink-2); }
+.page-h { display: grid; gap: 6px; padding: 10px 2px 4px; }
+.page-h h1 { font-size: 1.85rem; letter-spacing: -0.02em; }
+
+/* Accueil */
+.hero { padding: 14px 2px 8px; display: grid; gap: 4px; }
+.hero .kick { font-size: 0.82rem; font-weight: 700; color: var(--ink-2); }
+.hero .cd { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; }
+.hero .cd b { font-family: var(--f-display); font-weight: 800; font-size: 4rem; line-height: 0.95; letter-spacing: -0.04em; color: var(--ink); font-variant-numeric: tabular-nums; }
+.hero .cd span { font-family: var(--f-display); font-weight: 600; font-size: 1.25rem; line-height: 1.15; max-width: 12ch; }
+.hero .date { font-size: 0.86rem; color: var(--ink-3); }
+
+.rows { display: grid; }
+.row { display: flex; align-items: center; gap: 12px; padding-block: 11px; border-top: 1px solid var(--line); text-decoration: none; color: inherit; min-width: 0; }
+.rows > .row:first-child { border-top: 0; padding-top: 2px; }
+.row .txt { flex: 1; min-width: 0; display: grid; gap: 2px; }
+.row .txt b { font-weight: 600; line-height: 1.32; }
+.row .txt span { font-size: 0.82rem; color: var(--ink-3); }
+.chev { width: 18px; height: 18px; flex: none; color: var(--ink-3); }
+a.row:hover .txt b { color: var(--bleu); }
+.news .txt b { font-weight: 600; }
+.news .src { font-weight: 700; color: var(--rouge); }
+.more-btn { border: 0; background: var(--chip); color: var(--ink); font-weight: 600; font-size: 0.9rem; border-radius: 12px; padding: 11px; cursor: pointer; }
+.more-btn:hover { background: var(--bleu-soft); color: var(--bleu); }
+
+.agenda { display: grid; gap: 10px; }
+.agenda .it { display: grid; grid-template-columns: 52px minmax(0, 1fr); gap: 12px; align-items: center; }
+.leaf { border-radius: 10px; overflow: hidden; text-align: center; background: var(--chip); line-height: 1.05; }
+.leaf small { display: block; background: var(--rouge); color: #FFFFFF; font-size: 0.64rem; font-weight: 700; letter-spacing: 0.05em; text-transform: uppercase; padding: 3px 0; }
+.leaf b { display: block; font-family: var(--f-display); font-size: 1.3rem; padding: 3px 0 5px; }
+
+/* Monogrammes : même pastille pour tous */
+.mono { --s: 40px; width: var(--s); height: var(--s); flex: none; border-radius: 50%; display: inline-grid; place-items: center; background: var(--chip); color: var(--ink); font-family: var(--f-display); font-weight: 700; font-size: calc(var(--s) * .38); }
+.mono.s { --s: 30px; }
+.mono.l { --s: 64px; }
+
+.pill { display: inline-flex; align-items: center; gap: 6px; font-size: 0.74rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.pill::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: currentColor; }
+.st-publie { color: var(--ok); background: var(--ok-soft); }
+.st-partiel { color: var(--warn); background: var(--warn-soft); }
+.st-nonpublie { color: var(--mute); background: var(--mute-soft); }
+.newb { display: inline-block; vertical-align: 2px; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #FFFFFF; background: var(--rouge); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
+
+/* Propositions */
+.props { display: grid; }
+.prop { display: grid; gap: 6px; padding-block: 12px; border-top: 1px solid var(--line); }
+.props > .prop:first-child { border-top: 0; padding-top: 0; }
+.prop .pt { font-weight: 600; font-size: 1rem; line-height: 1.35; }
+.amt { justify-self: start; display: inline-flex; flex-wrap: wrap; gap: 2px 6px; font-size: 0.8rem; font-weight: 600; padding: 4px 9px; border-radius: 8px; }
+.amt.cout { color: var(--bleu); background: var(--bleu-soft); }
+.amt.economie, .amt.dette { color: var(--save); background: var(--save-soft); }
+.amt.neutre { color: var(--ink-2); background: var(--mute-soft); }
+.amt span { font-weight: 500; opacity: .85; }
+.prop details { font-size: 0.9rem; color: var(--ink-2); }
+.prop summary { cursor: pointer; font-size: 0.82rem; font-weight: 600; color: var(--bleu); list-style: none; display: inline-flex; align-items: center; gap: 4px; }
+.prop summary::-webkit-details-marker { display: none; }
+.prop summary::after { content: "+"; font-weight: 700; }
+.prop details[open] summary::after { content: "−"; }
+.prop details p { margin-top: 6px; }
+.prop .src { font-size: 0.8rem; color: var(--ink-3); }
+.prop .src a { color: var(--ink-2); font-weight: 600; }
+
+.cand-h { display: flex; align-items: center; gap: 10px; text-decoration: none; color: inherit; }
+.cand-h .nm { display: grid; }
+.cand-h .nm b { font-family: var(--f-display); font-size: 1.08rem; font-weight: 700; }
+.cand-h .nm small { font-size: 0.8rem; color: var(--ink-3); }
+a.cand-h:hover b { color: var(--bleu); }
+
+/* Fiche candidat */
+.profile { display: grid; gap: 12px; justify-items: start; }
+.profile .who { display: flex; gap: 14px; align-items: center; }
+.profile h1 { font-size: 1.7rem; }
+.profile .party { color: var(--ink-2); font-size: 0.92rem; }
+.stats { display: flex; gap: 10px; width: 100%; }
+.stats div { flex: 1; background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; }
+.stats b { font-family: var(--f-display); font-size: 1.5rem; line-height: 1.1; }
+.stats span { font-size: 0.78rem; color: var(--ink-2); }
+.card > h2.th-h { display: flex; align-items: center; justify-content: flex-start; gap: 10px; font-size: 1rem; }
+.th-h svg { width: 22px; height: 22px; color: var(--bleu); flex: none; }
+.silent { font-size: 0.86rem; color: var(--ink-3); }
+.docs .row .txt b { font-size: 0.95rem; }
+
+/* Thèmes */
+.tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.tile { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 14px; display: grid; gap: 10px; text-decoration: none; color: inherit; min-height: 118px; align-content: space-between; }
+.tile:hover { border-color: var(--bleu-2); }
+.tile .ic { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
+.tile .ic svg { width: 22px; height: 22px; }
+.tile b { font-family: var(--f-display); font-size: 1.05rem; font-weight: 700; line-height: 1.2; display: block; }
+.tile span { font-size: 0.78rem; color: var(--ink-3); }
+.figs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.figs div { background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; }
+.figs b { font-family: var(--f-display); font-size: 1.3rem; line-height: 1.1; }
+.figs span { font-size: 0.78rem; color: var(--ink-2); }
+
+/* Axe chiffré */
+.axis { display: grid; gap: 2px; }
+.axis-row { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); align-items: center; gap: 10px; min-height: 42px; }
+.axis-row .who { font-weight: 600; font-size: 0.86rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: none; }
+.axis-track { position: relative; height: 42px; }
+.axis-track::before { content: ""; position: absolute; left: 0; right: 0; top: 40%; border-top: 1px dashed var(--line); }
+.axis-track .rng { position: absolute; top: calc(40% - 2px); height: 4px; background: var(--bleu-2); border-radius: 2px; }
+.axis-track .pt { position: absolute; top: 40%; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%; background: var(--bleu); box-shadow: 0 0 0 3px var(--card); }
+.axis-track .pt.alt { background: var(--card); border: 2px solid var(--bleu); }
+.axis-track .lb { position: absolute; top: 40%; font-size: 0.7rem; color: var(--ink-3); white-space: nowrap; }
+.axis-scale { display: grid; grid-template-columns: 5.6rem minmax(0, 1fr); gap: 10px; }
+.axis-scale .ticks { position: relative; height: 20px; border-top: 1px solid var(--ink-3); }
+.axis-scale .ticks span { position: absolute; top: 3px; transform: translateX(-50%); font-size: 0.74rem; color: var(--ink-2); font-variant-numeric: tabular-nums; }
+
+/* Comparer */
+.pick { display: grid; grid-template-columns: minmax(0, 1fr) 40px; grid-template-rows: auto auto; gap: 8px 10px; align-items: center; }
+.pick #cmpA { grid-column: 1; grid-row: 1; }
+.pick #cmpB { grid-column: 1; grid-row: 2; }
+.pick .swap { grid-column: 2; grid-row: 1 / 3; }
+.pick select { width: 100%; min-width: 0; appearance: none; -webkit-appearance: none; border: 1px solid var(--line); background: var(--chip) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'%3E%3Cpath d='M5 8l5 5 5-5' fill='none' stroke='%237A8299' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E") no-repeat right 10px center / 16px; border-radius: 12px; padding: 11px 30px 11px 12px; font-weight: 600; font-size: 0.92rem; cursor: pointer; }
+.swap { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--line); background: var(--card); display: grid; place-items: center; cursor: pointer; }
+.swap svg { width: 18px; height: 18px; }
+.chips { display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding-inline: 16px; }
+.chips::-webkit-scrollbar { display: none; }
+.chip { flex: none; border: 0; border-radius: 999px; padding: 8px 13px; background: var(--card); border: 1px solid var(--line); font-size: 0.86rem; font-weight: 600; color: var(--ink-2); cursor: pointer; }
+.chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--card); }
+.cmp-head { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--bar-h)); z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: var(--bg); padding-block: 6px; }
+.cmp-head div { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; min-width: 0; }
+.cmp-head div span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.cmp-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
+.cmp-col { display: grid; gap: 10px; align-content: start; padding: 10px; border-radius: 12px; background: var(--chip); }
+.cmp-col .ci { display: grid; gap: 4px; font-size: 0.88rem; line-height: 1.35; }
+.cmp-col .ci b { font-weight: 600; }
+.cmp-col .ci a { font-size: 0.74rem; color: var(--ink-3); }
+.cmp-col .none { font-size: 0.82rem; color: var(--ink-3); }
+
+/* Sondages */
+.poll { display: grid; gap: 8px; }
+.poll-row { display: grid; grid-template-columns: 8.8rem minmax(0, 1fr) 3rem; gap: 10px; align-items: center; font-size: 0.86rem; }
+.poll-row .n { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: none; font-weight: 500; }
+.track { position: relative; height: 12px; border-radius: 6px; background: var(--chip); }
+.track .fill { position: absolute; inset: 0 auto 0 0; background: var(--bleu); border-radius: 6px; }
+.track .moe { position: absolute; top: -3px; bottom: -3px; border-radius: 3px; border-left: 2px solid var(--rouge); border-right: 2px solid var(--rouge); background: color-mix(in srgb, var(--rouge) 14%, transparent); }
+.poll-row .v { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+.duel { display: grid; gap: 6px; }
+.duel .names { display: flex; justify-content: space-between; gap: 10px; font-weight: 600; font-size: 0.9rem; }
+.duel .split { display: flex; height: 30px; border-radius: 9px; overflow: hidden; }
+.duel .split i { display: flex; align-items: center; padding-inline: 10px; font-style: normal; font-weight: 700; font-size: 0.86rem; font-variant-numeric: tabular-nums; }
+.duel .split i:first-child { background: var(--bleu); color: var(--card); }
+.duel .split i:last-child { background: var(--chip); color: var(--ink); justify-content: flex-end; }
+.howto { display: grid; gap: 10px; margin: 0; padding: 0; list-style: none; }
+.howto li { display: grid; grid-template-columns: 26px minmax(0, 1fr); gap: 10px; font-size: 0.92rem; color: var(--ink-2); }
+.howto li b { color: var(--ink); }
+.howto .n { width: 26px; height: 26px; border-radius: 50%; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); font-weight: 700; font-size: 0.8rem; }
+details.prev { border-top: 1px solid var(--line); padding-top: 10px; }
+details.prev summary { cursor: pointer; list-style: none; display: flex; justify-content: space-between; gap: 10px; font-weight: 600; }
+details.prev summary::-webkit-details-marker { display: none; }
+details.prev summary::after { content: "+"; color: var(--bleu); font-weight: 700; }
+details.prev[open] summary::after { content: "−"; }
+details.prev .poll { margin-top: 12px; }
+
+.prose { display: grid; gap: 10px; font-size: 0.95rem; color: var(--ink-2); }
+.prose b { color: var(--ink); }
+.prose ul { margin: 0; padding-left: 18px; display: grid; gap: 6px; }
+.foot-links { display: flex; justify-content: center; gap: 18px; padding: 8px 0 4px; font-size: 0.84rem; }
+.foot-links a { color: var(--ink-3); }
+/* Onglets à deux choix */
+.seg { display: grid; grid-template-columns: 1fr 1fr; background: var(--chip); border-radius: 12px; padding: 4px; gap: 4px; }
+.seg button { border: 0; background: transparent; border-radius: 9px; padding: 9px 6px; font-weight: 600; font-size: 0.9rem; color: var(--ink-2); cursor: pointer; }
+.seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(14, 21, 48, .14); }
+.card > h2.day { font-family: var(--f-body); font-size: 0.84rem; font-weight: 700; color: var(--ink-3); letter-spacing: 0.01em; }
+
+/* Fil vidéo : un écran par carte */
+main.full { padding: 0; display: block; }
+.feed { height: calc(100vh - 3px - var(--bar-h) - var(--nav-h) - env(safe-area-inset-bottom, 0px) - env(safe-area-inset-top, 0px)); height: calc(100dvh - 3px - var(--bar-h) - var(--nav-h) - env(safe-area-inset-bottom, 0px) - env(safe-area-inset-top, 0px)); min-height: 420px; overflow-y: auto; scroll-snap-type: y mandatory; overscroll-behavior: contain; scrollbar-width: none; }
+.feed::-webkit-scrollbar { display: none; }
+.reel { height: 100%; scroll-snap-align: start; scroll-snap-stop: always; padding: 8px 12px 12px; display: grid; grid-template-rows: minmax(0, 1fr) auto; gap: 10px; }
+.reel.intro { grid-template-rows: minmax(0, 1fr); }
+.reel-media { position: relative; border-radius: 22px; overflow: hidden; background: var(--reel-b); min-height: 0; }
+.reel-media iframe, .reel-media video { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; background: #000000; }
+.poster { position: absolute; inset: 0; display: flex; flex-direction: column; justify-content: center; gap: 18px; padding: 28px 24px; color: var(--on-reel); background: radial-gradient(120% 80% at 85% 0%, var(--reel-a) 0%, transparent 60%), linear-gradient(165deg, var(--reel-a) 0%, var(--reel-b) 75%); text-decoration: none; overflow: hidden; }
+.poster::after { content: ""; position: absolute; left: 24px; right: 24px; bottom: 22px; height: 3px; border-radius: 2px; background: linear-gradient(90deg, var(--flag-b) 0 33.3%, #FFFFFF 33.3% 66.6%, var(--flag-r) 66.6%); opacity: .9; }
+.poster .soon { display: inline-flex; align-items: center; gap: 8px; align-self: flex-start; font-size: 0.8rem; font-weight: 700; padding: 6px 12px; border-radius: 999px; background: rgba(255, 255, 255, .14); }
+.poster .soon svg { width: 16px; height: 16px; }
+.poster .big { font-family: var(--f-display); font-weight: 800; font-size: clamp(1.6rem, 7vw, 2.4rem); line-height: 1.08; letter-spacing: -0.02em; text-wrap: balance; }
+.poster .later { font-size: 0.92rem; line-height: 1.45; color: var(--on-reel-2); max-width: 38ch; }
+.poster .swipe { position: absolute; left: 0; right: 0; bottom: 40px; text-align: center; font-size: 0.82rem; font-weight: 600; color: var(--on-reel-2); }
+.poster .swipe::before { content: ""; display: block; width: 12px; height: 12px; margin: 0 auto 8px; border-left: 2px solid currentColor; border-top: 2px solid currentColor; transform: rotate(45deg); }
+@media (prefers-reduced-motion: no-preference) { .poster .swipe::before { animation: nudge 1.6s ease-in-out infinite; } @keyframes nudge { 0%, 100% { translate: 0 0; } 50% { translate: 0 -6px; } } }
+.poster .more-btn { align-self: flex-start; background: rgba(255, 255, 255, .16); color: var(--on-reel); padding-inline: 16px; }
+.poster .more-btn:hover { background: rgba(255, 255, 255, .26); color: var(--on-reel); }
+.reel-info { display: grid; gap: 8px; padding-inline: 4px; }
+.reel-info .src { font-size: 0.78rem; color: var(--ink-3); }
+.reel-info .src a { color: var(--ink-2); font-weight: 600; }
+/* Statut de financement */
+.fin { justify-self: start; display: inline-flex; align-items: center; gap: 6px; font-size: 0.76rem; font-weight: 600; padding: 3px 9px; border-radius: 999px; white-space: nowrap; }
+.fin::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: none; }
+.fin-f { color: var(--ok); background: var(--ok-soft); }
+.fin-c { color: var(--warn); background: var(--warn-soft); }
+.fin-n { color: var(--mute); background: transparent; border: 1px dashed var(--line); }
+.fin-s { color: var(--ink-2); background: var(--mute-soft); }
+.fin-s::before { background: transparent; border: 2px solid currentColor; width: 5px; height: 5px; }
+.fintxt { font-size: 0.84rem; color: var(--ink-2); }
+.fin-key { display: grid; gap: 8px; }
+.fin-key div { display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; justify-items: start; font-size: 0.88rem; color: var(--ink-2); padding-top: 10px; border-top: 1px solid var(--line); }
+.fin-key div:first-child { border-top: 0; padding-top: 0; }
+.fin-key .fin { white-space: normal; }
+
+/* Recherche candidats */
+.search { position: relative; }
+.search input { width: 100%; font: inherit; font-size: 0.95rem; padding: 11px 14px 11px 40px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); }
+.search input::placeholder { color: var(--ink-3); }
+.search input:focus { outline: none; border-color: var(--bleu-2); box-shadow: 0 0 0 3px var(--bleu-soft); }
+.search svg { position: absolute; left: 13px; top: 50%; width: 17px; height: 17px; margin-top: -8.5px; color: var(--ink-3); }
+
+/* Fil immersif : la carte occupe tout l'écran, les infos passent par-dessus */
+.reel { padding: 0; display: block; position: relative; }
+.reel-media { position: absolute; inset: 0; border-radius: 0; }
+.poster { justify-content: center; padding: 28px 72px 150px 22px; }
+.poster::after { left: 22px; right: auto; width: 96px; bottom: auto; top: 22px; }
+.reel.intro .poster { padding: 28px 24px 110px; }
+.reel-info { position: absolute; left: 0; right: 0; bottom: 0; padding: 48px 72px 16px 18px; display: grid; gap: 8px; background: linear-gradient(to top, rgba(6, 9, 26, .92) 0%, rgba(6, 9, 26, .65) 60%, rgba(6, 9, 26, 0) 100%); color: var(--on-reel); }
+.reel-info .cand-h { color: var(--on-reel); }
+.reel-info .cand-h .nm small { color: var(--on-reel-2); }
+.reel-info .src { color: var(--on-reel-2); }
+.reel-info .src a { color: var(--on-reel); }
+.reel-info .mono { background: rgba(255, 255, 255, .16); color: var(--on-reel); }
+.reel-actions { position: absolute; right: 12px; bottom: 26px; display: grid; gap: 16px; justify-items: center; z-index: 2; }
+.reel-actions a, .reel-actions button { display: grid; justify-items: center; gap: 4px; border: 0; background: none; color: var(--on-reel); font-size: 0.68rem; font-weight: 600; text-decoration: none; cursor: pointer; }
+.reel-actions span.i { width: 44px; height: 44px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, .14); }
+.reel-actions svg { width: 22px; height: 22px; }
+.reel-actions a:hover span.i, .reel-actions button:hover span.i { background: rgba(255, 255, 255, .24); }
+.poster .fin { font-size: 0.8rem; }
+.poster .fin-n { color: var(--on-reel-2); border-color: rgba(255, 255, 255, .3); }
+.poster .fin-s { color: var(--on-reel); background: rgba(255, 255, 255, .12); }
+.poster .fintxt { color: var(--on-reel-2); }
+
+.profile h1 { font-size: 2rem; letter-spacing: -0.02em; }
+.profile .mono.l { box-shadow: 0 0 0 3px var(--bg), 0 0 0 5px var(--bleu-2); }
+.st-line { display: block; margin-top: 4px; }
+.cmp-col .fin, .cmp-col .amt { white-space: normal; }
+.cmp-col .ci a { overflow-wrap: anywhere; }
+.cmp-col { overflow: hidden; }
+@media (prefers-reduced-motion: no-preference) { main > * { animation: rise .24s ease-out both; } @keyframes rise { from { opacity: .3; transform: translateY(6px); } to { opacity: 1; transform: none; } } }
+</style>
+</head>
+<body>
+<div class="app">
+  <div class="flag" aria-hidden="true"><i></i><i></i><i></i></div>
+  <header class="bar" id="bar">
+    <button class="back" id="back" type="button" aria-label="Retour" hidden><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round"><path d="M15 5l-7 7 7 7"/></svg></button>
+    <div class="ttl" id="ttl"></div>
+    <span class="jx" id="jx"></span>
+  </header>
+  <main id="app"></main>
+</div>
+<nav class="nav" aria-label="Onglets">
+  <a href="#actu" data-v="actu"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="3" y="4" width="14" height="16" rx="2"/><path d="M17 8h3v10a2 2 0 0 1-2 2H6M7 8h6M7 12h6M7 16h3"/></svg>Actu</a>
+  <a href="#candidats" data-v="candidats"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><circle cx="12" cy="8" r="4"/><path d="M4.5 20c1.4-3.8 4.3-5.8 7.5-5.8s6.1 2 7.5 5.8"/></svg>Candidats</a>
+  <a href="#videos" data-v="videos"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="5" y="2.5" width="14" height="19" rx="3"/><path d="M10.2 9.2v5.6l4.6-2.8z"/></svg>Vidéos</a>
+  <a href="#comparer" data-v="comparer"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="3" y="5" width="7.5" height="14" rx="1.6"/><rect x="13.5" y="5" width="7.5" height="14" rx="1.6"/></svg>Comparer</a>
+  <a href="#sondages" data-v="sondages"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><path d="M5 20v-7M10 20V5M15 20v-10M20 20v-4"/></svg>Sondages</a>
+</nav>
+
+<script type="application/json" id="seed">{"maj":"2026-10-03","version":2,"base":"2026-10-01","themes":[["travail","Travail et salaires"],["logement","Logement"],["education","École"],["ecologie","Climat et énergie"],["retraites","Retraite"],["social","Santé et famille"],["eco","Impôts et économie"],["securite","Sécurité et justice"],["immigration","Immigration"],["institutions","Démocratie"],["europe","Europe et défense"],["budget","Budget de l'État"]],"statuts":{"publie":"Programme publié","partiel":"Programme en cours","nonpublie":"Pas encore de programme"},"candidats":[{"id":"arthaud","nom":"Nathalie Arthaud","tri":"Arthaud","parti":"Lutte ouvrière","statut":"partiel","statutTxt":"Revendications publiées, pas de programme de gouvernement","faits":[["La candidate présente ses propositions comme un « programme de lutte » plutôt que comme un programme de gouvernement.","lbb_arthaud"]],"docs":["arthaud_site"]},{"id":"attal","nom":"Gabriel Attal","tri":"Attal","parti":"Renaissance","statut":"partiel","statutTxt":"Premières lignes du programme présentées en mai 2026","faits":[],"docs":["x_attal_ia"]},{"id":"dupont-aignan","nom":"Nicolas Dupont-Aignan","tri":"Dupont-Aignan","parti":"Debout la France","statut":"partiel","statutTxt":"Projet en cours d'actualisation, pages « Projet 2027 » publiées","faits":[["Le parti indique actualiser son programme pour 2027 ; seules les pages marquées « Projet 2027 » sont reprises ici.","dlf_projet"]],"docs":["dlf_projet","dlf_immigration","dlf_logement","nda_site"]},{"id":"glucksmann","nom":"Raphaël Glucksmann","tri":"Glucksmann","parti":"Place publique","statut":"partiel","statutTxt":"Propositions annoncées par volets","faits":[["Candidat à la primaire « Choisir 2027 » organisée par le Parti socialiste et ses alliés, face à Olivier Faure, Jérôme Guedj, Emmanuel Maurel et Ségolène Royal.","touteleurope"]],"docs":[]},{"id":"le-pen","nom":"Marine Le Pen","tri":"Le Pen","parti":"Rassemblement national","statut":"partiel","statutTxt":"Mesures annoncées, chiffrage détaillé attendu","faits":[["Candidature annoncée le 7 juillet 2026, le jour de sa condamnation en appel dans l'affaire des assistants parlementaires européens du FN ; elle s'est pourvue en cassation.","touteleurope"]],"docs":["mlafrance"]},{"id":"melenchon","nom":"Jean-Luc Mélenchon","tri":"Mélenchon","parti":"La France insoumise","statut":"publie","statutTxt":"Programme publié : « L'Avenir en commun », nouvelle version annoncée","faits":[["Le programme en ligne est l'édition 2025 ; le mouvement indique qu'une version réactualisée sera publiée.","lfi_aec"]],"docs":["lfi_aec"]},{"id":"philippe","nom":"Édouard Philippe","tri":"Philippe","parti":"Horizons","statut":"partiel","statutTxt":"Méthode et mesures annoncées progressivement","faits":[],"docs":[]},{"id":"retailleau","nom":"Bruno Retailleau","tri":"Retailleau","parti":"Les Républicains","statut":"partiel","statutTxt":"Mesures annoncées par thème","faits":[["Désigné candidat des Républicains le 19 avril 2026 par un vote des adhérents.","wiki_2027"]],"docs":[]},{"id":"roussel","nom":"Fabien Roussel","tri":"Roussel","parti":"Parti communiste français","statut":"partiel","statutTxt":"S'appuie sur le « Pacte national » du PCF ; programme de campagne non publié","faits":[["Candidature officialisée le 6 septembre 2026.","f24_declares"],["Le « Pacte national pour l'avenir de la France » a été adopté par le PCF le 5 juillet 2025.","pcf_pacte"]],"docs":["pcf_pacte","roussel_site"]},{"id":"ruffin","nom":"François Ruffin","tri":"Ruffin","parti":"Debout !","statut":"partiel","statutTxt":"Cahiers de campagne thématiques, pas de programme complet","faits":[["Candidat à la primaire de la gauche prévue le 11 octobre 2026.","fi_ruffin_primaire"]],"docs":["ruffin_travail"]},{"id":"tondelier","nom":"Marine Tondelier","tri":"Tondelier","parti":"Les Écologistes","statut":"publie","statutTxt":"Projet 2027 du parti publié (557 mesures)","faits":[["Candidate à la primaire de la gauche prévue le 11 octobre 2026.","wiki_2027"],["Le projet des Écologistes a été élaboré avec près de 50 000 contributions citoyennes selon le parti.","eco_projet"]],"docs":["eco_projet","tondelier_livrets"]},{"id":"zemmour","nom":"Éric Zemmour","tri":"Zemmour","parti":"Reconquête","statut":"nonpublie","statutTxt":"Candidature annoncée, programme non publié","faits":[["A annoncé sa candidature le 17 septembre 2026 sur BFMTV ; la déclaration officielle est attendue à l'automne 2026.","ps_zemmour"]],"docs":[]},{"id":"asselineau","nom":"François Asselineau","tri":"Asselineau","parti":"Union populaire républicaine","statut":"nonpublie","statutTxt":"Programme 2027 en cours d'élaboration","faits":[["Candidature déclarée le 21 mars 2026.","qpq"]],"docs":["site_asselineau"]},{"id":"batho","nom":"Delphine Batho","tri":"Batho","parti":"Génération écologie","statut":"nonpublie","statutTxt":"Programme présidentiel pas encore publié","faits":[],"docs":["site_batho"]},{"id":"becht","nom":"Olivier Becht","tri":"Becht","parti":"Député du Haut-Rhin, ancien ministre","statut":"nonpublie","statutTxt":"Candidature déclarée le 24 septembre 2026, pas encore de propositions détaillées","faits":[["A annoncé sa candidature le 24 septembre 2026 à Rixheim (Haut-Rhin).","ici_becht"]],"docs":[]},{"id":"bertrand","nom":"Xavier Bertrand","tri":"Bertrand","parti":"Nous France","statut":"partiel","statutTxt":"Candidature annoncée, propositions publiées au fil de l'eau","faits":[["« Je serai candidat », a-t-il déclaré le 27 août 2026 à l'université d'été du Medef, en refusant toute primaire.","jdd_bertrand"]],"docs":[]},{"id":"bouamrane","nom":"Karim Bouamrane","tri":"Bouamrane","parti":"Parti socialiste, hors primaire","statut":"partiel","statutTxt":"Manifeste publié, sans programme détaillé ni chiffrage","faits":[["Maire de Saint-Ouen-sur-Seine, candidat depuis le 9 juin 2026, en dehors de la primaire du PS.","qpq"]],"docs":[]},{"id":"branco","nom":"Juan Branco","tri":"Branco","parti":"Les Ruches","statut":"publie","statutTxt":"Programme de 845 mesures publié","faits":[],"docs":["site_branco"]},{"id":"brun","nom":"Philippe Brun","tri":"Brun","parti":"Parti socialiste (suspendu)","statut":"partiel","statutTxt":"Livret économique « Produire » publié, avec un chiffrage","faits":[["Suspendu à titre conservatoire par le PS le 16 septembre 2026 et écarté de la primaire. Il conteste les faits et fait appel.","qpq"]],"docs":[]},{"id":"cazeneuve","nom":"Bernard Cazeneuve","tri":"Cazeneuve","parti":"La Convention","statut":"publie","statutTxt":"Lettre-programme de 86 pages et 30 propositions publiées","faits":[["Candidature annoncée le 28 avril 2026 et confirmée le 30 juillet. Il refuse toute primaire.","qpq"]],"docs":["caz_synthese","caz_lettre"]},{"id":"egger","nom":"Clara Egger","tri":"Egger","parti":"Solution démocratique","statut":"partiel","statutTxt":"Programme volontairement limité à la réforme des institutions","faits":[["Candidature annoncée le 19 avril 2026.","qpq"]],"docs":[]},{"id":"faure","nom":"Olivier Faure","tri":"Faure","parti":"Parti socialiste","statut":"partiel","statutTxt":"Premières propositions, programme détaillé pas encore publié","faits":[["Premier secrétaire du PS, candidat à la primaire « Choisir 2027 » depuis le 30 août 2026.","qpq"]],"docs":["site_faure"]},{"id":"guedj","nom":"Jérôme Guedj","tri":"Guedj","parti":"Parti socialiste","statut":"partiel","statutTxt":"Sept priorités publiées, sans chiffrage","faits":[["Candidat à la primaire « Choisir 2027 », qu'il a rejointe le 23 août 2026.","qpq"]],"docs":["site_guedj"]},{"id":"kazib","nom":"Anasse Kazib","tri":"Kazib","parti":"Révolution permanente","statut":"partiel","statutTxt":"Programme 2027 en cours d'élaboration","faits":[["Cheminot et syndicaliste, candidat depuis le 1er juin 2026.","qpq"]],"docs":["site_kazib"]},{"id":"labib","nom":"Selma Labib","tri":"Labib","parti":"NPA-Révolutionnaires","statut":"partiel","statutTxt":"Revendications publiées, pas de programme de gouvernement","faits":[["Désignée candidate le 17 juin 2026.","qpq"]],"docs":[]},{"id":"lalanne","nom":"Francis Lalanne","tri":"Lalanne","parti":"France libre","statut":"partiel","statutTxt":"Neuf piliers publiés, sans chiffrage","faits":[["Candidat déclaré le 19 août 2026.","qpq"]],"docs":["site_lalanne"]},{"id":"lisnard","nom":"David Lisnard","tri":"Lisnard","parti":"Nouvelle Énergie","statut":"partiel","statutTxt":"Programme publié par grands axes, chiffrage partiel","faits":[["Maire de Cannes, il a quitté LR et s'est déclaré candidat le 31 mars 2026. Il plaide pour une primaire ouverte à droite.","touteleurope"]],"docs":["ne_prog","site_lisnard"]},{"id":"maurel","nom":"Emmanuel Maurel","tri":"Maurel","parti":"Gauche républicaine et socialiste","statut":"publie","statutTxt":"Programme publié","faits":[["Candidat à la primaire « Choisir 2027 » organisée par le PS et ses alliés.","touteleurope"]],"docs":["maurel_prog"]},{"id":"mikolajczak","nom":"Antoine Mikolajczak","tri":"Mikolajczak","parti":"Équinoxe","statut":"nonpublie","statutTxt":"Programme 2027 pas encore publié, trois priorités affichées","faits":[["Désigné par les adhérents d'Équinoxe, en campagne depuis le 27 juin 2026.","qpq"]],"docs":[]},{"id":"philippot","nom":"Florian Philippot","tri":"Philippot","parti":"Les Patriotes","statut":"partiel","statutTxt":"Livret d'orientations publié","faits":[["Candidat déclaré le 9 mai 2026.","qpq"]],"docs":[]},{"id":"royal","nom":"Ségolène Royal","tri":"Royal","parti":"Parti socialiste","statut":"partiel","statutTxt":"Cinq priorités publiées, sans chiffrage","faits":[["Candidate à la primaire « Choisir 2027 » depuis le 10 juillet 2026.","qpq"]],"docs":["site_royal"]},{"id":"villepin","nom":"Dominique de Villepin","tri":"Villepin","parti":"La France humaniste","statut":"nonpublie","statutTxt":"Candidat, programme détaillé pas encore publié","faits":[["Il revendique « plusieurs centaines » de parrainages et dit se battre pour être candidat.","pp_villepin"]],"docs":[]}],"propositions":[{"c":"arthaud","th":"travail","t":"Un salaire minimum de 2 200 € net par mois","d":"Porter le salaire minimum à 2 200 € net par mois.","s":["lbb_arthaud"],"aj":"2026-10-01","fin":"n"},{"c":"arthaud","th":"retraites","t":"Aucune retraite en dessous de 2 200 € net par mois","d":"Aucune pension de retraite inférieure à 2 200 € net par mois.","s":["lbb_arthaud"],"aj":"2026-10-01","fin":"n"},{"c":"arthaud","th":"travail","t":"Des salaires qui suivent les prix, et les licenciements interdits","d":"Indexer les salaires sur les prix et interdire les licenciements.","s":["qpq"],"aj":"2026-10-01","fin":"n"},{"c":"arthaud","th":"immigration","t":"Régulariser tous les sans-papiers","d":"Régulariser tous les sans-papiers.","s":["qpq"],"aj":"2026-10-01","fin":"n"},{"c":"arthaud","th":"europe","t":"Contre la hausse du budget de l'armée et le retour du service militaire","d":"S'opposer à la hausse des budgets militaires et au retour du service militaire.","s":["qpq"],"aj":"2026-10-01","fin":"n"},{"c":"attal","th":"immigration","t":"Des quotas d'immigration votés chaque année par le Parlement","d":"Fixer chaque année des quotas d'immigration votés par le Parlement, les besoins de main-d'œuvre étant définis avec les partenaires sociaux.","s":["orange_attal"],"aj":"2026-10-01","fin":"s"},{"c":"attal","th":"travail","t":"Former 20 millions d'actifs à l'intelligence artificielle en cinq ans","d":"Former 20 millions d'actifs à l'intelligence artificielle en cinq ans.","s":["orange_attal","x_attal_ia"],"aj":"2026-10-01","fin":"n"},{"c":"attal","th":"travail","t":"Réduire l'écart entre salaire brut et salaire net, et réformer le chômage","d":"Réduire l'écart entre salaire brut et salaire net (« droit au brut ») et réformer l'assurance chômage.","s":["orange_attal"],"aj":"2026-10-01","fin":"n"},{"c":"attal","th":"securite","t":"Un état d'urgence contre le trafic de drogue","d":"Instaurer un état d'urgence contre le narcotrafic.","s":["orange_attal"],"aj":"2026-10-01","fin":"s"},{"c":"attal","th":"retraites","t":"Plus d'âge légal : on part selon ses années de travail","d":"Abandonner l'âge légal au profit d'un système fondé sur la durée de cotisation, avec décote ou surcote selon l'âge de départ, et créer un pilier de retraite par capitalisation.","s":["ps_retraites"],"aj":"2026-10-01","fin":"n"},{"c":"attal","th":"education","t":"Moins de 20 élèves par classe en primaire, et les profs augmentés","d":"Moins de 20 élèves par classe en primaire et une hausse de 200 à 500 € net par mois pour les enseignants.","s":["ps_ecole","qpq"],"aj":"2026-10-01","a":{"v":2.5,"nature":"cout","per":"nd","h":"coût annoncé de la hausse des salaires"},"fin":"f","finTxt":"Des économies, « notamment sur le social »"},{"c":"attal","th":"education","t":"Un examen obligatoire avant l'entrée au collège","d":"Rétablir un examen obligatoire en fin de primaire avant l'entrée au collège et intégrer l'IA aux programmes dès le collège.","s":["ps_ecole","orange_attal"],"aj":"2026-10-01","fin":"n"},{"c":"attal","th":"budget","t":"100 000 postes de fonctionnaires en moins, sur la base du volontariat","d":"Plan de départs volontaires de fonctionnaires visant 100 000 postes en moins, en préservant l'Éducation nationale, les Armées, la Justice et l'Intérieur.","s":["ifrap"],"aj":"2026-10-01","a":{"v":7,"nature":"economie","per":"nd","h":"économie estimée"},"fin":"c"},{"c":"attal","th":"logement","t":"Construire 400 000 logements par an","d":"Construire 400 000 logements par an.","s":["ifrap"],"aj":"2026-10-01","fin":"n"},{"c":"dupont-aignan","th":"immigration","t":"10 000 agents de plus aux frontières et la sortie de l'espace Schengen","d":"Recruter 10 000 agents spécialisés pour le contrôle des frontières et sortir de l'espace Schengen.","s":["dlf_immigration"],"aj":"2026-10-01","fin":"n"},{"c":"dupont-aignan","th":"immigration","t":"Suspendre le regroupement familial","d":"Suspendre le regroupement familial et supprimer les aides sociales non contributives pour les étrangers.","s":["dlf_immigration"],"aj":"2026-10-01","fin":"n"},{"c":"dupont-aignan","th":"immigration","t":"Supprimer le droit du sol par référendum","d":"Supprimer le droit du sol par référendum ; exiger 10 ans de résidence pour la naturalisation, avec un plafond annuel voté par le Parlement ; quotas d'étudiants étrangers par filière et par pays.","s":["dlf_immigration"],"aj":"2026-10-01","fin":"s"},{"c":"dupont-aignan","th":"eco","t":"Baisser les taxes sur l'essence de 40 centimes par litre","d":"Baisser les taxes sur les carburants de 40 centimes par litre.","s":["nda_site"],"aj":"2026-10-01","fin":"n"},{"c":"dupont-aignan","th":"europe","t":"Arrêter les aides financières à l'Ukraine","d":"Mettre fin aux aides financières à l'Ukraine.","s":["nda_site"],"aj":"2026-10-01","fin":"n"},{"c":"glucksmann","th":"education","t":"Les profs augmentés d'au moins 10 %, jusqu'à 25 % en milieu de carrière","d":"Augmenter d'au moins 10 % le salaire de tous les enseignants, jusqu'à 25 % en milieu de carrière ; réduire les effectifs en primaire ; vaste programme de rénovation des écoles.","s":["ps_ecole"],"aj":"2026-10-01","a":{"v":6,"nature":"cout","per":"nd","h":"coût annoncé de la hausse des salaires"},"fin":"c"},{"c":"glucksmann","th":"eco","t":"Faire davantage contribuer les plus grandes fortunes","d":"Rééquilibrer l'impôt entre travail, capital, retraites et successions pour faire davantage contribuer les plus grandes fortunes.","s":["lcp_glucksmann"],"aj":"2026-10-01","fin":"n"},{"c":"glucksmann","th":"retraites","t":"Un âge de départ qui dépend de la pénibilité et de l'espérance de vie en bonne santé","d":"Faire dépendre l'âge de départ de l'espérance de vie en bonne santé et de la pénibilité plutôt que d'un âge unique.","s":["lcp_glucksmann","ps_retraites"],"aj":"2026-10-01","fin":"n"},{"c":"glucksmann","th":"immigration","t":"Une convention citoyenne tirée au sort sur l'immigration","d":"Confier la définition de la politique d'immigration à une convention citoyenne tirée au sort.","s":["lcp_glucksmann"],"aj":"2026-10-01","fin":"s"},{"c":"glucksmann","th":"institutions","t":"Un service civique obligatoire de 10 mois pour les jeunes","d":"Créer un service civique obligatoire de 10 mois pour les jeunes (Ehpad, écoles, services publics, missions d'intérêt général).","s":["lcp_glucksmann"],"aj":"2026-10-01","fin":"n"},{"c":"glucksmann","th":"europe","t":"Un grand emprunt européen et la fin du droit de veto dans l'Union européenne","d":"Plan de souveraineté européenne financé par un grand emprunt européen et suppression du droit de veto au sein de l'Union.","s":["lcp_glucksmann"],"aj":"2026-10-01","fin":"n"},{"c":"le-pen","th":"budget","t":"125 milliards d'euros d'économies et une règle d'or dans la Constitution","d":"Réaliser 125 milliards d'euros d'économies et inscrire une règle d'or budgétaire dans la Constitution.","s":["sudradio_lepen"],"aj":"2026-10-01","a":{"v":125,"nature":"economie","per":"nd","h":"période non précisée dans la source"},"fin":"c"},{"c":"le-pen","th":"retraites","t":"Retour de la retraite à 62 ans, et à 60 ans pour qui a commencé avant 20 ans","d":"Ramener l'âge légal à 62 ans avec 42 annuités, et à 60 ans avec 40 annuités pour ceux qui ont commencé à travailler avant 20 ans.","s":["sudradio_lepen","ps_retraites"],"aj":"2026-10-01","a":{"v":9,"nature":"cout","per":"an","h":"en année pleine, montant annoncé"},"fin":"c"},{"c":"le-pen","th":"travail","t":"Plus de cotisations retraite ni chômage pour qui travaille après l'âge de départ","d":"Supprimer les cotisations retraite et chômage pour les personnes qui continuent à travailler après l'âge de départ.","s":["sudradio_lepen"],"aj":"2026-10-01","fin":"n"},{"c":"le-pen","th":"logement","t":"Les logements sociaux attribués en priorité aux Français","d":"Donner la priorité aux citoyens français dans l'attribution des logements sociaux.","s":["ps_jacobelli","bs_lepen"],"aj":"2026-10-01","fin":"s"},{"c":"le-pen","th":"logement","t":"Alléger les normes pour construire plus de logements","d":"Lever les normes jugées bloquantes pour construire (RE 2020, zéro artificialisation nette, quotas de la loi SRU), rendre le prêt immobilier transférable d'un bien à l'autre et encourager fiscalement la transformation de bureaux en logements.","s":["ps_jacobelli"],"aj":"2026-10-01","fin":"s"},{"c":"le-pen","th":"eco","t":"La TVA sur le gaz, l'électricité et le fioul ramenée de 20 % à 5,5 %","d":"Ramener la TVA sur le gaz, l'électricité et le fioul de 20 % à 5,5 %.","s":["bs_lepen"],"aj":"2026-10-01","fin":"n"},{"c":"le-pen","th":"institutions","t":"Un référendum pour interdire le voile islamique dans tout l'espace public","d":"Organiser un référendum pour interdire le voile islamique dans l'ensemble de l'espace public.","s":["bs_lepen"],"aj":"2026-10-01","fin":"s"},{"c":"le-pen","th":"education","t":"Les élèves perturbateurs orientés vers des structures spécialisées","d":"Orienter les élèves perturbateurs vers des structures spécialisées, rétablir les séries au baccalauréat et afficher en classe une carte de France et une frise chronologique.","s":["ps_ecole"],"aj":"2026-10-01","fin":"n"},{"c":"melenchon","th":"travail","t":"Un SMIC à 1 600 € net par mois","d":"Porter le SMIC à 1 600 € net par mois.","s":["lfi_aec"],"aj":"2026-10-01","fin":"n"},{"c":"melenchon","th":"retraites","t":"Retour de la retraite à 62 ans, puis objectif 60 ans","d":"Abroger la réforme de 2023 : retour à 62 ans dans un premier temps, puis objectif de retraite à 60 ans.","s":["lfi_aec","ps_retraites"],"aj":"2026-10-01","a":{"v":10.4,"nature":"cout","per":"an","h":"coût estimé de l'abrogation à l'horizon 2035","lab":"Coût estimé"},"fin":"c"},{"c":"melenchon","th":"institutions","t":"Passer à une VIe République","d":"Passer à une VIe République.","s":["lfi_aec"],"aj":"2026-10-01","fin":"s"},{"c":"melenchon","th":"budget","t":"Annuler la dette française détenue par la Banque centrale européenne","d":"Annuler la part de la dette publique détenue par la Banque centrale européenne (18 % du total) en la convertissant en obligations perpétuelles à taux zéro.","s":["orange_melenchon","insee_dette"],"aj":"2026-10-01","a":{"v":647,"nature":"dette","per":"total","h":"calcul du site : 18 % de la dette publique de fin juin 2026"},"fin":"n"},{"c":"melenchon","th":"eco","t":"Créer un pôle bancaire public","d":"Créer un pôle public bancaire.","s":["orange_melenchon"],"aj":"2026-10-01","fin":"n"},{"c":"melenchon","th":"education","t":"19 élèves par classe, 160 000 profs en plus et la cantine gratuite","d":"Viser 19 élèves par classe en moyenne, recruter 160 000 enseignants supplémentaires et rendre la cantine gratuite avec des produits bio et paysans.","s":["ps_ecole"],"aj":"2026-10-01","fin":"n"},{"c":"melenchon","th":"ecologie","t":"Mettre en place une planification écologique","d":"Mettre en place une planification écologique (chapitre 12 du programme).","s":["lfi_aec"],"aj":"2026-10-01","fin":"n"},{"c":"philippe","th":"retraites","t":"La retraite à 65 ans, complétée par de l'épargne retraite","d":"Porter l'âge légal à 65 ans en moins de dix ans avec 45 annuités ; créer un fonds de capitalisation collectif obligatoire et généraliser le plan d'épargne retraite, abondé de 500 € au premier contrat.","s":["ps_retraites"],"aj":"2026-10-01","a":{"v":30,"nature":"economie","per":"an","h":"en année pleine, montant annoncé"},"fin":"c"},{"c":"philippe","th":"travail","t":"Le chômage indemnisé 12 mois au maximum pour les moins de 50 ans","d":"Limiter l'indemnisation du chômage à 12 mois pour les moins de 50 ans (18 mois aujourd'hui) et renforcer les jours de carence pour les arrêts maladie courts.","s":["lcp_philippe"],"aj":"2026-10-01","fin":"n"},{"c":"philippe","th":"eco","t":"50 milliards d'impôts en moins pour les entreprises, compensés par moins d'aides","d":"Supprimer 50 milliards d'euros d'impôts de production, compensés par une baisse équivalente des aides aux entreprises.","s":["lcp_philippe"],"aj":"2026-10-01","a":{"v":50,"nature":"neutre","per":"nd","h":"baisse d'impôts compensée par autant d'aides en moins"},"fin":"f","finTxt":"Une baisse équivalente des aides aux entreprises"},{"c":"philippe","th":"eco","t":"Pouvoir donner davantage, et plus tôt, à ses enfants et petits-enfants","d":"Relever les plafonds de donation aux enfants et petits-enfants pour transmettre plus tôt.","s":["lcp_philippe"],"aj":"2026-10-01","fin":"n"},{"c":"philippe","th":"institutions","t":"Dissoudre l'Assemblée et organiser trois référendums après l'élection","d":"Dissoudre l'Assemblée après l'élection et organiser trois référendums : retraites, règle d'or budgétaire, ordonnances pour réformer justice, école et santé.","s":["e1_philippe"],"aj":"2026-10-01","fin":"s"},{"c":"philippe","th":"education","t":"Les profs augmentés de 20 % en cinq ans","d":"Augmenter de 20 % le salaire des enseignants sur le quinquennat, créer une « amende de responsabilisation scolaire » pour les parents et laisser les établissements imposer l'uniforme.","s":["ps_ecole"],"aj":"2026-10-01","fin":"n"},{"c":"philippe","th":"ecologie","t":"Un grand plan pour le transport de marchandises par le train","d":"Lancer un grand plan pour le fret ferroviaire et développer le stockage de l'eau sans surexploiter les nappes.","s":["lcp_philippe"],"aj":"2026-10-01","fin":"n"},{"c":"retailleau","th":"immigration","t":"Supprimer le droit du sol","d":"Supprimer le droit du sol en métropole et durcir les conditions de l'immigration étudiante.","s":["jdd_retailleau"],"aj":"2026-10-01","fin":"s"},{"c":"retailleau","th":"securite","t":"La majorité pénale à 15 ans","d":"Abaisser la majorité pénale à 15 ans et instaurer des peines minimales pour les agressions de policiers, gendarmes et pompiers.","s":["jdd_retailleau"],"aj":"2026-10-01","fin":"s"},{"c":"retailleau","th":"social","t":"Un revenu parental unique dès le premier enfant","d":"Fusionner les allocations familiales en un revenu parental unique, versé dès le premier enfant.","s":["jdd_retailleau"],"aj":"2026-10-01","fin":"n"},{"c":"retailleau","th":"retraites","t":"Départ possible à 63 ans, retraite complète à 65 ans","d":"Départ possible à 63 ans et taux plein à 65 ans (décote de 7 % par année manquante) ; 25 à 30 % des retraites des nouveaux entrants financées par capitalisation (0,5 % salarié, 0,5 % employeur).","s":["ps_retraites"],"aj":"2026-10-01","a":{"v":40,"nature":"economie","per":"total","h":"sur cinq ans, montant annoncé"},"fin":"c"},{"c":"retailleau","th":"logement","t":"Un million de logements en plus en cinq ans","d":"Un million de logements supplémentaires en cinq ans : fin du zéro artificialisation nette et de l'encadrement des loyers, chantiers ramenés de 7 à 3 ans, 9 000 € de TVA reversés à la commune par logement neuf.","s":["jda_retailleau"],"aj":"2026-10-01","fin":"n"},{"c":"retailleau","th":"education","t":"Un examen d'entrée en sixième et des groupes de niveau","d":"Examen d'entrée en sixième, groupes de niveau et création de 1 000 établissements publics « libres ».","s":["ps_ecole"],"aj":"2026-10-01","fin":"n"},{"c":"retailleau","th":"budget","t":"Redresser les finances publiques de 120 milliards d'ici 2032","d":"Redresser les finances publiques de 120 milliards d'euros d'ici 2032.","s":["ifrap"],"aj":"2026-10-01","a":{"v":120,"nature":"economie","per":"total","h":"d'ici 2032"},"fin":"c"},{"c":"roussel","th":"eco","t":"Un fonds public de 500 milliards pour l'industrie et les infrastructures","d":"Créer un fonds public de 500 milliards d'euros pour les infrastructures et les relocalisations industrielles ; taxer davantage les plus-values et les grandes fortunes.","s":["pcf_pacte"],"aj":"2026-10-01","a":{"v":500,"nature":"cout","per":"nd","h":"période non précisée dans la source"},"fin":"c"},{"c":"roussel","th":"retraites","t":"Retour de la retraite à 60 ans","d":"Abroger la retraite à 64 ans et rétablir le départ à 60 ans.","s":["pcf_pacte"],"aj":"2026-10-01","fin":"n"},{"c":"roussel","th":"ecologie","t":"20 nouveaux réacteurs nucléaires et des factures d'énergie divisées par deux","d":"Construire 20 réacteurs EPR2 d'ici 2050, diviser par deux les tarifs de l'énergie et rénover 700 000 logements par an.","s":["pcf_pacte"],"aj":"2026-10-01","fin":"n"},{"c":"roussel","th":"logement","t":"Construire 200 000 logements par an","d":"Construire 200 000 logements par an avec la Caisse des dépôts.","s":["pcf_pacte"],"aj":"2026-10-01","fin":"n"},{"c":"roussel","th":"social","t":"Les soins remboursés à 100 % par la Sécurité sociale","d":"Rembourser les soins à 100 % par la Sécurité sociale.","s":["pcf_pacte"],"aj":"2026-10-01","fin":"n"},{"c":"roussel","th":"social","t":"Un milliard d'euros contre les violences faites aux femmes","d":"Une loi-cadre d'un milliard d'euros contre les violences faites aux femmes et pour l'égalité salariale.","s":["pcf_pacte"],"a":{"v":1,"nature":"cout","per":"nd","h":"loi-cadre violences et égalité salariale"},"aj":"2026-10-01","fin":"c"},{"c":"roussel","th":"travail","t":"Des salaires qui suivent l'inflation, et 10 % des embauches pour les moins de 25 ans","d":"Augmenter les salaires et les indexer sur l'inflation ; réserver 10 % des embauches aux moins de 25 ans.","s":["pcf_pacte"],"aj":"2026-10-01","fin":"n"},{"c":"roussel","th":"europe","t":"Quitter le commandement intégré de l'OTAN","d":"Sortir du commandement intégré de l'OTAN et rejeter les contraintes budgétaires du pacte de stabilité.","s":["pcf_pacte"],"aj":"2026-10-01","fin":"n"},{"c":"ruffin","th":"travail","t":"Un SMIC à 1 700 € net et une prime de 1 000 € pour les bas salaires","d":"SMIC à 1 700 € net, prime d'urgence obligatoire de 1 000 € pour les bas salaires, horaires atypiques payés double et salaires indexés sur l'inflation.","s":["orange_ruffin"],"aj":"2026-10-01","fin":"n"},{"c":"ruffin","th":"travail","t":"Un statut protecteur pour 7 millions de « travailleurs essentiels »","d":"Créer un statut des « travailleurs essentiels » pour 7 millions de personnes.","s":["ruffin_travail"],"aj":"2026-10-01","fin":"n"},{"c":"ruffin","th":"retraites","t":"Partir plus tôt quand le métier est pénible","d":"Permettre un départ anticipé selon la pénibilité du métier.","s":["orange_ruffin"],"aj":"2026-10-01","fin":"n"},{"c":"ruffin","th":"eco","t":"Taxer davantage les grandes entreprises","d":"Taxer davantage les grandes entreprises et convoquer des états généraux de la fiscalité et de la protection sociale.","s":["orange_ruffin"],"aj":"2026-10-01","fin":"n"},{"c":"ruffin","th":"institutions","t":"Se verser un salaire égal au SMIC s'il est élu","d":"Se verser, s'il est élu, une rémunération équivalente au SMIC.","s":["orange_ruffin"],"aj":"2026-10-01","fin":"s"},{"c":"tondelier","th":"travail","t":"Un SMIC à 2 000 € brut par mois","d":"Porter le SMIC à 2 000 € brut par mois.","s":["lci_tondelier"],"aj":"2026-10-01","fin":"n"},{"c":"tondelier","th":"education","t":"19 élèves par classe d'ici 2032, et les profs augmentés de 15 %","d":"19 élèves par classe d'ici 2032 (12 en REP+), salaires des enseignants +15 % en cinq ans hors inflation, création d'une filière de catégorie B pour les accompagnants d'élèves en situation de handicap.","s":["ps_ecole"],"aj":"2026-10-01","fin":"n"},{"c":"tondelier","th":"ecologie","t":"2 milliards par an pour isoler les écoles","d":"Consacrer 2 milliards d'euros par an à l'isolation des écoles et à des « refuges climatiques ».","s":["ps_ecole"],"aj":"2026-10-01","a":{"v":2,"nature":"cout","per":"an","h":"montant annoncé"},"fin":"c"},{"c":"zemmour","th":"immigration","t":"Expulser les étrangers en situation régulière après un an de chômage","d":"Expulser les étrangers en situation régulière après un an de chômage, en plus des détenus étrangers et des personnes en situation irrégulière.","s":["ps_zemmour"],"aj":"2026-10-01","fin":"n"},{"c":"zemmour","th":"eco","t":"Remplacer la main-d'œuvre immigrée par des robots","d":"Remplacer la main-d'œuvre immigrée par des robots, sur le modèle de la Chine et du Japon.","s":["ps_zemmour"],"aj":"2026-10-01","fin":"n"},{"aj":"2026-10-03","c":"lisnard","th":"eco","t":"Supprimer deux impôts sur les entreprises pour diviser par deux les impôts de production","d":"Supprimer la C3S et la CVAE (11,5 milliards d'euros) pour faire passer les impôts de production de 2 % à 1 % du PIB.","s":["ne_ambition"],"a":{"v":11.5,"nature":"cout","per":"an","h":"baisse d'impôts annoncée"},"fin":"c"},{"aj":"2026-10-03","c":"lisnard","th":"retraites","t":"Une part de retraite par capitalisation, jusqu'à 40 % des pensions","d":"Constituer progressivement une capitalisation de 116 milliards d'euros, soit environ 40 % du montant des retraites, en huit tranches successives.","s":["ne_ambition"],"fin":"n"},{"aj":"2026-10-03","c":"lisnard","th":"social","t":"Un minimum vieillesse à 1 000 € par mois","d":"Porter le minimum vieillesse à 1 000 € par mois.","s":["ne_ambition"],"fin":"n"},{"aj":"2026-10-03","c":"lisnard","th":"logement","t":"Supprimer l'obligation de 20 à 25 % de logements sociaux par commune","d":"Supprimer l'article 55 de la loi SRU, qui impose 20 % et bientôt 25 % de logements sociaux dans certaines communes.","s":["ne_ambition"],"fin":"s"},{"aj":"2026-10-03","c":"lisnard","th":"immigration","t":"Rétablir le délit de séjour irrégulier","d":"Rétablir le délit de séjour irrégulier, supprimé en 2012.","s":["jdd_lisnard"],"fin":"s"},{"aj":"2026-10-03","c":"lisnard","th":"immigration","t":"Des quotas d'immigration et une réforme de la Constitution","d":"Fixer des quotas d'immigration et réformer la Constitution pour sortir des contraintes des juges européens en matière migratoire.","s":["jdd_lisnard"],"fin":"s"},{"aj":"2026-10-03","c":"lisnard","th":"immigration","t":"Traiter les demandes de visa hors des frontières européennes","d":"Créer des centres de traitement des visas à l'extérieur des frontières de l'Union européenne.","s":["jdd_lisnard"],"fin":"n"},{"aj":"2026-10-03","c":"lisnard","th":"securite","t":"Un plan de remise à niveau de la police sur dix ans","d":"Un plan de remise à niveau de la police, déployé sur dix ans.","s":["ne_ambition"],"fin":"n"},{"aj":"2026-10-03","c":"bertrand","th":"immigration","t":"Diviser par trois le regroupement familial","d":"Diviser par trois le nombre d'entrées au titre du regroupement familial.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"bertrand","th":"securite","t":"Un an de prison minimum pour les agressions de policiers, pompiers et élus","d":"Une peine minimale automatique d'un an de prison pour les agressions de policiers, de pompiers et d'élus.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"bertrand","th":"education","t":"Supprimer la carte scolaire","d":"Supprimer la carte scolaire, qui affecte les élèves à un établissement selon leur adresse.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"cazeneuve","th":"retraites","t":"Réformer les retraites par la durée de travail plutôt que par l'âge","d":"Faire de la durée de cotisation le levier principal plutôt que le recul de l'âge légal, rétablir la pénibilité avec un droit au départ anticipé, et combler l'écart d'emploi des seniors avec les meilleurs pays européens.","s":["caz_synthese"],"fin":"n"},{"aj":"2026-10-03","c":"cazeneuve","th":"budget","t":"Une « règle d'or sociale » pour équilibrer la Sécurité sociale","d":"Équilibre des branches maladie, vieillesse et autonomie sur un cycle de cinq ans (dix en cas de crise), et chaque exonération de cotisations compensée à l'euro près.","s":["caz_synthese"],"fin":"s"},{"aj":"2026-10-03","c":"cazeneuve","th":"education","t":"Au moins 2 000 € d'aide en plus pour les étudiants boursiers","d":"Une aide supplémentaire d'au moins 2 000 € pour les étudiants boursiers pendant leurs deux premières années.","s":["caz_synthese"],"fin":"n"},{"aj":"2026-10-03","c":"cazeneuve","th":"travail","t":"Une avance de 3 000 € pour les 18-24 ans sans diplôme ni emploi","d":"Une « avance jeunesse » de 3 000 € pour les 18-24 ans sans diplôme ni emploi, sous conditions.","s":["caz_synthese"],"fin":"n"},{"aj":"2026-10-03","c":"cazeneuve","th":"institutions","t":"Rétablir le septennat et une dose de proportionnelle","d":"Rétablir le mandat présidentiel de sept ans, introduire une dose de proportionnelle aux législatives et encadrer le recours au 49.3.","s":["caz_synthese"],"fin":"s"},{"aj":"2026-10-03","c":"cazeneuve","th":"eco","t":"Taxer réellement les grandes fortunes et les plus hauts revenus","d":"Taxer réellement les grandes fortunes et les plus hauts revenus, rééquilibrer la fiscalité entre travail et capital, et baisser les impôts de production en réduisant les aides fiscales.","s":["caz_synthese"],"fin":"n","finTxt":"La baisse des impôts de production serait financée par moins d'aides fiscales aux entreprises"},{"aj":"2026-10-03","c":"cazeneuve","th":"logement","t":"Un grand plan de construction et de rénovation de logements sociaux","d":"Un grand plan de construction et de rénovation de logements sociaux et écologiques.","s":["caz_synthese"],"fin":"n"},{"aj":"2026-10-03","c":"cazeneuve","th":"europe","t":"Réarmer et passer à la majorité au lieu de l'unanimité dans l'UE","d":"Réarmer à proportion de la menace, rester dans l'OTAN et remplacer la règle de l'unanimité par des décisions à la majorité dans l'Union européenne.","s":["caz_synthese"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"travail","t":"Un SMIC à 1 700 € net","d":"Porter le SMIC à 1 700 € net et indexer les salaires sur l'inflation.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"travail","t":"Les salaires des fonctionnaires augmentés de 10 % en cinq ans","d":"Augmenter de 10 % la grille de la fonction publique sur le quinquennat.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"social","t":"Le budget des hôpitaux augmenté d'au moins 4 % par an","d":"Augmenter le financement des hôpitaux d'au moins 4 % par an et supprimer la tarification à l'activité.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"eco","t":"Un emprunt national de 300 milliards pour l'industrie","d":"Lancer un emprunt national d'investissement de 300 milliards d'euros pour l'industrie.","s":["maurel_prog"],"a":{"v":300,"nature":"cout","per":"nd","h":"montant annoncé"},"fin":"f","finTxt":"Par l'emprunt"},{"aj":"2026-10-03","c":"maurel","th":"eco","t":"Rétablir l'ISF et taxer les fortunes de plus de 100 millions","d":"Rétablir l'ISF, porter à 40 % l'impôt forfaitaire sur les revenus du capital et taxer les fortunes de plus de 100 millions d'euros.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"ecologie","t":"Sortir du marché européen de l'électricité et baisser sa TVA à 5,5 %","d":"Sortir du marché européen de l'électricité et ramener la TVA sur l'électricité à 5,5 %.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"retraites","t":"Garantir la retraite à 62 ans","d":"Consolider le droit de partir à 62 ans et rétablir les critères de pénibilité.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"logement","t":"750 000 logements sociaux en cinq ans","d":"Construire 750 000 logements sociaux en cinq ans et généraliser l'encadrement des loyers.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"immigration","t":"Régulariser les travailleurs sans papiers et garder le droit du sol","d":"Régulariser les travailleurs sans papiers, maintenir le droit du sol et créer un service public de l'intégration.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"maurel","th":"education","t":"30 % de dépense en plus par étudiant à l'université","d":"Augmenter de 30 % la dépense par étudiant et porter la recherche publique à 1 % du PIB.","s":["maurel_prog"],"fin":"n"},{"aj":"2026-10-03","c":"faure","th":"education","t":"Un petit-déjeuner gratuit pour chaque enfant","d":"Un petit-déjeuner gratuit pour chaque enfant à l'école.","s":["ps_ecole"],"fin":"n"},{"aj":"2026-10-03","c":"faure","th":"education","t":"Des classes découvertes pour les 5 millions d'enfants qui ne partent pas en vacances","d":"Généraliser les classes découvertes pour les 5 millions d'enfants qui ne partent pas en vacances.","s":["ps_ecole"],"fin":"n"},{"aj":"2026-10-03","c":"faure","th":"education","t":"19 élèves par classe et des profs mieux payés","d":"19 élèves par classe et une hausse des salaires des enseignants.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"faure","th":"social","t":"Un fonds alimentaire pour les familles modestes","d":"Créer un fonds alimentaire pour les familles modestes.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"faure","th":"ecologie","t":"Un fonds d'investissement écologique sur 20 à 30 ans","d":"Un fonds national et européen d'investissement écologique sur 20 à 30 ans.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"guedj","th":"institutions","t":"Créer un Défenseur de la laïcité","d":"Créer une autorité chargée de défendre la laïcité.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"guedj","th":"immigration","t":"Une immigration planifiée par le Parlement","d":"Faire planifier l'immigration par le Parlement.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"guedj","th":"retraites","t":"Moins revaloriser les plus hautes pensions, si les gros héritages contribuent aussi","d":"Une sous-indexation possible des plus hautes pensions, à condition que les héritages contribuent également.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"royal","th":"securite","t":"Des caméras dans les écoles, les crèches et les Ehpad","d":"Installer des caméras dans les écoles, les crèches et les Ehpad.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"royal","th":"securite","t":"Tolérance zéro pour les violences faites aux enfants","d":"Tolérance zéro pour les violences, avec la protection des enfants parmi ses cinq priorités.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"bouamrane","th":"retraites","t":"Distinguer le travail subi du travail choisi pour la retraite","d":"Une retraite qui distingue le travail subi du travail choisi.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"bouamrane","th":"social","t":"Des soins remboursés selon les revenus","d":"Moduler le remboursement des soins selon les revenus.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"bouamrane","th":"logement","t":"Baisser la TVA sur la construction","d":"Baisser la TVA sur la construction de logements.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"brun","th":"budget","t":"66 milliards de dépenses financées par 66 milliards de recettes","d":"Son livret « Produire » (19 août 2026, 42 pages, 20 mesures) chiffre 66 milliards d'euros de dépenses, financées par 66 milliards de recettes.","s":["qpq"],"a":{"v":66,"nature":"cout","per":"nd","h":"chiffrage de son livret"},"fin":"f","finTxt":"66 milliards de recettes nouvelles, selon son livret"},{"aj":"2026-10-03","c":"brun","th":"travail","t":"Baisser la CSG sur les salaires inférieurs à 4 000 €","d":"Baisser la CSG sur les salaires inférieurs à 4 000 €.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"brun","th":"eco","t":"Remettre EDF en monopole public et rétablir l'ISF","d":"Remettre EDF en monopole public et rétablir l'impôt sur la fortune.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"brun","th":"eco","t":"Cinq usines par département","d":"Implanter cinq usines par département.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"brun","th":"retraites","t":"Un fonds de capitalisation collective pour les retraites","d":"Créer un fonds de capitalisation collective pour financer les retraites.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"philippot","th":"europe","t":"Sortir de l'UE, de l'euro, de Schengen, de l'OTAN et de l'OMS","d":"Sortir de l'Union européenne, de l'euro, de l'espace Schengen, de la Convention européenne des droits de l'homme, de l'OTAN et de l'OMS.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"philippot","th":"budget","t":"60 milliards d'économies et 74,8 milliards de recettes par an, grâce à ces sorties","d":"Il chiffre à 60 milliards d'euros les économies et à 74,8 milliards les recettes annuelles liées à la sortie de l'Union européenne.","s":["qpq"],"a":{"v":60,"nature":"economie","per":"an","h":"plus 74,8 milliards de recettes annoncées"},"fin":"c"},{"aj":"2026-10-03","c":"branco","th":"eco","t":"Supprimer plus de 300 taxes","d":"Supprimer plus de 300 taxes.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"branco","th":"eco","t":"Nationaliser l'électricité, l'eau et la santé","d":"Nationaliser l'électricité, l'eau et la santé.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"branco","th":"europe","t":"Des référendums sur l'Union européenne, l'euro et l'OTAN","d":"Organiser des référendums sur l'appartenance à l'Union européenne, à l'euro et à l'OTAN.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"branco","th":"institutions","t":"Supprimer les régions","d":"Supprimer l'échelon régional.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"branco","th":"securite","t":"Des jurés citoyens à tous les niveaux de la justice","d":"Des jurés populaires à toutes les échelles de la justice.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"kazib","th":"travail","t":"Un SMIC à 2 000 € et les licenciements interdits","d":"Un SMIC à 2 000 € indexé sur l'inflation et l'interdiction des licenciements.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"kazib","th":"retraites","t":"Retraite à 60 ans, 55 ans pour les métiers pénibles","d":"Retraite à 60 ans, et à 55 ans pour les métiers pénibles, sans condition de durée de cotisation.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"kazib","th":"institutions","t":"Supprimer la présidence et le Sénat au profit d'une assemblée unique","d":"Supprimer la présidence de la République et le Sénat au profit d'une assemblée unique élue pour deux ans.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"labib","th":"travail","t":"Un revenu minimum de 2 000 € net et les licenciements interdits","d":"Un revenu minimum de 2 000 € net, l'interdiction de tous les licenciements et le partage du temps de travail.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"labib","th":"immigration","t":"Régulariser tous les sans-papiers et ouvrir les frontières","d":"Régulariser tous les sans-papiers et ouvrir les frontières.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"labib","th":"europe","t":"Contre la hausse du budget militaire","d":"S'opposer aux guerres et à la hausse du budget militaire.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"lalanne","th":"europe","t":"Sortir de l'UE et de l'OTAN, revenir au franc","d":"Sortir de l'Union européenne et de l'OTAN et revenir au franc.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"lalanne","th":"institutions","t":"Un référendum d'initiative citoyenne","d":"Instaurer un référendum d'initiative citoyenne.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"lalanne","th":"institutions","t":"Abroger des lois qui encadrent la parole publique","d":"Abroger des lois encadrant la parole publique.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"egger","th":"institutions","t":"Un référendum d'initiative citoyenne déclenché par 700 000 signatures","d":"Un référendum d'initiative citoyenne constituant, déclenché par 700 000 signatures.","s":["qpq"],"fin":"s"},{"aj":"2026-10-03","c":"egger","th":"institutions","t":"Plus de pouvoirs pour les communes","d":"Décentraliser davantage de compétences vers les communes.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"mikolajczak","th":"retraites","t":"Baisser les pensions supérieures à 3 000 € par mois","d":"Baisser les pensions de retraite supérieures à 3 000 € par mois.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"mikolajczak","th":"ecologie","t":"Miser à la fois sur le nucléaire et les renouvelables","d":"Une politique énergétique qui combine nucléaire et énergies renouvelables.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"batho","th":"ecologie","t":"Faire de la décroissance un projet politique","d":"La décroissance comme projet politique, en rupture avec l'objectif de croissance du PIB (« écologie intégrale démocratique »).","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"asselineau","th":"europe","t":"Sortir de l'Union européenne, de l'euro et de l'OTAN","d":"Sortir de l'Union européenne, de l'euro et de l'OTAN par l'article 50, avec un retour au franc.","s":["qpq"],"fin":"n"},{"aj":"2026-10-03","c":"villepin","th":"travail","t":"Inscrire la négociation sociale dans la Constitution","d":"Inscrire le principe de la négociation sociale dans la loi et dans la Constitution.","s":["cnews_villepin"],"fin":"s"}],"sources":{"sudradio_lepen":{"t":"Marine Le Pen et la délicate opération séduction du monde économique","p":"Sud Radio","d":"2026-08-28","type":"presse","u":"https://www.sudradio.fr/societe/marine-le-pen-et-la-delicate-operation-seduction-du-monde-economique"},"ps_jacobelli":{"t":"« La première mesure sociale sera de garantir à tous les Français d'être prioritaires chez eux », défend Laurent Jacobelli","p":"Public Sénat","d":"2026-09-14","type":"presse","u":"https://www.publicsenat.fr/actualites/politique/la-premiere-mesure-sociale-sera-de-garantir-a-tous-les-francais-detre-prioritaires-chez-eux-defend-laurent-jacobelli"},"bs_lepen":{"t":"Le Pen puts housing and 'national priority' at centre of campaign launch","p":"Brussels Signal","d":"2026-09-14","type":"presse","u":"https://brusselssignal.eu/2026/09/le-pen-puts-housing-and-national-priority-at-centre-of-campaign-launch/"},"ps_retraites":{"t":"Reculer ou avancer l'âge légal, avec ou sans capitalisation : ce que proposent les principaux candidats sur les retraites","p":"Public Sénat","d":"2026-09-30","type":"presse","u":"https://publicsenat.fr/actualites/politique/reculer-ou-avancer-lage-legal-avec-ou-sans-capitalisation-ce-que-proposent-les-principaux-candidats-a-lelection-presidentielle-sur-les-retraites"},"ps_ecole":{"t":"Présidentielle 2027 : que proposent les candidats pour l'école ?","p":"Public Sénat","d":"2026-08-31","type":"presse","u":"https://www.publicsenat.fr/actualites/politique/presidentielle-2027-que-proposent-les-candidats-pour-lecole"},"lfi_aec":{"t":"L'Avenir en commun (édition 2025, en cours de réactualisation)","p":"La France insoumise","d":"2025","type":"officiel","u":"https://melenchon2027.fr/programme2025/livre/"},"orange_melenchon":{"t":"Jean-Luc Mélenchon défend l'annulation de la dette française détenue par la BCE","p":"Orange Actualités (dépêche)","d":"2026-09-05","type":"presse","u":"https://actu.orange.fr/politique/presidentielle-2027-jean-luc-melenchon-defend-l-annulation-de-la-dette-francaise-detenue-par-la-bce-et-fustige-ses-adversaires-magic-CNT000002rK1L3.html"},"lcp_glucksmann":{"t":"Raphaël Glucksmann dévoile les premières lignes de son possible programme","p":"LCP","d":"2026-05-26","type":"presse","u":"https://lcp.fr/actualites/presidentielle-raphael-glucksmann-devoile-les-premieres-lignes-de-son-possible-programme"},"lcp_philippe":{"t":"Chômage : Édouard Philippe veut abaisser la durée d'indemnisation à douze mois maximum pour les moins de 50 ans","p":"LCP","d":"2026-08-27","type":"presse","u":"https://lcp.fr/actualites/chomage-edouard-philippe-veut-abaisser-la-duree-d-indemnisation-a-douze-mois-maximum"},"e1_philippe":{"t":"Dissolution, référendum sur les retraites et sur une « règle d'or » budgétaire : Philippe dévoile sa méthode","p":"Europe 1","d":"2025-03-16","type":"presse","u":"https://www.europe1.fr/politique/dissolution-referendum-sur-les-retraites-et-sur-une-regle-dor-budgetaire-philippe-devoile-sa-methode-668233"},"orange_attal":{"t":"Gabriel Attal révèle les premières lignes de son programme","p":"Orange Actualités (dépêche)","d":"2026-05-24","type":"presse","u":"https://actu.orange.fr/politique/presidentielle-2027-gabriel-attal-revele-les-premieres-lignes-de-son-programme-magic-CNT000002pzsbo.html"},"x_attal_ia":{"t":"Message de Gabriel Attal sur la formation de 20 millions d'actifs à l'IA","p":"Compte X de Gabriel Attal","d":"2026","type":"officiel","u":"https://x.com/GabrielAttal/status/2049241746932916332"},"ifrap":{"t":"Comparateur de programmes Présidentielles 2027","p":"Fondation iFRAP (think tank libéral)","d":"2026-10-01","type":"analyse","u":"https://www.ifrap.org/comparateurs/presidentielles-2027"},"jdd_retailleau":{"t":"Suppression du droit du sol, peines minimales : Bruno Retailleau dévoile ses ambitions sur CNews","p":"Le JDD","d":"2026-09-08","type":"presse","u":"https://www.lejdd.fr/politique/suppression-du-droit-du-sol-peines-minimales-bruno-retailleau-devoile-ses-ambitions-sur-cnews-182979"},"jda_retailleau":{"t":"Présidentielle 2027 : les propositions de Bruno Retailleau pour relancer le logement","p":"Journal de l'Agence","d":"2026-06-10","type":"presse","u":"https://www.journaldelagence.com/1411841-presidentielle-2027-les-propositions-de-bruno-retailleau-pour-relancer-le-logement"},"eco_projet":{"t":"Projet 2027 des Écologistes (557 mesures)","p":"Les Écologistes","d":"2026","type":"officiel","u":"https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet"},"tondelier_livrets":{"t":"Livrets thématiques de Marine Tondelier","p":"Site de Marine Tondelier","d":"2026","type":"officiel","u":"https://marinetondelier.fr/livrets-thematiques"},"lci_tondelier":{"t":"Marine Tondelier : « nous porterons le SMIC à 2000 euros bruts par mois » (entretien LCI)","p":"LCI, vidéo YouTube","d":"2026","type":"presse","u":"https://www.youtube.com/watch?v=REJicJkN7I0"},"orange_ruffin":{"t":"François Ruffin lance sa campagne en se posant en défenseur des « travailleurs essentiels »","p":"Orange Actualités (dépêche)","d":"2026-04-26","type":"presse","u":"https://actu.orange.fr/france/presidentielle-2027-francois-ruffin-lance-sa-campagne-en-se-posant-en-defenseur-des-travailleurs-essentiels-magic-CNT000002oTqjw.html"},"ruffin_travail":{"t":"Pour le travail (cahier de campagne)","p":"Ruffin 2027","d":"2026-07-02","type":"officiel","u":"https://nouspresident.fr/pour-le-travail/"},"pcf_pacte":{"t":"Un pacte national pour l'avenir de la France","p":"Parti communiste français","d":"2025-07-05","type":"officiel","u":"https://www.pcf.fr/pacte_national_pour_avenir_france"},"ps_zemmour":{"t":"Éric Zemmour officialise sa candidature à la présidentielle 2027","p":"Public Sénat","d":"2026-09-18","type":"presse","u":"https://www.publicsenat.fr/actualites/politique/eric-zemmour-officialise-sa-candidature-a-la-presidentielle-2027"},"dlf_projet":{"t":"Notre projet (actualisation pour 2027 en cours)","p":"Debout la France","d":"2026","type":"officiel","u":"https://www.debout-la-france.fr/notre-projet/"},"dlf_immigration":{"t":"Immigration et assimilation (page « Projet 2027 »)","p":"Debout la France","d":"2026","type":"officiel","u":"https://www.debout-la-france.fr/projet/immigration-et-assimilation/"},"dlf_logement":{"t":"Logement : 30 mesures pour une France de propriétaires","p":"Debout la France","d":"2026-09-30","type":"officiel","u":"https://www.debout-la-france.fr/projet/logement/"},"nda_site":{"t":"Site de campagne de Nicolas Dupont-Aignan","p":"dupontaignan.fr","d":"2026-10-01","type":"officiel","u":"https://www.dupontaignan.fr/"},"lbb_arthaud":{"t":"À Saint-Fons, Nathalie Arthaud veut remettre le monde du travail « en ordre de bataille »","p":"Lyon Bondy Blog","d":"2026-09-30","type":"presse","u":"https://lyonbondyblog.fr/LBB/a-saint-fons-nathalie-arthaud-veut-remettre-le-monde-du-travail-en-ordre-de-bataille/"},"arthaud_site":{"t":"Site de campagne de Nathalie Arthaud","p":"nathalie-arthaud.info","d":"2026-10-01","type":"officiel","u":"http://www.nathalie-arthaud.info/"},"qpq":{"t":"Qui propose quoi ? Présidentielle 2027 (relevé du 30 septembre 2026, données CC BY 4.0)","p":"quiproposequoi2027.fr","d":"2026-09-30","type":"analyse","u":"https://quiproposequoi2027.fr/"},"mlafrance":{"t":"Site de campagne de Marine Le Pen","p":"mlafrance.fr","d":"2026-10-01","type":"officiel","u":"https://mlafrance.fr"},"roussel_site":{"t":"Site de campagne de Fabien Roussel","p":"rousselfabien.com","d":"2026-10-01","type":"officiel","u":"https://www.rousselfabien.com/"},"touteleurope":{"t":"Présidentielle 2027 : qui sont les principaux candidats déjà déclarés ?","p":"Toute l'Europe","d":"2026-09-18","type":"presse","u":"https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-qui-sont-les-candidats-deja-declares/"},"wiki_2027":{"t":"2027 French presidential election","p":"Wikipédia (anglais)","d":"2026-10-01","type":"analyse","u":"https://en.wikipedia.org/wiki/2027_French_presidential_election"},"f24_declares":{"t":"Présidentielle 2027 : qui sont les candidats officiellement déclarés ?","p":"France 24","d":"2026-09-18","type":"presse","u":"https://www.france24.com/fr/france/20260524-france-presidentielle-2027-qui-sont-les-candidats-officiellement-declares"},"fi_ruffin_primaire":{"t":"Primaire de la gauche : le député François Ruffin confirme qu'il sera bien candidat","p":"franceinfo","d":"2026-01-26","type":"presse","u":"https://www.franceinfo.fr/politique/primaire-de-la-gauche-le-depute-francois-ruffin-confirme-qu-il-sera-bien-candidat_7766543.html"},"repere":{"t":"Candidats à la présidentielle 2027 : la liste complète","p":"repere2027.fr","d":"2026-09","type":"analyse","u":"https://repere2027.fr/candidats/"},"insee_dette":{"t":"À la fin du deuxième trimestre 2026, le ratio de dette publique s'établit à 119,0 % du PIB","p":"Insee, Informations rapides n° 239","d":"2026-09-29","type":"donnees","u":"https://www.insee.fr/fr/statistiques/9053525"},"insee_apu":{"t":"En 2025, le déficit public s'élève à 5,1 % du PIB, la dette publique à 115,6 % du PIB","p":"Insee, Informations rapides n° 78","d":"2026-03-26","type":"donnees","u":"https://www.insee.fr/fr/statistiques/8956575"},"insee_demo":{"t":"Bilan démographique 2025","p":"Insee Première n° 2087","d":"2026-01-13","type":"donnees","u":"https://www.insee.fr/fr/statistiques/8719824"},"toluna_v6":{"t":"Intentions de vote à l'élection présidentielle 2027, vague 6 (rapport complet)","p":"Toluna Harris Interactive pour M6 et RTL","d":"2026-09-28","type":"donnees","u":"https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-6-M6-RTL-28-septembre-2026.pdf"},"toluna_v5":{"t":"Intentions de vote à l'élection présidentielle 2027, septembre 2026 (vague 5)","p":"Toluna Harris Interactive pour M6 et RTL","d":"2026-09-14","type":"donnees","u":"https://tolunacorporate.com/fr/intentions-de-vote-a-lelection-presidentielle-2027-septembre-2026/"},"wiki_polls":{"t":"Opinion polling for the 2027 French presidential election","p":"Wikipédia (anglais)","d":"2026-10-01","type":"analyse","u":"https://en.wikipedia.org/wiki/Opinion_polling_for_the_2027_French_presidential_election"},"ps_cluster17":{"t":"Sondage présidentielle 2027 : Marine Le Pen largement en tête, suivie de Jean-Luc Mélenchon et Édouard Philippe à égalité","p":"Public Sénat","d":"2026-09-24","type":"presse","u":"https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-marine-le-pen-largement-en-tete-suivi-de-jean-luc-melenchon-et-edouard-philippe-a-egalite"},"f24_sondage":{"t":"Présidentielle française : selon un sondage, Marine Le Pen creuse l'écart sur ses rivaux","p":"France 24","d":"2026-09-28","type":"presse","u":"https://www.france24.com/fr/france/20260928-pr%C3%A9sidentielle-fran%C3%A7aise-selon-un-sondage-marine-le-pen-creuse-l-%C3%A9cart-au-second-tour"},"rfi_bardella":{"t":"Mediapart rapporte des écrits antisémites attribués à Bardella en 2013, le président du RN dément","p":"RFI","d":"2026-09-28","type":"presse","u":"https://www.rfi.fr/fr/france/20260928-france-mediapart-rapporte-des-%C3%A9crits-antis%C3%A9mites-attribu%C3%A9s-%C3%A0-bardella-en-2013-le-pr%C3%A9sident-du-rn-d%C3%A9ment"},"ps_philippe65":{"t":"Retraites : Édouard Philippe sort du bois et propose un âge de départ à 65 ans","p":"Public Sénat","d":"2026-09-29","type":"presse","u":"https://www.publicsenat.fr/actualites/politique/retraites-edouard-philippe-sort-du-bois-et-propose-un-age-de-depart-a-65-ans"},"mediacites_lepen":{"t":"À Hénin-Beaumont, Marine Le Pen fait étalage de ses troupes","p":"Mediacités","d":"2026-09-14","type":"presse","u":"https://www.mediacites.fr/reportage/national/2026/09/14/a-henin-beaumont-marine-le-pen-fait-etalage-de-ses-troupes/"},"f24_roussel":{"t":"Présidentielle 2027 : Fabien Roussel officialise sa candidature avec le PCF","p":"France 24","d":"2026-09-06","type":"presse","u":"https://www.france24.com/fr/france/20260906-pr%C3%A9sidentielle-2027-fabien-roussel-officialise-sa-candidature-avec-le-pcf"},"ici_declares":{"t":"Présidentielle 2027 : qui sont les candidats déclarés ?","p":"ICI","d":"2026-09-25","type":"presse","u":"https://www.ici.fr/infos/politique/presidentielle-2027-qui-sont-les-candidats-declares-1598133"},"jdd_lisnard":{"t":"Présidentielle 2027 : David Lisnard compte rétablir le délit de séjour irrégulier","p":"Le JDD","d":"2026-09-03","type":"presse","u":"https://www.lejdd.fr/Societe/immigration-david-lisnard-compte-retablir-le-delit-de-sejour-irregulier-182505"},"ne_prog":{"t":"Le programme de David Lisnard (trois piliers)","p":"Nouvelle Énergie","d":"2026-10-03","type":"officiel","u":"https://www.unenouvelleenergie.fr/notre-programme/"},"ne_ambition":{"t":"Réussir une nouvelle ambition française (volet économie et social)","p":"Nouvelle Énergie","d":"2026-10-03","type":"officiel","u":"https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/"},"jdd_bertrand":{"t":"Présidentielle 2027 : Xavier Bertrand officialise sa candidature et écarte toute primaire","p":"Le JDD","d":"2026-08-27","type":"presse","u":"https://www.lejdd.fr/politique/presidentielle-2027-xavier-bertrand-officialise-sa-candidature-et-ecarte-toute-primaire-181947"},"caz_synthese":{"t":"Tenir la promesse de la France : synthèse des 30 propositions","p":"La Convention","d":"2026-07-17","type":"officiel","u":"https://assets.nationbuilder.com/laconvention/pages/2513/attachments/original/1784135398/Synthese_mesuresVfinale.pdf?1784135398="},"caz_lettre":{"t":"Tenir la promesse de la France : lettre aux Français (86 pages)","p":"La Convention","d":"2026-07-15","type":"officiel","u":"https://assets.nationbuilder.com/laconvention/pages/2515/attachments/original/1784151599/Auxfrancaisversionfinale1507.pdf?1784151599="},"maurel_prog":{"t":"Le programme d'Emmanuel Maurel","p":"emmanuel-maurel.fr","d":"2026-10-03","type":"officiel","u":"https://emmanuel-maurel.fr/programme/"},"ici_becht":{"t":"« Il faut refonder notre modèle » : le député alsacien Olivier Becht est candidat à la présidentielle","p":"ICI","d":"2026-09-24","type":"presse","u":"https://www.ici.fr/grand-est/alsace-cea/rixheim/il-faut-refonder-notre-modele-le-depute-alsacien-olivier-becht-est-candidat-a-la-presidentielle-1401407"},"cnews_villepin":{"t":"Présidentielle 2027 : qu'implique la négociation sociale que Dominique de Villepin veut inscrire dans la Constitution ?","p":"CNews","d":"2026-09-28","type":"presse","u":"https://www.cnews.fr/france/2026-09-28/presidentielle-2027-quimplique-la-negociation-sociale-que-dominique-de-villepin"},"pp_villepin":{"t":"Présidentielle 2027 : Villepin tente d'occuper l'espace entre le RN, le pouvoir et les électeurs modérés","p":"Parlons Politique","d":"2026-09-29","type":"presse","u":"https://www.parlons-politique.fr/elections/presidentielle-2027-villepin-tente-doccuper-lespace-entre-le-rn-le-pouvoir-et-les-electeurs-moderes_28113/"},"site_lisnard":{"t":"Site de David Lisnard","p":"davidlisnard.fr","d":"2026-10-03","type":"officiel","u":"http://www.davidlisnard.fr"},"site_branco":{"t":"Site de Juan Branco","p":"juan-branco.fr","d":"2026-10-03","type":"officiel","u":"https://juan-branco.fr/"},"site_batho":{"t":"Site de Delphine Batho","p":"delphinebatho.fr","d":"2026-10-03","type":"officiel","u":"https://www.delphinebatho.fr"},"site_asselineau":{"t":"Site de François Asselineau","p":"francoisasselineau.fr","d":"2026-10-03","type":"officiel","u":"http://www.francoisasselineau.fr/"},"site_kazib":{"t":"Site de campagne d'Anasse Kazib","p":"anasse2027.fr","d":"2026-10-03","type":"officiel","u":"http://anasse2027.fr/"},"site_lalanne":{"t":"Site de Francis Lalanne","p":"francislalanne.com","d":"2026-10-03","type":"officiel","u":"http://francislalanne.com/"},"site_guedj":{"t":"Site de Jérôme Guedj","p":"jerome-guedj.fr","d":"2026-10-03","type":"officiel","u":"https://www.jerome-guedj.fr"},"site_royal":{"t":"Site de Ségolène Royal","p":"desirsdavenir.org","d":"2026-10-03","type":"officiel","u":"http://www.desirsdavenir.org"},"site_faure":{"t":"Site d'Olivier Faure","p":"olivierfaure.fr","d":"2026-10-03","type":"officiel","u":"http://www.olivierfaure.fr/"}},"presse":[{"d":"2026-09-30","s":"ps_retraites","k":"programme","c":["attal","glucksmann","le-pen","melenchon","philippe","retailleau"],"txt":"Retraites : âge légal, durée de cotisation, capitalisation, le comparatif des propositions des principaux candidats"},{"d":"2026-09-30","s":"lbb_arthaud","k":"campagne","c":["arthaud"],"txt":"En meeting à Saint-Fons, Nathalie Arthaud réclame un salaire et une pension minimum de 2 200 € net"},{"d":"2026-09-29","s":"ps_philippe65","k":"programme","c":["philippe"],"txt":"Édouard Philippe propose de porter l'âge de départ à la retraite à 65 ans"},{"d":"2026-09-28","s":"rfi_bardella","k":"campagne","c":["le-pen"],"txt":"Mediapart rapporte des écrits antisémites attribués en 2013 à Jordan Bardella, président du RN, qui les dément"},{"d":"2026-09-28","s":"f24_sondage","k":"sondage","c":["le-pen"],"txt":"Un nouveau sondage donne Marine Le Pen en progression face à ses adversaires au second tour"},{"d":"2026-09-28","s":"toluna_v6","k":"sondage","c":[],"txt":"Baromètre Toluna Harris Interactive, vague 6 : cinq hypothèses de premier tour et trois duels testés"},{"d":"2026-09-25","s":"ici_declares","k":"campagne","c":[],"txt":"Le point sur les candidats déclarés, dont Olivier Becht, entré dans la course le 24 septembre"},{"d":"2026-09-24","s":"ps_cluster17","k":"sondage","c":["le-pen","melenchon","philippe","attal"],"txt":"Sondage Cluster 17 pour Politico : Marine Le Pen en tête, Jean-Luc Mélenchon et Édouard Philippe au coude-à-coude"},{"d":"2026-09-18","s":"ps_zemmour","k":"campagne","c":["zemmour"],"txt":"Éric Zemmour annonce qu'il sera candidat et détaille ses propositions sur l'immigration"},{"d":"2026-09-14","s":"ps_jacobelli","k":"programme","c":["le-pen"],"txt":"Logement : le RN place la priorité aux Français au cœur de son projet"},{"d":"2026-09-14","s":"mediacites_lepen","k":"campagne","c":["le-pen"],"txt":"Reportage à Hénin-Beaumont, où Marine Le Pen a fait sa rentrée politique"},{"d":"2026-09-08","s":"jdd_retailleau","k":"programme","c":["retailleau"],"txt":"Bruno Retailleau veut supprimer le droit du sol et abaisser la majorité pénale à 15 ans"},{"d":"2026-09-06","s":"f24_roussel","k":"campagne","c":["roussel"],"txt":"Fabien Roussel officialise sa candidature au nom du PCF"},{"d":"2026-09-05","s":"orange_melenchon","k":"programme","c":["melenchon"],"txt":"Jean-Luc Mélenchon défend l'annulation de la dette française détenue par la Banque centrale européenne"},{"d":"2026-08-31","s":"ps_ecole","k":"programme","c":["attal","glucksmann","le-pen","melenchon","philippe","retailleau","tondelier"],"txt":"École : salaires des enseignants, effectifs, discipline, ce que proposent les candidats"},{"d":"2026-08-28","s":"sudradio_lepen","k":"programme","c":["le-pen"],"txt":"Devant le Medef, Marine Le Pen annonce 125 milliards d'euros d'économies et une règle d'or budgétaire"},{"d":"2026-08-27","s":"lcp_philippe","k":"programme","c":["philippe"],"txt":"Édouard Philippe veut limiter l'indemnisation chômage à douze mois pour les moins de 50 ans"},{"d":"2026-06-10","s":"jda_retailleau","k":"programme","c":["retailleau"],"txt":"Logement : Bruno Retailleau promet un million de logements supplémentaires en cinq ans"},{"d":"2026-05-26","s":"lcp_glucksmann","k":"programme","c":["glucksmann"],"txt":"Raphaël Glucksmann présente les premières lignes de son programme, dont un service civique obligatoire"},{"d":"2026-05-24","s":"orange_attal","k":"programme","c":["attal"],"txt":"Gabriel Attal dévoile ses premières mesures : quotas d'immigration, formation à l'IA, école"},{"d":"2026-04-26","s":"orange_ruffin","k":"campagne","c":["ruffin"],"txt":"François Ruffin lance sa campagne à Lyon en défenseur des « travailleurs essentiels »"}],"sondages":[{"id":"harris-v6","inst":"Toluna Harris Interactive","pour":"M6 et RTL","terrain":"22 au 24 septembre 2026","d":"2026-09-28","n":1974,"hyp":"Hypothèse 1 : Raphaël Glucksmann, Gabriel Attal et Édouard Philippe candidats","s":["toluna_v6"],"scores":{"le-pen":35,"melenchon":17,"philippe":13,"glucksmann":10,"retailleau":7,"attal":5,"zemmour":5,"tondelier":3,"roussel":2,"dupont-aignan":2,"arthaud":1}},{"id":"elabe-08","inst":"Elabe","pour":"voir la notice de l'institut","terrain":"26 au 28 août 2026","d":"2026-08-28","n":1501,"hyp":"Hypothèse avec Raphaël Glucksmann et Édouard Philippe, sans Gabriel Attal","s":["wiki_polls"],"scores":{"le-pen":34,"philippe":17,"melenchon":14,"glucksmann":11.5,"retailleau":6.5,"zemmour":4,"tondelier":3.5,"roussel":3,"dupont-aignan":3,"arthaud":1.5,"villepin":2}},{"id":"ifop-08","inst":"Ifop","pour":"voir la notice de l'institut","terrain":"24 et 25 août 2026","d":"2026-08-25","n":1598,"hyp":"Hypothèse avec Raphaël Glucksmann, Gabriel Attal et Édouard Philippe","s":["wiki_polls"],"scores":{"le-pen":33,"melenchon":16,"philippe":14.5,"glucksmann":11,"attal":8,"retailleau":6,"zemmour":3.5,"roussel":3,"tondelier":3,"dupont-aignan":1.5,"arthaud":0.5}}],"duels":{"inst":"Toluna Harris Interactive pour M6 et RTL","terrain":"8 au 10 septembre 2026","n":2052,"s":"toluna_v5","list":[["le-pen",67,"melenchon",33],["le-pen",56,"attal",44],["le-pen",55,"philippe",45]]},"reperes":{"dette":{"v":3595.5,"pct":"119 % du PIB","quand":"fin juin 2026","s":"insee_dette"},"deficit":{"v":152.5,"pct":"5,1 % du PIB","quand":"en 2025","s":"insee_apu"},"depenses":{"v":1714.1,"quand":"en 2025","s":"insee_apu"},"population":69.1,"popSource":"insee_demo","axes":{"retraites":{"titre":"L'âge de départ proposé","min":59.5,"max":65.5,"ticks":[60,62,64,65],"unite":"ans","rows":[{"c":"le-pen","v":62,"alt":60,"altLabel":"60 si début avant 20 ans","s":"ps_retraites"},{"c":"melenchon","v":62,"alt":60,"altLabel":"objectif 60","s":"ps_retraites"},{"c":"philippe","v":65,"s":"ps_retraites"},{"c":"retailleau","v":63,"alt":65,"altLabel":"retraite complète à 65","s":"ps_retraites"},{"c":"roussel","v":60,"s":"pcf_pacte"}],"note":"Sans âge fixe : Gabriel Attal (selon les années de travail), Raphaël Glucksmann et François Ruffin (selon la pénibilité)."},"travail":{"titre":"Le salaire minimum proposé","min":1450,"max":2300,"ticks":[1500,1800,2100],"unite":"€","rows":[{"c":"arthaud","v":2200,"label":"2 200 € net","s":"lbb_arthaud"},{"c":"melenchon","v":1600,"label":"1 600 € net","s":"lfi_aec"},{"c":"ruffin","v":1700,"label":"1 700 € net","s":"orange_ruffin"},{"c":"tondelier","v":2000,"hollow":true,"label":"2 000 € brut","s":"lci_tondelier"}],"note":"Point plein : montant net, ce que l'on touche. Point creux : montant brut, avant cotisations."}}},"agenda":[["2026-10-11","Primaire de la gauche, avec Marine Tondelier et François Ruffin"],["2027-03","Liste officielle des candidats, publiée par le Conseil constitutionnel"],["2027-04-18","Premier tour"],["2027-05-02","Second tour"]],"videos":[]}</script>
+<script>
+"use strict";
+/* Les données vivent dans data.json : une mise à jour ne touche que ce fichier. La copie intégrée sert d'affichage immédiat et de secours hors connexion. */
+let DATA = JSON.parse(document.getElementById("seed").textContent);
+let CAND = {}, SRC = {}, THEME_NAME = {};
+
+const ICONS = {
+  travail: '<rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 13h18"/>',
+  logement: '<path d="M4 11l8-7 8 7v8.5a1.5 1.5 0 0 1-1.5 1.5H14v-6h-4v6H5.5A1.5 1.5 0 0 1 4 19.5z"/>',
+  education: '<path d="M12 6.5C10 5 7 4.4 4 5v14c3-.6 6 0 8 1.5 2-1.5 5-2.1 8-1.5V5c-3-.6-6 0-8 1.5zM12 6.5v14"/>',
+  ecologie: '<path d="M5 19c0-8 6-14 15-14 0 9-6 15-14 15"/><path d="M5 19l7-7"/>',
+  retraites: '<circle cx="12" cy="12" r="8"/><path d="M12 8v4.3l3 1.9"/>',
+  social: '<path d="M12 20s-7-4.4-7-10a4 4 0 0 1 7-2.6A4 4 0 0 1 19 10c0 5.6-7 10-7 10z"/>',
+  eco: '<path d="M16.5 7.2a6 6 0 1 0 0 9.6"/><path d="M5 10.5h8M5 13.5h8"/>',
+  securite: '<path d="M12 3l7 3v5.2c0 4.4-3 7.9-7 9.8-4-1.9-7-5.4-7-9.8V6z"/>',
+  immigration: '<circle cx="12" cy="12" r="8"/><path d="M4 12h16M12 4c2.6 2.6 2.6 13.4 0 16M12 4c-2.6 2.6-2.6 13.4 0 16"/>',
+  institutions: '<rect x="4" y="10" width="16" height="10" rx="1.6"/><path d="M9 10V4h6v6M8 14.5h8"/>',
+  europe: '<path d="M12 4l2.3 4.8 5.2.7-3.8 3.6.9 5.2L12 15.8l-4.6 2.5.9-5.2-3.8-3.6 5.2-.7z"/>',
+  budget: '<path d="M4 9l8-5 8 5M5.5 9v9M9.8 9v9M14.2 9v9M18.5 9v9M3 20h18"/>'
+};
+const svg = (k, cls = "") => `<svg class="${cls}" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round">${ICONS[k] || ""}</svg>`;
+const CHEV = '<svg class="chev" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M9 6l6 6-6 6"/></svg>';
+const EXT = '<svg class="chev" viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M14 5h5v5M19 5l-8 8M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/></svg>';
+
+/* ---------- utilitaires ---------- */
+const $ = s => document.querySelector(s);
+const esc = s => String(s).replace(/[&<>"']/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
+const isoDay = d => /^\d{4}-\d{2}-\d{2}$/.test(d);
+const fmtD = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "short", year: "numeric" });
+const fmtDM = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "short" });
+const fmtM = new Intl.DateTimeFormat("fr-FR", { month: "long", year: "numeric" });
+const dt = d => new Date(d + "T12:00:00");
+function fmtDate(d, short) {
+  if (isoDay(d)) return (short && d.slice(0, 4) === new Date().getFullYear().toString() ? fmtDM : fmtD).format(dt(d));
+  if (/^\d{4}-\d{2}$/.test(d)) return fmtM.format(dt(d + "-15"));
+  return d;
+}
+const nf1 = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 1 });
+const nf0 = new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 0 });
+const md = v => nf1.format(v) + " milliard" + (v >= 2 ? "s" : "") + " d'euros";
+const daysTo = d => Math.max(0, Math.ceil((new Date(d + "T08:00:00") - new Date()) / 86400000));
+const daysSince = d => Math.floor((new Date() - dt(d)) / 86400000);
+const ext = (u, label) => `<a href="${esc(u)}" target="_blank" rel="noopener">${label}</a>`;
+const KIND = { officiel: "document du candidat", presse: "média", analyse: "comparateur", donnees: "donnée publique" };
+
+function prep() {
+  CAND = Object.fromEntries(DATA.candidats.map(c => [c.id, c]));
+  SRC = DATA.sources;
+  THEME_NAME = Object.fromEntries(DATA.themes);
+}
+const candSorted = () => DATA.candidats.slice().sort((a, b) => a.tri.localeCompare(b.tri, "fr"));
+const propsOf = id => DATA.propositions.filter(p => p.c === id);
+const nom = id => CAND[id] ? CAND[id].nom : id;
+function initials(c) { const t = c.tri.split(" "); return t.length > 1 ? t.map(w => w[0].toUpperCase()).join("") : t[0][0].toUpperCase() + t[0][1].toLowerCase(); }
+const mono = (id, size = "") => `<span class="mono ${size}" aria-hidden="true">${CAND[id] ? initials(CAND[id]) : "·"}</span>`;
+const statut = c => `<span class="pill st-${c.statut}">${esc(DATA.statuts[c.statut])}</span>`;
+const isNew = p => p.aj > DATA.base && daysSince(p.aj) <= 10;
+/* Date d'annonce : la plus ancienne source datée (articles, ou documents publiés à une date précise), hors pages simplement consultées le jour de la mise à jour */
+const pDate = p => p.s.map(s => SRC[s]).filter(s => isoDay(s.d) && s.type !== "analyse" && (s.type === "presse" || s.d !== DATA.base)).map(s => s.d).sort()[0] || null;
+
+function amount(a) {
+  if (!a) return "";
+  const lab = a.lab || { cout: "Coût annoncé", economie: "Économie annoncée", neutre: "Présenté comme neutre", dette: "Montant concerné" }[a.nature];
+  const per = a.per === "an" ? " par an" : "";
+  const hab = a.per === "an" ? `<span>soit environ ${nf0.format(a.v * 1e9 / (DATA.reperes.population * 1e6))} € par habitant</span>` : (a.nature === "dette" || a.per === "total" ? `<span>${esc(a.h)}</span>` : "");
+  return `<span class="amt ${a.nature}">${lab} : ${md(a.v)}${per}${hab}</span>`;
+}
+function srcLine(ids) {
+  return ids.map(id => { const s = SRC[id]; return `${ext(s.u, esc(s.p))} · ${KIND[s.type]} · ${esc(fmtDate(s.d, true))}`; }).join("<br>");
+}
+const FIN_HELP = {
+  f: "Le candidat donne le coût et dit comment il le finance.",
+  c: "Un montant est annoncé, mais nous n'avons pas trouvé comment il serait financé.",
+  n: "Nous n'avons trouvé aucun chiffrage de cette proposition à ce jour.",
+  s: "Changement de règle ou d'institution, sans dépense ni recette nouvelle annoncée. Ses effets indirects peuvent coûter ou rapporter."
+};
+function finLabel(p) { if (p.fin === "c" && p.a && p.a.nature === "economie") return "Économie chiffrée"; return { f: "Chiffrée et financée", c: "Chiffrée, financement non trouvé", n: "Aucun chiffrage trouvé", s: "Sans dépense directe" }[p.fin] || ""; }
+const finBadge = p => p.fin ? `<span class="fin fin-${p.fin}" title="${esc(FIN_HELP[p.fin])}">${esc(finLabel(p))}</span>` : "";
+const finText = p => p.finTxt ? `<p class="fintxt">Financement prévu : ${esc(p.finTxt)}</p>` : "";
+function propItem(p) {
+  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${esc(p.t)}</p>${finBadge(p)}${amount(p.a)}${finText(p)}<details><summary>En détail</summary><p>${esc(p.d)}</p></details><p class="src">Source : ${srcLine(p.s)}</p></div>`;
+}
+
+/* ---------- graphiques ---------- */
+function pollBars(sd, opts = {}) {
+  const rows = Object.entries(sd.scores).map(([id, v]) => [nom(id), v, id]).concat((sd.autres || []).map(([n, v]) => [n, v, null])).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "fr"));
+  const list = opts.limit ? rows.slice(0, opts.limit) : rows;
+  const max = Math.max(40, Math.ceil(rows[0][1] / 10) * 10);
+  return `<div class="poll">${list.map(([n, v, id]) => {
+    const e = 196 * Math.sqrt((v / 100) * (1 - v / 100) / sd.n);
+    return `<div class="poll-row">${id ? `<a class="n" href="#c-${id}">${esc(n)}</a>` : `<span class="n">${esc(n)}</span>`}<span class="track"><span class="fill" style="width:${v / max * 100}%"></span>${opts.moe ? `<span class="moe" style="left:${Math.max(0, v - e) / max * 100}%;width:${2 * e / max * 100}%"></span>` : ""}</span><span class="v">${nf1.format(v)} %</span></div>`;
+  }).join("")}</div>`;
+}
+function axis(cfg) {
+  const pos = v => (v - cfg.min) / (cfg.max - cfg.min) * 100;
+  const rows = cfg.rows.slice().sort((a, b) => CAND[a.c].tri.localeCompare(CAND[b.c].tri, "fr")).map(r => {
+    const p = pos(r.v), main = r.label || nf0.format(r.v) + " " + cfg.unite;
+    const hasAlt = r.alt != null, pa = hasAlt ? pos(r.alt) : p;
+    const lo = Math.min(p, pa), hi = Math.max(p, pa);
+    const text = hasAlt ? main + ", " + r.altLabel : main;
+    const lab = lo < 50 ? `<span class="lb" style="left:${lo}%;transform:translate(${lo < 6 ? "-4px" : "-7px"}, 10px)">${esc(text)}</span>` : `<span class="lb" style="left:${hi}%;transform:translate(calc(-100% + 7px), 10px)">${esc(text)}</span>`;
+    const range = hasAlt ? `<span class="rng" style="left:${lo}%;width:${hi - lo}%"></span><span class="pt alt" style="left:${pa}%"></span>` : "";
+    return `<div class="axis-row"><a class="who" href="#c-${r.c}">${esc(CAND[r.c].tri)}</a><div class="axis-track" title="${esc(CAND[r.c].nom)} : ${esc(text)} (source : ${esc(SRC[r.s].p)})">${range}<span class="pt${r.hollow ? " alt" : ""}" style="left:${p}%"></span>${lab}</div></div>`;
+  }).join("");
+  return `<div class="axis">${rows}<div class="axis-scale"><span></span><div class="ticks">${cfg.ticks.map(t => `<span style="left:${pos(t)}%">${nf0.format(t)}</span>`).join("")}</div></div></div>`;
+}
+
+/* ---------- écrans ---------- */
+const ui = { actuC: "tous", cmpMode: "deux", cmpA: null, cmpB: null, cmpTh: "tous", feed: null };
+const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
+const dayFmt = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
+function newsRow(p) {
+  const s = SRC[p.s];
+  const who = p.c.length && p.c.length <= 3 ? " · " + p.c.map(nom).join(", ") : "";
+  return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span>${esc(who)}</span></span>${EXT}</a>`;
+}
+
+/* Actu : seulement la presse, sans les articles sur les sondages */
+function screenActu() {
+  const all = DATA.presse.filter(p => p.k !== "sondage");
+  const cands = candSorted().filter(c => all.some(p => p.c.includes(c.id)));
+  if (ui.actuC !== "tous" && !cands.some(c => c.id === ui.actuC)) ui.actuC = "tous";
+  const list = all.filter(p => ui.actuC === "tous" || p.c.includes(ui.actuC)).sort((a, b) => b.d.localeCompare(a.d));
+  const days = [];
+  list.forEach(p => { const last = days[days.length - 1]; if (last && last.d === p.d) last.items.push(p); else days.push({ d: p.d, items: [p] }); });
+  return `
+  <div class="page-h"><h1>L'actu de la campagne</h1><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien.</p></div>
+  <div class="chips" role="group" aria-label="Filtrer par candidat">${[["tous", "Tous"]].concat(cands.map(c => [c.id, c.nom])).map(([k, l]) => `<button class="chip" type="button" data-actu="${k}" aria-pressed="${ui.actuC === k}">${esc(l)}</button>`).join("")}</div>
+  ${days.map(g => `<section class="card"><h2 class="day">${esc(cap(dayFmt.format(dt(g.d))))}${g.d.slice(0, 4) !== String(new Date().getFullYear()) ? " " + g.d.slice(0, 4) : ""}</h2><div class="rows news">${g.items.map(newsRow).join("")}</div></section>`).join("")}
+  <div class="foot-links"><a href="#methode">Comment l'appli est faite</a></div>`;
+}
+
+function screenCandidats() {
+  const leaf = d => { const x = dt(d.length === 7 ? d + "-15" : d); return `<span class="leaf"><small>${esc(new Intl.DateTimeFormat("fr-FR", { month: "short" }).format(x).replace(".", ""))} ${x.getFullYear() % 100}</small><b>${d.length === 7 ? "–" : x.getDate()}</b></span>`; };
+  return `
+  <div class="page-h"><h1>Les candidats</h1><p class="lead">Les ${DATA.candidats.length} personnes qui ont annoncé publiquement leur candidature, par ordre alphabétique. La liste officielle sera publiée en mars 2027.</p></div>
+  <div class="search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" style="fill:none;stroke:currentColor;stroke-width:2"/><path d="M13 13l5 5" style="stroke:currentColor;stroke-width:2;stroke-linecap:round"/></svg><input id="qc" type="search" placeholder="Chercher un candidat ou un parti" aria-label="Chercher un candidat ou un parti" autocomplete="off"></div>
+  <section class="card"><div class="rows" id="clist">${candSorted().map(c => `<a class="row" data-q="${esc((c.nom + " " + c.parti).toLowerCase())}" href="#c-${c.id}">${mono(c.id)}<span class="txt"><b>${esc(c.nom)}</b><span>${esc(c.parti)}</span><span class="st-line">${statut(c)}</span></span>${CHEV}</a>`).join("")}</div></section>
+  <p class="small" id="cnone" style="padding-inline:4px" hidden>Aucun candidat ne correspond.</p>
+  <p class="small" style="padding-inline:4px">« Programme en cours » : le candidat a annoncé des mesures mais n'a pas encore publié de programme complet.</p>
+  <section class="card"><h2>Les dates clés</h2><div class="agenda">${DATA.agenda.map(([d, t]) => `<div class="it">${leaf(d)}<span>${esc(t)}</span></div>`).join("")}</div></section>`;
+}
+
+function screenCandidat(id) {
+  const c = CAND[id]; if (!c) return screenCandidats();
+  const ps = propsOf(id);
+  const themes = DATA.themes.filter(([k]) => ps.some(p => p.th === k));
+  const silent = DATA.themes.filter(([k]) => !ps.some(p => p.th === k)).map(([, l]) => l);
+  const press = DATA.presse.filter(p => p.c.includes(id) && p.k !== "sondage").sort((a, b) => b.d.localeCompare(a.d));
+  const vids = (DATA.videos || []).filter(v => v.c === id);
+  return `
+  <section class="card profile">
+    <div class="who">${mono(id, "l")}<div><h1>${esc(c.nom)}</h1><div class="party">${esc(c.parti)}</div></div></div>
+    ${statut(c)}
+    <p class="lead">${esc(c.statutTxt)}.</p>
+    <div class="stats"><div><b>${ps.length}</b><span>propositions</span></div><div><b>${ps.filter(p => p.fin === "f" || p.fin === "c").length}</b><span>chiffrées</span></div><div><b>${themes.length}</b><span>sujets sur ${DATA.themes.length}</span></div></div>
+  </section>
+  ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="props">${ps.filter(p => p.th === k).map(propItem).join("")}</div></section>`).join("")}
+  ${silent.length ? `<p class="silent" style="padding-inline:4px">Pas encore de proposition publique sur : ${silent.map(esc).join(", ")}.</p>` : ""}
+  ${c.docs.length ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
+  ${c.faits.length ? `<section class="card"><h2>À savoir</h2><div class="prose">${c.faits.map(([t, s]) => `<p>${esc(t)} <span class="small">(${ext(SRC[s].u, esc(SRC[s].p))})</span></p>`).join("")}</div></section>` : ""}
+  ${press.length ? `<section class="card"><h2>Dans l'actu</h2><div class="rows news">${press.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}`;
+}
+
+/* Vidéos : un passage par candidat dans un ordre tiré au hasard, puis on recommence.
+   Une vidéo du candidat passe avant ses propositions écrites ; sans vidéo, la carte présente la proposition. */
+function buildFeed() {
+  const vids = DATA.videos || [];
+  const per = candSorted().map(c => ({ c: c.id, items: vids.filter(v => v.c === c.id).map(v => ({ v })).concat(propsOf(c.id).map(p => ({ p }))) }));
+  const cards = [];
+  for (let r = 0; per.some(x => x.items.length > r); r++) cards.push(...shuffle(per.filter(x => x.items.length > r).map(x => ({ c: x.c, ...x.items[r] }))));
+  return cards;
+}
+function videoMedia(v) {
+  if (v.type === "youtube") return `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?playsinline=1&rel=0" title="${esc(v.titre)}" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>`;
+  if (v.type === "mp4") return `<video src="${esc(v.url)}" controls playsinline preload="metadata"></video>`;
+  return `<a class="poster" href="${esc(v.url)}" target="_blank" rel="noopener"><span class="soon">Voir la vidéo</span><span class="big">${esc(v.titre)}</span></a>`;
+}
+const ICO = {
+  user: '<circle cx="12" cy="8" r="4"/><path d="M4.5 20c1.4-3.8 4.3-5.8 7.5-5.8s6.1 2 7.5 5.8"/>',
+  cmp: '<rect x="3" y="5" width="7.5" height="14" rx="1.6"/><rect x="13.5" y="5" width="7.5" height="14" rx="1.6"/>',
+  src: '<path d="M14 5h5v5M19 5l-8 8M18 14v4a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4"/>'
+};
+const ico = k => `<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round">${ICO[k]}</svg>`;
+function reel(card) {
+  const c = CAND[card.c];
+  const th = card.p ? card.p.th : card.v.th;
+  const firstSrc = card.v ? (card.v.s ? SRC[card.v.s] : null) : SRC[card.p.s[0]];
+  const media = card.v ? videoMedia(card.v)
+    : `<div class="poster"><span class="soon">${svg(th)}${esc(THEME_NAME[th])}</span><span class="big">${esc(card.p.t)}</span>${finBadge(card.p)}${card.p.finTxt ? `<span class="fintxt">Financement prévu : ${esc(card.p.finTxt)}</span>` : ""}<span class="later">Pas encore de vidéo de ${esc(c.nom)} sur cette proposition</span></div>`;
+  return `<article class="reel">
+    <div class="reel-media">${media}</div>
+    <div class="reel-info">
+      <a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a>
+      ${card.p && card.p.a ? amount(card.p.a) : ""}
+      ${firstSrc ? `<p class="src">Source : ${ext(firstSrc.u, esc(firstSrc.p))} · ${esc(fmtDate(firstSrc.d, true))}</p>` : ""}
+    </div>
+    <div class="reel-actions">
+      <a href="#c-${c.id}" aria-label="Voir la fiche de ${esc(c.nom)}"><span class="i">${ico("user")}</span>Fiche</a>
+      <button type="button" data-cmpwith="${c.id}" aria-label="Comparer ${esc(c.nom)}"><span class="i">${ico("cmp")}</span>Comparer</button>
+      ${firstSrc ? `<a href="${esc(firstSrc.u)}" target="_blank" rel="noopener" aria-label="Ouvrir la source"><span class="i">${ico("src")}</span>Source</a>` : ""}
+    </div>
+  </article>`;
+}
+function screenVideos() {
+  if (!ui.feed) ui.feed = buildFeed();
+  const n = (DATA.videos || []).length;
+  return `<div class="feed" id="feed">
+    <article class="reel intro">
+      <div class="reel-media"><div class="poster">
+        <span class="soon">Les candidats en une minute</span>
+        <span class="big">Une proposition par écran</span>
+        <span class="later">${n ? `${n} vidéo${n > 1 ? "s" : ""} de candidats.` : "Pas encore de vidéo de candidat."} En attendant, chaque carte présente une proposition, avec sa source. L'ordre est tiré au hasard à chaque visite : chaque candidat passe une fois avant que l'on recommence.</span>
+        <span class="swipe">Faites glisser vers le haut</span>
+      </div></div>
+    </article>
+    ${ui.feed.map(reel).join("")}
+    <article class="reel intro"><div class="reel-media"><div class="poster"><span class="big">Vous avez tout vu</span><span class="later">${ui.feed.length} propositions de ${DATA.candidats.length} candidats.</span><button class="more-btn" type="button" data-act="refeed">Recommencer dans un autre ordre</button></div></div></article>
+  </div>`;
+}
+
+/* Comparer : deux candidats côte à côte, ou tous les candidats sur un sujet */
+function screenComparer() {
+  const seg = `<div class="seg" role="group" aria-label="Mode"><button type="button" data-mode="deux" aria-pressed="${ui.cmpMode === "deux"}">Deux candidats</button><button type="button" data-mode="tous" aria-pressed="${ui.cmpMode === "tous"}">Tous sur un sujet</button></div>`;
+  const chipsFor = list => `<div class="chips" role="group" aria-label="Sujet">${list.map(([k, l]) => `<button class="chip" type="button" data-th="${k}" aria-pressed="${ui.cmpTh === k}">${esc(l)}</button>`).join("")}</div>`;
+  if (ui.cmpMode === "tous") {
+    if (!THEME_NAME[ui.cmpTh]) ui.cmpTh = DATA.themes[0][0];
+    return `<div class="page-h"><h1>Comparer</h1><p class="lead">Ce que propose chaque candidat sur un même sujet.</p></div>${seg}${chipsFor(DATA.themes)}${themeAll(ui.cmpTh)}`;
+  }
+  if (!ui.cmpA || !CAND[ui.cmpA] || !ui.cmpB || !CAND[ui.cmpB] || ui.cmpA === ui.cmpB) {
+    const pool = shuffle(DATA.candidats.map(c => c.id).filter(id => id !== ui.cmpA && id !== ui.cmpB));
+    if (!ui.cmpA || !CAND[ui.cmpA]) ui.cmpA = pool.pop();
+    if (!ui.cmpB || !CAND[ui.cmpB] || ui.cmpB === ui.cmpA) ui.cmpB = pool.find(x => x !== ui.cmpA);
+  }
+  const opts = sel => candSorted().map(c => `<option value="${c.id}"${c.id === sel ? " selected" : ""}>${esc(c.nom)}</option>`).join("");
+  const A = ui.cmpA, B = ui.cmpB;
+  const themes = ui.cmpTh === "tous" || !THEME_NAME[ui.cmpTh] ? DATA.themes : DATA.themes.filter(([k]) => k === ui.cmpTh);
+  const col = (id, k) => { const ps = DATA.propositions.filter(p => p.c === id && p.th === k); return `<div class="cmp-col">${ps.length ? ps.map(p => `<div class="ci"><b>${esc(p.t)}</b>${finBadge(p)}${p.a ? amount(p.a) : ""}${ext(SRC[p.s[0]].u, "Source : " + esc(SRC[p.s[0]].p))}</div>`).join("") : `<span class="none">Rien de public pour l'instant</span>`}</div>`; };
+  return `
+  <div class="page-h"><h1>Comparer</h1><p class="lead">Deux candidats côte à côte, sujet par sujet.</p></div>
+  ${seg}
+  <section class="card">
+    <div class="pick">
+      <select id="cmpA" aria-label="Premier candidat">${opts(A)}</select>
+      <button class="swap" type="button" data-act="swap" aria-label="Inverser les deux candidats"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round;stroke-linejoin:round"><path d="M8 4v15l-3-3M16 20V5l3 3"/></svg></button>
+      <select id="cmpB" aria-label="Second candidat">${opts(B)}</select>
+    </div>
+  </section>
+  ${chipsFor([["tous", "Tous les sujets"]].concat(DATA.themes))}
+  <div class="cmp-head"><div>${mono(A, "s")}<span>${esc(nom(A))}</span></div><div>${mono(B, "s")}<span>${esc(nom(B))}</span></div></div>
+  ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="cmp-grid">${col(A, k)}${col(B, k)}</div></section>`).join("")}`;
+}
+function themeAll(k) {
+  const ps = DATA.propositions.filter(p => p.th === k);
+  const who = candSorted().filter(c => ps.some(p => p.c === c.id));
+  const silent = candSorted().filter(c => !ps.some(p => p.c === c.id));
+  const ax = DATA.reperes.axes[k];
+  const R = DATA.reperes;
+  const budget = k === "budget" ? `<section class="card"><h2>Les comptes publics aujourd'hui</h2><div class="figs"><div><b>${nf0.format(R.dette.v)} Md€</b><span>de dette publique ${esc(R.dette.quand)}, ${esc(R.dette.pct)}</span></div><div><b>${nf1.format(R.deficit.v)} Md€</b><span>de déficit ${esc(R.deficit.quand)}, ${esc(R.deficit.pct)}</span></div></div><p class="small">Source : ${ext(SRC[R.dette.s].u, "Insee")}. Le déficit, c'est ce que l'État et les administrations dépensent en plus de ce qu'ils encaissent sur une année.</p></section>` : "";
+  return `
+  <p class="small" style="padding-inline:4px">${who.length} candidat${who.length > 1 ? "s ont" : " a"} fait au moins une proposition sur ce sujet.</p>
+  ${ax ? `<section class="card"><h2>${esc(ax.titre)}</h2>${axis(ax)}<p class="small">${esc(ax.note)}</p></section>` : ""}
+  ${budget}
+  ${who.map(c => `<section class="card"><a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a><div class="props">${ps.filter(p => p.c === c.id).map(propItem).join("")}</div></section>`).join("")}
+  ${silent.length ? `<p class="silent" style="padding-inline:4px">Pas encore de proposition publique : ${silent.map(c => esc(c.nom)).join(", ")}.</p>` : ""}`;
+}
+
+/* Sondages : en dernier, et la façon de les lire avant les chiffres */
+function screenSondages() {
+  const [last, ...prev] = DATA.sondages;
+  const D = DATA.duels;
+  const news = DATA.presse.filter(p => p.k === "sondage").sort((a, b) => b.d.localeCompare(a.d));
+  return `
+  <div class="page-h"><h1>Les sondages</h1><p class="lead">Ce que des personnes interrogées déclarent vouloir voter, à un moment donné. Un sondage n'est pas une prédiction et ne dit pas pour qui voter.</p></div>
+  <section class="card">
+    <h2>Avant de regarder les chiffres</h2>
+    <ul class="howto">
+      <li><span class="n">1</span><span><b>Il y a une marge d'erreur.</b> Avec environ 2 000 personnes interrogées, un score peut varier d'environ 2 points. Un écart d'un point entre deux candidats ne veut rien dire.</span></li>
+      <li><span class="n">2</span><span><b>Les candidats testés changent.</b> Les primaires n'ont pas encore eu lieu : chaque institut teste ses propres hypothèses.</span></li>
+      <li><span class="n">3</span><span><b>Beaucoup de gens n'ont pas encore choisi.</b> À plusieurs mois du vote, les intentions bougent souvent.</span></li>
+      <li><span class="n">4</span><span><b>Tout doit être indiqué.</b> La loi impose de publier le nom de l'institut, le commanditaire, les dates et le nombre de personnes interrogées.</span></li>
+    </ul>
+  </section>
+  <section class="card">
+    <h2>Premier tour</h2>
+    <p class="small">${esc(last.inst)} pour ${esc(last.pour)} · ${esc(last.terrain)} · ${nf0.format(last.n)} personnes inscrites sur les listes électorales</p>
+    ${pollBars(last, { moe: true })}
+    <p class="small">Hypothèse testée : ${esc(last.hyp.replace(/^Hypothèse 1 : /, ""))}. Les traits rouges montrent la marge d'erreur. ${ext(SRC[last.s[0]].u, "Voir l'enquête")}</p>
+  </section>
+  <section class="card">
+    <h2>Second tour</h2>
+    <p class="small">${esc(D.inst)} · ${esc(D.terrain)} · ${nf0.format(D.n)} inscrits</p>
+    ${D.list.map(([a, va, b, vb]) => `<div class="duel"><div class="names"><span>${esc(nom(a))}</span><span>${esc(nom(b))}</span></div><div class="split" role="img" aria-label="${esc(nom(a))} ${va} %, ${esc(nom(b))} ${vb} %"><i style="width:${va}%">${va} %</i><i style="width:${vb}%">${vb} %</i></div></div>`).join("")}
+    <p class="small">${ext(SRC[D.s].u, "Voir l'enquête")}</p>
+  </section>
+  <section class="card">
+    <h2>Sondages précédents</h2>
+    ${prev.map(s => `<details class="prev"><summary><span>${esc(s.inst)} · ${esc(s.terrain)}</span></summary>${pollBars(s)}<p class="small" style="margin-top:10px">${esc(s.hyp)}. ${nf0.format(s.n)} personnes interrogées. Scores relevés sur ${ext(SRC[s.s[0]].u, esc(SRC[s.s[0]].p))}.</p></details>`).join("")}
+  </section>
+  ${news.length ? `<section class="card"><h2>Les sondages dans la presse</h2><div class="rows news">${news.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}`;
+}
+
+function screenMethode() {
+  const n = DATA.propositions.length;
+  const cnt = k => DATA.propositions.filter(p => p.fin === k).length;
+  return `
+  <div class="page-h"><h1>Comment l'appli est faite</h1></div>
+  <section class="card prose">
+    <p><b>Les candidats.</b> Toutes les personnes qui ont annoncé publiquement leur candidature, avec le même traitement pour chacune. À partir de mars 2027, l'appli suivra la liste officielle publiée par le Conseil constitutionnel.</p>
+    <p><b>Les propositions.</b> Uniquement des propositions rendues publiques pour 2027. Chacune est résumée en une phrase, avec un lien vers le document ou l'article d'origine. Le texte complet reste chez le candidat ou le média cité. Quand la seule source est un comparateur, c'est indiqué : la proposition reste à confirmer sur une source primaire.</p>
+    <p><b>Les vidéos.</b> L'ordre du fil est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
+    <p><b>Neutralité.</b> Même présentation pour tous, aucune couleur de parti, aucune note. Les sondages sont regroupés dans le dernier onglet, après une explication sur la façon de les lire.</p>
+    <p><b>Vos données.</b> L'appli ne demande aucun compte et ne collecte rien sur vous.</p>
+  </section>
+  <section class="card">
+    <h2>Combien ça coûte, qui paie</h2>
+    <p class="lead">Chaque proposition porte un statut, attribué selon la même règle pour tous. L'appli ne calcule jamais de coût elle-même : les montants sont ceux annoncés par les candidats ou rapportés par la source citée.</p>
+    <div class="fin-key">
+      <div><span class="fin fin-f">Chiffrée et financée</span><span>${esc(FIN_HELP.f)} (${cnt("f")})</span></div>
+      <div><span class="fin fin-c">Chiffrée, financement non trouvé</span><span>${esc(FIN_HELP.c)} (${cnt("c")})</span></div>
+      <div><span class="fin fin-n">Aucun chiffrage trouvé</span><span>${esc(FIN_HELP.n)} (${cnt("n")})</span></div>
+      <div><span class="fin fin-s">Sans dépense directe</span><span>${esc(FIN_HELP.s)} (${cnt("s")})</span></div>
+    </div>
+    <p class="small">Un candidat qui a chiffré une proposition absente de nos sources peut nous le signaler : le statut est corrigé dès que le document est publié.</p>
+  </section>
+  <section class="card prose">
+    <p><b>Mises à jour.</b> Dernière mise à jour le ${esc(fmtDate(DATA.maj))} : ${DATA.candidats.length} candidats, ${n} propositions, ${DATA.presse.length} articles. Les ajouts récents portent la mention « Nouveau ».</p>
+  </section>`;
+}
+
+/* ---------- navigation ---------- */
+const TAB_TITLE = { candidats: "Candidats", videos: "Vidéos", comparer: "Comparer", sondages: "Sondages" };
+const app = $("#app");
+function route() {
+  let h = (location.hash || "#actu").slice(1);
+  if (h === "programmes") h = "comparer";
+  if (h.startsWith("t-")) { ui.cmpMode = "tous"; ui.cmpTh = h.slice(2); h = "comparer"; }
+  let tab = "actu", html, title, back = null;
+  if (h.startsWith("c-")) { tab = "candidats"; html = screenCandidat(h.slice(2)); title = nom(h.slice(2)); back = "#candidats"; }
+  else if (h === "methode") { html = screenMethode(); title = "Méthode"; back = "#actu"; }
+  else if (TAB_TITLE[h]) { tab = h; html = { candidats: screenCandidats, videos: screenVideos, comparer: screenComparer, sondages: screenSondages }[h](); title = TAB_TITLE[h]; }
+  else { html = screenActu(); title = null; }
+  app.classList.toggle("full", tab === "videos");
+  app.innerHTML = html;
+  $("#ttl").innerHTML = title ? esc(title) : '<span class="wm">Programmes <em>2027</em></span>';
+  const b = $("#back"); b.hidden = !back; b.dataset.to = back || "";
+  document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === tab ? "page" : "false"));
+}
+function rerender() { const y = window.scrollY; route(); window.scrollTo(0, y); }
+window.addEventListener("hashchange", () => { route(); window.scrollTo(0, 0); });
+window.addEventListener("scroll", () => $("#bar").classList.toggle("scrolled", window.scrollY > 4), { passive: true });
+$("#back").addEventListener("click", e => { location.hash = e.currentTarget.dataset.to || "#actu"; });
+app.addEventListener("click", e => {
+  const t = e.target.closest("button"); if (!t) return;
+  if (t.dataset.actu) { ui.actuC = t.dataset.actu; rerender(); }
+  else if (t.dataset.cmpwith) { ui.cmpMode = "deux"; ui.cmpA = t.dataset.cmpwith; if (ui.cmpB === ui.cmpA) ui.cmpB = null; location.hash = "#comparer"; }
+  else if (t.dataset.act === "swap") { [ui.cmpA, ui.cmpB] = [ui.cmpB, ui.cmpA]; rerender(); }
+  else if (t.dataset.act === "refeed") { ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); }
+  else if (t.dataset.mode) { ui.cmpMode = t.dataset.mode; if (ui.cmpMode === "tous" && !THEME_NAME[ui.cmpTh]) ui.cmpTh = DATA.themes[0][0]; rerender(); }
+  else if (t.dataset.th) { ui.cmpTh = t.dataset.th; rerender(); }
+});
+app.addEventListener("input", e => {
+  if (e.target.id !== "qc") return;
+  const q = e.target.value.trim().toLowerCase(); let shown = 0;
+  document.querySelectorAll("#clist .row").forEach(r => { const ok = !q || r.dataset.q.includes(q); r.hidden = !ok; if (ok) shown++; });
+  const none = document.getElementById("cnone"); if (none) none.hidden = shown > 0;
+});
+app.addEventListener("change", e => {
+  if (e.target.id === "cmpA") { ui.cmpA = e.target.value; if (ui.cmpA === ui.cmpB) ui.cmpB = null; rerender(); }
+  if (e.target.id === "cmpB") { ui.cmpB = e.target.value; if (ui.cmpB === ui.cmpA) ui.cmpA = null; rerender(); }
+});
+
+function boot() {
+  prep();
+  $("#jx").textContent = "J−" + daysTo("2027-04-18");
+  route();
+  fetch("data.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
+    if (d && d.maj && d.propositions && (d.maj > DATA.maj || d.version > DATA.version)) { DATA = d; prep(); ui.feed = null; rerender(); }
+  }).catch(() => {});
+}
+boot();
+</script>
+<script>
+if ("serviceWorker" in navigator) { window.addEventListener("load", () => { navigator.serviceWorker.register("sw.js").catch(() => {}); }); }
+</script>
+</body>
+</html>
