@@ -1,0 +1,130 @@
+[
+ {
+  "id": "arthaud",
+  "nom": "Nathalie Arthaud"
+ },
+ {
+  "id": "attal",
+  "nom": "Gabriel Attal"
+ },
+ {
+  "id": "dupont-aignan",
+  "nom": "Nicolas Dupont-Aignan"
+ },
+ {
+  "id": "glucksmann",
+  "nom": "Raphaël Glucksmann"
+ },
+ {
+  "id": "le-pen",
+  "nom": "Marine Le Pen"
+ },
+ {
+  "id": "melenchon",
+  "nom": "Jean-Luc Mélenchon"
+ },
+ {
+  "id": "philippe",
+  "nom": "Édouard Philippe"
+ },
+ {
+  "id": "retailleau",
+  "nom": "Bruno Retailleau"
+ },
+ {
+  "id": "roussel",
+  "nom": "Fabien Roussel"
+ },
+ {
+  "id": "ruffin",
+  "nom": "François Ruffin"
+ },
+ {
+  "id": "tondelier",
+  "nom": "Marine Tondelier"
+ },
+ {
+  "id": "zemmour",
+  "nom": "Éric Zemmour"
+ },
+ {
+  "id": "asselineau",
+  "nom": "François Asselineau"
+ },
+ {
+  "id": "batho",
+  "nom": "Delphine Batho"
+ },
+ {
+  "id": "becht",
+  "nom": "Olivier Becht"
+ },
+ {
+  "id": "bertrand",
+  "nom": "Xavier Bertrand"
+ },
+ {
+  "id": "bouamrane",
+  "nom": "Karim Bouamrane"
+ },
+ {
+  "id": "branco",
+  "nom": "Juan Branco"
+ },
+ {
+  "id": "brun",
+  "nom": "Philippe Brun"
+ },
+ {
+  "id": "cazeneuve",
+  "nom": "Bernard Cazeneuve"
+ },
+ {
+  "id": "egger",
+  "nom": "Clara Egger"
+ },
+ {
+  "id": "faure",
+  "nom": "Olivier Faure"
+ },
+ {
+  "id": "guedj",
+  "nom": "Jérôme Guedj"
+ },
+ {
+  "id": "kazib",
+  "nom": "Anasse Kazib"
+ },
+ {
+  "id": "labib",
+  "nom": "Selma Labib"
+ },
+ {
+  "id": "lalanne",
+  "nom": "Francis Lalanne"
+ },
+ {
+  "id": "lisnard",
+  "nom": "David Lisnard"
+ },
+ {
+  "id": "maurel",
+  "nom": "Emmanuel Maurel"
+ },
+ {
+  "id": "mikolajczak",
+  "nom": "Antoine Mikolajczak"
+ },
+ {
+  "id": "philippot",
+  "nom": "Florian Philippot"
+ },
+ {
+  "id": "royal",
+  "nom": "Ségolène Royal"
+ },
+ {
+  "id": "villepin",
+  "nom": "Dominique de Villepin"
+ }
+]

@@ -1,0 +1,20 @@
+name: Photos des candidats
+on:
+  push:
+    branches: [outil-photos]
+    paths: [candidats.json, choix.json, photos.py, .github/workflows/photos.yml]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 photos.py
+      - run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add photos resultats.json
+          git commit -m "Photos récupérées sur Wikimedia Commons" || echo "Rien de nouveau"
+          git push
