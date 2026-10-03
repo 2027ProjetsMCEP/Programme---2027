@@ -1,6 +1,6 @@
 // Fonctionnement hors connexion : l'appli reste lisible sans réseau, et les données sont rafraîchies dès que le réseau revient.
-const CACHE = "p27-v2";
-const SHELL = ["./", "./index.html", "./data.json", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
+const CACHE = "p27-v3";
+const SHELL = ["./", "./index.html", "./data.json", "./manifest.webmanifest", "./icons/logo2027-180.png", "./icons/logo2027-192.png", "./icons/logo2027-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
 });
@@ -10,7 +10,7 @@ self.addEventListener("activate", e => {
 self.addEventListener("fetch", e => {
   const url = new URL(e.request.url);
   if (e.request.method !== "GET" || url.origin !== location.origin) return;
-  const fresh = e.request.mode === "navigate" || url.pathname.endsWith("/data.json") || url.pathname.endsWith("/index.html");
+  const fresh = e.request.mode === "navigate" || url.pathname.endsWith("/data.json") || url.pathname.endsWith("/index.html") || url.pathname.endsWith(".webmanifest");
   if (fresh) {
     // réseau d'abord pour la page et les données, copie locale en secours
     e.respondWith(fetch(e.request).then(res => {
