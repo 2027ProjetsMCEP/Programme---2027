@@ -1,0 +1,426 @@
+[
+ {
+  "id": "glucksmann",
+  "nom": "Raphaël Glucksmann",
+  "recherche": [
+   {
+    "qid": "Q556149",
+    "label": "Raphaël Glucksmann",
+    "desc": "essayiste et homme politique français",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "2024-03-03 - Congrès du PSE- 105 - Raphael Glucksmann.jpg"
+    ],
+    "naissance": [
+     "+1979-10-15T00:00:00Z"
+    ],
+    "frwiki": "Raphaël Glucksmann"
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "1720448398743 20240708 GLUCKSMANN Raphael FR 006.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg/1280px-1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "largeur": 3528,
+   "hauteur": 4536,
+   "mime": "image/jpeg",
+   "auteur": "European Union 2024 - Source : EP",
+   "credit": "https://multimedia.europarl.europa.eu/",
+   "licence": "European Parliament",
+   "licenceUrl": "https://www.europarl.europa.eu/legal-notice/",
+   "conditions": "European Parliament",
+   "attribution": "© European Union",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2024-07",
+   "description": "MEP Raphaël Glucksmann",
+   "local": "photos/raw/glucksmann.jpg"
+  },
+  "autres": []
+ },
+ {
+  "id": "philippe",
+  "nom": "Édouard Philippe",
+  "recherche": [
+   {
+    "qid": "Q3579995",
+    "label": "Édouard Philippe",
+    "desc": "homme d'État français",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "Édouard Philippe 2019 (cropped).jpg"
+    ],
+    "naissance": [
+     "+1970-11-28T00:00:00Z"
+    ],
+    "frwiki": "Édouard Philippe"
+   },
+   {
+    "qid": "Q108535108",
+    "label": "Édouard Philippe",
+    "desc": "auteur dramatique et compositeur français",
+    "humain": true,
+    "politicien": false,
+    "p18": [],
+    "naissance": [
+     "+1840-04-18T00:00:00Z"
+    ],
+    "frwiki": null
+   },
+   {
+    "qid": "Q18197547",
+    "label": "Édouard Engelhardt",
+    "desc": "diplomate français",
+    "humain": true,
+    "politicien": false,
+    "p18": [],
+    "naissance": [
+     "+1828-05-16T00:00:00Z"
+    ],
+    "frwiki": null
+   },
+   {
+    "qid": "Q124785772",
+    "label": "Édouard Philippe Bérard",
+    "desc": "haut-fonctionnaire français du 19e siècle",
+    "humain": true,
+    "politicien": false,
+    "p18": [],
+    "naissance": [
+     "+1823-02-16T00:00:00Z"
+    ],
+    "frwiki": null
+   },
+   {
+    "qid": "Q274996",
+    "label": "Émile Cartailhac",
+    "desc": "historien et archéologue français (1845–1921)",
+    "humain": true,
+    "politicien": false,
+    "p18": [
+     "Émile Cartailhac Muséum de Toulouse.jpg"
+    ],
+    "naissance": [
+     "+1845-02-15T00:00:00Z"
+    ],
+    "frwiki": "Émile Cartailhac"
+   },
+   {
+    "qid": "Q107368472",
+    "label": "séance de dédicace d'Édouard Philippe à Fontainebleau",
+    "desc": "séance de dédicace en 2021, en France",
+    "humain": false,
+    "politicien": false,
+    "p18": [
+     "2021-06-29 11-50-58 - Fontainebleau - Édouard Philippe séance dédicace.jpg"
+    ],
+    "naissance": [],
+    "frwiki": null
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "Édouard Philippe - 2021 (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Philippe_-_2021_(cropped).jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/0/01/%C3%89douard_Philippe_-_2021_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "largeur": 645,
+   "hauteur": 957,
+   "mime": "image/jpeg",
+   "auteur": "Jérémy Barande",
+   "credit": "Conférence des Tribunes de l'X",
+   "licence": "CC BY-SA 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "conditions": "Creative Commons Attribution-Share Alike 2.0",
+   "attribution": "Jérémy Barande / Ecole polytechnique",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2021-10-06 18:19",
+   "description": "Édouard Philippe , maire du Havre et ancien 1er Ministre de la République Française, lors d'une visite à l' École polytechnique , accompagné d' Éric Labaye , président de l'école.",
+   "local": "photos/raw/philippe.jpg"
+  },
+  "autres": []
+ },
+ {
+  "id": "tondelier",
+  "nom": "Marine Tondelier",
+  "recherche": [
+   {
+    "qid": "Q29917987",
+    "label": "Marine Tondelier",
+    "desc": "femme politique française",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "Huma2023MarineTondelier.jpg"
+    ],
+    "naissance": [
+     "+1986-08-23T00:00:00Z"
+    ],
+    "frwiki": "Marine Tondelier"
+   },
+   {
+    "qid": "Q111727569",
+    "label": "Marine Tondelier, sur tous les fronts",
+    "desc": "portrait paru dans Libération",
+    "humain": false,
+    "politicien": false,
+    "p18": [],
+    "naissance": [],
+    "frwiki": null
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "20210819 tondelier.m-cr3.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:20210819_tondelier.m-cr3.jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/20210819_tondelier.m-cr3.jpg/1280px-20210819_tondelier.m-cr3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "largeur": 2704,
+   "hauteur": 2704,
+   "mime": "image/jpeg",
+   "auteur": "Greenbox",
+   "credit": "File:20210819 tondelier.m 5686.jpg",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "conditions": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution": "",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2021-08-19 10:48:41",
+   "description": "Intervention de Marine Tondelier, conseillère municipale d’Hénin-Beaumont, membre du bureau exécutif d’EÉLV, aux journées d'été des écologistes 2021, à Poitiers au parc Blossac",
+   "local": "photos/raw/tondelier.jpg"
+  },
+  "autres": []
+ },
+ {
+  "id": "becht",
+  "nom": "Olivier Becht",
+  "recherche": [
+   {
+    "qid": "Q30348845",
+    "label": "Olivier Becht",
+    "desc": "homme politique français",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "Olivier BECHT.jpg"
+    ],
+    "naissance": [
+     "+1976-04-28T00:00:00Z"
+    ],
+    "frwiki": "Olivier Becht"
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "Olivier Becht en 2026 (cropped).png",
+   "page": "https://commons.wikimedia.org/wiki/File:Olivier_Becht_en_2026_(cropped).png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/4/49/Olivier_Becht_en_2026_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "largeur": 557,
+   "hauteur": 557,
+   "mime": "image/png",
+   "auteur": "Dominique Giannelli",
+   "credit": "Photo prise le jeudi 27 août 2026",
+   "licence": "CC BY 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/4.0",
+   "conditions": "Creative Commons Attribution 4.0",
+   "attribution": "",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2026-08-27",
+   "description": "Olivier Becht en 2026",
+   "local": "photos/raw/becht.png"
+  },
+  "autres": []
+ },
+ {
+  "id": "branco",
+  "nom": "Juan Branco",
+  "recherche": [
+   {
+    "qid": "Q21890311",
+    "label": "Juan Branco",
+    "desc": "avocat et militant politique franco-espagnol",
+    "humain": true,
+    "politicien": false,
+    "p18": [
+     "Juan Branco Pick.jpg",
+     "2019 - Centre Stage - Day 2 VJR21625 (49024215596).jpg"
+    ],
+    "naissance": [
+     "+1989-08-26T00:00:00Z"
+    ],
+    "frwiki": "Juan Branco"
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "Juan Branco dec 2019 face face ex Dir DGSE Alain Juillet CC BY SA.png",
+   "page": "https://commons.wikimedia.org/wiki/File:Juan_Branco_dec_2019_face_face_ex_Dir_DGSE_Alain_Juillet_CC_BY_SA.png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/6/67/Juan_Branco_dec_2019_face_face_ex_Dir_DGSE_Alain_Juillet_CC_BY_SA.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "largeur": 1178,
+   "hauteur": 1242,
+   "mime": "image/png",
+   "auteur": "Lamiot",
+   "credit": "Travail personnel",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "conditions": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution": "",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "décembre 2019",
+   "description": "Juan Branco (dec. 2019), lors d'un un débat sur les services secrets, animé par Frédéric Taddeï, avec Alain Juillet (ex-directeur du renseignement à la DGSE).",
+   "local": "photos/raw/branco.png"
+  },
+  "autres": []
+ },
+ {
+  "id": "cazeneuve",
+  "nom": "Bernard Cazeneuve",
+  "recherche": [
+   {
+    "qid": "Q560890",
+    "label": "Bernard Cazeneuve",
+    "desc": "homme d'État français",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "Ministru prezidents Valdis Dombrovskis tiekas ar Francijas Eiropas lietu ministru Bernāru Kazenēvu (Bernard Cazeneuve) (7985359635) (cropped).jpg"
+    ],
+    "naissance": [
+     "+1963-06-02T00:00:00Z"
+    ],
+    "frwiki": "Bernard Cazeneuve"
+   },
+   {
+    "qid": "Q27967567",
+    "label": "gouvernement Bernard Cazeneuve",
+    "desc": "gouvernement de la République française",
+    "humain": false,
+    "politicien": false,
+    "p18": [
+     "Ministru prezidents Valdis Dombrovskis tiekas ar Francijas Eiropas lietu ministru Bernāru Kazenēvu (Bernard Cazeneuve) (7985359635) (cropped).jpg"
+    ],
+    "naissance": [],
+    "frwiki": "Gouvernement Cazeneuve"
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "Bernard Cazeneuve, (42399145362) (cropped).jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Bernard_Cazeneuve,_(42399145362)_(cropped).jpg",
+   "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ac/Bernard_Cazeneuve%2C_%2842399145362%29_%28cropped%29.jpg/1280px-Bernard_Cazeneuve%2C_%2842399145362%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+   "largeur": 2087,
+   "hauteur": 2917,
+   "mime": "image/jpeg",
+   "auteur": "Jérémy Barande",
+   "credit": "Tribunes de l'X",
+   "licence": "CC BY-SA 2.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/2.0",
+   "conditions": "Creative Commons Attribution-Share Alike 2.0",
+   "attribution": "Jérémy Barande / Ecole polytechnique Université Paris-Saclay",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2018-05-29 18:26",
+   "description": "Tribunes de l’X - Conférence Grand témoin : Bernard Cazeneuve, ancien Premier ministre",
+   "local": "photos/raw/cazeneuve.jpg"
+  },
+  "autres": []
+ },
+ {
+  "id": "egger",
+  "nom": "Clara Egger",
+  "recherche": [
+   {
+    "qid": "Q108584624",
+    "label": "Clara Egger",
+    "desc": "politologue française",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "ClaraEgger 2021-12-29 18-16-03.jpg"
+    ],
+    "naissance": [
+     "+1988-01-02T00:00:00Z"
+    ],
+    "frwiki": "Clara Egger"
+   },
+   {
+    "qid": "Q133386933",
+    "label": null,
+    "desc": "",
+    "humain": true,
+    "politicien": false,
+    "p18": [],
+    "naissance": [],
+    "frwiki": null
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "Clara Egger.jpg",
+   "page": "https://commons.wikimedia.org/wiki/File:Clara_Egger.jpg",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/9/9d/Clara_Egger.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "largeur": 331,
+   "hauteur": 466,
+   "mime": "image/jpeg",
+   "auteur": "Thomas Binet",
+   "credit": "https://www.pdatv.fr/emission/des-hauts-et-debats-02-11-2021/",
+   "licence": "CC BY-SA 4.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by-sa/4.0",
+   "conditions": "Creative Commons Attribution-Share Alike 4.0",
+   "attribution": "",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2021-11-02",
+   "description": "Clara Egger, interviewée par Thomas Binet et Didier Maïsto sur PDA-TV, le 2 novembre 2021 - Copyright PDATV",
+   "local": "photos/raw/egger.jpg"
+  },
+  "autres": []
+ },
+ {
+  "id": "kazib",
+  "nom": "Anasse Kazib",
+  "recherche": [
+   {
+    "qid": "Q106405647",
+    "label": "Anasse Kazib",
+    "desc": "homme politique français",
+    "humain": true,
+    "politicien": true,
+    "p18": [
+     "Anasse Kazib, décembre 2021.jpg"
+    ],
+    "naissance": [
+     "+1986-00-00T00:00:00Z",
+     "+1987-00-00T00:00:00Z"
+    ],
+    "frwiki": "Anasse Kazib"
+   }
+  ],
+  "choisi": null,
+  "photo": {
+   "fichier": "Anasse Kazib - La Voce delle Lotte 2020 (cropped).png",
+   "page": "https://commons.wikimedia.org/wiki/File:Anasse_Kazib_-_La_Voce_delle_Lotte_2020_(cropped).png",
+   "url": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Anasse_Kazib_-_La_Voce_delle_Lotte_2020_%28cropped%29.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+   "largeur": 717,
+   "hauteur": 874,
+   "mime": "image/png",
+   "auteur": "La Voce delle Lotte",
+   "credit": "YouTube : https://www.youtube.com/watch?v=kMlHARmTx9c – Voir/enregistrer des versions archivées sur archive.org",
+   "licence": "CC BY 3.0",
+   "licenceUrl": "https://creativecommons.org/licenses/by/3.0",
+   "conditions": "Creative Commons Attribution 3.0",
+   "attribution": "",
+   "attributionRequise": "true",
+   "restrictions": "",
+   "date": "2020",
+   "description": "Anasse Kazib à La Voce delle Lotte en 2020",
+   "local": "photos/raw/kazib.png"
+  },
+  "autres": []
+ }
+]
