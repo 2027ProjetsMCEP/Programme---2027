@@ -1,5 +1,5 @@
 // Fonctionnement hors connexion : l'appli reste lisible sans réseau, et les données sont rafraîchies dès que le réseau revient.
-const CACHE = "p27-v1";
+const CACHE = "p27-v2";
 const SHELL = ["./", "./index.html", "./data.json", "./manifest.webmanifest", "./icons/icon-192.png", "./icons/icon-512.png"];
 self.addEventListener("install", e => {
   e.waitUntil(caches.open(CACHE).then(c => c.addAll(SHELL)).then(() => self.skipWaiting()));
