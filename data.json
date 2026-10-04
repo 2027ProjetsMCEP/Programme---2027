@@ -1,6 +1,6 @@
 {
- "maj": "2026-10-03",
- "version": 2,
+ "maj": "2026-10-04",
+ "version": 3,
  "base": "2026-10-01",
  "themes": [
   [
@@ -73,7 +73,14 @@
    ],
    "docs": [
     "arthaud_site"
-   ]
+   ],
+   "photo": {
+    "a": "Kokluts",
+    "y": "2024",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Nathalie_Arthaud_(LO)_19-05-2024.jpg"
+   }
   },
   {
    "id": "attal",
@@ -85,7 +92,14 @@
    "faits": [],
    "docs": [
     "x_attal_ia"
-   ]
+   ],
+   "photo": {
+    "a": "Ismail Aissoub",
+    "y": "2025",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg"
+   }
   },
   {
    "id": "dupont-aignan",
@@ -105,7 +119,14 @@
     "dlf_immigration",
     "dlf_logement",
     "nda_site"
-   ]
+   ],
+   "photo": {
+    "a": "Debout la France",
+    "y": "2019",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Nicolas_Dupont-Aignan,_homme_politique_fran%C3%A7ais.jpg"
+   }
   },
   {
    "id": "glucksmann",
@@ -120,7 +141,14 @@
      "touteleurope"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Union européenne – Parlement européen",
+    "y": "2024",
+    "l": "Réutilisation autorisée avec mention de la source",
+    "lu": "https://www.europarl.europa.eu/legal-notice/",
+    "u": "https://commons.wikimedia.org/wiki/File:1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg"
+   }
   },
   {
    "id": "le-pen",
@@ -137,7 +165,14 @@
    ],
    "docs": [
     "mlafrance"
-   ]
+   ],
+   "photo": {
+    "a": "VOX España",
+    "y": "2022",
+    "l": "Domaine public",
+    "lu": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D0%B8%D0%BD_%D0%9B%D0%B5_%D0%9F%D0%B5%D0%BD_(28-01-2022).jpg",
+    "u": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D0%B8%D0%BD_%D0%9B%D0%B5_%D0%9F%D0%B5%D0%BD_(28-01-2022).jpg"
+   }
   },
   {
    "id": "melenchon",
@@ -154,7 +189,14 @@
    ],
    "docs": [
     "lfi_aec"
-   ]
+   ],
+   "photo": {
+    "a": "jlm2017.fr",
+    "y": "2026",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:M%C3%A9lenchon_2027_-_55262255527_(cropped_3-4).png"
+   }
   },
   {
    "id": "philippe",
@@ -164,7 +206,14 @@
    "statut": "partiel",
    "statutTxt": "Méthode et mesures annoncées progressivement",
    "faits": [],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Jérémy Barande / École polytechnique",
+    "y": "2021",
+    "l": "CC BY-SA 2.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/2.0",
+    "u": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Philippe_-_2021_(cropped).jpg"
+   }
   },
   {
    "id": "retailleau",
@@ -179,7 +228,14 @@
      "wiki_2027"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Anthonymontardyfr",
+    "y": "2025",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg"
+   }
   },
   {
    "id": "roussel",
@@ -201,7 +257,14 @@
    "docs": [
     "pcf_pacte",
     "roussel_site"
-   ]
+   ],
+   "photo": {
+    "a": "Zouhair NAKARA",
+    "y": "2018",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Roussel_Fabien_1.jpg"
+   }
   },
   {
    "id": "ruffin",
@@ -218,7 +281,14 @@
    ],
    "docs": [
     "ruffin_travail"
-   ]
+   ],
+   "photo": {
+    "a": "Thinkerview",
+    "y": "2022",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Ruffin_(cropped).jpg"
+   }
   },
   {
    "id": "tondelier",
@@ -240,7 +310,14 @@
    "docs": [
     "eco_projet",
     "tondelier_livrets"
-   ]
+   ],
+   "photo": {
+    "a": "Greenbox",
+    "y": "2021",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:20210819_tondelier.m-cr3.jpg"
+   }
   },
   {
    "id": "zemmour",
@@ -255,7 +332,14 @@
      "ps_zemmour"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Anh De France",
+    "y": "2022",
+    "l": "CC0 (domaine public)",
+    "lu": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "u": "https://commons.wikimedia.org/wiki/File:Portrait_d%27%C3%89ric_Zemmour,_avril_2022.jpg"
+   }
   },
   {
    "id": "asselineau",
@@ -272,7 +356,14 @@
    ],
    "docs": [
     "site_asselineau"
-   ]
+   ],
+   "photo": {
+    "a": "Union Populaire Républicaine",
+    "y": "2014",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_ASSELINEAU.jpg"
+   }
   },
   {
    "id": "batho",
@@ -284,7 +375,14 @@
    "faits": [],
    "docs": [
     "site_batho"
-   ]
+   ],
+   "photo": {
+    "a": "DeuxSevres79",
+    "y": "2018",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Delphine_Batho_(cropped).png"
+   }
   },
   {
    "id": "becht",
@@ -299,7 +397,14 @@
      "ici_becht"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Dominique Giannelli",
+    "y": "2026",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Olivier_Becht_en_2026_(cropped).png"
+   }
   },
   {
    "id": "bertrand",
@@ -314,7 +419,14 @@
      "jdd_bertrand"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Claudio Centonze / Union européenne",
+    "y": "2025",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Xavier_Bertrand_-_2025_(cropped).jpg"
+   }
   },
   {
    "id": "bouamrane",
@@ -329,7 +441,14 @@
      "qpq"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Oumma",
+    "y": "2026",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Karim_Bouamrane_en_2026.jpg"
+   }
   },
   {
    "id": "branco",
@@ -341,7 +460,14 @@
    "faits": [],
    "docs": [
     "site_branco"
-   ]
+   ],
+   "photo": {
+    "a": "Lamiot",
+    "y": "2019",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Juan_Branco_dec_2019_face_face_ex_Dir_DGSE_Alain_Juillet_CC_BY_SA.png"
+   }
   },
   {
    "id": "brun",
@@ -356,7 +482,14 @@
      "qpq"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Pierre2777",
+    "y": "2022",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:LOUVIERS_-_4e_circo_Eure_-_Philippe_Brun_nouveau_d%C3%A9put%C3%A9_22_juin_2022_(1)_(cropped).jpg"
+   }
   },
   {
    "id": "cazeneuve",
@@ -374,7 +507,14 @@
    "docs": [
     "caz_synthese",
     "caz_lettre"
-   ]
+   ],
+   "photo": {
+    "a": "Jérémy Barande / École polytechnique",
+    "y": "2018",
+    "l": "CC BY-SA 2.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/2.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Bernard_Cazeneuve,_(42399145362)_(cropped).jpg"
+   }
   },
   {
    "id": "egger",
@@ -389,7 +529,14 @@
      "qpq"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Thomas Binet",
+    "y": "2021",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Clara_Egger.jpg"
+   }
   },
   {
    "id": "faure",
@@ -406,7 +553,14 @@
    ],
    "docs": [
     "site_faure"
-   ]
+   ],
+   "photo": {
+    "a": "Olivier Faure",
+    "y": "2012",
+    "l": "CC BY-SA 2.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/2.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Olivier_Faure.jpg"
+   }
   },
   {
    "id": "guedj",
@@ -423,7 +577,14 @@
    ],
    "docs": [
     "site_guedj"
-   ]
+   ],
+   "photo": {
+    "a": "Audrey AK",
+    "y": "2010",
+    "l": "CC BY-SA 2.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/2.0",
+    "u": "https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_Guedj_2010.jpg"
+   }
   },
   {
    "id": "kazib",
@@ -440,7 +601,14 @@
    ],
    "docs": [
     "site_kazib"
-   ]
+   ],
+   "photo": {
+    "a": "La Voce delle Lotte",
+    "y": "2020",
+    "l": "CC BY 3.0",
+    "lu": "https://creativecommons.org/licenses/by/3.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Anasse_Kazib_-_La_Voce_delle_Lotte_2020_(cropped).png"
+   }
   },
   {
    "id": "labib",
@@ -472,7 +640,14 @@
    ],
    "docs": [
     "site_lalanne"
-   ]
+   ],
+   "photo": {
+    "a": "Olivier Roller, In Libro Veritas",
+    "y": "2011",
+    "l": "Licence Art libre",
+    "lu": "http://artlibre.org/licence/lal/en",
+    "u": "https://commons.wikimedia.org/wiki/File:Francis_Lalanne.png"
+   }
   },
   {
    "id": "lisnard",
@@ -490,7 +665,14 @@
    "docs": [
     "ne_prog",
     "site_lisnard"
-   ]
+   ],
+   "photo": {
+    "a": "Frantogian",
+    "y": "2013",
+    "l": "CC BY-SA 3.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/3.0",
+    "u": "https://commons.wikimedia.org/wiki/File:David_Lisnard_-_2013.jpg"
+   }
   },
   {
    "id": "maurel",
@@ -507,7 +689,14 @@
    ],
    "docs": [
     "maurel_prog"
-   ]
+   ],
+   "photo": {
+    "a": "Tyseria",
+    "y": "2019",
+    "l": "CC BY-SA 4.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Meeting_France_insoumise_24_mars_2019,_Nevers_-_Emmanuel_Maurel_01_(cropped).jpg"
+   }
   },
   {
    "id": "mikolajczak",
@@ -537,7 +726,14 @@
      "qpq"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Films et documetnaires",
+    "y": "2024",
+    "l": "CC BY 4.0",
+    "lu": "https://creativecommons.org/licenses/by/4.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Florian_Philippot.jpg"
+   }
   },
   {
    "id": "royal",
@@ -554,7 +750,14 @@
    ],
    "docs": [
     "site_royal"
-   ]
+   ],
+   "photo": {
+    "a": "Matthieu Riegler",
+    "y": "2012",
+    "l": "CC BY 3.0",
+    "lu": "https://creativecommons.org/licenses/by/3.0",
+    "u": "https://commons.wikimedia.org/wiki/File:S%C3%A9gol%C3%A8ne_Royal_-_Janvier_2012.jpg"
+   }
   },
   {
    "id": "villepin",
@@ -569,7 +772,14 @@
      "pp_villepin"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "photo": {
+    "a": "Georges Seguin (Okki)",
+    "y": "2010",
+    "l": "CC BY-SA 3.0",
+    "lu": "https://creativecommons.org/licenses/by-sa/3.0",
+    "u": "https://commons.wikimedia.org/wiki/File:Dominique_de_Villepin_(2010).jpg"
+   }
   }
  ],
  "propositions": [
@@ -582,7 +792,8 @@
     "lbb_arthaud"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p001"
   },
   {
    "c": "arthaud",
@@ -593,7 +804,8 @@
     "lbb_arthaud"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p002"
   },
   {
    "c": "arthaud",
@@ -604,7 +816,8 @@
     "qpq"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p003"
   },
   {
    "c": "arthaud",
@@ -615,7 +828,8 @@
     "qpq"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p004"
   },
   {
    "c": "arthaud",
@@ -626,7 +840,8 @@
     "qpq"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p005"
   },
   {
    "c": "attal",
@@ -637,7 +852,8 @@
     "orange_attal"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p006"
   },
   {
    "c": "attal",
@@ -649,7 +865,8 @@
     "x_attal_ia"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p007"
   },
   {
    "c": "attal",
@@ -660,7 +877,8 @@
     "orange_attal"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p008"
   },
   {
    "c": "attal",
@@ -671,7 +889,8 @@
     "orange_attal"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p009"
   },
   {
    "c": "attal",
@@ -682,7 +901,8 @@
     "ps_retraites"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p010"
   },
   {
    "c": "attal",
@@ -701,7 +921,8 @@
     "h": "coût annoncé de la hausse des salaires"
    },
    "fin": "f",
-   "finTxt": "Des économies, « notamment sur le social »"
+   "finTxt": "Des économies, « notamment sur le social »",
+   "id": "p011"
   },
   {
    "c": "attal",
@@ -713,7 +934,8 @@
     "orange_attal"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p012"
   },
   {
    "c": "attal",
@@ -730,7 +952,8 @@
     "per": "nd",
     "h": "économie estimée"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p013"
   },
   {
    "c": "attal",
@@ -741,7 +964,8 @@
     "ifrap"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p014"
   },
   {
    "c": "dupont-aignan",
@@ -752,7 +976,8 @@
     "dlf_immigration"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p015"
   },
   {
    "c": "dupont-aignan",
@@ -763,7 +988,8 @@
     "dlf_immigration"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p016"
   },
   {
    "c": "dupont-aignan",
@@ -774,7 +1000,8 @@
     "dlf_immigration"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p017"
   },
   {
    "c": "dupont-aignan",
@@ -785,7 +1012,8 @@
     "nda_site"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p018"
   },
   {
    "c": "dupont-aignan",
@@ -796,7 +1024,8 @@
     "nda_site"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p019"
   },
   {
    "c": "glucksmann",
@@ -813,7 +1042,8 @@
     "per": "nd",
     "h": "coût annoncé de la hausse des salaires"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p020"
   },
   {
    "c": "glucksmann",
@@ -824,7 +1054,8 @@
     "lcp_glucksmann"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p021"
   },
   {
    "c": "glucksmann",
@@ -836,7 +1067,8 @@
     "ps_retraites"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p022"
   },
   {
    "c": "glucksmann",
@@ -847,7 +1079,8 @@
     "lcp_glucksmann"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p023"
   },
   {
    "c": "glucksmann",
@@ -858,7 +1091,8 @@
     "lcp_glucksmann"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p024"
   },
   {
    "c": "glucksmann",
@@ -869,7 +1103,8 @@
     "lcp_glucksmann"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p025"
   },
   {
    "c": "le-pen",
@@ -886,7 +1121,8 @@
     "per": "nd",
     "h": "période non précisée dans la source"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p026"
   },
   {
    "c": "le-pen",
@@ -904,7 +1140,8 @@
     "per": "an",
     "h": "en année pleine, montant annoncé"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p027"
   },
   {
    "c": "le-pen",
@@ -915,7 +1152,8 @@
     "sudradio_lepen"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p028"
   },
   {
    "c": "le-pen",
@@ -927,7 +1165,8 @@
     "bs_lepen"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p029"
   },
   {
    "c": "le-pen",
@@ -938,7 +1177,8 @@
     "ps_jacobelli"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p030"
   },
   {
    "c": "le-pen",
@@ -949,7 +1189,8 @@
     "bs_lepen"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p031"
   },
   {
    "c": "le-pen",
@@ -960,7 +1201,8 @@
     "bs_lepen"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p032"
   },
   {
    "c": "le-pen",
@@ -971,7 +1213,8 @@
     "ps_ecole"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p033"
   },
   {
    "c": "melenchon",
@@ -982,7 +1225,8 @@
     "lfi_aec"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p034"
   },
   {
    "c": "melenchon",
@@ -1001,7 +1245,8 @@
     "h": "coût estimé de l'abrogation à l'horizon 2035",
     "lab": "Coût estimé"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p035"
   },
   {
    "c": "melenchon",
@@ -1012,7 +1257,8 @@
     "lfi_aec"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p036"
   },
   {
    "c": "melenchon",
@@ -1030,7 +1276,8 @@
     "per": "total",
     "h": "calcul du site : 18 % de la dette publique de fin juin 2026"
    },
-   "fin": "n"
+   "fin": "n",
+   "id": "p037"
   },
   {
    "c": "melenchon",
@@ -1041,7 +1288,8 @@
     "orange_melenchon"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p038"
   },
   {
    "c": "melenchon",
@@ -1052,7 +1300,8 @@
     "ps_ecole"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p039"
   },
   {
    "c": "melenchon",
@@ -1063,7 +1312,8 @@
     "lfi_aec"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p040"
   },
   {
    "c": "philippe",
@@ -1080,7 +1330,8 @@
     "per": "an",
     "h": "en année pleine, montant annoncé"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p041"
   },
   {
    "c": "philippe",
@@ -1091,7 +1342,8 @@
     "lcp_philippe"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p042"
   },
   {
    "c": "philippe",
@@ -1109,7 +1361,8 @@
     "h": "baisse d'impôts compensée par autant d'aides en moins"
    },
    "fin": "f",
-   "finTxt": "Une baisse équivalente des aides aux entreprises"
+   "finTxt": "Une baisse équivalente des aides aux entreprises",
+   "id": "p043"
   },
   {
    "c": "philippe",
@@ -1120,7 +1373,8 @@
     "lcp_philippe"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p044"
   },
   {
    "c": "philippe",
@@ -1131,7 +1385,8 @@
     "e1_philippe"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p045"
   },
   {
    "c": "philippe",
@@ -1142,7 +1397,8 @@
     "ps_ecole"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p046"
   },
   {
    "c": "philippe",
@@ -1153,7 +1409,8 @@
     "lcp_philippe"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p047"
   },
   {
    "c": "retailleau",
@@ -1164,7 +1421,8 @@
     "jdd_retailleau"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p048"
   },
   {
    "c": "retailleau",
@@ -1175,7 +1433,8 @@
     "jdd_retailleau"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p049"
   },
   {
    "c": "retailleau",
@@ -1186,7 +1445,8 @@
     "jdd_retailleau"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p050"
   },
   {
    "c": "retailleau",
@@ -1203,7 +1463,8 @@
     "per": "total",
     "h": "sur cinq ans, montant annoncé"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p051"
   },
   {
    "c": "retailleau",
@@ -1214,7 +1475,8 @@
     "jda_retailleau"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p052"
   },
   {
    "c": "retailleau",
@@ -1225,7 +1487,8 @@
     "ps_ecole"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p053"
   },
   {
    "c": "retailleau",
@@ -1242,7 +1505,8 @@
     "per": "total",
     "h": "d'ici 2032"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p054"
   },
   {
    "c": "roussel",
@@ -1259,7 +1523,8 @@
     "per": "nd",
     "h": "période non précisée dans la source"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p055"
   },
   {
    "c": "roussel",
@@ -1270,7 +1535,8 @@
     "pcf_pacte"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p056"
   },
   {
    "c": "roussel",
@@ -1281,7 +1547,8 @@
     "pcf_pacte"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p057"
   },
   {
    "c": "roussel",
@@ -1292,7 +1559,8 @@
     "pcf_pacte"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p058"
   },
   {
    "c": "roussel",
@@ -1303,7 +1571,8 @@
     "pcf_pacte"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p059"
   },
   {
    "c": "roussel",
@@ -1320,7 +1589,8 @@
     "h": "loi-cadre violences et égalité salariale"
    },
    "aj": "2026-10-01",
-   "fin": "c"
+   "fin": "c",
+   "id": "p060"
   },
   {
    "c": "roussel",
@@ -1331,7 +1601,8 @@
     "pcf_pacte"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p061"
   },
   {
    "c": "roussel",
@@ -1342,7 +1613,8 @@
     "pcf_pacte"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p062"
   },
   {
    "c": "ruffin",
@@ -1353,7 +1625,8 @@
     "orange_ruffin"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p063"
   },
   {
    "c": "ruffin",
@@ -1364,7 +1637,8 @@
     "ruffin_travail"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p064"
   },
   {
    "c": "ruffin",
@@ -1375,7 +1649,8 @@
     "orange_ruffin"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p065"
   },
   {
    "c": "ruffin",
@@ -1386,7 +1661,8 @@
     "orange_ruffin"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p066"
   },
   {
    "c": "ruffin",
@@ -1397,7 +1673,8 @@
     "orange_ruffin"
    ],
    "aj": "2026-10-01",
-   "fin": "s"
+   "fin": "s",
+   "id": "p067"
   },
   {
    "c": "tondelier",
@@ -1408,7 +1685,8 @@
     "lci_tondelier"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p068"
   },
   {
    "c": "tondelier",
@@ -1419,7 +1697,8 @@
     "ps_ecole"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p069"
   },
   {
    "c": "tondelier",
@@ -1436,7 +1715,8 @@
     "per": "an",
     "h": "montant annoncé"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p070"
   },
   {
    "c": "zemmour",
@@ -1447,7 +1727,8 @@
     "ps_zemmour"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p071"
   },
   {
    "c": "zemmour",
@@ -1458,7 +1739,8 @@
     "ps_zemmour"
    ],
    "aj": "2026-10-01",
-   "fin": "n"
+   "fin": "n",
+   "id": "p072"
   },
   {
    "aj": "2026-10-03",
@@ -1475,7 +1757,8 @@
     "per": "an",
     "h": "baisse d'impôts annoncée"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p073"
   },
   {
    "aj": "2026-10-03",
@@ -1486,7 +1769,8 @@
    "s": [
     "ne_ambition"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p074"
   },
   {
    "aj": "2026-10-03",
@@ -1497,7 +1781,8 @@
    "s": [
     "ne_ambition"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p075"
   },
   {
    "aj": "2026-10-03",
@@ -1508,7 +1793,8 @@
    "s": [
     "ne_ambition"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p076"
   },
   {
    "aj": "2026-10-03",
@@ -1519,7 +1805,8 @@
    "s": [
     "jdd_lisnard"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p077"
   },
   {
    "aj": "2026-10-03",
@@ -1530,7 +1817,8 @@
    "s": [
     "jdd_lisnard"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p078"
   },
   {
    "aj": "2026-10-03",
@@ -1541,7 +1829,8 @@
    "s": [
     "jdd_lisnard"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p079"
   },
   {
    "aj": "2026-10-03",
@@ -1552,7 +1841,8 @@
    "s": [
     "ne_ambition"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p080"
   },
   {
    "aj": "2026-10-03",
@@ -1563,7 +1853,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p081"
   },
   {
    "aj": "2026-10-03",
@@ -1574,7 +1865,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p082"
   },
   {
    "aj": "2026-10-03",
@@ -1585,7 +1877,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p083"
   },
   {
    "aj": "2026-10-03",
@@ -1596,7 +1889,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p084"
   },
   {
    "aj": "2026-10-03",
@@ -1607,7 +1901,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p085"
   },
   {
    "aj": "2026-10-03",
@@ -1618,7 +1913,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p086"
   },
   {
    "aj": "2026-10-03",
@@ -1629,7 +1925,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p087"
   },
   {
    "aj": "2026-10-03",
@@ -1640,7 +1937,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p088"
   },
   {
    "aj": "2026-10-03",
@@ -1652,7 +1950,8 @@
     "caz_synthese"
    ],
    "fin": "n",
-   "finTxt": "La baisse des impôts de production serait financée par moins d'aides fiscales aux entreprises"
+   "finTxt": "La baisse des impôts de production serait financée par moins d'aides fiscales aux entreprises",
+   "id": "p089"
   },
   {
    "aj": "2026-10-03",
@@ -1663,7 +1962,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p090"
   },
   {
    "aj": "2026-10-03",
@@ -1674,7 +1974,8 @@
    "s": [
     "caz_synthese"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p091"
   },
   {
    "aj": "2026-10-03",
@@ -1685,7 +1986,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p092"
   },
   {
    "aj": "2026-10-03",
@@ -1696,7 +1998,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p093"
   },
   {
    "aj": "2026-10-03",
@@ -1707,7 +2010,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p094"
   },
   {
    "aj": "2026-10-03",
@@ -1725,7 +2029,8 @@
     "h": "montant annoncé"
    },
    "fin": "f",
-   "finTxt": "Par l'emprunt"
+   "finTxt": "Par l'emprunt",
+   "id": "p095"
   },
   {
    "aj": "2026-10-03",
@@ -1736,7 +2041,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p096"
   },
   {
    "aj": "2026-10-03",
@@ -1747,7 +2053,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p097"
   },
   {
    "aj": "2026-10-03",
@@ -1758,7 +2065,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p098"
   },
   {
    "aj": "2026-10-03",
@@ -1769,7 +2077,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p099"
   },
   {
    "aj": "2026-10-03",
@@ -1780,7 +2089,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p100"
   },
   {
    "aj": "2026-10-03",
@@ -1791,7 +2101,8 @@
    "s": [
     "maurel_prog"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p101"
   },
   {
    "aj": "2026-10-03",
@@ -1802,7 +2113,8 @@
    "s": [
     "ps_ecole"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p102"
   },
   {
    "aj": "2026-10-03",
@@ -1813,7 +2125,8 @@
    "s": [
     "ps_ecole"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p103"
   },
   {
    "aj": "2026-10-03",
@@ -1824,7 +2137,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p104"
   },
   {
    "aj": "2026-10-03",
@@ -1835,7 +2149,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p105"
   },
   {
    "aj": "2026-10-03",
@@ -1846,7 +2161,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p106"
   },
   {
    "aj": "2026-10-03",
@@ -1857,7 +2173,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p107"
   },
   {
    "aj": "2026-10-03",
@@ -1868,7 +2185,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p108"
   },
   {
    "aj": "2026-10-03",
@@ -1879,7 +2197,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p109"
   },
   {
    "aj": "2026-10-03",
@@ -1890,7 +2209,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p110"
   },
   {
    "aj": "2026-10-03",
@@ -1901,7 +2221,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p111"
   },
   {
    "aj": "2026-10-03",
@@ -1912,7 +2233,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p112"
   },
   {
    "aj": "2026-10-03",
@@ -1923,7 +2245,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p113"
   },
   {
    "aj": "2026-10-03",
@@ -1934,7 +2257,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p114"
   },
   {
    "aj": "2026-10-03",
@@ -1952,7 +2276,8 @@
     "h": "chiffrage de son livret"
    },
    "fin": "f",
-   "finTxt": "66 milliards de recettes nouvelles, selon son livret"
+   "finTxt": "66 milliards de recettes nouvelles, selon son livret",
+   "id": "p115"
   },
   {
    "aj": "2026-10-03",
@@ -1963,7 +2288,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p116"
   },
   {
    "aj": "2026-10-03",
@@ -1974,7 +2300,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p117"
   },
   {
    "aj": "2026-10-03",
@@ -1985,7 +2312,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p118"
   },
   {
    "aj": "2026-10-03",
@@ -1996,7 +2324,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p119"
   },
   {
    "aj": "2026-10-03",
@@ -2007,7 +2336,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p120"
   },
   {
    "aj": "2026-10-03",
@@ -2024,7 +2354,8 @@
     "per": "an",
     "h": "plus 74,8 milliards de recettes annoncées"
    },
-   "fin": "c"
+   "fin": "c",
+   "id": "p121"
   },
   {
    "aj": "2026-10-03",
@@ -2035,7 +2366,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p122"
   },
   {
    "aj": "2026-10-03",
@@ -2046,7 +2378,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p123"
   },
   {
    "aj": "2026-10-03",
@@ -2057,7 +2390,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p124"
   },
   {
    "aj": "2026-10-03",
@@ -2068,7 +2402,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p125"
   },
   {
    "aj": "2026-10-03",
@@ -2079,7 +2414,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p126"
   },
   {
    "aj": "2026-10-03",
@@ -2090,7 +2426,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p127"
   },
   {
    "aj": "2026-10-03",
@@ -2101,7 +2438,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p128"
   },
   {
    "aj": "2026-10-03",
@@ -2112,7 +2450,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p129"
   },
   {
    "aj": "2026-10-03",
@@ -2123,7 +2462,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p130"
   },
   {
    "aj": "2026-10-03",
@@ -2134,7 +2474,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p131"
   },
   {
    "aj": "2026-10-03",
@@ -2145,7 +2486,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p132"
   },
   {
    "aj": "2026-10-03",
@@ -2156,7 +2498,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p133"
   },
   {
    "aj": "2026-10-03",
@@ -2167,7 +2510,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p134"
   },
   {
    "aj": "2026-10-03",
@@ -2178,7 +2522,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p135"
   },
   {
    "aj": "2026-10-03",
@@ -2189,7 +2534,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p136"
   },
   {
    "aj": "2026-10-03",
@@ -2200,7 +2546,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p137"
   },
   {
    "aj": "2026-10-03",
@@ -2211,7 +2558,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p138"
   },
   {
    "aj": "2026-10-03",
@@ -2222,7 +2570,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p139"
   },
   {
    "aj": "2026-10-03",
@@ -2233,7 +2582,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p140"
   },
   {
    "aj": "2026-10-03",
@@ -2244,7 +2594,8 @@
    "s": [
     "qpq"
    ],
-   "fin": "n"
+   "fin": "n",
+   "id": "p141"
   },
   {
    "aj": "2026-10-03",
@@ -2255,7 +2606,8 @@
    "s": [
     "cnews_villepin"
    ],
-   "fin": "s"
+   "fin": "s",
+   "id": "p142"
   }
  ],
  "sources": {
@@ -2536,14 +2888,14 @@
    "t": "Intentions de vote à l'élection présidentielle 2027, vague 6 (rapport complet)",
    "p": "Toluna Harris Interactive pour M6 et RTL",
    "d": "2026-09-28",
-   "type": "donnees",
+   "type": "sondage",
    "u": "https://tolunacorporate.com/wp-content/uploads/2026/09/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-6-M6-RTL-28-septembre-2026.pdf"
   },
   "toluna_v5": {
    "t": "Intentions de vote à l'élection présidentielle 2027, septembre 2026 (vague 5)",
    "p": "Toluna Harris Interactive pour M6 et RTL",
    "d": "2026-09-14",
-   "type": "donnees",
+   "type": "sondage",
    "u": "https://tolunacorporate.com/fr/intentions-de-vote-a-lelection-presidentielle-2027-septembre-2026/"
   },
   "wiki_polls": {
