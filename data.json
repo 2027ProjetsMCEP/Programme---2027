@@ -7222,24 +7222,28 @@
    ],
    "recent": [
     {
-     "date": "27 juil. 2023",
-     "txt": "La loi n° 2023-668 visant à protéger les logements contre l'occupation illicite est promulguée. Elle vise à mieux réprimer le squat des logements et à sécuriser les rapports locatifs ; elle modifie notamment des procédures d'expulsion et des délais en cas d'impayés de loyer.",
-     "src": "sujet_logement_senat_loi2023"
-    },
-    {
-     "date": "19 nov. 2024",
-     "txt": "La loi n° 2024-1039 renforce les outils de régulation des meublés de tourisme à l'échelle locale : elle étend les autorisations de changement d'usage, prévoit des quotas d'autorisations temporaires et réduit certains avantages fiscaux sur les revenus de ces locations.",
-     "src": "sujet_logement_senat_loi2024"
+     "date": "8 juil. 2026",
+     "txt": "Le Sénat adopte avec modifications, en première lecture, le projet de loi visant la relance et la décentralisation du logement, qui vise notamment à créer un cadre pour le troisième programme national de renouvellement urbain et à renforcer les pouvoirs du maire dans l'attribution des logements sociaux. Le texte a été transmis à l'Assemblée nationale et n'est pas encore une loi.",
+     "src": "sujet_logement_senat_pjl2026",
+     "iso": "2026-07-08"
     },
     {
      "date": "26 nov. 2025",
      "txt": "La loi n° 2025-1129 de simplification du droit de l'urbanisme et du logement est promulguée, après l'adoption définitive par l'Assemblée nationale le 15 octobre 2025 ; le Conseil constitutionnel l'a jugée partiellement conforme à la Constitution (décision du 20 novembre 2025).",
-     "src": "sujet_logement_senat_loi2025"
+     "src": "sujet_logement_senat_loi2025",
+     "iso": "2025-11-26"
     },
     {
-     "date": "8 juil. 2026",
-     "txt": "Le Sénat adopte avec modifications, en première lecture, le projet de loi visant la relance et la décentralisation du logement, qui vise notamment à créer un cadre pour le troisième programme national de renouvellement urbain et à renforcer les pouvoirs du maire dans l'attribution des logements sociaux. Le texte a été transmis à l'Assemblée nationale et n'est pas encore une loi.",
-     "src": "sujet_logement_senat_pjl2026"
+     "date": "19 nov. 2024",
+     "txt": "La loi n° 2024-1039 renforce les outils de régulation des meublés de tourisme à l'échelle locale : elle étend les autorisations de changement d'usage, prévoit des quotas d'autorisations temporaires et réduit certains avantages fiscaux sur les revenus de ces locations.",
+     "src": "sujet_logement_senat_loi2024",
+     "iso": "2024-11-19"
+    },
+    {
+     "date": "27 juil. 2023",
+     "txt": "La loi n° 2023-668 visant à protéger les logements contre l'occupation illicite est promulguée. Elle vise à mieux réprimer le squat des logements et à sécuriser les rapports locatifs ; elle modifie notamment des procédures d'expulsion et des délais en cas d'impayés de loyer.",
+     "src": "sujet_logement_senat_loi2023",
+     "iso": "2023-07-27"
     }
    ],
    "decide": [
@@ -7341,24 +7345,28 @@
    ],
    "recent": [
     {
-     "date": "14 avr. 2023",
-     "txt": "La loi de financement rectificative de la sécurité sociale pour 2023 prévoit le relèvement de l'âge légal de départ à la retraite à 64 ans au lieu de 62 ans.",
-     "src": "sujet_retraites_senat_2023"
-    },
-    {
-     "date": "30 déc. 2025",
-     "txt": "La loi de financement de la sécurité sociale pour 2026 est promulguée. Elle suspend jusqu'en 2028 le relèvement de l'âge légal et l'augmentation de la durée d'assurance de la réforme de 2023. Le COR chiffre cette suspension à 1,8 milliard d'euros en moyenne en année pleine jusqu'en 2032.",
-     "src": "sujet_retraites_sp_suspension"
+     "date": "7 mai 2026",
+     "txt": "Le décret n° 2026-344 du 7 mai 2026, publié au Journal officiel du 8 mai, tire les conséquences de la loi de financement de la sécurité sociale pour 2026 sur les conditions de départ à la retraite de certains assurés. La suspension est entrée en vigueur pour les pensions prenant effet à compter du 1er septembre 2026.",
+     "src": "sujet_retraites_an_qe15271",
+     "iso": "2026-05-07"
     },
     {
      "date": "1er janv. 2026",
      "txt": "Les pensions de retraite de base augmentent de 0,9 %.",
-     "src": "sujet_retraites_sp_revalo"
+     "src": "sujet_retraites_sp_revalo",
+     "iso": "2026-01-01"
     },
     {
-     "date": "7 mai 2026",
-     "txt": "Le décret n° 2026-344 du 7 mai 2026, publié au Journal officiel du 8 mai, tire les conséquences de la loi de financement de la sécurité sociale pour 2026 sur les conditions de départ à la retraite de certains assurés. La suspension est entrée en vigueur pour les pensions prenant effet à compter du 1er septembre 2026.",
-     "src": "sujet_retraites_an_qe15271"
+     "date": "30 déc. 2025",
+     "txt": "La loi de financement de la sécurité sociale pour 2026 est promulguée. Elle suspend jusqu'en 2028 le relèvement de l'âge légal et l'augmentation de la durée d'assurance de la réforme de 2023. Le COR chiffre cette suspension à 1,8 milliard d'euros en moyenne en année pleine jusqu'en 2032.",
+     "src": "sujet_retraites_sp_suspension",
+     "iso": "2025-12-30"
+    },
+    {
+     "date": "14 avr. 2023",
+     "txt": "La loi de financement rectificative de la sécurité sociale pour 2023 prévoit le relèvement de l'âge légal de départ à la retraite à 64 ans au lieu de 62 ans.",
+     "src": "sujet_retraites_senat_2023",
+     "iso": "2023-04-14"
     }
    ],
    "decide": [
@@ -7456,24 +7464,28 @@
    ],
    "recent": [
     {
-     "date": "1er janv. 2024",
-     "txt": "En application de la loi du 18 décembre 2023 pour le plein emploi, France Travail est progressivement déployé à partir du 1er janvier 2024 pour remplacer Pôle emploi.",
-     "src": "sujet_travail_sp_france_travail"
-    },
-    {
-     "date": "1er avr. 2026",
-     "txt": "Les salariés privés d'emploi indemnisés pour la première fois par l'Assurance chômage peuvent y accéder avec 5 mois de travail (108 jours ou 758 heures) dans les 24 ou 36 derniers mois, s'ils n'ont pas été admis à l'allocation chômage (ARE) dans les vingt années précédentes.",
-     "src": "sujet_travail_unedic_primo"
+     "date": "1er sept. 2026",
+     "txt": "Pour les contrats rompus par rupture conventionnelle individuelle à partir du 1er septembre 2026, la durée maximale d'indemnisation est de 15 mois avant 55 ans et de 20,5 mois à partir de 55 ans (avenant n° 2 à la convention d'assurance chômage du 15 novembre 2024).",
+     "src": "sujet_travail_unedic_sept2026",
+     "iso": "2026-09-01"
     },
     {
      "date": "1er juin 2026",
      "txt": "Le Smic horaire brut passe de 12,02 € à 12,31 € (+2,41 %), une revalorisation automatique car les prix à la consommation ont augmenté d'au moins 2 % (arrêté du 22 mai 2026).",
-     "src": "sujet_travail_sp_smic_juin"
+     "src": "sujet_travail_sp_smic_juin",
+     "iso": "2026-06-01"
     },
     {
-     "date": "1er sept. 2026",
-     "txt": "Pour les contrats rompus par rupture conventionnelle individuelle à partir du 1er septembre 2026, la durée maximale d'indemnisation est de 15 mois avant 55 ans et de 20,5 mois à partir de 55 ans (avenant n° 2 à la convention d'assurance chômage du 15 novembre 2024).",
-     "src": "sujet_travail_unedic_sept2026"
+     "date": "1er avr. 2026",
+     "txt": "Les salariés privés d'emploi indemnisés pour la première fois par l'Assurance chômage peuvent y accéder avec 5 mois de travail (108 jours ou 758 heures) dans les 24 ou 36 derniers mois, s'ils n'ont pas été admis à l'allocation chômage (ARE) dans les vingt années précédentes.",
+     "src": "sujet_travail_unedic_primo",
+     "iso": "2026-04-01"
+    },
+    {
+     "date": "1er janv. 2024",
+     "txt": "En application de la loi du 18 décembre 2023 pour le plein emploi, France Travail est progressivement déployé à partir du 1er janvier 2024 pour remplacer Pôle emploi.",
+     "src": "sujet_travail_sp_france_travail",
+     "iso": "2024-01-01"
     }
    ],
    "decide": [
@@ -7573,24 +7585,28 @@
    ],
    "recent": [
     {
-     "date": "27 déc. 2023",
-     "txt": "La loi n° 2023-1268 visant à améliorer l'accès aux soins par l'engagement territorial des professionnels est promulguée. Elle modifie l'organisation territoriale de l'offre de soins et comporte des mesures sur les études de santé et les hôpitaux.",
-     "src": "sujet_sante_senat_loi2023"
-    },
-    {
-     "date": "30 déc. 2025",
-     "txt": "La loi n° 2025-1403 de financement de la sécurité sociale pour 2026 est promulguée, après son adoption définitive par l'Assemblée nationale le 16 décembre 2025.",
-     "src": "sujet_sante_senat_lfss2026"
+     "date": "1er oct. 2026",
+     "txt": "Le plafond annuel des participations forfaitaires passe de 50 € à 70 €, et celui des franchises médicales aussi, selon l'Assurance Maladie.",
+     "src": "sujet_sante_ameli_plafonds",
+     "iso": "2026-10-01"
     },
     {
      "date": "1er juil. 2026",
      "txt": "Le congé supplémentaire de naissance est effectif : il dure 1 ou 2 mois au choix, pour la mère, le père ou le conjoint ou la conjointe de la mère, et doit débuter dans les 9 mois suivant la naissance ou l'arrivée de l'enfant au foyer.",
-     "src": "sujet_sante_ameli_conge"
+     "src": "sujet_sante_ameli_conge",
+     "iso": "2026-07-01"
     },
     {
-     "date": "1er oct. 2026",
-     "txt": "Le plafond annuel des participations forfaitaires passe de 50 € à 70 €, et celui des franchises médicales aussi, selon l'Assurance Maladie.",
-     "src": "sujet_sante_ameli_plafonds"
+     "date": "30 déc. 2025",
+     "txt": "La loi n° 2025-1403 de financement de la sécurité sociale pour 2026 est promulguée, après son adoption définitive par l'Assemblée nationale le 16 décembre 2025.",
+     "src": "sujet_sante_senat_lfss2026",
+     "iso": "2025-12-30"
+    },
+    {
+     "date": "27 déc. 2023",
+     "txt": "La loi n° 2023-1268 visant à améliorer l'accès aux soins par l'engagement territorial des professionnels est promulguée. Elle modifie l'organisation territoriale de l'offre de soins et comporte des mesures sur les études de santé et les hôpitaux.",
+     "src": "sujet_sante_senat_loi2023",
+     "iso": "2023-12-27"
     }
    ],
    "decide": [

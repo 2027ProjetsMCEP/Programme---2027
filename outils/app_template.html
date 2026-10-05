@@ -437,6 +437,8 @@ h3.sub { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; lette
 .ic-s { width: 34px; height: 34px; flex: none; border-radius: 10px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
 .card.kit .blk:first-child { border-top: 0; padding-top: 0; }
 /* Page d'un sujet */
+.jump { justify-self: start; border: 1px solid var(--line); background: var(--bleu-soft); color: var(--bleu); font-weight: 600; font-size: 0.84rem; border-radius: 12px; padding: 8px 12px; cursor: pointer; text-align: left; line-height: 1.35; }
+#comprendre, #parcours { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h) + 12px); }
 .plist { margin: 0; padding-left: 18px; display: grid; gap: 8px; font-size: 0.95rem; color: var(--ink-2); }
 .plist.q li::marker { content: "? "; color: var(--bleu); font-weight: 800; }
 .tl { display: grid; gap: 10px; }
@@ -733,11 +735,12 @@ function screenCandidat(id) {
     ${statut(c)}
     <p class="lead">${esc(c.statutTxt)}.</p>
     <div class="stats"><div><b>${ps.length}</b><span>propositions</span></div><div><b>${ps.filter(p => p.fin === "f" || p.fin === "c").length}</b><span>chiffrées</span></div><div><b>${themes.length}</b><span>sujets sur ${DATA.themes.length}</span></div></div>
+    ${pc ? `<button class="jump" type="button" data-jump="parcours">Lire son parcours ↓</button>` : ""}
     <p class="credit">${photoCredit(c)}</p>
   </section>
-  ${pc ? `<section class="card parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>` : ""}
   ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="props">${ps.filter(p => p.th === k).map(propItem).join("")}</div></section>`).join("")}
   ${silent.length ? `<p class="silent" style="padding-inline:4px">Pas encore de proposition publique sur : ${silent.map(esc).join(", ")}.</p>` : ""}
+  ${pc ? `<section class="card parcours" id="parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>` : ""}
   ${c.docs.length ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
   ${c.faits.length ? `<section class="card"><h2>À savoir</h2><div class="prose">${c.faits.map(([t, s]) => `<p>${esc(t)} <span class="small">(${ext(SRC[s].u, esc(SRC[s].p))})</span></p>`).join("")}</div></section>` : ""}
   ${press.length ? `<section class="card"><h2>Dans l'actu</h2><div class="rows news">${press.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}`;
@@ -855,19 +858,21 @@ function screenTheme(k) {
   const comprendre = S ? `
   <section class="card"><h2>En 30 secondes</h2><p class="lead">${esc(S.trente.txt)}${S.trente.src.map(X.ref).join("")}</p></section>
   ${S.chiffres && S.chiffres.length ? `<section class="card"><h2>Les chiffres clés</h2><div class="figs">${S.chiffres.map(f => `<div><b>${esc(f.v)}</b><span>${esc(f.l)}${X.ref(f.src)}</span></div>`).join("")}</div></section>` : ""}
-  ${S.recent && S.recent.length ? `<section class="card"><h2>Ce qui a changé récemment</h2><div class="tl">${S.recent.map(r => `<div><b>${esc(r.date)}</b><span>${esc(r.txt)}${X.ref(r.src)}</span></div>`).join("")}</div></section>` : ""}
+  ${S.recent && S.recent.length ? `<section class="card"><h2>Ce qui a changé récemment</h2><div class="tl">${S.recent.slice().sort((a, b) => String(b.iso || b.date).localeCompare(String(a.iso || a.date))).map(r => `<div><b>${esc(r.date)}</b><span>${esc(r.txt)}${X.ref(r.src)}</span></div>`).join("")}</div></section>` : ""}
   ${S.decide && S.decide.length ? `<section class="card"><h2>Qui décide ?</h2>${list(S.decide)}<a class="link" href="#kit-promesse">Lire une promesse de campagne${ARW}</a></section>` : ""}
   ${S.jeunes && S.jeunes.length ? `<section class="card"><h2>Pour les 18-30 ans</h2>${list(S.jeunes)}</section>` : ""}
   ${S.questions && S.questions.length ? `<section class="card"><h2>Les grandes questions du débat</h2><p class="small">Les questions que posent les rapports officiels sur ce sujet. Les propositions des candidats, plus bas, y répondent chacune à sa façon.</p>${list(S.questions, "q")}</section>` : ""}
   ${S.lire && S.lire.length ? `<section class="card"><h2>Pour aller plus loin</h2><div class="rows">${S.lire.filter(id => SRC[id]).map(id => `<a class="row" href="${esc(SRC[id].u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(SRC[id].t)}</b><span>${esc(SRC[id].p)} · ${esc(fmtDate(SRC[id].d))}</span></span>${EXT}</a>`).join("")}</div></section>` : ""}
   <details class="srcs card"><summary>Les sources de cette fiche</summary>${X.list()}</details>` : `<section class="card"><p class="lead">La fiche « Comprendre le sujet », avec la situation actuelle en chiffres officiels, est en préparation pour ce thème.</p></section>`;
   return `
-  <div class="page-h"><span class="kick">${svg(k)} Comprendre le sujet</span><h1>${esc(THEME_NAME[k])}</h1></div>
+  <div class="page-h"><span class="kick">${svg(k)} Sujet</span><h1>${esc(THEME_NAME[k])}</h1>
+    ${S ? `<button class="jump" type="button" data-jump="comprendre">Comprendre le sujet : chiffres clés, ce qui a changé, ce qui vous concerne ↓</button>` : ""}</div>
   ${k === "budget" && DATA.budget ? `<a class="more-btn as-link" href="#budget">Le budget en une image${ARW}</a>` : ""}
-  ${comprendre}
   <div class="sec-h col"><h2>Ce que proposent les candidats</h2></div>
   ${themeAll(k)}
-  <button class="more-btn" type="button" data-mode="deux" data-keepth="1">Comparer deux candidats sur ce sujet</button>`;
+  <button class="more-btn" type="button" data-mode="deux" data-keepth="1">Comparer deux candidats sur ce sujet</button>
+  <div class="sec-h col" id="comprendre"><h2>Comprendre le sujet</h2><p class="lead">La situation aujourd'hui, avec des chiffres officiels.</p></div>
+  ${comprendre}`;
 }
 
 function themeAll(k) {
@@ -1110,6 +1115,7 @@ app.addEventListener("click", e => {
   else if (t.dataset.act === "refeed") { ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); }
   else if (t.dataset.mode) { ui.cmpMode = t.dataset.mode; if (!t.dataset.keepth && ui.cmpMode === "deux") ui.cmpTh = "tous"; if (location.hash !== "#comparer") location.hash = "#comparer"; else rerender(); }
   else if (t.dataset.th) { ui.cmpTh = t.dataset.th; rerender(); }
+  else if (t.dataset.jump) { const el = document.getElementById(t.dataset.jump); if (el) el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); }
   else if (t.dataset.srcg) { ui.srcG = t.dataset.srcg; rerender(); }
   else if (t.dataset.feedth) { ui.feedTh = t.dataset.feedth; ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); const c = document.querySelector(`[data-feedth="${ui.feedTh}"]`); if (c) c.scrollIntoView({ inline: "center", block: "nearest" }); }
   else if (t.dataset.yt) { const m = t.closest(".reel-media"); if (m) m.innerHTML = ytEmbed(t.dataset.yt, t.dataset.title || "Vidéo"); }
