@@ -12,7 +12,7 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <meta name="apple-mobile-web-app-title" content="Programmes 2027">
-<style>html{padding-top:env(safe-area-inset-top,0px);-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}</style>
+<style>html{-webkit-text-size-adjust:100%}body{margin:0}img{max-width:100%}</style>
 <title>Programmes 2027</title>
 <meta name="description" content="Les programmes des candidats à la présidentielle 2027, l'actu de la campagne et les sondages, en clair et avec les sources.">
 
@@ -73,7 +73,9 @@ p { margin: 0; }
 .flag i:nth-child(1) { background: var(--flag-b); } .flag i:nth-child(2) { background: var(--flag-w); } .flag i:nth-child(3) { background: var(--flag-r); }
 
 /* Barre du haut */
-.bar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; height: var(--bar-h); display: flex; align-items: center; gap: 8px; padding-inline: 12px 16px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(1.5) blur(12px); -webkit-backdrop-filter: saturate(1.5) blur(12px); border-bottom: 1px solid transparent; }
+/* Le bloc du haut (bande tricolore + barre) reste collé en haut ; son fond opaque couvre aussi la zone de l'heure sur iPhone */
+.top { position: sticky; top: 0; z-index: 20; padding-top: env(safe-area-inset-top, 0px); background: var(--bg); }
+.bar { position: relative; height: var(--bar-h); display: flex; align-items: center; gap: 8px; padding-inline: 12px 16px; background: color-mix(in srgb, var(--bg) 88%, transparent); backdrop-filter: saturate(1.5) blur(12px); -webkit-backdrop-filter: saturate(1.5) blur(12px); border-bottom: 1px solid transparent; }
 .bar.scrolled { border-bottom-color: var(--line); }
 .bar .back { width: 38px; height: 38px; border: 0; border-radius: 50%; background: transparent; display: grid; place-items: center; cursor: pointer; flex: none; }
 .bar .back:hover { background: var(--chip); }
@@ -218,7 +220,7 @@ a.cand-h:hover b { color: var(--bleu); }
 .chips::-webkit-scrollbar { display: none; }
 .chip { flex: none; border: 0; border-radius: 999px; padding: 8px 13px; background: var(--card); border: 1px solid var(--line); font-size: 0.86rem; font-weight: 600; color: var(--ink-2); cursor: pointer; }
 .chip[aria-pressed="true"] { background: var(--ink); border-color: var(--ink); color: var(--card); }
-.cmp-head { position: sticky; top: calc(env(safe-area-inset-top, 0px) + var(--bar-h)); z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: var(--bg); padding-block: 6px; }
+.cmp-head { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 3px + var(--bar-h)); z-index: 5; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; background: var(--bg); padding-block: 6px; }
 .cmp-head div { display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 0.9rem; min-width: 0; }
 .cmp-head div span { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .cmp-grid { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1fr); gap: 10px; }
@@ -368,7 +370,11 @@ body.locked { overflow: hidden; }
 .blk h3 { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); }
 .blk p { font-size: 0.96rem; color: var(--ink-2); }
 .blk .warn { font-size: 0.86rem; color: var(--warn); background: var(--warn-soft); border-radius: 10px; padding: 8px 10px; }
-.blk .row .txt b { font-size: 0.9rem; overflow-wrap: anywhere; }
+.src-list { display: grid; gap: 8px; }
+.src-li { display: grid; gap: 1px; font-size: 0.76rem; line-height: 1.35; color: var(--ink-3); text-decoration: none; min-width: 0; }
+.src-li b { color: var(--ink-2); font-weight: 600; }
+.src-li .t { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 2px; }
+.src-li:hover .t { color: var(--bleu); }
 @media (prefers-reduced-motion: no-preference) { .sheet-bg { animation: fade .18s ease-out; } .sheet { animation: up .26s cubic-bezier(.2, .8, .2, 1); } @keyframes fade { from { opacity: 0; } } @keyframes up { from { transform: translateY(48px); opacity: .5; } } }
 /* Sources */
 .card > h2 .cnt { font-family: var(--f-body); font-size: 0.78rem; font-weight: 700; color: var(--ink-3); background: var(--chip); border-radius: 999px; padding: 2px 9px; }
@@ -379,12 +385,14 @@ body.locked { overflow: hidden; }
 </head>
 <body>
 <div class="app">
+  <div class="top">
   <div class="flag" aria-hidden="true"><i></i><i></i><i></i></div>
   <header class="bar" id="bar">
     <button class="back" id="back" type="button" aria-label="Retour" hidden><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round"><path d="M15 5l-7 7 7 7"/></svg></button>
     <div class="ttl" id="ttl"></div>
     <span class="jx" id="jx"></span>
   </header>
+  </div>
   <main id="app"></main>
 </div>
 <nav class="nav" aria-label="Onglets">
@@ -820,9 +828,10 @@ function screenSources() {
 /* ---------- « Aller plus loin » : la fiche d'une proposition, qui monte du bas de l'écran ---------- */
 function moreHtml(p) {
   const c = CAND[p.c], x = p.plus || {};
+  const others = new Set(DATA.propositions.filter(q => q.th === p.th && q.c !== p.c).map(q => q.c)).size;
   const cite = id => SRC[id] ? ` <span class="s">Source : ${ext(SRC[id].u, esc(SRC[id].p))}${SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : ""}</span>` : "";
   const ctx = (x.auj || []).map(k => DATA.contexte && DATA.contexte[k]).filter(Boolean);
-  const srcRow = id => { const s = SRC[id]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(KIND[s.type] || "")} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; };
+  const srcRow = id => { const s = SRC[id]; return `<a class="src-li" href="${esc(s.u)}" target="_blank" rel="noopener"><span><b>${esc(s.p)}</b> · ${esc(KIND[s.type] || "")} · ${esc(fmtDate(s.d))}</span><span class="t">${esc(s.t)}</span></a>`; };
   return `<div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
     <span class="grab" aria-hidden="true"></span>
     <div class="sheet-h">
@@ -837,7 +846,8 @@ function moreHtml(p) {
     ${x.change ? `<div class="blk"><h3>Ce que ça changerait</h3><p>${esc(x.change)}</p></div>` : ""}
     ${x.pourquoi ? `<div class="blk"><h3>Ce qu'en dit ${esc(c.nom)}</h3><p>${esc(x.pourquoi[0])}${cite(x.pourquoi[1])}</p></div>` : ""}
     <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(FIN_HELP[p.fin] || "")}</p>${amount(p.a)}${finText(p)}</div>
-    <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="rows">${allSrc(p).map(srcRow).join("")}</div></div>
+    ${others ? `<a class="more-btn as-link" href="#t-${p.th}">Ce que proposent les ${others} autres candidats sur ce sujet${ARW}</a>` : ""}
+    <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${allSrc(p).map(srcRow).join("")}</div></div>
     ${p.plus ? "" : `<p class="small">Bientôt dans cette fiche : la situation actuelle avec un chiffre officiel, et ce que la proposition changerait concrètement.</p>`}
   </div>`;
 }
