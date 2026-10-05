@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-04",
+ "maj": "2026-10-05",
  "version": 3,
  "base": "2026-10-01",
  "themes": [
@@ -80,6 +80,55 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Nathalie_Arthaud_(LO)_19-05-2024.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Enseignante, Nathalie Arthaud est porte-parole de Lutte ouvrière depuis 2008. Elle a été candidate à l'élection présidentielle en 2012, en 2017 et en 2022.",
+     [
+      "bio_arthaud_afp2026"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Nathalie Arthaud est née en 1970.",
+        "bio_arthaud_europe1"
+       ],
+       [
+        "Titulaire d'un Capes et d'une agrégation d'économie et de gestion, elle a enseigné en région Rhône-Alpes, puis en Seine-Saint-Denis.",
+        "bio_arthaud_europe1"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Elle a été conseillère municipale de Vaulx-en-Velin de 2008 à 2014.",
+        "bio_arthaud_lyoncapitale2022"
+       ],
+       [
+        "En décembre 2008, elle a remplacé Arlette Laguiller comme porte-parole de Lutte ouvrière.",
+        "bio_arthaud_afp2026"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Enseignante, elle est porte-parole de Lutte ouvrière.",
+        "bio_arthaud_afp2026"
+       ],
+       [
+        "Elle a déjà été candidate à l'élection présidentielle en 2012, en 2017 et en 2022.",
+        "bio_arthaud_afp2026"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -99,6 +148,65 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien Premier ministre (2024) et ancien ministre de l'Éducation nationale, Gabriel Attal est député des Hauts-de-Seine, président du groupe Ensemble pour la République à l'Assemblée nationale et secrétaire général de Renaissance.",
+     [
+      "bio_attal_gouv",
+      "bio_attal_an",
+      "bio_attal_publicsenat"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Gabriel Attal est né en 1989 à Clamart (Hauts-de-Seine).",
+        "bio_attal_an"
+       ],
+       [
+        "Titulaire d'une licence de droit et diplômé de Sciences Po Paris, il a travaillé de 2012 à 2017 au cabinet de Marisol Touraine, ministre de la Santé.",
+        "bio_attal_etudiant"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été nommé porte-parole du gouvernement de Jean Castex en juillet 2020, avec le titre de secrétaire d'État auprès du Premier ministre.",
+        "bio_attal_castex"
+       ],
+       [
+        "Il est devenu ministre délégué chargé des Comptes publics dans le gouvernement d'Élisabeth Borne en 2022.",
+        "bio_attal_borne2022"
+       ],
+       [
+        "En juillet 2023, il a été nommé ministre de l'Éducation nationale et de la Jeunesse dans le gouvernement d'Élisabeth Borne remanié.",
+        "bio_attal_borne2023"
+       ],
+       [
+        "Il a été Premier ministre de janvier à septembre 2024.",
+        "bio_attal_gouv"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député des Hauts-de-Seine et préside le groupe Ensemble pour la République à l'Assemblée nationale.",
+        "bio_attal_an"
+       ],
+       [
+        "Il est secrétaire général de Renaissance.",
+        "bio_attal_publicsenat"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -126,6 +234,65 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Nicolas_Dupont-Aignan,_homme_politique_fran%C3%A7ais.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Président de Debout la France et maire d'Yerres (Essonne), Nicolas Dupont-Aignan a été député de 1997 à 2024. Il a été candidat à l'élection présidentielle en 2012, 2017 et 2022.",
+     [
+      "bio_dupont-aignan_dlf",
+      "bio_dupont-aignan_jdy",
+      "bio_dupont-aignan_an"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Nicolas Dupont-Aignan est né en 1961 à Paris.",
+        "bio_dupont-aignan_an"
+       ],
+       [
+        "Après des études à Sciences Po puis à l'ENA, il a été sous-préfet et a brièvement travaillé dans un cabinet ministériel.",
+        "bio_dupont-aignan_dlf"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été élu maire d'Yerres (Essonne) dès le premier tour en 1995.",
+        "bio_dupont-aignan_dlf"
+       ],
+       [
+        "Il a été député de 1997 à 2024.",
+        "bio_dupont-aignan_dlf"
+       ],
+       [
+        "Il a fondé en 1999 le club de réflexion Debout la République, transformé en 2008 en parti politique, Debout la France.",
+        "bio_dupont-aignan_dlf"
+       ],
+       [
+        "Il a de nouveau été élu maire d'Yerres en 2026.",
+        "bio_dupont-aignan_dlf"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est maire d'Yerres.",
+        "bio_dupont-aignan_jdy"
+       ],
+       [
+        "Président de Debout la France, il s'est présenté à l'élection présidentielle en 2012, 2017 et 2022.",
+        "bio_dupont-aignan_dlf"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -148,6 +315,64 @@
     "l": "Réutilisation autorisée avec mention de la source",
     "lu": "https://www.europarl.europa.eu/legal-notice/",
     "u": "https://commons.wikimedia.org/wiki/File:1720448398743_20240708_GLUCKSMANN_Raphael_FR_006.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Député européen depuis 2019, Raphaël Glucksmann a fondé le mouvement Place publique en novembre 2018.",
+     [
+      "bio_glucksmann_pp",
+      "bio_glucksmann_lcp"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Raphaël Glucksmann est né en 1979.",
+        "bio_glucksmann_sud"
+       ],
+       [
+        "Étudiant à Sciences Po de 1999 à 2003, il a ensuite réalisé plusieurs documentaires journalistiques.",
+        "bio_glucksmann_sud"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été conseiller spécial de Mikheil Saakachvili, président de la Géorgie de 2004 à 2013.",
+        "bio_glucksmann_sud"
+       ],
+       [
+        "Il a fondé le mouvement Place publique en novembre 2018.",
+        "bio_glucksmann_pp"
+       ],
+       [
+        "Tête de liste de Place publique et du Parti socialiste aux élections européennes de 2019, il a été élu député européen.",
+        "bio_glucksmann_sud"
+       ],
+       [
+        "Selon le dossier de presse de Place publique de juin 2025, il co-préside le mouvement avec Aurore Lalucq.",
+        "bio_glucksmann_pp"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député européen.",
+        "bio_glucksmann_lcp"
+       ],
+       [
+        "Le 23 août 2026, il a annoncé sa candidature à la primaire des socialistes et de Place publique.",
+        "bio_glucksmann_sud"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -172,6 +397,64 @@
     "l": "Domaine public",
     "lu": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D0%B8%D0%BD_%D0%9B%D0%B5_%D0%9F%D0%B5%D0%BD_(28-01-2022).jpg",
     "u": "https://commons.wikimedia.org/wiki/File:%D0%9C%D0%B0%D1%80%D0%B8%D0%BD_%D0%9B%D0%B5_%D0%9F%D0%B5%D0%BD_(28-01-2022).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Marine Le Pen est députée du Pas-de-Calais et présidente du groupe Rassemblement national à l'Assemblée nationale. Elle a été députée européenne de 2004 à 2017 et a pris la direction du Front national en 2011.",
+     [
+      "bio_le-pen_an",
+      "bio_le-pen_europe1"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Marine Le Pen est née en 1968 à Neuilly-sur-Seine (Hauts-de-Seine).",
+        "bio_le-pen_an"
+       ],
+       [
+        "Avocate, elle est entrée au barreau de Paris en 1992.",
+        "bio_le-pen_larousse"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Elle a été députée européenne de 2004 à 2017 et a repris la direction du Front national en 2011.",
+        "bio_le-pen_europe1"
+       ],
+       [
+        "Elle a été élue députée du Pas-de-Calais (11e circonscription) le 18 juin 2017.",
+        "bio_le-pen_anfonc"
+       ],
+       [
+        "Le 7 juillet 2026, la cour d'appel de Paris l'a condamnée, dans l'affaire des assistants parlementaires, à 45 mois d'inéligibilité dont 30 avec sursis.",
+        "bio_le-pen_lcp0707"
+       ],
+       [
+        "Elle a formé un pourvoi en cassation ; la Cour de cassation a indiqué qu'elle pourrait se prononcer « au plus tard début avril 2027 », calendrier susceptible d'évoluer.",
+        "bio_le-pen_lcp0708"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle est députée du Pas-de-Calais et présidente du groupe Rassemblement national à l'Assemblée nationale.",
+        "bio_le-pen_an"
+       ],
+       [
+        "Elle a été candidate à l'élection présidentielle en 2012, 2017 et 2022.",
+        "bio_le-pen_psenat2022"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -196,6 +479,66 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:M%C3%A9lenchon_2027_-_55262255527_(cropped_3-4).png"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien ministre délégué à l'Enseignement professionnel (2000-2002), sénateur de l'Essonne puis député des Bouches-du-Rhône (2017-2022), Jean-Luc Mélenchon est le candidat de La France insoumise à l'élection présidentielle de 2027.",
+     [
+      "bio_melenchon_psenat2017",
+      "bio_melenchon_senat",
+      "bio_melenchon_anfonc",
+      "bio_melenchon_brut"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Né le 19 août 1951 à Tanger (Maroc), Jean-Luc Mélenchon est professeur de profession.",
+        "bio_melenchon_an"
+       ],
+       [
+        "Philosophe de formation, il a été militant étudiant à Besançon dans les années 1970.",
+        "bio_melenchon_psenat2017"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été sénateur de l'Essonne de 1986 à avril 2000, puis de 2004 à janvier 2010, date de son départ du Sénat après son élection comme député européen.",
+        "bio_melenchon_senat"
+       ],
+       [
+        "Entre 2000 et 2002, il a été ministre délégué à l'Enseignement professionnel dans le gouvernement de Lionel Jospin.",
+        "bio_melenchon_psenat2017"
+       ],
+       [
+        "Il a quitté le Parti socialiste en novembre 2008 pour créer le Parti de gauche.",
+        "bio_melenchon_lfi"
+       ],
+       [
+        "Il a été député des Bouches-du-Rhône du 21 juin 2017 au 21 juin 2022 et a présidé le groupe La France insoumise du 27 juin 2017 au 11 octobre 2021.",
+        "bio_melenchon_anfonc"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est le candidat de La France insoumise à l'élection présidentielle de 2027.",
+        "bio_melenchon_brut"
+       ],
+       [
+        "Il a été candidat à l'élection présidentielle en 2012, 2017 et 2022.",
+        "bio_melenchon_psenat2022"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -213,6 +556,65 @@
     "l": "CC BY-SA 2.0",
     "lu": "https://creativecommons.org/licenses/by-sa/2.0",
     "u": "https://commons.wikimedia.org/wiki/File:%C3%89douard_Philippe_-_2021_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien Premier ministre (2017-2020), Édouard Philippe est maire du Havre et président d'Horizons, parti qu'il a lancé en 2021.",
+     [
+      "bio_philippe_gouv",
+      "bio_philippe_lcp",
+      "bio_philippe_europe1"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Édouard Philippe est né le 28 novembre 1970 à Rouen (Seine-Maritime).",
+        "bio_philippe_gouv"
+       ],
+       [
+        "Passé par Sciences Po Paris puis par l'ENA (promotion « Marc Bloch »), il a été nommé au Conseil d'État à sa sortie.",
+        "bio_philippe_gouv"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Adjoint au maire du Havre dès 2001, il a été directeur général de l'UMP en 2002, puis conseiller régional de Haute-Normandie de 2004 à 2008.",
+        "bio_philippe_gouv"
+       ],
+       [
+        "Il a été élu maire du Havre par le conseil municipal en 2010.",
+        "bio_philippe_gouv"
+       ],
+       [
+        "Il a été député de la Seine-Maritime (7e circonscription) jusqu'au 15 juin 2017, mandat clos par sa nomination comme membre du Gouvernement.",
+        "bio_philippe_an"
+       ],
+       [
+        "Il a été Premier ministre d'Emmanuel Macron de mai 2017 à juillet 2020.",
+        "bio_philippe_gouv"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il a été réélu maire du Havre le 22 mars 2026.",
+        "bio_philippe_lcp0322"
+       ],
+       [
+        "Il est président d'Horizons.",
+        "bio_philippe_lcp"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -235,6 +637,67 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien ministre d'État, ministre de l'Intérieur (2024-2025), Bruno Retailleau est sénateur de la Vendée et président des Républicains. Il a présidé le groupe UMP puis LR au Sénat de 2014 à 2024.",
+     [
+      "bio_retailleau_infogouv",
+      "bio_retailleau_senat",
+      "bio_retailleau_lr",
+      "bio_retailleau_psenat0401",
+      "bio_retailleau_psenat1112"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Bruno Retailleau est né le 20 novembre 1960 à Cholet (Maine-et-Loire).",
+        "bio_retailleau_infogouv"
+       ],
+       [
+        "Il est diplômé de l'Institut d'études politiques de Paris et titulaire d'une maîtrise de sciences économiques.",
+        "bio_retailleau_infogouv"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Député de la Vendée de 1994 à 1997 puis sénateur dès 2004, il a présidé le conseil général de la Vendée (2010-2015) puis la région Pays de la Loire (2016-2017).",
+        "bio_retailleau_infogouv"
+       ],
+       [
+        "Le 21 septembre 2024, il est devenu ministre de l'Intérieur dans le gouvernement de Michel Barnier.",
+        "bio_retailleau_barnier"
+       ],
+       [
+        "Il a ensuite été ministre d'État, ministre de l'Intérieur, dans le gouvernement de François Bayrou, annoncé le 23 décembre 2024.",
+        "bio_retailleau_bayrou"
+       ],
+       [
+        "Il a occupé la même fonction dans le gouvernement de Sébastien Lecornu, annoncé le 5 octobre 2025.",
+        "bio_retailleau_lecornu"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Redevenu sénateur de la Vendée le 13 novembre 2025, il a été réélu le 27 septembre 2026.",
+        "bio_retailleau_senat"
+       ],
+       [
+        "Il préside Les Républicains, dont il a été élu président le 18 mai 2025.",
+        "bio_retailleau_lr"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -264,6 +727,65 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Roussel_Fabien_1.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Secrétaire national du Parti communiste français depuis 2018 et maire de Saint-Amand-les-Eaux, Fabien Roussel a été député du Nord de 2017 à 2024.",
+     [
+      "bio_roussel_pcf",
+      "bio_roussel_sycomore",
+      "bio_roussel_vieamandinoise"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Fabien Roussel est né le 16 avril 1969 à Béthune (Pas-de-Calais).",
+        "bio_roussel_sycomore"
+       ],
+       [
+        "Après une formation de journaliste-cameraman, il a exercé cette profession, puis a travaillé auprès de Michelle Demessine, secrétaire d'État au Tourisme de 1997 à 2001.",
+        "bio_roussel_pcf"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été élu secrétaire départemental de la fédération du Nord du PCF en 2010, puis conseiller municipal chargé de la culture en 2014.",
+        "bio_roussel_pcf"
+       ],
+       [
+        "Il a été député du Nord du 21 juin 2017 au 9 juin 2024.",
+        "bio_roussel_sycomore"
+       ],
+       [
+        "Il est secrétaire national du Parti communiste français depuis le 25 novembre 2018.",
+        "bio_roussel_pcf"
+       ],
+       [
+        "Maire de Saint-Amand-les-Eaux (Nord) depuis janvier 2025, il a été réélu par le conseil municipal le 22 mars 2026.",
+        "bio_roussel_vieamandinoise"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il a été reconduit au poste de secrétaire national du PCF lors du congrès de Lille, en juillet 2026.",
+        "bio_roussel_brut"
+       ],
+       [
+        "Il a été candidat à l'élection présidentielle de 2022.",
+        "bio_roussel_cc2022"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -288,6 +810,53 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Ruffin_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Journaliste et réalisateur du film « Merci patron ! », François Ruffin est député de la Somme depuis 2017 et président du mouvement Debout !",
+     [
+      "bio_ruffin_europe1",
+      "bio_ruffin_sycomore",
+      "bio_ruffin_lcp0512"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "François Ruffin est né le 18 octobre 1975 à Calais (Pas-de-Calais).",
+        "bio_ruffin_an"
+       ],
+       [
+        "Journaliste, il a été rédacteur en chef du journal Fakir et a réalisé « Merci patron ! », qui a reçu le César du meilleur documentaire en 2017.",
+        "bio_ruffin_europe1"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Député de la Somme depuis le 21 juin 2017, il a siégé dans le groupe La France insoumise jusqu'en 2024, puis dans le groupe Écologiste et social.",
+        "bio_ruffin_sycomore"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député de la Somme (1re circonscription) et siège dans le groupe Écologiste et social de l'Assemblée nationale.",
+        "bio_ruffin_an"
+       ],
+       [
+        "Ancien membre de La France insoumise, il est président du mouvement Debout !",
+        "bio_ruffin_lcp0512"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -317,6 +886,53 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:20210819_tondelier.m-cr3.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Secrétaire nationale des Écologistes depuis décembre 2022, Marine Tondelier a été élue conseillère municipale d'opposition à Hénin-Beaumont en 2014, puis conseillère régionale des Hauts-de-France en 2021.",
+     [
+      "bio_tondelier_europe1",
+      "bio_tondelier_boell",
+      "bio_tondelier_brut"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Marine Tondelier avait 36 ans lors de son élection à la tête du parti, en décembre 2022.",
+        "bio_tondelier_europe1"
+       ],
+       [
+        "Ancienne étudiante de Sciences Po Lille, elle a été assistante parlementaire de Cécile Duflot, puis a travaillé dans une agence environnementale.",
+        "bio_tondelier_europe1"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Membre des Verts depuis 2009, elle est devenue conseillère municipale d'opposition à Hénin-Beaumont en 2014, puis conseillère régionale des Hauts-de-France en 2021.",
+        "bio_tondelier_boell"
+       ],
+       [
+        "Elle a été élue secrétaire nationale d'Europe Écologie Les Verts en décembre 2022, en remplacement de Julien Bayou.",
+        "bio_tondelier_europe1"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle est secrétaire nationale des Écologistes, à la tête du parti depuis 2022.",
+        "bio_tondelier_brut"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -339,6 +955,61 @@
     "l": "CC0 (domaine public)",
     "lu": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
     "u": "https://commons.wikimedia.org/wiki/File:Portrait_d%27%C3%89ric_Zemmour,_avril_2022.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Éric Zemmour est président de Reconquête. Journaliste au Figaro de 1996 à 2009, auteur de plusieurs essais, il a été candidat à l'élection présidentielle de 2022.",
+     [
+      "bio_zemmour_reconquete",
+      "bio_zemmour_europe1",
+      "bio_zemmour_cc2022"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Éric Zemmour est né en 1958 à Montreuil, près de Paris.",
+        "bio_zemmour_europe1"
+       ],
+       [
+        "Diplômé de Sciences Po, il a été journaliste au Quotidien de Paris au tournant des années 1990, puis au Figaro de 1996 à 2009.",
+        "bio_zemmour_europe1"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il s'est fait connaître dans l'émission « On n'est pas couché », sur France 2, entre 2006 et 2011.",
+        "bio_zemmour_europe1"
+       ],
+       [
+        "Il est l'auteur de plusieurs essais, dont « Le Bûcher des vaniteux » (2012), « Le Suicide français » (2014) et « Destin français » (2018).",
+        "bio_zemmour_europe1"
+       ],
+       [
+        "Il a annoncé sa candidature à l'élection présidentielle en décembre 2021 et a baptisé son parti « Reconquête ».",
+        "bio_zemmour_europe1"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est président de Reconquête.",
+        "bio_zemmour_reconquete"
+       ],
+       [
+        "Il a été candidat à l'élection présidentielle de 2022.",
+        "bio_zemmour_cc2022"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -363,6 +1034,61 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_ASSELINEAU.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien inspecteur général des finances et ancien conseiller de Paris, François Asselineau est président-fondateur de l'Union populaire républicaine (UPR). Il a été candidat à l'élection présidentielle de 2017.",
+     [
+      "bio_asselineau_publicsenat",
+      "bio_asselineau_upr",
+      "bio_asselineau_cc2017"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "François Asselineau est né en 1957 à Paris.",
+        "bio_asselineau_upr"
+       ],
+       [
+        "Diplômé d'HEC et de l'ENA, il a été inspecteur général des finances.",
+        "bio_asselineau_publicsenat"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a dirigé les cabinets de Françoise de Panafieu au Tourisme (1995), puis d'Hervé de Charette aux Affaires étrangères (1996-1997).",
+        "bio_asselineau_publicsenat"
+       ],
+       [
+        "Il a été élu conseiller de Paris en 2001, dans le 19e arrondissement.",
+        "bio_asselineau_upr"
+       ],
+       [
+        "Il a fondé l'Union populaire républicaine le 25 mars 2007.",
+        "bio_asselineau_upr"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est président-fondateur de l'Union populaire républicaine.",
+        "bio_asselineau_upr"
+       ],
+       [
+        "Il a été candidat à l'élection présidentielle en 2017.",
+        "bio_asselineau_cc2017"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -382,6 +1108,64 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Delphine_Batho_(cropped).png"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancienne ministre de l'Écologie (2012-2013), Delphine Batho est députée des Deux-Sèvres et présidente du parti Génération écologie.",
+     [
+      "bio_batho_afp",
+      "bio_batho_an"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Delphine Batho est née en 1973 à Paris.",
+        "bio_batho_an"
+       ],
+       [
+        "Elle est cadre territoriale de profession.",
+        "bio_batho_an"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Elle a été élue députée des Deux-Sèvres pour la première fois en 2007.",
+        "bio_batho_sycomore"
+       ],
+       [
+        "En juin 2012, elle est devenue ministre de l'Écologie, du Développement durable et de l'Énergie dans le gouvernement de Jean-Marc Ayrault.",
+        "bio_batho_libre2012"
+       ],
+       [
+        "Elle a quitté le gouvernement le 2 juillet 2013.",
+        "bio_batho_slate2013"
+       ],
+       [
+        "Elle a été candidate à la primaire écologiste en vue de l'élection présidentielle de 2022.",
+        "bio_batho_afp"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle est députée des Deux-Sèvres et siège dans le groupe Écologiste et social à l'Assemblée nationale.",
+        "bio_batho_an"
+       ],
+       [
+        "Elle préside le parti Génération écologie.",
+        "bio_batho_afp"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -404,6 +1188,60 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Olivier_Becht_en_2026_(cropped).png"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien ministre délégué chargé du Commerce extérieur, de l'Attractivité et des Français de l'étranger (2022-2024), Olivier Becht est député du Haut-Rhin, apparenté au groupe Ensemble pour la République, et ancien maire de Rixheim.",
+     [
+      "bio_becht_gouv",
+      "bio_becht_an"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Olivier Becht est né en 1976 à Strasbourg (Bas-Rhin).",
+        "bio_becht_gouv"
+       ],
+       [
+        "Ancien élève de l'ENA (promotion 2002), il a intégré la magistrature administrative.",
+        "bio_becht_gouv"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été maire de Rixheim (Haut-Rhin) jusqu'en 2017 et élu député de la 5e circonscription du Haut-Rhin en 2017.",
+        "bio_becht_gouv"
+       ],
+       [
+        "En 2020, il a créé le groupe Agir ensemble à l'Assemblée nationale et en est devenu le président.",
+        "bio_becht_gouv"
+       ],
+       [
+        "Il est devenu ministre délégué chargé du Commerce extérieur, de l'Attractivité et des Français de l'étranger dans le gouvernement d'Élisabeth Borne en 2022.",
+        "bio_attal_borne2022"
+       ],
+       [
+        "Il a quitté le gouvernement en janvier 2024.",
+        "bio_becht_gouv"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député de la 5e circonscription du Haut-Rhin et apparenté au groupe Ensemble pour la République.",
+        "bio_becht_an"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -426,6 +1264,64 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Xavier_Bertrand_-_2025_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Président de la région Hauts-de-France et ancien ministre (2004-2012), Xavier Bertrand est le fondateur du mouvement Nous France.",
+     [
+      "bio_bertrand_lcp",
+      "bio_bertrand_lcp0803"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Xavier Bertrand est né en 1965 à Châlons-sur-Marne (Marne).",
+        "bio_bertrand_sycomore"
+       ],
+       [
+        "Il a exercé la profession d'agent d'assurance.",
+        "bio_bertrand_an13"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été député de l'Aisne à plusieurs reprises entre 2002 et 2016.",
+        "bio_bertrand_sycomore"
+       ],
+       [
+        "Entre 2004 et 2012, il a été ministre dans les gouvernements de Jean-Pierre Raffarin, Dominique de Villepin et François Fillon.",
+        "bio_bertrand_lcp"
+       ],
+       [
+        "Il a été secrétaire d'État à l'Assurance maladie (2004-2005), ministre de la Santé et des Solidarités (2005-2007), puis ministre du Travail (2007-2009).",
+        "bio_bertrand_an13"
+       ],
+       [
+        "Il a été élu président du conseil régional des Hauts-de-France en 2016.",
+        "bio_bertrand_hdf2016"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il préside la région Hauts-de-France.",
+        "bio_bertrand_lcp"
+       ],
+       [
+        "Il a fondé le mouvement Nous France.",
+        "bio_bertrand_lcp0803"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -448,6 +1344,66 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Karim_Bouamrane_en_2026.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Maire de Saint-Ouen-sur-Seine depuis 2020 et ancien cadre informatique, Karim Bouamrane est membre du Parti socialiste.",
+     [
+      "bio_bouamrane_pv2020",
+      "bio_bouamrane_infofr0519",
+      "bio_bouamrane_infofr0610",
+      "bio_bouamrane_lcp"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Karim Bouamrane est né en 1973 à Clichy (Hauts-de-Seine).",
+        "bio_bouamrane_infofr0610"
+       ],
+       [
+        "Il a été cadre informatique.",
+        "bio_bouamrane_infofr0610"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Conseiller municipal de Saint-Ouen dès 1995, il a d'abord été adjoint communiste à la jeunesse, aux sports, puis aux affaires économiques.",
+        "bio_bouamrane_lcp"
+       ],
+       [
+        "Il a quitté le Parti communiste pour rejoindre le Parti socialiste en 2014.",
+        "bio_bouamrane_lcp"
+       ],
+       [
+        "En 2016, il est devenu l'un des porte-paroles du Parti socialiste.",
+        "bio_bouamrane_lcp"
+       ],
+       [
+        "Le conseil municipal l'a élu maire de Saint-Ouen-sur-Seine le 4 juillet 2020.",
+        "bio_bouamrane_pv2020"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est maire de Saint-Ouen-sur-Seine, réélu en mars 2026.",
+        "bio_bouamrane_infofr0519"
+       ],
+       [
+        "Il est membre du Parti socialiste.",
+        "bio_bouamrane_lcp"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -467,6 +1423,51 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Juan_Branco_dec_2019_face_face_ex_Dir_DGSE_Alain_Juillet_CC_BY_SA.png"
+   },
+   "parcours": {
+    "chapo": [
+     "Docteur en droit, Juan Branco a été candidat aux élections législatives de 2017 en Seine-Saint-Denis. Il a annoncé en décembre 2025 sa candidature à l'élection présidentielle de 2027, portée par le mouvement Les Ruches.",
+     [
+      "bio_branco_a"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Juan Branco est né en 1989.",
+        "bio_branco_a"
+       ],
+       [
+        "Diplômé de Sciences Po Paris (master d'affaires publiques, 2012) puis de l'École normale supérieure (2013), il a soutenu en 2014 une thèse de doctorat en droit.",
+        "bio_branco_a"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été candidat aux élections législatives de 2017 dans la 12e circonscription de Seine-Saint-Denis, avec le soutien de La France insoumise.",
+        "bio_branco_a"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Le 19 décembre 2025, il a annoncé sa candidature à l'élection présidentielle de 2027.",
+        "bio_branco_sud0720"
+       ],
+       [
+        "Cette candidature est portée par Les Ruches, un mouvement organisé en groupes locaux.",
+        "bio_branco_a"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -489,6 +1490,52 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:LOUVIERS_-_4e_circo_Eure_-_Philippe_Brun_nouveau_d%C3%A9put%C3%A9_22_juin_2022_(1)_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Magistrat administratif de profession, Philippe Brun est député de l'Eure et siège parmi les non-inscrits à l'Assemblée nationale. Il a été suspendu du Parti socialiste en septembre 2026.",
+     [
+      "bio_brun_an",
+      "bio_brun_lcp"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Philippe Brun est né en 1991 à Rouen (Seine-Maritime).",
+        "bio_brun_an"
+       ],
+       [
+        "Diplômé de Sciences Po, de l'ENA et d'HEC, il était magistrat au tribunal administratif de Montreuil (Seine-Saint-Denis) en 2022.",
+        "bio_brun_ap"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Conseiller municipal PS d'opposition à Louviers (Eure), il a été élu député de l'Eure en juin 2022.",
+        "bio_brun_ap"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député de la 4e circonscription de l'Eure et siège parmi les non-inscrits à l'Assemblée nationale.",
+        "bio_brun_an"
+       ],
+       [
+        "En septembre 2026, il a été suspendu du PS puis exclu à titre conservatoire du groupe des députés socialistes ; il ne participera pas à la primaire de gauche.",
+        "bio_brun_lcp"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -514,6 +1561,65 @@
     "l": "CC BY-SA 2.0",
     "lu": "https://creativecommons.org/licenses/by-sa/2.0",
     "u": "https://commons.wikimedia.org/wiki/File:Bernard_Cazeneuve,_(42399145362)_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien Premier ministre (2016-2017) et ancien ministre de l'Intérieur, Bernard Cazeneuve est président du mouvement La Convention, qu'il a créé en 2022.",
+     [
+      "bio_cazeneuve_gouv",
+      "bio_cazeneuve_sud",
+      "bio_cazeneuve_lcp"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Bernard Cazeneuve est né en 1963 à Senlis (Oise).",
+        "bio_cazeneuve_gouv"
+       ],
+       [
+        "Il a mené une carrière de juriste avant d'intégrer différents cabinets ministériels au début des années 1990.",
+        "bio_cazeneuve_gouv"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Élu conseiller général de la Manche en 1994, il est devenu maire de Cherbourg-Octeville, puis député de la Manche en 1997.",
+        "bio_cazeneuve_gouv"
+       ],
+       [
+        "Il a été ministre délégué aux Affaires européennes dans le gouvernement de Jean-Marc Ayrault, puis ministre délégué au Budget en mars 2013.",
+        "bio_cazeneuve_tendance"
+       ],
+       [
+        "En 2014, il a été nommé ministre de l'Intérieur dans le gouvernement de Manuel Valls.",
+        "bio_cazeneuve_gouv"
+       ],
+       [
+        "Il a été Premier ministre de décembre 2016 à mai 2017.",
+        "bio_cazeneuve_gouv"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il préside le mouvement La Convention.",
+        "bio_cazeneuve_sud"
+       ],
+       [
+        "Ce mouvement a été créé en 2022.",
+        "bio_cazeneuve_lcp"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -536,6 +1642,60 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Clara_Egger.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Professeure en relations internationales à l'université de Groningen (Pays-Bas), Clara Egger préside le parti Solution démocratique. Elle a présenté en avril 2026 sa candidature à l'élection présidentielle de 2027.",
+     [
+      "bio_egger_sd",
+      "bio_egger_sud"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Clara Egger est née en 1988.",
+        "bio_egger_poligraph"
+       ],
+       [
+        "Native de Vion (Ardèche), elle a enseigné en France, en Suisse et aux Pays-Bas.",
+        "bio_egger_sd"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Elle est professeure en relations internationales à l'université de Groningen, aux Pays-Bas.",
+        "bio_egger_sd"
+       ],
+       [
+        "En 2022, sollicitée par des collectifs citoyens, elle a porté pour la première fois une candidature à l'élection présidentielle.",
+        "bio_egger_sd"
+       ],
+       [
+        "Elle ne figurait pas sur la liste officielle des candidats arrêtée par le Conseil constitutionnel.",
+        "bio_egger_cc2022"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle préside Solution démocratique.",
+        "bio_egger_sud"
+       ],
+       [
+        "Elle a présenté en avril 2026 sa candidature à l'élection présidentielle de 2027.",
+        "bio_egger_sud"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -560,6 +1720,64 @@
     "l": "CC BY-SA 2.0",
     "lu": "https://creativecommons.org/licenses/by-sa/2.0",
     "u": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Olivier_Faure.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Premier secrétaire du Parti socialiste depuis 2018, Olivier Faure est député de Seine-et-Marne depuis 2012. Il a présidé le groupe socialiste à l'Assemblée nationale à partir de décembre 2016.",
+     [
+      "bio_faure_afp2026",
+      "bio_faure_ps2016"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Olivier Faure est né en 1968 à La Tronche (Isère).",
+        "bio_faure_an"
+       ],
+       [
+        "Juriste de formation, diplômé en droit et en sciences politiques, il a été l'un des dirigeants d'une PME de haute technologie.",
+        "bio_faure_ps2016"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été conseiller de Martine Aubry au ministère de l'Emploi de 1997 à 2000.",
+        "bio_faure_ps2016"
+       ],
+       [
+        "Il a ensuite été directeur adjoint du cabinet de François Hollande, premier secrétaire du Parti socialiste, de 2000 à 2007.",
+        "bio_faure_ps2016"
+       ],
+       [
+        "Il a été élu pour la première fois député de Seine-et-Marne en 2012.",
+        "bio_faure_ps2016"
+       ],
+       [
+        "Il a été élu président du groupe socialiste à l'Assemblée nationale en décembre 2016.",
+        "bio_faure_ps2016"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Député de Seine-et-Marne depuis 2012, il est premier secrétaire du Parti socialiste depuis 2018.",
+        "bio_faure_afp2026"
+       ],
+       [
+        "Il est candidat à la primaire de la gauche.",
+        "bio_faure_afp2026"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -584,6 +1802,61 @@
     "l": "CC BY-SA 2.0",
     "lu": "https://creativecommons.org/licenses/by-sa/2.0",
     "u": "https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_Guedj_2010.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Député de l'Essonne et membre du Parti socialiste, Jérôme Guedj a présidé le conseil général de l'Essonne de 2011 à 2015.",
+     [
+      "bio_guedj_an",
+      "bio_guedj_gazette",
+      "bio_guedj_sud"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Jérôme Guedj est né en 1972 à Pantin (Seine-Saint-Denis).",
+        "bio_guedj_an"
+       ],
+       [
+        "Diplômé de Sciences Po Paris en 1992, il a étudié à l'ENA de 1994 à 1996, puis rejoint l'Inspection générale des affaires sociales.",
+        "bio_guedj_sud"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a présidé le conseil général de l'Essonne de 2011 à 2015.",
+        "bio_guedj_sud"
+       ],
+       [
+        "En 2012, il est devenu député de l'Essonne en remplacement de François Lamy, nommé au gouvernement.",
+        "bio_guedj_an13"
+       ],
+       [
+        "Son mandat de député s'est terminé en mai 2014 ; il l'est redevenu en juin 2022.",
+        "bio_guedj_sycomore"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député de la 6e circonscription de l'Essonne et membre du groupe Socialistes et apparentés.",
+        "bio_guedj_an"
+       ],
+       [
+        "En février 2026, il a annoncé sa candidature à l'élection présidentielle de 2027, en dehors de la primaire de la gauche.",
+        "bio_guedj_gazette"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -608,6 +1881,60 @@
     "l": "CC BY 3.0",
     "lu": "https://creativecommons.org/licenses/by/3.0",
     "u": "https://commons.wikimedia.org/wiki/File:Anasse_Kazib_-_La_Voce_delle_Lotte_2020_(cropped).png"
+   },
+   "parcours": {
+    "chapo": [
+     "Cheminot et syndicaliste SUD Rail, Anasse Kazib est porte-parole de Révolution permanente.",
+     [
+      "bio_kazib_b",
+      "bio_kazib_c"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Anasse Kazib est né en 1987 à Sarcelles (Val-d'Oise).",
+        "bio_kazib_a"
+       ],
+       [
+        "Il est entré à la SNCF comme aiguilleur en 2012.",
+        "bio_kazib_a"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il est devenu délégué syndical SUD Rail en 2015.",
+        "bio_kazib_a"
+       ],
+       [
+        "De 2018 à mars 2020, il a été chroniqueur récurrent de l'émission Les Grandes Gueules sur RMC.",
+        "bio_kazib_a"
+       ],
+       [
+        "En 2022, il a annoncé sa candidature à l'élection présidentielle, mais ne figurait pas sur la liste officielle des candidats.",
+        "bio_kazib_c"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Cheminot et syndicaliste, il est porte-parole de Révolution permanente.",
+        "bio_kazib_b"
+       ],
+       [
+        "Il a communiqué sur sa candidature à l'élection présidentielle de 2027 le 1er juin 2026.",
+        "bio_kazib_b"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -623,7 +1950,54 @@
      "qpq"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "parcours": {
+    "chapo": [
+     "Conductrice de bus en région parisienne, Selma Labib est porte-parole du NPA-Révolutionnaires. Elle a été tête de liste aux élections européennes de 2024, puis candidate à la mairie d'Ivry-sur-Seine en 2026.",
+     [
+      "bio_labib_a",
+      "bio_labib_b",
+      "bio_labib_ivry"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Conductrice de bus en région parisienne, Selma Labib avait 30 ans lors de l'annonce de sa candidature, en juin 2026.",
+        "bio_labib_a"
+       ],
+       [
+        "Elle milite depuis une douzaine d'années.",
+        "bio_labib_a"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Elle a été tête de liste aux élections européennes de 2024.",
+        "bio_labib_a"
+       ],
+       [
+        "En 2026, elle a conduit la liste « NPA-Révolutionnaires - Ivry ouvrière et révolutionnaire » aux élections municipales d'Ivry-sur-Seine (Val-de-Marne).",
+        "bio_labib_ivry"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle est porte-parole du NPA-Révolutionnaires.",
+        "bio_labib_b"
+       ]
+      ]
+     ]
+    ]
+   }
   },
   {
    "id": "lalanne",
@@ -647,6 +2021,57 @@
     "l": "Licence Art libre",
     "lu": "http://artlibre.org/licence/lal/en",
     "u": "https://commons.wikimedia.org/wiki/File:Francis_Lalanne.png"
+   },
+   "parcours": {
+    "chapo": [
+     "Chanteur, Francis Lalanne s'est fait connaître du grand public dans les années 1980. Il a mené la liste « Alliance jaune » aux élections européennes de 2019 et est soutenu par le mouvement citoyen « France Libre ».",
+     [
+      "bio_lalanne_a",
+      "bio_lalanne_psenat2019",
+      "bio_lalanne_pmbe2026"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Francis Lalanne est né en 1958.",
+        "bio_lalanne_a"
+       ],
+       [
+        "Chanteur, il s'est fait connaître du grand public dans les années 1980.",
+        "bio_lalanne_a"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "En mai 2017, il a été annoncé comme suppléant de Jacques Borie aux élections législatives, dans la circonscription d'Évry et Corbeil-Essonnes (Essonne).",
+        "bio_lalanne_c"
+       ],
+       [
+        "En 2019, il a mené la liste « Alliance jaune » aux élections européennes.",
+        "bio_lalanne_psenat2019"
+       ],
+       [
+        "En 2024, il a été candidat aux élections européennes sur la liste « France libre ».",
+        "bio_lalanne_pmbe2024"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est soutenu par le mouvement citoyen « France Libre ».",
+        "bio_lalanne_pmbe2026"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -672,6 +2097,64 @@
     "l": "CC BY-SA 3.0",
     "lu": "https://creativecommons.org/licenses/by-sa/3.0",
     "u": "https://commons.wikimedia.org/wiki/File:David_Lisnard_-_2013.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Maire de Cannes depuis 2014 et président de l'Association des maires de France depuis 2021, David Lisnard est président de Nouvelle Énergie. Le 31 mars 2026, il a annoncé qu'il quittait Les Républicains.",
+     [
+      "bio_lisnard_ne",
+      "bio_lisnard_psenat0401"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "David Lisnard est né en 1969 à Limoges.",
+        "bio_lisnard_sudradio"
+       ],
+       [
+        "Diplômé de Sciences Po Bordeaux en 1992, il a assuré la gérance du commerce familial à Cannes à partir de 1999.",
+        "bio_lisnard_ne"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été élu adjoint au maire de Cannes en 2001, puis conseiller général des Alpes-Maritimes en 2008.",
+        "bio_lisnard_ne"
+       ],
+       [
+        "Il a été élu maire de Cannes en 2014, puis réélu en 2020 et en mars 2026.",
+        "bio_lisnard_ne"
+       ],
+       [
+        "Il a pris la présidence de la communauté d'agglomération Cannes-Lérins en 2017.",
+        "bio_lisnard_ne"
+       ],
+       [
+        "Vice-président et porte-parole de l'Association des maires de France en 2017, il en a été élu président le 17 novembre 2021.",
+        "bio_lisnard_ne"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est maire de Cannes, président de l'Association des maires de France et président de Nouvelle Énergie.",
+        "bio_lisnard_ne"
+       ],
+       [
+        "Le 31 mars 2026, il a annoncé qu'il quittait Les Républicains.",
+        "bio_lisnard_psenat0401"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -696,6 +2179,61 @@
     "l": "CC BY-SA 4.0",
     "lu": "https://creativecommons.org/licenses/by-sa/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Meeting_France_insoumise_24_mars_2019,_Nevers_-_Emmanuel_Maurel_01_(cropped).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Député du Val-d'Oise depuis 2024, Emmanuel Maurel a été député européen de 2014 à 2024 et vice-président de la région Île-de-France. Il a participé à la création de la Gauche républicaine et socialiste.",
+     [
+      "bio_maurel_syc",
+      "bio_maurel_sr",
+      "bio_maurel_pe"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Emmanuel Maurel est né le 10 mai 1973 à Épinay-sur-Seine (Seine-Saint-Denis).",
+        "bio_maurel_an"
+       ],
+       [
+        "Il est diplômé de l'Institut d'études politiques de Paris, puis il a étudié les lettres modernes et l'histoire.",
+        "bio_maurel_sr"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a rejoint le Parti socialiste à 17 ans, puis est devenu conseiller municipal de Persan (Val-d'Oise) en 2001.",
+        "bio_maurel_sr"
+       ],
+       [
+        "Il est devenu en 2004 vice-président de la région Île-de-France, chargé des affaires européennes et internationales.",
+        "bio_maurel_sr"
+       ],
+       [
+        "Élu député européen en 2014, il a quitté le Parti socialiste en 2018 et a participé à la création de la Gauche républicaine et socialiste.",
+        "bio_maurel_sr"
+       ],
+       [
+        "Il a siégé au Parlement européen du 2 juillet 2019 au 15 juillet 2024, avec la Gauche républicaine et socialiste comme parti national.",
+        "bio_maurel_pe"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est député du Val-d'Oise depuis le 8 juillet 2024 et appartient au groupe Gauche démocrate et républicaine.",
+        "bio_maurel_syc"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -711,7 +2249,53 @@
      "qpq"
     ]
    ],
-   "docs": []
+   "docs": [],
+   "parcours": {
+    "chapo": [
+     "Ingénieur, Antoine Mikolajczak est engagé au sein du parti Équinoxe depuis les élections européennes de 2024. Il a conduit la liste Équinoxe dans le 5e arrondissement de Paris aux élections municipales de 2026.",
+     [
+      "bio_mikolajczak_a",
+      "bio_mikolajczak_c"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Ingénieur, Antoine Mikolajczak avait 28 ans en septembre 2026.",
+        "bio_mikolajczak_a"
+       ],
+       [
+        "Il a monté pendant cinq ans des projets locaux d'énergies renouvelables, en collaboration avec des élus, des agriculteurs et des habitants.",
+        "bio_mikolajczak_a"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il est engagé au sein d'Équinoxe depuis les élections européennes de 2024.",
+        "bio_mikolajczak_a"
+       ],
+       [
+        "Aux élections municipales de mars 2026, il était tête de liste de « Équinoxe - Le Paris de la démocratie » dans le 5e arrondissement de Paris.",
+        "bio_mikolajczak_c"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est candidat d'Équinoxe à l'élection présidentielle de 2027.",
+        "bio_mikolajczak_a"
+       ]
+      ]
+     ]
+    ]
+   }
   },
   {
    "id": "philippot",
@@ -733,6 +2317,60 @@
     "l": "CC BY 4.0",
     "lu": "https://creativecommons.org/licenses/by/4.0",
     "u": "https://commons.wikimedia.org/wiki/File:Florian_Philippot.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Florian Philippot est président du parti Les Patriotes. Ancien vice-président du Front national, il a été élu député européen en 2014 et conseiller régional du Grand Est en 2015.",
+     [
+      "bio_philippot_sudradio",
+      "bio_philippot_ps_dates"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Florian Philippot est né le 24 octobre 1981 à Croix (Nord).",
+        "bio_philippot_ps_dates"
+       ],
+       [
+        "Diplômé d'HEC et de l'ENA, il a été haut fonctionnaire à l'Inspection générale de l'administration.",
+        "bio_philippot_ps_portrait"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a adhéré au Front national en 2011, dont il a été nommé vice-président en 2012.",
+        "bio_philippot_ps_dates"
+       ],
+       [
+        "Élu député européen en 2014, il a aussi été élu conseiller municipal de Forbach la même année, puis conseiller régional du Grand Est en 2015.",
+        "bio_philippot_ps_dates"
+       ],
+       [
+        "Il a lancé l'association Les Patriotes en mai 2017, puis a quitté le Front national le 21 septembre 2017.",
+        "bio_philippot_ps_dates"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il est président du parti Les Patriotes.",
+        "bio_philippot_sudradio"
+       ],
+       [
+        "En 2022, il avait annoncé sa candidature à l'élection présidentielle, mais ne figurait pas sur la liste officielle des candidats.",
+        "bio_philippot_sudradio"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -757,6 +2395,66 @@
     "l": "CC BY 3.0",
     "lu": "https://creativecommons.org/licenses/by/3.0",
     "u": "https://commons.wikimedia.org/wiki/File:S%C3%A9gol%C3%A8ne_Royal_-_Janvier_2012.jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancienne ministre, notamment de l'Écologie (2014-2017), ancienne présidente de la région Poitou-Charentes et candidate à l'élection présidentielle de 2007, Ségolène Royal préside l'Association France-Algérie.",
+     [
+      "bio_royal_tsa",
+      "bio_royal_sudradio",
+      "bio_royal_anfonc",
+      "bio_royal_unfccc"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Ségolène Royal est née le 22 septembre 1953 à Dakar (Sénégal).",
+        "bio_royal_an"
+       ],
+       [
+        "Elle a étudié à l'Institut d'études politiques de Paris et à l'ENA, puis a été conseillère du président François Mitterrand de 1982 à 1988.",
+        "bio_royal_unfccc"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Élue députée des Deux-Sèvres (2e circonscription) en 1988, elle a été réélue en 1993, en 1997 et en 2002 ; son dernier mandat a pris fin le 19 juin 2007.",
+        "bio_royal_anfonc"
+       ],
+       [
+        "Elle a été ministre de l'Environnement dans le gouvernement de Pierre Bérégovoy (1992-1993), puis ministre déléguée dans celui de Lionel Jospin (1997-2002).",
+        "bio_royal_sudradio"
+       ],
+       [
+        "Elle a présidé la région Poitou-Charentes d'avril 2004 à mai 2014.",
+        "bio_royal_unfccc"
+       ],
+       [
+        "Elle a été ministre de l'Écologie dans les gouvernements de Manuel Valls puis de Bernard Cazeneuve, de 2014 à 2017.",
+        "bio_royal_sudradio"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle préside l'Association France-Algérie, élue par le conseil d'administration le 18 décembre 2025 en remplacement d'Arnaud Montebourg.",
+        "bio_royal_tsa"
+       ],
+       [
+        "Elle a été candidate à l'élection présidentielle de 2007.",
+        "bio_royal_cc2007"
+       ]
+      ]
+     ]
+    ]
    }
   },
   {
@@ -779,6 +2477,65 @@
     "l": "CC BY-SA 3.0",
     "lu": "https://creativecommons.org/licenses/by-sa/3.0",
     "u": "https://commons.wikimedia.org/wiki/File:Dominique_de_Villepin_(2010).jpg"
+   },
+   "parcours": {
+    "chapo": [
+     "Ancien Premier ministre (2005-2007), après avoir été ministre des Affaires étrangères puis de l'Intérieur, Dominique de Villepin dirige La France humaniste, parti lancé en 2025.",
+     [
+      "bio_villepin_infogouv",
+      "bio_villepin_euronews2026",
+      "bio_villepin_euronews"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Dominique de Villepin est né le 14 novembre 1953 à Rabat (Maroc).",
+        "bio_villepin_infogouv"
+       ],
+       [
+        "Licencié en droit, diplômé de Sciences Po Paris et ancien élève de l'ENA (promotion Voltaire), il a commencé une carrière de diplomate en 1980.",
+        "bio_villepin_infogouv"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a été nommé secrétaire général de la présidence de la République en 1995, après l'élection de Jacques Chirac.",
+        "bio_villepin_infogouv"
+       ],
+       [
+        "Il a été ministre des Affaires étrangères de mai 2002 à mars 2004, puis ministre de l'Intérieur à partir de mars 2004, dans le gouvernement de Jean-Pierre Raffarin.",
+        "bio_villepin_infogouv"
+       ],
+       [
+        "Il a été Premier ministre de mai 2005 à mai 2007, sous la présidence de Jacques Chirac, en remplacement de Jean-Pierre Raffarin.",
+        "bio_villepin_infogouv"
+       ],
+       [
+        "Il est devenu avocat d'affaires en 2008 et a fondé le parti République solidaire en 2010.",
+        "bio_villepin_infogouv"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "En juin 2025, il a annoncé le lancement de son parti, La France humaniste.",
+        "bio_villepin_euronews"
+       ],
+       [
+        "Il dirige La France humaniste.",
+        "bio_villepin_euronews2026"
+       ]
+      ]
+     ]
+    ]
    }
   }
  ],
@@ -3086,6 +4843,1091 @@
    "d": "2026-10-03",
    "type": "officiel",
    "u": "http://www.olivierfaure.fr/"
+  },
+  "bio_brun_ap": {
+   "t": "Gros plan sur les nouveaux députés issus de la fonction publique",
+   "p": "Acteurs publics",
+   "d": "2022-06-19",
+   "type": "presse",
+   "u": "https://acteurspublics.fr/articles/de-nouvelles-tetes-a-lassemblee-issues-de-la-fonction-publique"
+  },
+  "bio_labib_a": {
+   "t": "Communiqué – Présidentielle 2027 : Selma Labib, une candidature ouvrière et révolutionnaire, soutenue par Gaël Quirante",
+   "p": "NPA-Révolutionnaires",
+   "d": "2026-06-17",
+   "type": "officiel",
+   "u": "https://npa-revolutionnaires.org/communique-presidentielle-2027-selma-labib-une-candidature-ouvriere-et-revolutionnaire-soutenue-par-gael-quirante/"
+  },
+  "bio_faure_ps2016": {
+   "t": "Olivier Faure, nouveau patron des députés PS à l'Assemblée",
+   "p": "Public Sénat",
+   "d": "2016-12-13",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/olivier-faure-nouveau-patron-des-deputes-ps-a-l-assemblee-51644"
+  },
+  "bio_becht_an": {
+   "t": "M. Olivier Becht - Haut-Rhin (5e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA642935"
+  },
+  "bio_zemmour_reconquete": {
+   "t": "Notre équipe — RECONQUÊTE",
+   "p": "Reconquête",
+   "d": "2026-10-03",
+   "type": "officiel",
+   "u": "https://www.parti-reconquete.fr/equipe"
+  },
+  "bio_guedj_sycomore": {
+   "t": "Jérôme Guedj - Base de données des députés français depuis 1789 - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www2.assemblee-nationale.fr/sycomore/fiche/18318"
+  },
+  "bio_attal_publicsenat": {
+   "t": "Présidentielle 2027 : en Aveyron, Gabriel Attal officialise sa candidature",
+   "p": "Public Sénat",
+   "d": "2026-05-22",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-gabriel-attal-officialise-sa-candidature-en-aveyron"
+  },
+  "bio_retailleau_infogouv": {
+   "t": "Bruno Retailleau - Composition officielle du Gouvernement",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2026-10-03",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/personnalite/bruno-retailleau"
+  },
+  "bio_maurel_an": {
+   "t": "M. Emmanuel Maurel - Val-d'Oise (3e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-04",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA842271"
+  },
+  "bio_labib_b": {
+   "t": "Présidentielle 2027: le NPA-Révolutionnaires annonce présenter la candidature de sa porte-parole Selma Labib",
+   "p": "Civiqo",
+   "d": "2026-06-17",
+   "type": "presse",
+   "u": "https://www.civiqo.fr/actualite/presidentielle-2027-le-npa-revolutionnaires-annonce-presenter-la-candidature-de-sa-porte-parole-selm-acc76f60"
+  },
+  "bio_batho_sycomore": {
+   "t": "Delphine Batho - Base de données des députés français depuis 1789 - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www2.assemblee-nationale.fr/sycomore/fiche?num_dept=17264"
+  },
+  "bio_attal_castex": {
+   "t": "Décret du 6 juillet 2020 relatif à la composition du Gouvernement",
+   "p": "Légifrance",
+   "d": "2020-07-06",
+   "type": "donnees",
+   "u": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042088964"
+  },
+  "bio_tondelier_europe1": {
+   "t": "EELV : qui est Marine Tondelier, la nouvelle cheffe des écologistes ?",
+   "p": "Europe 1",
+   "d": "2024-11-19",
+   "type": "presse",
+   "u": "https://www.europe1.fr/node/73658"
+  },
+  "bio_retailleau_lr": {
+   "t": "Election du président des Républicains : résultats du vote",
+   "p": "Les Républicains",
+   "d": "2025-05-18",
+   "type": "officiel",
+   "u": "https://republicains.fr/actualites/2025/05/18/election-du-president-des-republicains-resultats-du-vote/"
+  },
+  "bio_branco_a": {
+   "t": "Parcours de Juan Branco — Avocat, écrivain, docteur en droit",
+   "p": "juan-branco.fr (site de Juan Branco)",
+   "d": "2026-10-05",
+   "type": "officiel",
+   "u": "https://juan-branco.fr/parcours/"
+  },
+  "bio_villepin_infogouv": {
+   "t": "Dominique de Villepin - Les anciens Premiers et Premières ministres de la Ve République",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2026-10-03",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/dominique-de-villepin"
+  },
+  "bio_retailleau_bayrou": {
+   "t": "La composition du gouvernement de François Bayrou | info.gouv.fr",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2024-12-23",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/la-composition-du-gouvernement-de-francois-bayrou"
+  },
+  "bio_egger_cc2022": {
+   "t": "Décision n° 2022-187 PDR du 7 mars 2022 - Liste des candidats à l'élection présidentielle",
+   "p": "Conseil constitutionnel",
+   "d": "2022-03-07",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/sites/default/files/as/root/bank_mm/decisions/2022187pdr/2022187pdr.pdf"
+  },
+  "bio_branco_sud0720": {
+   "t": "Présidentielle 2027 : qui sont les candidats déclarés ?",
+   "p": "Sud Radio",
+   "d": "2026-07-20",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/presidentielle-2027-qui-sont-les-candidats-declares"
+  },
+  "bio_egger_sud": {
+   "t": "Présidentielle 2027 : qui sont les candidats déclarés ?",
+   "p": "Sud Radio",
+   "d": "2026-07-20",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/presidentielle-2027-qui-sont-les-candidats-declares"
+  },
+  "bio_glucksmann_pp": {
+   "t": "20250623 PP dossier de presse",
+   "p": "Place publique",
+   "d": "2025-06",
+   "type": "officiel",
+   "u": "https://place-publique.eu/wp-content/uploads/2025/06/20250623_PP_dossier-de-presse.pdf"
+  },
+  "bio_dupont-aignan_jdy": {
+   "t": "Journal des Yerrois n° 42 (juillet-août 2026)",
+   "p": "Ville d'Yerres",
+   "d": "2026-07",
+   "type": "donnees",
+   "u": "https://www.yerres.fr/yerres_medias/2026/07/2026_Juillet_Aout_JDY_numero_42.pdf"
+  },
+  "bio_retailleau_psenat0401": {
+   "t": "Présidentielle 2027 : David Lisnard, maire de Cannes, annonce sa candidature et quitte officiellement les LR",
+   "p": "Public Sénat",
+   "d": "2026-04-01",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-david-lisnard-maire-de-cannes-annonce-sa-candidature-et-quitte-officiellement-les-lr"
+  },
+  "bio_royal_sudradio": {
+   "t": "Ségolène Royal : biographie et CV politique",
+   "p": "Sud Radio",
+   "d": "2026-10-03",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/la-biographie-et-le-cv-de-segolene-royal"
+  },
+  "bio_attal_gouv": {
+   "t": "Gabriel Attal - Les anciens Premiers et Premières ministres de la Ve République",
+   "p": "info.gouv.fr",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/gabriel-attal"
+  },
+  "bio_arthaud_europe1": {
+   "t": "nathalie arthaud | Europe 1",
+   "p": "Europe 1",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.europe1.fr/taxonomy/term/626"
+  },
+  "bio_roussel_pcf": {
+   "t": "Fabien Roussel, secrétaire national",
+   "p": "Parti communiste français",
+   "d": "2026-10-03",
+   "type": "officiel",
+   "u": "https://www.pcf.fr/bio_sg"
+  },
+  "bio_ruffin_europe1": {
+   "t": "Amiens : François Ruffin remet son César du meilleur documentaire aux ouvriers de Whirlpool",
+   "p": "Europe 1",
+   "d": "2017-03-03",
+   "type": "presse",
+   "u": "https://www.europe1.fr/culture/amiens-francois-ruffin-remet-son-cesar-du-meilleur-documentaire-aux-ouvriers-de-whirlpool-2993765"
+  },
+  "bio_ruffin_lcp0512": {
+   "t": "Présidentielle 2027: \"S'il n'y a pas de primaire, moi j'y vais\", annonce François Ruffin",
+   "p": "LCP - Assemblée nationale",
+   "d": "2026-05-12",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-2027-s-il-n-y-a-pas-de-primaire-moi-j-y-vais-annonce-francois-ruffin"
+  },
+  "bio_philippe_europe1": {
+   "t": "L'ancien Premier ministre Édouard Philippe lance son parti \"Horizons\"",
+   "p": "Europe 1",
+   "d": "2021-10-09",
+   "type": "presse",
+   "u": "https://www.europe1.fr/politique/lancien-premier-ministre-edouard-philippe-lance-son-parti-horizons-4070672"
+  },
+  "bio_guedj_sud": {
+   "t": "La biographie et le CV de Jérôme Guedj",
+   "p": "Sud Radio",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/la-biographie-et-le-cv-de-jerome-guedj"
+  },
+  "bio_philippot_ps_dates": {
+   "t": "Les grandes dates de Florian Philippot",
+   "p": "Public Sénat",
+   "d": "2017-09-21",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/les-grandes-dates-de-florian-philippot-77632"
+  },
+  "bio_melenchon_lfi": {
+   "t": "Jean-Luc Mélenchon - La France insoumise",
+   "p": "La France insoumise",
+   "d": "2026-10-05",
+   "type": "officiel",
+   "u": "https://lafranceinsoumise.fr/les-parlementaires-de-la-france-insoumise/jeanlucmelenchon/"
+  },
+  "bio_asselineau_publicsenat": {
+   "t": "Asselineau, partisan du « Frexit » et candidat inattendu à l'élection",
+   "p": "Public Sénat (AFP)",
+   "d": "2017-03-10",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/asselineau-partisan-du-frexit-et-candidat-inattendu-a-l-election-56898"
+  },
+  "bio_roussel_cc2022": {
+   "t": "Décision n° 2022-187 PDR du 7 mars 2022",
+   "p": "Conseil constitutionnel",
+   "d": "2022-03-07",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/decision/2022/2022187PDR.htm"
+  },
+  "bio_lalanne_pmbe2026": {
+   "t": "Présidentielle 2027 en France : Francis Lalanne se porte officiellement candidat",
+   "p": "Paris Match Belgique",
+   "d": "2026-08-20",
+   "type": "presse",
+   "u": "https://www.parismatch.be/actualites/monde/2026/08/20/presidentielle-2027-en-france-francis-lalanne-se-porte-officiellement-candidat-MPG3IRWASFFBDB6PSNEI32JVZA/"
+  },
+  "bio_bertrand_lcp": {
+   "t": "2027: figure de la droite, Xavier Bertrand confirme qu'il sera candidat à l'élection présidentielle",
+   "p": "LCP",
+   "d": "2026-08-27",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/2027-figure-de-la-droite-xavier-bertrand-confirme-qu-il-sera-candidat-a-l-election"
+  },
+  "bio_kazib_c": {
+   "t": "Présidentielle 2022 : Les idées des 5 non qualifiés",
+   "p": "Le Courrier de Guadeloupe",
+   "d": "2022-04-01",
+   "type": "presse",
+   "u": "https://lecourrierdeguadeloupe.com/les-idees-des-5-non-qualifies/"
+  },
+  "bio_mikolajczak_c": {
+   "t": "EQUINOXE - LE PARIS DE LA DEMOCRATIE - Elections Conseils d'arrondissement Paris Lyon Marseille 2026",
+   "p": "Ministère de l'Intérieur - Résultats des élections municipales 2026 (conseils d'arrondissement)",
+   "d": "2026-03-15",
+   "type": "donnees",
+   "u": "https://www.resultats-elections.interieur.gouv.fr/ConseilsdarrondissementPLM2026/ensemble_geographique/11/75/75056SR05/rappel_candidature/1/6.html"
+  },
+  "bio_retailleau_barnier": {
+   "t": "La composition du gouvernement de Michel Barnier | info.gouv.fr",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2024-09-21",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/la-composition-du-gouvernement-de-michel-barnier"
+  },
+  "bio_mikolajczak_a": {
+   "t": "Présidentielle 2027 - Parti Équinoxe",
+   "p": "Parti Équinoxe",
+   "d": "2026-09-30",
+   "type": "officiel",
+   "u": "https://parti-equinoxe.fr/presidentielle-2027/"
+  },
+  "bio_bouamrane_lcp": {
+   "t": "Présidentielle 2027: qui est Karim Bouamrane, le maire socialiste de Saint-Ouen et nouveau candidat à l'élection?",
+   "p": "LCP",
+   "d": "2026-06-09",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-2027-qui-est-karim-bouamrane-le-maire-socialiste-de-saint-ouen-et-nouveau"
+  },
+  "bio_bertrand_lcp0803": {
+   "t": "Présidentielle: Xavier Bertrand indique \"tester ses idées\" et envisager de concourir en tant que \"candidat indépendant\"",
+   "p": "LCP",
+   "d": "2026-08-03",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-xavier-bertrand-indique-tester-ses-idees-et-envisager-de-concourir-en"
+  },
+  "bio_batho_an": {
+   "t": "Mme Delphine Batho - Deux-Sèvres (2e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA335999"
+  },
+  "bio_brun_lcp": {
+   "t": "Suspendu du PS pour des \"accusations de violence\", le député Philippe Brun ne participera pas à la primaire de gauche",
+   "p": "LCP",
+   "d": "2026-09-16",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/suspendu-du-ps-pour-des-accusations-de-violence-le-depute-philippe-brun-ne-participera"
+  },
+  "bio_villepin_euronews2026": {
+   "t": "French presidential race: De Villepin set to run, Faure enters socialist primary",
+   "p": "Euronews",
+   "d": "2026-08-30",
+   "type": "presse",
+   "u": "https://www.euronews.com/2026/08/30/french-presidential-race-de-villepin-set-to-run-faure-enters-socialist-primary"
+  },
+  "bio_melenchon_senat": {
+   "t": "MÉLENCHON Jean-Luc",
+   "p": "Sénat",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.senat.fr/senateur/melenchon_jean_luc86039k.html"
+  },
+  "bio_attal_an": {
+   "t": "M. Gabriel Attal - Hauts-de-Seine (10e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA722190"
+  },
+  "bio_retailleau_senat": {
+   "t": "M. Bruno RETAILLEAU, sénateur de la Vendée (Pays de la Loire) - Sénat",
+   "p": "Sénat",
+   "d": "2026-10-02",
+   "type": "donnees",
+   "u": "https://www.senat.fr/senateur/retailleau_bruno04033b.html"
+  },
+  "bio_melenchon_psenat2017": {
+   "t": "Jean-Luc Mélenchon, héraut clivant de la gauche anti-Hollande",
+   "p": "Public Sénat",
+   "d": "2017-04-15",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/jean-luc-melenchon-heraut-clivant-de-la-gauche-anti-hollande-58790"
+  },
+  "bio_faure_afp2026": {
+   "t": "Olivier Faure, chef tacticien du PS, face à son plus grand défi",
+   "p": "DH (dépêche AFP)",
+   "d": "2026-09-08",
+   "type": "presse",
+   "u": "https://www.dhnet.be/dernieres-depeches/2026/09/08/olivier-faure-chef-tacticien-du-ps-face-a-son-plus-grand-defi-XOIWEIDHQVDQVJBSH2HUMHOVJU/"
+  },
+  "bio_guedj_gazette": {
+   "t": "Le député Jérôme Guedj (PS) candidat à l'élection présidentielle de 2027",
+   "p": "La Gazette France",
+   "d": "2026-02-05",
+   "type": "presse",
+   "u": "https://www.lagazettefrance.fr/article/le-depute-jerome-guedj-ps-candidat-a-l-election-presidentielle-de-2027"
+  },
+  "bio_bouamrane_pv2020": {
+   "t": "Séance ordinaire du conseil municipal du 4 juillet 2020 (procès-verbal)",
+   "p": "Ville de Saint-Ouen-sur-Seine",
+   "d": "2020-07-04",
+   "type": "donnees",
+   "u": "https://www.saint-ouen.fr/wp-content/uploads/2024/07/PV_20200704.pdf"
+  },
+  "bio_philippot_sudradio": {
+   "t": "« Je suis candidat » : Florian Philippot se lance pour la présidentielle de 2027",
+   "p": "Sud Radio",
+   "d": "2026-05-09",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/je-suis-candidat-florian-philippot-se-lance-pour-la-presidentielle-de-2027"
+  },
+  "bio_royal_anfonc": {
+   "t": "Fonctions (archives) - Mme Ségolène Royal - Deux-Sèvres (2e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA2650/fonctions?archive=oui"
+  },
+  "bio_royal_cc2007": {
+   "t": "Décision n° 2007-133 PDR du 19 mars 2007",
+   "p": "Conseil constitutionnel",
+   "d": "2007-03-19",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/decision/2007/2007133PDR.htm"
+  },
+  "bio_philippe_lcp": {
+   "t": "Chômage : Édouard Philippe veut abaisser la durée d'indemnisation à douze mois maximum pour les moins de 50 ans",
+   "p": "LCP - Assemblée nationale",
+   "d": "2026-08-27",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/chomage-edouard-philippe-veut-abaisser-la-duree-d-indemnisation-a-douze-mois-maximum"
+  },
+  "bio_egger_sd": {
+   "t": "Qui est Clara Egger, candidate à l'élection présidentielle 2027",
+   "p": "Solution démocratique",
+   "d": "2026-09-07",
+   "type": "officiel",
+   "u": "https://solutiondemocratique.fr/clara-egger/"
+  },
+  "bio_maurel_syc": {
+   "t": "Emmanuel Maurel - Base de données des députés français depuis 1789 - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-04",
+   "type": "donnees",
+   "u": "https://www2.assemblee-nationale.fr/sycomore/fiche?num_dept=19974"
+  },
+  "bio_guedj_an13": {
+   "t": "M. Jérôme Guedj : Assemblée Nationale",
+   "p": "Assemblée nationale (fiche de la XIIIe législature)",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/13/tribun/fiches_id/1567.asp"
+  },
+  "bio_attal_etudiant": {
+   "t": "Gabriel Attal, secrétaire d'État auprès du ministre de l'Éducation nationale et de la Jeunesse",
+   "p": "L'Étudiant - EducPros",
+   "d": "2018-10-16",
+   "type": "presse",
+   "u": "https://www.letudiant.fr/educpros/actualite/gabriel-attal-nomme-secretaire-d-etat-aupres-du-ministre-de-l-education-nationale-et-de-la-jeunesse.html"
+  },
+  "bio_retailleau_lecornu": {
+   "t": "La composition du gouvernement de Sébastien Lecornu | info.gouv.fr",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2025-10-05",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/la-composition-du-gouvernement-de-sebastien-lecornu"
+  },
+  "bio_melenchon_an": {
+   "t": "M. Jean-Luc Mélenchon - Mandat clos - Bouches-du-Rhône (4e circonscription)",
+   "p": "Assemblée nationale",
+   "d": "2026-10-04",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA2150"
+  },
+  "bio_tondelier_brut": {
+   "t": "Sans surprise, Marine Tondelier représentera les Ecologistes à la primaire de la gauche",
+   "p": "Brut",
+   "d": "2026-09-14",
+   "type": "presse",
+   "u": "https://www.brut.media/fr/articles/sans-surprise-marine-tondelier-representera-les-ecologistes-a-la-primaire-de-la-gauche"
+  },
+  "bio_asselineau_cc2017": {
+   "t": "Décision n° 2017-165 PDR du 18 mars 2017 (liste des candidats à l'élection présidentielle)",
+   "p": "Conseil constitutionnel, document publié par la préfecture du Val-de-Marne",
+   "d": "2017-03-18",
+   "type": "donnees",
+   "u": "https://www.val-de-marne.gouv.fr/index.php/contenu/telechargement/11443/85694/file/DecisionListeCandidat.pdf"
+  },
+  "bio_faure_an": {
+   "t": "M. Olivier Faure - Seine-et-Marne (11e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA609332"
+  },
+  "bio_attal_borne2022": {
+   "t": "La nomination du Gouvernement d'Élisabeth Borne",
+   "p": "info.gouv.fr",
+   "d": "2022-07-04",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/nomination-du-gouvernement-delisabeth-borne"
+  },
+  "bio_philippe_lcp0322": {
+   "t": "Municipales: Édouard Philippe réélu maire du Havre",
+   "p": "LCP - Assemblée nationale",
+   "d": "2026-03-22",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/municipales-edouard-philippe-reelu-maire-du-havre-434013"
+  },
+  "bio_melenchon_brut": {
+   "t": "Jean-Luc Mélenchon candidat à l'élection présidentielle de 2027",
+   "p": "Brut",
+   "d": "2026-05-06",
+   "type": "presse",
+   "u": "https://www.brut.media/fr/articles/jean-luc-melenchon-candidat-a-l-election-presidentielle-de-2027"
+  },
+  "bio_asselineau_upr": {
+   "t": "UPR - François Asselineau",
+   "p": "Union populaire républicaine",
+   "d": "2026-10-05",
+   "type": "officiel",
+   "u": "https://upr.fr/francois-asselineau"
+  },
+  "bio_arthaud_afp2026": {
+   "t": "« Plus Léon Trotski que Léon XIV » : premier meeting de campagne pour Arthaud et LO",
+   "p": "La Gazette France (dépêche AFP)",
+   "d": "2026-09-26",
+   "type": "presse",
+   "u": "https://www.lagazettefrance.fr/article/plus-leon-trotski-que-leon-xiv-premier-meeting-de-campagne-pour-arthaud-et-lo"
+  },
+  "bio_le-pen_psenat2022": {
+   "t": "Présidentielle : c'est officiel, avec Philippe Poutou, ils sont 12 candidats sur la ligne de départ",
+   "p": "Public Sénat",
+   "d": "2022-03-07",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-c-est-officiel-avec-philippe-poutou-ils-sont-12-candidats-sur-la"
+  },
+  "bio_lalanne_psenat2019": {
+   "t": "« Gilets jaunes »: Francis Lalanne prend la tête d'une liste « Alliance jaune »",
+   "p": "Public Sénat",
+   "d": "2019-04-30",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/gilets-jaunes-francis-lalanne-prend-la-tete-d-une-liste-alliance-jaune-140749"
+  },
+  "bio_guedj_an": {
+   "t": "M. Jérôme Guedj - Essonne (6e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA1567"
+  },
+  "bio_le-pen_anfonc": {
+   "t": "Fonctions (archives) - Mme Marine Le Pen - Pas-de-Calais (11e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA720614/fonctions?archive=oui"
+  },
+  "bio_ruffin_an": {
+   "t": "M. François Ruffin - Somme (1re circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-03",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA722142"
+  },
+  "bio_attal_borne2023": {
+   "t": "Remaniement : la composition du nouveau Gouvernement d'Élisabeth Borne",
+   "p": "info.gouv.fr",
+   "d": "2023-07-20",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/la-nouvelle-equipe-gouvernementale-delisabeth-borne"
+  },
+  "bio_le-pen_lcp0707": {
+   "t": "Marine Le Pen condamnée dans l'affaire des assistants parlementaires, reste éligible pour 2027",
+   "p": "LCP - Assemblée nationale",
+   "d": "2026-07-07",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/marine-le-pen-condamnee-dans-l-affaire-des-assistants-parlementaires-reste-eligible-pour"
+  },
+  "bio_lalanne_c": {
+   "t": "Le chanteur Francis Lalanne candidat suppléant aux législatives contre Valls",
+   "p": "Public Sénat",
+   "d": "2017-05-16",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/le-chanteur-francis-lalanne-candidat-suppleant-aux-legislatives-contre-valls-60677"
+  },
+  "bio_maurel_pe": {
+   "t": "Emmanuel MAUREL - 9th parliamentary term",
+   "p": "Parlement européen",
+   "d": "2026-10-04",
+   "type": "donnees",
+   "u": "https://www.europarl.europa.eu/meps/en/24505/EMMANUEL_MAUREL/history/9"
+  },
+  "bio_melenchon_psenat2022": {
+   "t": "Présidentielle : c'est officiel, avec Philippe Poutou, ils sont 12 candidats sur la ligne de départ",
+   "p": "Public Sénat",
+   "d": "2022-03-07",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-c-est-officiel-avec-philippe-poutou-ils-sont-12-candidats-sur-la"
+  },
+  "bio_dupont-aignan_an": {
+   "t": "M. Nicolas Dupont-Aignan - Mandat clos - Essonne (8e circonscription)",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA1206"
+  },
+  "bio_batho_libre2012": {
+   "t": "Quatre nouvelles têtes dans le gouvernement Ayrault",
+   "p": "La Libre",
+   "d": "2012-06-21",
+   "type": "presse",
+   "u": "https://www.lalibre.be/international/2012/06/21/quatre-nouvelles-tetes-dans-le-gouvernement-ayrault-XL3IN5KGARA2PIZ6QLVGRYRJEY/"
+  },
+  "bio_roussel_brut": {
+   "t": "Fabien Roussel réélu à la tête du Parti communiste",
+   "p": "Brut",
+   "d": "2026-07-07",
+   "type": "presse",
+   "u": "https://www.brut.media/fr/articles/france/politique/fabien-roussel-reelu-a-la-tete-du-parti-communiste"
+  },
+  "bio_cazeneuve_sud": {
+   "t": "Présidentielle 2027 : qui sont les candidats déclarés ?",
+   "p": "Sud Radio",
+   "d": "2026-07-20",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/presidentielle-2027-qui-sont-les-candidats-declares"
+  },
+  "bio_cazeneuve_gouv": {
+   "t": "Bernard Cazeneuve - Les anciens Premiers et Premières ministres de la Ve République",
+   "p": "info.gouv.fr",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/bernard-cazeneuve"
+  },
+  "bio_brun_an": {
+   "t": "M. Philippe Brun - Eure (4e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA793624"
+  },
+  "bio_zemmour_cc2022": {
+   "t": "Décision n° 2022-187 PDR du 7 mars 2022",
+   "p": "Conseil constitutionnel",
+   "d": "2022-03-07",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/decision/2022/2022187PDR.htm"
+  },
+  "bio_bouamrane_infofr0519": {
+   "t": "Saint-Ouen : deux mois après les municipales, Bouamrane gouverne avec seulement deux adjoints",
+   "p": "info.fr",
+   "d": "2026-05-19",
+   "type": "presse",
+   "u": "https://info.fr/saint-ouen-bouamrane-deux-adjoints-nominations/"
+  },
+  "bio_bouamrane_infofr0610": {
+   "t": "Karim Bouamrane (PS), maire de Saint-Ouen, candidat à la présidentielle 2027",
+   "p": "info.fr",
+   "d": "2026-06-10",
+   "type": "presse",
+   "u": "https://info.fr/karim-bouamrane-ps-maire-saint-ouen-candidat-presidentielle-2027-2026-06/"
+  },
+  "bio_tondelier_boell": {
+   "t": "Marine Tondelier",
+   "p": "Heinrich-Böll-Stiftung (Boell Calendar)",
+   "d": "2026-05",
+   "type": "presse",
+   "u": "https://calendar.boell.de/fr/node/164999"
+  },
+  "bio_roussel_sycomore": {
+   "t": "Fabien Roussel - Base de données des députés français depuis 1789 - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-03",
+   "type": "donnees",
+   "u": "https://www2.assemblee-nationale.fr/sycomore/fiche?num_dept=19365"
+  },
+  "bio_lisnard_ne": {
+   "t": "David Lisnard | Nouvelle Énergie",
+   "p": "Nouvelle Énergie",
+   "d": "2026-10-04",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/david-lisnard/"
+  },
+  "bio_roussel_vieamandinoise": {
+   "t": "La Vie Amandinoise n° 1353 - « Fabien Roussel, élu maire »",
+   "p": "Ville de Saint-Amand-les-Eaux",
+   "d": "2026-03-26",
+   "type": "donnees",
+   "u": "https://saint-amand-les-eaux.fr/sites/default/files/2026-03/LVA%201353%20-%2026%2003%202026%20web.pdf"
+  },
+  "bio_philippot_ps_portrait": {
+   "t": "Florian Philippot, l'ex-bras gauche de Marine Le Pen",
+   "p": "Public Sénat",
+   "d": "2017-09-21",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/florian-philippot-l-ex-bras-gauche-de-marine-le-pen-77635"
+  },
+  "bio_batho_slate2013": {
+   "t": "Ecologie: le problème de Delphine Batho, c'était sa nomination, pas son limogeage",
+   "p": "Slate.fr",
+   "d": "2013-07-03",
+   "type": "presse",
+   "u": "https://www.slate.fr/story/74743/ecologie-batho-limogeage"
+  },
+  "bio_royal_an": {
+   "t": "Mme Ségolène Royal - Mandat clos - Deux-Sèvres (2e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA2650"
+  },
+  "bio_glucksmann_sud": {
+   "t": "Présidentielle 2027 : Raphaël Glucksmann, un candidat aux mille parcours",
+   "p": "Sud Radio",
+   "d": "2026-08-24",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/presidentielle-2027-raphael-glucksmann-un-candidat-aux-mille-parcours"
+  },
+  "bio_labib_ivry": {
+   "t": "Publication des résultats au 1er tour - Municipales 2026 - Ivry-sur-Seine : NPA-Révolutionnaires - Ivry ouvrière et révolutionnaire",
+   "p": "Ministère de l'Intérieur - Résultats des élections municipales 2026",
+   "d": "2026-03-15",
+   "type": "donnees",
+   "u": "https://www.resultats-elections.interieur.gouv.fr/municipales2026/ensemble_geographique/11/94/94041/rappel_candidature/1/2.html"
+  },
+  "bio_maurel_sr": {
+   "t": "Qui est Emmanuel Maurel, le cinquième candidat à la primaire de la gauche ?",
+   "p": "Sud Radio",
+   "d": "2026-09-23",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/qui-est-emmanuel-maurel-le-cinquieme-candidat-a-la-primaire-de-la-gauche"
+  },
+  "bio_lisnard_sudradio": {
+   "t": "La biographie et le CV de David Lisnard",
+   "p": "Sud Radio",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/la-biographie-et-le-cv-de-david-lisnard"
+  },
+  "bio_becht_gouv": {
+   "t": "Olivier Becht - Composition officielle du Gouvernement",
+   "p": "info.gouv.fr",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/personnalite/olivier-becht"
+  },
+  "bio_le-pen_europe1": {
+   "t": "Marine Le Pen | Europe 1",
+   "p": "Europe 1",
+   "d": "2026-10-04",
+   "type": "presse",
+   "u": "https://www.europe1.fr/taxonomy/term/1169"
+  },
+  "bio_royal_tsa": {
+   "t": "Association France – Algérie : Ségolène Royal succède à Arnaud Montebourg",
+   "p": "TSA Algérie",
+   "d": "2025-12-19",
+   "type": "presse",
+   "u": "https://www.tsa-algerie.com/association-france-algerie-segolene-royal-succede-a-arnaud-montebourg/"
+  },
+  "bio_kazib_b": {
+   "t": "Présidentielle 2027 : qui sont les candidats déclarés ?",
+   "p": "Sud Radio",
+   "d": "2026-07-20",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/presidentielle-2027-qui-sont-les-candidats-declares"
+  },
+  "bio_le-pen_larousse": {
+   "t": "Marion Le Pen dite Marine Le Pen - LAROUSSE",
+   "p": "Larousse",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.larousse.fr/encyclopedie/personnage/wd/185781"
+  },
+  "bio_bertrand_an13": {
+   "t": "Assemblée nationale ~ Les députés : M. Xavier Bertrand",
+   "p": "Assemblée nationale (XIIIe législature)",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/13/tribun/xml/xml/acteurs/267080.asp"
+  },
+  "bio_bertrand_hdf2016": {
+   "t": "Découvrez le nouvel exécutif régional",
+   "p": "Région Hauts-de-France",
+   "d": "2016-01-11",
+   "type": "donnees",
+   "u": "https://www.hautsdefrance.fr/decouvrez-le-nouvel-executif-regional/"
+  },
+  "bio_cazeneuve_tendance": {
+   "t": "Bernard Cazeneuve devient ministre du budget",
+   "p": "Tendance Ouest",
+   "d": "2013-03-19",
+   "type": "presse",
+   "u": "https://www.tendanceouest.com/actualite-51504-bernard-cazeneuve-devient-ministre-du-budget"
+  },
+  "bio_zemmour_europe1": {
+   "t": "eric zemmour",
+   "p": "Europe 1",
+   "d": "2026-10-03",
+   "type": "presse",
+   "u": "https://www.europe1.fr/taxonomy/term/944"
+  },
+  "bio_lalanne_a": {
+   "t": "Francis Lalanne : du chanteur engagé des années 1980 aux sphères complotistes",
+   "p": "Sud Radio",
+   "d": "2026-08-20",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/francis-lalanne-du-chanteur-engage-des-annees-1980-aux-spheres-complotistes"
+  },
+  "bio_philippe_an": {
+   "t": "Fonctions (archives) - M. Édouard Philippe - Seine-Maritime (7e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA345619/fonctions?archive=oui"
+  },
+  "bio_royal_unfccc": {
+   "t": "Biography of H.E. Ms Ségolène Royal, Président of COP21/CMP11",
+   "p": "Convention-cadre des Nations unies sur les changements climatiques (UNFCCC)",
+   "d": "2026-10-03",
+   "type": "donnees",
+   "u": "https://unfccc.int/sites/default/files/biography_of_minister_royal.pdf"
+  },
+  "bio_bertrand_sycomore": {
+   "t": "Xavier Bertrand - Base de données des députés français depuis 1789 - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www2.assemblee-nationale.fr/sycomore/fiche?num_dept=11024"
+  },
+  "bio_melenchon_anfonc": {
+   "t": "Fonctions (archives) - M. Jean-Luc Mélenchon - Bouches-du-Rhône (4e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-04",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA2150/fonctions?archive=oui"
+  },
+  "bio_cazeneuve_lcp": {
+   "t": "Présidentielle 2027: Bernard Cazeneuve fait part de sa \"volonté pleine et entière\" d'être candidat",
+   "p": "LCP",
+   "d": "2026-05-19",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-2027-bernard-cazeneuve-fait-part-de-sa-volonte-pleine-et-entiere-d-etre"
+  },
+  "bio_kazib_a": {
+   "t": "Cinq choses à savoir sur Anasse Kazib, cheminot candidat aux présidentielles",
+   "p": "Le Courrier de l'Atlas",
+   "d": "2026-06-23",
+   "type": "presse",
+   "u": "https://www.lecourrierdelatlas.com/cinq-choses-a-savoir-sur-candidat-cheminot-anasse-kazib/"
+  },
+  "bio_le-pen_an": {
+   "t": "Mme Marine Le Pen - Pas-de-Calais (11e circonscription) - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-04",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/deputes/PA720614"
+  },
+  "bio_lalanne_pmbe2024": {
+   "t": "Nouvelle carrière pour Francis Lalanne, qui décide d'être candidat… aux élections européennes, avec des projets radicaux !",
+   "p": "Paris Match Belgique",
+   "d": "2024-06-03",
+   "type": "presse",
+   "u": "https://www.parismatch.be/actualites/people/2024/06/03/nouvelle-carriere-pour-francis-lalanne-qui-decide-detre-candidat-aux-elections-europeennes-2EE2NLEKQRAQXEZ6UQAI4N7HUM/"
+  },
+  "bio_batho_afp": {
+   "t": "L'ex-ministre Delphine Batho candidate à la présidentielle pour conjurer la \"rikikisation\" de l'écologie",
+   "p": "L'info durable (dépêche AFP)",
+   "d": "2025-11-25",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/lex-ministre-delphine-batho-candidate-la-presidentielle-pour-conjurer-la-rikikisation-de-lecologie"
+  },
+  "bio_le-pen_lcp0708": {
+   "t": "Pourvoi de Marine Le Pen: la Cour de cassation \"pourrait être en mesure\" de se prononcer avant l'élection présidentielle",
+   "p": "LCP - Assemblée nationale",
+   "d": "2026-07-08",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/pourvoi-de-marine-le-pen-la-cour-de-cassation-pourrait-etre-en-mesure-de-se-prononcer"
+  },
+  "bio_philippe_gouv": {
+   "t": "Édouard Philippe - Les anciens Premiers et Premières ministres de la Ve République",
+   "p": "info.gouv.fr",
+   "d": "2025-11-04",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/les-anciens-premiers-et-premieres-ministres-de-la-ve-republique/edouard-philippe"
+  },
+  "bio_retailleau_psenat1112": {
+   "t": "« Sa détermination reste totale » : de retour au Sénat, Bruno Retailleau retrouve sa « base arrière »",
+   "p": "Public Sénat",
+   "d": "2025-11-12",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/sa-determination-reste-totale-de-retour-au-senat-bruno-retailleau-retrouve-sa-base-arriere"
+  },
+  "bio_dupont-aignan_dlf": {
+   "t": "Nicolas Dupont-Aignan - Debout La France",
+   "p": "Debout la France",
+   "d": "2026-10-05",
+   "type": "officiel",
+   "u": "https://www.debout-la-france.fr/nicolas-dupont-aignan/"
+  },
+  "bio_egger_poligraph": {
+   "t": "Clara Egger | Poligraph",
+   "p": "Poligraph",
+   "d": "2026-09-02",
+   "type": "presse",
+   "u": "https://poligraph.fr/politiques/clara-egger"
+  },
+  "bio_ruffin_sycomore": {
+   "t": "François Ruffin - Base de données des députés français depuis 1789 - Assemblée nationale",
+   "p": "Assemblée nationale",
+   "d": "2026-10-03",
+   "type": "donnees",
+   "u": "https://www2.assemblee-nationale.fr/sycomore/fiche/19368"
+  },
+  "bio_glucksmann_lcp": {
+   "t": "Présidentielle 2027: Raphaël Glucksmann officialise sa candidature et participera à la primaire sociale-démocrate",
+   "p": "LCP",
+   "d": "2026-08-23",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-2027-raphael-glucksmann-officialise-sa-candidature-et-participera-a-la"
+  },
+  "bio_arthaud_lyoncapitale2022": {
+   "t": "Présidentielle : ce qu'il faut savoir sur Nathalie Arthaud (Lutte Ouvrière)",
+   "p": "Lyon Capitale",
+   "d": "2022-04-06",
+   "type": "presse",
+   "u": "https://www.lyoncapitale.fr/actualite/presidentielle-ce-quil-faut-savoir-sur-nathalie-arthaud-lo"
+  },
+  "bio_lisnard_psenat0401": {
+   "t": "Présidentielle 2027 : David Lisnard, maire de Cannes, annonce sa candidature et quitte officiellement les LR",
+   "p": "Public Sénat",
+   "d": "2026-04-01",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-david-lisnard-maire-de-cannes-annonce-sa-candidature-et-quitte-officiellement-les-lr"
+  },
+  "bio_villepin_euronews": {
+   "t": "Former French Prime Minister Dominique de Villepin launches 'humanist' political party",
+   "p": "Euronews",
+   "d": "2025-06-25",
+   "type": "presse",
+   "u": "https://www.euronews.com/2025/06/25/former-french-prime-minister-dominique-de-villepin-launches-humanist-political-party"
+  },
+  "kit_sp_inscription": {
+   "t": "Listes électorales : en cas de première inscription",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-03-03",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1367"
+  },
+  "kit_sp_a18967": {
+   "t": "Inscription sur les listes électorales : des changements à partir de juillet 2026",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-06-18",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18967"
+  },
+  "kit_sp_auto18": {
+   "t": "Liste électorale : inscription d'office à 18 ans si le recensement citoyen a été fait à 16 ans",
+   "p": "Service-public.fr (DILA)",
+   "d": "2025-11-28",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1961"
+  },
+  "kit_sp_justif": {
+   "t": "S'inscrire sur la liste électorale en mairie : quel justificatif de domicile ?",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-08-13",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1965"
+  },
+  "kit_sp_situation": {
+   "t": "Vérifier votre inscription électorale et votre bureau de vote",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-06-18",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51788"
+  },
+  "kit_ei_procuration": {
+   "t": "Le vote par procuration",
+   "p": "Les élections en France (ministère de l'Intérieur)",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.elections.interieur.gouv.fr/comprendre-elections/comment-je-vote/vote-par-procuration"
+  },
+  "kit_mp_accueil": {
+   "t": "Maprocuration : Accueil",
+   "p": "Maprocuration (ministère de l'Intérieur)",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.maprocuration.gouv.fr/"
+  },
+  "kit_int_france_identite": {
+   "t": "Maprocuration : votre procuration électorale désormais 100% en ligne avec France identité",
+   "p": "Ministère de l'Intérieur (interieur.gouv.fr)",
+   "d": "2025-11-10",
+   "type": "donnees",
+   "u": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/maprocuration-votre-procuration-electorale-desormais-100-en-ligne-avec-france-identite"
+  },
+  "kit_cc_loi62": {
+   "t": "Loi n° 62-1292 du 6 novembre 1962 relative à l'élection du Président de la République au suffrage universel",
+   "p": "Conseil constitutionnel",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/fondements-textuels/loi-n-62-1292-du-6-novembre-1962-relative-a-l-election-du-president-de-la-republique-au-suffrage"
+  },
+  "kit_cc_constitution": {
+   "t": "Texte intégral de la Constitution du 4 octobre 1958 en vigueur",
+   "p": "Conseil constitutionnel",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  "kit_sp_dates2027": {
+   "t": "Les dates de l'élection présidentielle de 2027 sont annoncées",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-07-02",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A15053"
+  },
+  "kit_arcom_2022": {
+   "t": "Élection présidentielle 2022 : Le rôle de l'Arcom",
+   "p": "Arcom",
+   "d": "2021-12-30",
+   "type": "donnees",
+   "u": "https://www.arcom.fr/actualites/election-presidentielle-2022-le-role-de-larcom"
+  },
+  "kit_cc_cohabitation": {
+   "t": "Comment la Constitution organise-t-elle la cohabitation ?",
+   "p": "Conseil constitutionnel",
+   "d": "2021-10-01",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/la-constitution/comment-la-constitution-organise-t-elle-la-cohabitation"
+  },
+  "kit_sp_smic": {
+   "t": "Quelle revalorisation pour le Smic à compter du 1er janvier ?",
+   "p": "Service-public.fr (DILA)",
+   "d": "2025-12-15",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A17008"
+  },
+  "kit_sp_retraites": {
+   "t": "Suspension de la réforme des retraites : qui est concerné ?",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-02-27",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18825"
+  },
+  "kit_clemi_poster": {
+   "t": "Comment savoir si une information est vraie ou fausse ?",
+   "p": "CLEMI",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.clemi.fr/sites/default/files/clemi/RepereEMI/fausses_infos_poster.pdf"
+  },
+  "kit_clemi_mission": {
+   "t": "Mission fact-checking",
+   "p": "CLEMI",
+   "d": "2026-10-05",
+   "type": "donnees",
+   "u": "https://www.clemi.fr/familles/activites-en-famille/mission-fact-checking"
+  },
+  "budget_insee_cofog": {
+   "t": "Usage de l'argent public : les dépenses publiques par fonction en 2024 (Insee Première n° 2093)",
+   "p": "Insee",
+   "d": "2026-02-05",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8735252"
+  },
+  "eurostat_cofog": {
+   "t": "General government expenditure by function (COFOG) [gov_10a_exp], France, S13, total expenditure, 2024, millions d'euros",
+   "p": "Eurostat",
+   "d": "2026-07-21",
+   "type": "donnees",
+   "u": "https://ec.europa.eu/eurostat/databrowser/view/gov_10a_exp/default/table?lang=en"
+  },
+  "insee_ip2106": {
+   "t": "Le compte des administrations publiques en 2025 (Insee Première n° 2106)",
+   "p": "Insee",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8997691"
+  },
+  "insee_ir78_annexe": {
+   "t": "Comptes nationaux des administrations publiques – Année 2025 (annexe à l'Informations rapides n° 78)",
+   "p": "Insee",
+   "d": "2026-03-26",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/documentation/annexe_ir_prov_apu--20260326.pdf"
+  },
+  "insee_impots": {
+   "t": "Impôts – Données annuelles de 1995 à 2025",
+   "p": "Insee",
+   "d": "2026-08-28",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/2381408"
+  },
+  "insee_cofog_2025_a_venir": {
+   "t": "Dépenses des administrations publiques ventilées par fonction en 2025 (tableaux 3.301 à 3.307 « seront publiées en décembre 2026 »)",
+   "p": "Insee",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8988847"
+  },
+  "insee_depenses_recettes_2025": {
+   "t": "Dépenses et recettes des administrations publiques en 2025",
+   "p": "Insee",
+   "d": "2026-08-28",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8988845"
+  },
+  "tresor_retour_previsions_2025": {
+   "t": "Retour sur les prévisions de finances publiques du Gouvernement pour l'année 2025 (Trésor-Éco n° 397)",
+   "p": "Direction générale du Trésor (economie.gouv.fr)",
+   "d": "2026-08",
+   "type": "donnees",
+   "u": "https://www.tresor.economie.gouv.fr/Articles/14f83f28-0735-4f45-a80c-c20bcfd125b5/files/6f2a6720-e007-40ce-9314-5c9bda2333ec"
   }
  },
  "presse": [
@@ -3518,5 +6360,351 @@
    "Second tour"
   ]
  ],
- "videos": []
+ "videos": [],
+ "kit": [
+  {
+   "id": "inscription",
+   "titre": "Suis-je inscrit pour voter ?",
+   "en_bref": "Pour voter, il faut être inscrit sur une liste électorale, et ce n'est pas toujours automatique. Un service officiel gratuit permet de vérifier votre inscription et votre bureau de vote.",
+   "blocs": [
+    {
+     "h": "S'inscrire : en ligne, en mairie ou par courrier",
+     "txt": "En ligne, vous utilisez le service officiel de demande d'inscription ; en mairie ou par courrier, le formulaire cerfa n°12669. Il faut fournir un justificatif d'identité et un justificatif de domicile de moins de 3 mois.",
+     "src": "kit_sp_inscription"
+    },
+    {
+     "h": "La date limite",
+     "txt": "À partir du 1er juillet 2026, la date limite pour s'inscrire est le 6e vendredi précédant le scrutin, que la démarche se fasse en ligne ou en mairie. Avant cette date, la limite en ligne était le 6e mercredi.",
+     "src": "kit_sp_a18967"
+    },
+    {
+     "h": "À 18 ans : l'inscription automatique et ses limites",
+     "txt": "Si vous avez fait votre recensement citoyen à 16 ans, vous êtes inscrit automatiquement à 18 ans. Sinon, ou si le recensement a été tardif, ce n'est pas automatique. Après un déménagement, demandez à votre nouvelle mairie de vous inscrire.",
+     "src": "kit_sp_auto18"
+    },
+    {
+     "h": "Moins de 26 ans, chez vos parents",
+     "txt": "Si vous habitez chez vos parents et avez moins de 26 ans, deux documents suffisent : un justificatif de moins de 3 mois prouvant le domicile réel de votre parent dans la commune, et un document prouvant votre filiation (livret de famille, acte de naissance).",
+     "src": "kit_sp_justif"
+    }
+   ],
+   "lien": {
+    "label": "Vérifier mon inscription",
+    "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/R51788"
+   },
+   "sous": "Vérifier son inscription et s'inscrire à temps"
+  },
+  {
+   "id": "procuration",
+   "titre": "Voter par procuration",
+   "en_bref": "Si vous ne pouvez pas vous rendre au bureau de vote, vous pouvez désigner un électeur qui votera à votre place. La demande commence en ligne sur maprocuration.gouv.fr.",
+   "blocs": [
+    {
+     "h": "Qui peut voter à votre place ?",
+     "txt": "Depuis le 1er janvier 2022, vous pouvez donner procuration à un électeur inscrit sur les listes électorales d'une autre commune que la vôtre.",
+     "src": "kit_ei_procuration"
+    },
+    {
+     "h": "Où faire la démarche",
+     "txt": "Vous faites votre demande en ligne, puis vous vous déplacez au commissariat, à la gendarmerie ou au consulat pour faire vérifier votre identité et valider la procuration. Avec une identité numérique certifiée, pas besoin de vous déplacer.",
+     "src": "kit_mp_accueil"
+    },
+    {
+     "h": "100 % en ligne avec France Identité",
+     "txt": "Avec la nouvelle carte d'identité et une identité numérique certifiée France Identité, vous pouvez faire valider votre identité via l'application, sans vous déplacer en gendarmerie ou en commissariat.",
+     "src": "kit_int_france_identite"
+    },
+    {
+     "h": "Durée et nombre de procurations",
+     "txt": "La procuration est établie soit pour un scrutin déterminé, soit pour une durée donnée, dans la limite d'un an. Le jour du vote, l'électeur désigné ne peut avoir qu'une procuration établie en France.",
+     "src": "kit_ei_procuration"
+    }
+   ],
+   "lien": {
+    "label": "Faire ma procuration",
+    "u": "https://www.maprocuration.gouv.fr/"
+   },
+   "sous": "Si vous n'êtes pas là le jour du vote"
+  },
+  {
+   "id": "election",
+   "titre": "Comment se passe la présidentielle",
+   "en_bref": "Le président de la République est élu pour cinq ans au suffrage universel direct. Le premier tour de la prochaine élection est fixé au 18 avril 2027, et le second tour, s'il est nécessaire, au 2 mai 2027.",
+   "blocs": [
+    {
+     "h": "Candidats : 500 parrainages",
+     "txt": "Un candidat doit être présenté par au moins 500 élus (parlementaires, conseillers, maires…) venant d'au moins 30 départements ou collectivités d'outre-mer, sans que plus d'un dixième viennent du même département ou de la même collectivité. Le Conseil constitutionnel établit la liste des candidats.",
+     "src": "kit_cc_loi62"
+    },
+    {
+     "h": "Un ou deux tours",
+     "txt": "Le président est élu à la majorité absolue des suffrages exprimés. Sinon, un second tour oppose les deux candidats arrivés en tête au premier tour, après retrait éventuel de candidats mieux placés. Son mandat dure cinq ans.",
+     "src": "kit_cc_constitution"
+    },
+    {
+     "h": "Les dates de 2027",
+     "txt": "Le Conseil des ministres du 1er juillet 2026 a statué : premier tour le dimanche 18 avril 2027, second tour le dimanche 2 mai 2027. Dans certains territoires d'outre-mer, dont la Guadeloupe, le vote a lieu le samedi (17 avril et 1er mai).",
+     "src": "kit_sp_dates2027"
+    },
+    {
+     "h": "Temps de parole : l'exemple de 2022",
+     "txt": "Pour la présidentielle de 2022, l'Arcom veillait au pluralisme politique : les chaînes devaient respecter l'équité des temps de parole et d'antenne, puis, pendant la campagne officielle, leur égalité, dans des conditions de programmation comparables.",
+     "src": "kit_arcom_2022"
+    }
+   ],
+   "sous": "Parrainages, deux tours, dates de 2027"
+  },
+  {
+   "id": "president",
+   "titre": "Ce que peut faire le président",
+   "en_bref": "Le président de la République nomme le Premier ministre, peut dissoudre l'Assemblée nationale, organiser certains référendums et il est chef des armées. Les lois sont votées par le Parlement, et le Gouvernement détermine et conduit la politique de la nation.",
+   "blocs": [
+    {
+     "h": "Premier ministre et armées",
+     "txt": "Le président nomme le Premier ministre et met fin à ses fonctions sur la présentation par celui-ci de la démission du Gouvernement (article 8). Il est le chef des armées (article 15).",
+     "src": "kit_cc_constitution"
+    },
+    {
+     "h": "Dissolution et référendum",
+     "txt": "Il peut dissoudre l'Assemblée nationale, mais pas à nouveau dans l'année qui suit les élections qui en résultent (art. 12). Sur proposition du Gouvernement ou des deux assemblées, il peut soumettre certains projets de loi au référendum (art. 11).",
+     "src": "kit_cc_constitution"
+    },
+    {
+     "h": "Les lois, la Constitution",
+     "txt": "Le Parlement, qui comprend l'Assemblée nationale et le Sénat, vote la loi et les projets de loi de finances (articles 24 et 47). La révision de la Constitution peut être proposée par le président, sur proposition du Premier ministre, ou par les parlementaires (article 89).",
+     "src": "kit_cc_constitution"
+    },
+    {
+     "h": "La cohabitation",
+     "txt": "On parle de cohabitation lorsque le Président de la République et la majorité des députés sont de tendances politiques opposées. Le Gouvernement détermine et conduit la politique de la nation (article 20) et il est responsable devant l'Assemblée nationale.",
+     "src": "kit_cc_cohabitation"
+    }
+   ],
+   "sous": "Ce qu'il décide seul, ce qui passe par le Parlement"
+  },
+  {
+   "id": "promesse",
+   "titre": "Lire une promesse de campagne",
+   "en_bref": "Une promesse de campagne n'est pas une décision déjà prise. Pour la lire, posez-vous quatre questions : est-elle chiffrée, est-elle financée, qui décide, et par quel texte ?",
+   "blocs": [
+    {
+     "h": "Est-ce chiffré ? Est-ce financé ?",
+     "txt": "Demandez combien la mesure coûte et comment elle serait financée : nouvel impôt, économie ailleurs, dette. À noter : le Parlement vote les projets de loi de finances (article 47 de la Constitution).",
+     "src": "kit_cc_constitution"
+    },
+    {
+     "h": "Qui décide ?",
+     "txt": "Selon la Constitution, le Gouvernement détermine et conduit la politique de la nation (art. 20) et le Parlement vote la loi (art. 24). Pour chaque promesse, cherchez quel texte il faudrait, et qui devrait le prendre ou le voter.",
+     "src": "kit_cc_constitution"
+    },
+    {
+     "h": "Exemple : le Smic, par décret",
+     "txt": "Le Smic est revalorisé chaque année au 1er janvier. Pour 2026, c'est le décret n° 2025-1228 du 17 décembre 2025 qui a porté relèvement du Smic. En cours d'année, il peut l'être si les prix augmentent d'au moins 2 %.",
+     "src": "kit_sp_smic"
+    },
+    {
+     "h": "Exemple : la retraite, par la loi",
+     "txt": "La réforme des retraites a été suspendue par la loi de financement de la Sécurité sociale pour 2026 : l'âge légal de 64 ans ne s'applique plus aux personnes nées en 1968, mais uniquement à celles nées à partir de 1969.",
+     "src": "kit_sp_retraites"
+    }
+   ],
+   "sous": "Chiffrée ? Financée ? Qui décide ?"
+  },
+  {
+   "id": "fausse-info",
+   "titre": "Repérer une fausse information",
+   "en_bref": "Avant de croire ou de partager une information, vérifiez sa source et sa date. Le CLEMI, centre d'éducation aux médias et à l'information, conseille aussi de croiser les sources et de se méfier des images et des vidéos.",
+   "blocs": [
+    {
+     "h": "Cherchez la source et la date",
+     "txt": "Pour savoir si l'information est vraie, il faut chercher sa source. Regardez aussi sa date : si elle est ancienne, elle n'est peut-être plus vraie. Où est-elle publiée : sur un média connu comme sérieux ou sur un site inconnu ?",
+     "src": "kit_clemi_poster"
+    },
+    {
+     "h": "Vérifiez avec d'autres sources",
+     "txt": "On peut vérifier si d'autres médias confirment cette information avec d'autres sources. Le CLEMI le résume ainsi : « chacun doit donc vérifier ses sources ! ».",
+     "src": "kit_clemi_poster"
+    },
+    {
+     "h": "Images et vidéos : prudence",
+     "txt": "Une photo ou une vidéo ne sont pas des preuves suffisantes, car elles peuvent être truquées. Ce n'est pas parce qu'une photo ou une vidéo est très partagée sur les réseaux sociaux qu'elle est vraie.",
+     "src": "kit_clemi_poster"
+    },
+    {
+     "h": "Prendre du recul, utiliser le fact-checking",
+     "txt": "Le CLEMI conseille de prendre du recul, car le web nous a poussé à vivre dans l'instantanéité, et d'utiliser des sites de fact-checking. Il cite notamment CheckNews (Libération), Les Décodeurs (Le Monde) et le blog Factuel de l'AFP.",
+     "src": "kit_clemi_mission"
+    }
+   ],
+   "lien": {
+    "label": "Mission fact-checking (CLEMI)",
+    "u": "https://www.clemi.fr/familles/activites-en-famille/mission-fact-checking"
+   },
+   "_liens_non_verifies": [
+    {
+     "label": "AFP Factuel",
+     "u": "https://factuel.afp.com/",
+     "note": "page non ouverte (acces bloque depuis l'environnement de recherche) : a verifier avant publication"
+    },
+    {
+     "label": "franceinfo Vrai ou faux",
+     "u": "https://www.francetvinfo.fr/vrai-ou-faux/",
+     "note": "page non ouverte (acces bloque) : a verifier avant publication"
+    }
+   ],
+   "sous": "Les bons réflexes avant de partager"
+  }
+ ],
+ "budget": {
+  "dep": {
+   "annee": "2024",
+   "statut": "provisoire",
+   "total": 1671.8,
+   "postes": [
+    {
+     "l": "Protection sociale",
+     "md": 693.0,
+     "pct": 41.5,
+     "dont": [
+      [
+       "Retraites",
+       392.0
+      ],
+      [
+       "Famille et enfants",
+       66.7
+      ],
+      [
+       "Chômage",
+       48.5
+      ],
+      [
+       "Exclusion sociale",
+       36.5
+      ],
+      [
+       "Aides au logement",
+       21.1
+      ]
+     ]
+    },
+    {
+     "l": "Santé",
+     "md": 261.2,
+     "pct": 15.6
+    },
+    {
+     "l": "Fonctionnement des administrations",
+     "md": 181.1,
+     "pct": 10.8,
+     "dont": [
+      [
+       "Intérêts de la dette",
+       58.9
+      ]
+     ]
+    },
+    {
+     "l": "Économie et transports",
+     "md": 166.1,
+     "pct": 9.9
+    },
+    {
+     "l": "École et enseignement supérieur",
+     "md": 148.6,
+     "pct": 8.9
+    },
+    {
+     "l": "Défense",
+     "md": 54.2,
+     "pct": 3.2
+    },
+    {
+     "l": "Sécurité, justice et secours",
+     "md": 52.1,
+     "pct": 3.1
+    },
+    {
+     "l": "Culture, sport et loisirs",
+     "md": 43.1,
+     "pct": 2.6
+    },
+    {
+     "l": "Logement et équipements collectifs",
+     "md": 42.1,
+     "pct": 2.5
+    },
+    {
+     "l": "Environnement",
+     "md": 30.3,
+     "pct": 1.8
+    }
+   ],
+   "src": [
+    "budget_insee_cofog",
+    "eurostat_cofog"
+   ]
+  },
+  "rec": {
+   "annee": "2025",
+   "total": 1561.7,
+   "blocs": [
+    [
+     "Impôts et cotisations sociales (prélèvements obligatoires)",
+     1374.1
+    ],
+    [
+     "Recettes de production",
+     129.2
+    ],
+    [
+     "Revenus de la propriété",
+     23.0
+    ],
+    [
+     "Autres transferts",
+     35.5
+    ]
+   ],
+   "detail": [
+    [
+     "Cotisations sociales effectives",
+     446.3
+    ],
+    [
+     "Taxe sur la valeur ajoutée (TVA)",
+     208.8
+    ],
+    [
+     "Contribution sociale généralisée (CSG)",
+     156.6
+    ],
+    [
+     "Impôt sur le revenu des personnes physiques (IRPP), avant crédits d'impôts",
+     103.6
+    ],
+    [
+     "Impôt sur les sociétés (IS), avant crédits d'impôts",
+     69.5
+    ],
+    [
+     "Taxe foncière",
+     44.2
+    ],
+    [
+     "Accises sur les produits énergétiques (TICPE)",
+     30.5
+    ],
+    [
+     "Droits de mutation à titre gratuit (successions, donations)",
+     21.1
+    ]
+   ],
+   "src": [
+    "insee_ip2106",
+    "insee_impots",
+    "insee_ir78_annexe"
+   ]
+  }
+ }
 }

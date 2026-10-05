@@ -380,6 +380,61 @@ body.locked { overflow: hidden; }
 .card > h2 .cnt { font-family: var(--f-body); font-size: 0.78rem; font-weight: 700; color: var(--ink-3); background: var(--chip); border-radius: 999px; padding: 2px 9px; }
 .row .txt .use { color: var(--ink-2); font-size: 0.76rem; }
 .src-g .row .txt b { overflow-wrap: anywhere; }
+/* Accueil */
+.sec-h { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; padding: 8px 2px 0; }
+.sec-h h2 { font-size: 1.2rem; }
+.sec-h.col { display: grid; gap: 6px; padding-top: 14px; }
+.tools { display: flex; gap: 10px; overflow-x: auto; scrollbar-width: none; margin-inline: -16px; padding: 2px 16px 4px; scroll-padding-inline: 16px; scroll-snap-type: x proximity; }
+.tools::-webkit-scrollbar { display: none; }
+.tool { flex: none; width: 150px; scroll-snap-align: start; background: var(--card); border: 1px solid var(--line); border-radius: 16px; padding: 12px; display: grid; gap: 8px; align-content: start; min-height: 136px; text-decoration: none; color: inherit; }
+.tool:hover { border-color: var(--bleu-2); }
+.tool .ic { width: 36px; height: 36px; border-radius: 11px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
+.tool b { font-family: var(--f-display); font-size: 0.98rem; line-height: 1.2; }
+.tool span:last-child { font-size: 0.76rem; color: var(--ink-3); line-height: 1.35; }
+.budget-card { display: grid; gap: 10px; padding: 16px; border-radius: 18px; color: #FFFFFF; text-decoration: none; background: radial-gradient(120% 90% at 100% 0%, var(--reel-a) 0%, transparent 60%), linear-gradient(160deg, #1c2a7a, var(--reel-b)); }
+.budget-card .k { font-size: 0.78rem; font-weight: 700; display: flex; gap: 8px; align-items: center; opacity: .88; }
+.budget-card b { font-family: var(--f-display); font-size: 1.85rem; line-height: 1; letter-spacing: -0.02em; }
+.budget-card .p { font-size: 0.88rem; opacity: .86; }
+.stack { display: flex; height: 12px; border-radius: 6px; overflow: hidden; gap: 2px; }
+.stack i { display: block; height: 100%; }
+.tile .tt { display: grid; gap: 3px; color: var(--ink); }
+.tile .tt span { color: var(--ink-3); }
+.kick { display: inline-flex; align-items: center; gap: 7px; font-size: 0.8rem; font-weight: 700; color: var(--bleu); }
+/* Références numérotées */
+sup.ref { font-size: 0.66rem; line-height: 0; margin-left: 2px; }
+sup.ref a { color: var(--bleu); text-decoration: none; font-weight: 700; padding: 0 1px; }
+.card { grid-template-columns: minmax(0, 1fr); }
+.refs { margin: 0; padding-left: 20px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 6px; font-size: 0.76rem; color: var(--ink-3); min-width: 0; }
+.refs li { min-width: 0; }
+.refs a { color: var(--ink-2); font-weight: 600; }
+.refs span { display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+/* Fiche candidat */
+.chapo { font-size: 1rem; line-height: 1.5; color: var(--ink); }
+.parcours .blk:first-of-type { border-top: 0; padding-top: 0; }
+.parcours .blk p { line-height: 1.55; }
+details.srcs { border-top: 1px solid var(--line); padding-top: 10px; }
+details.srcs summary { cursor: pointer; font-size: 0.8rem; font-weight: 600; color: var(--ink-3); list-style: none; }
+details.srcs summary::-webkit-details-marker { display: none; }
+details.srcs summary::after { content: " +"; }
+details.srcs[open] summary::after { content: " −"; }
+details.srcs .refs { margin-top: 8px; }
+/* Budget */
+.big-n { display: grid; gap: 4px; }
+.big-n b { font-family: var(--f-display); font-size: 2.3rem; line-height: 1; letter-spacing: -0.03em; }
+.big-n span { color: var(--ink-2); font-size: 0.92rem; }
+.bars { display: grid; gap: 11px; }
+.bar-r { display: grid; grid-template-columns: 8.4rem minmax(0, 1fr) 2.6rem; gap: 4px 8px; align-items: center; font-size: 0.84rem; }
+.bar-r .tr { height: 12px; border-radius: 6px; background: var(--chip); position: relative; }
+.bar-r .tr i { position: absolute; inset: 0 auto 0 0; border-radius: 6px; background: var(--bleu); }
+.bar-r .v { text-align: right; font-weight: 700; font-variant-numeric: tabular-nums; }
+.bar-r .dont { grid-column: 1 / -1; font-size: 0.74rem; color: var(--ink-3); }
+.bar-r.in .tr i { background: var(--save); }
+h3.sub { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); margin-top: 4px; }
+.rows.tax .row { padding-block: 8px; }
+.rows.tax .txt b { font-weight: 500; font-size: 0.88rem; }
+.rows.tax .v { font-weight: 700; font-size: 0.88rem; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.ic-s { width: 34px; height: 34px; flex: none; border-radius: 10px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
+.card.kit .blk:first-child { border-top: 0; padding-top: 0; }
 /* Fil : sujets en haut, par-dessus les cartes */
 .feed-wrap { position: relative; }
 .feed-chips { position: absolute; top: 0; left: 0; right: 0; z-index: 3; margin: 0; padding: 10px 12px 14px; background: linear-gradient(to bottom, rgba(6, 9, 26, .78), rgba(6, 9, 26, 0)); }
@@ -405,10 +460,10 @@ body.locked { overflow: hidden; }
   <main id="app"></main>
 </div>
 <nav class="nav" aria-label="Onglets">
-  <a href="#actu" data-v="actu"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="3" y="4" width="14" height="16" rx="2"/><path d="M17 8h3v10a2 2 0 0 1-2 2H6M7 8h6M7 12h6M7 16h3"/></svg>Actu</a>
+  <a href="#actu" data-v="actu"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><path d="M4 11l8-7 8 7v9H4z"/><path d="M10 20v-5h4v5"/></svg>Accueil</a>
   <a href="#candidats" data-v="candidats"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><circle cx="12" cy="8" r="4"/><path d="M4.5 20c1.4-3.8 4.3-5.8 7.5-5.8s6.1 2 7.5 5.8"/></svg>Candidats</a>
   <a href="#videos" data-v="videos"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="5" y="2.5" width="14" height="19" rx="3"/><path d="M10.2 9.2v5.6l4.6-2.8z"/></svg>Vidéos</a>
-  <a href="#comparer" data-v="comparer"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="3" y="5" width="7.5" height="14" rx="1.6"/><rect x="13.5" y="5" width="7.5" height="14" rx="1.6"/></svg>Comparer</a>
+  <a href="#comparer" data-v="comparer"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="3.5" y="4" width="7" height="7" rx="1.5"/><rect x="13.5" y="4" width="7" height="7" rx="1.5"/><rect x="3.5" y="14" width="7" height="7" rx="1.5"/><rect x="13.5" y="14" width="7" height="7" rx="1.5"/></svg>Sujets</a>
   <a href="#sondages" data-v="sondages"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><path d="M5 20v-7M10 20V5M15 20v-10M20 20v-4"/></svg>Sondages</a>
 </nav>
 
@@ -535,7 +590,7 @@ function axis(cfg) {
 }
 
 /* ---------- écrans ---------- */
-const ui = { actuC: "tous", cmpMode: "deux", cmpA: null, cmpB: null, cmpTh: "tous", feed: null, feedTh: "tous", srcG: "tous" };
+const ui = { actuC: "tous", cmpMode: "tous", cmpA: null, cmpB: null, cmpTh: "tous", feed: null, feedTh: "tous", srcG: "tous" };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const dayFmt = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -545,8 +600,40 @@ function newsRow(p) {
   return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span>${esc(who)}</span></span>${EXT}</a>`;
 }
 
+/* Références numérotées : chaque phrase porte un petit numéro, la liste des sources suit (même rendu partout) */
+function refBox() {
+  const refs = [];
+  const ref = id => { if (!SRC[id]) return ""; let i = refs.indexOf(id); if (i < 0) { refs.push(id); i = refs.length - 1; } return `<sup class="ref"><a href="${esc(SRC[id].u)}" target="_blank" rel="noopener" aria-label="Source ${i + 1} : ${esc(SRC[id].p)}">${i + 1}</a></sup>`; };
+  const list = () => refs.length ? `<ol class="refs">${refs.map(id => { const x = SRC[id]; return `<li><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.p)}</a>${x.d ? " · " + esc(fmtDate(x.d)) : ""} <span>${esc(x.t)}</span></li>`; }).join("")}</ol>` : "";
+  return { ref, list };
+}
+const KIT_ICO = {
+  inscription: '<rect x="4" y="10" width="16" height="10" rx="2"/><path d="M9 10l3-6 3 6M8 15h8"/>',
+  procuration: '<circle cx="8" cy="8" r="3"/><circle cx="16" cy="8" r="3"/><path d="M3 20c.8-3 2.8-4.6 5-4.6s4.2 1.6 5 4.6M13.5 16.2c.8-.5 1.6-.8 2.5-.8 2.2 0 4.2 1.6 5 4.6"/>',
+  election: '<path d="M5 9h14v11H5zM9 9V5h6v4M9 14h6"/>',
+  president: '<path d="M12 3l8 4v2H4V7zM6 11v6M10 11v6M14 11v6M18 11v6M4 20h16"/>',
+  promesse: '<path d="M4 5h6a2 2 0 0 1 2 2v12a2 2 0 0 0-2-2H4zM20 5h-6a2 2 0 0 0-2 2v12a2 2 0 0 1 2-2h6z"/>',
+  "fausse-info": '<circle cx="11" cy="11" r="6"/><path d="M20 20l-4.5-4.5M9 9l4 4M13 9l-4 4"/>',
+  euro: '<path d="M17 6.5A6.5 6.5 0 1 0 17 17.5M4 10h9M4 14h9"/>'
+};
+const kico = (k, sz = 20) => `<svg viewBox="0 0 24 24" aria-hidden="true" style="width:${sz}px;height:${sz}px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round">${KIT_ICO[k] || ""}</svg>`;
+const STACK_COL = ["#7D98FF", "#4CD0C9", "#F2C063", "#FF5C70", "#B79CFF", "#5FD39A", "#AAB3CC", "#8EA6FF", "#3a9e99", "#c9a04f"];
+
+/* Accueil : la boîte à outils, le budget, les grands sujets, puis l'actu */
+function screenAccueil() {
+  const kit = DATA.kit || [], B = DATA.budget, R = DATA.reperes;
+  const nTh = k => new Set(DATA.propositions.filter(p => p.th === k).map(p => p.c)).size;
+  return `
+  ${kit.length ? `<div class="sec-h"><h2>Avant de voter</h2></div>
+  <div class="tools" role="list">${kit.map(f => `<a class="tool" role="listitem" href="#kit-${f.id}"><span class="ic">${kico(f.id)}</span><b>${esc(f.titre)}</b><span>${esc(f.sous || "")}</span></a>`).join("")}</div>` : ""}
+  ${B ? `<a class="budget-card" href="#budget"><span class="k">${kico("euro", 16)} Le budget en une image</span><b>${nf0.format(R.depenses.v)} milliards d'euros</b><span class="p">de dépenses publiques ${esc(R.depenses.quand)}. Où va l'argent, d'où il vient, et ce que pèse chaque promesse.</span><span class="stack" aria-hidden="true">${B.dep.postes.map((x, i) => `<i style="width:${x.pct}%;background:${STACK_COL[i % STACK_COL.length]}"></i>`).join("")}</span></a>` : ""}
+  <div class="sec-h"><h2>Comprendre les grands sujets</h2></div>
+  <div class="tiles">${DATA.themes.map(([k, l]) => { const n = nTh(k); return `<a class="tile" href="#t-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${n ? `${n} candidat${n > 1 ? "s ont" : " a"} fait une proposition` : "Pas encore de proposition"}</span></span></a>`; }).join("")}</div>
+  ${screenActu(true)}`;
+}
+
 /* Actu : seulement la presse, sans les articles sur les sondages */
-function screenActu() {
+function screenActu(inHome) {
   const all = DATA.presse.filter(p => p.k !== "sondage");
   const cands = candSorted().filter(c => all.some(p => p.c.includes(c.id)));
   if (ui.actuC !== "tous" && !cands.some(c => c.id === ui.actuC)) ui.actuC = "tous";
@@ -554,10 +641,50 @@ function screenActu() {
   const days = [];
   list.forEach(p => { const last = days[days.length - 1]; if (last && last.d === p.d) last.items.push(p); else days.push({ d: p.d, items: [p] }); });
   return `
-  <div class="page-h"><h1>L'actu de la campagne</h1><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien.</p></div>
+  <div class="${inHome ? "sec-h col" : "page-h"}"><${inHome ? "h2" : "h1"}>L'actu de la campagne</${inHome ? "h2" : "h1"}><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien. À partir du dimanche 11 octobre, « L'essentiel de la semaine » résumera chaque dimanche les 10 infos à retenir.</p></div>
   <div class="chips" role="group" aria-label="Filtrer par candidat">${[["tous", "Tous"]].concat(cands.map(c => [c.id, c.nom])).map(([k, l]) => `<button class="chip" type="button" data-actu="${k}" aria-pressed="${ui.actuC === k}">${esc(l)}</button>`).join("")}</div>
   ${days.map(g => `<section class="card"><h2 class="day">${esc(cap(dayFmt.format(dt(g.d))))}${g.d.slice(0, 4) !== String(new Date().getFullYear()) ? " " + g.d.slice(0, 4) : ""}</h2><div class="rows news">${g.items.map(newsRow).join("")}</div></section>`).join("")}
   <div class="foot-links"><a href="#methode">Comment l'appli est faite</a><a href="#sources">Les sources</a></div>`;
+}
+
+function screenKit(id) {
+  const kit = DATA.kit || [], f = kit.find(x => x.id === id); if (!f) return screenAccueil();
+  const R = refBox();
+  return `
+  <div class="page-h"><span class="kick">${kico(f.id, 16)} Avant de voter</span><h1>${esc(f.titre)}</h1><p class="lead">${esc(f.en_bref)}</p></div>
+  <section class="card kit">${f.blocs.map(b => `<div class="blk"><h3>${esc(b.h)}</h3><p>${esc(b.txt)}${R.ref(b.src)}</p></div>`).join("")}
+    ${f.lien ? `<a class="more-btn as-link" href="${esc(f.lien.u)}" target="_blank" rel="noopener">${esc(f.lien.label)}${ARW}</a>` : ""}
+    <div class="blk"><h3>Sources</h3>${R.list()}</div></section>
+  <section class="card"><h2>Les autres fiches</h2><div class="rows">${kit.filter(x => x.id !== id).map(x => `<a class="row" href="#kit-${x.id}"><span class="ic-s">${kico(x.id, 18)}</span><span class="txt"><b>${esc(x.titre)}</b><span>${esc(x.sous || "")}</span></span>${CHEV}</a>`).join("")}<a class="row" href="#budget"><span class="ic-s">${kico("euro", 18)}</span><span class="txt"><b>Le budget en une image</b><span>Où va l'argent public, d'où il vient</span></span>${CHEV}</a></div></section>`;
+}
+
+function screenBudget() {
+  const B = DATA.budget, R = DATA.reperes; if (!B) return screenAccueil();
+  const D = B.dep, E = B.rec, X = refBox();
+  const md1 = v => nf1.format(v) + " Md€";
+  const hab = Math.round(R.depenses.v * 1e9 / (R.population * 1e6) / 100) * 100;
+  const maxD = Math.max(...D.postes.map(x => x.pct));
+  const maxE = Math.max(...E.blocs.map(x => x[1]));
+  return `
+  <div class="page-h"><span class="kick">${kico("euro", 16)} Comprendre</span><h1>Le budget en une image</h1><p class="lead">Toutes les dépenses publiques : l'État, la Sécurité sociale et les collectivités locales (communes, départements, régions).</p></div>
+  <section class="card">
+    <div class="big-n"><b>${nf0.format(R.depenses.v)} Md€</b><span>dépensés ${esc(R.depenses.quand)}, soit environ ${nf0.format(hab)} € par habitant${X.ref(R.depenses.s)}</span></div>
+    <div class="figs"><div><b>${md1(E.total)}</b><span>de recettes en ${esc(E.annee)} : impôts, cotisations…${X.ref(E.src[0])}</span></div><div><b>${md1(R.deficit.v)}</b><span>de déficit ${esc(R.deficit.quand)}, ${esc(R.deficit.pct)}${X.ref(R.deficit.s)}</span></div></div>
+    <p class="small">Le déficit, c'est ce qui manque chaque année entre les dépenses et les recettes. Il est financé par l'emprunt, qui s'ajoute à la dette.</p>
+  </section>
+  <section class="card"><h2>Où va l'argent</h2><p class="small">Répartition des ${md1(D.total)} de dépenses publiques en ${esc(D.annee)}, dernière année publiée par l'Insee (chiffres provisoires).${X.ref(D.src[0])}</p>
+    <div class="bars">${D.postes.map(x => `<div class="bar-r"><span class="l">${esc(x.l)}</span><span class="tr"><i style="width:${x.pct / maxD * 100}%"></i></span><span class="v">${nf0.format(x.pct)} %</span>${x.dont ? `<span class="dont">dont ${x.dont.map(([l, v]) => `${esc(l.toLowerCase())} ${md1(v)}`).join(", ")}</span>` : ""}</div>`).join("")}</div>
+    <p class="small">Le détail par poste vient de l'Office statistique de l'Union européenne, qui reprend les comptes de l'Insee.${X.ref(D.src[1])}</p>
+  </section>
+  <section class="card"><h2>D'où vient l'argent</h2><p class="small">Les ${md1(E.total)} de recettes publiques en ${esc(E.annee)} (chiffres provisoires).${X.ref(E.src[0])}</p>
+    <div class="bars">${E.blocs.map(([l, v]) => `<div class="bar-r in"><span class="l">${esc(l)}</span><span class="tr"><i style="width:${v / maxE * 100}%"></i></span><span class="v">${nf0.format(v / E.total * 100)} %</span></div>`).join("")}</div>
+    <h3 class="sub">Les principaux impôts et cotisations</h3>
+    <div class="rows tax">${E.detail.map(([l, v]) => `<div class="row"><span class="txt"><b>${esc(l)}</b></span><span class="v">${md1(v)}</span></div>`).join("")}</div>
+    <p class="small">Montants ${esc(E.annee)}${X.ref(E.src[1])}${X.ref(E.src[2])}. Ces lignes ne s'additionnent pas exactement au total : elles ne reprennent que les principaux prélèvements, et l'impôt sur le revenu et l'impôt sur les sociétés sont comptés avant crédits d'impôt.</p>
+  </section>
+  <section class="card"><h2>La dette</h2><div class="big-n"><b>${nf0.format(R.dette.v)} Md€</b><span>${esc(R.dette.quand)}, soit ${esc(R.dette.pct)}${X.ref(R.dette.s)}</span></div></section>
+  <section class="card"><h2>Et les promesses ?</h2><p class="lead">Dans l'appli, chaque coût annuel annoncé par un candidat est rapporté à ces ${nf0.format(R.depenses.v)} milliards. Une mesure à 10 milliards d'euros par an représente ainsi environ ${new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 2 }).format(10 / R.depenses.v * 100)} % des dépenses publiques, soit ${nf0.format(10e9 / (R.population * 1e6))} € par habitant.</p></section>
+  <section class="card"><h2>Sources</h2>${X.list()}</section>`;
 }
 
 function screenCandidats() {
@@ -571,6 +698,18 @@ function screenCandidats() {
   <section class="card"><h2>Les dates clés</h2><div class="agenda">${DATA.agenda.map(([d, t]) => `<div class="it">${leaf(d)}<span>${esc(t)}</span></div>`).join("")}</div></section>`;
 }
 
+/* Les sujets sur lesquels portent ses propositions publiées : même règle pour tous, calculée à partir des données */
+function themeLine(ps) {
+  if (!ps.length) return "Pas encore de proposition publiée.";
+  if (ps.length === 1) return `Sa seule proposition publiée à ce jour porte sur le sujet « ${THEME_NAME[ps[0].th]} ».`;
+  const n = {}; ps.forEach(p => n[p.th] = (n[p.th] || 0) + 1);
+  const top = Object.entries(n).sort((a, b) => b[1] - a[1] || THEME_NAME[a[0]].localeCompare(THEME_NAME[b[0]], "fr"));
+  const keep = top.filter(([, v]) => v >= Math.min(top[0][1], 2)).slice(0, 3);
+  const list = (keep.length ? keep : top.slice(0, 2)).map(([k]) => `« ${THEME_NAME[k]} »`);
+  const txt = list.length > 1 ? list.slice(0, -1).join(", ") + " et " + list[list.length - 1] : list[0];
+  return `Ses ${ps.length} propositions publiées portent surtout sur ${list.length > 1 ? "les sujets" : "le sujet"} ${txt}.`;
+}
+
 function screenCandidat(id) {
   const c = CAND[id]; if (!c) return screenCandidats();
   const ps = propsOf(id);
@@ -578,15 +717,17 @@ function screenCandidat(id) {
   const silent = DATA.themes.filter(([k]) => !ps.some(p => p.th === k)).map(([, l]) => l);
   const press = DATA.presse.filter(p => p.c.includes(id) && p.k !== "sondage").sort((a, b) => b.d.localeCompare(a.d));
   const vids = (DATA.videos || []).filter(v => v.c === id);
+  const X = refBox(), pc = c.parcours;
   return `
   <section class="card profile">
     <div class="who">${mono(id, "l")}<div><h1>${esc(c.nom)}</h1><div class="party">${esc(c.parti)}</div></div></div>
+    ${pc ? `<p class="chapo">${esc(pc.chapo[0])}${pc.chapo[1].map(X.ref).join("")} ${esc(themeLine(ps))}</p>` : ""}
     ${statut(c)}
     <p class="lead">${esc(c.statutTxt)}.</p>
     <div class="stats"><div><b>${ps.length}</b><span>propositions</span></div><div><b>${ps.filter(p => p.fin === "f" || p.fin === "c").length}</b><span>chiffrées</span></div><div><b>${themes.length}</b><span>sujets sur ${DATA.themes.length}</span></div></div>
     <p class="credit">${photoCredit(c)}</p>
   </section>
-  ${c.bio && c.bio.length ? `<section class="card"><h2>Son parcours</h2><div class="bio">${c.bio.map(([t, s]) => `<p>${esc(t)} <span class="s">${SRC[s] ? ext(SRC[s].u, esc(SRC[s].p)) : ""}</span></p>`).join("")}</div></section>` : ""}
+  ${pc ? `<section class="card parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>` : ""}
   ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="props">${ps.filter(p => p.th === k).map(propItem).join("")}</div></section>`).join("")}
   ${silent.length ? `<p class="silent" style="padding-inline:4px">Pas encore de proposition publique sur : ${silent.map(esc).join(", ")}.</p>` : ""}
   ${c.docs.length ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
@@ -667,11 +808,11 @@ function screenVideos() {
 
 /* Comparer : deux candidats côte à côte, ou tous les candidats sur un sujet */
 function screenComparer() {
-  const seg = `<div class="seg" role="group" aria-label="Mode"><button type="button" data-mode="deux" aria-pressed="${ui.cmpMode === "deux"}">Deux candidats</button><button type="button" data-mode="tous" aria-pressed="${ui.cmpMode === "tous"}">Tous sur un sujet</button></div>`;
+  const seg = `<div class="seg" role="group" aria-label="Mode"><button type="button" data-mode="tous" aria-pressed="${ui.cmpMode === "tous"}">Par sujet</button><button type="button" data-mode="deux" aria-pressed="${ui.cmpMode === "deux"}">Deux candidats</button></div>`;
   const chipsFor = list => `<div class="chips" role="group" aria-label="Sujet">${list.map(([k, l]) => `<button class="chip" type="button" data-th="${k}" aria-pressed="${ui.cmpTh === k}">${esc(l)}</button>`).join("")}</div>`;
   if (ui.cmpMode === "tous") {
     if (!THEME_NAME[ui.cmpTh]) ui.cmpTh = DATA.themes[0][0];
-    return `<div class="page-h"><h1>Comparer</h1><p class="lead">Ce que propose chaque candidat sur un même sujet.</p></div>${seg}${chipsFor(DATA.themes)}${themeAll(ui.cmpTh)}`;
+    return `<div class="page-h"><h1>Les sujets</h1><p class="lead">Ce que propose chaque candidat sur un même sujet, ou deux candidats côte à côte.</p></div>${seg}${chipsFor(DATA.themes)}${themeAll(ui.cmpTh)}`;
   }
   if (!ui.cmpA || !CAND[ui.cmpA] || !ui.cmpB || !CAND[ui.cmpB] || ui.cmpA === ui.cmpB) {
     const pool = shuffle(DATA.candidats.map(c => c.id).filter(id => id !== ui.cmpA && id !== ui.cmpB));
@@ -683,7 +824,7 @@ function screenComparer() {
   const themes = ui.cmpTh === "tous" || !THEME_NAME[ui.cmpTh] ? DATA.themes : DATA.themes.filter(([k]) => k === ui.cmpTh);
   const col = (id, k) => { const ps = DATA.propositions.filter(p => p.c === id && p.th === k); return `<div class="cmp-col">${ps.length ? ps.map(p => `<div class="ci"><b>${esc(p.t)}</b>${finBadge(p)}${tbc(p)}${p.a ? amount(p.a) : ""}${ext(SRC[p.s[0]].u, "Source : " + esc(SRC[p.s[0]].p))}<button class="more-lnk" type="button" data-more="${p.id}">Aller plus loin</button></div>`).join("") : `<span class="none">Rien de public pour l'instant</span>`}</div>`; };
   return `
-  <div class="page-h"><h1>Comparer</h1><p class="lead">Deux candidats côte à côte, sujet par sujet.</p></div>
+  <div class="page-h"><h1>Les sujets</h1><p class="lead">Deux candidats côte à côte, sujet par sujet.</p></div>
   ${seg}
   <section class="card">
     <div class="pick">
@@ -702,7 +843,7 @@ function themeAll(k) {
   const silent = candSorted().filter(c => !ps.some(p => p.c === c.id));
   const ax = DATA.reperes.axes[k];
   const R = DATA.reperes;
-  const budget = k === "budget" ? `<section class="card"><h2>Les comptes publics aujourd'hui</h2><div class="figs"><div><b>${nf0.format(R.dette.v)} Md€</b><span>de dette publique ${esc(R.dette.quand)}, ${esc(R.dette.pct)}</span></div><div><b>${nf1.format(R.deficit.v)} Md€</b><span>de déficit ${esc(R.deficit.quand)}, ${esc(R.deficit.pct)}</span></div></div><p class="small">Source : ${ext(SRC[R.dette.s].u, "Insee")}. Le déficit, c'est ce que l'État et les administrations dépensent en plus de ce qu'ils encaissent sur une année.</p></section>` : "";
+  const budget = k === "budget" ? `<section class="card"><h2>Les comptes publics aujourd'hui</h2><div class="figs"><div><b>${nf0.format(R.dette.v)} Md€</b><span>de dette publique ${esc(R.dette.quand)}, ${esc(R.dette.pct)}</span></div><div><b>${nf1.format(R.deficit.v)} Md€</b><span>de déficit ${esc(R.deficit.quand)}, ${esc(R.deficit.pct)}</span></div></div><p class="small">Source : ${ext(SRC[R.dette.s].u, "Insee")}. Le déficit, c'est ce que l'État et les administrations dépensent en plus de ce qu'ils encaissent sur une année.</p>${DATA.budget ? `<a class="more-btn as-link" href="#budget">Le budget en une image${ARW}</a>` : ""}</section>` : "";
   return `
   <p class="small" style="padding-inline:4px">${who.length} candidat${who.length > 1 ? "s ont" : " a"} fait au moins une proposition sur ce sujet.</p>
   ${ax ? `<section class="card"><h2>${esc(ax.titre)}</h2>${axis(ax)}<p class="small">${esc(ax.note)}</p></section>` : ""}
@@ -756,7 +897,8 @@ function screenMethode() {
     <p><b>Les propositions.</b> Uniquement des propositions rendues publiques pour 2027. Chacune est résumée en une phrase, avec un lien vers le document ou l'article d'origine. Le texte complet reste chez le candidat ou le média cité. Quand la seule source trouvée est un comparateur, la proposition porte la mention « À confirmer » : elle doit encore être confirmée par un document du candidat ou un média.</p>
     <p><b>Aller plus loin.</b> Chaque proposition a sa fiche : le détail, le coût et le financement, et toutes les sources.${DATA.contexte ? " Quand c'est possible, la fiche donne aussi la situation actuelle, avec un chiffre officiel daté, et ce que dit le candidat pour justifier sa proposition." : ""}</p>
     <p><b>Les photos.</b> Uniquement des photos libres de droits publiées sur Wikimedia Commons, recadrées de la même façon pour tous, avec le nom de l'auteur, l'année et la licence. Quand aucune photo libre n'existe, les initiales s'affichent à la place.</p>
-    ${DATA.candidats.some(c => c.bio && c.bio.length) ? `<p><b>Les parcours.</b> Quelques lignes factuelles par candidat : naissance, métier, principaux mandats. Chaque phrase a sa source, en priorité officielle : Assemblée nationale, Sénat, Parlement européen, Journal officiel.</p>` : ""}
+    ${DATA.candidats.some(c => c.parcours) ? `<p><b>Les parcours.</b> Pour chaque candidat, le même format : un résumé, puis ses origines, son parcours et ce qu'il fait aujourd'hui. Aucune étiquette politique ni appréciation. Chaque phrase porte un numéro qui renvoie à sa source, en priorité officielle (Assemblée nationale, Sénat, Parlement européen, site du Gouvernement). La phrase sur les sujets de ses propositions est calculée automatiquement, avec la même règle pour tous.</p>` : ""}
+    ${DATA.kit ? `<p><b>La boîte à outils.</b> Les fiches « Avant de voter » et « Le budget en une image » s'appuient uniquement sur des sources officielles : service-public.fr, Conseil constitutionnel, ministère de l'Intérieur, Insee.</p>` : ""}
     <p><b>Les vidéos.</b> L'ordre du fil est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
     <p><b>Neutralité.</b> Même présentation pour tous, aucune couleur de parti, aucune note. Les sondages sont regroupés dans le dernier onglet, après une explication sur la façon de les lire.</p>
     <p><b>Vos données.</b> L'appli ne demande aucun compte et ne collecte rien sur vous.</p>
@@ -792,7 +934,12 @@ function srcUsage() {
   const u = {};
   const add = (id, k) => { if (!id || !SRC[id]) return; (u[id] = u[id] || {})[k] = (u[id][k] || 0) + 1; };
   DATA.propositions.forEach(p => { const set = new Set(allSrc(p)); if (p.plus && p.plus.pourquoi) set.add(p.plus.pourquoi[1]); set.forEach(s => add(s, "prop")); });
-  DATA.candidats.forEach(c => { const set = new Set((c.bio || []).map(b => b[1])); set.forEach(s => add(s, "bio")); new Set(c.faits.map(f => f[1]).concat(c.docs)).forEach(s => add(s, "fiche")); });
+  DATA.candidats.forEach(c => {
+    const set = new Set(); if (c.parcours) { c.parcours.chapo[1].forEach(x => set.add(x)); c.parcours.paras.forEach(([, ss]) => ss.forEach(([, x]) => set.add(x))); }
+    set.forEach(s => add(s, "bio")); new Set(c.faits.map(f => f[1]).concat(c.docs)).forEach(s => add(s, "fiche"));
+  });
+  (DATA.kit || []).forEach(f => new Set(f.blocs.map(b => b.src)).forEach(s => add(s, "kit")));
+  if (DATA.budget) DATA.budget.dep.src.concat(DATA.budget.rec.src).forEach(s => add(s, "ctx"));
   DATA.presse.forEach(p => add(p.s, "art"));
   DATA.sondages.forEach(s => new Set(s.s).forEach(x => add(x, "sond"))); add(DATA.duels.s, "sond");
   Object.values(DATA.contexte || {}).forEach(r => add(r[1], "ctx"));
@@ -800,7 +947,7 @@ function srcUsage() {
   Object.values(R.axes || {}).forEach(a => a.rows.forEach(r => add(r.s, "ctx")));
   return u;
 }
-const USE = { prop: ["proposition", "propositions"], bio: ["parcours", "parcours"], fiche: ["fiche candidat", "fiches candidats"], art: ["article de l'actu", "articles de l'actu"], sond: ["sondage", "sondages"], ctx: ["chiffre de contexte", "chiffres de contexte"] };
+const USE = { prop: ["proposition", "propositions"], bio: ["parcours", "parcours"], kit: ["fiche « Avant de voter »", "fiches « Avant de voter »"], fiche: ["fiche candidat", "fiches candidats"], art: ["article de l'actu", "articles de l'actu"], sond: ["sondage", "sondages"], ctx: ["chiffre de contexte", "chiffres de contexte"] };
 const useText = u => u ? "Citée pour : " + Object.entries(USE).filter(([k]) => u[k]).map(([k, [one, many]]) => `${u[k]} ${u[k] > 1 ? many : one}`).join(", ") : "Consultée pour vérifier la liste des candidats";
 function srcItem(id, u) {
   const s = SRC[id], dom = host(s.u);
@@ -897,7 +1044,7 @@ window.addEventListener("popstate", () => { if (sheetEl) closeMore(true); });
 document.addEventListener("keydown", e => { if (e.key === "Escape" && sheetEl) closeMore(); });
 
 /* ---------- navigation ---------- */
-const TAB_TITLE = { candidats: "Candidats", videos: "Vidéos", comparer: "Comparer", sondages: "Sondages" };
+const TAB_TITLE = { candidats: "Candidats", videos: "Vidéos", comparer: "Sujets", sondages: "Sondages" };
 const app = $("#app");
 function route() {
   let h = (location.hash || "#actu").slice(1);
@@ -907,8 +1054,10 @@ function route() {
   if (h.startsWith("c-")) { tab = "candidats"; html = screenCandidat(h.slice(2)); title = nom(h.slice(2)); back = "#candidats"; }
   else if (h === "methode") { html = screenMethode(); title = "Méthode"; back = "#actu"; }
   else if (h === "sources") { html = screenSources(); title = "Sources"; back = "#methode"; }
+  else if (h.startsWith("kit-")) { html = screenKit(h.slice(4)); title = "Avant de voter"; back = "#actu"; }
+  else if (h === "budget") { html = screenBudget(); title = "Le budget"; back = "#actu"; }
   else if (TAB_TITLE[h]) { tab = h; html = { candidats: screenCandidats, videos: screenVideos, comparer: screenComparer, sondages: screenSondages }[h](); title = TAB_TITLE[h]; }
-  else { html = screenActu(); title = null; }
+  else { html = screenAccueil(); title = null; }
   app.classList.toggle("full", tab === "videos");
   app.innerHTML = html;
   $("#ttl").innerHTML = title ? esc(title) : '<span class="wm">Programmes <em>2027</em></span>';
