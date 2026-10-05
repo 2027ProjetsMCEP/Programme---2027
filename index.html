@@ -380,6 +380,15 @@ body.locked { overflow: hidden; }
 .card > h2 .cnt { font-family: var(--f-body); font-size: 0.78rem; font-weight: 700; color: var(--ink-3); background: var(--chip); border-radius: 999px; padding: 2px 9px; }
 .row .txt .use { color: var(--ink-2); font-size: 0.76rem; }
 .src-g .row .txt b { overflow-wrap: anywhere; }
+/* Fil : sujets en haut, par-dessus les cartes */
+.feed-wrap { position: relative; }
+.feed-chips { position: absolute; top: 0; left: 0; right: 0; z-index: 3; margin: 0; padding: 10px 12px 14px; background: linear-gradient(to bottom, rgba(6, 9, 26, .78), rgba(6, 9, 26, 0)); }
+.feed-chips .chip { background: rgba(255, 255, 255, .12); border-color: transparent; color: var(--on-reel); backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+.feed-chips .chip[aria-pressed="true"] { background: var(--on-reel); color: var(--reel-b); }
+.feed .poster { padding-top: 72px; }
+.feed .poster::after { top: 64px; }
+.poster .said { font-size: 0.95rem; line-height: 1.45; color: var(--on-reel); opacity: .92; max-width: 40ch; border-left: 3px solid rgba(255, 255, 255, .4); padding-left: 12px; }
+.poster .more-btn.play { align-self: flex-start; }
 .more-btn.as-link { display: inline-flex; justify-content: center; align-items: center; gap: 6px; text-decoration: none; }
 </style>
 </head>
@@ -481,7 +490,8 @@ function amount(a) {
   if (!a) return "";
   const lab = a.lab || { cout: "Coût annoncé", economie: "Économie annoncée", neutre: "Présenté comme neutre", dette: "Montant concerné" }[a.nature];
   const per = a.per === "an" ? " par an" : "";
-  const hab = a.per === "an" ? `<span>soit environ ${nf0.format(a.v * 1e9 / (DATA.reperes.population * 1e6))} € par habitant</span>` : (a.nature === "dette" || a.per === "total" ? `<span>${esc(a.h)}</span>` : "");
+  const share = v => { const x = v / DATA.reperes.depenses.v * 100; return x < 0.1 ? "moins de 0,1 %" : (x < 1 ? new Intl.NumberFormat("fr-FR", { maximumFractionDigits: 2 }).format(x) : nf1.format(x)) + " %"; };
+  const hab = a.per === "an" ? `<span>soit environ ${nf0.format(a.v * 1e9 / (DATA.reperes.population * 1e6))} € par habitant et ${share(a.v)} des dépenses publiques</span>` : (a.nature === "dette" || a.per === "total" ? `<span>${esc(a.h)}</span>` : "");
   return `<span class="amt ${a.nature}">${lab} : ${md(a.v)}${per}${hab}</span>`;
 }
 function srcLine(ids) {
@@ -525,7 +535,7 @@ function axis(cfg) {
 }
 
 /* ---------- écrans ---------- */
-const ui = { actuC: "tous", cmpMode: "deux", cmpA: null, cmpB: null, cmpTh: "tous", feed: null, srcG: "tous" };
+const ui = { actuC: "tous", cmpMode: "deux", cmpA: null, cmpB: null, cmpTh: "tous", feed: null, feedTh: "tous", srcG: "tous" };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const dayFmt = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -586,13 +596,18 @@ function screenCandidat(id) {
 
 /* Vidéos : un passage par candidat dans un ordre tiré au hasard, puis on recommence.
    Une vidéo du candidat passe avant ses propositions écrites ; sans vidéo, la carte présente la proposition. */
+/* Filtre par sujet : on fait défiler tous les candidats sur un même thème */
 function buildFeed() {
-  const vids = DATA.videos || [];
-  const per = candSorted().map(c => ({ c: c.id, items: vids.filter(v => v.c === c.id).map(v => ({ v })).concat(propsOf(c.id).map(p => ({ p }))) }));
+  const th = ui.feedTh, keep = x => th === "tous" || x.th === th;
+  const vids = (DATA.videos || []).filter(keep);
+  const per = candSorted().map(c => ({ c: c.id, items: vids.filter(v => v.c === c.id).map(v => ({ v })).concat(propsOf(c.id).filter(keep).map(p => ({ p }))) }));
   const cards = [];
   for (let r = 0; per.some(x => x.items.length > r); r++) cards.push(...shuffle(per.filter(x => x.items.length > r).map(x => ({ c: x.c, ...x.items[r] }))));
   return cards;
 }
+/* Vidéo YouTube citée comme source : chargée seulement quand on touche le bouton (aucune requête vers YouTube avant) */
+const ytId = u => { const m = String(u).match(/(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{6,})/); return m ? m[1] : null; };
+const ytEmbed = (id, title) => `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(id)}?playsinline=1&rel=0&autoplay=1" title="${esc(title)}" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
 function videoMedia(v) {
   if (v.type === "youtube") return `<iframe src="https://www.youtube-nocookie.com/embed/${encodeURIComponent(v.id)}?playsinline=1&rel=0" title="${esc(v.titre)}" allow="encrypted-media; picture-in-picture" allowfullscreen loading="lazy"></iframe>`;
   if (v.type === "mp4") return `<video src="${esc(v.url)}" controls playsinline preload="metadata"></video>`;
@@ -609,8 +624,10 @@ function reel(card) {
   const c = CAND[card.c];
   const th = card.p ? card.p.th : card.v.th;
   const firstSrc = card.v ? (card.v.s ? SRC[card.v.s] : null) : SRC[card.p.s[0]];
+  const yt = card.p ? allSrc(card.p).map(id => ytId(SRC[id].u)).find(Boolean) : null;
+  const said = card.p && card.p.plus && card.p.plus.pourquoi ? `<span class="said">${esc(card.p.plus.pourquoi[0])}</span>` : "";
   const media = card.v ? videoMedia(card.v)
-    : `<div class="poster"><span class="soon">${svg(th)}${esc(THEME_NAME[th])}</span><span class="big">${esc(card.p.t)}</span><span class="badges">${finBadge(card.p)}${tbc(card.p)}</span>${card.p.finTxt ? `<span class="fintxt">Financement prévu : ${esc(card.p.finTxt)}</span>` : ""}<span class="later">Pas encore de vidéo de ${esc(c.nom)} sur cette proposition</span></div>`;
+    : `<div class="poster"><span class="soon">${svg(th)}${esc(THEME_NAME[th])}</span><span class="big">${esc(card.p.t)}</span>${said}<span class="badges">${finBadge(card.p)}${tbc(card.p)}</span>${card.p.finTxt ? `<span class="fintxt">Financement prévu : ${esc(card.p.finTxt)}</span>` : ""}${yt ? `<button class="more-btn play" type="button" data-yt="${esc(yt)}" data-title="${esc(card.p.t)}">▶ Voir la vidéo source</button>` : `<span class="later">Pas encore de vidéo de ${esc(c.nom)} sur cette proposition</span>`}</div>`;
   return `<article class="reel">
     <div class="reel-media">${media}</div>
     <div class="reel-info">
@@ -627,19 +644,24 @@ function reel(card) {
   </article>`;
 }
 function screenVideos() {
+  const themes = DATA.themes.filter(([k]) => DATA.propositions.some(p => p.th === k));
+  if (ui.feedTh !== "tous" && !themes.some(([k]) => k === ui.feedTh)) { ui.feedTh = "tous"; ui.feed = null; }
   if (!ui.feed) ui.feed = buildFeed();
-  const n = (DATA.videos || []).length;
-  return `<div class="feed" id="feed">
+  const n = (DATA.videos || []).length, nc = new Set(ui.feed.map(x => x.c)).size, one = ui.feedTh !== "tous";
+  return `<div class="feed-wrap">
+  <div class="chips feed-chips" role="group" aria-label="Choisir un sujet">${[["tous", "Tous les sujets"]].concat(themes).map(([k, l]) => `<button class="chip" type="button" data-feedth="${k}" aria-pressed="${ui.feedTh === k}">${esc(l)}</button>`).join("")}</div>
+  <div class="feed" id="feed">
     <article class="reel intro">
       <div class="reel-media"><div class="poster">
-        <span class="soon">Les candidats en une minute</span>
-        <span class="big">Une proposition par écran</span>
-        <span class="later">${n ? `${n} vidéo${n > 1 ? "s" : ""} de candidats.` : "Pas encore de vidéo de candidat."} En attendant, chaque carte présente une proposition, avec sa source. L'ordre est tiré au hasard à chaque visite : chaque candidat passe une fois avant que l'on recommence.</span>
+        <span class="soon">${one ? svg(ui.feedTh) + esc(THEME_NAME[ui.feedTh]) : "Les candidats en une minute"}</span>
+        <span class="big">${one ? `Ce que proposent ${nc} candidat${nc > 1 ? "s" : ""} sur ce sujet` : "Une proposition par écran"}</span>
+        <span class="later">${one ? `${ui.feed.length} proposition${ui.feed.length > 1 ? "s" : ""}, une par écran.` : `${n ? `${n} vidéo${n > 1 ? "s" : ""} de candidats.` : "Pas encore de vidéo de candidat."} En attendant, chaque carte présente une proposition, avec sa source.`} L'ordre est tiré au hasard à chaque visite : chaque candidat passe une fois avant que l'on recommence. Choisissez un sujet en haut pour voir tous les candidats sur un même thème.</span>
         <span class="swipe">Faites glisser vers le haut</span>
       </div></div>
     </article>
     ${ui.feed.map(reel).join("")}
-    <article class="reel intro"><div class="reel-media"><div class="poster"><span class="big">Vous avez tout vu</span><span class="later">${ui.feed.length} propositions de ${DATA.candidats.length} candidats.</span><button class="more-btn" type="button" data-act="refeed">Recommencer dans un autre ordre</button></div></div></article>
+    <article class="reel intro"><div class="reel-media"><div class="poster"><span class="big">Vous avez tout vu</span><span class="later">${ui.feed.length} proposition${ui.feed.length > 1 ? "s" : ""} de ${nc} candidat${nc > 1 ? "s" : ""}${one ? " sur ce sujet" : ""}.</span><button class="more-btn" type="button" data-act="refeed">Recommencer dans un autre ordre</button></div></div></article>
+  </div>
   </div>`;
 }
 
@@ -845,7 +867,7 @@ function moreHtml(p) {
     ${ctx.length ? `<div class="blk"><h3>Aujourd'hui</h3>${ctx.map(([t, s]) => `<p>${esc(t)}${cite(s)}</p>`).join("")}</div>` : ""}
     ${x.change ? `<div class="blk"><h3>Ce que ça changerait</h3><p>${esc(x.change)}</p></div>` : ""}
     ${x.pourquoi ? `<div class="blk"><h3>Ce qu'en dit ${esc(c.nom)}</h3><p>${esc(x.pourquoi[0])}${cite(x.pourquoi[1])}</p></div>` : ""}
-    <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(FIN_HELP[p.fin] || "")}</p>${amount(p.a)}${finText(p)}</div>
+    <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(FIN_HELP[p.fin] || "")}</p>${amount(p.a)}${finText(p)}${p.a && p.a.per === "an" ? `<p class="s">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</div>
     ${others ? `<a class="more-btn as-link" href="#t-${p.th}">Ce que proposent les ${others} autres candidats sur ce sujet${ARW}</a>` : ""}
     <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${allSrc(p).map(srcRow).join("")}</div></div>
     ${p.plus ? "" : `<p class="small">Bientôt dans cette fiche : la situation actuelle avec un chiffre officiel, et ce que la proposition changerait concrètement.</p>`}
@@ -906,6 +928,8 @@ app.addEventListener("click", e => {
   else if (t.dataset.mode) { ui.cmpMode = t.dataset.mode; if (ui.cmpMode === "tous" && !THEME_NAME[ui.cmpTh]) ui.cmpTh = DATA.themes[0][0]; rerender(); }
   else if (t.dataset.th) { ui.cmpTh = t.dataset.th; rerender(); }
   else if (t.dataset.srcg) { ui.srcG = t.dataset.srcg; rerender(); }
+  else if (t.dataset.feedth) { ui.feedTh = t.dataset.feedth; ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); const c = document.querySelector(`[data-feedth="${ui.feedTh}"]`); if (c) c.scrollIntoView({ inline: "center", block: "nearest" }); }
+  else if (t.dataset.yt) { const m = t.closest(".reel-media"); if (m) m.innerHTML = ytEmbed(t.dataset.yt, t.dataset.title || "Vidéo"); }
 });
 app.addEventListener("input", e => {
   if (e.target.id === "qs") {
