@@ -638,7 +638,7 @@ function screenAccueil() {
   <div class="tools" role="list">${kit.map(f => `<a class="tool" role="listitem" href="#kit-${f.id}"><span class="ic">${kico(f.id)}</span><b>${esc(f.titre)}</b><span>${esc(f.sous || "")}</span></a>`).join("")}</div>` : ""}
   ${B ? `<a class="budget-card" href="#budget"><span class="k">${kico("euro", 16)} Le budget en une image</span><b>${nf0.format(R.depenses.v)} milliards d'euros</b><span class="p">de dépenses publiques ${esc(R.depenses.quand)}. Où va l'argent, d'où il vient, et ce que pèse chaque promesse.</span><span class="stack" aria-hidden="true">${B.dep.postes.map((x, i) => `<i style="width:${x.pct}%;background:${STACK_COL[i % STACK_COL.length]}"></i>`).join("")}</span></a>` : ""}
   <div class="sec-h"><h2>Comprendre les grands sujets</h2></div>
-  <div class="tiles">${DATA.themes.map(([k, l]) => { const n = nTh(k); return `<a class="tile" href="#t-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${n ? `${n} candidat${n > 1 ? "s ont" : " a"} fait une proposition` : "Pas encore de proposition"}</span></span></a>`; }).join("")}</div>
+  <div class="tiles">${DATA.themes.map(([k, l]) => { const S = DATA.sujets && DATA.sujets[k], f = S && S.chiffres && S.chiffres[0]; return `<a class="tile" href="#comprendre-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${f ? `${esc(f.v)} ${esc(f.l.split(/[;(]/)[0].trim())}` : k === "budget" && DATA.budget ? "Le budget en une image" : "Fiche en préparation"}</span></span></a>`; }).join("")}</div>
   ${screenActu(true)}`;
 }
 
@@ -823,8 +823,8 @@ function screenComparer() {
   const chipsFor = list => `<div class="chips" role="group" aria-label="Sujet">${list.map(([k, l]) => `<button class="chip" type="button" data-th="${k}" aria-pressed="${ui.cmpTh === k}">${esc(l)}</button>`).join("")}</div>`;
   if (ui.cmpMode === "tous") {
     const nTh = k => new Set(DATA.propositions.filter(p => p.th === k).map(p => p.c)).size;
-    return `<div class="page-h"><h1>Les sujets</h1><p class="lead">Pour chaque sujet : comprendre la situation aujourd'hui, avec des chiffres officiels, puis ce que propose chaque candidat.</p></div>${seg}
-    <div class="tiles">${DATA.themes.map(([k, l]) => { const n = nTh(k), ok = DATA.sujets && DATA.sujets[k]; return `<a class="tile" href="#t-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${ok ? "Comprendre le sujet · " : ""}${n} candidat${n > 1 ? "s" : ""}</span></span></a>`; }).join("")}</div>`;
+    return `<div class="page-h"><h1>Les sujets</h1><p class="lead">Ce que propose chaque candidat, sujet par sujet. Pour comprendre la situation actuelle, voir l'onglet Accueil.</p></div>${seg}
+    <div class="tiles">${DATA.themes.map(([k, l]) => { const n = nTh(k), ok = DATA.sujets && DATA.sujets[k]; const np = DATA.propositions.filter(p => p.th === k).length; return `<a class="tile" href="#t-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${n} candidat${n > 1 ? "s" : ""} · ${np} proposition${np > 1 ? "s" : ""}</span></span></a>`; }).join("")}</div>`;
   }
   if (!ui.cmpA || !CAND[ui.cmpA] || !ui.cmpB || !CAND[ui.cmpB] || ui.cmpA === ui.cmpB) {
     const pool = shuffle(DATA.candidats.map(c => c.id).filter(id => id !== ui.cmpA && id !== ui.cmpB));
@@ -849,13 +849,16 @@ function screenComparer() {
   <div class="cmp-head"><div>${mono(A, "s")}<span>${esc(nom(A))}</span></div><div>${mono(B, "s")}<span>${esc(nom(B))}</span></div></div>
   ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="cmp-grid">${col(A, k)}${col(B, k)}</div></section>`).join("")}`;
 }
-/* Page d'un sujet : « Comprendre le sujet » (même plan pour tous les sujets), puis ce que propose chaque candidat */
-function screenTheme(k) {
-  if (!THEME_NAME[k]) return screenComparer();
-  ui.cmpTh = k;
+/* « Comprendre le sujet » (onglet Accueil) : la situation aujourd'hui, même plan pour tous les sujets, sans les candidats */
+function screenComprendre(k) {
+  if (!THEME_NAME[k]) return screenAccueil();
   const S = DATA.sujets && DATA.sujets[k], X = refBox();
   const list = (items, cls = "") => `<ul class="plist ${cls}">${items.map(x => `<li>${esc(x.txt)}${X.ref(x.src)}</li>`).join("")}</ul>`;
-  const comprendre = S ? `
+  const n = new Set(DATA.propositions.filter(p => p.th === k).map(p => p.c)).size;
+  return `
+  <div class="page-h"><span class="kick">${svg(k)} Comprendre le sujet</span><h1>${esc(THEME_NAME[k])}</h1>${S ? `<p class="lead">La situation aujourd'hui, avec des chiffres officiels.</p>` : ""}</div>
+  ${k === "budget" && DATA.budget ? `<a class="more-btn as-link" href="#budget">Le budget en une image${ARW}</a>` : ""}
+  ${S ? `
   <section class="card"><h2>En 30 secondes</h2><p class="lead">${esc(S.trente.txt)}${S.trente.src.map(X.ref).join("")}</p></section>
   ${S.chiffres && S.chiffres.length ? `<section class="card"><h2>Les chiffres clés</h2><div class="figs">${S.chiffres.map(f => `<div><b>${esc(f.v)}</b><span>${esc(f.l)}${X.ref(f.src)}</span></div>`).join("")}</div></section>` : ""}
   ${S.recent && S.recent.length ? `<section class="card"><h2>Ce qui a changé récemment</h2><div class="tl">${S.recent.slice().sort((a, b) => String(b.iso || b.date).localeCompare(String(a.iso || a.date))).map(r => `<div><b>${esc(r.date)}</b><span>${esc(r.txt)}${X.ref(r.src)}</span></div>`).join("")}</div></section>` : ""}
@@ -863,16 +866,20 @@ function screenTheme(k) {
   ${S.jeunes && S.jeunes.length ? `<section class="card"><h2>Pour les 18-30 ans</h2>${list(S.jeunes)}</section>` : ""}
   ${S.questions && S.questions.length ? `<section class="card"><h2>Les grandes questions du débat</h2><p class="small">Les questions que posent les rapports officiels sur ce sujet. Les propositions des candidats, plus bas, y répondent chacune à sa façon.</p>${list(S.questions, "q")}</section>` : ""}
   ${S.lire && S.lire.length ? `<section class="card"><h2>Pour aller plus loin</h2><div class="rows">${S.lire.filter(id => SRC[id]).map(id => `<a class="row" href="${esc(SRC[id].u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(SRC[id].t)}</b><span>${esc(SRC[id].p)} · ${esc(fmtDate(SRC[id].d))}</span></span>${EXT}</a>`).join("")}</div></section>` : ""}
-  <details class="srcs card"><summary>Les sources de cette fiche</summary>${X.list()}</details>` : `<section class="card"><p class="lead">La fiche « Comprendre le sujet », avec la situation actuelle en chiffres officiels, est en préparation pour ce thème.</p></section>`;
+  <details class="srcs card"><summary>Les sources de cette fiche</summary>${X.list()}</details>` : `<section class="card"><p class="lead">La fiche « Comprendre le sujet », avec la situation actuelle en chiffres officiels, est en préparation pour ce thème.</p></section>`}
+  ${n ? `<a class="more-btn as-link" href="#t-${k}">Ce que proposent les ${n} candidats sur ce sujet${ARW}</a>` : ""}`;
+}
+
+/* Page d'un sujet (onglet Sujets) : les candidats et leurs propositions */
+function screenTheme(k) {
+  if (!THEME_NAME[k]) return screenComparer();
+  ui.cmpTh = k;
+  const S = DATA.sujets && DATA.sujets[k];
   return `
-  <div class="page-h"><span class="kick">${svg(k)} Sujet</span><h1>${esc(THEME_NAME[k])}</h1>
-    ${S ? `<button class="jump" type="button" data-jump="comprendre">Comprendre le sujet : chiffres clés, ce qui a changé, ce qui vous concerne ↓</button>` : ""}</div>
-  ${k === "budget" && DATA.budget ? `<a class="more-btn as-link" href="#budget">Le budget en une image${ARW}</a>` : ""}
-  <div class="sec-h col"><h2>Ce que proposent les candidats</h2></div>
+  <div class="page-h"><span class="kick">${svg(k)} Sujet</span><h1>${esc(THEME_NAME[k])}</h1><p class="lead">Ce que propose chaque candidat sur ce sujet.</p></div>
   ${themeAll(k)}
   <button class="more-btn" type="button" data-mode="deux" data-keepth="1">Comparer deux candidats sur ce sujet</button>
-  <div class="sec-h col" id="comprendre"><h2>Comprendre le sujet</h2><p class="lead">La situation aujourd'hui, avec des chiffres officiels.</p></div>
-  ${comprendre}`;
+  ${S || (k === "budget" && DATA.budget) ? `<a class="link" href="${S ? "#comprendre-" + k : "#budget"}" style="padding-inline:4px">Comprendre le sujet : chiffres clés, contexte${ARW}</a>` : ""}`;
 }
 
 function themeAll(k) {
@@ -1095,6 +1102,7 @@ function route() {
   else if (h === "sources") { html = screenSources(); title = "Sources"; back = "#methode"; }
   else if (h.startsWith("kit-")) { html = screenKit(h.slice(4)); title = "Avant de voter"; back = "#actu"; }
   else if (h === "budget") { html = screenBudget(); title = "Le budget"; back = "#actu"; }
+  else if (h.startsWith("comprendre-")) { html = screenComprendre(h.slice(11)); title = THEME_NAME[h.slice(11)] || "Comprendre"; back = "#actu"; }
   else if (TAB_TITLE[h]) { tab = h; html = { candidats: screenCandidats, videos: screenVideos, comparer: screenComparer, sondages: screenSondages }[h](); title = TAB_TITLE[h]; }
   else { html = screenAccueil(); title = null; }
   app.classList.toggle("full", tab === "videos");

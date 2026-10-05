@@ -7314,32 +7314,32 @@
    "chiffres": [
     {
      "v": "14,1 %",
-     "l": "Part du PIB consacrée aux dépenses de retraite en 2025 (422 milliards d'euros)",
+     "l": "part du PIB consacrée aux dépenses de retraite en 2025 (422 milliards d'euros)",
      "src": "sujet_retraites_cor_ra2026"
     },
     {
      "v": "-0,2 point de PIB",
-     "l": "Solde estimé du système de retraite en 2025 (déficit de 5,1 milliards d'euros) ; projection du COR : -0,9 point en 2045, -2,4 points en 2070",
+     "l": "solde estimé du système de retraite en 2025 (déficit de 5,1 milliards d'euros) ; projection du COR : -0,9 point en 2045, -2,4 points en 2070",
      "src": "sujet_retraites_cor_ra2026"
     },
     {
      "v": "2,5",
-     "l": "Personnes de 20 à 64 ans pour 1 personne de 65 ans et plus en 2025, contre 3,6 en 2009",
+     "l": "personnes de 20 à 64 ans pour 1 personne de 65 ans et plus en 2025, contre 3,6 en 2009",
      "src": "sujet_retraites_cor_ra2026"
     },
     {
      "v": "15,4 millions",
-     "l": "Retraités du seul régime général au 31 décembre 2024 (10 millions il y a 20 ans)",
+     "l": "retraités du seul régime général au 31 décembre 2024 (10 millions il y a 20 ans)",
      "src": "sujet_retraites_ar_chiffres"
     },
     {
      "v": "62 ans 9 mois à 64 ans",
-     "l": "Âge légal de départ selon la génération, depuis le 1er septembre 2026 : 62 ans et 9 mois (nés en 1964) à 63 ans et 9 mois (1968) ; 64 ans dès 1969",
+     "l": "âge légal de départ selon la génération, depuis le 1er septembre 2026 : 62 ans et 9 mois (nés en 1964) à 63 ans et 9 mois (1968) ; 64 ans dès 1969",
      "src": "sujet_retraites_sp_suspension"
     },
     {
      "v": "170 à 172",
-     "l": "Trimestres requis (durée d'assurance) selon la génération, nés de 1964 à 1968, depuis le 1er septembre 2026",
+     "l": "trimestres requis (durée d'assurance) selon la génération, nés de 1964 à 1968, depuis le 1er septembre 2026",
      "src": "sujet_retraites_sp_suspension"
     }
    ],
@@ -7438,27 +7438,27 @@
     },
     {
      "v": "8,3 %",
-     "l": "Taux de chômage de la population active au 2e trimestre 2026 (+0,2 point sur un trimestre)",
+     "l": "taux de chômage de la population active au 2e trimestre 2026 (+0,2 point sur un trimestre)",
      "src": "sujet_travail_insee_chomage"
     },
     {
      "v": "21,6 %",
-     "l": "Taux de chômage des 15-24 ans au 2e trimestre 2026 (+0,4 point sur un trimestre)",
+     "l": "taux de chômage des 15-24 ans au 2e trimestre 2026 (+0,4 point sur un trimestre)",
      "src": "sujet_travail_insee_chomage"
     },
     {
      "v": "69,0 %",
-     "l": "Taux d'emploi des 15-64 ans au 2e trimestre 2026 (-0,3 point sur un trimestre)",
+     "l": "taux d'emploi des 15-64 ans au 2e trimestre 2026 (-0,3 point sur un trimestre)",
      "src": "sujet_travail_insee_chomage"
     },
     {
      "v": "2,2 millions",
-     "l": "Salariés du secteur privé ayant bénéficié directement de la hausse du Smic du 1er novembre 2024, soit 12,4 % des salariés du champ étudié",
+     "l": "salariés du secteur privé ayant bénéficié directement de la hausse du Smic du 1er novembre 2024, soit 12,4 % des salariés du champ étudié",
      "src": "sujet_travail_insee_smic"
     },
     {
      "v": "2 190 €",
-     "l": "Salaire net médian par mois en équivalent temps plein dans le secteur privé en 2024 (la moitié des salariés gagne moins)",
+     "l": "salaire net médian par mois en équivalent temps plein dans le secteur privé en 2024 (la moitié des salariés gagne moins)",
      "src": "sujet_travail_insee_salaires2024"
     }
    ],
