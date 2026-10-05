@@ -5928,6 +5928,475 @@
    "d": "2026-08",
    "type": "donnees",
    "u": "https://www.tresor.economie.gouv.fr/Articles/14f83f28-0735-4f45-a80c-c20bcfd125b5/files/6f2a6720-e007-40ce-9314-5c9bda2333ec"
+  },
+  "sujet_logement_senat_loi2025": {
+   "t": "Simplification du droit de l'urbanisme et du logement",
+   "p": "Sénat",
+   "d": "2025-11-26",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/ppl24-632.html"
+  },
+  "sujet_sante_assurance_maladie_cp2027": {
+   "t": "Présentation du rapport « Charges et Produits pour 2027 »",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-07-02",
+   "type": "donnees",
+   "u": "https://www.assurance-maladie.ameli.fr/presse/2026-07-02-cp-presentation-rapport-charges-et-produits-2027"
+  },
+  "sujet_sante_insee_portrait": {
+   "t": "Dépenses de santé − France, portrait social",
+   "p": "Insee",
+   "d": "2025-11-18",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8612570?sommaire=8612596"
+  },
+  "sujet_sante_senat_avis126": {
+   "t": "Projet de loi de financement de la sécurité sociale pour 2026 (avis n° 126, 2025-2026)",
+   "p": "Sénat",
+   "d": "2025-11-14",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/a25-126/a25-1263.html"
+  },
+  "sujet_logement_sdes_rpls2025": {
+   "t": "5,4 millions de logements locatifs sociaux en France au 1er janvier 2025",
+   "p": "SDES (ministère de la Transition écologique)",
+   "d": "2026-01-20",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/54-millions-de-logements-locatifs-sociaux-en-france-au-1er-janvier-2025"
+  },
+  "sujet_logement_anil_sru": {
+   "t": "Production de logements HLM / Obligations des communes",
+   "p": "ANIL",
+   "d": "2026-08-04",
+   "type": "donnees",
+   "u": "https://www.anil.org/aj-logement-production-logement-social-obligation-commune/"
+  },
+  "sujet_sante_senat_cf_comptes2025": {
+   "t": "Commission des finances : compte rendu de la semaine du 15 juin 2026",
+   "p": "Sénat",
+   "d": "2026-06-16",
+   "type": "donnees",
+   "u": "https://www.senat.fr/compte-rendu-commissions/20260615/fin.html"
+  },
+  "sujet_sante_senat_complementaires": {
+   "t": "Hausse des tarifs des complémentaires santé : l'impact sur le pouvoir d'achat des Français",
+   "p": "Sénat",
+   "d": "2024-09-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r23-770/r23-77011.html"
+  },
+  "sujet_sante_ameli_c2s": {
+   "t": "Qui peut bénéficier de la Complémentaire santé solidaire ?",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-03-31",
+   "type": "donnees",
+   "u": "https://www.ameli.fr/assure/droits-demarches/difficultes-acces-droits-soins/complementaire-sante/complementaire-sante-beneficiaires"
+  },
+  "sujet_logement_insee_taux_effort": {
+   "t": "Le logement pèse moins sur le budget des ménages en 2024 qu'il y a dix ans, sauf pour les plus modestes - Insee Première - 2128",
+   "p": "Insee",
+   "d": "2026-09-23",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9053584"
+  },
+  "sujet_logement_insee_parc2026": {
+   "t": "Parc de logements au 1er janvier 2026 - Insee Focus - 388",
+   "p": "Insee",
+   "d": "2026-09-30",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9055697"
+  },
+  "sujet_sante_insee_bilan_demo": {
+   "t": "Bilan démographique 2025 - Insee Première - 2087",
+   "p": "Insee",
+   "d": "2026-01-13",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8719824"
+  },
+  "sujet_sante_ameli_conge": {
+   "t": "Congé supplémentaire de naissance",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-08-27",
+   "type": "donnees",
+   "u": "https://www.ameli.fr/assure/droits-demarches/famille/maternite-paternite-adoption/conge-supplementaire-naissance"
+  },
+  "sujet_logement_sp_visale": {
+   "t": "Garantie Visale : caution pour le locataire (impayés et dégradations)",
+   "p": "service-public.gouv.fr",
+   "d": "2026-01-23",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33453"
+  },
+  "sujet_sante_ameli_soutienpsy": {
+   "t": "Accompagnement avec un psychologue conventionné : Mon soutien psy",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-09-16",
+   "type": "donnees",
+   "u": "https://www.ameli.fr/medecin/exercice-liberal/prise-charge-situation-type-soin/accompagnement-psychologue-conventionne-mon-soutien-psy"
+  },
+  "sujet_logement_senat_loi2023": {
+   "t": "Proposition de loi visant à protéger les logements contre l'occupation illicite",
+   "p": "Sénat",
+   "d": "2023-07-27",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-proteger-les-logements-contre-loccupation-illicite.html"
+  },
+  "sujet_sante_ars": {
+   "t": "Qu'est-ce qu'une agence régionale de santé",
+   "p": "Agences régionales de santé (ars.sante.fr)",
+   "d": "2025-09-19",
+   "type": "donnees",
+   "u": "https://www.ars.sante.fr/quest-ce-quune-agence-regionale-de-sante"
+  },
+  "sujet_logement_sp_apl": {
+   "t": "Aide personnalisée au logement (APL)",
+   "p": "service-public.gouv.fr",
+   "d": "2026-07-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F12006"
+  },
+  "sujet_logement_sp_depot": {
+   "t": "Dépôt de garantie dans un bail d'habitation - Logement vide",
+   "p": "service-public.gouv.fr",
+   "d": "2026-06-09",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F39713/0"
+  },
+  "sujet_sante_senat_lfss2026": {
+   "t": "Projet de loi de financement de la sécurité sociale pour 2026",
+   "p": "Sénat",
+   "d": "2025-12-30",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-de-financement-de-la-securite-sociale-pour-2026.html"
+  },
+  "sujet_logement_sdes_construction2025": {
+   "t": "Construction de logements : résultats à fin décembre 2025 (France entière)",
+   "p": "SDES (ministère de la Transition écologique)",
+   "d": "2026-01-30",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/construction-de-logements-resultats-fin-decembre-2025-france-entiere"
+  },
+  "sujet_sante_ameli_gouvernance": {
+   "t": "Gouvernance de l'Assurance Maladie : organisation, instances et rôles",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-06-01",
+   "type": "donnees",
+   "u": "https://www.assurance-maladie.ameli.fr/qui-sommes-nous/notre-fonctionnement/gouvernance/gouvernance-assurance-maladie"
+  },
+  "sujet_logement_sp_permis_autorite": {
+   "t": "Permis de construire délivrés au nom de la commune ou de l'établissement public de coopération intercommunale, hors ceux qui relèvent de dispositions réglementaires particulières du code de l'urbanisme relatives au sens de la décision implicite (R*424-2 et 3) ou de dispositions prévues par les décrets relatifs aux exceptions à l'application du principe \"silence vaut acceptation\"",
+   "p": "service-public.gouv.fr",
+   "d": "2026-05-11",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/demarches-silence-vaut-accord/demarches/1450"
+  },
+  "sujet_sante_senat_rapport668": {
+   "t": "Proposition de loi visant à lutter contre les déserts médicaux, d'initiative transpartisane (rapport n° 668, 2025-2026)",
+   "p": "Sénat",
+   "d": "2026-05-27",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-668/l25-668_mono.html"
+  },
+  "sujet_sante_ameli_plafonds": {
+   "t": "Participations forfaitaires et franchises médicales : augmentation des plafonds à compter du 1er octobre 2026",
+   "p": "Assurance Maladie (ameli.fr, forum des assurés)",
+   "d": "2026-09-29",
+   "type": "donnees",
+   "u": "https://forum-assures.ameli.fr/questions/3764645-participations-forfaitaires-franchises-medicales-augmentation-plafonds-compter-1er-octobre-2026"
+  },
+  "sujet_logement_senat_pjl2026": {
+   "t": "Projet de loi visant la relance et la décentralisation du logement",
+   "p": "Sénat",
+   "d": "2026-07-08",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-visant-la-relance-et-la-decentralisation-du-logement.html"
+  },
+  "sujet_logement_senat_loi2024": {
+   "t": "Proposition de loi visant à renforcer les outils de régulation des meublés de tourisme à l'échelle locale",
+   "p": "Sénat",
+   "d": "2024-11-19",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/session-2023-2024/proposition-de-loi-visant-a-renforcer-les-outils-de-regulation-des-meubles-de-tourisme-a-lechelle-locale.html"
+  },
+  "sujet_sante_insee_financement": {
+   "t": "Structure du financement de la consommation de soins et de biens médicaux",
+   "p": "Insee",
+   "d": "2025-12-03",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/2384693"
+  },
+  "sujet_sante_insee_protection": {
+   "t": "Protection sociale − France, portrait social",
+   "p": "Insee",
+   "d": "2021-11-25",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/5432469?sommaire=5435421"
+  },
+  "sujet_logement_senat_avis819": {
+   "t": "Projet de loi visant la relance et la décentralisation du logement (avis de la commission des finances)",
+   "p": "Sénat",
+   "d": "2026-07-01",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/a25-819/a25-819_mono.html"
+  },
+  "sujet_logement_sp_hlm": {
+   "t": "Faire une demande de logement social (HLM)",
+   "p": "service-public.gouv.fr",
+   "d": "2026-09-11",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F10007"
+  },
+  "sujet_logement_sp_locapass": {
+   "t": "Avance Loca-Pass : aide au locataire pour le dépôt de garantie",
+   "p": "service-public.gouv.fr",
+   "d": "2026-09-11",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F18490"
+  },
+  "sujet_logement_sp_etudiant_apl": {
+   "t": "Un étudiant peut-il bénéficier d'une aide au logement (APL, ALS, ALF) pour payer son loyer ?",
+   "p": "service-public.gouv.fr",
+   "d": "2026-07-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1563"
+  },
+  "sujet_sante_an_fiche54": {
+   "t": "Fiche de synthèse n°54 : L'examen parlementaire des projets de loi de financement de la sécurité sociale",
+   "p": "Assemblée nationale",
+   "d": "2023-09",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationale/travail-legislatif/l-examen-parlementaire-des-projets-de-loi-de-financement-de-la-securite-sociale"
+  },
+  "sujet_logement_senat_rapport_plf2026": {
+   "t": "Projet de loi de finances pour 2026 : Cohésion des territoires - Logement et ville",
+   "p": "Sénat",
+   "d": "2025-11-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-139-35-1/l25-139-35-1_mono.html"
+  },
+  "sujet_sante_ameli_contraception": {
+   "t": "Contraception : dispositifs et remboursements",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-07-27",
+   "type": "donnees",
+   "u": "https://www.ameli.fr/assure/remboursements/rembourse/contraception-ivg/contraception"
+  },
+  "sujet_sante_senat_loi2023": {
+   "t": "Proposition de loi visant à améliorer l'accès aux soins par l'engagement territorial des professionnels",
+   "p": "Sénat",
+   "d": "2023-12-27",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-ameliorer-lacces-aux-soins-par-lengagement-territorial-des-professionnels.html"
+  },
+  "sujet_sante_ameli_bilanprev": {
+   "t": "« Mon bilan prévention » entre 18 et 25 ans, un temps d'échange dédié à la prévention en santé",
+   "p": "Assurance Maladie (ameli.fr)",
+   "d": "2026-09-29",
+   "type": "donnees",
+   "u": "https://www.ameli.fr/assure/sante/mon-bilan-prevention/mon-bilan-prevention-entre-18-25-ans"
+  },
+  "sujet_retraites_an_qe15271": {
+   "t": "Question n°15271 : Décret relatif à la suspension de la réforme des retraites",
+   "p": "Assemblée nationale (question écrite, réponse publiée au JO)",
+   "d": "2026-06-30",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE15271"
+  },
+  "sujet_travail_sp_duree_travail": {
+   "t": "Durée du travail d'un salarié du secteur privé à temps plein âgé d'au moins 18 ans",
+   "p": "Service-public.fr (DILA)",
+   "d": "2025-09-25",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1911"
+  },
+  "sujet_travail_experts_smic_2024": {
+   "t": "Salaire minimum interprofessionnel de croissance - Rapport du groupe d'experts",
+   "p": "Groupe d'experts sur le Smic (rapport au Gouvernement, publié sur vie-publique.fr)",
+   "d": "2024-11-28",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/296720.pdf"
+  },
+  "sujet_retraites_ir_alternance": {
+   "t": "J'ai fait des études en alternance",
+   "p": "Info Retraite (GIP Union Retraite)",
+   "d": "s.d.",
+   "type": "donnees",
+   "u": "https://www.info-retraite.fr/portail-info/sites/PortailInformationnel/home/mes-droits-a-la-retraite/ma-vie-personnelle-1/etudes/etudes-en-alternance.html"
+  },
+  "sujet_retraites_an_fiche54": {
+   "t": "Fiche n°54 L'examen parlementaire des projets de loi de financement de la sécurité sociale",
+   "p": "Assemblée nationale",
+   "d": "2023-09",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationale/travail-legislatif/l-examen-parlementaire-des-projets-de-loi-de-financement-de-la-securite-sociale"
+  },
+  "sujet_retraites_ar_chiffres": {
+   "t": "Les chiffres clés 2024 de l'Assurance retraite",
+   "p": "Assurance retraite (Statistiques et recherche)",
+   "d": "2025-02-21",
+   "type": "donnees",
+   "u": "https://www.statistiques-recherche.lassuranceretraite.fr/chiffres-2024-assurance-retraite/"
+  },
+  "sujet_retraites_cor_repartition": {
+   "t": "Répartition, réserves et capitalisation : quels enjeux pour les retraites ?",
+   "p": "Conseil d'orientation des retraites (COR)",
+   "d": "2025-12-18",
+   "type": "donnees",
+   "u": "https://www.cor-retraites.fr/reunions-du-cor/repartition-reserves-capitalisation-quels-enjeux-pour-retraites"
+  },
+  "sujet_travail_sp_smic_juin": {
+   "t": "Le Smic va augmenter le 1er juin",
+   "p": "Service-public.fr, Entreprendre (DILA)",
+   "d": "2026-05-18",
+   "type": "donnees",
+   "u": "https://entreprendre.service-public.gouv.fr/actualites/A18916"
+  },
+  "sujet_travail_sp_prime_activite": {
+   "t": "Prime d'activité : salarié ou fonctionnaire",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-06-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2882"
+  },
+  "sujet_retraites_sp_rachat": {
+   "t": "Retraite du salarié dans le secteur privé : rachat de trimestres",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-01-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F15675"
+  },
+  "sujet_travail_insee_chomage": {
+   "t": "Au deuxième trimestre 2026, le taux de chômage augmente de 0,2 point et atteint 8,3 %",
+   "p": "Insee, Informations rapides",
+   "d": "2026-08-07",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9032359"
+  },
+  "sujet_travail_an_domaine_loi": {
+   "t": "Fiche de synthèse n°45 : Le domaine de la loi",
+   "p": "Assemblée nationale",
+   "d": "2023-09",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationale/travail-legislatif/le-domaine-de-la-loi"
+  },
+  "sujet_retraites_sp_revalo": {
+   "t": "Pensions de retraite de base : quelle revalorisation au 1er janvier 2026 ?",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-01-07",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A17919"
+  },
+  "sujet_travail_unedic_qui_definit": {
+   "t": "Qui définit les règles de l'Assurance chômage ?",
+   "p": "Unédic",
+   "d": "s.d.",
+   "type": "donnees",
+   "u": "https://www.unedic.org/lassurance-chomage-en-france/qui-dfinit-les-regles-de-l-assurance-chomage"
+  },
+  "sujet_retraites_sp_decote": {
+   "t": "Retraite du salarié : qu'est-ce que la décote ?",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-01-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F19666"
+  },
+  "sujet_retraites_cor_ra2026": {
+   "t": "Rapport annuel Évolutions et perspectives des retraites en France Juin 2026",
+   "p": "Conseil d'orientation des retraites (COR)",
+   "d": "2026-06",
+   "type": "donnees",
+   "u": "https://www.cor-retraites.fr/sites/default/files/2026-07/RA_2026_def_1.pdf"
+  },
+  "sujet_travail_unedic_sept2026": {
+   "t": "Assurance chômage : ce qui change le 1er septembre 2026",
+   "p": "Unédic",
+   "d": "2026-08-31",
+   "type": "donnees",
+   "u": "https://www.unedic.org/actualites/assurance-chomage-ce-qui-change-le-1er-septembre-2026"
+  },
+  "sujet_travail_sp_apprentissage": {
+   "t": "Contrat d'apprentissage",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-09-08",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2918"
+  },
+  "sujet_retraites_senat_2023": {
+   "t": "Projet de loi de financement rectificative de la sécurité sociale pour 2023",
+   "p": "Sénat (La loi en clair)",
+   "d": "s.d.",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-de-financement-rectificative-de-la-securite-sociale-pour-2023.html"
+  },
+  "sujet_retraites_cor_agirc": {
+   "t": "Le régime de retraite complémentaire des salariés du privé (Agirc-Arrco)",
+   "p": "Conseil d'orientation des retraites (COR)",
+   "d": "2024-07",
+   "type": "donnees",
+   "u": "https://www.cor-retraites.fr/sites/default/files/2024-07/Fiche_AGIRC_ARRCO_vf.pdf"
+  },
+  "sujet_retraites_sp_suspension": {
+   "t": "Suspension de la réforme des retraites : qui est concerné ?",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-02-27",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18825"
+  },
+  "sujet_travail_sp_france_travail": {
+   "t": "Pôle emploi devient France Travail",
+   "p": "Service-public.fr (DILA)",
+   "d": "2023-12-21",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A17001"
+  },
+  "sujet_travail_insee_smic": {
+   "t": "Salaire minimum de croissance − Emploi, chômage, revenus du travail",
+   "p": "Insee",
+   "d": "2026-07-02",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8733087?sommaire=8733125"
+  },
+  "sujet_travail_unedic_duree": {
+   "t": "Durée d'indemnisation",
+   "p": "Unédic",
+   "d": "2025-12-05",
+   "type": "donnees",
+   "u": "https://www.unedic.org/la-reglementation/fiches-thematiques/duree-dindemnisation"
+  },
+  "sujet_travail_unedic_previsions": {
+   "t": "Prévisions financières de l'Unédic - juin 2026",
+   "p": "Unédic",
+   "d": "2026-06-17",
+   "type": "donnees",
+   "u": "https://www.unedic.org/publications/previsions-financieres-de-lunedic-juin-2026"
+  },
+  "sujet_retraites_sp_duree_assurance": {
+   "t": "Durée d'assurance retraite du salarié du secteur privé",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-01-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1761"
+  },
+  "sujet_travail_sp_cej": {
+   "t": "Contrat d'engagement jeune (accompagnement pour trouver un travail)",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-04-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F32700"
+  },
+  "sujet_travail_unedic_primo": {
+   "t": "Assurance chômage : une condition d'accès assouplie pour les primo-entrants",
+   "p": "Unédic",
+   "d": "2026-04-01",
+   "type": "donnees",
+   "u": "https://www.unedic.org/actualites/assurance-chomage-une-condition-dacces-assouplie-pour-les-primo-entrants"
+  },
+  "sujet_travail_insee_salaires2024": {
+   "t": "Les salaires dans le secteur privé en 2024 - Insee Première - 2079",
+   "p": "Insee",
+   "d": "2025-10-23",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8657156"
   }
  },
  "presse": [
@@ -6704,6 +7173,480 @@
     "insee_ip2106",
     "insee_impots",
     "insee_ir78_annexe"
+   ]
+  }
+ },
+ "sujets": {
+  "logement": {
+   "trente": {
+    "txt": "57,3 % des ménages sont propriétaires de leur résidence principale ; environ 40 % sont locataires. Le maire ou l'intercommunalité délivre en général les permis de construire, et une commission du bailleur social attribue les HLM. La loi SRU impose un quota de logements sociaux à certaines communes ; les Caf versent l'APL.",
+    "src": [
+     "sujet_logement_insee_parc2026",
+     "sujet_logement_sp_permis_autorite",
+     "sujet_logement_sp_hlm",
+     "sujet_logement_anil_sru",
+     "sujet_logement_sp_apl"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "38,6 millions",
+     "l": "de logements en France (hors Mayotte) au 1er janvier 2026, dont 82,7 % de résidences principales",
+     "src": "sujet_logement_insee_parc2026"
+    },
+    {
+     "v": "57,3 %",
+     "l": "des ménages sont propriétaires de leur résidence principale en 2026 ; la part de locataires se maintient autour de 40 % (23,2 % du parc de résidences principales chez des bailleurs privés, 17,3 % chez des bailleurs publics)",
+     "src": "sujet_logement_insee_parc2026"
+    },
+    {
+     "v": "5,4 millions",
+     "l": "de logements locatifs sociaux au 1er janvier 2025, soit 15,9 % des résidences principales",
+     "src": "sujet_logement_sdes_rpls2025"
+    },
+    {
+     "v": "2,8 millions",
+     "l": "de demandeurs en attente d'un logement social en 2025, contre 2 millions en 2017 (chiffre cité par le Sénat)",
+     "src": "sujet_logement_senat_avis819"
+    },
+    {
+     "v": "274 611",
+     "l": "logements mis en chantier en 2025, soit 21,3 % de moins que la moyenne des cinq années précédentes",
+     "src": "sujet_logement_sdes_construction2025"
+    },
+    {
+     "v": "16,8 %",
+     "l": "du revenu des ménages consacré à leur résidence principale en 2024, après déduction des aides au logement (18,3 % début 2014) ; 32,1 % pour le quart des ménages les plus modestes",
+     "src": "sujet_logement_insee_taux_effort"
+    }
+   ],
+   "recent": [
+    {
+     "date": "27 juil. 2023",
+     "txt": "La loi n° 2023-668 visant à protéger les logements contre l'occupation illicite est promulguée. Elle vise à mieux réprimer le squat des logements et à sécuriser les rapports locatifs ; elle modifie notamment des procédures d'expulsion et des délais en cas d'impayés de loyer.",
+     "src": "sujet_logement_senat_loi2023"
+    },
+    {
+     "date": "19 nov. 2024",
+     "txt": "La loi n° 2024-1039 renforce les outils de régulation des meublés de tourisme à l'échelle locale : elle étend les autorisations de changement d'usage, prévoit des quotas d'autorisations temporaires et réduit certains avantages fiscaux sur les revenus de ces locations.",
+     "src": "sujet_logement_senat_loi2024"
+    },
+    {
+     "date": "26 nov. 2025",
+     "txt": "La loi n° 2025-1129 de simplification du droit de l'urbanisme et du logement est promulguée, après l'adoption définitive par l'Assemblée nationale le 15 octobre 2025 ; le Conseil constitutionnel l'a jugée partiellement conforme à la Constitution (décision du 20 novembre 2025).",
+     "src": "sujet_logement_senat_loi2025"
+    },
+    {
+     "date": "8 juil. 2026",
+     "txt": "Le Sénat adopte avec modifications, en première lecture, le projet de loi visant la relance et la décentralisation du logement, qui vise notamment à créer un cadre pour le troisième programme national de renouvellement urbain et à renforcer les pouvoirs du maire dans l'attribution des logements sociaux. Le texte a été transmis à l'Assemblée nationale et n'est pas encore une loi.",
+     "src": "sujet_logement_senat_pjl2026"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le permis de construire est délivré au nom de la commune ou de l'établissement public de coopération intercommunale (EPCI) : l'autorité compétente est le maire ou le président de l'EPCI. En règle générale, le silence de l'administration pendant 2 à 3 mois vaut acceptation.",
+     "src": "sujet_logement_sp_permis_autorite"
+    },
+    {
+     "txt": "La loi SRU impose aux communes d'au moins 1 500 habitants dans l'unité urbaine de Paris, ou d'au moins 3 500 habitants ailleurs, situées dans une agglomération ou un EPCI de plus de 50 000 habitants comprenant au moins une commune de plus de 15 000 habitants, de compter 25 % ou 20 % de logements sociaux. Sinon, elles subissent un prélèvement sur leurs ressources fiscales, et le préfet peut prononcer la carence de la commune.",
+     "src": "sujet_logement_anil_sru"
+    },
+    {
+     "txt": "Pour chaque logement social disponible, le bailleur sélectionne plusieurs dossiers de demande, puis une commission décide de l'attribution selon la situation du demandeur. La demande se fait en ligne ou au guichet et donne lieu à un numéro unique national.",
+     "src": "sujet_logement_sp_hlm"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Dépôt de garantie : il ne doit pas dépasser 1 mois de loyer hors charges pour un logement vide, et 2 mois de loyer hors charges pour un logement meublé. Il doit être rendu dans un délai maximum de 1 mois si l'état des lieux de sortie est conforme à celui d'entrée, de 2 mois sinon.",
+     "src": "sujet_logement_sp_depot"
+    },
+    {
+     "txt": "Garantie Visale : caution gratuite d'Action Logement pour les locataires de 30 ans et moins (30 ans inclus), qui couvre les loyers impayés et les dégradations. Le loyer est plafonné à 1 940 € en Île-de-France et à 1 575 € ailleurs (ou moins selon la commune). La demande doit être faite avant la signature du bail, sur Visale.fr.",
+     "src": "sujet_logement_sp_visale"
+    },
+    {
+     "txt": "Aide au logement des étudiants (APL, ALS ou ALF) : il faut être français ou étranger avec un titre de séjour en cours de validité, louer un logement décent, ne pas avoir de lien de parenté avec le propriétaire et avoir de faibles ressources. Si les parents perçoivent des allocations familiales, il faut choisir entre l'aide au logement et le fait de rester à leur charge. En colocation, chaque colocataire peut en bénéficier.",
+     "src": "sujet_logement_sp_etudiant_apl"
+    },
+    {
+     "txt": "Avance Loca-Pass : prêt sans intérêts ni frais de dossier pour financer le dépôt de garantie, de 1 200 € maximum. Il est ouvert notamment aux personnes de moins de 30 ans en formation professionnelle, en recherche d'emploi ou avec un emploi non permanent, et aux étudiants boursiers d'État français. Il se rembourse sur 25 mois maximum, par mensualités d'au moins 20 €.",
+     "src": "sujet_logement_sp_locapass"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment relancer la construction de logements neufs ?",
+     "src": "sujet_logement_senat_avis819"
+    },
+    {
+     "txt": "Comment répartir les pouvoirs entre l'État, les maires et les intercommunalités en matière de logement ?",
+     "src": "sujet_logement_senat_avis819"
+    },
+    {
+     "txt": "Comment financer la production de logements sociaux pour répondre à la demande ?",
+     "src": "sujet_logement_senat_rapport_plf2026"
+    },
+    {
+     "txt": "Comment répondre aux demandes d'hébergement d'urgence qui ne sont pas pourvues ?",
+     "src": "sujet_logement_senat_rapport_plf2026"
+    }
+   ],
+   "lire": [
+    "sujet_logement_senat_avis819",
+    "sujet_logement_senat_rapport_plf2026",
+    "sujet_logement_insee_taux_effort"
+   ]
+  },
+  "retraites": {
+   "trente": {
+    "txt": "En France, les retraites fonctionnent par répartition : les cotisations des actifs financent chaque année les pensions des retraités. L'âge légal de départ est de 64 ans pour les personnes nées à partir de 1969. La pension est à taux plein avec assez de trimestres validés ; sinon elle baisse (décote), sauf si l'on part à 67 ans.",
+    "src": [
+     "sujet_retraites_cor_repartition",
+     "sujet_retraites_sp_suspension",
+     "sujet_retraites_sp_decote"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "14,1 %",
+     "l": "Part du PIB consacrée aux dépenses de retraite en 2025 (422 milliards d'euros)",
+     "src": "sujet_retraites_cor_ra2026"
+    },
+    {
+     "v": "-0,2 point de PIB",
+     "l": "Solde estimé du système de retraite en 2025 (déficit de 5,1 milliards d'euros) ; projection du COR : -0,9 point en 2045, -2,4 points en 2070",
+     "src": "sujet_retraites_cor_ra2026"
+    },
+    {
+     "v": "2,5",
+     "l": "Personnes de 20 à 64 ans pour 1 personne de 65 ans et plus en 2025, contre 3,6 en 2009",
+     "src": "sujet_retraites_cor_ra2026"
+    },
+    {
+     "v": "15,4 millions",
+     "l": "Retraités du seul régime général au 31 décembre 2024 (10 millions il y a 20 ans)",
+     "src": "sujet_retraites_ar_chiffres"
+    },
+    {
+     "v": "62 ans 9 mois à 64 ans",
+     "l": "Âge légal de départ selon la génération, depuis le 1er septembre 2026 : 62 ans et 9 mois (nés en 1964) à 63 ans et 9 mois (1968) ; 64 ans dès 1969",
+     "src": "sujet_retraites_sp_suspension"
+    },
+    {
+     "v": "170 à 172",
+     "l": "Trimestres requis (durée d'assurance) selon la génération, nés de 1964 à 1968, depuis le 1er septembre 2026",
+     "src": "sujet_retraites_sp_suspension"
+    }
+   ],
+   "recent": [
+    {
+     "date": "14 avr. 2023",
+     "txt": "La loi de financement rectificative de la sécurité sociale pour 2023 prévoit le relèvement de l'âge légal de départ à la retraite à 64 ans au lieu de 62 ans.",
+     "src": "sujet_retraites_senat_2023"
+    },
+    {
+     "date": "30 déc. 2025",
+     "txt": "La loi de financement de la sécurité sociale pour 2026 est promulguée. Elle suspend jusqu'en 2028 le relèvement de l'âge légal et l'augmentation de la durée d'assurance de la réforme de 2023. Le COR chiffre cette suspension à 1,8 milliard d'euros en moyenne en année pleine jusqu'en 2032.",
+     "src": "sujet_retraites_sp_suspension"
+    },
+    {
+     "date": "1er janv. 2026",
+     "txt": "Les pensions de retraite de base augmentent de 0,9 %.",
+     "src": "sujet_retraites_sp_revalo"
+    },
+    {
+     "date": "7 mai 2026",
+     "txt": "Le décret n° 2026-344 du 7 mai 2026, publié au Journal officiel du 8 mai, tire les conséquences de la loi de financement de la sécurité sociale pour 2026 sur les conditions de départ à la retraite de certains assurés. La suspension est entrée en vigueur pour les pensions prenant effet à compter du 1er septembre 2026.",
+     "src": "sujet_retraites_an_qe15271"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "L'âge légal et la durée d'assurance sont fixés par la loi, votée par le Parlement : la réforme de 2023 est passée par une loi de financement rectificative de la sécurité sociale, et sa suspension par la loi de financement de la sécurité sociale pour 2026.",
+     "src": "sujet_retraites_sp_suspension"
+    },
+    {
+     "txt": "Les lois de financement de la sécurité sociale déterminent les conditions générales de l'équilibre financier de la Sécurité sociale et fixent ses objectifs de dépenses.",
+     "src": "sujet_retraites_an_fiche54"
+    },
+    {
+     "txt": "Pour la retraite complémentaire des salariés du privé (Agirc-Arrco), ce sont les partenaires sociaux, c'est-à-dire les organisations d'employeurs et de salariés, qui pilotent le régime : tous les 4 ans, ils négocient un accord qui fixe notamment la valeur du point et les taux de cotisation.",
+     "src": "sujet_retraites_cor_agirc"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Pour valider 1 trimestre, il faut un revenu au moins égal à 150 heures de Smic horaire brut (1 803,00 € en 2026), dans la limite de 4 trimestres par année civile. Service-public prend l'exemple d'un étudiant qui travaille en août 35 heures par semaine au Smic : ces revenus peuvent lui permettre de valider un trimestre.",
+     "src": "sujet_retraites_sp_duree_assurance"
+    },
+    {
+     "txt": "Pour les périodes d'apprentissage accomplies depuis 2014, les apprentis peuvent valider autant de trimestres de retraite que de trimestres d'apprentissage. Les périodes d'activité en contrat en alternance sont validées dans les mêmes conditions que celles des autres salariés de l'entreprise.",
+     "src": "sujet_retraites_ir_alternance"
+    },
+    {
+     "txt": "On peut demander le rachat de ses années d'études supérieures à partir de 20 ans et avant 67 ans, à condition que ces études aient donné lieu à un diplôme. Au total, 12 trimestres au plus peuvent être rachetés, tous motifs confondus (études supérieures, années incomplètes, sportif de haut niveau, mandat local).",
+     "src": "sujet_retraites_sp_rachat"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment équilibrer le système de retraite : en baissant les dépenses, en augmentant les cotisations ou en reculant l'âge de départ ?",
+     "src": "sujet_retraites_cor_ra2026"
+    },
+    {
+     "txt": "Quelle place donner à la répartition, aux réserves et à la capitalisation dans le financement des retraites ?",
+     "src": "sujet_retraites_cor_repartition"
+    },
+    {
+     "txt": "Comment le niveau de vie des retraités doit-il évoluer par rapport à celui des actifs ?",
+     "src": "sujet_retraites_cor_ra2026"
+    },
+    {
+     "txt": "Quel poids donner, dans l'avenir du système de retraite, à la croissance de la productivité et à la démographie ?",
+     "src": "sujet_retraites_cor_ra2026"
+    }
+   ],
+   "lire": [
+    "sujet_retraites_cor_ra2026",
+    "sujet_retraites_cor_repartition",
+    "sujet_retraites_ar_chiffres"
+   ]
+  },
+  "travail": {
+   "trente": {
+    "txt": "Le Smic est le salaire minimum légal : 12,31 euros brut de l'heure depuis le 1er juin 2026. La durée légale du travail est de 35 heures par semaine. Un salarié qui perd son emploi peut être indemnisé par l'assurance chômage, en général après 6 mois de travail, jusqu'à 18 mois avant 55 ans.",
+    "src": [
+     "sujet_travail_sp_smic_juin",
+     "sujet_travail_sp_duree_travail",
+     "sujet_travail_unedic_duree"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "1 477,93 €",
+     "l": "Smic mensuel net pour un temps plein depuis le 1er juin 2026 (1 867,02 € brut, soit 12,31 € brut de l'heure)",
+     "src": "sujet_travail_sp_smic_juin"
+    },
+    {
+     "v": "8,3 %",
+     "l": "Taux de chômage de la population active au 2e trimestre 2026 (+0,2 point sur un trimestre)",
+     "src": "sujet_travail_insee_chomage"
+    },
+    {
+     "v": "21,6 %",
+     "l": "Taux de chômage des 15-24 ans au 2e trimestre 2026 (+0,4 point sur un trimestre)",
+     "src": "sujet_travail_insee_chomage"
+    },
+    {
+     "v": "69,0 %",
+     "l": "Taux d'emploi des 15-64 ans au 2e trimestre 2026 (-0,3 point sur un trimestre)",
+     "src": "sujet_travail_insee_chomage"
+    },
+    {
+     "v": "2,2 millions",
+     "l": "Salariés du secteur privé ayant bénéficié directement de la hausse du Smic du 1er novembre 2024, soit 12,4 % des salariés du champ étudié",
+     "src": "sujet_travail_insee_smic"
+    },
+    {
+     "v": "2 190 €",
+     "l": "Salaire net médian par mois en équivalent temps plein dans le secteur privé en 2024 (la moitié des salariés gagne moins)",
+     "src": "sujet_travail_insee_salaires2024"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er janv. 2024",
+     "txt": "En application de la loi du 18 décembre 2023 pour le plein emploi, France Travail est progressivement déployé à partir du 1er janvier 2024 pour remplacer Pôle emploi.",
+     "src": "sujet_travail_sp_france_travail"
+    },
+    {
+     "date": "1er avr. 2026",
+     "txt": "Les salariés privés d'emploi indemnisés pour la première fois par l'Assurance chômage peuvent y accéder avec 5 mois de travail (108 jours ou 758 heures) dans les 24 ou 36 derniers mois, s'ils n'ont pas été admis à l'allocation chômage (ARE) dans les vingt années précédentes.",
+     "src": "sujet_travail_unedic_primo"
+    },
+    {
+     "date": "1er juin 2026",
+     "txt": "Le Smic horaire brut passe de 12,02 € à 12,31 € (+2,41 %), une revalorisation automatique car les prix à la consommation ont augmenté d'au moins 2 % (arrêté du 22 mai 2026).",
+     "src": "sujet_travail_sp_smic_juin"
+    },
+    {
+     "date": "1er sept. 2026",
+     "txt": "Pour les contrats rompus par rupture conventionnelle individuelle à partir du 1er septembre 2026, la durée maximale d'indemnisation est de 15 mois avant 55 ans et de 20,5 mois à partir de 55 ans (avenant n° 2 à la convention d'assurance chômage du 15 novembre 2024).",
+     "src": "sujet_travail_unedic_sept2026"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Depuis 2010, le Smic est revalorisé chaque année en janvier par décret en Conseil des ministres. Il est aussi relevé automatiquement lorsque les prix à la consommation augmentent d'au moins 2 %, comme au 1er juin 2026 (arrêté du 22 mai 2026).",
+     "src": "sujet_travail_insee_smic"
+    },
+    {
+     "txt": "Pour l'assurance chômage, les représentants des employeurs et des salariés négocient les règles d'indemnisation et les taux de cotisation, tous les 2 à 3 ans. Le Premier ministre agrée la convention, ce qui la rend obligatoire ; sans accord, l'État fixe la réglementation par décret.",
+     "src": "sujet_travail_unedic_qui_definit"
+    },
+    {
+     "txt": "Le Parlement vote les lois qui fixent les principes fondamentaux du droit du travail, du droit syndical et de la sécurité sociale (article 34 de la Constitution) ; la loi pour le plein emploi de décembre 2023, à l'origine de France Travail, en est un exemple.",
+     "src": "sujet_travail_an_domaine_loi"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Un apprenti de 18 à 20 ans perçoit au minimum 43 % du Smic la 1re année de contrat (802,82 € brut par mois pour un temps plein), 51 % la 2e année et 67 % la 3e. De 21 à 25 ans, ces taux sont de 53 %, 61 % et 78 %. À partir de 26 ans, c'est 100 % du Smic ou du minimum de la branche s'il est plus élevé.",
+     "src": "sujet_travail_sp_apprentissage"
+    },
+    {
+     "txt": "Depuis le 1er avril 2026, une personne indemnisée pour la première fois par l'Assurance chômage peut y accéder avec 5 mois de travail (108 jours ou 758 heures) dans les 24 ou 36 derniers mois, contre 6 mois (130 jours ou 910 heures) en règle générale. La durée d'indemnisation minimale est alors de 5 mois (152 jours).",
+     "src": "sujet_travail_unedic_primo",
+     "src_plus": [
+      "sujet_travail_unedic_duree"
+     ]
+    },
+    {
+     "txt": "Le contrat d'engagement jeune s'adresse aux jeunes de 16 à 25 ans inclus (jusqu'à 29 ans inclus pour une personne reconnue travailleur handicapé) qui ne sont ni étudiants ni en formation. L'allocation est de 566,17 € par mois maximum et le programme compte 15 à 20 heures par semaine.",
+     "src": "sujet_travail_sp_cej"
+    },
+    {
+     "txt": "Pour la prime d'activité, il faut avoir 18 ans ou plus, avoir une activité professionnelle et percevoir des revenus modestes, et résider en France de manière stable et effective.",
+     "src": "sujet_travail_sp_prime_activite"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment le Smic doit-il être revalorisé : selon quelles règles et à quel rythme ?",
+     "src": "sujet_travail_experts_smic_2024"
+    },
+    {
+     "txt": "Comment concilier hausse du Smic, éventail des salaires et emploi des personnes les plus vulnérables ?",
+     "src": "sujet_travail_experts_smic_2024"
+    },
+    {
+     "txt": "Quelle place donner aux allègements de cotisations des employeurs dans le soutien aux bas salaires, au regard de leur coût pour les finances publiques ?",
+     "src": "sujet_travail_experts_smic_2024"
+    },
+    {
+     "txt": "Comment assurer l'équilibre financier de l'Assurance chômage : par les règles d'indemnisation, les cotisations ou les prélèvements de l'État ?",
+     "src": "sujet_travail_unedic_previsions"
+    }
+   ],
+   "lire": [
+    "sujet_travail_experts_smic_2024",
+    "sujet_travail_unedic_previsions",
+    "sujet_travail_insee_salaires2024"
+   ]
+  },
+  "social": {
+   "trente": {
+    "txt": "La Sécurité sociale, financée par des cotisations sociales et des impôts comme la CSG, prend en charge 78,7 % des soins et biens médicaux (2024). Les complémentaires santé (12,8 %) et les ménages (7,8 %) paient presque tout le reste. Chaque année, le Parlement vote la loi de financement de la sécurité sociale (LFSS) et ses objectifs de dépenses.",
+    "src": [
+     "sujet_sante_insee_financement",
+     "sujet_sante_insee_protection",
+     "sujet_sante_an_fiche54"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "254,8 Md€",
+     "l": "dépenses de soins et de biens médicaux en 2024, soit 8,7 % du PIB",
+     "src": "sujet_sante_insee_portrait"
+    },
+    {
+     "v": "7,8 %",
+     "l": "part des dépenses payée directement par les ménages en 2024 (reste à charge : 19,9 Md€, soit 292 € par habitant)",
+     "src": "sujet_sante_insee_portrait"
+    },
+    {
+     "v": "15,9 Md€",
+     "l": "déficit de la branche maladie de la Sécurité sociale en 2025",
+     "src": "sujet_sante_senat_cf_comptes2025"
+    },
+    {
+     "v": "6,4 millions",
+     "l": "d'assurés sans médecin traitant en 2025",
+     "src": "sujet_sante_senat_rapport668"
+    },
+    {
+     "v": "1,56 enfant",
+     "l": "par femme en 2025 (1,61 en 2024) ; 645 000 naissances en 2025",
+     "src": "sujet_sante_insee_bilan_demo"
+    }
+   ],
+   "recent": [
+    {
+     "date": "27 déc. 2023",
+     "txt": "La loi n° 2023-1268 visant à améliorer l'accès aux soins par l'engagement territorial des professionnels est promulguée. Elle modifie l'organisation territoriale de l'offre de soins et comporte des mesures sur les études de santé et les hôpitaux.",
+     "src": "sujet_sante_senat_loi2023"
+    },
+    {
+     "date": "30 déc. 2025",
+     "txt": "La loi n° 2025-1403 de financement de la sécurité sociale pour 2026 est promulguée, après son adoption définitive par l'Assemblée nationale le 16 décembre 2025.",
+     "src": "sujet_sante_senat_lfss2026"
+    },
+    {
+     "date": "1er juil. 2026",
+     "txt": "Le congé supplémentaire de naissance est effectif : il dure 1 ou 2 mois au choix, pour la mère, le père ou le conjoint ou la conjointe de la mère, et doit débuter dans les 9 mois suivant la naissance ou l'arrivée de l'enfant au foyer.",
+     "src": "sujet_sante_ameli_conge"
+    },
+    {
+     "date": "1er oct. 2026",
+     "txt": "Le plafond annuel des participations forfaitaires passe de 50 € à 70 €, et celui des franchises médicales aussi, selon l'Assurance Maladie.",
+     "src": "sujet_sante_ameli_plafonds"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le Parlement vote chaque année la loi de financement de la sécurité sociale (LFSS). Elle détermine les conditions générales de l'équilibre financier de la Sécurité sociale et, compte tenu des prévisions de recettes, fixe ses objectifs de dépenses. Le projet est déposé au plus tard le premier mardi d'octobre.",
+     "src": "sujet_sante_an_fiche54"
+    },
+    {
+     "txt": "L'Assurance Maladie est gouvernée par le directeur général de la Cnam, le Conseil de la Cnam et l'Uncam. L'Uncam conduit la politique conventionnelle avec les professionnels de santé, définit le champ des prestations remboursables et fixe le taux de prise en charge des soins. Le directeur général négocie avec l'État une convention d'objectifs et de gestion.",
+     "src": "sujet_sante_ameli_gouvernance"
+    },
+    {
+     "txt": "Les agences régionales de santé (ARS) assurent un pilotage unifié de la santé en région (prévention, organisation de l'offre de soins). Ce sont des établissements publics placés sous la tutelle des ministères chargés des affaires sociales et de la santé.",
+     "src": "sujet_sante_ars"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Contraception et préservatifs : pour les moins de 26 ans, la contraception et le suivi sont gratuits pour les filles (consultation, certaines méthodes comme les pilules de 1re ou 2e génération, le stérilet ou le diaphragme ; l'implant est pris en charge à 100 % de 18 ans à moins de 26 ans). Certains préservatifs, masculins et féminins, sont pris en charge à 100 % en pharmacie, sans ordonnance, pour toute personne de moins de 26 ans (marques listées par l'Assurance Maladie).",
+     "src": "sujet_sante_ameli_contraception"
+    },
+    {
+     "txt": "Mon soutien psy : à partir de 3 ans, jusqu'à 12 séances par an chez un psychologue conventionné, en cas de souffrance psychique d'intensité légère à modérée. Le tarif est de 50 € par séance et l'Assurance Maladie en rembourse 60 %. Consulter un médecin avant le premier rendez-vous n'est plus obligatoire.",
+     "src": "sujet_sante_ameli_soutienpsy"
+    },
+    {
+     "txt": "Mon bilan prévention : entre 18 et 25 ans, un rendez-vous de 30 à 45 minutes avec le professionnel de santé de son choix (médecin, sage-femme, infirmier, pharmacien ou masseur-kinésithérapeute), pris en charge à 100 % par l'Assurance Maladie, sans avance de frais.",
+     "src": "sujet_sante_ameli_bilanprev"
+    },
+    {
+     "txt": "Complémentaire santé solidaire (C2S) : il faut être pris en charge par l'Assurance Maladie et avoir des ressources sous un plafond. Pour une personne seule en France métropolitaine, au 1er avril 2026, le plafond est de 10 421 € par an (C2S sans participation) ou de 14 069 € par an (C2S avec participation, de 8 € par mois jusqu'à 29 ans).",
+     "src": "sujet_sante_ameli_c2s"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment faire venir des médecins dans les territoires où il en manque ?",
+     "src": "sujet_sante_senat_rapport668"
+    },
+    {
+     "txt": "Comment ramener les comptes de l'Assurance maladie à l'équilibre ?",
+     "src": "sujet_sante_senat_avis126"
+    },
+    {
+     "txt": "Comment prendre en charge les maladies chroniques au bon endroit et au bon moment ?",
+     "src": "sujet_sante_assurance_maladie_cp2027"
+    },
+    {
+     "txt": "Comment répartir le coût des soins entre l'Assurance maladie, les complémentaires santé et les assurés ?",
+     "src": "sujet_sante_senat_complementaires"
+    }
+   ],
+   "lire": [
+    "sujet_sante_senat_rapport668",
+    "sujet_sante_assurance_maladie_cp2027",
+    "sujet_sante_senat_complementaires"
    ]
   }
  }
