@@ -1,0 +1,14 @@
+{
+ "note": "Texte de la voix off de « La retraite en 60 secondes ». Les nombres sont écrits en toutes lettres pour que la voix les lise correctement. Chiffres : fiche Retraites de l'appli (COR, Service-public.fr).",
+ "scenes": [
+  {"id": "s1", "texte": "La retraite, en soixante secondes."},
+  {"id": "s2", "texte": "Chaque année, les cotisations des actifs paient les pensions des retraités. C'est la répartition."},
+  {"id": "s3", "texte": "Et la population vieillit : il y a de moins en moins de personnes de vingt à soixante-quatre ans pour chaque personne de soixante-cinq ans et plus."},
+  {"id": "s4", "texte": "En deux mille vingt-cinq, les retraites ont coûté quatre cent vingt-deux milliards d'euros. C'est quatorze virgule un pour cent du PIB."},
+  {"id": "s5", "texte": "La réforme de deux mille vingt-trois relève l'âge légal à soixante-quatre ans. Ce relèvement est suspendu jusqu'en deux mille vingt-huit. Mais pour les dix-huit à trente ans, la loi actuelle prévoit soixante-quatre ans."},
+  {"id": "s6", "texte": "Côté candidats, ceux qui ont annoncé un âge de départ proposent entre soixante et soixante-cinq ans."},
+  {"id": "s7", "texte": "D'autres veulent changer la règle : partir selon la durée de cotisation, la pénibilité ou le métier."},
+  {"id": "s8", "texte": "Bon à savoir : mille huit cent trois euros bruts gagnés en deux mille vingt-six, c'est déjà un trimestre de retraite validé."},
+  {"id": "s9", "texte": "Baisser les dépenses, augmenter les cotisations, reculer l'âge ? Comparez les propositions dans Programmes deux mille vingt-sept."}
+ ]
+}
