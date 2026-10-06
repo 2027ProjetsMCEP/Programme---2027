@@ -6397,6 +6397,874 @@
    "d": "2025-10-23",
    "type": "donnees",
    "u": "https://www.insee.fr/fr/statistiques/8657156"
+  },
+  "sujet_education_men_collectivites": {
+   "t": "Le rôle des collectivités territoriales dans le service public de l'éducation et le partenariat avec le ministère",
+   "p": "Ministère de l'Éducation nationale",
+   "d": "2025-12-29",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/le-role-des-collectivites-territoriales-dans-le-service-public-de-l-education-et-le-partenariat-avec-8138"
+  },
+  "sujet_education_cvec": {
+   "t": "Accueil - CVEC, Contribution de vie étudiante et de campus",
+   "p": "etudiant.gouv.fr",
+   "d": "2026",
+   "type": "donnees",
+   "u": "https://cvec.etudiant.gouv.fr/"
+  },
+  "sujet_education_sp_bourses2026": {
+   "t": "Bourses de l'enseignement supérieur : découvrez les montants pour l'année 2026-2027",
+   "p": "Service-public.fr",
+   "d": "2026-04-13",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18239"
+  },
+  "sujet_education_men_concours2026": {
+   "t": "Concours de recrutement des professeurs des premier et second degrés 2026 : plus de 265 800 inscriptions",
+   "p": "Ministère de l'Éducation nationale",
+   "d": "2026-02-06",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/concours-de-recrutement-des-professeurs-des-premier-et-second-degres-2026-plus-de-265-800-469328"
+  },
+  "sujet_ecologie_sp_cheque_energie": {
+   "t": "Chèque énergie",
+   "p": "Service-public.fr",
+   "d": "2025-10-17",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F33667"
+  },
+  "sujet_ecologie_citepa_secten2026": {
+   "t": "Synthèse et messages clés Secten 2026",
+   "p": "Citepa",
+   "d": "2026-06",
+   "type": "donnees",
+   "u": "https://www.citepa.org/wp-content/uploads/2026/06/Synthese-et-messages-cles-Secten-2026.pdf"
+  },
+  "sujet_ecologie_cc_2026903": {
+   "t": "Décision n° 2026-903 DC du 21 mai 2026 (Loi de simplification de la vie économique)",
+   "p": "Conseil constitutionnel",
+   "d": "2026-05-21",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/sites/default/files/2026-05/2026903dc_cp.pdf"
+  },
+  "sujet_education_depp_enc2026_pdf": {
+   "t": "L'Éducation nationale en chiffres 2026",
+   "p": "DEPP, ministère de l'Éducation nationale",
+   "d": "2026-08",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/sites/default/files/document/enc-2026pdf-519886.pdf"
+  },
+  "sujet_education_men_telephone": {
+   "t": "Interdiction du téléphone portable de l'école au lycée et numérique raisonné",
+   "p": "Ministère de l'Éducation nationale",
+   "d": "2026-08-25",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/interdiction-du-telephone-portable-dans-les-ecoles-et-les-colleges-et-pause-numerique-455181"
+  },
+  "sujet_ecologie_rte_bilan2025": {
+   "t": "Bilan électrique 2025 - Rapport complet",
+   "p": "RTE",
+   "d": "2026",
+   "type": "donnees",
+   "u": "https://assets.rte-france.com/analyse-et-donnees/2026-03/BE2025%20-%20Rapport%20Complet.pdf"
+  },
+  "sujet_ecologie_hcc_ra2026": {
+   "t": "Rapport annuel 2026 - Dangers climatiques : la France face à ses responsabilités",
+   "p": "Haut Conseil pour le climat",
+   "d": "2026-07-09",
+   "type": "donnees",
+   "u": "https://www.hautconseilclimat.fr/wp-content/uploads/2026/07/HCC_Rapport_annuel_2026_1707_2.pdf"
+  },
+  "sujet_education_senat_prioritaire": {
+   "t": "Pour suite à donner à l'enquête de la Cour des comptes, transmise en application de l'article 58-2° de la LOLF, sur l'éducation prioritaire, une politique publique à repenser",
+   "p": "Sénat",
+   "d": "2025-05-06",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r24-575/r24-575_mono.html"
+  },
+  "sujet_ecologie_rte_cp2025": {
+   "t": "Bilan électrique 2025 : les conditions sont réunies pour permettre à la France d'accélérer son électrification et réduire durablement sa dépendance aux énergies fossiles",
+   "p": "RTE",
+   "d": "2026-02-25",
+   "type": "donnees",
+   "u": "https://www.rte-france.com/actualites/bilan-electrique-2025-conditions-sont-reunies-permettre-france-accelerer-electrification"
+  },
+  "sujet_education_depp_pisa2025": {
+   "t": "PISA 2025 : les acquis des élèves de 15 ans en compréhension de l'écrit et en culture mathématique en baisse en France et dans l'OCDE",
+   "p": "DEPP, ministère de l'Éducation nationale",
+   "d": "2026-09",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/sites/default/files/document/depp-ni-2026-40pisa-mathspdf-520231.pdf"
+  },
+  "sujet_ecologie_sdes_enr2024": {
+   "t": "Les énergies renouvelables en France en 2024 dans le cadre du suivi de la directive (UE) 2018/2001 - Données provisoires",
+   "p": "SDES, ministère de la Transition écologique",
+   "d": "2025-06-26",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/les-energies-renouvelables-en-france-en-2024-dans-le-cadre-du-suivi-de-la-directive-ue-20182001"
+  },
+  "sujet_ecologie_senat_ppe3": {
+   "t": "Publication de la troisième programmation pluriannuelle de l'énergie",
+   "p": "Sénat (question écrite, réponse du ministre)",
+   "d": "2026-07-23",
+   "type": "donnees",
+   "u": "https://www.senat.fr/questions/base/2026/qSEQ260207566.html"
+  },
+  "sujet_education_men_college": {
+   "t": "Le collège",
+   "p": "Ministère de l'Éducation nationale",
+   "d": "2025-12-04",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/le-college-4940"
+  },
+  "sujet_ecologie_sp_transports_employeur": {
+   "t": "Prise en charge obligatoire des frais de transports publics des salariés",
+   "p": "Service-Public Entreprendre",
+   "d": "2026-02-21",
+   "type": "donnees",
+   "u": "https://entreprendre.service-public.gouv.fr/vosdroits/F37900"
+  },
+  "sujet_ecologie_anah_chiffres2025": {
+   "t": "Les chiffres clés 2025",
+   "p": "Anah (Agence nationale de l'habitat)",
+   "d": "2026-02-20",
+   "type": "donnees",
+   "u": "https://www.anah.gouv.fr/anatheque/les-chiffres-cles-2025"
+  },
+  "sujet_education_depp_enc2026": {
+   "t": "L'éducation nationale en chiffres, édition 2026",
+   "p": "DEPP, ministère de l'Éducation nationale",
+   "d": "2026-08-25",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/depp/l-education-nationale-en-chiffres-edition-2026-505326"
+  },
+  "sujet_ecologie_sp_fmd": {
+   "t": "Forfait mobilités durables (FMD)",
+   "p": "Service-Public Entreprendre",
+   "d": "2025-07-29",
+   "type": "donnees",
+   "u": "https://entreprendre.service-public.gouv.fr/vosdroits/F33808"
+  },
+  "sujet_ecologie_sp_tarifs_aout2026": {
+   "t": "Quelle évolution pour votre facture d'électricité au 1er août ?",
+   "p": "Service-public.fr",
+   "d": "2026-07-21",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A18776"
+  },
+  "sujet_education_cc_devenir_enseignant": {
+   "t": "Devenir enseignant : la formation initiale et le recrutement des enseignants",
+   "p": "Cour des comptes",
+   "d": "2023",
+   "type": "donnees",
+   "u": "https://www.ccomptes.fr/fr/publications/devenir-enseignant-la-formation-initiale-et-le-recrutement-des-enseignants"
+  },
+  "sujet_education_men_etat": {
+   "t": "L'État",
+   "p": "Ministère de l'Éducation nationale",
+   "d": "2011-07-29",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/l-etat-7712"
+  },
+  "sujet_education_parcoursup_calendrier": {
+   "t": "Calendrier | Parcoursup",
+   "p": "Parcoursup",
+   "d": "2026",
+   "type": "donnees",
+   "u": "https://www.parcoursup.gouv.fr/calendrier"
+  },
+  "sujet_education_esr_cout_rentree": {
+   "t": "Coût de la rentrée étudiante : un investissement constant au service de l'accompagnement des étudiants",
+   "p": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "d": "2026-08-18",
+   "type": "donnees",
+   "u": "https://www.enseignementsup-recherche.gouv.fr/fr/cout-de-la-rentree-etudiante-un-investissement-constant-au-service-de-l-accompagnement-des-etudiants-103861"
+  },
+  "sujet_education_senat_plf2026": {
+   "t": "Projet de loi de finances pour 2026 : Enseignement scolaire",
+   "p": "Sénat",
+   "d": "2025-11-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/a25-144-31/a25-144-31_mono.html"
+  },
+  "sujet_budget_cour_juin2026": {
+   "t": "La situation et les perspectives des finances publiques - Juin 2026",
+   "p": "Cour des comptes (texte repris sur vie-publique.fr)",
+   "d": "2026-06",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/303867.pdf"
+  },
+  "sujet_eco_cour_juin2026": {
+   "t": "La situation et les perspectives des finances publiques - Juin 2026",
+   "p": "Cour des comptes (texte repris sur vie-publique.fr)",
+   "d": "2026-06",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/303867.pdf"
+  },
+  "sujet_budget_ecogouv_plf2027": {
+   "t": "[Vidéo] Présentation du projet de budget pour 2027",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/video-presentation-du-projet-de-budget-pour-2027"
+  },
+  "sujet_eco_insee_ipc_sept2026": {
+   "t": "En septembre 2026, les prix à la consommation augmenteraient de 3,0 % sur un an - Informations rapides - 242",
+   "p": "Insee",
+   "d": "2026-09-30",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9056956"
+  },
+  "sujet_eco_insee_ndc_sept2026": {
+   "t": "Vue d'ensemble - Vigilance orange sur la croissance (Note de conjoncture)",
+   "p": "Insee",
+   "d": "2026-09-10",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9050743?sommaire=9050757"
+  },
+  "sujet_eco_ecogouv_plf2027": {
+   "t": "[Vidéo] Présentation du projet de budget pour 2027",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/video-presentation-du-projet-de-budget-pour-2027"
+  },
+  "sujet_budget_tresor_raa2026": {
+   "t": "Publication du Rapport d'avancement annuel 2026",
+   "p": "Direction générale du Trésor (economie.gouv.fr)",
+   "d": "2026-04-22",
+   "type": "donnees",
+   "u": "https://www.tresor.economie.gouv.fr/Articles/2026/04/22/publication-du-rapport-d-avancement-annuel-2026"
+  },
+  "sujet_eco_senat_r942": {
+   "t": "Poids des prélèvements obligatoires en France : quelles conséquences sur la compétitivité des entreprises, l'investissement et les salaires ?",
+   "p": "Sénat (mission d'information, rapport n° 942, 2025-2026)",
+   "d": "2026-09-02",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r25-942/r25-9421.pdf"
+  },
+  "sujet_eco_ecogouv_plf_comment": {
+   "t": "Le projet de loi de finances (PLF), comment ça marche ?",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/le-projet-de-loi-de-finances-plf-comment-ca-marche"
+  },
+  "sujet_eco_ecogouv_job": {
+   "t": "Job d'été, travail étudiant, stage : comment déclarer ces revenus ?",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mon-impot-sur-le-revenu/job-dete-travail-etudiant-stage-comment-declarer-ces-revenus"
+  },
+  "sujet_budget_senat_defense_plf2026": {
+   "t": "L'essentiel sur... le projet de loi de finances pour 2026 - Mission « Défense »",
+   "p": "Sénat (commission des finances)",
+   "d": "2025",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-139-38/l25-139-38-syn.pdf"
+  },
+  "sujet_budget_ecogouv_loi_speciale": {
+   "t": "Budget 2026 : à quoi sert la loi spéciale ?",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2025-12-30",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/budget-2026-quoi-sert-la-loi-speciale"
+  },
+  "sujet_budget_ecogouv_lfi2026": {
+   "t": "Loi de finances 2026 : ce qui change pour les particuliers",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-02-20",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mon-impot-sur-le-revenu/loi-de-finances-2026-ce-qui-change-pour-les-particuliers"
+  },
+  "sujet_budget_an_plf2027": {
+   "t": "Projet de loi de finances pour 2027",
+   "p": "Assemblée nationale (texte n° 3210, enregistré le 1er octobre 2026)",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3210_projet-loi.pdf"
+  },
+  "sujet_eco_dgfip_ir2024": {
+   "t": "L'impôt sur le revenu 2024 a été plus dynamique (DGFiP Statistiques n° 41)",
+   "p": "Direction générale des Finances publiques (impots.gouv.fr)",
+   "d": "2025-11",
+   "type": "donnees",
+   "u": "https://www.impots.gouv.fr/sites/default/files/media/9_statistiques/0_etudes_et_stats/0_publications/dgfip_statistiques/2025/num41_11/dgfip_stat_41.pdf"
+  },
+  "sujet_budget_ec_edp_france": {
+   "t": "France - Economy and Finance - European Commission",
+   "p": "Commission européenne (DG Affaires économiques et financières)",
+   "d": "2026-08-20",
+   "type": "donnees",
+   "u": "https://economy-finance.ec.europa.eu/economic-governance-framework/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/france_en"
+  },
+  "sujet_eco_an_fiche53": {
+   "t": "Fiche de synthèse n°53 : L'examen parlementaire des lois de finances",
+   "p": "Assemblée nationale",
+   "d": "2022-09",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/synthese/fonctionnement-assemblee-nationale/travail-legislatif/l-examen-parlementaire-des-lois-de-finances"
+  },
+  "sujet_eco_ec_edp_france": {
+   "t": "France - Economy and Finance - European Commission",
+   "p": "Commission européenne (DG Affaires économiques et financières)",
+   "d": "2026-08-20",
+   "type": "donnees",
+   "u": "https://economy-finance.ec.europa.eu/economic-governance-framework/stability-and-growth-pact/corrective-arm-excessive-deficit-procedure/excessive-deficit-procedures-overview/france_en"
+  },
+  "sujet_eco_impots_majeur": {
+   "t": "Mon enfant est majeur, comment le déclarer ?",
+   "p": "Direction générale des Finances publiques (impots.gouv.fr)",
+   "d": "2026-07-10",
+   "type": "donnees",
+   "u": "https://www.impots.gouv.fr/particulier/questions/mon-enfant-est-majeur-comment-le-declarer"
+  },
+  "sujet_budget_ecogouv_plf_comment": {
+   "t": "Le projet de loi de finances (PLF), comment ça marche ?",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/le-projet-de-loi-de-finances-plf-comment-ca-marche"
+  },
+  "sujet_eco_insee_pib_t2_2026": {
+   "t": "Au deuxième trimestre 2026, le PIB est stable (+0,0 % après -0,2 %) et le pouvoir d'achat des ménages recule nettement (-0,6 % par unité de consommation) - Informations rapides - 212",
+   "p": "Insee",
+   "d": "2026-08-28",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9039499"
+  },
+  "sujet_eco_insee_comptes_2025": {
+   "t": "Les comptes de la Nation en 2025 - Insee Première n° 2105",
+   "p": "Insee",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8996855"
+  },
+  "sujet_eco_ecogouv_lfi2026_particuliers": {
+   "t": "Loi de finances 2026 : ce qui change pour les particuliers",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-02-20",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/particuliers/impots-et-fiscalite/gerer-mon-impot-sur-le-revenu/loi-de-finances-2026-ce-qui-change-pour-les-particuliers"
+  },
+  "sujet_eco_ecogouv_fraudes": {
+   "t": "Fraudes sociales et fiscales : une loi pour mieux les détecter et lutter",
+   "p": "Ministère de l'Économie et des Finances (economie.gouv.fr)",
+   "d": "2026-06-29",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/fraudes-sociales-et-fiscales-une-loi-pour-mieux-les-detecter-et-lutter"
+  },
+  "sujet_eco_senat_r760": {
+   "t": "Imposition des hauts patrimoines",
+   "p": "Sénat (commission des finances, rapport n° 760, 2025-2026)",
+   "d": "2026-06-17",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r25-760/r25-7600.html"
+  },
+  "sujet_budget_cour_locales": {
+   "t": "Les finances publiques locales - Résultats 2025 et perspectives 2026",
+   "p": "Cour des comptes (texte repris sur vie-publique.fr)",
+   "d": "2026-07",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/304033.pdf"
+  },
+  "sujet_eco_bdf_bdp2025": {
+   "t": "Rapport annuel 2025 de la balance des paiements : Un déficit courant quasi stable, à 11,6 milliards d'euros en 2025",
+   "p": "Banque de France",
+   "d": "2026-07-08",
+   "type": "donnees",
+   "u": "https://www.banque-france.fr/fr/communiques-de-presse/rapport-annuel-2025-de-la-balance-des-paiements-un-deficit-courant-quasi-stable-116-milliards-deuros"
+  },
+  "sujet_eco_insee_apu_2025": {
+   "t": "Le compte des administrations publiques en 2025 - Insee Première n° 2106",
+   "p": "Insee",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8997691"
+  },
+  "sujet_securite_senat_narcotrafic_loi": {
+   "t": "Sortir la France du piège du narcotrafic",
+   "p": "Sénat",
+   "d": "2025-06-13",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/ppl23-735.html"
+  },
+  "sujet_securite_justice_audiencement": {
+   "t": "Rapport de la mission d'urgence relative à l'audiencement criminel et correctionnel",
+   "p": "Ministère de la Justice",
+   "d": "2025-03",
+   "type": "donnees",
+   "u": "https://www.justice.gouv.fr/sites/default/files/2026-01/rapport_mission_urgence_audiencement_criminel_correctionnel.pdf"
+  },
+  "sujet_securite_senat_ce_narcotrafic": {
+   "t": "Commission d'enquête sur l'impact du narcotrafic en France et les mesures à prendre pour y remédier",
+   "p": "Sénat",
+   "d": "2024-05-14",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/structures-temporaires/commissions-denquete/commission-denquete-sur-limpact-du-narcotrafic-en-france-et-les-mesures-a-prendre-pour-y-remedier.html"
+  },
+  "sujet_securite_cglpl_ra2025": {
+   "t": "Rapport d'activité 2025 - Dossier de presse",
+   "p": "Contrôleur général des lieux de privation de liberté",
+   "d": "2026-05",
+   "type": "donnees",
+   "u": "https://www.cglpl.fr/app/uploads/2026/05/cglpl_rapport-annuel-2025_dossier-de-presse.pdf"
+  },
+  "sujet_immigration_senat_pacte_pjl": {
+   "t": "Mise en oeuvre du Pacte sur la migration et l'asile",
+   "p": "Sénat",
+   "d": "2026-09-18",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/pjl25-526.html"
+  },
+  "sujet_immigration_cc_constitution": {
+   "t": "Texte intégral de la Constitution du 4 octobre 1958 en vigueur",
+   "p": "Conseil constitutionnel",
+   "d": "2024-03-08",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  "sujet_immigration_interieur_prefectures": {
+   "t": "Les préfectures",
+   "p": "Ministère de l'Intérieur",
+   "d": "2026",
+   "type": "donnees",
+   "u": "https://www.interieur.gouv.fr/prefectures"
+  },
+  "sujet_securite_justice_rsj2026_delais": {
+   "t": "Références statistiques Justice, édition 2026 : 11.3 Les durées de traitement des mis en cause dans des infractions pénales",
+   "p": "Ministère de la Justice",
+   "d": "2026-07",
+   "type": "donnees",
+   "u": "https://www.justice.gouv.fr/sites/default/files/2026-07/RSJ2026%2011_3.pdf"
+  },
+  "sujet_immigration_insee_immigres": {
+   "t": "L'essentiel sur... les immigrés et les étrangers",
+   "p": "Insee",
+   "d": "2026-06-25",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/3633212"
+  },
+  "sujet_immigration_senat_retention2025": {
+   "t": "Rétention des personnes condamnées pour des faits d'une particulière gravité",
+   "p": "Sénat",
+   "d": "2025-08-11",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/ppl24-298.html"
+  },
+  "sujet_securite_justice_detention_202608": {
+   "t": "Statistique des établissements et des personnes écrouées en France au 1er août 2026",
+   "p": "Ministère de la Justice",
+   "d": "2026-08",
+   "type": "donnees",
+   "u": "https://www.justice.gouv.fr/sites/default/files/2026-08/statistique_etablissements_personnes_ecrouees_01082026.pdf"
+  },
+  "sujet_immigration_sp_etudiant": {
+   "t": "Étudiant étranger en France : visa de long séjour ou titre de séjour",
+   "p": "service-public.gouv.fr",
+   "d": "2026-08-01",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F2231"
+  },
+  "sujet_immigration_senat_affeur_pacte": {
+   "t": "Observations sur le projet de loi n° 526 (2025-2026)",
+   "p": "Sénat (commission des affaires européennes)",
+   "d": "2026-05-07",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r25-606/r25-606_mono.html"
+  },
+  "sujet_immigration_sp_asile": {
+   "t": "Demande d'asile",
+   "p": "service-public.gouv.fr",
+   "d": "2025-05-07",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F35534/0"
+  },
+  "sujet_securite_cc_constitution": {
+   "t": "Texte intégral de la Constitution du 4 octobre 1958 en vigueur",
+   "p": "Conseil constitutionnel",
+   "d": "2024-03-08",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  "sujet_securite_sp_casier": {
+   "t": "Demande d'extrait de casier judiciaire (bulletin n°3)",
+   "p": "service-public.gouv.fr",
+   "d": "2026-05-22",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1420"
+  },
+  "sujet_immigration_senat_asile_couts": {
+   "t": "Les coûts de l'asile en France",
+   "p": "Sénat (commission des finances)",
+   "d": "2026-07-08",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r25-874/r25-874_mono.html"
+  },
+  "sujet_securite_sp_gav": {
+   "t": "Garde à vue",
+   "p": "service-public.gouv.fr",
+   "d": "2025-07-10",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F14837?lang=fr"
+  },
+  "sujet_immigration_ofpra_bilan2025": {
+   "t": "Bilan 2025 de l'Ofpra : une activité record et des évolutions contrastées",
+   "p": "Ofpra",
+   "d": "2026-01-27",
+   "type": "donnees",
+   "u": "https://www.ofpra.gouv.fr/actualites/bilan-2025-de-lofpra-une-activite-record-et-des-evolutions-contrastees"
+  },
+  "sujet_immigration_dgef_titres2025": {
+   "t": "Les titres de séjour en 2025 : Les protections subsidiaires ont plus que doublé",
+   "p": "Ministère de l'Intérieur (DGEF)",
+   "d": "2026-06-30",
+   "type": "donnees",
+   "u": "https://www.immigration.interieur.gouv.fr/documentation/etudes-et-statistiques/titres-de-sejour-en-2025-protections-subsidiaires-ont-plus-que-double.html"
+  },
+  "sujet_securite_senat_securites_plf2026": {
+   "t": "Projet de loi de finances pour 2026 : note de présentation de la mission Sécurités (police nationale, gendarmerie nationale)",
+   "p": "Sénat (commission des finances)",
+   "d": "2025-11",
+   "type": "donnees",
+   "u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/NP/Securites_PN-GN-SR-CAS_NP_PLF_2026.pdf"
+  },
+  "sujet_securite_gendarmerie_organisation": {
+   "t": "Organisation générale de la défense et de la sécurité intérieure",
+   "p": "Gendarmerie nationale (ministère de l'Intérieur)",
+   "d": "2025",
+   "type": "donnees",
+   "u": "https://www.gendarmerie.interieur.gouv.fr/recrutement/content/download/48699/file/Organisation%20g%C3%A9n%C3%A9rale%20de%20la%20d%C3%A9fense%20et%20de%20la%20s%C3%A9curit%C3%A9%20int%C3%A9rieure.pdf"
+  },
+  "sujet_immigration_dgef_nationalite2025": {
+   "t": "L'accès à la nationalité française pour l'année 2025 : moins d'acquisitions de la nationalité française par décret",
+   "p": "Ministère de l'Intérieur (DGEF)",
+   "d": "2026",
+   "type": "donnees",
+   "u": "https://www.immigration.interieur.gouv.fr/chiffres-de-limmigration-en-france/lacces-a-nationalite-francaise-pour-lannee-2025-moins-dacquisitions-de-nationalite-francaise-par"
+  },
+  "sujet_securite_sp_plainte": {
+   "t": "Victime d'une atteinte aux biens : vous pouvez désormais porter plainte intégralement en ligne",
+   "p": "service-public.gouv.fr",
+   "d": "2024-11-05",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/actualites/A17768"
+  },
+  "sujet_immigration_sp_nationalite18": {
+   "t": "Nationalité française d'un enfant né en France de parents étrangers - À 18 ans",
+   "p": "service-public.gouv.fr",
+   "d": "2025-08-19",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34708/0_0"
+  },
+  "sujet_securite_senat_mineurs_loi": {
+   "t": "Aménager le code de la justice pénale des mineurs et la responsabilité parentale",
+   "p": "Sénat",
+   "d": "2025-06-23",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/ppl24-343.html"
+  },
+  "sujet_securite_senat_lopmi": {
+   "t": "Orientation et programmation du ministère de l'intérieur",
+   "p": "Sénat",
+   "d": "2023-01-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/pjl21-876.html"
+  },
+  "sujet_immigration_senat_plf2026_immigration": {
+   "t": "Projet de loi de finances pour 2026 : Immigration, asile et intégration",
+   "p": "Sénat (commission des finances)",
+   "d": "2025-11-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-139-315/l25-139-3152.html"
+  },
+  "sujet_securite_senat_justice_plf2026": {
+   "t": "L'essentiel sur le projet de loi de finances pour 2026 - Mission Justice",
+   "p": "Sénat (commission des finances)",
+   "d": "2025-11-19",
+   "type": "donnees",
+   "u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/Essentiel/Justice_Essentiel_PLF2026_post-commission.pdf"
+  },
+  "sujet_securite_senat_lopj": {
+   "t": "Orientation et programmation du ministère de la justice 2023-2027",
+   "p": "Sénat",
+   "d": "2023-11-20",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/pjl22-569.html"
+  },
+  "sujet_immigration_dgef_eloignements2025": {
+   "t": "Les éloignements d'étrangers en situation irrégulière en 2025 : une dynamique ascendante",
+   "p": "Ministère de l'Intérieur (DGEF)",
+   "d": "2026-06",
+   "type": "donnees",
+   "u": "https://www.immigration.interieur.gouv.fr/chiffres-de-limmigration-en-france/eloignements-detrangers-en-situation-irreguliere-en-2025-dynamique-ascendante"
+  },
+  "sujet_immigration_consilium_pacte": {
+   "t": "Pact on migration and asylum",
+   "p": "Conseil de l'Union européenne",
+   "d": "2026-06-12",
+   "type": "donnees",
+   "u": "https://www.consilium.europa.eu/en/policies/eu-pact-migration-asylum/"
+  },
+  "sujet_securite_ssmsi_bilan2025": {
+   "t": "Insécurité et délinquance en 2025 : bilan statistique et atlas départemental",
+   "p": "Ministère de l'Intérieur (SSMSI)",
+   "d": "2026-07-09",
+   "type": "donnees",
+   "u": "https://statistiques.interieur.gouv.fr/ssmsi/files/ssmsi/2026-07/Ins%C3%A9curit%C3%A9%20et%20d%C3%A9linquance%20en%202025%20-%20Bilan%20statistique%20-%20%C3%A9dition%202026%20-%20SSMSI.pdf"
+  },
+  "sujet_immigration_senat_loi2024": {
+   "t": "Immigration et intégration - Le dossier législatif",
+   "p": "Sénat",
+   "d": "2024-01-26",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/pjl22-304.html"
+  },
+  "sujet_institutions_senat_r99": {
+   "t": "Proposition de loi constitutionnelle visant à faciliter le déclenchement du référendum d'initiative partagée",
+   "p": "Sénat (commission des lois, rapport n° 99, 2023-2024)",
+   "d": "2023-11-15",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l23-099/l23-0996.html"
+  },
+  "sujet_europe_senat_psr": {
+   "t": "Projet de loi de finances pour 2026 : Affaires européennes",
+   "p": "Sénat (rapport général n° 139, tome II, fascicule 2, 2025-2026)",
+   "d": "2025-11-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-139-22/l25-139-22_mono.html"
+  },
+  "sujet_europe_senat_loi_lpm": {
+   "t": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
+   "p": "Sénat (La loi en clair)",
+   "d": "2026-08-16",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/projet-de-loi-actualisant-la-programmation-militaire-pour-les-annees-2024-a-2030-et-portant-diverses-dispositions-interessant-la-defense.html"
+  },
+  "sujet_institutions_int_pdr2022": {
+   "t": "Les archives des résultats des élections en France",
+   "p": "Ministère de l'Intérieur",
+   "d": "2022-04",
+   "type": "donnees",
+   "u": "https://www.archives-resultats-elections.interieur.gouv.fr/resultats/presidentielle-2022/FE.php"
+  },
+  "sujet_institutions_info_pdr2027": {
+   "t": "Présidentielle 2027 : dates à retenir et informations clés",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2026-09-02",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/presidentielle-2027-date-a-retenir-et-informations-cles"
+  },
+  "sujet_institutions_cc_pdr2022obs": {
+   "t": "Décision n° 2022-198 PDR du 16 juin 2022",
+   "p": "Conseil constitutionnel (observations sur l'élection présidentielle des 10 et 24 avril 2022)",
+   "d": "2022-06-16",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/decision/2022/2022198PDR.htm"
+  },
+  "sujet_institutions_senat_r414": {
+   "t": "Proposition de loi constitutionnelle visant à restreindre certaines prérogatives du Président de la République et à renforcer celles du Premier ministre, responsable devant le Parlement",
+   "p": "Sénat (commission des lois, rapport n° 414, 2025-2026)",
+   "d": "2026-02-18",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-414/l25-414_mono.html"
+  },
+  "sujet_europe_cc_constitution": {
+   "t": "Texte intégral de la Constitution du 4 octobre 1958 en vigueur",
+   "p": "Conseil constitutionnel",
+   "d": "2024-03-08",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  "sujet_institutions_senat_ppl948": {
+   "t": "Abaisser à dix-huit ans l'âge d'éligibilité aux élections sénatoriales (exposé des motifs)",
+   "p": "Sénat",
+   "d": "2026-09-15",
+   "type": "donnees",
+   "u": "https://www.senat.fr/leg/exposes-des-motifs/ppl25-948-expose.html"
+  },
+  "sujet_institutions_insee_ip1929": {
+   "t": "Vingt ans de participation électorale : en 2022, les écarts selon l'âge et le diplôme continuent de se creuser - Insee Première - 1929",
+   "p": "Insee",
+   "d": "2022-11-17",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/6658143"
+  },
+  "sujet_europe_consilium_ukraine": {
+   "t": "Council finalises €90 billion support loan to Ukraine",
+   "p": "Conseil de l'Union européenne",
+   "d": "2026-04-23",
+   "type": "donnees",
+   "u": "https://www.consilium.europa.eu/en/press/press-releases/2026/04/23/council-finalises-90-billion-support-loan-to-ukraine/"
+  },
+  "sujet_institutions_info_budget493": {
+   "t": "Budget 2026 : le Premier ministre engage la responsabilité du Gouvernement",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2026-01-19",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/budget-2026-le-premier-ministre-engage-la-responsabilite-du-gouvernement"
+  },
+  "sujet_europe_consilium_safe": {
+   "t": "SAFE: Council adopts €150 billion boost for joint procurement on European security and defence",
+   "p": "Conseil de l'Union européenne",
+   "d": "2025-05-27",
+   "type": "donnees",
+   "u": "https://www.consilium.europa.eu/en/press/press-releases/2025/05/27/safe-council-adopts-150-billion-boost-for-joint-procurement-on-european-security-and-defence/"
+  },
+  "sujet_europe_def_chiffres2026": {
+   "t": "LES CHIFFRES CLÉS DE LA DÉFENSE 2026",
+   "p": "defense.gouv.fr (ministère des Armées)",
+   "d": "2026-09",
+   "type": "donnees",
+   "u": "https://www.defense.gouv.fr/sites/default/files/ministere-armees/Chiffres_Cle%CC%81s_2026FR-webVF.pdf"
+  },
+  "sujet_europe_ep_results": {
+   "t": "National results France | 2024 Election results | 2024 European election results | European Parliament",
+   "p": "Parlement européen",
+   "d": "2024-06-17",
+   "type": "donnees",
+   "u": "https://results.elections.europa.eu/en/national-results/france/2024-2029/"
+  },
+  "sujet_institutions_elysee_lecornu_oct": {
+   "t": "Nomination de Sébastien Lecornu, Premier ministre.",
+   "p": "Élysée",
+   "d": "2025-10-10",
+   "type": "donnees",
+   "u": "https://www.elysee.fr/emmanuel-macron/2025/10/10/nomination-de-sebastien-lecornu-premier-ministre"
+  },
+  "sujet_institutions_cc_2025892dc": {
+   "t": "Décision n° 2025-892 DC du 7 août 2025 - Communiqué de presse",
+   "p": "Conseil constitutionnel",
+   "d": "2025-08-07",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2025-892-dc-du-7-aout-2025-communique-de-presse"
+  },
+  "sujet_europe_nato_members": {
+   "t": "NATO member countries",
+   "p": "OTAN",
+   "d": "2024-03-11",
+   "type": "donnees",
+   "u": "https://www.nato.int/en/about-us/organization/nato-member-countries"
+  },
+  "sujet_institutions_insee_focus378": {
+   "t": "Corps électoral 2026 - Insee Focus - 378",
+   "p": "Insee",
+   "d": "2026-03-11",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8888278"
+  },
+  "sujet_europe_sp_jdc": {
+   "t": "Journée défense et citoyenneté (JDC)",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-04-14",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F871"
+  },
+  "sujet_institutions_sp_inscription": {
+   "t": "Liste électorale : inscription d'office à 18 ans si le recensement citoyen a été fait à 16 ans",
+   "p": "Service-public.fr (DILA)",
+   "d": "2025-11-28",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F34852/0_0_0"
+  },
+  "sujet_europe_sp_reserve": {
+   "t": "Réserve opérationnelle dans les armées",
+   "p": "Service-public.fr (DILA)",
+   "d": "2026-08-18",
+   "type": "donnees",
+   "u": "https://www.service-public.gouv.fr/particuliers/vosdroits/F1188"
+  },
+  "sujet_europe_ec_enlargement": {
+   "t": "Commission prepares for pre-enlargement reforms and policy reviews",
+   "p": "Commission européenne (communication COM(2024) 146)",
+   "d": "2024-03-20",
+   "type": "donnees",
+   "u": "https://enlargement.ec.europa.eu/news/commission-prepares-pre-enlargement-reforms-and-policy-reviews-2024-03-20_en"
+  },
+  "sujet_institutions_cc_referendums": {
+   "t": "L'histoire du référendum sous la Ve République",
+   "p": "Conseil constitutionnel",
+   "d": "2020-02-11",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/la-constitution/l-histoire-du-referendum-sous-la-ve-republique"
+  },
+  "sujet_europe_senat_avis654": {
+   "t": "Actualisation de la programmation militaire pour les années 2024 à 2030",
+   "p": "Sénat (commission des finances, avis n° 654, 2025-2026)",
+   "d": "2026-05",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/a25-654/a25-654-syn.pdf"
+  },
+  "sujet_europe_ec_white": {
+   "t": "Future of European defence - European Commission",
+   "p": "Commission européenne",
+   "d": "2025",
+   "type": "donnees",
+   "u": "https://commission.europa.eu/topics/defence/future-european-defence_en"
+  },
+  "sujet_europe_ec_discovereu": {
+   "t": "DiscoverEU : ouverture des candidatures pour voyager gratuitement en train à travers l'Europe",
+   "p": "Commission européenne (Représentation en France)",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://france.representation.ec.europa.eu/informations-et-evenements/informations/discovereu-ouverture-des-candidatures-pour-voyager-gratuitement-en-train-travers-leurope-2026-10-01_fr"
+  },
+  "sujet_institutions_int_leg2024": {
+   "t": "Législatives 2024 - Les archives des élections en France",
+   "p": "Ministère de l'Intérieur",
+   "d": "2024-07",
+   "type": "donnees",
+   "u": "https://www.archives-resultats-elections.interieur.gouv.fr/resultats/legislatives2024/ensemble_geographique/index.php"
+  },
+  "sujet_europe_consilium_unanimity": {
+   "t": "Unanimity",
+   "p": "Conseil de l'Union européenne",
+   "d": "2026-02-12",
+   "type": "donnees",
+   "u": "https://www.consilium.europa.eu/en/council-eu/how-does-the-council-vote/unanimity/"
+  },
+  "sujet_europe_info_servicenational": {
+   "t": "Service national : ce qu'il faut retenir",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2026-09-18",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/service-national-ce-qu-il-faut-retenir"
+  },
+  "sujet_europe_nato_hague": {
+   "t": "The Hague Summit Declaration",
+   "p": "OTAN",
+   "d": "2025-06-25",
+   "type": "donnees",
+   "u": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2025/06/25/the-hague-summit-declaration"
+  },
+  "sujet_institutions_info_dissolution": {
+   "t": "Dissolution de l'Assemblée nationale",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2024-06-10",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/dissolution-de-lassemblee-nationale"
+  },
+  "sujet_institutions_cc_constitution": {
+   "t": "Texte intégral de la Constitution du 4 octobre 1958 en vigueur",
+   "p": "Conseil constitutionnel",
+   "d": "2024-03-08",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/le-bloc-de-constitutionnalite/texte-integral-de-la-constitution-du-4-octobre-1958-en-vigueur"
+  },
+  "sujet_europe_senat_r666": {
+   "t": "Projet de loi actualisant la programmation militaire pour les années 2024 à 2030 et portant diverses dispositions intéressant la défense",
+   "p": "Sénat (rapport n° 666, 2025-2026)",
+   "d": "2026-05-27",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/l25-666/l25-66615.html"
+  },
+  "sujet_institutions_senat_r648": {
+   "t": "Jeunesse et citoyenneté : une culture à réinventer - 23 recommandations pour redynamiser la culture citoyenne",
+   "p": "Sénat (rapport d'information n° 648, 2021-2022)",
+   "d": "2022-06-07",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r21-648/r21-64818.html"
   }
  },
  "presse": [
@@ -7663,6 +8531,930 @@
     "sujet_sante_senat_rapport668",
     "sujet_sante_assurance_maladie_cp2027",
     "sujet_sante_senat_complementaires"
+   ]
+  },
+  "education": {
+   "trente": {
+    "txt": "L'école est un service public national : l'État fixe les programmes et gère les enseignants, tandis que les communes, les départements et les régions s'occupent des bâtiments des écoles, collèges et lycées. En 2025-2026, on compte 12,46 millions d'élèves et d'apprentis et 851 500 enseignants.",
+    "src": [
+     "sujet_education_men_etat",
+     "sujet_education_men_collectivites",
+     "sujet_education_depp_enc2026"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "12,46 millions",
+     "l": "d'élèves et d'apprentis en 2025-2026 (dont 6,15 millions d'écoliers, 3,36 millions de collégiens et 2,26 millions de lycéens)",
+     "src": "sujet_education_depp_enc2026"
+    },
+    {
+     "v": "851 500",
+     "l": "enseignants dans les écoles et établissements en 2025-2026 (366 100 dans le 1er degré, 485 450 dans le second degré)",
+     "src": "sujet_education_depp_enc2026"
+    },
+    {
+     "v": "21,1 à 21,7",
+     "l": "élèves par classe en moyenne à la rentrée 2025 en école (21,7 en préélémentaire, 21,1 en élémentaire) ; 25,7 en collège",
+     "src": "sujet_education_depp_enc2026"
+    },
+    {
+     "v": "9 080 € et 11 660 €",
+     "l": "dépense annuelle par élève en 2024, respectivement dans le 1er degré et dans le 2d degré (élève ou apprenti)",
+     "src": "sujet_education_depp_enc2026_pdf"
+    },
+    {
+     "v": "458 points",
+     "l": "score de la France en mathématiques à PISA 2025, en baisse de 16 points par rapport à 2022 (moyenne OCDE : 463) ; 36 % des élèves sous le niveau 2, contre 29 % en 2022",
+     "src": "sujet_education_depp_pisa2025"
+    },
+    {
+     "v": "7,2 %",
+     "l": "des 18-24 ans sont sortants précoces de l'éducation et de la formation en 2025",
+     "src": "sujet_education_depp_enc2026_pdf"
+    }
+   ],
+   "recent": [
+    {
+     "date": "Rentrée 2026",
+     "txt": "Le ministère indique que l'utilisation d'un téléphone portable par les élèves est interdite dans l'ensemble des écoles, collèges et lycées : dès la rentrée 2026, la scolarité se déroule sans téléphone portable, de la maternelle au lycée. Depuis la rentrée 2025, chaque collège définit dans son règlement intérieur les modalités de mise à l'écart des téléphones (dispositif « Portable en pause »).",
+     "src": "sujet_education_men_telephone",
+     "iso": "2026-09-01"
+    },
+    {
+     "date": "2026",
+     "txt": "La session 2026 des concours de recrutement des professeurs est la première étape de la réforme de la formation initiale et du recrutement : recrutement à bac+3, suivi de deux années de formation initiale rémunérée. En 2026, une double session est organisée, avec de nouveaux concours à bac+3 et des concours à bac+5 pour les étudiants déjà engagés en master.",
+     "src": "sujet_education_men_concours2026",
+     "iso": "2026"
+    },
+    {
+     "date": "Rentrée 2024",
+     "txt": "Depuis la rentrée 2024, les enseignements de français et de mathématiques en 6e et en 5e sont organisés en groupes de besoins. Les programmes sont identiques pour tous les élèves, quel que soit leur groupe, et la composition des groupes est réexaminée régulièrement au cours de l'année.",
+     "src": "sujet_education_men_college",
+     "iso": "2024-09-01"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "L'État fixe les programmes nationaux, définit et délivre les diplômes nationaux, recrute et gère les personnels enseignants et répartit les moyens consacrés à l'éducation.",
+     "src": "sujet_education_men_etat"
+    },
+    {
+     "txt": "Les communes pour les écoles, les départements pour les collèges et les régions pour les lycées s'occupent de la construction, de la rénovation et des grosses réparations des bâtiments, et gèrent une partie des personnels non enseignants (agents des écoles maternelles, adjoints techniques).",
+     "src": "sujet_education_men_collectivites"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "La bourse sur critères sociaux de l'enseignement supérieur 2026-2027 va de 1 454 € par an (échelon 0 bis, soit 145,40 € par mois) à 6 335 € par an (échelon 7, soit 633,50 € par mois). Elle est versée sur 10 mois et ses montants sont inchangés par rapport à 2025-2026.",
+     "src": "sujet_education_sp_bourses2026"
+    },
+    {
+     "txt": "La contribution de vie étudiante et de campus (CVEC) est de 105 € pour l'année universitaire 2026-2027. Chaque étudiant inscrit en formation initiale dans l'enseignement supérieur doit obtenir son attestation d'acquittement avant son inscription.",
+     "src": "sujet_education_cvec"
+    },
+    {
+     "txt": "Le ministère de l'Enseignement supérieur indique que le repas à 1 euro au restaurant universitaire est désormais accessible à tous les étudiants sans distinction. Les boursiers ne paient ni les frais d'inscription à l'université ni la CVEC.",
+     "src": "sujet_education_esr_cout_rentree"
+    },
+    {
+     "txt": "Pour Parcoursup, la dernière session publiée est celle de 2026 : la phase d'inscription s'est tenue du lundi 19 janvier au jeudi 12 mars 2026, et la phase d'admission a débuté le mardi 2 juin 2026. Le calendrier de la session 2027 n'était pas encore affiché sur la page officielle au moment de la consultation : il est à vérifier sur parcoursup.gouv.fr.",
+     "src": "sujet_education_parcoursup_calendrier"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment relever le niveau des élèves en mathématiques et en compréhension de l'écrit, alors que le score de la France à PISA a baissé entre 2022 et 2025 ?",
+     "src": "sujet_education_depp_pisa2025"
+    },
+    {
+     "txt": "Comment réduire les écarts de résultats entre les élèves de l'éducation prioritaire et les autres, qui d'après la Cour des comptes « peinent à se résorber » ?",
+     "src": "sujet_education_senat_prioritaire"
+    },
+    {
+     "txt": "Comment adapter le nombre de postes à la baisse démographique tout en rendant le métier d'enseignant attractif, notamment en milieu de carrière ?",
+     "src": "sujet_education_senat_plf2026"
+    },
+    {
+     "txt": "Comment recruter et former les enseignants alors que la Cour des comptes relève une « difficulté croissante de recrutement, particulièrement sur certains territoires et dans certaines disciplines » ?",
+     "src": "sujet_education_cc_devenir_enseignant"
+    }
+   ],
+   "lire": [
+    "sujet_education_depp_pisa2025",
+    "sujet_education_senat_prioritaire",
+    "sujet_education_senat_plf2026"
+   ]
+  },
+  "ecologie": {
+   "trente": {
+    "txt": "La France applique un cadre européen (marché du carbone SEQE-UE, cible de -55 % d'émissions en 2030) et sa propre programmation de l'énergie, la PPE 3, adoptée par décret en février 2026. En 2025, ses émissions de gaz à effet de serre sont pré-estimées à 359 Mt (-2,1 %) et 95,2 % de l'électricité produite est bas-carbone.",
+    "src": [
+     "sujet_ecologie_hcc_ra2026",
+     "sujet_ecologie_senat_ppe3",
+     "sujet_ecologie_rte_bilan2025"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "359 Mt CO2e",
+     "l": "émissions brutes de gaz à effet de serre de la France en 2025 (pré-estimation), contre 367 Mt en 2024, soit -2,1 %",
+     "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "v": "plus de 4 % par an",
+     "l": "rythme moyen de baisse des émissions brutes à atteindre en 2026, 2027 et 2028 selon le Haut Conseil pour le climat (HCC), qui note que le rythme « a ralenti en 2025 » et doit « au moins doubler » (rapport de juillet 2026)",
+     "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "v": "23,0 %",
+     "l": "part des énergies renouvelables dans la consommation finale brute d'énergie en 2024 (données provisoires ; objectif 2030 : 33 %) ; 30,8 % pour l'électricité",
+     "src": "sujet_ecologie_sdes_enr2024"
+    },
+    {
+     "v": "68,1 %",
+     "l": "part du nucléaire dans la production d'électricité en 2025 (373,0 TWh sur 547,5 TWh) ; l'électricité bas-carbone représente 95,2 % de la production",
+     "src": "sujet_ecologie_rte_bilan2025"
+    },
+    {
+     "v": "+2,5 %",
+     "l": "hausse moyenne des tarifs réglementés de l'électricité au 1er août 2026, acceptée par le Gouvernement, soit environ 26 € TTC de plus par an pour une facture moyenne",
+     "src": "sujet_ecologie_sp_tarifs_aout2026"
+    },
+    {
+     "v": "379 428",
+     "l": "logements rénovés grâce aux aides de l'Anah en 2025, pour 4,39 Md€ d'aides distribuées (+16 %)",
+     "src": "sujet_ecologie_anah_chiffres2025"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er août 2026",
+     "txt": "Les tarifs réglementés de vente de l'électricité augmentent en moyenne de 2,5 % : le Gouvernement a accepté la proposition de la Commission de régulation de l'énergie (CRE). Cela représente environ 26 € TTC de plus par an en moyenne.",
+     "src": "sujet_ecologie_sp_tarifs_aout2026",
+     "iso": "2026-08-01"
+    },
+    {
+     "date": "21 mai 2026",
+     "txt": "Le Conseil constitutionnel censure l'article 37 de la loi de simplification de la vie économique, qui visait à supprimer la faculté ou l'obligation, pour certaines collectivités territoriales, de mettre en place une zone à faibles émissions mobilité (ZFE). Il juge cet article adopté selon une procédure contraire à la Constitution, faute de lien suffisant avec les dispositions du texte initial.",
+     "src": "sujet_ecologie_cc_2026903",
+     "iso": "2026-05-21"
+    },
+    {
+     "date": "13 févr. 2026",
+     "txt": "La troisième programmation pluriannuelle de l'énergie (PPE 3) est adoptée par décret. À l'horizon 2035, elle prévoit la mise en service de 55 à 80 GW de capacités photovoltaïques, 35 à 40 GW d'éolien terrestre et 15 GW d'éolien en mer.",
+     "src": "sujet_ecologie_senat_ppe3",
+     "iso": "2026-02-13"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Au niveau national, la troisième programmation pluriannuelle de l'énergie (PPE 3) a été adoptée par décret, le 13 février 2026.",
+     "src": "sujet_ecologie_senat_ppe3"
+    },
+    {
+     "txt": "Le cadre européen s'impose aussi : selon le HCC, le Pacte vert européen s'articule autour du système d'échange de quotas d'émissions de l'Union européenne (SEQE-UE), avec une cible de -55 % en 2030, et l'Union a fixé un objectif de -90 % d'émissions en 2040 par rapport à 1990.",
+     "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "txt": "Les collectivités, à travers leurs outils de planification et d'aménagement du territoire, sont des acteurs majeurs des politiques climatiques.",
+     "src": "sujet_ecologie_hcc_ra2026"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Chèque énergie : le foyer fiscal doit avoir un revenu fiscal de référence inférieur à 11 000 € par unité de consommation, d'après l'avis d'imposition de l'année N-2. Son montant varie de 48 € à 277 € selon les revenus et la composition du foyer.",
+     "src": "sujet_ecologie_sp_cheque_energie"
+    },
+    {
+     "txt": "Pour un salarié, l'employeur doit prendre en charge au moins 50 % du prix des abonnements de transports publics utilisés pour les trajets entre le domicile et le lieu de travail.",
+     "src": "sujet_ecologie_sp_transports_employeur"
+    },
+    {
+     "txt": "Le forfait mobilités durables est facultatif pour l'employeur. Il peut financer les trajets domicile-travail en vélo personnel (électrique compris) ou en covoiturage, entre autres, et il est exonéré d'impôt sur le revenu jusqu'à 600 € par an et par salarié (dont 300 € au maximum de prime carburant), ou 900 € au total pour les salariés qui bénéficient aussi de la prise en charge des abonnements de transports publics.",
+     "src": "sujet_ecologie_sp_fmd"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment accélérer la baisse des émissions de gaz à effet de serre, alors que son rythme a ralenti en 2025 et que, selon le HCC, la baisse 2024-2025 est surtout liée à moins de gaz naturel consommé ?",
+     "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "txt": "Comment financer la rénovation énergétique des logements, notamment des copropriétés, et à quels ménages destiner en priorité les aides ?",
+     "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "txt": "Comment accélérer l'électrification des usages pour réduire la dépendance aux énergies fossiles, alors que la consommation d'électricité est restée stable en 2025 ?",
+     "src": "sujet_ecologie_rte_cp2025"
+    },
+    {
+     "txt": "Comment protéger les ménages les plus dépendants des énergies fossiles, face à la précarité mobilité (15 millions de personnes) et à la précarité énergétique (10,8 % des ménages), tout en réduisant les émissions ?",
+     "src": "sujet_ecologie_hcc_ra2026"
+    }
+   ],
+   "lire": [
+    "sujet_ecologie_hcc_ra2026",
+    "sujet_ecologie_rte_bilan2025",
+    "sujet_ecologie_citepa_secten2026"
+   ]
+  },
+  "eco": {
+   "trente": {
+    "txt": "En 2025, le PIB de la France a augmenté de 0,8 % ; il est resté stable au deuxième trimestre 2026. Les prix ont augmenté de 3,0 % sur un an en septembre 2026 (estimation provisoire de l'Insee). Les prélèvements obligatoires (impôts et cotisations) représentent 43,6 % du PIB en 2025.",
+    "src": [
+     "sujet_eco_insee_comptes_2025",
+     "sujet_eco_insee_pib_t2_2026",
+     "sujet_eco_insee_ipc_sept2026",
+     "sujet_eco_insee_apu_2025"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "0,0 %",
+     "l": "variation du PIB en volume au 2e trimestre 2026, après -0,2 % au 1er trimestre (acquis de croissance de +0,3 % pour 2026)",
+     "src": "sujet_eco_insee_pib_t2_2026"
+    },
+    {
+     "v": "+0,8 %",
+     "l": "croissance du PIB en volume en 2025, après +1,5 % en 2024",
+     "src": "sujet_eco_insee_comptes_2025"
+    },
+    {
+     "v": "3,0 %",
+     "l": "hausse des prix à la consommation sur un an en septembre 2026 (estimation provisoire de l'Insee ; 2,4 % en août 2026)",
+     "src": "sujet_eco_insee_ipc_sept2026"
+    },
+    {
+     "v": "43,6 %",
+     "l": "du PIB : taux de prélèvements obligatoires en 2025, en hausse de 0,9 point par rapport à 2024",
+     "src": "sujet_eco_insee_apu_2025"
+    },
+    {
+     "v": "47 %",
+     "l": "des foyers fiscaux ont payé un impôt net sur le revenu en 2025, au titre des revenus 2024 (19,6 millions sur 41,5 millions)",
+     "src": "sujet_eco_dgfip_ir2024"
+    },
+    {
+     "v": "-58,0 Md€",
+     "l": "solde des échanges de biens de la France en 2025, après -61,4 Md€ en 2024 (balance des paiements ; les services dégagent un excédent de 45,4 Md€)",
+     "src": "sujet_eco_bdf_bdp2025"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er oct. 2026",
+     "txt": "Le projet de loi de finances pour 2027 est présenté. Il n'est pas encore adopté : le Parlement doit le voter. Il prévoit de ne pas augmenter de manière générale les principaux impôts, d'indexer le barème de l'impôt sur le revenu sur l'inflation et de réduire de 30 % la surtaxe d'impôt sur les sociétés applicable aux grandes entreprises.",
+     "src": "sujet_eco_ecogouv_plf2027",
+     "iso": "2026-10-01"
+    },
+    {
+     "date": "25 juin 2026",
+     "txt": "La loi n° 2026-534 du 25 juin 2026 relative à la lutte contre les fraudes sociales et fiscales est promulguée. Elle crée notamment une procédure de « flagrance sociale » qui permet de geler les actifs d'entreprises lors d'un contrôle de l'Urssaf, pour lutter contre le travail dissimulé.",
+     "src": "sujet_eco_ecogouv_fraudes",
+     "iso": "2026-06-25"
+    },
+    {
+     "date": "19 févr. 2026",
+     "txt": "La loi de finances pour 2026 (loi n° 2026-103 du 19 février 2026) revalorise le barème de l'impôt sur le revenu de 0,9 %, au rythme de l'inflation. Elle prévoit la contribution différentielle sur les hauts revenus (taux d'imposition minimal de 20 % pour les foyers dont le revenu fiscal de référence 2025 dépasse 250 000 € pour un célibataire ou 500 000 € pour un couple) et reconduit pour une nouvelle année la contribution exceptionnelle sur les grandes entreprises.",
+     "src": "sujet_eco_ecogouv_lfi2026_particuliers",
+     "iso": "2026-02-19"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le Parlement vote les lois de finances, qui déterminent les ressources et les charges de l'État : l'article 47 de la Constitution lui laisse 70 jours pour examiner, amender et voter le projet de loi de finances déposé par le Gouvernement.",
+     "src": "sujet_eco_an_fiche53"
+    },
+    {
+     "txt": "Le Gouvernement saisit aussi le Haut Conseil des finances publiques, qui émet un avis sur le cadrage économique du projet de loi, sa cohérence avec la loi de programmation des finances publiques en vigueur et le réalisme des prévisions de recettes et de dépenses.",
+     "src": "sujet_eco_ecogouv_plf_comment"
+    },
+    {
+     "txt": "Au niveau européen, la France fait l'objet d'une procédure de déficit excessif (décision du Conseil du 26 juillet 2024). Les taux d'intérêt directeurs de la zone euro sont fixés par l'Eurosystème, c'est-à-dire la Banque centrale européenne et les banques centrales nationales des pays de la zone euro.",
+     "src": "sujet_eco_ec_edp_france"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Job étudiant : les salaires d'un étudiant qui a 25 ans ou moins au 1er janvier de l'année d'imposition sont exonérés d'impôt sur le revenu dans la limite de 3 fois le montant mensuel du Smic, soit 5 405 € pour les revenus perçus en 2025. Cette exonération peut se cumuler avec celle des gratifications de stage.",
+     "src": "sujet_eco_ecogouv_job"
+    },
+    {
+     "txt": "Stage et apprentissage : l'exonération d'impôt sur le revenu des gratifications de stage et des salaires d'apprentis est limitée au montant annuel du Smic, soit 21 622 € pour les revenus perçus en 2025. Les bourses d'études accordées par l'État ou les collectivités locales sur critères sociaux sont exonérées d'impôt sur le revenu.",
+     "src": "sujet_eco_ecogouv_job"
+    },
+    {
+     "txt": "Rattachement aux parents : un enfant majeur peut être rattaché au foyer fiscal de ses parents s'il a moins de 21 ans au 1er janvier de l'année d'imposition (1er janvier 2025 pour la déclaration faite en 2026), ou moins de 25 ans s'il poursuit ses études. Le jeune majeur peut aussi faire sa propre déclaration.",
+     "src": "sujet_eco_impots_majeur"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Quels effets le niveau, la complexité et l'instabilité des prélèvements obligatoires ont-ils sur la compétitivité des entreprises, l'investissement et les salaires ?",
+     "src": "sujet_eco_senat_r942"
+    },
+    {
+     "txt": "Comment soutenir la croissance et le pouvoir d'achat des ménages alors que l'inflation remonte ?",
+     "src": "sujet_eco_insee_ndc_sept2026"
+    },
+    {
+     "txt": "Comment réduire le déficit public : par moins de dépenses, par plus de recettes, ou par une combinaison des deux ?",
+     "src": "sujet_eco_cour_juin2026"
+    },
+    {
+     "txt": "Comment mieux connaître et imposer les hauts patrimoines tout en limitant l'optimisation fiscale ?",
+     "src": "sujet_eco_senat_r760"
+    }
+   ],
+   "lire": [
+    "sujet_eco_senat_r942",
+    "sujet_eco_insee_ndc_sept2026",
+    "sujet_eco_senat_r760"
+   ],
+   "tuile": 3
+  },
+  "budget": {
+   "trente": {
+    "txt": "La loi de finances définit chaque année les recettes et les dépenses de l'État ; le Parlement la vote. Le projet de budget pour 2027, présenté le 1er octobre 2026, prévoit de ramener le déficit public à 5 % du PIB (5,4 % attendu en 2026), avec un effort de redressement de 54 milliards d'euros. Il n'est pas encore adopté.",
+    "src": [
+     "sujet_budget_ecogouv_plf2027",
+     "sujet_budget_an_plf2027"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "5,0 %",
+     "l": "du PIB : déficit public visé en 2027 par le projet de budget, contre 5,4 % attendu en 2026",
+     "src": "sujet_budget_ecogouv_plf2027"
+    },
+    {
+     "v": "54 Md€",
+     "l": "effort de redressement des comptes publics prévu en 2027, dont 43 Md€ de mesures dans le projet de loi de finances et le projet de loi de financement de la Sécurité sociale",
+     "src": "sujet_budget_ecogouv_plf2027"
+    },
+    {
+     "v": "121,7 %",
+     "l": "du PIB : niveau de la dette publique attendu en 2027 selon le projet de loi de finances",
+     "src": "sujet_budget_an_plf2027"
+    },
+    {
+     "v": "-156,4 Md€",
+     "l": "solde budgétaire de l'État prévu en 2027 dans le projet de loi de finances (-137,2 Md€ estimé pour 2026)",
+     "src": "sujet_budget_an_plf2027"
+    },
+    {
+     "v": "2029",
+     "l": "année visée par le Gouvernement pour ramener le déficit public sous 3 % du PIB (rapport d'avancement annuel d'avril 2026) ; la procédure de déficit excessif contre la France a été ouverte le 26 juillet 2024",
+     "src": "sujet_budget_tresor_raa2026"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er oct. 2026",
+     "txt": "Le projet de loi de finances pour 2027 est présenté et enregistré à l'Assemblée nationale. Il n'est pas encore adopté : le Parlement doit le voter. Il prévoit un déficit public de 5,0 % du PIB en 2027.",
+     "src": "sujet_budget_ecogouv_plf2027",
+     "iso": "2026-10-01"
+    },
+    {
+     "date": "19 févr. 2026",
+     "txt": "La loi de finances pour 2026 (loi n° 2026-103 du 19 février 2026) est promulguée. La Cour des comptes indique qu'elle inscrit une cible de déficit public de 5,0 % du PIB pour 2026.",
+     "src": "sujet_budget_ecogouv_lfi2026",
+     "iso": "2026-02-19"
+    },
+    {
+     "date": "26 déc. 2025",
+     "txt": "La loi spéciale (loi n° 2025-1316 du 26 décembre 2025) est promulguée : elle autorise la perception des impôts et des ressources publiques nécessaires au financement des dépenses publiques essentielles et assure le fonctionnement des services publics dès le 1er janvier 2026, en attendant le vote du budget 2026.",
+     "src": "sujet_budget_ecogouv_loi_speciale",
+     "iso": "2025-12-26"
+    },
+    {
+     "date": "26 juil. 2024",
+     "txt": "Le Conseil de l'Union européenne décide qu'il existe un déficit excessif en France : la procédure de déficit excessif est ouverte. Une recommandation du Conseil pour mettre fin à cette situation est adoptée le 21 janvier 2025.",
+     "src": "sujet_budget_ec_edp_france",
+     "iso": "2024-07-26"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le Gouvernement dépose le projet de loi de finances sur le bureau de l'Assemblée nationale au plus tard le premier mardi d'octobre. Le Parlement dispose de 70 jours pour l'examiner, l'amender et le voter (article 47 de la Constitution). Si la loi n'est pas votée à temps, le Gouvernement dépose un projet de loi spéciale l'autorisant à continuer à percevoir les impôts, comme pour 2026.",
+     "src": "sujet_budget_ecogouv_plf_comment"
+    },
+    {
+     "txt": "Le Gouvernement saisit le Conseil d'État et le Haut Conseil des finances publiques, qui émet un avis sur le cadrage économique du projet de loi, sa cohérence avec la loi de programmation des finances publiques en vigueur et le réalisme des prévisions de recettes et de dépenses.",
+     "src": "sujet_budget_ecogouv_plf_comment"
+    },
+    {
+     "txt": "Au niveau européen, la France fait l'objet d'une procédure de déficit excessif (décision du Conseil du 26 juillet 2024). Les taux d'intérêt directeurs de la zone euro sont fixés par l'Eurosystème, c'est-à-dire la Banque centrale européenne et les banques centrales nationales de la zone euro.",
+     "src": "sujet_budget_ec_edp_france"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Restaurants universitaires : la loi de finances pour 2026 instaure, pour tous les étudiants, le repas (entrée, plat et dessert) à un euro dans les restaurants universitaires gérés par le Crous, à partir du 1er mai 2026.",
+     "src": "sujet_budget_ecogouv_lfi2026"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment réduire le déficit public : par des économies, par des recettes supplémentaires, ou par les deux ?",
+     "src": "sujet_budget_cour_juin2026"
+    },
+    {
+     "txt": "Comment faire face à la hausse de la charge de la dette, qui réduit les marges de manœuvre de l'État ?",
+     "src": "sujet_budget_cour_juin2026"
+    },
+    {
+     "txt": "Comment associer les collectivités territoriales à l'effort de redressement des comptes publics, et selon quelle trajectoire ?",
+     "src": "sujet_budget_cour_locales"
+    },
+    {
+     "txt": "Comment financer la hausse des crédits de la défense dans un contexte de réduction du déficit ?",
+     "src": "sujet_budget_senat_defense_plf2026"
+    }
+   ],
+   "lire": [
+    "sujet_budget_cour_juin2026",
+    "sujet_budget_cour_locales",
+    "sujet_budget_an_plf2027"
+   ]
+  },
+  "securite": {
+   "trente": {
+    "txt": "En 2025, la police et la gendarmerie ont enregistré plus de violences physiques (+5 %) et de violences sexuelles (+8 %) qu'en 2024, et moins de cambriolages de logement (-3 %). Au 1er août 2026, 89 668 personnes étaient détenues pour 63 303 places opérationnelles. Le Parlement vote la loi pénale ; des juges indépendants jugent.",
+    "src": [
+     "sujet_securite_ssmsi_bilan2025",
+     "sujet_securite_justice_detention_202608",
+     "sujet_securite_cc_constitution"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "472 400",
+     "l": "victimes de violences physiques enregistrées par la police et la gendarmerie en 2025, soit 5 % de plus qu'en 2024",
+     "src": "sujet_securite_ssmsi_bilan2025"
+    },
+    {
+     "v": "132 100",
+     "l": "victimes de violences sexuelles enregistrées en 2025 (+8 % par rapport à 2024), dont 50 100 victimes de viols et tentatives de viol (+9 %)",
+     "src": "sujet_securite_ssmsi_bilan2025"
+    },
+    {
+     "v": "89 668",
+     "l": "personnes détenues au 1er août 2026 pour 63 303 places opérationnelles, soit une densité carcérale de 141,6 % (7 956 matelas au sol)",
+     "src": "sujet_securite_justice_detention_202608"
+    },
+    {
+     "v": "environ 8 500",
+     "l": "postes de policiers et de gendarmes dont la création est prévue entre 2023 et 2027 ; le projet de loi de finances pour 2026 prévoit en outre +1 000 emplois pour la police nationale et +400 pour la gendarmerie nationale",
+     "src": "sujet_securite_senat_securites_plf2026"
+    },
+    {
+     "v": "13,1 Md€",
+     "l": "de crédits de paiement pour la mission Justice dans le projet de loi de finances pour 2026, avec 1 600 emplois supplémentaires prévus",
+     "src": "sujet_securite_senat_justice_plf2026"
+    },
+    {
+     "v": "12,2 mois",
+     "l": "de délai moyen en 2025 entre l'arrivée d'une affaire et la première décision au fond du tribunal correctionnel, identique à 2024",
+     "src": "sujet_securite_justice_rsj2026_delais"
+    }
+   ],
+   "recent": [
+    {
+     "date": "23 juin 2025",
+     "txt": "La loi n° 2025-568 visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents est promulguée, après la décision n° 2025-886 DC du Conseil constitutionnel du 19 juin 2025, qui l'a jugée partiellement conforme à la Constitution.",
+     "src": "sujet_securite_senat_mineurs_loi",
+     "iso": "2025-06-23"
+    },
+    {
+     "date": "13 juin 2025",
+     "txt": "La loi n° 2025-532 visant à sortir la France du piège du narcotrafic est promulguée, après la décision n° 2025-885 DC du Conseil constitutionnel du 12 juin 2025, qui l'a jugée partiellement conforme à la Constitution.",
+     "src": "sujet_securite_senat_narcotrafic_loi",
+     "iso": "2025-06-13"
+    },
+    {
+     "date": "20 nov. 2023",
+     "txt": "La loi n° 2023-1059 d'orientation et de programmation du ministère de la justice 2023-2027 est promulguée, après la décision n° 2023-855 DC du Conseil constitutionnel du 16 novembre 2023, qui l'a jugée partiellement conforme à la Constitution.",
+     "src": "sujet_securite_senat_lopj",
+     "iso": "2023-11-20"
+    },
+    {
+     "date": "24 janv. 2023",
+     "txt": "La loi n° 2023-22 d'orientation et de programmation du ministère de l'intérieur (LOPMI) est promulguée, après la décision n° 2022-846 DC du Conseil constitutionnel du 19 janvier 2023, qui l'a jugée partiellement conforme à la Constitution. Elle programme les moyens du ministère sur la période 2023-2027.",
+     "src": "sujet_securite_senat_lopmi",
+     "iso": "2023-01-24"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le Parlement vote la loi pénale : selon l'article 34 de la Constitution, la loi fixe les règles concernant la détermination des crimes et délits ainsi que les peines qui leur sont applicables, et la procédure pénale. Le Gouvernement détermine et conduit la politique de la nation et dispose de l'administration (article 20).",
+     "src": "sujet_securite_cc_constitution"
+    },
+    {
+     "txt": "Le préfet de département a la charge de l'ordre public et de la sécurité des populations ; il dirige l'action des services de la police nationale et des unités de la gendarmerie nationale en matière d'ordre public et de police administrative.",
+     "src": "sujet_securite_gendarmerie_organisation"
+    },
+    {
+     "txt": "Le Président de la République est garant de l'indépendance de l'autorité judiciaire (article 64). Avant leur promulgation, les lois peuvent être déférées au Conseil constitutionnel, qui se prononce sur leur conformité à la Constitution (article 61).",
+     "src": "sujet_securite_cc_constitution"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Garde à vue : sa durée est de 24 heures, mais elle peut être abrégée ou prolongée, et l'infraction reprochée doit être un crime ou un délit puni d'une peine d'emprisonnement. La personne gardée à vue peut solliciter l'aide d'un avocat dès le début et à tout moment, demander à être examinée par un médecin, faire prévenir son employeur, un proche ou toute personne de son choix, et a le droit de faire des déclarations, de répondre aux questions ou de se taire.",
+     "src": "sujet_securite_sp_gav"
+    },
+    {
+     "txt": "Plainte en ligne : depuis le 15 octobre 2024, ce service permet de déposer plainte de façon entièrement dématérialisée pour les vols, cambriolages, abus de confiance, dégradations, infractions concernant le dépôt sauvage ou la collecte des ordures, et escroqueries. Il faut s'identifier avec FranceConnect (identifiants impots.gouv.fr, ameli.fr ou identité numérique La Poste) ; l'autre option est de prendre rendez-vous dans un commissariat ou une gendarmerie avec une pièce d'identité.",
+     "src": "sujet_securite_sp_plainte"
+    },
+    {
+     "txt": "Bulletin n° 3 du casier judiciaire : il peut être délivré quelle que soit la nationalité. La demande se fait par le téléservice du ministère de la justice et elle est gratuite ; le délai va d'une heure à 24 heures en cas de transmission via FranceConnect ou par mail.",
+     "src": "sujet_securite_sp_casier"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment concilier le nombre de places en détention, le recours à l'emprisonnement et les conditions de vie en prison ?",
+     "src": "sujet_securite_cglpl_ra2025"
+    },
+    {
+     "txt": "Quelle organisation et quels moyens d'enquête pour lutter contre le trafic de stupéfiants, et avec quelles garanties pour les libertés individuelles ?",
+     "src": "sujet_securite_senat_ce_narcotrafic"
+    },
+    {
+     "txt": "Comment réduire le délai de jugement des affaires pénales tout en préservant les droits de la défense et ceux des victimes ?",
+     "src": "sujet_securite_justice_audiencement"
+    },
+    {
+     "txt": "Comment répartir les emplois supplémentaires de la Justice entre l'administration pénitentiaire, les services judiciaires et les autres services ?",
+     "src": "sujet_securite_senat_justice_plf2026"
+    }
+   ],
+   "lire": [
+    "sujet_securite_cglpl_ra2025",
+    "sujet_securite_senat_ce_narcotrafic",
+    "sujet_securite_justice_audiencement"
+   ]
+  },
+  "immigration": {
+   "trente": {
+    "txt": "En 2025, 377 000 premiers titres de séjour ont été délivrés et l'Ofpra a enregistré 145 210 demandes de protection internationale. L'Insee compte 8,0 millions d'immigrés en 2025, soit 11,6 % de la population. Depuis le 12 juin 2026, les règles européennes du pacte sur la migration et l'asile s'appliquent.",
+    "src": [
+     "sujet_immigration_dgef_titres2025",
+     "sujet_immigration_ofpra_bilan2025",
+     "sujet_immigration_insee_immigres",
+     "sujet_immigration_consilium_pacte"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "377 000",
+     "l": "premiers titres de séjour délivrés à des étrangers majeurs en 2025, soit 9,2 % de plus qu'en 2024 (données provisoires) : 116 835 pour études, 90 959 familiaux, 88 001 humanitaires, 50 848 économiques et 30 819 divers",
+     "src": "sujet_immigration_dgef_titres2025"
+    },
+    {
+     "v": "145 210",
+     "l": "demandes de protection internationale enregistrées par l'Ofpra en 2025, soit 5,5 % de moins qu'en 2024 ; le taux de protection de l'Ofpra est de 41,2 % en 2025 (+2,4 points)",
+     "src": "sujet_immigration_ofpra_bilan2025"
+    },
+    {
+     "v": "98 139",
+     "l": "personnes ont acquis la nationalité française en 2025 (-5,3 % par rapport à 2024), dont 42 246 par décret (-13,5 %) et 17 579 à raison du mariage (+10,5 %)",
+     "src": "sujet_immigration_dgef_nationalite2025"
+    },
+    {
+     "v": "8,0 millions",
+     "l": "d'immigrés (personnes nées étrangères à l'étranger et résidant en France) vivent en France en 2025, soit 11,6 % de la population totale ; la population étrangère compte 6,3 millions de personnes (9,1 %)",
+     "src": "sujet_immigration_insee_immigres"
+    },
+    {
+     "v": "23 549",
+     "l": "éloignements d'étrangers en situation irrégulière mis en œuvre en 2025, soit 11,1 % de plus qu'en 2024 (données provisoires) : 14 133 forcés, 4 564 aidés et 4 852 spontanés",
+     "src": "sujet_immigration_dgef_eloignements2025"
+    },
+    {
+     "v": "7 426",
+     "l": "obligations de quitter le territoire français (OQTF) exécutées pour 69 888 prononcées au premier semestre 2025, d'après la DGEF citée par le Sénat",
+     "src": "sujet_immigration_senat_plf2026_immigration"
+    }
+   ],
+   "recent": [
+    {
+     "date": "12 juin 2026",
+     "txt": "Les règles du pacte sur la migration et l'asile de l'Union européenne, adopté par le Conseil de l'Union européenne le 14 mai 2024, entrent en application.",
+     "src": "sujet_immigration_consilium_pacte",
+     "iso": "2026-06-12"
+    },
+    {
+     "date": "20 mai 2026",
+     "txt": "Le Sénat adopte en première lecture le projet de loi « Mise en oeuvre du Pacte sur la migration et l'asile », qui habilite le Gouvernement à prendre par ordonnances les adaptations rendues nécessaires par l'entrée en application de règlements européens. Ce texte est encore un projet : au 18 septembre 2026, date de la dernière mise à jour de la page du Sénat, il n'était ni promulgué ni transmis au Conseil constitutionnel.",
+     "src": "sujet_immigration_senat_pacte_pjl",
+     "iso": "2026-05-20"
+    },
+    {
+     "date": "11 août 2025",
+     "txt": "La loi n° 2025-796 visant à faciliter le maintien en rétention des personnes condamnées pour des faits d'une particulière gravité et présentant de forts risques de récidive est promulguée, après la décision n° 2025-895 DC du Conseil constitutionnel du 7 août 2025, qui l'a jugée partiellement conforme à la Constitution.",
+     "src": "sujet_immigration_senat_retention2025",
+     "iso": "2025-08-11"
+    },
+    {
+     "date": "26 janv. 2024",
+     "txt": "La loi n° 2024-42 pour contrôler l'immigration, améliorer l'intégration est promulguée (Journal officiel du 27 janvier 2024), après l'accord de la commission mixte paritaire du 19 décembre 2023. Le Conseil constitutionnel, par sa décision n° 2023-863 DC du 25 janvier 2024, l'a jugée partiellement conforme à la Constitution.",
+     "src": "sujet_immigration_senat_loi2024",
+     "iso": "2024-01-26"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "La loi fixe les règles concernant la nationalité (article 34 de la Constitution) ; avant sa promulgation, une loi peut être déférée au Conseil constitutionnel, qui se prononce sur sa conformité à la Constitution (article 61).",
+     "src": "sujet_immigration_cc_constitution"
+    },
+    {
+     "txt": "Le ministère de l'Intérieur indique que le préfet de département applique les règles relatives à l'entrée et au séjour des étrangers.",
+     "src": "sujet_immigration_interieur_prefectures"
+    },
+    {
+     "txt": "En matière d'asile, la préfecture doit enregistrer la demande dans un délai de 3 jours ouvrés, l'Ofpra l'étudie d'abord dans le cadre du statut de réfugié, et un recours est possible devant la CNDA dans le délai d'un mois suivant la notification de la décision.",
+     "src": "sujet_immigration_sp_asile"
+    },
+    {
+     "txt": "Au niveau européen, le pacte sur la migration et l'asile, adopté par le Conseil de l'Union européenne le 14 mai 2024, couvre notamment le filtrage, une procédure commune d'asile, les conditions d'accueil et la base de données Eurodac ; ses règles s'appliquent depuis le 12 juin 2026.",
+     "src": "sujet_immigration_consilium_pacte"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Nationalité française à 18 ans pour un jeune né en France de parents étrangers : il faut résider en France à 18 ans et y avoir eu sa résidence habituelle pendant une période continue ou discontinue de 5 ans ou plus depuis l'âge de 11 ans. L'acquisition est automatique : aucune démarche n'est à faire. D'autres conditions existent (voir la fiche).",
+     "src": "sujet_immigration_sp_nationalite18"
+    },
+    {
+     "txt": "Étudiant étranger : le visa de long séjour valant titre de séjour (VLS-TS) est délivré pour une durée de 4 mois à 1 an et doit être validé dans les 3 mois suivant l'arrivée en France. Il faut être inscrit (ou préinscrit) dans un établissement d'enseignement supérieur ou de formation initiale et justifier de ressources au moins égales à 877,5 euros par mois. Après 1 an de séjour, on peut demander une carte de séjour temporaire étudiant (valable 1 an) ou pluriannuelle étudiant.",
+     "src": "sujet_immigration_sp_etudiant"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment réduire la durée de la procédure d'asile et le coût de l'accueil des demandeurs d'asile, tout en garantissant l'examen de chaque demande ?",
+     "src": "sujet_immigration_senat_asile_couts"
+    },
+    {
+     "txt": "Comment améliorer l'exécution des obligations de quitter le territoire français, dans le respect des droits des personnes concernées ?",
+     "src": "sujet_immigration_senat_plf2026_immigration"
+    },
+    {
+     "txt": "Comment adapter le droit français aux règles du pacte européen sur la migration et l'asile, entrées en application le 12 juin 2026 ?",
+     "src": "sujet_immigration_senat_affeur_pacte"
+    }
+   ],
+   "lire": [
+    "sujet_immigration_senat_asile_couts",
+    "sujet_immigration_senat_plf2026_immigration",
+    "sujet_immigration_senat_affeur_pacte"
+   ]
+  },
+  "institutions": {
+   "trente": {
+    "txt": "Les institutions françaises reposent sur la Constitution du 4 octobre 1958 : les députés sont élus au suffrage direct, les sénateurs au suffrage indirect. Le Conseil constitutionnel veille à la régularité de l'élection du Président de la République, prévue les 18 avril et 2 mai 2027. Depuis la dissolution de juin 2024, plusieurs Premiers ministres se sont succédé.",
+    "src": [
+     "sujet_institutions_cc_constitution",
+     "sujet_institutions_info_pdr2027",
+     "sujet_institutions_info_dissolution"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "73,69 %",
+     "l": "de participation au 1er tour de la présidentielle du 10 avril 2022 (71,99 % au 2nd tour, le 24 avril 2022)",
+     "src": "sujet_institutions_int_pdr2022"
+    },
+    {
+     "v": "66,71 %",
+     "l": "de participation au 1er tour des législatives anticipées du 30 juin 2024 (66,63 % au 2nd tour, le 7 juillet 2024)",
+     "src": "sujet_institutions_int_leg2024"
+    },
+    {
+     "v": "67,2 %",
+     "l": "des inscrits de 18 à 29 ans ont voté au 1er tour de la présidentielle de 2022, contre 77,0 % des 65 ans ou plus (Insee, novembre 2022)",
+     "src": "sujet_institutions_insee_ip1929"
+    },
+    {
+     "v": "577 et 348",
+     "l": "députés et sénateurs au plus : maximum fixé par l'article 24 de la Constitution (texte à jour de la révision du 8 mars 2024)",
+     "src": "sujet_institutions_cc_constitution"
+    },
+    {
+     "v": "9",
+     "l": "référendums nationaux organisés depuis 1958 sur le fondement des articles 11 et 89 de la Constitution, le dernier le 29 mai 2005 (page du Conseil constitutionnel de 2020)",
+     "src": "sujet_institutions_cc_referendums"
+    },
+    {
+     "v": "1,5 million",
+     "l": "de jeunes nés entre 2006 et début 2008 inscrits d'office sur les listes électorales en 2026 (50,4 millions de personnes inscrites au total, mars 2026)",
+     "src": "sujet_institutions_insee_focus378"
+    }
+   ],
+   "recent": [
+    {
+     "date": "19 janv. 2026",
+     "txt": "Le Premier ministre annonce qu'il engagera le lendemain la responsabilité du Gouvernement (article 49.3 de la Constitution) sur la partie recettes du projet de loi de finances pour 2026. Le texte est alors réputé adopté sans vote, sauf si une motion de censure est déposée dans les 24 heures.",
+     "src": "sujet_institutions_info_budget493",
+     "iso": "2026-01-19"
+    },
+    {
+     "date": "10 oct. 2025",
+     "txt": "Le Président de la République nomme Sébastien Lecornu Premier ministre et le charge de former un Gouvernement ; une première nomination avait eu lieu le 9 septembre 2025, date de fin de fonctions de François Bayrou (en poste du 13 décembre 2024 au 9 septembre 2025, selon info.gouv.fr). Michel Barnier avait été nommé Premier ministre le 5 septembre 2024.",
+     "src": "sujet_institutions_elysee_lecornu_oct",
+     "iso": "2025-10-10"
+    },
+    {
+     "date": "7 août 2025",
+     "txt": "Le Conseil constitutionnel déclare conformes à la Constitution les dispositions déférées de la loi visant à réformer le mode d'élection des membres du conseil de Paris et des conseils municipaux de Lyon et Marseille. Selon info.gouv.fr, les municipales des 15 et 22 mars 2026 à Paris, Lyon et Marseille comportent un double scrutin distinct : un pour élire les conseillers d'arrondissement ou de secteur, l'autre pour choisir directement les représentants des mairies centrales.",
+     "src": "sujet_institutions_cc_2025892dc",
+     "iso": "2025-08-07"
+    },
+    {
+     "date": "9 juin 2024",
+     "txt": "Le chef de l'État annonce la dissolution de l'Assemblée nationale (décret publié au Journal officiel le 10 juin). Les élections législatives anticipées ont lieu les 30 juin et 7 juillet 2024.",
+     "src": "sujet_institutions_info_dissolution",
+     "iso": "2024-06-09"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Pour réviser la Constitution (article 89), l'initiative appartient au Président de la République, sur proposition du Premier ministre, et aux membres du Parlement. Le texte doit être voté par les deux assemblées en termes identiques, puis approuvé par référendum ; le Président peut aussi le soumettre au Parlement réuni en Congrès, où il faut alors la majorité des trois cinquièmes des suffrages exprimés.",
+     "src": "sujet_institutions_cc_constitution"
+    },
+    {
+     "txt": "Le Président de la République peut soumettre au référendum certains projets de loi (article 11) : sur l'organisation des pouvoirs publics, sur des réformes de la politique économique, sociale ou environnementale, ou pour ratifier certains traités. Il le fait sur proposition du Gouvernement pendant les sessions ou sur proposition conjointe des deux assemblées ; un référendum peut aussi être organisé à l'initiative d'un cinquième des parlementaires, soutenue par un dixième des électeurs inscrits.",
+     "src": "sujet_institutions_cc_constitution"
+    },
+    {
+     "txt": "Le Conseil constitutionnel compte neuf membres, dont le mandat dure neuf ans et n'est pas renouvelable. Il veille à la régularité de l'élection du Président de la République (article 58) et se prononce sur la conformité à la Constitution des lois organiques avant leur promulgation ; les lois peuvent aussi lui être déférées (article 61).",
+     "src": "sujet_institutions_cc_constitution"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Un jeune de nationalité française qui a fait son recensement citoyen à 16 ans est inscrit automatiquement sur la liste électorale à 18 ans, dans la commune où il l'a fait. Sinon, il faut s'inscrire (en ligne, en mairie ou par courrier) avec un justificatif d'identité et un justificatif de domicile de moins de 3 mois. Pour voter à un scrutin donné, la demande par courrier doit arriver au plus tard le 6e vendredi avant le 1er tour.",
+     "src": "sujet_institutions_sp_inscription"
+    },
+    {
+     "txt": "La majorité civile, fixée à 18 ans, ouvre le droit de se porter candidat à l'élection présidentielle et aux élections législatives. Pour être sénateur, l'âge minimum est de 24 ans (article L.O. 296 du code électoral) ; une proposition de loi déposée au Sénat en septembre 2026 propose de le ramener à 18 ans, mais ce n'est à ce stade qu'une proposition.",
+     "src": "sujet_institutions_senat_ppl948"
+    },
+    {
+     "txt": "Présidentielle 2027 : 1er tour le dimanche 18 avril, 2nd tour le dimanche 2 mai 2027. Pour voter, il faut être inscrit sur les listes électorales. Pour être candidat, il faut obtenir la signature de 500 élus habilités, représentant au moins 30 départements ou collectivités d'outre-mer différents.",
+     "src": "sujet_institutions_info_pdr2027"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment répartir les prérogatives entre le chef de l'État et le chef du Gouvernement ?",
+     "src": "sujet_institutions_senat_r414"
+    },
+    {
+     "txt": "Faut-il faciliter le déclenchement du référendum d'initiative partagée, et à quelles conditions ?",
+     "src": "sujet_institutions_senat_r99"
+    },
+    {
+     "txt": "Comment encourager les jeunes à voter et à s'engager dans la vie démocratique ?",
+     "src": "sujet_institutions_senat_r648"
+    },
+    {
+     "txt": "Comment organiser l'élection présidentielle pour en garantir la régularité : transmission électronique des parrainages, date limite des procurations, publicité du dépouillement ?",
+     "src": "sujet_institutions_cc_pdr2022obs"
+    }
+   ],
+   "lire": [
+    "sujet_institutions_senat_r414",
+    "sujet_institutions_cc_pdr2022obs",
+    "sujet_institutions_senat_r648"
+   ]
+  },
+  "europe": {
+   "trente": {
+    "txt": "Le Président de la République est le chef des armées ; le Parlement vote les lois de programmation militaire et les lois de finances. La loi du 16 août 2026 actualise la programmation militaire 2024-2030. L'OTAN compte 32 membres, engagés en 2025 à investir 5 % du PIB dans la défense et la sécurité d'ici 2035.",
+    "src": [
+     "sujet_europe_cc_constitution",
+     "sujet_europe_senat_loi_lpm",
+     "sujet_europe_nato_members",
+     "sujet_europe_nato_hague"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "56,9 Md€",
+     "l": "de crédits pour la mission Défense hors pensions en 2026 (loi de finances initiale) ; 68,3 Md€ pour l'ensemble du ministère, pensions incluses",
+     "src": "sujet_europe_def_chiffres2026"
+    },
+    {
+     "v": "436 Md€",
+     "l": "de crédits budgétaires courants pour la mission Défense sur 2024-2030 selon la loi du 16 août 2026 actualisant la programmation militaire, avec 36 Md€ de ressources supplémentaires sur 2026-2030",
+     "src": "sujet_europe_senat_loi_lpm"
+    },
+    {
+     "v": "28,8 Md€",
+     "l": "de prélèvement sur recettes au profit de l'Union européenne évalué pour 2026 par le projet de loi de finances (+24,6 % par rapport à la prévision d'exécution 2025)",
+     "src": "sujet_europe_senat_psr"
+    },
+    {
+     "v": "5 % du PIB",
+     "l": "d'ici 2035 : engagement des Alliés de l'OTAN au sommet de La Haye en juin 2025, dont au moins 3,5 % pour les besoins de défense de base et jusqu'à 1,5 % pour des dépenses liées à la sécurité (infrastructures critiques, réseaux, résilience civile)",
+     "src": "sujet_europe_nato_hague"
+    },
+    {
+     "v": "201 016",
+     "l": "militaires du ministère (équivalents temps plein travaillés) au 31 décembre 2025, sur 264 720 personnels civils et militaires ; 49 290 réservistes sous contrat",
+     "src": "sujet_europe_def_chiffres2026"
+    },
+    {
+     "v": "51,49 %",
+     "l": "de participation en France aux élections européennes de juin 2024 (50,74 % dans l'ensemble de l'Union européenne)",
+     "src": "sujet_europe_ep_results"
+    }
+   ],
+   "recent": [
+    {
+     "date": "16 août 2026",
+     "txt": "La loi actualisant la programmation militaire pour les années 2024 à 2030 est promulguée (loi n° 2026-791). Elle porte à 436 milliards d'euros courants les crédits de la mission Défense sur la période, avec 36 milliards de ressources supplémentaires sur 2026-2030. Le Parlement l'avait définitivement adoptée le 1er juillet 2026 et le Conseil constitutionnel l'a déclarée conforme à la Constitution le 6 août 2026.",
+     "src": "sujet_europe_senat_loi_lpm",
+     "iso": "2026-08-16"
+    },
+    {
+     "date": "23 avr. 2026",
+     "txt": "Le Conseil de l'Union européenne finalise un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027, financé par de l'emprunt de l'UE sur les marchés de capitaux et garanti par la marge du budget de l'UE : 30 milliards pour le soutien macroéconomique, 60 milliards pour les capacités industrielles de défense de l'Ukraine.",
+     "src": "sujet_europe_consilium_ukraine",
+     "iso": "2026-04-23"
+    },
+    {
+     "date": "27 mai 2025",
+     "txt": "Le Conseil de l'Union européenne adopte SAFE (Security Action for Europe), un instrument de prêts allant jusqu'à 150 milliards d'euros pour financer des investissements de défense des États membres. En principe, les États bénéficiaires doivent mener des achats communs impliquant au moins deux pays participants.",
+     "src": "sujet_europe_consilium_safe",
+     "iso": "2025-05-27"
+    },
+    {
+     "date": "7 mars 2024",
+     "txt": "La Suède devient le 32e membre de l'OTAN, après la Finlande, 31e membre depuis le 4 avril 2023.",
+     "src": "sujet_europe_nato_members",
+     "iso": "2024-03-07"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le Président de la République est le chef des armées (article 15 de la Constitution) et le Premier ministre est responsable de la défense nationale (article 21). Le Parlement vote les lois de programmation, qui déterminent les objectifs de l'action de l'État (article 34), et les lois de finances, qui déterminent les ressources et les charges de l'État. La déclaration de guerre est autorisée par le Parlement ; le Gouvernement l'informe de toute intervention des forces armées à l'étranger au plus tard trois jours après son début et, au-delà de quatre mois, en soumet la prolongation à son autorisation (article 35).",
+     "src": "sujet_europe_cc_constitution"
+    },
+    {
+     "txt": "La programmation militaire est fixée par une loi : celle qui actualise la LPM 2024-2030 a été adoptée par le Sénat (texte de compromis du 30 juin 2026) puis par l'Assemblée nationale (1er juillet 2026), déclarée conforme à la Constitution par le Conseil constitutionnel le 6 août 2026 et promulguée le 16 août 2026.",
+     "src": "sujet_europe_senat_loi_lpm"
+    },
+    {
+     "txt": "Au niveau de l'Union européenne, le Conseil vote à l'unanimité sur la politique étrangère et de sécurité commune, sauf dans certains cas précis où la majorité qualifiée s'applique. Avec l'unanimité, l'abstention d'un État n'empêche pas l'adoption d'une décision.",
+     "src": "sujet_europe_consilium_unanimity"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Dès 16 ans, chaque Français doit faire son recensement citoyen. Il est ensuite convoqué automatiquement à la journée défense et citoyenneté (JDC), qu'il doit faire avant 25 ans ; service-public.gouv.fr l'appelle désormais « journée de mobilisation (ex-JDC) » et indique que les jeunes y sont convoqués pendant l'année de leurs 17 ans. Le certificat de participation est demandé pour s'inscrire au permis de conduire (de 17 à 24 ans) et aux examens et concours comme le bac ou les concours administratifs (de 18 à 24 ans) ; à partir de 25 ans, aucun justificatif n'est exigé.",
+     "src": "sujet_europe_sp_jdc"
+    },
+    {
+     "txt": "Le nouveau service national est volontaire et ouvert aux Français de 18 à 25 ans, avec ou sans diplôme. Il dure 10 mois (1 mois de formation initiale et 9 mois en unité), avec une solde d'au moins 800 euros brut par mois ; il est mis en place progressivement à partir de septembre 2026. Service-public.gouv.fr précise que ce service national, exclusivement militaire, est voué à remplacer le service national universel (SNU).",
+     "src": "sujet_europe_info_servicenational"
+    },
+    {
+     "txt": "Pour devenir réserviste opérationnel dans les armées, il faut être français, avoir 17 ans minimum (limite d'âge : 72 ans), être apte médicalement et avoir accompli la journée de mobilisation (ex-JDC) ou le service militaire. Le contrat d'engagement dure de 1 à 5 ans, pour 5 à 120 jours d'activité par année civile.",
+     "src": "sujet_europe_sp_reserve"
+    },
+    {
+     "txt": "DiscoverEU : les jeunes de 18 ans nés en 2008, citoyens d'un État membre de l'UE ou d'un pays associé à Erasmus+, peuvent candidater (candidatures ouvertes le 1er octobre 2026, jusqu'au 15 octobre) à un pass ferroviaire gratuit valable jusqu'à 30 jours entre mars 2027 et mai 2028 (près de 41 000 titres).",
+     "src": "sujet_europe_ec_discovereu"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Quel effort de défense la France peut-elle financer compte tenu de l'état de ses finances publiques ?",
+     "src": "sujet_europe_senat_avis654"
+    },
+    {
+     "txt": "Quelle part de l'effort de défense doit être financée et organisée en commun au niveau européen, et quelle part doit rester nationale ?",
+     "src": "sujet_europe_ec_white"
+    },
+    {
+     "txt": "Dans quels domaines l'Union européenne devrait-elle passer de l'unanimité à la majorité qualifiée, notamment avant un nouvel élargissement ?",
+     "src": "sujet_europe_ec_enlargement"
+    },
+    {
+     "txt": "Quelle place donner aux jeunes dans la défense nationale : journée de mobilisation, service national volontaire, réserve ?",
+     "src": "sujet_europe_senat_r666"
+    }
+   ],
+   "lire": [
+    "sujet_europe_senat_avis654",
+    "sujet_europe_senat_r666",
+    "sujet_europe_ec_enlargement"
    ]
   }
  }

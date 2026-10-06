@@ -629,6 +629,7 @@ const KIT_ICO = {
 const kico = (k, sz = 20) => `<svg viewBox="0 0 24 24" aria-hidden="true" style="width:${sz}px;height:${sz}px;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round">${KIT_ICO[k] || ""}</svg>`;
 const STACK_COL = ["#7D98FF", "#4CD0C9", "#F2C063", "#FF5C70", "#B79CFF", "#5FD39A", "#AAB3CC", "#8EA6FF", "#3a9e99", "#c9a04f"];
 
+const short = (t, n) => t.length <= n ? t : t.slice(0, t.lastIndexOf(" ", n)) + "…";
 /* Accueil : la boîte à outils, le budget, les grands sujets, puis l'actu */
 function screenAccueil() {
   const kit = DATA.kit || [], B = DATA.budget, R = DATA.reperes;
@@ -638,7 +639,7 @@ function screenAccueil() {
   <div class="tools" role="list">${kit.map(f => `<a class="tool" role="listitem" href="#kit-${f.id}"><span class="ic">${kico(f.id)}</span><b>${esc(f.titre)}</b><span>${esc(f.sous || "")}</span></a>`).join("")}</div>` : ""}
   ${B ? `<a class="budget-card" href="#budget"><span class="k">${kico("euro", 16)} Le budget en une image</span><b>${nf0.format(R.depenses.v)} milliards d'euros</b><span class="p">de dépenses publiques ${esc(R.depenses.quand)}. Où va l'argent, d'où il vient, et ce que pèse chaque promesse.</span><span class="stack" aria-hidden="true">${B.dep.postes.map((x, i) => `<i style="width:${x.pct}%;background:${STACK_COL[i % STACK_COL.length]}"></i>`).join("")}</span></a>` : ""}
   <div class="sec-h"><h2>Comprendre les grands sujets</h2></div>
-  <div class="tiles">${DATA.themes.map(([k, l]) => { const S = DATA.sujets && DATA.sujets[k], f = S && S.chiffres && S.chiffres[0]; return `<a class="tile" href="#comprendre-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${f ? `${esc(f.v)} ${esc(f.l.split(/[;(]/)[0].trim())}` : k === "budget" && DATA.budget ? "Le budget en une image" : "Fiche en préparation"}</span></span></a>`; }).join("")}</div>
+  <div class="tiles">${DATA.themes.map(([k, l]) => { const S = DATA.sujets && DATA.sujets[k], f = S && S.chiffres && S.chiffres[S.tuile || 0]; return `<a class="tile" href="#comprendre-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${f ? esc(short(`${f.v} ${f.l.split(/[;(]/)[0].trim()}`, 58)) : k === "budget" && DATA.budget ? "Le budget en une image" : "Fiche en préparation"}</span></span></a>`; }).join("")}</div>
   ${screenActu(true)}`;
 }
 
