@@ -1,0 +1,310 @@
+{
+ "voix": {
+  "kokoro-siwis-1.05": {
+   "s1": {
+    "fichier": "voix/kokoro-siwis-1.05/s1.wav",
+    "duree": 2.42,
+    "entendu": "La retraite en 60 secondes"
+   },
+   "s2": {
+    "fichier": "voix/kokoro-siwis-1.05/s2.wav",
+    "duree": 5.25,
+    "entendu": "Chaque année, les cotisations des actifs payent les pensions des retraités, c'est la répartition."
+   },
+   "s3": {
+    "fichier": "voix/kokoro-siwis-1.05/s3.wav",
+    "duree": 1.93,
+    "entendu": "et la population vieillit."
+   },
+   "s4": {
+    "fichier": "voix/kokoro-siwis-1.05/s4.wav",
+    "duree": 4.85,
+    "entendu": "En 2025, les retraites ont coûté 422 milliards d'euros."
+   },
+   "s5": {
+    "fichier": "voix/kokoro-siwis-1.05/s5.wav",
+    "duree": 8.43,
+    "entendu": "Le relèvement de l'âge légal est suspendu jusqu'en 2028, mais pour les 18 à 30 ans, il reste fixé à 64 ans."
+   },
+   "s6": {
+    "fichier": "voix/kokoro-siwis-1.05/s6.wav",
+    "duree": 6.12,
+    "entendu": "Côté candidats, ceux qui ont annoncé un âge de départ proposent entre 60 et 65 ans."
+   },
+   "s7": {
+    "fichier": "voix/kokoro-siwis-1.05/s7.wav",
+    "duree": 6.03,
+    "entendu": "D'autres veulent changer la règle, partir selon la durée de cotisation, la pénibilité ou le métier."
+   },
+   "s8": {
+    "fichier": "voix/kokoro-siwis-1.05/s8.wav",
+    "duree": 6.03,
+    "entendu": "Bonne à savoir, un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
+   },
+   "s9": {
+    "fichier": "voix/kokoro-siwis-1.05/s9.wav",
+    "duree": 4.38,
+    "entendu": "Toutes les propositions sont à comparer dans Programme 2027."
+   }
+  },
+  "piper-tom": {
+   "s1": {
+    "fichier": "voix/piper-tom/s1.wav",
+    "duree": 2.66,
+    "entendu": "La retraite en 60 secondes."
+   },
+   "s2": {
+    "fichier": "voix/piper-tom/s2.wav",
+    "duree": 5.51,
+    "entendu": "Chaque année, les cotisations des actifs paient les pensions des retraités. C'est la répartition."
+   },
+   "s3": {
+    "fichier": "voix/piper-tom/s3.wav",
+    "duree": 1.57,
+    "entendu": "et la population vieillit."
+   },
+   "s4": {
+    "fichier": "voix/piper-tom/s4.wav",
+    "duree": 4.99,
+    "entendu": "En 2025, les retraites ont coûté 422 milliards d'euros."
+   },
+   "s5": {
+    "fichier": "voix/piper-tom/s5.wav",
+    "duree": 8.79,
+    "entendu": "Le relèvement de l'âge légal est suspendu jusqu'en 2028, mais pour les 18 à 30 ans, il reste fixé à 64 ans."
+   },
+   "s6": {
+    "fichier": "voix/piper-tom/s6.wav",
+    "duree": 5.53,
+    "entendu": "Côté candidat, ceux qui ont annoncé un âge de départ proposent entre 60 et 65 ans."
+   },
+   "s7": {
+    "fichier": "voix/piper-tom/s7.wav",
+    "duree": 6.07,
+    "entendu": "D'autres veulent changer la règle, partir selon la durée de cotisation, la pénibilité ou le métier."
+   },
+   "s8": {
+    "fichier": "voix/piper-tom/s8.wav",
+    "duree": 6.14,
+    "entendu": "Bon à savoir, un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
+   },
+   "s9": {
+    "fichier": "voix/piper-tom/s9.wav",
+    "duree": 4.19,
+    "entendu": "Toutes les propositions sont à comparer dans Programme 2027."
+   }
+  },
+  "piper-upmc-1": {
+   "s1": {
+    "fichier": "voix/piper-upmc-1/s1.wav",
+    "duree": 2.41,
+    "entendu": "la retraite en 60 secondes."
+   },
+   "s2": {
+    "fichier": "voix/piper-upmc-1/s2.wav",
+    "duree": 4.96,
+    "entendu": "Les cotisations des actifs paient les pensions des retraités. C'est la répartition."
+   },
+   "s3": {
+    "fichier": "voix/piper-upmc-1/s3.wav",
+    "duree": 1.37,
+    "entendu": "et la population vise."
+   },
+   "s4": {
+    "fichier": "voix/piper-upmc-1/s4.wav",
+    "duree": 4.75,
+    "entendu": "En 2025, les retraites ont coûté 422 milliards d'euros."
+   },
+   "s5": {
+    "fichier": "voix/piper-upmc-1/s5.wav",
+    "duree": 8.24,
+    "entendu": "Le relèvement de l'âge légal est suspendu jusqu'en 2028, mais pour les 18 à 30 ans, il reste fixé à 64 ans."
+   },
+   "s6": {
+    "fichier": "voix/piper-upmc-1/s6.wav",
+    "duree": 5.68,
+    "entendu": "Côté candidats, ceux qui ont annoncé un âge de départ proposent entre 60 et 65 ans."
+   },
+   "s7": {
+    "fichier": "voix/piper-upmc-1/s7.wav",
+    "duree": 6.36,
+    "entendu": "D'autres veulent changer la règle, partir selon la durée de cotisation, la pénibilité ou le métier."
+   },
+   "s8": {
+    "fichier": "voix/piper-upmc-1/s8.wav",
+    "duree": 6.3,
+    "entendu": "Bon à savoir, un job d'été à 1008, sans 3 euros brut, c'est déjà un trimestre validé."
+   },
+   "s9": {
+    "fichier": "voix/piper-upmc-1/s9.wav",
+    "duree": 3.8,
+    "entendu": "Toutes les propositions sont à comparer dans Programme 2027."
+   }
+  },
+  "kyutai-10087_11650_000028-0002": {
+   "s1": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s1.wav",
+    "duree": 2.64,
+    "entendu": "La retraite en 60 secondes."
+   },
+   "s2": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s2.wav",
+    "duree": 5.44,
+    "entendu": "Chaque année, les cotisations des actifs paient les pensions des retraités. C'est la répartition."
+   },
+   "s3": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s3.wav",
+    "duree": 2.08,
+    "entendu": "et la population vieillit."
+   },
+   "s4": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s4.wav",
+    "duree": 4.8,
+    "entendu": "En 2025, les retraites ont coûté 422 milliards d'euros."
+   },
+   "s5": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s5.wav",
+    "duree": 8.4,
+    "entendu": "Le relèvement de l'âge légal est suspendu jusqu'en 2028, mais pour les 18 à 30 ans, il reste fixé à 64 ans."
+   },
+   "s6": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s6.wav",
+    "duree": 5.76,
+    "entendu": "Côté candidats, ceux qui ont annoncé un âge de départ proposent entre 60 et 65 ans."
+   },
+   "s7": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s7.wav",
+    "duree": 7.36,
+    "entendu": "D'autres veulent changer la règle, partir selon la durée de cotisation, la pénibilité ou le métier."
+   },
+   "s8": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s8.wav",
+    "duree": 7.28,
+    "entendu": "Bon, à savoir un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
+   },
+   "s9": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002/s9.wav",
+    "duree": 4.56,
+    "entendu": "Toutes les propositions sont à comparer dans programme 2027."
+   }
+  },
+  "kyutai-10087_11650_000028-0002_enhanced": {
+   "s1": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s1.wav",
+    "duree": 2.56,
+    "entendu": "La retraite en 60 secondes."
+   },
+   "s2": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s2.wav",
+    "duree": 5.76,
+    "entendu": "Chaque année, les cotisations des actifs paient les pensions des retraités. C'est la répartition."
+   },
+   "s3": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s3.wav",
+    "duree": 2.56,
+    "entendu": "Et la population vieillit."
+   },
+   "s4": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s4.wav",
+    "duree": 4.48,
+    "entendu": "En 2025, les retraites ont coûté 422 milliards d'euros."
+   },
+   "s5": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s5.wav",
+    "duree": 8.4,
+    "entendu": "Le relèvement de l'âge légal est suspendu jusqu'en 2028, mais pour les 18 à 30 ans, il reste fixé à 64 ans."
+   },
+   "s6": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s6.wav",
+    "duree": 5.6,
+    "entendu": "Côté candidats, ceux qui ont annoncé un âge de départ proposent entre 60 et 65 ans."
+   },
+   "s7": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s7.wav",
+    "duree": 6.88,
+    "entendu": "D'autres veulent changer la règle partir selon la durée de cotisation, la pénibilité ou le métier."
+   },
+   "s8": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s8.wav",
+    "duree": 6.24,
+    "entendu": "Bon, à savoir un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
+   },
+   "s9": {
+    "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s9.wav",
+    "duree": 3.92,
+    "entendu": "Toutes les propositions sont à comparer dans programme 2027."
+   }
+  }
+ },
+ "erreurs": {
+  "utmos": "oolcache/Python/3.11.16/x64/lib/python3.11/ctypes/__init__.py\", line 376, in __init__\n    self._handle = _dlopen(self._name, mode)\n                   ^^^^^^^^^^^^^^^^^^^^^^^^^\nOSError: /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/lib/_torchaudio.abi3.so: undefined symbol: torch_library_impl\n\nThe above exception was the direct cause of the following exception:\n\nTraceback (most recent call last):\n  File \"/home/runner/work/Programme---2027/Programme---2027/voix.py\", line 143, in <module>\n    import torchaudio\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/__init__.py\", line 7, in <module>\n    from . import _extension  # noqa  # usort: skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/_extension/__init__.py\", line 30, in <module>\n    _IS_TORCHAUDIO_EXT_AVAILABLE = _load_lib(\"_torchaudio\")\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/_extension/utils.py\", line 56, in _load_lib\n    torch.ops.load_library(paths[0])\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torch/_ops.py\", line 1490, in load_library\n    raise OSError(f\"Could not load this library: {path}\") from e\nOSError: Could not load this library: /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/lib/_torchaudio.abi3.so\n"
+ },
+ "licences": {
+  "kokoro": "Kokoro-82M : licence Apache 2.0 (hexgrad/Kokoro-82M) ; voix ff_siwis entraînée sur le corpus SIWIS (CC BY 4.0)",
+  "piper-tom": "# Model card for tom (medium)\n\n* Language: fr_FR (French, France)\n* Speakers: 1\n* Quality: medium\n* Samplerate: 44,100Hz\n\n## Dataset\n\n* URL: https://git.bksp.space/Tjiho/French-tts-model-piper\n* License: AGPLv3\n\n## Training\n\nSee URL\n",
+  "piper-upmc": "# Model card for upmc (medium)\n\n* Language: fr_FR (French, France)\n* Speakers: 2\n* Quality: medium\n* Samplerate: 22,050Hz\n\n## Dataset\n\n* URL: https://github.com/marytts/upmc-pierre-data\n* License: http://creativecommons.org/licenses/by-sa/4.0/\n\n## Training\n\nFinetuned from U.S. English lessac voice (medium quality)\n",
+  "kyutai-voices-readme": "# Kyutai TTS voices\n\nVoices available for Kyutai TTS models: Pocket TTS and Kyutai TTS 1.6B.\nTo find voices you like, go to the [\"Files and versions\" tab on this site](https://huggingface.co/kyutai/tts-voices/tree/main) or use the interactive widget on the\n[Kyutai site](https://kyutai.org/tts).\n\nDo you want more voices?\nHelp us by [donating your voice](https://unmute.sh/voice-donation)\nor open an issue in the [repo of Kyutai TTS 1.6B](https://github.com/kyutai-labs/delayed-streams-modeling/) to suggest permissively-licensed datasets of voices we could add here.\n\nDiscussions and PRs are disabled for this repo.\nFor questions, please use the GitHub issues of the [Kyutai TTS 1.6B repo](https://github.com/kyutai-labs/delayed-streams-modeling).\n\nFor some datasets, we also provide enhanced (cleaned) versions of the original recordings, look for `*_enhanced.wav`. Created using [ai-coustics](https://ai-coustics.com/).\n\nFor TTS 1.6B, we provide embeddings for both the original and enhanced versions.\nThe embeddings for the original versions are also cleaned using an internal model based on [Demucs](https://github.com/facebookresearch/demucs),\nbut the enhancement effect might not be as strong as the `_enhanced.wav` version.\n\n## voice-donations/\n\nVoices of volunteers submitted through our [Unmute Voice Donation Project](https://unmute.sh/voice-donation), licensed as CC0.\nThe Voice Donation project ran from June 2025 to February 2026 and collected 228 voices that passed verification, out of a total 374 submissions.\nA big thank you to all participants ❤️\n\nIf you use the voice donations in academic work, please cite:\n\n```bibtex\n@misc{unmute_voice_donation,\n  title={Unmute Voice Donation Project},\n  author={Volhejn, V\\'{a}clav},\n  year={2025},\n  url={https://unmute.sh/voice-donation}\n}\n```\n\n## vctk/\n\nFrom the [Voice Cloning Toolkit](https://datashare.ed.ac.uk/handle/10283/3443) dataset,\nlicensed under the Creative Commons License: Attribution 4.0 International.\n\nEach recording was done with two mics, here we used the `mic1` recordings.\nWe chose sentence 23 for every speaker because it's generally the longest one to pronounce.\n\n## expresso/\n\nFrom the [Expresso](https://speechbot.github.io/expresso/) dataset,\nlicensed under the Creative Commons License: Attribution-NonCommercial 4.0 International.\n**Non-commercial use only.**\n\nWe select clips from the \"conversational\" files.\nFor each pair of \"kind\" and channel (`ex04-ex01_laughing`, channel 1),\nwe find one segment with at least 10 consecutive seconds of speech using `VAD_segments.txt`.\nWe don't include more segments per (kind, channel) to keep the number of voices manageable.\n\nThe name of the file indicates how it was selected.\nFor instance, `ex03-ex02_narration_001_channel1_674s.wav` \ncomes from the first audio channel of `audio_48khz/conversational/ex03-ex02/narration/ex03-ex02_narration_001.wav`,\nmeaning it's speaker `ex03`.\nIt's a 10-second clip starting at 674 seconds of the original file.\n\n## unmute-prod-webs"
+ },
+ "kyutai_voix_fr_disponibles": [
+  "cml-tts/fr/10087_11650_000028-0002.wav",
+  "cml-tts/fr/10087_11650_000028-0002_enhanced.wav",
+  "cml-tts/fr/10177_10625_000134-0003.wav",
+  "cml-tts/fr/10177_10625_000134-0003_enhanced.wav",
+  "cml-tts/fr/10179_11051_000005-0001.wav",
+  "cml-tts/fr/10179_11051_000005-0001_enhanced.wav",
+  "cml-tts/fr/12080_11650_000047-0001.wav",
+  "cml-tts/fr/12080_11650_000047-0001_enhanced.wav",
+  "cml-tts/fr/12205_11650_000004-0002.wav",
+  "cml-tts/fr/12205_11650_000004-0002_enhanced.wav",
+  "cml-tts/fr/12977_10625_000037-0001.wav",
+  "cml-tts/fr/12977_10625_000037-0001_enhanced.wav",
+  "cml-tts/fr/1406_1028_000009-0003.wav",
+  "cml-tts/fr/1406_1028_000009-0003_enhanced.wav",
+  "cml-tts/fr/1591_1028_000108-0004.wav",
+  "cml-tts/fr/1591_1028_000108-0004_enhanced.wav",
+  "cml-tts/fr/1770_1028_000036-0002.wav",
+  "cml-tts/fr/1770_1028_000036-0002_enhanced.wav",
+  "cml-tts/fr/2114_1656_000053-0001.wav",
+  "cml-tts/fr/2114_1656_000053-0001_enhanced.wav",
+  "cml-tts/fr/2154_2576_000020-0003.wav",
+  "cml-tts/fr/2154_2576_000020-0003_enhanced.wav",
+  "cml-tts/fr/2216_1745_000007-0001.wav",
+  "cml-tts/fr/2216_1745_000007-0001_enhanced.wav",
+  "cml-tts/fr/2223_1745_000009-0002.wav",
+  "cml-tts/fr/2223_1745_000009-0002_enhanced.wav",
+  "cml-tts/fr/2465_1943_000152-0002.wav",
+  "cml-tts/fr/2465_1943_000152-0002_enhanced.wav",
+  "cml-tts/fr/296_1028_000022-0001.wav",
+  "cml-tts/fr/296_1028_000022-0001_enhanced.wav",
+  "cml-tts/fr/3267_1902_000075-0001.wav",
+  "cml-tts/fr/3267_1902_000075-0001_enhanced.wav",
+  "cml-tts/fr/4193_3103_000004-0001.wav",
+  "cml-tts/fr/4193_3103_000004-0001_enhanced.wav",
+  "cml-tts/fr/4482_3103_000063-0001.wav",
+  "cml-tts/fr/4482_3103_000063-0001_enhanced.wav",
+  "cml-tts/fr/4724_3731_000031-0001.wav",
+  "cml-tts/fr/4724_3731_000031-0001_enhanced.wav",
+  "cml-tts/fr/4937_3731_000004-0001.wav",
+  "cml-tts/fr/4937_3731_000004-0001_enhanced.wav",
+  "cml-tts/fr/5207_3078_000031-0002.wav",
+  "cml-tts/fr/5207_3078_000031-0002_enhanced.wav",
+  "cml-tts/fr/5476_3103_000072-0001.wav",
+  "cml-tts/fr/5476_3103_000072-0001_enhanced.wav",
+  "cml-tts/fr/577_394_000070-0001.wav",
+  "cml-tts/fr/577_394_000070-0001_enhanced.wav",
+  "cml-tts/fr/5790_4893_000052-0001.wav",
+  "cml-tts/fr/5790_4893_000052-0001_enhanced.wav",
+  "cml-tts/fr/579_2548_000015-0001.wav",
+  "cml-tts/fr/579_2548_000015-0001_enhanced.wav",
+  "cml-tts/fr/5830_4703_000037-0001.wav",
+  "cml-tts/fr/5830_4703_000037-0001_enhanced.wav",
+  "cml-tts/fr/6318_7016_000027-0002.wav",
+  "cml-tts/fr/6318_7016_000027-0002_enhanced.wav",
+  "cml-tts/fr/7142_2432_000124-0003.wav",
+  "cml-tts/fr/7142_2432_000124-0003_enhanced.wav",
+  "cml-tts/fr/7400_2928_000100-0001.wav",
+  "cml-tts/fr/7400_2928_000100-0001_enhanced.wav",
+  "cml-tts/fr/7591_6742_000149-0002.wav",
+  "cml-tts/fr/7591_6742_000149-0002_enhanced.wav"
+ ]
+}
