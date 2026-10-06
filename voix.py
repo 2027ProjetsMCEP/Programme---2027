@@ -12,6 +12,8 @@ import numpy as np
 import soundfile as sf
 
 T = json.load(open("texte.json"))["scenes"]
+SCENES = [x for x in os.environ.get("SCENES", "").split(",") if x]
+T = [x for x in T if not SCENES or x["id"] in SCENES]
 os.makedirs("voix", exist_ok=True)
 res = json.load(open("resultats_voix.json")) if os.path.exists("resultats_voix.json") else {"voix": {}, "licences": {}}
 res["erreurs"] = {}
