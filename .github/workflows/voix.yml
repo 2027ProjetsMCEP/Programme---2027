@@ -9,7 +9,7 @@ permissions:
 jobs:
   voix:
     runs-on: ubuntu-latest
-    timeout-minutes: 90
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -17,11 +17,12 @@ jobs:
           python-version: "3.11"
       - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
       - run: pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-      - run: pip install "kokoro>=0.9.4" "misaki[en]" soundfile numpy "piper-tts>=1.2" faster-whisper
+      - run: pip install "kokoro>=0.9.4" "misaki[en]" soundfile numpy "piper-tts>=1.2" faster-whisper "moshi>=0.2.6" huggingface_hub
       - run: python voix.py
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git rm -rq --cached voix || true
           git add voix resultats_voix.json
           git commit -m "Voix off générée" || echo "Rien de nouveau"
           git push
