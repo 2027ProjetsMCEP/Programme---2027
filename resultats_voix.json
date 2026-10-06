@@ -226,8 +226,8 @@
    },
    "s8": {
     "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s8.wav",
-    "duree": 6.24,
-    "entendu": "Bon, à savoir un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
+    "duree": 6.0,
+    "entendu": "À savoir un job d'été à 1803 euros brut, c'est déjà un trimestre validé."
    },
    "s9": {
     "fichier": "voix/kyutai-10087_11650_000028-0002_enhanced/s9.wav",
@@ -320,8 +320,8 @@
    },
    "s8": {
     "fichier": "voix/kyutai-1406_1028_000009-0003_enhanced/s8.wav",
-    "duree": 7.76,
-    "entendu": "Bon, à savoir un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
+    "duree": 6.8,
+    "entendu": "à savoir un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
    },
    "s9": {
     "fichier": "voix/kyutai-1406_1028_000009-0003_enhanced/s9.wav",
@@ -367,8 +367,8 @@
    },
    "s8": {
     "fichier": "voix/kyutai-2154_2576_000020-0003_enhanced/s8.wav",
-    "duree": 6.88,
-    "entendu": "Bon, à savoir un job d'été à 1803 euros brut, c'est déjà un trimestre validé."
+    "duree": 6.24,
+    "entendu": "à savoir un job d'été à 1 803 euros brut, c'est déjà un trimestre validé."
    },
    "s9": {
     "fichier": "voix/kyutai-2154_2576_000020-0003_enhanced/s9.wav",
@@ -425,7 +425,7 @@
   }
  },
  "erreurs": {
-  "utmos": "ule\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/home/runner/.cache/torch/hub/tarepan_SpeechMOS_v1.2.0/hubconf.py\", line 7, in <module>\n    from speechmos.utmos22.strong.model import UTMOS22Strong # pylint: disable=wrong-import-position\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/torch/hub/tarepan_SpeechMOS_v1.2.0/speechmos/utmos22/strong/model.py\", line 5, in <module>\n    import torchaudio # pyright: ignore [reportMissingTypeStubs]\n    ^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torchaudio/__init__.py\", line 7, in <module>\n    from . import _extension  # noqa  # usort: skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torchaudio/_extension/__init__.py\", line 30, in <module>\n    _IS_TORCHAUDIO_EXT_AVAILABLE = _load_lib(\"_torchaudio\")\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torchaudio/_extension/utils.py\", line 56, in _load_lib\n    torch.ops.load_library(paths[0])\n  File \"/opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torch/_ops.py\", line 1490, in load_library\n    raise OSError(f\"Could not load this library: {path}\") from e\nOSError: Could not load this library: /opt/hostedtoolcache/Python/3.11.17/x64/lib/python3.11/site-packages/torchaudio/lib/_torchaudio.abi3.so\n"
+  "utmos": "ule\n  File \"<frozen importlib._bootstrap>\", line 241, in _call_with_frames_removed\n  File \"/home/runner/.cache/torch/hub/tarepan_SpeechMOS_v1.2.0/hubconf.py\", line 7, in <module>\n    from speechmos.utmos22.strong.model import UTMOS22Strong # pylint: disable=wrong-import-position\n    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/home/runner/.cache/torch/hub/tarepan_SpeechMOS_v1.2.0/speechmos/utmos22/strong/model.py\", line 5, in <module>\n    import torchaudio # pyright: ignore [reportMissingTypeStubs]\n    ^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/__init__.py\", line 7, in <module>\n    from . import _extension  # noqa  # usort: skip\n    ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/_extension/__init__.py\", line 30, in <module>\n    _IS_TORCHAUDIO_EXT_AVAILABLE = _load_lib(\"_torchaudio\")\n                                   ^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/_extension/utils.py\", line 56, in _load_lib\n    torch.ops.load_library(paths[0])\n  File \"/opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torch/_ops.py\", line 1490, in load_library\n    raise OSError(f\"Could not load this library: {path}\") from e\nOSError: Could not load this library: /opt/hostedtoolcache/Python/3.11.16/x64/lib/python3.11/site-packages/torchaudio/lib/_torchaudio.abi3.so\n"
  },
  "licences": {
   "kokoro": "Kokoro-82M : licence Apache 2.0 (hexgrad/Kokoro-82M) ; voix ff_siwis entraînée sur le corpus SIWIS (CC BY 4.0)",
