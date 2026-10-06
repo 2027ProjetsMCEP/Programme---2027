@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-05",
+ "maj": "2026-10-06",
  "version": 3,
  "base": "2026-10-01",
  "themes": [
@@ -8,12 +8,24 @@
    "Travail et salaires"
   ],
   [
+   "pouvoir",
+   "Pouvoir d'achat"
+  ],
+  [
    "logement",
    "Logement"
   ],
   [
    "education",
    "École"
+  ],
+  [
+   "etudes",
+   "Études et vie étudiante"
+  ],
+  [
+   "numerique",
+   "Numérique, IA et réseaux sociaux"
   ],
   [
    "ecologie",
@@ -2614,7 +2626,7 @@
   },
   {
    "c": "attal",
-   "th": "travail",
+   "th": "numerique",
    "t": "Former 20 millions d'actifs à l'intelligence artificielle en cinq ans",
    "d": "Former 20 millions d'actifs à l'intelligence artificielle en cinq ans.",
    "s": [
@@ -2762,7 +2774,7 @@
   },
   {
    "c": "dupont-aignan",
-   "th": "eco",
+   "th": "pouvoir",
    "t": "Baisser les taxes sur l'essence de 40 centimes par litre",
    "d": "Baisser les taxes sur les carburants de 40 centimes par litre.",
    "s": [
@@ -2939,7 +2951,7 @@
   },
   {
    "c": "le-pen",
-   "th": "eco",
+   "th": "pouvoir",
    "t": "La TVA sur le gaz, l'électricité et le fioul ramenée de 20 % à 5,5 %",
    "d": "Ramener la TVA sur le gaz, l'électricité et le fioul de 20 % à 5,5 %.",
    "s": [
@@ -3664,7 +3676,7 @@
   {
    "aj": "2026-10-03",
    "c": "cazeneuve",
-   "th": "education",
+   "th": "etudes",
    "t": "Au moins 2 000 € d'aide en plus pour les étudiants boursiers",
    "d": "Une aide supplémentaire d'au moins 2 000 € pour les étudiants boursiers pendant leurs deux premières années.",
    "s": [
@@ -3804,7 +3816,7 @@
   {
    "aj": "2026-10-03",
    "c": "maurel",
-   "th": "ecologie",
+   "th": "pouvoir",
    "t": "Sortir du marché européen de l'électricité et baisser sa TVA à 5,5 %",
    "d": "Sortir du marché européen de l'électricité et ramener la TVA sur l'électricité à 5,5 %.",
    "s": [
@@ -3852,7 +3864,7 @@
   {
    "aj": "2026-10-03",
    "c": "maurel",
-   "th": "education",
+   "th": "etudes",
    "t": "30 % de dépense en plus par étudiant à l'université",
    "d": "Augmenter de 30 % la dépense par étudiant et porter la recherche publique à 1 % du PIB.",
    "s": [
@@ -7265,6 +7277,391 @@
    "d": "2022-06-07",
    "type": "donnees",
    "u": "https://www.senat.fr/rap/r21-648/r21-64818.html"
+  },
+  "sujet_numerique_an_tiktok": {
+   "t": "Rapport sur les effets psychologiques de TikTok sur les mineurs",
+   "p": "Assemblée nationale, commission d'enquête (rapport n° 1770)",
+   "d": "2025-09-04",
+   "type": "donnees",
+   "u": "https://www.assemblee-nationale.fr/dyn/opendata/RAPPANR5L17B1770-tI.html"
+  },
+  "sujet_numerique_cnil_sanctions": {
+   "t": "Sanctions et mesures correctrices : la CNIL présente le bilan 2025",
+   "p": "CNIL",
+   "d": "2026-02-09",
+   "type": "donnees",
+   "u": "https://www.cnil.fr/fr/bilan-sanctions-2025"
+  },
+  "sujet_etudes_senat_ce943": {
+   "t": "Universités : assumer l'excellence - Rapport et annexes",
+   "p": "Sénat, commission d'enquête (rapport n° 943, 2025-2026)",
+   "d": "2026-09-07",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r25-943-1/r25-943-1_mono.html"
+  },
+  "sujet_etudes_esr_reforme2023": {
+   "t": "Première étape de la réforme des bourses sur critères sociaux : aider plus, aider mieux, dès la rentrée 2023",
+   "p": "Ministère de l'Enseignement supérieur et de la Recherche",
+   "d": "2023-03-29",
+   "type": "donnees",
+   "u": "https://www.enseignementsup-recherche.gouv.fr/fr/premiere-etape-de-la-reforme-des-bourses-sur-criteres-sociaux-aider-plus-aider-mieux-des-la-rentree-90239"
+  },
+  "sujet_numerique_arcom_mineurs": {
+   "t": "Mineurs en ligne : quels risques ? quelles protections ? Synthèse de l'étude",
+   "p": "Arcom",
+   "d": "2025-09",
+   "type": "donnees",
+   "u": "https://www.arcom.fr/sites/default/files/2025-09/Arcom-Synthese-etude-Protection-des-mineurs-en-ligne_0.pdf"
+  },
+  "sujet_etudes_parcoursup_tdb": {
+   "t": "Tableau de bord - Suivi de la phase d'admission Parcoursup 2026",
+   "p": "Parcoursup, ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "d": "2026-07-13",
+   "type": "donnees",
+   "u": "https://www.parcoursup.gouv.fr/contenus/tableau-de-bord-suivi-de-la-phase-d-admission-parcoursup-2026-4503"
+  },
+  "sujet_etudes_lescrous_reseau": {
+   "t": "Les Crous - Site du réseau des Crous",
+   "p": "Réseau des Crous (Cnous)",
+   "d": "2026-10",
+   "type": "donnees",
+   "u": "https://www.lescrous.fr/category/le-crous/"
+  },
+  "sujet_etudes_esr_cout_rentree": {
+   "t": "Coût de la rentrée étudiante : un investissement constant au service de l'accompagnement des étudiants",
+   "p": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "d": "2026-08-18",
+   "type": "donnees",
+   "u": "https://www.enseignementsup-recherche.gouv.fr/fr/cout-de-la-rentree-etudiante-un-investissement-constant-au-service-de-l-accompagnement-des-etudiants-103861"
+  },
+  "sujet_etudes_cvec": {
+   "t": "Accueil - CVEC, Contribution de vie étudiante et de campus",
+   "p": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace (cvec.etudiant.gouv.fr)",
+   "d": "2026",
+   "type": "donnees",
+   "u": "https://cvec.etudiant.gouv.fr/"
+  },
+  "sujet_numerique_cc_decision": {
+   "t": "Décision n° 2026-911 DC du 14 août 2026",
+   "p": "Conseil constitutionnel",
+   "d": "2026-08-14",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/decision/2026/2026911DC.htm"
+  },
+  "sujet_numerique_cnil_plainte": {
+   "t": "Adresser une plainte à la CNIL",
+   "p": "CNIL",
+   "d": "2021-02-16",
+   "type": "donnees",
+   "u": "https://www.cnil.fr/fr/adresser-une-plainte"
+  },
+  "sujet_etudes_guide_vie_etudiante": {
+   "t": "MAI 2026 En route vers la vie étudiante !",
+   "p": "Ministère de l'Enseignement supérieur, de la Recherche et de l'Espace (etudiant.gouv.fr)",
+   "d": "2026-05",
+   "type": "donnees",
+   "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-06/Guide%20de%20la%20vie%20%C3%A9tudiante%20-%202026.pdf"
+  },
+  "sujet_numerique_senat_essentiel": {
+   "t": "Protéger les mineurs des risques des réseaux sociaux",
+   "p": "Sénat (L'essentiel, proposition de loi)",
+   "d": "2026-03",
+   "type": "donnees",
+   "u": "https://www.senat.fr/lessentiel/ppl25-304.pdf"
+  },
+  "sujet_numerique_e_enfance_obs": {
+   "t": "Un an après sa création, l'Observatoire de l'Association e-Enfance / 3018 confirme son rôle de vigie des violences numériques faites aux mineurs",
+   "p": "Association e-Enfance / 3018",
+   "d": "2026-07-08",
+   "type": "donnees",
+   "u": "https://e-enfance.org/wp-content/uploads/2026/07/e-Enfance-cp-observatoire-1-an.docx-2.pdf"
+  },
+  "sujet_numerique_barometre_rapport": {
+   "t": "Baromètre du numérique, édition 2026",
+   "p": "CRÉDOC pour l'Arcep, l'Arcom et le Conseil général de l'économie",
+   "d": "2026-02",
+   "type": "donnees",
+   "u": "https://www.arcep.fr/uploads/tx_gspublication/barometre-du-numerique-edition-2026_RAPPORT.pdf"
+  },
+  "sujet_numerique_cybermalv_17cyber": {
+   "t": "17Cyber, mon assistance en ligne - Assistance aux victimes de cybermalveillance",
+   "p": "Cybermalveillance.gouv.fr",
+   "d": "2026-01-28",
+   "type": "donnees",
+   "u": "https://www.cybermalveillance.gouv.fr/tous-nos-contenus/page/17cyber-mon-assistance-en-ligne"
+  },
+  "sujet_numerique_senat_loi2026": {
+   "t": "Proposition de loi visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux (loi n° 2026-813 du 24 août 2026)",
+   "p": "Sénat (tableau historique du dossier législatif)",
+   "d": "2026-08-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/tableau-historique/ppl25-304.html"
+  },
+  "sujet_etudes_senat_pjl_avis": {
+   "t": "Projet de loi de finances pour 2026 : Enseignement supérieur",
+   "p": "Sénat, commission de la culture (avis budgétaire n° 144, 2025-2026, tome V, fascicule 2)",
+   "d": "2025-11-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/a25-144-52/a25-144-52_mono.html"
+  },
+  "sujet_etudes_ove_reperes2023": {
+   "t": "REPÈRES - Observatoire national de la vie étudiante (enquête Conditions de vie des étudiants 2023)",
+   "p": "Observatoire national de la vie étudiante (OVE)",
+   "d": "2023",
+   "type": "donnees",
+   "u": "https://www.ove-national.education.fr/wp-content/uploads/2024/03/OVE-BROCHURE-REPERES-CDV2023-1.pdf"
+  },
+  "sujet_etudes_sies_nf29": {
+   "t": "Note Flash n°29 – novembre 2025",
+   "p": "SIES, ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "d": "2025-11",
+   "type": "donnees",
+   "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2025-11/nf-sies-2025-29-38293.pdf"
+  },
+  "sujet_etudes_parcoursup_diaporama": {
+   "t": "Parcoursup 2026 : ce qu'il faut savoir sur la phase d'admission",
+   "p": "Parcoursup, ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "d": "2026-05",
+   "type": "donnees",
+   "u": "https://www.parcoursup.gouv.fr/sites/default/files/database/documents/2026-05/diaporama-pr-sentation-phase-d-admission-2026-pdf-1152.pdf"
+  },
+  "sujet_etudes_crous_rapport2024": {
+   "t": "Rapport d'activité 2024 - Site du réseau des Crous",
+   "p": "Réseau des Crous (Cnous)",
+   "d": "2025-08-26",
+   "type": "donnees",
+   "u": "https://www.lescrous.fr/rapport/rapport-dactivite-2024/"
+  },
+  "sujet_etudes_crous_repas1e": {
+   "t": "Le repas à 1 euro pour tous les étudiants déployé à partir du 4 mai 2026 - Site du réseau des Crous",
+   "p": "Réseau des Crous (Cnous)",
+   "d": "2026-04-14",
+   "type": "donnees",
+   "u": "https://www.lescrous.fr/2026/04/le-repas-a-1-euro-pour-tous-les-etudiants-deploye-a-partir-du-4-mai-2026/"
+  },
+  "sujet_etudes_crous_bourses": {
+   "t": "Les bourses et aides versées par les Crous - Site du réseau des Crous",
+   "p": "Réseau des Crous (Cnous)",
+   "d": "2026-08-28",
+   "type": "donnees",
+   "u": "https://www.lescrous.fr/2026/08/bourses-et-aides-versees-2026/"
+  },
+  "sujet_etudes_crous_dse": {
+   "t": "Demande de bourse / logement : les étapes à suivre pour bien remplir son Dossier social étudiant - Site du réseau des Crous",
+   "p": "Réseau des Crous (Cnous)",
+   "d": "2026-06-12",
+   "type": "donnees",
+   "u": "https://www.lescrous.fr/dse/"
+  },
+  "sujet_numerique_arcep_cp": {
+   "t": "Équipements et usages du numérique",
+   "p": "Arcep (Baromètre du numérique, édition 2026, enquête CRÉDOC)",
+   "d": "2026-02-09",
+   "type": "donnees",
+   "u": "https://www.arcep.fr/actualites/actualites-et-communiques/detail/n/equipements-et-usages-du-numerique-090226.html"
+  },
+  "sujet_numerique_arcom_dsa": {
+   "t": "Le Règlement européen sur les services numériques (DSA) : protéger les droits des citoyens sur internet",
+   "p": "Arcom",
+   "d": "2025-02-25",
+   "type": "donnees",
+   "u": "https://www.arcom.fr/actualites/le-reglement-europeen-sur-les-services-numeriques-dsa-proteger-les-droits-des-citoyens-sur-internet"
+  },
+  "sujet_numerique_cnil_rapport": {
+   "t": "Rapport annuel : le bilan et les actions marquantes de la CNIL en 2025",
+   "p": "CNIL",
+   "d": "2026-05-18",
+   "type": "donnees",
+   "u": "https://www.cnil.fr/fr/rapport-annuel-2025"
+  },
+  "sujet_numerique_igesr_ia": {
+   "t": "L'intelligence artificielle dans les établissements scolaires, sur le plan administratif et pédagogique",
+   "p": "Inspection générale de l'éducation, du sport et de la recherche (via vie-publique.fr)",
+   "d": "2025-05",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/299222.pdf"
+  },
+  "sujet_numerique_ec_ai_act": {
+   "t": "AI Act | Shaping Europe's digital future",
+   "p": "Commission européenne (digital-strategy.ec.europa.eu)",
+   "d": "2026-08-03",
+   "type": "donnees",
+   "u": "https://digital-strategy.ec.europa.eu/en/policies/regulatory-framework-ai"
+  },
+  "sujet_etudes_senat_r58": {
+   "t": "Stratégie universitaire de l'État : fixer un cap, restaurer la confiance",
+   "p": "Sénat, commission de la culture, de l'éducation, de la communication et du sport (rapport d'information n° 58, 2025-2026)",
+   "d": "2025-10-22",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r25-058/r25-058_mono.html"
+  },
+  "sujet_numerique_anses_rs": {
+   "t": "Usages des réseaux sociaux numériques et santé des adolescents - Connaître, évaluer, protéger",
+   "p": "Anses (via vie-publique.fr)",
+   "d": "2025-12",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/304294.pdf"
+  },
+  "sujet_etudes_senat_logement_jeunes": {
+   "t": "Mission d'information sur le logement des jeunes",
+   "p": "Sénat, commission des affaires économiques (rapport r25-029)",
+   "d": "2025-10-15",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/commissions/commission-des-affaires-economiques/controle-en-clair/mission-dinformation-sur-le-logement-des-jeunes.html"
+  },
+  "sujet_numerique_elysee_ecrans": {
+   "t": "Enfants et écrans : à la recherche du temps perdu",
+   "p": "Commission d'experts « écrans » (remis au Président de la République, elysee.fr)",
+   "d": "2024-04",
+   "type": "donnees",
+   "u": "https://www.elysee.fr/admin/upload/default/0001/16/fbec6abe9d9cc1bff3043d87b9f7951e62779b09.pdf"
+  },
+  "sujet_numerique_masecurite_pharos": {
+   "t": "Contenus illicites de l'internet | Ma Sécurité",
+   "p": "Ministère de l'Intérieur (Ma Sécurité)",
+   "d": "2026-09-08",
+   "type": "donnees",
+   "u": "https://www.masecurite.interieur.gouv.fr/fr/demarches-en-ligne/portail-officiel-signalement-contenus-illicites-internet-pharos"
+  },
+  "sujet_etudes_caf_apl": {
+   "t": "APL : ce qui change pour certains étudiants à partir du 1er juillet 2026",
+   "p": "Caisses d'allocations familiales (Caf)",
+   "d": "2026-07-03",
+   "type": "donnees",
+   "u": "https://www.caf.fr/allocataires/actualites/actualites-nationales/apl-ce-qui-change-pour-certains-etudiants-partir-du-1er-juillet-2026"
+  },
+  "sujet_etudes_sies_nf17": {
+   "t": "Note Flash n°17 - juillet 2026 Hausse des effectifs étudiants en 2025-2026",
+   "p": "SIES, ministère de l'Enseignement supérieur, de la Recherche et de l'Espace",
+   "d": "2026-07",
+   "type": "donnees",
+   "u": "https://www.enseignementsup-recherche.gouv.fr/sites/default/files/2026-07/NF_synth%C3%A8se_effectifs_etudiants_2025-26.pdf"
+  },
+  "sujet_pouvoir_coj_rua": {
+   "t": "Les avis du COJ : Le Revenu Universel d'Activité (RUA) - Pour l'ouverture dès 18 ans",
+   "p": "Conseil d'orientation des politiques de jeunesse (COJ)",
+   "d": "2019-06-18",
+   "type": "donnees",
+   "u": "https://www.jeunes.gouv.fr/media/1111/download"
+  },
+  "sujet_pouvoir_insee_irl": {
+   "t": "Au deuxième trimestre 2026, l'indice de référence des loyers augmente de 1,15 % sur un an",
+   "p": "Insee, Informations rapides n° 167",
+   "d": "2026-07-10",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9022797"
+  },
+  "sujet_pouvoir_passculture": {
+   "t": "La réforme du pass Culture",
+   "p": "pass Culture",
+   "d": "2026-10-06",
+   "type": "donnees",
+   "u": "https://pass.culture.fr/reforme-du-pass-culture"
+  },
+  "sujet_pouvoir_eco_irl_daj": {
+   "t": "Lettre de la DAJ - Loi maintenant le plafonnement des loyers pour préserver le pouvoir d'achat",
+   "p": "economie.gouv.fr, Direction des affaires juridiques",
+   "d": "2023-07-20",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/daj/lettre-de-la-daj-loi-maintenant-le-plafonnement-des-loyers-pour-preserver-le-pouvoir-dachat"
+  },
+  "sujet_pouvoir_ue_tva": {
+   "t": "VAT Rates - Taxation and Customs Union",
+   "p": "Commission européenne",
+   "d": "2026-10-06",
+   "type": "donnees",
+   "u": "https://taxation-customs.ec.europa.eu/taxation/vat/vat-directive/vat-rates_en"
+  },
+  "sujet_pouvoir_eco_cheque": {
+   "t": "Comment bénéficier du chèque énergie ?",
+   "p": "economie.gouv.fr",
+   "d": "2026-09-23",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/particuliers/gerer-mon-argent/comment-beneficier-du-cheque-energie"
+  },
+  "sujet_pouvoir_eco_elec2024": {
+   "t": "Tout comprendre sur la hausse de votre facture d'électricité au 1er février 2024",
+   "p": "economie.gouv.fr",
+   "d": "2024-01-22",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/tout-comprendre-sur-la-hausse-de-votre-facture-delectricite-au-1er-fevrier-2024"
+  },
+  "sujet_pouvoir_caf_prime": {
+   "t": "Je suis étudiant salarié",
+   "p": "Caf (caf.fr), Caf du Var",
+   "d": "2026-10-06",
+   "type": "donnees",
+   "u": "https://caf.fr/allocataires/caf-du-var/offre-de-service/logement/je-suis-etudiant-etou-jeunes-actifs/je-suis-etudiant-salarie"
+  },
+  "sujet_pouvoir_eco_plf": {
+   "t": "Le projet de loi de finances (PLF), comment ça marche ?",
+   "p": "economie.gouv.fr",
+   "d": "2026-10-01",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/actualites/le-projet-de-loi-de-finances-plf-comment-ca-marche"
+  },
+  "sujet_pouvoir_insee_nation25": {
+   "t": "Les comptes de la Nation en 2025 - Insee Première - 2105",
+   "p": "Insee, Insee Première n° 2105",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8996855"
+  },
+  "sujet_pouvoir_eco_smic_juin": {
+   "t": "Revalorisation du SMIC : 862 000 agents publics bénéficieront de l'indemnité différentielle au 1er juin",
+   "p": "economie.gouv.fr (presse)",
+   "d": "2026-05-28",
+   "type": "donnees",
+   "u": "https://presse.economie.gouv.fr/?p=177799"
+  },
+  "sujet_pouvoir_insee_ipc_sept": {
+   "t": "En septembre 2026, les prix à la consommation augmenteraient de 3,0 % sur un an",
+   "p": "Insee, Informations rapides n° 242",
+   "d": "2026-09-30",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9056956"
+  },
+  "sujet_pouvoir_insee_def": {
+   "t": "Pouvoir d'achat des ménages (comptabilité nationale)",
+   "p": "Insee",
+   "d": "2018-03-29",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/metadonnees/definition/c2130"
+  },
+  "sujet_pouvoir_cre_2026_147": {
+   "t": "Délibération n°2026-147 de la Commission de régulation de l'énergie du 15 juillet 2026",
+   "p": "Commission de régulation de l'énergie (CRE)",
+   "d": "2026-07-15",
+   "type": "donnees",
+   "u": "https://www.cre.fr/fileadmin/Documents/Deliberations/2026/260715_2026-147_TRVE.pdf"
+  },
+  "sujet_pouvoir_insee_t2": {
+   "t": "Au deuxième trimestre 2026, le PIB est stable (+0,0 % après -0,2 %) et le pouvoir d'achat des ménages recule nettement (-0,6 % par unité de consommation)",
+   "p": "Insee, Informations rapides n° 212",
+   "d": "2026-08-28",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/9039499"
+  },
+  "sujet_pouvoir_senat_energie": {
+   "t": "L'essentiel sur… le contrôle budgétaire sur les dispositifs de soutien aux consommateurs d'énergie",
+   "p": "Sénat, commission des finances (rapporteure spéciale Christine Lavarde)",
+   "d": "2023-06-27",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r22-779/r22-779-syn.pdf"
+  },
+  "sujet_pouvoir_eco_prix": {
+   "t": "L'information sur les prix",
+   "p": "economie.gouv.fr (DGCCRF)",
+   "d": "2026-05-21",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/dgccrf/les-fiches-pratiques/linformation-sur-les-prix"
+  },
+  "sujet_pouvoir_cre_cp2025": {
+   "t": "Communiqué de presse - La Commission de régulation de l'énergie propose une baisse moyenne de -15% des tarifs réglementés de vente d'électricité",
+   "p": "Commission de régulation de l'énergie (CRE)",
+   "d": "2025-01-16",
+   "type": "donnees",
+   "u": "https://www.cre.fr/fileadmin/Documents/Communiques_de_presse/2025/250116_CP_TRVE.pdf"
   }
  },
  "presse": [
@@ -9455,6 +9852,376 @@
     "sujet_europe_senat_avis654",
     "sujet_europe_senat_r666",
     "sujet_europe_ec_enlargement"
+   ]
+  },
+  "etudes": {
+   "trente": {
+    "txt": "À la rentrée 2025, plus de 3 millions d'étudiants sont inscrits dans l'enseignement supérieur. L'État finance les universités et les aides aux étudiants ; les montants des bourses sont maintenus en 2026-2027. Depuis le 4 mai 2026, le repas Crous à 1 € est ouvert à tous les étudiants.",
+    "src": [
+     "sujet_etudes_sies_nf17",
+     "sujet_etudes_senat_pjl_avis",
+     "sujet_etudes_esr_cout_rentree",
+     "sujet_etudes_crous_repas1e"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "3 049 600",
+     "l": "étudiants inscrits dans l'enseignement supérieur à la rentrée 2025 (+1,1 %, troisième hausse consécutive)",
+     "src": "sujet_etudes_sies_nf17"
+    },
+    {
+     "v": "44 %",
+     "l": "des étudiants travaillent pendant l'année universitaire (enquête Conditions de vie de l'OVE, 2023, dernière édition publiée)",
+     "src": "sujet_etudes_ove_reperes2023"
+    },
+    {
+     "v": "668 284",
+     "l": "étudiants bénéficiaient d'une bourse du ministère de l'Enseignement supérieur en 2025 (2,41 Md€ de bourses versées)",
+     "src": "sujet_etudes_crous_bourses"
+    },
+    {
+     "v": "175 394",
+     "l": "lits de capacité d'accueil totale du réseau des Crous, dans 813 résidences et cités (rapport d'activité 2024)",
+     "src": "sujet_etudes_crous_rapport2024"
+    },
+    {
+     "v": "40,3 %",
+     "l": "des bacheliers 2020 inscrits en L1 à la rentrée suivante ont obtenu leur licence en 3 ou 4 ans (30,1 % en 3 ans)",
+     "src": "sujet_etudes_sies_nf29"
+    },
+    {
+     "v": "576 749",
+     "l": "lycéens avaient reçu au moins une proposition d'admission sur Parcoursup au 11 juillet 2026, sur 660 399 candidats lycéens",
+     "src": "sujet_etudes_parcoursup_tdb"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er juil. 2026",
+     "txt": "Les étudiants extracommunautaires titulaires d'un visa long séjour ou d'un titre de séjour portant la mention « poursuite d'études » ne peuvent plus percevoir les aides personnelles au logement que s'ils reçoivent une bourse sur critères sociaux, avec des exceptions prévues par la Caf.",
+     "src": "sujet_etudes_caf_apl",
+     "iso": "2026-07-01"
+    },
+    {
+     "date": "5 juin 2026",
+     "txt": "Sur Parcoursup, les candidats ayant des vœux en attente doivent les classer par ordre de préférence entre le 5 et le 8 juin 2026 ; les vœux en attente non classés avant le 8 juin à 23 h 59 sont supprimés.",
+     "src": "sujet_etudes_parcoursup_diaporama",
+     "iso": "2026-06-05"
+    },
+    {
+     "date": "4 mai 2026",
+     "txt": "Le repas à 1 € des restaurants universitaires est proposé à tous les étudiants (titulaires d'une carte d'étudiant, apprentis et alternants, doctorants, services civiques), sur présentation d'un compte Izly actif ; il comprend un plat principal et, au plus, deux périphériques.",
+     "src": "sujet_etudes_crous_repas1e",
+     "iso": "2026-05-04"
+    },
+    {
+     "date": "29 mars 2023",
+     "txt": "Le ministère annonce une première étape de la réforme des bourses sur critères sociaux dès la rentrée 2023 : revalorisation de 37 € par mois (370 € par an) pour tous les échelons et 35 000 étudiants issus des classes moyennes vont devenir boursiers.",
+     "src": "sujet_etudes_esr_reforme2023",
+     "iso": "2023-03-29"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Les universités ont depuis la loi de 2007 (LRU) des « responsabilités et compétences élargies » et une autonomie budgétaire. Selon le Sénat, l'État exerce sa tutelle principalement par des contrats d'objectifs, de moyens et de performance, par la subvention pour charges de service public et par les priorités stratégiques fixées par le ministère.",
+     "src": "sujet_etudes_senat_r58"
+    },
+    {
+     "txt": "Le Parlement examine chaque année les crédits dans le projet de loi de finances : pour 2026, 18,8 Md€ étaient prévus sur les programmes « Formations supérieures et recherche universitaire » et « Vie étudiante » (+0,7 %). La subvention pour charges de service public versée au réseau Cnous-Crous est de 548 M€ pour 2026 (32 % de ses ressources en 2024).",
+     "src": "sujet_etudes_senat_pjl_avis"
+    },
+    {
+     "txt": "Les Crous forment un réseau de 27 établissements publics au service des étudiants (logement, restauration, culture) ; leur rôle est d'améliorer les conditions de vie et d'accueil de tous les étudiants.",
+     "src": "sujet_etudes_lescrous_reseau"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Bourse sur critères sociaux 2026-2027 : les montants annuels, versés sur 10 mois, vont de 1 454 € à 6 335 € selon l'échelon.",
+     "src": "sujet_etudes_crous_bourses"
+    },
+    {
+     "txt": "Pour demander une bourse ou un logement Crous, il faut constituer son dossier social étudiant (DSE) sur messervices.etudiant.gouv.fr. Pour 2026-2027, la campagne a ouvert le 2 mars et courait jusqu'au 31 mai 2026 : après cette date, les dossiers sont traités au fil de l'eau, sans priorité pour le logement et avec un versement de bourse retardé.",
+     "src": "sujet_etudes_crous_dse"
+    },
+    {
+     "txt": "Les aides au logement (APL ou ALS) ne dépendent pas des ressources des parents pour les étudiants. La demande doit être faite dès l'entrée dans le logement. Les salaires perçus en tant qu'étudiant sur l'année sont exonérés d'impôt sur le revenu dans la limite de 3 fois le Smic mensuel.",
+     "src": "sujet_etudes_guide_vie_etudiante"
+    },
+    {
+     "txt": "La CVEC (contribution de vie étudiante et de campus) est de 105 € pour 2026-2027. Tout étudiant inscrit en formation initiale doit obtenir son attestation d'acquittement et la présenter à son établissement à l'inscription. Sont exonérés notamment les étudiants réfugiés, les bénéficiaires de la protection subsidiaire, les demandeurs d'asile et les boursiers du gouvernement français.",
+     "src": "sujet_etudes_cvec"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Comment garantir un financement lisible et stable des universités, alors que le Sénat relève en 2025 un résultat consolidé des établissements devenu déficitaire en 2024 et l'absence de modèle de répartition des moyens depuis 2016 ?",
+     "src": "sujet_etudes_senat_r58"
+    },
+    {
+     "txt": "Faut-il faire évoluer les droits d'inscription à l'université, qu'une commission d'enquête du Sénat propose en septembre 2026 de porter à 900 € en licence et 1 300 € en master (soit 10 % du coût moyen) ?",
+     "src": "sujet_etudes_senat_ce943"
+    },
+    {
+     "txt": "Faut-il poursuivre la réforme des bourses sur critères sociaux, dont la seconde phase, annoncée pour la rentrée 2025 et estimée entre 350 et 400 millions d'euros par le ministère, a été mise en suspens ?",
+     "src": "sujet_etudes_senat_pjl_avis"
+    },
+    {
+     "txt": "Faut-il traiter ensemble le logement des étudiants et celui des jeunes actifs, comme le recommande une mission d'information du Sénat (octobre 2025) ?",
+     "src": "sujet_etudes_senat_logement_jeunes"
+    }
+   ],
+   "lire": [
+    "sujet_etudes_senat_r58",
+    "sujet_etudes_senat_ce943",
+    "sujet_etudes_senat_pjl_avis"
+   ]
+  },
+  "numerique": {
+   "trente": {
+    "txt": "En 2025, 48 % de la population utilise l'IA générative et 83 % des 11-17 ans utilisent chaque jour une très grande plateforme. Plateformes et IA relèvent de règlements européens (DSA, règlement sur l'IA). La loi du 24 août 2026 sur les réseaux sociaux a été promulguée sans son interdiction avant 15 ans, censurée par le Conseil constitutionnel.",
+    "src": [
+     "sujet_numerique_barometre_rapport",
+     "sujet_numerique_arcom_mineurs",
+     "sujet_numerique_arcom_dsa",
+     "sujet_numerique_ec_ai_act",
+     "sujet_numerique_cc_decision",
+     "sujet_numerique_senat_loi2026"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "48 %",
+     "l": "de la population de 12 ans et plus utilise des services d'IA générative en 2025, soit 15 points de plus en un an",
+     "src": "sujet_numerique_arcep_cp"
+    },
+    {
+     "v": "85 %",
+     "l": "des 18-24 ans utilisent l'IA générative en 2025 (Baromètre du numérique, édition 2026)",
+     "src": "sujet_numerique_barometre_rapport"
+    },
+    {
+     "v": "83 %",
+     "l": "des 11-17 ans utilisent chaque jour au moins une très grande plateforme en ligne (99 % au moins une plateforme), étude de l'Arcom de septembre 2025",
+     "src": "sujet_numerique_arcom_mineurs"
+    },
+    {
+     "v": "62 %",
+     "l": "des 11-17 ans n'ont pas indiqué leur vraie date de naissance sur au moins une inscription (étude de l'Arcom, septembre 2025)",
+     "src": "sujet_numerique_arcom_mineurs"
+    },
+    {
+     "v": "124 500",
+     "l": "sollicitations reçues par le 3018, numéro national pour les jeunes victimes de violences numériques, en 2025",
+     "src": "sujet_numerique_e_enfance_obs"
+    },
+    {
+     "v": "83 sanctions",
+     "l": "prononcées par la CNIL en 2025, pour 486 839 500 € d'amendes au total",
+     "src": "sujet_numerique_cnil_sanctions"
+    }
+   ],
+   "recent": [
+    {
+     "date": "14 août 2026",
+     "txt": "Le Conseil constitutionnel déclare contraire à la Constitution l'article 1er de la loi visant à protéger les mineurs des risques auxquels les expose l'utilisation des réseaux sociaux, qui prévoyait d'interdire l'accès des moins de 15 ans aux réseaux sociaux. L'interdiction d'accès avant 15 ans n'est donc pas en vigueur. La loi n° 2026-813 est promulguée le 24 août 2026.",
+     "src": "sujet_numerique_cc_decision",
+     "iso": "2026-08-14"
+    },
+    {
+     "date": "1er août 2024",
+     "txt": "Le règlement européen sur l'intelligence artificielle (AI Act) entre en vigueur, avec une application par étapes : pratiques interdites et obligations de formation à l'IA (« AI literacy ») depuis le 2 février 2025, règles pour les modèles d'IA à usage général depuis le 2 août 2025, application générale le 2 août 2026 avec des exceptions. Selon la Commission européenne, les règles sur certains systèmes à haut risque sont repoussées au 2 décembre 2027 (domaines sensibles) et au 2 août 2028 (produits réglementés).",
+     "src": "sujet_numerique_ec_ai_act",
+     "iso": "2024-08-01"
+    },
+    {
+     "date": "17 févr. 2024",
+     "txt": "Le règlement européen sur les services numériques (DSA) s'applique à toutes les plateformes en ligne, quelle que soit leur taille. Il prévoit notamment une solution simple pour signaler les contenus illégaux, de la transparence sur la modération et les algorithmes, et l'interdiction de la publicité ciblée à destination des mineurs.",
+     "src": "sujet_numerique_arcom_dsa",
+     "iso": "2024-02-17"
+    },
+    {
+     "date": "7 juil. 2023",
+     "txt": "La loi n° 2023-566 visant à instaurer une majorité numérique et à lutter contre la haine en ligne est adoptée, mais elle n'est jamais entrée en vigueur : la Commission européenne a considéré que le texte imposait des obligations techniques susceptibles d'affecter le marché communautaire et empiétait sur le règlement européen sur les services numériques (DSA), d'application directe.",
+     "src": "sujet_numerique_senat_essentiel",
+     "iso": "2023-07-07"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le règlement européen sur les services numériques (DSA) est d'application directe : la Commission européenne a jugé que la loi française de 2023 sur la majorité numérique empiétait sur lui, ce qui l'a empêchée d'entrer en vigueur. Le droit national est donc encadré par le droit européen pour tout ce qui touche aux obligations imposées aux plateformes.",
+     "src": "sujet_numerique_senat_essentiel"
+    },
+    {
+     "txt": "En France, l'Arcom est le « coordinateur pour les services numériques » : elle supervise le respect du DSA par les opérateurs établis en France et coopère avec ses homologues européens. La Commission européenne peut, elle, infliger aux très grandes plateformes des amendes allant jusqu'à 6 % de leur chiffre d'affaires mondial.",
+     "src": "sujet_numerique_arcom_dsa"
+    },
+    {
+     "txt": "La CNIL est l'autorité chargée des données personnelles : en 2025, elle a reçu 20 150 plaintes (10 % de plus qu'en 2024), mené 323 contrôles et prononcé 83 sanctions.",
+     "src": "sujet_numerique_cnil_rapport"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Signaler un contenu illicite (menaces, contenus terroristes, contenus pédopornographiques, discours de haine, trafic d'êtres humains...) : le portail officiel PHAROS, internet-signalement.gouv.fr, est gratuit et permet de signaler sans s'identifier. Les policiers et gendarmes ne recontactent la personne qu'exceptionnellement, et ce n'est pas un service d'urgence.",
+     "src": "sujet_numerique_masecurite_pharos"
+    },
+    {
+     "txt": "Cyberharcèlement : le 3018 est le numéro national dédié aux jeunes victimes de harcèlement et de violences numériques. Il est ouvert 7 jours sur 7, de 9 h à 23 h, par téléphone ou via l'application 3018.",
+     "src": "sujet_numerique_e_enfance_obs"
+    },
+    {
+     "txt": "Vos données personnelles : vous pouvez demander à un organisme l'accès à vos données ou leur effacement. Il doit répondre au plus tard dans un délai d'un mois. Sans réponse satisfaisante, vous pouvez saisir la CNIL d'une plainte, après avoir d'abord contacté l'organisme ou son délégué à la protection des données, en joignant les pièces utiles (échanges, adresse URL...). Le service de plainte en ligne demande de créer un compte.",
+     "src": "sujet_numerique_cnil_plainte"
+    },
+    {
+     "txt": "Arnaque ou piratage : 17Cyber, sur cybermalveillance.gouv.fr, est un service public d'assistance en ligne gratuit pour les victimes de cybermalveillance. Il propose un diagnostic rapide, des recommandations personnalisées, l'appui de prestataires informatiques et, si besoin, un accompagnement par tchat avec des policiers ou des gendarmes.",
+     "src": "sujet_numerique_cybermalv_17cyber"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Faut-il réserver l'accès des adolescents aux réseaux sociaux à ceux dotés d'une « conception éthique », comme le recommandait la commission d'experts sur les écrans en avril 2024, et à partir de quel âge ?",
+     "src": "sujet_numerique_elysee_ecrans"
+    },
+    {
+     "txt": "Faut-il imposer aux plateformes des règles de conception pour les mineurs, comme un fil limité aux abonnements volontaires ou l'interdiction des lives rémunérés avant 18 ans, que propose une commission d'enquête de l'Assemblée nationale (septembre 2025) ?",
+     "src": "sujet_numerique_an_tiktok"
+    },
+    {
+     "txt": "Comment prévenir les effets des réseaux sociaux sur la santé des adolescents (sommeil, santé mentale, cyberviolence), alors que l'Anses (décembre 2025) recommande vérification de l'âge, éducation aux médias et accès des chercheurs aux données des plateformes ?",
+     "src": "sujet_numerique_anses_rs"
+    },
+    {
+     "txt": "Comment former élèves et enseignants à l'IA générative, dont l'usage dans les établissements scolaires dépend encore beaucoup des initiatives individuelles selon l'inspection générale (mai 2025) ?",
+     "src": "sujet_numerique_igesr_ia"
+    }
+   ],
+   "lire": [
+    "sujet_numerique_elysee_ecrans",
+    "sujet_numerique_an_tiktok",
+    "sujet_numerique_anses_rs"
+   ]
+  },
+  "pouvoir": {
+   "trente": {
+    "txt": "Le pouvoir d'achat, c'est le volume de biens et services qu'un revenu permet d'acheter : il dépend des revenus et des prix. Selon l'Insee, celui des ménages a reculé de 0,4 % en 2025 (-0,7 % par unité de consommation) et il baisse encore au 2e trimestre 2026, alors que l'inflation atteint 3,0 % en septembre.",
+    "src": [
+     "sujet_pouvoir_insee_def",
+     "sujet_pouvoir_insee_nation25",
+     "sujet_pouvoir_insee_t2",
+     "sujet_pouvoir_insee_ipc_sept"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "-0,4 %",
+     "l": "pouvoir d'achat du revenu disponible brut des ménages en 2025, soit -0,7 % par unité de consommation (après +2,7 % en 2024)",
+     "src": "sujet_pouvoir_insee_nation25"
+    },
+    {
+     "v": "-0,6 %",
+     "l": "pouvoir d'achat des ménages par unité de consommation au 2e trimestre 2026, sur un trimestre",
+     "src": "sujet_pouvoir_insee_t2"
+    },
+    {
+     "v": "3,0 %",
+     "l": "inflation sur un an en septembre 2026, estimation provisoire (2,4 % en août), avec des prix de l'énergie en hausse de 21,2 %",
+     "src": "sujet_pouvoir_insee_ipc_sept"
+    },
+    {
+     "v": "+1,5 %",
+     "l": "prix de l'alimentation sur un an en septembre 2026, estimation provisoire (+1,1 % en août)",
+     "src": "sujet_pouvoir_insee_ipc_sept"
+    },
+    {
+     "v": "148,37",
+     "l": "indice de référence des loyers au 2e trimestre 2026, soit +1,15 % sur un an",
+     "src": "sujet_pouvoir_insee_irl"
+    },
+    {
+     "v": "17,2 %",
+     "l": "taux d'épargne des ménages au 2e trimestre 2026, en fort repli sur le trimestre",
+     "src": "sujet_pouvoir_insee_t2"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er juin 2026",
+     "txt": "Le Smic est revalorisé de 2,41 %.",
+     "src": "sujet_pouvoir_eco_smic_juin",
+     "iso": "2026-06-01"
+    },
+    {
+     "date": "1er févr. 2025",
+     "txt": "L'accise sur l'électricité revient à son niveau d'avant la crise, selon l'arrêté du 20 décembre 2024, et la CRE propose alors une baisse moyenne de 15 % des tarifs réglementés (de 281 à 239 € TTC par MWh).",
+     "src": "sujet_pouvoir_cre_cp2025",
+     "iso": "2025-02-01"
+    },
+    {
+     "date": "1er févr. 2024",
+     "txt": "L'accise sur l'électricité, ramenée à 1 € par MWh pendant le bouclier tarifaire au lieu de 32 €, remonte à 21 € par MWh, et les tarifs réglementés augmentent de 8,6 % (tarif de base) à 9,8 % (heures pleines et creuses), taxes comprises.",
+     "src": "sujet_pouvoir_eco_elec2024",
+     "iso": "2024-02-01"
+    },
+    {
+     "date": "juil. 2023",
+     "txt": "La loi n° 2023-568 prolonge jusqu'au 1er trimestre 2024 le plafond de 3,5 % de la hausse annuelle de l'indice de référence des loyers (IRL), plafond instauré par la loi du 16 août 2022.",
+     "src": "sujet_pouvoir_eco_irl_daj",
+     "iso": "2023-07"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Chaque année, l'Assemblée nationale et le Sénat examinent et votent le projet de loi de finances, qui propose l'ensemble des recettes de l'État, principalement des impôts et taxes, et de ses dépenses.",
+     "src": "sujet_pouvoir_eco_plf"
+    },
+    {
+     "txt": "Pour la TVA, l'Union européenne impose un taux normal d'au moins 15 % ; dans ce cadre, chaque État membre fixe le nombre et le niveau de ses taux.",
+     "src": "sujet_pouvoir_ue_tva"
+    },
+    {
+     "txt": "Les tarifs réglementés de l'électricité sont proposés par la CRE aux ministres de l'énergie et de l'économie, qui peuvent les fixer par arrêté pris chaque année après son avis.",
+     "src": "sujet_pouvoir_cre_2026_147"
+    },
+    {
+     "txt": "Depuis le 1er janvier 1987, les prix sont libres en France, à quelques exceptions près, comme les tarifs réglementés de l'électricité et du gaz.",
+     "src": "sujet_pouvoir_eco_prix"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Prime d'activité : pour un étudiant salarié, la Caf indique qu'il faut avoir plus de 18 ans et percevoir un montant net social supérieur à 78 % du Smic sur les 3 mois déclarés ; la prime est ensuite versée chaque mois selon les ressources des 3 derniers mois.",
+     "src": "sujet_pouvoir_caf_prime"
+    },
+    {
+     "txt": "Chèque énergie : les ménages dont le revenu fiscal de référence 2024 par unité de consommation est inférieur à 11 000 € le reçoivent sans démarche, pour un montant de 48 à 277 € selon les revenus et la composition du foyer, à utiliser pour une dépense d'énergie liée au logement.",
+     "src": "sujet_pouvoir_eco_cheque"
+    },
+    {
+     "txt": "Pass Culture : depuis le 1er mars 2025, un jeune de 18 ans dispose de 150 € (contre 300 € auparavant), utilisables sur trois ans au lieu de deux, avec un bonus possible de 50 € en cas de handicap (AEEH ou AAH) ou sous conditions de ressources du foyer.",
+     "src": "sujet_pouvoir_passculture"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Faut-il protéger les ménages des hausses de prix de l'énergie par des mesures pour tous ou par des aides plus ciblées, alors qu'un rapport du Sénat relevait en 2023 que l'hétérogénéité des mesures avait nui à leur lisibilité ?",
+     "src": "sujet_pouvoir_senat_energie"
+    },
+    {
+     "txt": "Quel indicateur décrit le mieux le pouvoir d'achat vécu : celui de l'ensemble des ménages, celui par unité de consommation, ou l'inflation mesurée par l'indice des prix à la consommation ?",
+     "src": "sujet_pouvoir_insee_def"
+    },
+    {
+     "txt": "À partir de quel âge ouvrir l'accès à un revenu minimum, alors que la restriction pour les moins de 25 ans « fait débat depuis de nombreuses années » selon le Conseil d'orientation des politiques de jeunesse (2019) ?",
+     "src": "sujet_pouvoir_coj_rua"
+    }
+   ],
+   "lire": [
+    "sujet_pouvoir_insee_nation25",
+    "sujet_pouvoir_senat_energie",
+    "sujet_pouvoir_coj_rua"
    ]
   }
  }
