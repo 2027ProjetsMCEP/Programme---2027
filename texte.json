@@ -11,15 +11,15 @@
   },
   {
    "id": "s3",
-   "texte": "Et la population vieillit : il y a de moins en moins de personnes de vingt à soixante-quatre ans pour chaque personne d'au moins soixante-cinq ans."
+   "texte": "Et la population vieillit."
   },
   {
    "id": "s4",
-   "texte": "En deux mille vingt-cinq, les retraites ont coûté quatre cent vingt-deux milliards d'euros. C'est quatorze virgule un pour cent du PIB."
+   "texte": "En deux mille vingt-cinq, les retraites ont coûté quatre cent vingt-deux milliards d'euros."
   },
   {
    "id": "s5",
-   "texte": "La réforme de deux mille vingt-trois relève l'âge légal à soixante-quatre ans. Ce relèvement est suspendu jusqu'en deux mille vingt-huit. Mais pour les dix-huit à trente ans, la loi actuelle prévoit soixante-quatre ans."
+   "texte": "La réforme de deux mille vingt-trois est suspendue jusqu'en deux mille vingt-huit. Mais pour les dix-huit à trente ans, l'âge légal reste soixante-quatre ans."
   },
   {
    "id": "s6",
@@ -31,11 +31,11 @@
   },
   {
    "id": "s8",
-   "texte": "Bon à savoir : mille huit cent trois euros bruts gagnés en deux mille vingt-six, c'est déjà un trimestre de retraite validé."
+   "texte": "Bon à savoir : un job d'été à mille huit cent trois euros bruts, c'est déjà un trimestre validé."
   },
   {
    "id": "s9",
-   "texte": "Baisser les dépenses, augmenter les cotisations, reculer l'âge ? Comparez les propositions dans Programmes deux mille vingt-sept."
+   "texte": "Toutes les propositions sont à comparer dans Programmes deux mille vingt-sept."
   }
  ]
 }
