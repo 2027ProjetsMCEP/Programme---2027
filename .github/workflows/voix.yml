@@ -17,8 +17,11 @@ jobs:
           python-version: "3.11"
       - run: sudo apt-get update && sudo apt-get install -y espeak-ng ffmpeg
       - run: pip install torch torchaudio --index-url https://download.pytorch.org/whl/cpu
-      - run: pip install "kokoro>=0.9.4" "misaki[en]" soundfile numpy "piper-tts>=1.2" faster-whisper "moshi>=0.2.6" huggingface_hub
+      - run: pip install "kokoro>=0.9.4" "misaki[en]" soundfile numpy "piper-tts>=1.2" faster-whisper "moshi>=0.2.6" huggingface_hub scipy
       - run: python voix.py
+        env:
+          SAUTER: kokoro,piper
+          KYUTAI_VOIX: cml-tts/fr/10177_10625_000134-0003_enhanced.wav,cml-tts/fr/1406_1028_000009-0003_enhanced.wav,cml-tts/fr/2154_2576_000020-0003_enhanced.wav,cml-tts/fr/2465_1943_000152-0002_enhanced.wav
       - run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"

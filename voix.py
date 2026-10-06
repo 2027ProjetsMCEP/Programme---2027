@@ -13,7 +13,9 @@ import soundfile as sf
 
 T = json.load(open("texte.json"))["scenes"]
 os.makedirs("voix", exist_ok=True)
-res = {"voix": {}, "erreurs": {}, "licences": {}}
+res = json.load(open("resultats_voix.json")) if os.path.exists("resultats_voix.json") else {"voix": {}, "licences": {}}
+res["erreurs"] = {}
+SAUTER = os.environ.get("SAUTER", "").split(",")
 
 
 def save(name, sid, audio, sr):
@@ -26,6 +28,8 @@ def save(name, sid, audio, sr):
 
 # 1. Kokoro (modèle sous licence Apache 2.0), voix française ff_siwis
 try:
+    if "kokoro" in SAUTER:
+        raise SystemExit
     import torch  # noqa: F401
     from kokoro import KPipeline
 
@@ -40,11 +44,17 @@ try:
             save(name, s["id"], np.concatenate(parts), 24000)
         print(name, "ok", flush=True)
     res["licences"]["kokoro"] = "Kokoro-82M : licence Apache 2.0 (hexgrad/Kokoro-82M) ; voix ff_siwis entraînée sur le corpus SIWIS (CC BY 4.0)"
+except SystemExit:
+    pass
 except Exception:  # noqa: BLE001
     res["erreurs"]["kokoro"] = traceback.format_exc()[-1500:]
     print(res["erreurs"]["kokoro"], flush=True)
 
 # 2. Piper (voix françaises de rhasspy/piper-voices)
+if "piper" in SAUTER:
+    PIPER_OFF = True
+else:
+    PIPER_OFF = False
 HF = "https://huggingface.co/rhasspy/piper-voices/resolve/main/fr/fr_FR/%s/%s/"
 PIPER = [("tom", "medium", [None]), ("upmc", "medium", [1])]
 try:
@@ -54,7 +64,7 @@ try:
     except ImportError:
         SynthesisConfig = None
     os.makedirs("modeles", exist_ok=True)
-    for nom, q, speakers in PIPER:
+    for nom, q, speakers in ([] if PIPER_OFF else PIPER):
         try:
             base = HF % (nom, q)
             f = "fr_FR-%s-%s" % (nom, q)
@@ -103,8 +113,16 @@ try:
         tts = TTSModel.from_checkpoint_info(ci, n_q=32, temp=0.6, device=torch.device("cpu"), dtype=torch.float32)
     except TypeError:
         tts = TTSModel.from_checkpoint_info(ci, n_q=32, temp=0.6, device=torch.device("cpu"))
-    choix = [f for f in fr if "unmute" in f][:2] + [f for f in fr if "cml" in f][:2]
-    for vf in choix[:3]:
+    don = [f for f in files if f.startswith("voice-donations/")]
+    res["kyutai_dons"] = don[:800]
+    meta = [f for f in files if f.startswith("voice-donations/") and not f.endswith((".wav", ".safetensors"))]
+    for mf in meta[:3]:
+        try:
+            res.setdefault("kyutai_dons_meta", {})[mf] = open(hf_hub_download("kyutai/tts-voices", mf)).read()[:20000]
+        except Exception:  # noqa: BLE001
+            pass
+    choix = [v for v in os.environ.get("KYUTAI_VOIX", "").split(",") if v]
+    for vf in choix:
         name = "kyutai-" + vf.split("/")[-1].replace(".wav", "")[:40]
         cond = tts.make_condition_attributes([tts.get_voice_path(vf)], cfg_coef=2.0)
         for s in T:
@@ -131,6 +149,8 @@ try:
     m = WhisperModel("medium", device="cpu", compute_type="int8")
     for name, scenes in res["voix"].items():
         for sid, v in scenes.items():
+            if v.get("entendu"):
+                continue
             segs, _ = m.transcribe(v["fichier"], language="fr", beam_size=5)
             v["entendu"] = " ".join(x.text.strip() for x in segs)
         print("whisper", name, flush=True)
@@ -140,7 +160,7 @@ except Exception:  # noqa: BLE001
 # 4. Naturalité estimée (UTMOS22, prédicteur de note d'écoute de 1 à 5)
 try:
     import torch
-    import torchaudio
+    from scipy.signal import resample_poly
 
     predictor = torch.hub.load("tarepan/SpeechMOS:v1.2.0", "utmos22_strong", trust_repo=True)
     for name, scenes in res["voix"].items():
@@ -149,7 +169,9 @@ try:
             a, sr = sf.read(v["fichier"], dtype="float32")
             wav = torch.from_numpy(a if a.ndim == 1 else a.mean(1)).unsqueeze(0)
             if sr != 16000:
-                wav = torchaudio.functional.resample(wav, sr, 16000)
+                import math
+                g = math.gcd(16000, sr)
+                wav = torch.from_numpy(resample_poly(wav[0].numpy(), 16000 // g, sr // g).astype("float32")).unsqueeze(0)
             with torch.no_grad():
                 n = float(predictor(wav[:1], 16000))
             v["utmos"] = round(n, 2)
