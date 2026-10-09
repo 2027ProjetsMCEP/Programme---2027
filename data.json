@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-09",
- "version": 3,
+ "version": 4,
  "base": "2026-10-01",
  "themes": [
   [
@@ -2553,6 +2553,98 @@
      ]
     ]
    }
+  },
+  {
+   "id": "markovic",
+   "nom": "Mira Markovic",
+   "tri": "Markovic",
+   "parti": "Parti animaliste",
+   "statut": "nonpublie",
+   "statutTxt": "Programme 2027 pas encore publié, premières priorités annoncées",
+   "faits": [
+    [
+     "Présentée comme candidate du Parti animaliste le 2 octobre 2026.",
+     "markovic_pa_communique"
+    ],
+    [
+     "Doit encore recevoir les parrainages de 500 élus pour pouvoir se présenter.",
+     "markovic_pa_site"
+    ]
+   ],
+   "docs": [],
+   "parcours": {
+    "chapo": [
+     "Mira Markovic est la candidate du Parti animaliste à l'élection présidentielle de 2027. Psychologue pendant plus de 17 ans, elle a cofondé ce parti en 2016.",
+     [
+      "markovic_pa_communique"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Elle est née le 8 avril 1978 à Paris.",
+        "markovic_paris"
+       ],
+       [
+        "Elle a été élevée par une mère française et un père serbe.",
+        "huff_markovic"
+       ],
+       [
+        "Elle est titulaire d'un master 2 en ergonomie et en psychologie du travail, et est devenue psychologue d'orientation.",
+        "markovic_pa_bureau"
+       ],
+       [
+        "Elle a exercé plus de 17 ans comme psychologue.",
+        "markovic_pa_communique"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "En 2014, elle est élue municipale dans le 18e arrondissement de Paris.",
+        "markovic_pa_communique"
+       ],
+       [
+        "En 2015, elle cofonde la commission Condition animale d'Europe Écologie-Les Verts.",
+        "markovic_pa_bureau"
+       ],
+       [
+        "En 2016, elle cofonde le Parti animaliste, notamment avec Hélène Thouy.",
+        "markovic_pa_communique"
+       ],
+       [
+        "Le 28 juin 2020, elle est élue conseillère de Paris.",
+        "markovic_paris"
+       ],
+       [
+        "En 2021, elle cofonde le Campus animaliste.",
+        "markovic_pa_bureau"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Elle est coprésidente et porte-parole du Parti animaliste.",
+        "markovic_pa_bureau"
+       ],
+       [
+        "Le 2 octobre 2026, le parti l'a présentée comme sa candidate à l'élection présidentielle de 2027.",
+        "markovic_pa_communique"
+       ],
+       [
+        "Pour se présenter, elle doit recevoir les parrainages de 500 élus.",
+        "markovic_pa_site"
+       ]
+      ]
+     ]
+    ]
+   }
   }
  ],
  "propositions": [
@@ -2882,17 +2974,17 @@
   {
    "c": "le-pen",
    "th": "budget",
-   "t": "125 milliards d'euros d'économies et une règle d'or dans la Constitution",
-   "d": "Réaliser 125 milliards d'euros d'économies et inscrire une règle d'or budgétaire dans la Constitution.",
+   "t": "140 milliards d'euros d'économies d'ici 2032 et une règle d'or dans la Constitution",
+   "d": "Réaliser 140 milliards d'euros d'économies d'ici 2032, pour ramener la dette publique de 121 % du PIB en 2027 à 112 % en 2032, et inscrire une règle d'or budgétaire dans la Constitution par référendum, dans les douze mois suivant l'élection.",
    "s": [
-    "sudradio_lepen"
+    "ps_lepen_budget"
    ],
    "aj": "2026-10-01",
    "a": {
-    "v": 125,
+    "v": 140,
     "nature": "economie",
-    "per": "nd",
-    "h": "période non précisée dans la source"
+    "per": "total",
+    "h": "d'ici 2032, soit 15 milliards de plus que le chiffre annoncé fin août"
    },
    "fin": "c",
    "id": "p026"
@@ -4381,6 +4473,326 @@
    ],
    "fin": "s",
    "id": "p142"
+  },
+  {
+   "c": "philippe",
+   "th": "institutions",
+   "t": "Une vingtaine d'ordonnances dès juillet 2027",
+   "d": "S'il est élu, présenter « dès juillet » 2027, au début de la session extraordinaire du Parlement, une vingtaine d'ordonnances, pour qu'elles « entrent en vigueur dès l'automne ».",
+   "s": [
+    "afp_philippe_ordonnances"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p143"
+  },
+  {
+   "c": "philippe",
+   "th": "immigration",
+   "t": "Diviser par deux l'immigration légale et suspendre le regroupement familial",
+   "d": "Réduire très sensiblement le nombre de titres de séjour délivrés chaque année, à un niveau « largement inférieur à 200 000 », et un moratoire sur le regroupement familial pendant la durée du quinquennat.",
+   "s": [
+    "lcp_philippe_immig"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p144"
+  },
+  {
+   "c": "philippe",
+   "th": "social",
+   "t": "Une allocation familiale unique de 350 euros dès le premier enfant",
+   "d": "Une allocation familiale unique de 350 euros, versée dès le premier enfant à toutes les familles, y compris monoparentales, et une baisse d'impôt sur le revenu pendant les trois années qui suivent une naissance.",
+   "s": [
+    "orange_philippe_alloc"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p145"
+  },
+  {
+   "c": "zemmour",
+   "th": "securite",
+   "t": "Rétablir la loi anti-casseurs et faire payer les parents des casseurs",
+   "d": "Rétablir la loi anti-casseurs supprimée en 1981 et faire payer les parents des casseurs, « quitte à leur prendre sur leurs allocations sociales ».",
+   "s": [
+    "e1_zemmour_casseurs"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p146"
+  },
+  {
+   "c": "le-pen",
+   "th": "pouvoir",
+   "t": "Le permis de conduire gratuit pour les jeunes",
+   "d": "Rendre le permis de conduire gratuit pour les jeunes dont le casier judiciaire est vierge.",
+   "s": [
+    "lcp_rn_jeunes"
+   ],
+   "aj": "2026-10-09",
+   "a": {
+    "v": 0.7,
+    "nature": "cout",
+    "per": "an",
+    "h": "estimation du parti"
+   },
+   "fin": "c",
+   "id": "p147"
+  },
+  {
+   "c": "le-pen",
+   "th": "pouvoir",
+   "t": "Pas d'impôt sur le revenu avant 30 ans, jusqu'à quatre fois le SMIC",
+   "d": "Exonérer d'impôt sur le revenu les jeunes de moins de 30 ans, jusqu'à quatre fois le SMIC.",
+   "s": [
+    "lcp_rn_jeunes"
+   ],
+   "aj": "2026-10-09",
+   "a": {
+    "v": 2,
+    "nature": "cout",
+    "per": "an",
+    "lab": "Coût selon LCP",
+    "h": "coût indiqué par LCP"
+   },
+   "fin": "c",
+   "id": "p148"
+  },
+  {
+   "c": "roussel",
+   "th": "education",
+   "t": "Rénover les lycées : 5 milliards tout de suite, puis 5 milliards par an",
+   "d": "Un budget rectificatif de 5 milliards d'euros pour rénover les lycées, puis 5 milliards d'euros par an pendant cinq ans pour moderniser les bâtiments scolaires.",
+   "s": [
+    "pw_roussel"
+   ],
+   "aj": "2026-10-09",
+   "a": {
+    "v": 5,
+    "nature": "cout",
+    "per": "an",
+    "h": "pendant cinq ans"
+   },
+   "fin": "f",
+   "finTxt": "Une partie des 211 milliards d'euros d'aides publiques reçues par les entreprises, et une partie du budget de la défense",
+   "id": "p149"
+  },
+  {
+   "c": "roussel",
+   "th": "education",
+   "t": "Recruter 90 000 enseignants pour alléger les classes",
+   "d": "3,5 milliards d'euros pour recruter les 90 000 enseignants nécessaires pour réduire les effectifs par classe, et un remplacement de tout professeur absent en 24 heures.",
+   "s": [
+    "pw_roussel"
+   ],
+   "aj": "2026-10-09",
+   "a": {
+    "v": 3.5,
+    "nature": "cout",
+    "per": "nd",
+    "h": "montant annoncé"
+   },
+   "fin": "f",
+   "finTxt": "Une partie des 211 milliards d'euros d'aides publiques reçues par les entreprises, et une partie du budget de la défense",
+   "id": "p150"
+  },
+  {
+   "c": "glucksmann",
+   "th": "eco",
+   "t": "Taxer les « méga héritages » au-delà de deux millions d'euros",
+   "d": "Une taxation des « méga héritages », au-delà de deux millions d'euros.",
+   "s": [
+    "lcp_debat3"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p151"
+  },
+  {
+   "c": "glucksmann",
+   "th": "europe",
+   "t": "Saisir les avoirs russes gelés pour financer l'aide à l'Ukraine",
+   "d": "Saisir les avoirs publics russes actuellement gelés pour financer le soutien à l'Ukraine, et construire une défense européenne « souveraine, autonome ».",
+   "s": [
+    "bfm_debat_primaire",
+    "lcp_debat3"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p152"
+  },
+  {
+   "c": "maurel",
+   "th": "europe",
+   "t": "Saisir les avoirs russes gelés pour financer l'effort de guerre ukrainien",
+   "d": "« Saisir les avoirs gelés des Russes pour financer l'effort de guerre » de l'Ukraine.",
+   "s": [
+    "bfm_debat_primaire"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p153"
+  },
+  {
+   "c": "maurel",
+   "th": "etudes",
+   "t": "Abroger Parcoursup et la réforme du lycée de 2019",
+   "d": "Abroger Parcoursup ainsi que la réforme du lycée de 2019, qui a créé les spécialités.",
+   "s": [
+    "lcp_debat3",
+    "bfm_debat_primaire"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p154"
+  },
+  {
+   "c": "faure",
+   "th": "retraites",
+   "t": "Le taux plein à 66 ou 65 ans au lieu de 67 ans",
+   "d": "Abaisser l'âge de départ à taux plein, aujourd'hui fixé à 67 ans, à 66 ou 65 ans. C'est l'âge à partir duquel la pension n'est plus réduite, même sans avoir tous ses trimestres.",
+   "s": [
+    "lcp_debat3"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p155"
+  },
+  {
+   "c": "guedj",
+   "th": "retraites",
+   "t": "Le taux plein à 66 ou 65 ans au lieu de 67 ans",
+   "d": "Abaisser l'âge de départ à taux plein, aujourd'hui fixé à 67 ans, à 66 ou 65 ans. C'est l'âge à partir duquel la pension n'est plus réduite, même sans avoir tous ses trimestres.",
+   "s": [
+    "lcp_debat3"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p156"
+  },
+  {
+   "c": "faure",
+   "th": "eco",
+   "t": "Une taxe Zucman : 2 % par an sur les patrimoines de plus de 100 millions",
+   "d": "Un impôt plancher de 2 % par an sur les patrimoines excédant 100 millions d'euros.",
+   "s": [
+    "lcp_debat2"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p157"
+  },
+  {
+   "c": "villepin",
+   "th": "etudes",
+   "t": "Supprimer Parcoursup",
+   "d": "La suppression de Parcoursup, demandée avec François Ruffin.",
+   "s": [
+    "afp_villepin_ruffin"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p158"
+  },
+  {
+   "c": "villepin",
+   "th": "institutions",
+   "t": "Le droit de vote dès 16 ans",
+   "d": "Ouvrir le droit de vote dès 16 ans, une demande faite avec François Ruffin.",
+   "s": [
+    "afp_villepin_ruffin"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p159"
+  },
+  {
+   "c": "ruffin",
+   "th": "etudes",
+   "t": "Supprimer Parcoursup",
+   "d": "La suppression de Parcoursup, demandée avec Dominique de Villepin.",
+   "s": [
+    "afp_villepin_ruffin"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p160"
+  },
+  {
+   "c": "ruffin",
+   "th": "institutions",
+   "t": "Le droit de vote dès 16 ans",
+   "d": "Ouvrir le droit de vote dès 16 ans, une demande faite avec Dominique de Villepin.",
+   "s": [
+    "afp_villepin_ruffin"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p161"
+  },
+  {
+   "c": "markovic",
+   "th": "institutions",
+   "t": "Un ministère indépendant de la Condition animale",
+   "d": "Créer un ministère indépendant consacré à la condition animale.",
+   "s": [
+    "markovic_pa_communique",
+    "huff_markovic"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p162"
+  },
+  {
+   "c": "markovic",
+   "th": "institutions",
+   "t": "Les animaux sortis du régime juridique des biens",
+   "d": "Que les animaux ne relèvent plus du régime juridique des biens, c'est-à-dire des règles du droit qui s'appliquent aux choses que l'on possède.",
+   "s": [
+    "huff_markovic"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p163"
+  },
+  {
+   "c": "markovic",
+   "th": "ecologie",
+   "t": "Sortir de l'élevage intensif en aidant les éleveurs à se reconvertir",
+   "d": "Sortir de l'élevage intensif et accompagner financièrement la reconversion des éleveurs.",
+   "s": [
+    "markovic_pa_communique",
+    "huff_markovic"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p164"
+  },
+  {
+   "c": "markovic",
+   "th": "ecologie",
+   "t": "Mettre fin à la chasse et à la corrida",
+   "d": "Mettre fin à la chasse et à la corrida.",
+   "s": [
+    "markovic_pa_communique",
+    "huff_markovic"
+   ],
+   "aj": "2026-10-09",
+   "fin": "s",
+   "id": "p165"
+  },
+  {
+   "c": "markovic",
+   "th": "securite",
+   "t": "Les animaux intégrés aux plans de secours ORSEC",
+   "d": "Intégrer les animaux aux plans ORSEC, qui organisent les secours en cas de catastrophe.",
+   "s": [
+    "markovic_pa_communique"
+   ],
+   "aj": "2026-10-09",
+   "fin": "n",
+   "id": "p166"
   }
  ],
  "sources": {
@@ -7806,6 +8218,48 @@
    "d": "2026-09-21",
    "type": "presse",
    "u": "https://lcp.fr/actualites/candidature-a-la-presidentielle-pas-de-choix-definitif-des-ecologistes-avant-la-mi"
+  },
+  "afp_philippe_ordonnances": {
+   "t": "Édouard Philippe présentera une vingtaine d'ordonnances dès juillet 2027 s'il est élu",
+   "p": "Arab News en français (dépêche AFP)",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://www.arabnews.fr/france/%C3%A9douard-philippe-pr%C3%A9sentera-une-vingtaine-dordonnances-d%C3%A8s-juillet-2027-sil-est-%C3%A9lu-3000315"
+  },
+  "bfm_debat_primaire": {
+   "t": "Colère lycéenne, retraites, guerre en Ukraine… Ce qu'il faut retenir du dernier débat entre les candidats de la primaire sociale-démocrate sur BFMTV",
+   "p": "BFMTV, sur Yahoo Actualités",
+   "d": "2026-10-04",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/col%C3%A8re-lyc%C3%A9enne-retraites-guerre-ukraine-215604461.html"
+  },
+  "markovic_pa_communique": {
+   "t": "Mira Markovic représentera le Parti animaliste à la présidentielle",
+   "p": "Parti animaliste",
+   "d": "2026-10-02",
+   "type": "officiel",
+   "u": "https://parti-animaliste.fr/news/communique-de-presse/mira-markovic-representera-le-parti-animaliste-a-la-presidentielle"
+  },
+  "markovic_pa_site": {
+   "t": "Mira Markovic 2027",
+   "p": "Parti animaliste",
+   "d": "2026-10-09",
+   "type": "officiel",
+   "u": "https://parti-animaliste.fr/mira-markovic-2027"
+  },
+  "markovic_pa_bureau": {
+   "t": "Le bureau",
+   "p": "Parti animaliste",
+   "d": "2026-10-09",
+   "type": "officiel",
+   "u": "https://parti-animaliste.fr/bureau"
+  },
+  "markovic_paris": {
+   "t": "Douchka Markovic",
+   "p": "Ville de Paris",
+   "d": "2025-04-10",
+   "type": "officiel",
+   "u": "https://www.paris.fr/pages/douchka-markovic-7941"
   }
  },
  "presse": [
@@ -8045,7 +8499,9 @@
    "d": "2026-10-03",
    "s": "huff_markovic",
    "k": "campagne",
-   "c": [],
+   "c": [
+    "markovic"
+   ],
    "txt": "Le Parti animaliste présente Mira Markovic comme candidate à la présidentielle ; elle doit encore réunir 500 parrainages d'élus"
   },
   {
@@ -8218,6 +8674,15 @@
     "glucksmann"
    ],
    "txt": "À la veille de la primaire, les sondages placent Raphaël Glucksmann en tête de l'espace social-démocrate, avec 11 % des intentions de vote"
+  },
+  {
+   "d": "2026-10-09",
+   "s": "afp_philippe_ordonnances",
+   "k": "programme",
+   "c": [
+    "philippe"
+   ],
+   "txt": "Édouard Philippe annonce que, s'il est élu, il présentera une vingtaine d'ordonnances dès juillet 2027, pour une entrée en vigueur à l'automne"
   }
  ],
  "sondages": [
