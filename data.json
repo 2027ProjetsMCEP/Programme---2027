@@ -1,5 +1,5 @@
 {
- "maj": "2026-10-06",
+ "maj": "2026-10-09",
  "version": 3,
  "base": "2026-10-01",
  "themes": [
@@ -809,8 +809,12 @@
    "statutTxt": "Cahiers de campagne thématiques, pas de programme complet",
    "faits": [
     [
-     "Candidat à la primaire de la gauche prévue le 11 octobre 2026.",
-     "fi_ruffin_primaire"
+     "Il avait annoncé le 12 mai 2026 : « S'il n'y a pas de primaire, moi j'y vais ».",
+     "bio_ruffin_lcp0512"
+    ],
+    [
+     "Le projet de primaire commune de la gauche et des écologistes a été abandonné : en septembre 2026, les Écologistes ont pris acte qu'il « n'est plus d'actualité ».",
+     "lcp_ecolos_0921"
     ]
    ],
    "docs": [
@@ -880,8 +884,8 @@
    "statutTxt": "Projet 2027 du parti publié (557 mesures)",
    "faits": [
     [
-     "Candidate à la primaire de la gauche prévue le 11 octobre 2026.",
-     "wiki_2027"
+     "Candidate des Écologistes. Leurs adhérents voteront du 10 au 13 décembre 2026 pour la garder comme candidate ou soutenir un candidat d'une autre force de gauche.",
+     "lcp_ecolos_0921"
     ],
     [
      "Le projet des Écologistes a été élaboré avec près de 50 000 contributions citoyennes selon le parti.",
@@ -7662,6 +7666,146 @@
    "d": "2025-01-16",
    "type": "donnees",
    "u": "https://www.cre.fr/fileadmin/Documents/Communiques_de_presse/2025/250116_CP_TRVE.pdf"
+  },
+  "lcp_debat2": {
+   "t": "Mobilisation lycéenne, budget, situation internationale...: Ce qu'il faut retenir du deuxième débat de la primaire de gauche",
+   "p": "LCP",
+   "d": "2026-10-01",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/mobilisation-lyceenne-budget-situation-internationale-ce-qu-il-faut-retenir-du-deuxieme"
+  },
+  "lcp_debat3": {
+   "t": "Glucksmann face à Royal, divisions sur LFI, lycées… Ce qu'il faut retenir du dernier débat de la primaire socialiste",
+   "p": "LCP",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/glucksmann-face-a-royal-divisions-sur-lfi-lycees-ce-qu-il-faut-retenir-du-dernier-debat"
+  },
+  "afp_primaire_t1": {
+   "t": "Début du premier tour de la primaire sociale-démocrate",
+   "p": "Orange Actualités (dépêche AFP)",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://actu.orange.fr/politique/debut-du-premier-tour-de-la-primaire-sociale-democrate-CNT000002ssz9s.html"
+  },
+  "afp_primaire_veille": {
+   "t": "Primaire: à la veille du premier tour Glucksmann favori, sans convaincre complètement",
+   "p": "Orange Actualités (dépêche AFP)",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://actu.orange.fr/politique/primaire-a-la-veille-du-premier-tour-glucksmann-favori-sans-convaincre-completement-CNT000002sq1U8.html"
+  },
+  "yahoo_melenchon_havre": {
+   "t": "Présidentielle 2027 : Jean-Luc Mélenchon annonce un meeting au Havre, sur les terres d'Édouard Philippe",
+   "p": "20 Minutes (AFP), sur Yahoo Actualités",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/sport/pr%C3%A9sidentielle-2027-jean-luc-m%C3%A9lenchon-084216133.html"
+  },
+  "ps_baroin": {
+   "t": "Présidentielle 2027 : François Baroin assure que Bruno Retailleau a « toutes les qualités pour créer les conditions de la surprise du premier tour »",
+   "p": "Public Sénat",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-francois-baroin-assure-que-bruno-retailleau-a-toutes-les-qualites-pour-creer-les-conditions-de-la-surprise-du-premier-tour"
+  },
+  "ps_lepen_budget": {
+   "t": "140 milliards d'euros d'économies d'ici 2032 : « l'effort radical » proposé par Marine Le Pen pour « redresser » les finances publiques",
+   "p": "Public Sénat",
+   "d": "2026-10-06",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/140-milliards-deuros-deconomies-dici-2032-leffort-radical-propose-par-marine-le-pen-pour-redresser-les-f"
+  },
+  "lcp_rn_jeunes": {
+   "t": "Permis de conduire gratuit, exonération d'impôt jusqu'à 30 ans... Comment le RN veut convaincre les jeunes",
+   "p": "LCP",
+   "d": "2026-10-06",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/permis-de-conduire-gratuit-exoneration-d-impot-jusqu-a-30-ans-comment-le-rn-veut"
+  },
+  "brut_attal_coalition": {
+   "t": "Le camp Glucksmann rejette la main tendue par Attal aux électeurs socio-démocrates",
+   "p": "Brut (avec l'AFP)",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.brut.media/fr/articles/france/politique/le-camp-glucksmann-rejette-la-main-tendue-par-attal-aux-electeurs-socio-democrates"
+  },
+  "huff_markovic": {
+   "t": "Pour la présidentielle 2027, la candidate du Parti animaliste, Mira Markovic, cherche les 500 parrainages",
+   "p": "HuffPost, sur Yahoo Actualités",
+   "d": "2026-10-03",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/sport/pr%C3%A9sidentielle-2027-candidate-parti-animaliste-092813187.html"
+  },
+  "lcp_philippe_immig": {
+   "t": "Édouard Philippe veut \"diviser par deux\" l'immigration légale et propose un moratoire sur le regroupement familial",
+   "p": "LCP",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/edouard-philippe-veut-diviser-par-deux-l-immigration-legale-et-propose-un-moratoire-sur"
+  },
+  "orange_philippe_alloc": {
+   "t": "\"Notre nation a besoin d'accompagner ceux qui font des enfants\" : les propositions d'Édouard Philippe pour réformer les allocations familiales",
+   "p": "Orange Actualités (6Médias avec L'Express)",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://actu.orange.fr/politique/notre-nation-a-besoin-d-accompagner-ceux-qui-font-des-enfants-les-propositions-d-edouard-philippe-pour-reformer-les-allocations-familiales-magic-CNT000002stfHJ.html"
+  },
+  "jdd_ecologie_droite": {
+   "t": "Relance du nucléaire, localisme et adaptation «non punitive» : les candidats de droite se saisissent de l'écologie",
+   "p": "Le Journal du Dimanche",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://www.lejdd.fr/politique/relance-du-nucleaire-localisme-et-adaptation-non-punitive-les-candidats-de-droite-se-saisissent-de-lecologie-185388"
+  },
+  "e1_zemmour_casseurs": {
+   "t": "Blocus des lycées : Éric Zemmour veut faire payer les «casseurs» et leurs parents «jusqu'à la nuit des temps»",
+   "p": "Europe 1 (avec l'AFP)",
+   "d": "2026-10-07",
+   "type": "presse",
+   "u": "https://www.europe1.fr/politique/blocus-des-lycees-eric-zemmour-veut-faire-payer-les-casseurs-et-leurs-parents-jusqua-la-nuit-des-temps-1129292"
+  },
+  "pw_roussel": {
+   "t": "French Communists unveil youth plan as student revolt rocks schools (article en anglais)",
+   "p": "People's World (Gaël De Santis, journaliste de L'Humanité)",
+   "d": "2026-10-06",
+   "type": "presse",
+   "u": "https://www.peoplesworld.org/article/french-communists-unveil-youth-plan-as-student-revolt-rocks-schools/"
+  },
+  "maddyness_ia": {
+   "t": "Présidentielle 2027 : ce que les candidats proposent vraiment sur l'IA",
+   "p": "Maddyness",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.maddyness.com/2026/10/05/presidentielle-2027-ce-que-les-candidats-proposent-vraiment-sur-lia/"
+  },
+  "afp_villepin_ruffin": {
+   "t": "Lycéens: Villepin et Ruffin appellent conjointement à un budget sanctuarisé et à la fin de Parcoursup",
+   "p": "Arab News en français (dépêche AFP)",
+   "d": "2026-10-05",
+   "type": "presse",
+   "u": "https://www.arabnews.fr/france/lyc%C3%A9ens-villepin-et-ruffin-appellent-conjointement-%C3%A0-un-budget-sanctuaris%C3%A9-et-%C3%A0-la-fin-de-parcoursup-3000288"
+  },
+  "batirama_batimat": {
+   "t": "Crise du BTP : les candidats passent leur Grand Oral à Batimat",
+   "p": "Batirama",
+   "d": "2026-10-02",
+   "type": "presse",
+   "u": "https://www.batirama.com/article/112473-crise-du-btp-les-candidats-passent-leur-grand-oral-a-batimat.html"
+  },
+  "elabe_primaire": {
+   "t": "Les Français et la primaire à gauche",
+   "p": "Elabe",
+   "d": "2026-10-03",
+   "type": "sondage",
+   "u": "https://elabe.fr/primaire-gauche/"
+  },
+  "lcp_ecolos_0921": {
+   "t": "Candidature à la présidentielle: pas de choix définitif des Écologistes avant la mi-décembre",
+   "p": "LCP",
+   "d": "2026-09-21",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/candidature-a-la-presidentielle-pas-de-choix-definitif-des-ecologistes-avant-la-mi"
   }
  },
  "presse": [
@@ -7863,6 +8007,217 @@
     "ruffin"
    ],
    "txt": "François Ruffin lance sa campagne à Lyon en défenseur des « travailleurs essentiels »"
+  },
+  {
+   "d": "2026-10-01",
+   "s": "lcp_debat2",
+   "k": "campagne",
+   "c": [
+    "faure",
+    "glucksmann",
+    "guedj",
+    "maurel",
+    "royal"
+   ],
+   "txt": "Deuxième débat de la primaire sociale-démocrate, sur France 2 et France Inter : le rapport à La France insoumise concentre les tensions"
+  },
+  {
+   "d": "2026-10-01",
+   "s": "lcp_debat2",
+   "k": "programme",
+   "c": [
+    "faure"
+   ],
+   "txt": "Olivier Faure défend la taxe Zucman, un impôt plancher de 2 % par an sur les patrimoines de plus de 100 millions d'euros"
+  },
+  {
+   "d": "2026-10-02",
+   "s": "batirama_batimat",
+   "k": "programme",
+   "c": [
+    "attal",
+    "le-pen",
+    "melenchon"
+   ],
+   "txt": "Logement : au salon Batimat, Gabriel Attal promet une loi de programmation, Marine Le Pen la fin du ZAN, Jean-Luc Mélenchon 400 000 logements"
+  },
+  {
+   "d": "2026-10-03",
+   "s": "huff_markovic",
+   "k": "campagne",
+   "c": [],
+   "txt": "Le Parti animaliste présente Mira Markovic comme candidate à la présidentielle ; elle doit encore réunir 500 parrainages d'élus"
+  },
+  {
+   "d": "2026-10-05",
+   "s": "brut_attal_coalition",
+   "k": "campagne",
+   "c": [
+    "attal",
+    "glucksmann",
+    "retailleau"
+   ],
+   "txt": "Gabriel Attal propose une « grande coalition » ; les soutiens de Raphaël Glucksmann et Bruno Retailleau la rejettent"
+  },
+  {
+   "d": "2026-10-05",
+   "s": "lcp_debat3",
+   "k": "programme",
+   "c": [
+    "glucksmann"
+   ],
+   "txt": "Au dernier débat de la primaire, Raphaël Glucksmann propose de taxer les « méga héritages » au-delà de deux millions d'euros"
+  },
+  {
+   "d": "2026-10-05",
+   "s": "lcp_debat3",
+   "k": "programme",
+   "c": [
+    "maurel"
+   ],
+   "txt": "Emmanuel Maurel propose d'abroger Parcoursup et la réforme du lycée de 2019, qui a créé les spécialités"
+  },
+  {
+   "d": "2026-10-05",
+   "s": "lcp_debat3",
+   "k": "programme",
+   "c": [
+    "faure",
+    "guedj"
+   ],
+   "txt": "Olivier Faure et Jérôme Guedj veulent abaisser l'âge de la retraite à taux plein, aujourd'hui 67 ans, à 66 ou 65 ans"
+  },
+  {
+   "d": "2026-10-05",
+   "s": "afp_villepin_ruffin",
+   "k": "programme",
+   "c": [
+    "ruffin",
+    "villepin"
+   ],
+   "txt": "Dominique de Villepin et François Ruffin plaident ensemble pour supprimer Parcoursup et ouvrir le droit de vote dès 16 ans"
+  },
+  {
+   "d": "2026-10-05",
+   "s": "maddyness_ia",
+   "k": "programme",
+   "c": [
+    "attal",
+    "retailleau"
+   ],
+   "txt": "Intelligence artificielle : Gabriel Attal propose un plan « France 2040 » de 200 milliards d'euros, Bruno Retailleau 25 milliards sur cinq ans"
+  },
+  {
+   "d": "2026-10-06",
+   "s": "ps_lepen_budget",
+   "k": "programme",
+   "c": [
+    "le-pen"
+   ],
+   "txt": "Marine Le Pen présente un contre-budget : 140 milliards d'euros d'économies d'ici 2032 et une règle d'or inscrite dans la Constitution"
+  },
+  {
+   "d": "2026-10-06",
+   "s": "lcp_rn_jeunes",
+   "k": "programme",
+   "c": [
+    "le-pen"
+   ],
+   "txt": "Marine Le Pen propose le permis gratuit à 18 ans pour les jeunes au casier vierge et une exonération d'impôt sur le revenu jusqu'à 30 ans"
+  },
+  {
+   "d": "2026-10-06",
+   "s": "pw_roussel",
+   "k": "programme",
+   "c": [
+    "roussel"
+   ],
+   "txt": "Fabien Roussel présente un plan jeunesse : 5 milliards d'euros pour rénover les lycées et 3,5 milliards pour recruter 90 000 enseignants"
+  },
+  {
+   "d": "2026-10-07",
+   "s": "e1_zemmour_casseurs",
+   "k": "programme",
+   "c": [
+    "zemmour"
+   ],
+   "txt": "Éric Zemmour veut rétablir la loi anti-casseurs supprimée en 1981 et faire payer les parents des casseurs, jusque sur leurs allocations"
+  },
+  {
+   "d": "2026-10-08",
+   "s": "ps_baroin",
+   "k": "campagne",
+   "c": [
+    "retailleau"
+   ],
+   "txt": "François Baroin apporte son soutien à Bruno Retailleau lors de la rentrée des sénateurs Les Républicains, à Troyes"
+  },
+  {
+   "d": "2026-10-08",
+   "s": "yahoo_melenchon_havre",
+   "k": "campagne",
+   "c": [
+    "melenchon",
+    "philippe"
+   ],
+   "txt": "La France insoumise annonce un meeting de Jean-Luc Mélenchon au Havre, la ville dont Édouard Philippe est maire"
+  },
+  {
+   "d": "2026-10-08",
+   "s": "jdd_ecologie_droite",
+   "k": "programme",
+   "c": [
+    "retailleau",
+    "zemmour"
+   ],
+   "txt": "Écologie : Éric Zemmour promet six nouveaux EPR d'ici 2035 et Bruno Retailleau veut remettre le nucléaire au centre, selon le JDD"
+  },
+  {
+   "d": "2026-10-09",
+   "s": "lcp_philippe_immig",
+   "k": "programme",
+   "c": [
+    "philippe"
+   ],
+   "txt": "Sur France 2, Édouard Philippe veut « diviser par deux » l'immigration légale et propose un moratoire sur le regroupement familial"
+  },
+  {
+   "d": "2026-10-09",
+   "s": "orange_philippe_alloc",
+   "k": "programme",
+   "c": [
+    "philippe"
+   ],
+   "txt": "Édouard Philippe propose une allocation familiale unique de 350 euros dès le premier enfant, pour toutes les familles"
+  },
+  {
+   "d": "2026-10-09",
+   "s": "afp_primaire_t1",
+   "k": "campagne",
+   "c": [
+    "faure",
+    "glucksmann",
+    "guedj",
+    "maurel",
+    "royal"
+   ],
+   "txt": "Premier tour de la primaire sociale-démocrate : vote électronique jusqu'au samedi 10 octobre à 20 h, second tour éventuel les 16 et 17 octobre"
+  },
+  {
+   "d": "2026-10-03",
+   "s": "elabe_primaire",
+   "k": "sondage",
+   "c": [],
+   "txt": "Selon Elabe, 72 % des Français ne pensent pas que le candidat désigné par la primaire à gauche sera qualifié au second tour"
+  },
+  {
+   "d": "2026-10-08",
+   "s": "afp_primaire_veille",
+   "k": "sondage",
+   "c": [
+    "glucksmann"
+   ],
+   "txt": "À la veille de la primaire, les sondages placent Raphaël Glucksmann en tête de l'espace social-démocrate, avec 11 % des intentions de vote"
   }
  ],
  "sondages": [
@@ -8078,8 +8433,16 @@
  },
  "agenda": [
   [
-   "2026-10-11",
-   "Primaire de la gauche, avec Marine Tondelier et François Ruffin"
+   "2026-10-10",
+   "Fin du premier tour de la primaire sociale-démocrate (Olivier Faure, Raphaël Glucksmann, Jérôme Guedj, Emmanuel Maurel, Ségolène Royal), à 20 h"
+  ],
+  [
+   "2026-10-17",
+   "Second tour éventuel de cette primaire, les 16 et 17 octobre"
+  ],
+  [
+   "2026-12-13",
+   "Les adhérents des Écologistes décident s'ils gardent Marine Tondelier comme candidate (vote du 10 au 13 décembre)"
   ],
   [
    "2027-03",
