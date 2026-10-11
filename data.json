@@ -316,8 +316,8 @@
    "statutTxt": "Propositions annoncées par volets",
    "faits": [
     [
-     "Candidat à la primaire « Choisir 2027 » organisée par le Parti socialiste et ses alliés, face à Olivier Faure, Jérôme Guedj, Emmanuel Maurel et Ségolène Royal.",
-     "touteleurope"
+     "Désigné candidat de la gauche sociale-démocrate à la présidentielle le 11 octobre 2026, après avoir remporté dès le premier tour la primaire « Choisir 2027 », avec 66,13 % des voix.",
+     "lcp_primaire_resultats"
     ]
    ],
    "docs": [],
@@ -381,6 +381,10 @@
        [
         "Le 23 août 2026, il a annoncé sa candidature à la primaire des socialistes et de Place publique.",
         "bio_glucksmann_sud"
+       ],
+       [
+        "Le 11 octobre 2026, il remporte cette primaire dès le premier tour, avec 66,13 % des voix, et devient le candidat de la gauche sociale-démocrate à la présidentielle.",
+        "lcp_primaire_resultats"
        ]
       ]
      ]
@@ -1723,7 +1727,11 @@
    "statutTxt": "Premières propositions, programme détaillé pas encore publié",
    "faits": [
     [
-     "Premier secrétaire du PS, candidat à la primaire « Choisir 2027 » depuis le 30 août 2026.",
+     "Arrivé deuxième au premier tour de la primaire, le 11 octobre 2026, derrière Raphaël Glucksmann, désigné candidat de la gauche sociale-démocrate.",
+     "lcp_primaire_resultats"
+    ],
+    [
+     "Premier secrétaire du PS, candidat à la primaire « Choisir 2027 » à partir du 30 août 2026.",
      "qpq"
     ]
    ],
@@ -1788,8 +1796,8 @@
         "bio_faure_afp2026"
        ],
        [
-        "Il est candidat à la primaire de la gauche.",
-        "bio_faure_afp2026"
+        "Candidat à la primaire de la gauche, il arrive deuxième au premier tour, le 11 octobre 2026, derrière Raphaël Glucksmann.",
+        "lcp_primaire_resultats"
        ]
       ]
      ]
@@ -1805,7 +1813,11 @@
    "statutTxt": "Sept priorités publiées, sans chiffrage",
    "faits": [
     [
-     "Candidat à la primaire « Choisir 2027 », qu'il a rejointe le 23 août 2026.",
+     "Candidat à la primaire « Choisir 2027 », remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    [
+     "Il avait rejoint la primaire « Choisir 2027 » le 23 août 2026.",
      "qpq"
     ]
    ],
@@ -2182,8 +2194,8 @@
    "statutTxt": "Programme publié",
    "faits": [
     [
-     "Candidat à la primaire « Choisir 2027 » organisée par le PS et ses alliés.",
-     "touteleurope"
+     "Candidat à la primaire « Choisir 2027 », organisée par le PS et ses alliés et remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
+     "lcp_primaire_resultats"
     ]
    ],
    "docs": [
@@ -2398,7 +2410,11 @@
    "statutTxt": "Cinq priorités publiées, sans chiffrage",
    "faits": [
     [
-     "Candidate à la primaire « Choisir 2027 » depuis le 10 juillet 2026.",
+     "Candidate à la primaire « Choisir 2027 », remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    [
+     "Candidate à la primaire « Choisir 2027 » à partir du 10 juillet 2026.",
      "qpq"
     ]
    ],
@@ -8274,6 +8290,20 @@
    "d": "2026-10-11",
    "type": "presse",
    "u": "https://www.dhnet.be/dernieres-depeches/2026/10/11/primaire-de-la-gauche-glucksmann-espere-lemporter-des-le-premier-tour-4G43RA6ZUNAC5IMX4VQLNOSMTM/"
+  },
+  "lcp_primaire_resultats": {
+   "t": "Primaire socialiste: Raphaël Glucksmann, qui l'emporte dès le 1er tour, désigné candidat de la gauche sociale-démocrate à la présidentielle",
+   "p": "LCP",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/primaire-socialiste-raphael-glucksmann-qui-l-emporte-des-le-1er-tour-designe-candidat-de"
+  },
+  "e1_primaire_resultats": {
+   "t": "Primaire socialiste : Raphaël Glucksmann élu dès le premier tour avec 66% des voix",
+   "p": "Europe 1 (avec l'AFP)",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://www.europe1.fr/politique/primaire-socialiste-raphael-glucksmann-elu-des-le-premier-tour-avec-66-des-voix-1139288"
   }
  },
  "presse": [
@@ -8723,6 +8753,19 @@
     "royal"
    ],
    "txt": "Primaire sociale-démocrate : dimanche à 9 h, plus de 110 000 personnes avaient voté, selon les organisateurs ; un second tour est prévu si besoin les 16 et 17 octobre"
+  },
+  {
+   "d": "2026-10-11",
+   "s": "lcp_primaire_resultats",
+   "k": "campagne",
+   "c": [
+    "faure",
+    "glucksmann",
+    "guedj",
+    "maurel",
+    "royal"
+   ],
+   "txt": "Raphaël Glucksmann remporte la primaire sociale-démocrate dès le premier tour, avec 66,13 % des voix, devant Olivier Faure : il est désigné candidat de la gauche sociale-démocrate à la présidentielle"
   }
  ],
  "sondages": [
@@ -8937,14 +8980,6 @@
   }
  },
  "agenda": [
-  [
-   "2026-10-11",
-   "Fin du premier tour de la primaire sociale-démocrate (Olivier Faure, Raphaël Glucksmann, Jérôme Guedj, Emmanuel Maurel, Ségolène Royal) : vote prolongé jusqu'à 18 h après une cyberattaque, résultats annoncés à 18 h 30"
-  ],
-  [
-   "2026-10-17",
-   "Second tour éventuel de cette primaire, les 16 et 17 octobre"
-  ],
   [
    "2026-12-13",
    "Les adhérents des Écologistes décident s'ils gardent Marine Tondelier comme candidate (vote du 10 au 13 décembre)"
@@ -11333,19 +11368,19 @@
  "semaine": {
   "d": "2026-10-11",
   "titre": [
-   "Une primaire prolongée après une cyberattaque,",
+   "Raphaël Glucksmann remporte la primaire sociale-démocrate,",
    "{n} propositions ajoutées,",
    "une nouvelle candidature."
   ],
   "ecrans": [
    {
     "k": "Primaire sociale-démocrate",
-    "t": "Le vote est prolongé jusqu'à dimanche 18 h",
-    "txt": "Vendredi, une cyberattaque a ralenti la plateforme de vote en ligne. Le premier tour devait finir samedi à 20 h. Résultats annoncés dimanche à 18 h 30.",
+    "t": "Raphaël Glucksmann l'emporte dès le premier tour",
+    "txt": "Le vote, prolongé jusqu'à dimanche 18 h après une cyberattaque, est terminé. Il est désigné candidat de la gauche sociale-démocrate à la présidentielle. Olivier Faure arrive deuxième. Pas de second tour.",
     "stat": {
-     "pre": "Plus de",
-     "v": "110 000",
-     "u": "personnes avaient voté dimanche à 9 h, selon les organisateurs"
+     "pre": "Raphaël Glucksmann obtient",
+     "v": "66,13 %",
+     "u": "des voix"
     },
     "c": [
      "faure",
@@ -11355,9 +11390,10 @@
      "royal"
     ],
     "src": [
-     "lcp_primaire_prolongee",
-     "afp_primaire_dimanche"
-    ]
+     "lcp_primaire_resultats",
+     "e1_primaire_resultats"
+    ],
+    "cl": "Les cinq candidats de la primaire"
    },
    {
     "k": "Nouvelle candidature",

@@ -1075,7 +1075,7 @@ function storySemaine() {
     if (E.txt) h += `<p class="st-p strong in"${D(800)}>${esc(E.txt)}</p>`;
     if (E.c1) h += `<p class="st-p in"${D(1400)}>L'appli compte désormais ${DATA.candidats.length} candidatures déclarées.</p>`;
     if (E.stat) h += `<div class="st-card in"${D(1400)}><span>${esc(E.stat.pre || "")}</span>${stNum(E.stat.v, 1400, "st-mid", false)}<span>${esc(E.stat.u)}</span></div>`;
-    if (E.c && E.c.length) h += `<div class="st-chips">${E.c.slice().sort(byTri).map((id, j) => `<span class="st-chip pop"${D(2300 + j * 140)}>${esc(nom(id))}</span>`).join("")}</div>`;
+    if (E.c && E.c.length) h += (E.cl ? `<span class="st-p in"${D(2100)}>${esc(E.cl)}</span>` : "") + `<div class="st-chips">${E.c.slice().sort(byTri).map((id, j) => `<span class="st-chip pop"${D(2300 + j * 140)}>${esc(nom(id))}</span>`).join("")}</div>`;
     screens.push(h + stSrc([E.src]));
   });
   if (added.length) screens.push(`<span class="st-k in">Ajoutées cette semaine</span><div class="st-row in"${D(150)}>${stNum(String(added.length), 150, "st-hero", false)}<span class="st-u">proposition${added.length > 1 ? "s" : ""}, sur ${plural(byTh.length, "sujet")}</span></div><div class="st-chips">${byTh.map(([l, n], j) => `<span class="st-chip pop"${D(800 + j * 110)}>${esc(l)} · ${n}</span>`).join("")}</div><p class="st-p in"${D(900 + byTh.length * 110)}>Chacune avec l'article ou le document qui l'annonce, dans l'onglet Propositions.</p>`);
