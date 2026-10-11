@@ -1,6 +1,6 @@
 {
- "maj": "2026-10-09",
- "version": 4,
+ "maj": "2026-10-11",
+ "version": 5,
  "base": "2026-10-01",
  "themes": [
   [
@@ -8260,6 +8260,20 @@
    "d": "2025-04-10",
    "type": "officiel",
    "u": "https://www.paris.fr/pages/douchka-markovic-7941"
+  },
+  "lcp_primaire_prolongee": {
+   "t": "Primaire de la gauche: le vote prolongé jusqu'à 18 heures ce dimanche à cause de la cyberattaque",
+   "p": "LCP",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/primaire-de-la-gauche-le-vote-prolonge-jusqu-a-18-heures-ce-dimanche-a-cause-de-la"
+  },
+  "afp_primaire_dimanche": {
+   "t": "Primaire de la gauche : Glucksmann espère l'emporter dès le premier tour",
+   "p": "La DH (dépêche AFP)",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://www.dhnet.be/dernieres-depeches/2026/10/11/primaire-de-la-gauche-glucksmann-espere-lemporter-des-le-premier-tour-4G43RA6ZUNAC5IMX4VQLNOSMTM/"
   }
  },
  "presse": [
@@ -8683,6 +8697,32 @@
     "philippe"
    ],
    "txt": "Édouard Philippe annonce que, s'il est élu, il présentera une vingtaine d'ordonnances dès juillet 2027, pour une entrée en vigueur à l'automne"
+  },
+  {
+   "d": "2026-10-09",
+   "s": "lcp_primaire_prolongee",
+   "k": "campagne",
+   "c": [
+    "faure",
+    "glucksmann",
+    "guedj",
+    "maurel",
+    "royal"
+   ],
+   "txt": "Après une cyberattaque contre la plateforme de vote en ligne, le premier tour de la primaire sociale-démocrate est prolongé jusqu'au dimanche 11 octobre à 18 h ; les résultats sont annoncés à 18 h 30"
+  },
+  {
+   "d": "2026-10-11",
+   "s": "afp_primaire_dimanche",
+   "k": "campagne",
+   "c": [
+    "faure",
+    "glucksmann",
+    "guedj",
+    "maurel",
+    "royal"
+   ],
+   "txt": "Primaire sociale-démocrate : dimanche à 9 h, plus de 110 000 personnes avaient voté, selon les organisateurs ; un second tour est prévu si besoin les 16 et 17 octobre"
   }
  ],
  "sondages": [
@@ -8898,8 +8938,8 @@
  },
  "agenda": [
   [
-   "2026-10-10",
-   "Fin du premier tour de la primaire sociale-démocrate (Olivier Faure, Raphaël Glucksmann, Jérôme Guedj, Emmanuel Maurel, Ségolène Royal), à 20 h"
+   "2026-10-11",
+   "Fin du premier tour de la primaire sociale-démocrate (Olivier Faure, Raphaël Glucksmann, Jérôme Guedj, Emmanuel Maurel, Ségolène Royal) : vote prolongé jusqu'à 18 h après une cyberattaque, résultats annoncés à 18 h 30"
   ],
   [
    "2026-10-17",
