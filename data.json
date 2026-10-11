@@ -9552,7 +9552,120 @@
     "sujet_retraites_cor_ra2026",
     "sujet_retraites_cor_repartition",
     "sujet_retraites_ar_chiffres"
-   ]
+   ],
+   "story": {
+    "s1": {
+     "v": "64 ans",
+     "u": "C'est l'âge légal de départ à la retraite pour les personnes nées à partir de 1969.",
+     "txt": "Les cotisations de ceux qui travaillent paient chaque année les pensions des retraités : c'est la retraite par répartition. Sans assez de trimestres, la pension baisse, sauf si l'on part à 67 ans.",
+     "src": [
+      "sujet_retraites_cor_repartition",
+      "sujet_retraites_sp_suspension",
+      "sujet_retraites_sp_decote"
+     ]
+    },
+    "s2": {
+     "v": "2,5",
+     "u": "personnes de 20 à 64 ans pour 1 personne de 65 ans et plus, en 2025.",
+     "barres": [
+      [
+       "2009",
+       3.6,
+       "3,6"
+      ],
+      [
+       "2025",
+       2.5,
+       "2,5"
+      ]
+     ],
+     "txt": "Il y a donc moins de personnes en âge de travailler pour chaque personne de 65 ans et plus qu'en 2009.",
+     "src": [
+      "sujet_retraites_cor_ra2026"
+     ]
+    },
+    "s3": {
+     "t": "La hausse de l'âge légal est suspendue jusqu'en 2028",
+     "items": [
+      {
+       "d": "1er septembre 2026",
+       "txt": "La suspension s'applique aux retraites qui commencent à partir de cette date. Pour les personnes nées de 1964 à 1968, l'âge légal va de 62 ans et 9 mois à 63 ans et 9 mois."
+      },
+      {
+       "d": "30 décembre 2025",
+       "txt": "La loi de financement de la Sécurité sociale pour 2026 suspend jusqu'en 2028 la hausse de l'âge légal et du nombre de trimestres prévue en 2023."
+      },
+      {
+       "d": "14 avril 2023",
+       "txt": "La réforme des retraites relève l'âge légal de 62 à 64 ans."
+      }
+     ],
+     "src": [
+      "sujet_retraites_sp_suspension",
+      "sujet_retraites_an_qe15271",
+      "sujet_retraites_senat_2023"
+     ]
+    },
+    "s4": {
+     "t": "L'âge de départ proposé",
+     "age": true,
+     "groupes": [
+      {
+       "big": "60 ans",
+       "c": [
+        "kazib",
+        "roussel"
+       ]
+      },
+      {
+       "big": "62 ans",
+       "c": [
+        "le-pen",
+        "maurel",
+        "melenchon"
+       ]
+      },
+      {
+       "big": "63 ans",
+       "c": [
+        "retailleau"
+       ]
+      },
+      {
+       "big": "64 ans",
+       "ref": "La règle actuelle, pour les personnes nées à partir de 1969"
+      },
+      {
+       "big": "65 ans",
+       "c": [
+        "philippe"
+       ]
+      }
+     ],
+     "autres": "font des propositions sans fixer d'âge légal : durée de travail, pénibilité, âge du taux plein, capitalisation, montant des pensions. Les conditions sont dans chaque proposition.",
+     "ids": [
+      "p002",
+      "p010",
+      "p022",
+      "p027",
+      "p035",
+      "p041",
+      "p051",
+      "p056",
+      "p065",
+      "p074",
+      "p084",
+      "p098",
+      "p109",
+      "p112",
+      "p119",
+      "p128",
+      "p138",
+      "p155",
+      "p156"
+     ]
+    }
+   }
   },
   "travail": {
    "trente": {
@@ -9909,7 +10022,131 @@
     "sujet_education_depp_pisa2025",
     "sujet_education_senat_prioritaire",
     "sujet_education_senat_plf2026"
-   ]
+   ],
+   "story": {
+    "s1": {
+     "v": "12,46",
+     "u": "millions d'élèves et d'apprentis en 2025-2026",
+     "barresTitre": "Dont",
+     "barres": [
+      [
+       "6,15 millions d'écoliers",
+       6.15
+      ],
+      [
+       "3,36 millions de collégiens",
+       3.36
+      ],
+      [
+       "2,26 millions de lycéens",
+       2.26
+      ]
+     ],
+     "txt": "L'État fixe les programmes et gère les 851 500 enseignants. Les communes, les départements et les régions s'occupent des bâtiments.",
+     "src": [
+      "sujet_education_men_etat",
+      "sujet_education_men_collectivites",
+      "sujet_education_depp_enc2026"
+     ]
+    },
+    "s2": {
+     "v": "458",
+     "u": "points en maths pour la France à l'enquête PISA 2025",
+     "chips": [
+      [
+       "16 points de moins qu'en 2022",
+       true
+      ],
+      [
+       "Moyenne des pays de l'OCDE : 463",
+       false
+      ]
+     ],
+     "points": {
+      "a": 29,
+      "b": 36,
+      "big": "36 sur 100",
+      "txt": "élèves sous le niveau 2, le seuil des compétences de base de l'enquête",
+      "la": "29 sur 100 en 2022",
+      "lb": "7 de plus en 2025"
+     },
+     "src": [
+      "sujet_education_depp_pisa2025"
+     ]
+    },
+    "s3": {
+     "t": "Plus de téléphone portable à l'école, de la maternelle au lycée",
+     "items": [
+      {
+       "d": "Rentrée 2026",
+       "txt": "Le téléphone portable des élèves est interdit dans toutes les écoles, tous les collèges et tous les lycées."
+      },
+      {
+       "d": "Concours 2026",
+       "txt": "Les premiers concours de professeurs à bac+3, suivis de deux années de formation payée."
+      },
+      {
+       "d": "Rentrée 2024",
+       "txt": "En 6e et en 5e, le français et les maths se font en groupes de besoins, avec le même programme pour tous."
+      }
+     ],
+     "src": [
+      "sujet_education_men_telephone",
+      "sujet_education_men_concours2026",
+      "sujet_education_men_college"
+     ]
+    },
+    "s4": {
+     "t": "Les idées qui reviennent le plus souvent",
+     "groupes": [
+      {
+       "l": "Moins d'élèves par classe",
+       "c": [
+        "attal",
+        "faure",
+        "glucksmann",
+        "melenchon",
+        "roussel",
+        "tondelier"
+       ]
+      },
+      {
+       "l": "Des professeurs mieux payés",
+       "c": [
+        "attal",
+        "faure",
+        "glucksmann",
+        "philippe",
+        "tondelier"
+       ]
+      },
+      {
+       "l": "Un examen avant l'entrée en 6e",
+       "c": [
+        "attal",
+        "retailleau"
+       ]
+      }
+     ],
+     "aussi": "Et aussi : repas gratuits, rénovation des bâtiments, fin de la carte scolaire, structures pour les élèves perturbateurs, groupes de niveau, uniforme.",
+     "ids": [
+      "p011",
+      "p012",
+      "p020",
+      "p033",
+      "p039",
+      "p046",
+      "p053",
+      "p069",
+      "p083",
+      "p102",
+      "p103",
+      "p104",
+      "p149",
+      "p150"
+     ]
+    }
+   }
   },
   "ecologie": {
    "trente": {
@@ -11092,5 +11329,45 @@
     "sujet_pouvoir_coj_rua"
    ]
   }
+ },
+ "semaine": {
+  "d": "2026-10-11",
+  "titre": [
+   "Une primaire prolongée après une cyberattaque,",
+   "{n} propositions ajoutées,",
+   "une nouvelle candidature."
+  ],
+  "ecrans": [
+   {
+    "k": "Primaire sociale-démocrate",
+    "t": "Le vote est prolongé jusqu'à dimanche 18 h",
+    "txt": "Vendredi, une cyberattaque a ralenti la plateforme de vote en ligne. Le premier tour devait finir samedi à 20 h. Résultats annoncés dimanche à 18 h 30.",
+    "stat": {
+     "pre": "Plus de",
+     "v": "110 000",
+     "u": "personnes avaient voté dimanche à 9 h, selon les organisateurs"
+    },
+    "c": [
+     "faure",
+     "glucksmann",
+     "guedj",
+     "maurel",
+     "royal"
+    ],
+    "src": [
+     "lcp_primaire_prolongee",
+     "afp_primaire_dimanche"
+    ]
+   },
+   {
+    "k": "Nouvelle candidature",
+    "c1": "markovic",
+    "txt": "Présentée par son parti le 2 octobre 2026. Elle doit encore recevoir les parrainages de 500 élus pour pouvoir se présenter.",
+    "src": [
+     "markovic_pa_communique",
+     "huff_markovic"
+    ]
+   }
+  ]
  }
 }

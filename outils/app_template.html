@@ -498,6 +498,138 @@ details.srcs.card { padding: 14px 16px; }
 .poster .said { font-size: 0.95rem; line-height: 1.45; color: var(--on-reel); opacity: .92; max-width: 40ch; border-left: 3px solid rgba(255, 255, 255, .4); padding-left: 12px; }
 .poster .more-btn.play { align-self: flex-start; }
 .more-btn.as-link { display: inline-flex; justify-content: center; align-items: center; gap: 6px; text-decoration: none; }
+/* Vidéos : chaque sujet en stories */
+.wk { display: flex; gap: 14px; align-items: center; width: 100%; padding: 16px; border: 0; border-radius: 20px; background: var(--reel-b); color: var(--on-reel); text-align: left; font: inherit; cursor: pointer; }
+.wk .ring { flex: none; width: 68px; height: 68px; box-sizing: border-box; border-radius: 50%; border: 3px solid #8EA2FF; padding: 3px; }
+.wk .ring > span { width: 100%; height: 100%; border-radius: 50%; background: #1F3FD1; color: #FFFFFF; display: grid; place-items: center; }
+.wk .ring svg { width: 26px; height: 26px; }
+.wk .tx { display: grid; gap: 4px; min-width: 0; }
+.wk .k { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; color: var(--on-reel-2); }
+.wk b { font-family: var(--f-display); font-size: 1.08rem; line-height: 1.25; }
+.wk .m { font-size: 0.8rem; color: var(--on-reel-2); }
+.circles { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 18px 8px; }
+.sc { display: grid; justify-items: center; align-content: start; gap: 8px; border: 0; background: none; padding: 0; font: inherit; color: var(--ink); cursor: pointer; }
+.sc .ring { position: relative; width: 72px; height: 72px; box-sizing: border-box; border-radius: 50%; border: 3px solid var(--line); padding: 3px; }
+.sc .ring.new { border-color: var(--bleu); }
+.sc .ring > span:first-child { width: 100%; height: 100%; border-radius: 50%; background: var(--chip); color: var(--ink-2); display: grid; place-items: center; }
+.sc .ring.new > span:first-child { background: var(--bleu-soft); color: var(--bleu); }
+.sc .ring svg { width: 26px; height: 26px; }
+.sc .nb { position: absolute; right: -8px; top: -4px; background: var(--bleu); color: #FFFFFF; font-size: 0.7rem; font-weight: 700; line-height: 1; padding: 4px 6px; border-radius: 999px; border: 2px solid var(--bg); }
+.sc .lb { font-size: 0.8rem; font-weight: 600; line-height: 1.25; text-align: center; }
+.sc:hover .ring { border-color: var(--bleu-2); }
+.story { position: fixed; inset: 0; z-index: 70; background: #0B1238; color: #FFFFFF; display: flex; justify-content: center; }
+.st-in { position: relative; width: min(100%, 480px); height: 100%; overflow: hidden; }
+.st-bg { position: absolute; right: -70px; bottom: 30px; width: 300px; height: 300px; color: rgba(255, 255, 255, .06); pointer-events: none; }
+.st-bg svg { width: 100%; height: 100%; stroke-width: 0.9 !important; }
+.st-prog { position: absolute; left: 12px; right: 12px; top: calc(12px + env(safe-area-inset-top, 0px)); display: flex; gap: 4px; z-index: 3; }
+.st-prog i { flex: 1; height: 3px; border-radius: 2px; background: rgba(255, 255, 255, .28); overflow: hidden; }
+.st-prog b { display: block; height: 100%; width: 0; background: #FFFFFF; }
+.st-head { position: absolute; left: 14px; right: 4px; top: calc(22px + env(safe-area-inset-top, 0px)); height: 52px; display: flex; align-items: center; gap: 10px; z-index: 3; }
+.st-ic { flex: none; width: 36px; height: 36px; border-radius: 50%; background: #1F3FD1; display: grid; place-items: center; }
+.st-ic svg { width: 20px; height: 20px; }
+.st-tt { flex: 1; display: grid; gap: 1px; min-width: 0; }
+.st-tt b { font-size: 0.95rem; }
+.st-tt > span { font-size: 0.78rem; color: #C9D3F7; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.st-head button { width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: #FFFFFF; display: grid; place-items: center; cursor: pointer; flex: none; }
+.st-head button svg { width: 22px; height: 22px; }
+.st-body { position: absolute; left: 0; right: 0; top: calc(84px + env(safe-area-inset-top, 0px)); bottom: 0; padding: 18px 24px calc(24px + env(safe-area-inset-bottom, 0px)); overflow: hidden; }
+.st-fit { display: flex; flex-direction: column; gap: 16px; min-height: 100%; transform-origin: top left; }
+.st-zone { position: absolute; top: calc(84px + env(safe-area-inset-top, 0px)); bottom: 0; border: 0; padding: 0; background: transparent; cursor: pointer; z-index: 2; touch-action: manipulation; -webkit-tap-highlight-color: transparent; }
+.st-zone.p { left: 0; width: 30%; }
+.st-zone.n { right: 0; width: 70%; }
+.story.last .st-zone { display: none; }
+.st-k { font-size: 0.78rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: #9FB0F5; }
+.st-hero { font-family: var(--f-display); font-weight: 800; line-height: 0.92; letter-spacing: -0.03em; font-size: var(--fs, 96px); overflow-wrap: anywhere; }
+.st-u { font-size: 1.28rem; line-height: 1.3; font-weight: 600; }
+.st-t { font-family: var(--f-display); font-weight: 800; font-size: 2rem; line-height: 1.08; }
+.st-lines { display: grid; gap: 8px; }
+.st-lines .st-t { font-size: 2.35rem; line-height: 1.05; }
+.st-p { margin: 0; font-size: 1rem; line-height: 1.5; color: #C9D3F7; }
+.st-p.strong { font-size: 1.08rem; color: #FFFFFF; }
+.st-src { margin-top: auto; font-size: 0.78rem; line-height: 1.4; color: #9AA6CF; }
+.st-foot { margin-top: auto; display: grid; gap: 12px; }
+.st-foot .st-src { margin-top: 0; }
+.st-hint { justify-self: start; font-size: 0.82rem; font-weight: 600; padding: 8px 12px; border-radius: 999px; background: rgba(255, 255, 255, .12); }
+.st-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+.st-chip { font-size: 0.86rem; font-weight: 600; padding: 6px 10px; border-radius: 999px; background: rgba(255, 255, 255, .14); }
+.st-chip.warm { background: rgba(255, 107, 129, .2); color: #FFD3DA; }
+.st-row { display: flex; align-items: baseline; gap: 12px; flex-wrap: wrap; }
+.st-card { display: grid; gap: 4px; padding: 14px; border-radius: 14px; background: rgba(255, 255, 255, .07); font-size: 0.95rem; line-height: 1.4; }
+.st-card > span:first-child { font-size: 0.86rem; color: #C9D3F7; }
+.st-mid { font-family: var(--f-display); font-weight: 800; font-size: 3rem; line-height: 1; letter-spacing: -0.02em; }
+.st-bars { display: grid; gap: 10px; }
+.st-bars .ttl { font-size: 0.82rem; font-weight: 600; color: #C9D3F7; }
+.st-bar { display: grid; gap: 5px; font-size: 0.94rem; }
+.st-bar .tr { height: 12px; border-radius: 6px; background: rgba(255, 255, 255, .1); }
+.st-bar .tr i { display: block; height: 100%; border-radius: 6px; background: #FFFFFF; }
+.st-bar:nth-of-type(3n+2) .tr i { background: #8EA2FF; }
+.st-bar:nth-of-type(3n) .tr i { background: #5B73E3; }
+.st-bar.yr { grid-template-columns: 48px minmax(0, 1fr) 36px; gap: 10px; align-items: center; }
+.st-bar.yr span { color: #C9D3F7; }
+.st-bar.yr .tr { height: 26px; border-radius: 8px; }
+.st-bar.yr .tr i { border-radius: 8px; background: #5B73E3; }
+.st-bar.yr:last-child .tr i { background: #FFFFFF; }
+.st-dots { display: grid; grid-template-columns: 172px minmax(0, 1fr); gap: 16px; align-items: center; }
+.st-dots .g { display: grid; grid-template-columns: repeat(10, 12px); gap: 5px; }
+.st-dots .g i { width: 12px; height: 12px; border-radius: 50%; background: rgba(255, 255, 255, .16); }
+.st-dots .g i.a { background: #FFFFFF; }
+.st-dots .g i.b { background: #FF6B81; }
+.st-dots .lg { display: grid; gap: 8px; font-size: 0.92rem; line-height: 1.4; }
+.st-dots .lg b { font-family: var(--f-display); font-size: 1.9rem; line-height: 1; }
+.st-dots .lg span { display: flex; align-items: center; gap: 6px; font-size: 0.8rem; color: #C9D3F7; }
+.st-dots .lg span i { flex: none; width: 10px; height: 10px; border-radius: 50%; background: #FFFFFF; }
+.st-dots .lg span i.b { background: #FF6B81; }
+.st-tl { position: relative; display: grid; gap: 16px; padding-left: 26px; }
+.st-tl::before { content: ""; position: absolute; left: 5px; top: 6px; bottom: 6px; width: 2px; background: rgba(255, 255, 255, .25); transform-origin: top; }
+.st-tl > div { position: relative; display: grid; gap: 4px; }
+.st-tl > div::before { content: ""; position: absolute; left: -26px; top: 4px; width: 12px; height: 12px; border-radius: 50%; background: #5B73E3; }
+.st-tl > div:first-child::before { background: #FFFFFF; }
+.st-tl b { font-size: 0.95rem; }
+.st-tl span { font-size: 0.96rem; line-height: 1.45; color: #DDE3FA; }
+.st-grp { display: grid; grid-template-columns: 40px minmax(0, 1fr); gap: 10px; align-items: start; padding: 10px 12px; border-radius: 14px; background: rgba(255, 255, 255, .06); }
+.st-grp > b { font-family: var(--f-display); font-weight: 800; font-size: 2.2rem; line-height: 1; }
+.st-grp .st-chips { gap: 4px; }
+.st-grp .st-chip { font-size: 0.78rem; padding: 4px 8px; }
+.st-grp > div { display: grid; gap: 7px; min-width: 0; }
+.st-grp .ttl { font-weight: 700; font-size: 1rem; line-height: 1.25; }
+.st-grp.age { grid-template-columns: 74px minmax(0, 1fr); align-items: baseline; gap: 12px; }
+.st-grp.age > b { font-size: 1.35rem; }
+.st-grp.age > span { font-size: 0.95rem; line-height: 1.4; }
+.st-grp.ref { background: transparent; border: 1.5px dashed rgba(255, 255, 255, .5); }
+.st-grp.ref > span { color: #C9D3F7; }
+.st-list { display: grid; gap: 8px; }
+.st-li { display: grid; gap: 3px; padding: 10px 12px; border-radius: 14px; background: rgba(255, 255, 255, .06); }
+.st-li b { font-size: 1rem; line-height: 1.3; }
+.st-li span { font-size: 0.84rem; color: #C9D3F7; }
+.st-who .mono { --s: 84px; background: rgba(255, 255, 255, .12); color: #FFFFFF; box-shadow: 0 0 0 2px rgba(255, 255, 255, .5); }
+.st-name { display: grid; gap: 6px; }
+.st-name b { font-family: var(--f-display); font-weight: 800; font-size: 2.6rem; line-height: 1; }
+.st-name span { font-size: 1.1rem; color: #C9D3F7; }
+.st-btns { display: grid; gap: 10px; }
+.st-btn { min-height: 52px; display: flex; align-items: center; justify-content: center; border-radius: 999px; border: 1.5px solid rgba(255, 255, 255, .6); color: #FFFFFF; font-size: 1rem; font-weight: 600; text-decoration: none; background: transparent; }
+.st-btn:hover { color: #FFFFFF; background: rgba(255, 255, 255, .08); }
+.st-btn.main { background: #FFFFFF; color: #0B1238; border-color: #FFFFFF; font-weight: 700; }
+.st-btn.main:hover { background: #E8ECFD; color: #0B1238; }
+.st-again { justify-self: center; align-self: center; min-height: 44px; padding: 0 16px; border: 0; background: transparent; color: #C9D3F7; font: inherit; font-weight: 600; cursor: pointer; }
+.story a:focus-visible, .story button:focus-visible { outline: 2px solid #FFFFFF; outline-offset: 2px; }
+@media (max-height: 700px) { .st-hero { font-size: calc(var(--fs, 96px) * .78); } .st-lines .st-t, .st-t { font-size: 1.7rem; } .st-fit { gap: 12px; } }
+@media (prefers-reduced-motion: no-preference) {
+  .story { animation: fade .18s ease-out; }
+  .story .in { animation: stIn .6s cubic-bezier(.2, .8, .2, 1) both; animation-delay: var(--d, 0ms); }
+  .story .pop { animation: stPop .4s cubic-bezier(.3, 1.4, .5, 1) both; animation-delay: var(--d, 0ms); }
+  .story .tr i { animation: stGrow 1s cubic-bezier(.2, .8, .2, 1) both; animation-delay: var(--d, 0ms); }
+  .story .st-dots .g i.a, .story .st-dots .g i.b { animation: stDot .3s ease both; animation-delay: var(--d, 0ms); }
+  .story .st-tl::before { animation: stLine 1.6s ease both; animation-delay: .5s; }
+  .story .st-bg { animation: stDrift 40s linear both; }
+  .story.paused, .story.paused * { animation-play-state: paused !important; }
+  @keyframes fade { from { opacity: 0; } }
+  @keyframes stIn { from { opacity: 0; transform: translateY(22px); } }
+  @keyframes stPop { from { opacity: 0; transform: scale(.6); } }
+  @keyframes stGrow { from { width: 0; } }
+  @keyframes stDot { from { background: rgba(255, 255, 255, .16); transform: scale(.8); } }
+  @keyframes stLine { from { transform: scaleY(0); } }
+  @keyframes stDrift { to { transform: translate(-60px, -40px) rotate(8deg); } }
+}
 </style>
 </head>
 <body>
@@ -842,7 +974,234 @@ function reel(card) {
     </div>
   </article>`;
 }
+/* ---------- Vidéos : chaque sujet en stories ----------
+   Les stories ne contiennent rien de nouveau : elles reprennent les fiches « Comprendre le sujet » et les propositions,
+   avec leurs sources. Un écran « candidats » rédigé à la main n'est utilisé que s'il couvre exactement les propositions du sujet ;
+   sinon l'appli montre des exemples tirés au hasard. */
+const STORY_DUR = 7000;
+const SEM_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="4" y="5.5" width="16" height="14.5" rx="2"/><path d="M4 10h16M8.5 3.5v4M15.5 3.5v4"/></svg>';
+const PAUSE_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:currentColor"><rect x="6.5" y="5" width="4" height="14" rx="1"/><rect x="13.5" y="5" width="4" height="14" rx="1"/></svg>';
+const PLAY_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:currentColor"><path d="M8 5.5v13l10.5-6.5z"/></svg>';
+const X_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2;stroke-linecap:round"><path d="M6 6l12 12M18 6L6 18"/></svg>';
+const HINT = "Touchez à droite pour avancer, restez appuyé pour faire pause";
+const D = ms => ` style="--d:${ms}ms"`;
+const byTri = (a, b) => (CAND[a] ? CAND[a].tri : a).localeCompare(CAND[b] ? CAND[b].tri : b, "fr");
+const plural = (n, w) => `${n} ${w}${n > 1 ? "s" : ""}`;
+const RM = () => window.matchMedia && matchMedia("(prefers-reduced-motion: reduce)").matches;
+function stSrc(ids, foot) {
+  const names = [];
+  [].concat(...ids.map(x => [].concat(x || []))).forEach(id => { const s = SRC[id]; if (s && !names.includes(s.p)) names.push(s.p); });
+  return names.length ? `<span class="st-src">Source${names.length > 1 ? "s" : ""} : ${esc(names.join(" · "))}</span>` : "";
+}
+/* Grand chiffre : il défile jusqu'à sa valeur, sauf en pause ou si le téléphone demande moins d'animations */
+function stNum(v, d, cls = "st-hero", anim = true) {
+  const s = String(v), len = s.length, fs = len <= 4 ? 104 : len <= 7 ? 84 : len <= 12 ? 58 : 42;
+  const m = s.match(/^(-?\d{1,3}(?:[   ]\d{3})+(?:,\d+)?|-?\d+(?:,\d+)?)(\D*)$/);
+  const st = ` style="--d:${d}ms;--fs:${fs}px"`, c = `${cls}${anim ? " in" : ""}`;
+  if (!m) return `<b class="${c}"${st}>${esc(s)}</b>`;
+  const n = parseFloat(m[1].replace(/[   ]/g, "").replace(",", ".")), dec = (m[1].split(",")[1] || "").length;
+  return `<b class="${c}"${st} data-n="${n}" data-dec="${dec}" data-d="${d}" data-suf="${esc(m[2])}" data-fin="${esc(s)}">${esc(s)}</b>`;
+}
+const firstSentence = t => { const m = String(t).match(/^.{40,}?[.!?](?=\s+[A-ZÀ-ÝÉ«]|$)/); return m ? m[0] : String(t); };
+const sentencesUpTo = (t, max) => { let out = ""; for (const s of String(t).match(/[^.!?]+[.!?]+(\s|$)/g) || [String(t)]) { if (out && (out + s).length > max) break; out += s; } return out.trim(); };
+const sameIds = (a, b) => a && b && a.length === b.length && a.slice().sort().join() === b.slice().sort().join();
+function stBars(rows, d, title) {
+  const max = Math.max(...rows.map(r => r[1]));
+  return `<div class="st-bars in"${D(d)}>${title ? `<span class="ttl">${esc(title)}</span>` : ""}${rows.map((r, j) => `<div class="st-bar"><span>${esc(r[0])}</span><span class="tr"><i style="width:${(r[1] / max * 100).toFixed(1)}%;--d:${d + 150 + j * 150}ms"></i></span></div>`).join("")}</div>`;
+}
+function stYears(rows, d) {
+  const max = Math.max(...rows.map(r => r[1]));
+  return `<div class="st-bars in"${D(d)}>${rows.map((r, j) => `<div class="st-bar yr"><span>${esc(r[0])}</span><span class="tr"><i style="width:${(r[1] / max * 100).toFixed(1)}%;--d:${d + 200 + j * 300}ms"></i></span><b>${esc(r[2])}</b></div>`).join("")}</div>`;
+}
+function stDots(P, d) {
+  let g = "";
+  for (let k = 0; k < 100; k++) g += k < P.b ? `<i class="${k < P.a ? "a" : "b"}" style="--d:${d + 300 + k * 35}ms"></i>` : "<i></i>";
+  return `<div class="st-dots in"${D(d)}><div class="g" role="img" aria-label="${esc(P.big + " " + P.txt)}">${g}</div><div class="lg"><b>${esc(P.big)}</b>${esc(P.txt)}<span><i></i>${esc(P.la)}</span><span><i class="b"></i>${esc(P.lb)}</span></div></div>`;
+}
+function stTimeline(items, d) { return `<div class="st-tl">${items.map((it, j) => `<div class="in"${D(d + j * 800)}><b>${esc(it.d)}</b><span>${esc(it.txt)}</span></div>`).join("")}</div>`; }
+
+function storyTheme(k) {
+  const S = DATA.sujets && DATA.sujets[k]; if (!S || !THEME_NAME[k]) return null;
+  const C = S.story || {}, ch = S.chiffres || [];
+  const ps = DATA.propositions.filter(p => p.th === k), who = candSorted().filter(c => ps.some(p => p.c === c.id));
+  const screens = [];
+  const f0 = ch[S.tuile || 0], c1 = C.s1;
+  if (c1) screens.push(`<span class="st-k in">L'essentiel</span>${stNum(c1.v, 150)}<span class="st-u in"${D(300)}>${esc(c1.u)}</span>${c1.barres ? stBars(c1.barres, 700, c1.barresTitre) : ""}${c1.txt ? `<p class="st-p in"${D(1200)}>${esc(c1.txt)}</p>` : ""}<div class="st-foot"><span class="st-hint in"${D(2200)}>${HINT}</span>${stSrc([c1.src])}</div>`);
+  else if (f0) screens.push(`<span class="st-k in">L'essentiel</span>${stNum(f0.v, 150)}<span class="st-u in"${D(300)}>${esc(f0.l)}</span><p class="st-p in"${D(1100)}>${esc(sentencesUpTo(S.trente.txt, 280))}</p><div class="st-foot"><span class="st-hint in"${D(2200)}>${HINT}</span>${stSrc([f0.src, S.trente.src])}</div>`);
+  const c2 = C.s2, f1 = ch[(S.tuile || 0) === 1 ? 0 : 1], f2 = ch[2];
+  if (c2) screens.push(`<span class="st-k in">Un chiffre</span>${stNum(c2.v, 150)}<span class="st-u in"${D(300)}>${esc(c2.u)}</span>${c2.chips ? `<div class="st-chips in"${D(700)}>${c2.chips.map(([t, w]) => `<span class="st-chip${w ? " warm" : ""}">${esc(t)}</span>`).join("")}</div>` : ""}${c2.barres ? stYears(c2.barres, 1200) : ""}${c2.points ? stDots(c2.points, 1100) : ""}${c2.txt ? `<p class="st-p in"${D(2200)}>${esc(c2.txt)}</p>` : ""}${stSrc([c2.src])}`);
+  else if (f1) screens.push(`<span class="st-k in">Un chiffre</span>${stNum(f1.v, 150)}<span class="st-u in"${D(300)}>${esc(f1.l)}</span>${f2 && f2 !== f0 ? `<div class="st-card in"${D(1400)}><span>Et aussi</span>${stNum(f2.v, 1400, "st-mid", false)}<span>${esc(f2.l)}</span></div>` : ""}${stSrc([f1.src, f2 && f2 !== f0 ? f2.src : null])}`);
+  const c3 = C.s3, rec = (S.recent || []).slice().sort((a, b) => String(b.iso || b.date).localeCompare(String(a.iso || a.date))).slice(0, 3);
+  if (c3) screens.push(`<span class="st-k in">Ce qui a changé</span><b class="st-t in"${D(150)}>${esc(c3.t)}</b>${stTimeline(c3.items, 700)}${stSrc([c3.src])}`);
+  else if (rec.length) screens.push(`<span class="st-k in">Ce qui a changé</span>${stTimeline(rec.map(r => ({ d: r.date, txt: firstSentence(r.txt) })), 300)}${stSrc(rec.map(r => r.src))}`);
+  const c4 = C.s4, propSrc = '<span class="st-src">Sources : les propositions de chaque candidat, dans l\'onglet Propositions</span>';
+  if (!ps.length) screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>Pas encore de proposition publique sur ce sujet</b>`);
+  else if (c4 && sameIds(c4.ids, ps.map(p => p.id))) {
+    const inG = new Set([].concat(...c4.groupes.map(g => g.c || []))), others = who.filter(c => !inG.has(c.id)).length;
+    const step = c4.age ? 400 : 1200;
+    const grp = (g, d) => g.ref ? `<div class="st-grp age ref in"${D(d)}><b>${esc(g.big)}</b><span>${esc(g.ref)}</span></div>`
+      : c4.age ? `<div class="st-grp age in"${D(d)}><b>${esc(g.big)}</b><span>${esc(g.c.slice().sort(byTri).map(nom).join(", "))}</span></div>`
+      : `<div class="st-grp in"${D(d)}>${stNum(String(g.c.length), d, "st-n", false)}<div><span class="ttl">${esc(g.l)}</span><span class="st-chips">${g.c.slice().sort(byTri).map((id, j) => `<span class="st-chip pop"${D(d + 300 + j * 120)}>${esc(nom(id))}</span>`).join("")}</span></div></div>`;
+    const end = 450 + c4.groupes.length * step;
+    screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>${esc(c4.t)}</b>${c4.groupes.map((g, j) => grp(g, 450 + j * step)).join("")}${c4.autres && others ? `<p class="st-p in"${D(end)}>${others} autre${others > 1 ? "s" : ""} candidat${others > 1 ? "s" : ""} ${esc(c4.autres)}</p>` : ""}${c4.aussi ? `<p class="st-p in"${D(end)}>${esc(c4.aussi)}</p>` : ""}${propSrc}`);
+  } else {
+    const pick = shuffle(who.slice()).slice(0, 4).map(c => { const mine = ps.filter(p => p.c === c.id); return { c, p: mine[Math.floor(Math.random() * mine.length)] }; });
+    screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>${who.length > 1 ? `${who.length} candidats ont fait des propositions` : "1 candidat a fait une proposition"}</b><div class="st-list">${pick.map((x, j) => `<div class="st-li in"${D(700 + j * 700)}><b>${esc(x.p.t)}</b><span>${esc(x.c.nom)}</span></div>`).join("")}</div>${ps.length > pick.length ? `<p class="st-p in"${D(700 + pick.length * 700)}>Et ${ps.length - pick.length} autre${ps.length - pick.length > 1 ? "s" : ""} proposition${ps.length - pick.length > 1 ? "s" : ""}. Les exemples sont tirés au hasard à chaque fois.</p>` : ""}${propSrc}`);
+  }
+  screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} sur ce sujet</span>` : `<b class="st-t in"${D(150)}>${esc(THEME_NAME[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#t-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-${k}">Comprendre le sujet en détail</a></div><button type="button" class="st-again" data-st-again>Revoir la story</button><span class="st-src">Tous les chiffres de cette story viennent de la fiche « Comprendre le sujet » et des propositions de l'appli.</span>`);
+  return { title: THEME_NAME[k], sub: `Un sujet en ${screens.length} écrans`, icon: svg(k), screens };
+}
+/* Semaine : les écrans rédigés de la mise à jour, puis les propositions ajoutées et l'agenda, calculés à partir des données */
+function weekWindow() {
+  const W = DATA.semaine; if (!W) return null;
+  const from = new Date(dt(W.d).getTime() - 7 * 86400000).toISOString().slice(0, 10);
+  return { W, from, added: DATA.propositions.filter(p => p.aj > from && p.aj <= W.d) };
+}
+const todayIso = () => { const t = new Date(); return `${t.getFullYear()}-${String(t.getMonth() + 1).padStart(2, "0")}-${String(t.getDate()).padStart(2, "0")}`; };
+const fmtWDM = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
+const fmtDMY = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long", year: "numeric" });
+const fmtDL = new Intl.DateTimeFormat("fr-FR", { day: "numeric", month: "long" });
+const fmtAg = d => d.length === 7 ? cap(fmtM.format(dt(d + "-15"))) : d.slice(0, 4) === todayIso().slice(0, 4) ? cap(fmtWDM.format(dt(d))) : cap(fmtDMY.format(dt(d)));
+function storySemaine() {
+  const w = weekWindow(); if (!w) return null;
+  const { W, added } = w, fill = s => s.replace("{n}", added.length);
+  const byTh = DATA.themes.map(([k, l]) => [l, added.filter(p => p.th === k).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "fr"));
+  const screens = [];
+  screens.push(`<span class="st-k in">Cette semaine dans la campagne</span><div class="st-lines">${W.titre.map((l, j) => `<b class="st-t in"${D(200 + j * 700)}>${esc(fill(l))}</b>`).join("")}</div><p class="st-p in"${D(200 + W.titre.length * 700)}>Mise à jour du ${esc(fmtWDM.format(dt(W.d)))} ${dt(W.d).getFullYear()}. Les sondages restent à part, dans le dernier onglet.</p><div class="st-foot"><span class="st-hint in"${D(2800)}>${HINT}</span></div>`);
+  (W.ecrans || []).forEach(E => {
+    let h = `<span class="st-k in">${esc(E.k)}</span>`;
+    if (E.c1 && CAND[E.c1]) h += `<span class="st-who pop"${D(200)}>${mono(E.c1, "l")}</span><div class="st-name in"${D(400)}><b>${esc(nom(E.c1))}</b><span>${esc(CAND[E.c1].parti)}</span></div>`;
+    if (E.t) h += `<b class="st-t in"${D(150)}>${esc(E.t)}</b>`;
+    if (E.txt) h += `<p class="st-p strong in"${D(800)}>${esc(E.txt)}</p>`;
+    if (E.c1) h += `<p class="st-p in"${D(1400)}>L'appli compte désormais ${DATA.candidats.length} candidatures déclarées.</p>`;
+    if (E.stat) h += `<div class="st-card in"${D(1400)}><span>${esc(E.stat.pre || "")}</span>${stNum(E.stat.v, 1400, "st-mid", false)}<span>${esc(E.stat.u)}</span></div>`;
+    if (E.c && E.c.length) h += `<div class="st-chips">${E.c.slice().sort(byTri).map((id, j) => `<span class="st-chip pop"${D(2300 + j * 140)}>${esc(nom(id))}</span>`).join("")}</div>`;
+    screens.push(h + stSrc([E.src]));
+  });
+  if (added.length) screens.push(`<span class="st-k in">Ajoutées cette semaine</span><div class="st-row in"${D(150)}>${stNum(String(added.length), 150, "st-hero", false)}<span class="st-u">proposition${added.length > 1 ? "s" : ""}, sur ${plural(byTh.length, "sujet")}</span></div><div class="st-chips">${byTh.map(([l, n], j) => `<span class="st-chip pop"${D(800 + j * 110)}>${esc(l)} · ${n}</span>`).join("")}</div><p class="st-p in"${D(900 + byTh.length * 110)}>Chacune avec l'article ou le document qui l'annonce, dans l'onglet Propositions.</p>`);
+  const t0 = todayIso(), next = DATA.agenda.filter(([d]) => (d.length === 7 ? d + "-31" : d) >= t0).slice(0, 4);
+  screens.push(`<span class="st-k in">À venir</span>${stTimeline(next.map(([d, t]) => ({ d: fmtAg(d), txt: t })), 400)}<div class="st-foot in"${D(600 + next.length * 800)}><a class="st-btn main" href="#actu">Lire toute l'actu</a><button type="button" class="st-again" data-st-again>Revoir la story</button></div>`);
+  return { title: "Cette semaine", sub: `Mise à jour du ${fmtDM.format(dt(W.d))}`, icon: SEM_ICO, screens };
+}
+
+/* Lecteur de story : plein écran, avance seul toutes les 7 secondes, pause en restant appuyé */
+let story = null;
+function openStory(key) {
+  const S = key === "semaine" ? storySemaine() : key.startsWith("th:") ? storyTheme(key.slice(3)) : null;
+  if (!S || !S.screens.length) return;
+  if (story) closeStory(true);
+  const el = document.createElement("div");
+  el.className = "story"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Story : " + S.title);
+  el.innerHTML = `<div class="st-in"><div class="st-bg" aria-hidden="true">${S.icon}</div><div class="st-prog" aria-hidden="true">${S.screens.map(() => "<i><b></b></i>").join("")}</div>
+  <div class="st-head"><span class="st-ic" aria-hidden="true">${S.icon}</span><span class="st-tt"><b>${esc(S.title)}</b><span><span class="st-pos"></span> · ${esc(S.sub)}</span></span><button type="button" class="st-pp" aria-label="Mettre en pause">${PAUSE_ICO}</button><button type="button" class="st-x" aria-label="Fermer la story">${X_ICO}</button></div>
+  <div class="st-body"></div>
+  <button type="button" class="st-zone p" aria-label="Écran précédent"></button><button type="button" class="st-zone n" aria-label="Écran suivant"></button></div>`;
+  document.body.appendChild(el); document.body.classList.add("locked");
+  story = { el, S, key, i: 0, t: 0, playing: true, from: document.activeElement, last: performance.now(), downAt: 0, held: false, before: true, raf: 0 };
+  history.pushState({ story: key }, "");
+  stShow(0);
+  el.querySelector(".st-x").focus({ preventScroll: true });
+  story.raf = requestAnimationFrame(stTick);
+}
+function closeStory(silent) {
+  if (!story) return;
+  cancelAnimationFrame(story.raf);
+  const from = story.from; story.el.remove(); story = null;
+  if (!sheetEl) document.body.classList.remove("locked");
+  if (!silent && history.state && history.state.story) history.back();
+  if (from && document.contains(from)) from.focus({ preventScroll: true });
+}
+function stShow(i) {
+  story.i = i; story.t = 0;
+  story.el.querySelector(".st-body").innerHTML = `<div class="st-fit">${story.S.screens[i]}</div>`;
+  story.el.querySelector(".st-pos").textContent = `${i + 1} sur ${story.S.screens.length}`;
+  story.el.classList.toggle("last", i === story.S.screens.length - 1);
+  stPlay(true);
+  stFit();
+}
+function stPlay(on) {
+  story.playing = on;
+  story.el.classList.toggle("paused", !on);
+  const b = story.el.querySelector(".st-pp");
+  b.innerHTML = on ? PAUSE_ICO : PLAY_ICO; b.setAttribute("aria-label", on ? "Mettre en pause" : "Lire la story");
+  stCount();
+}
+/* Si un écran est trop long pour le téléphone, on le réduit pour qu'il tienne en entier, sans rien couper */
+function stFit() {
+  if (!story) return;
+  const body = story.el.querySelector(".st-body"), fit = body.firstElementChild; if (!fit) return;
+  const cs = getComputedStyle(body), A = body.clientHeight - parseFloat(cs.paddingTop) - parseFloat(cs.paddingBottom);
+  /* hauteur réelle du contenu, sans les animations en cours (offsetTop ignore les transformations) */
+  const natural = () => { fit.style.minHeight = "0px"; const l = fit.lastElementChild; return l ? l.offsetTop + l.offsetHeight - fit.offsetTop : 0; };
+  fit.style.transform = ""; fit.style.width = "";
+  let sc = 1, H = natural();
+  for (let n = 0; n < 5 && H * sc > A + 1; n++) { sc = Math.max(0.5, Math.min(sc - 0.02, A / H)); fit.style.width = `${100 / sc}%`; H = natural(); }
+  if (sc < 1) { fit.style.transform = `scale(${sc})`; fit.style.minHeight = `${A / sc}px`; }
+  else { fit.style.width = ""; fit.style.minHeight = ""; }
+}
+window.addEventListener("resize", stFit);
+if (document.fonts) { document.fonts.ready.then(() => stFit()); document.fonts.addEventListener("loadingdone", () => stFit()); }
+function stCount() {
+  const live = story.playing && !RM();
+  story.el.querySelectorAll(".st-body [data-n]").forEach(e => {
+    const d = +e.dataset.d || 0, p = (story.t - d) / 900;
+    if (!live || p >= 1) { if (e.textContent !== e.dataset.fin) e.textContent = e.dataset.fin; return; }
+    const x = (+e.dataset.n) * (1 - Math.pow(1 - Math.max(0, p), 3)), dec = +e.dataset.dec;
+    e.textContent = (dec ? x.toFixed(dec).replace(".", ",") : String(Math.round(x)).replace(/\B(?=(\d{3})+(?!\d))/g, " ")) + e.dataset.suf;
+  });
+}
+function stTick(now) {
+  if (!story) return;
+  const dtm = Math.min(100, now - story.last); story.last = now;
+  if (story.playing) {
+    story.t += dtm;
+    if (story.t >= STORY_DUR) {
+      if (story.i < story.S.screens.length - 1) stShow(story.i + 1);
+      else { story.t = STORY_DUR; stPlay(false); }
+    }
+    stCount();
+  }
+  story.el.querySelectorAll(".st-prog b").forEach((b, k) => { b.style.width = k < story.i ? "100%" : k > story.i ? "0%" : Math.min(100, story.t / STORY_DUR * 100).toFixed(2) + "%"; });
+  story.raf = requestAnimationFrame(stTick);
+}
+function stNext() { if (story.i < story.S.screens.length - 1) stShow(story.i + 1); }
+function stPrev() { stShow(Math.max(0, story.i - 1)); }
+document.addEventListener("pointerdown", e => { if (!story || !e.target.closest(".st-zone")) return; story.downAt = performance.now(); story.before = story.playing; story.held = false; stPlay(false); });
+const stRelease = cancel => { if (!story || !story.downAt) return; story.held = !cancel && performance.now() - story.downAt > 300; story.downAt = 0; stPlay(story.before); };
+document.addEventListener("pointerup", () => stRelease(false));
+document.addEventListener("pointercancel", () => stRelease(true));
+document.addEventListener("click", e => {
+  const o = e.target.closest("[data-story]"); if (o) { e.preventDefault(); openStory(o.dataset.story); return; }
+  if (!story || !story.el.contains(e.target)) return;
+  const z = e.target.closest(".st-zone");
+  if (z) { if (story.held) { story.held = false; return; } if (z.classList.contains("n")) stNext(); else stPrev(); return; }
+  if (e.target.closest(".st-x")) { closeStory(); return; }
+  if (e.target.closest(".st-pp")) { if (!story.playing && story.i === story.S.screens.length - 1 && story.t >= STORY_DUR) stShow(0); else stPlay(!story.playing); return; }
+  if (e.target.closest("[data-st-again]")) { stShow(0); return; }
+  if (e.target.closest("a[href^='#']")) closeStory(true);
+});
+document.addEventListener("keydown", e => {
+  if (!story) return;
+  if (e.key === "Escape") closeStory();
+  else if (e.key === "ArrowRight") stNext();
+  else if (e.key === "ArrowLeft") stPrev();
+});
+document.addEventListener("visibilitychange", () => { if (document.hidden && story) stPlay(false); });
+window.addEventListener("popstate", () => { if (story) closeStory(true); });
+
 function screenVideos() {
+  const w = weekWindow(), themes = DATA.themes.filter(([k]) => DATA.sujets && DATA.sujets[k]);
+  const sem = w ? storySemaine() : null;
+  const since = w ? fmtDL.format(new Date(dt(w.from).getTime() + 86400000)) : "";
+  return `<div class="page-h"><h1>Vidéos</h1><p class="lead">Chaque sujet en quelques écrans, environ 35 secondes. Tout vient des fiches vérifiées de l'appli, avec leurs sources.</p></div>
+  ${sem ? `<button type="button" class="wk" data-story="semaine"><span class="ring"><span>${SEM_ICO}</span></span><span class="tx"><span class="k">Cette semaine · ${esc(fmtDM.format(dt(w.W.d)))}</span><b>${esc(w.W.titre.map(l => l.replace("{n}", w.added.length)).join(" "))}</b><span class="m">${sem.screens.length} écrans · environ ${sem.screens.length * STORY_DUR / 1000} secondes</span></span></button>` : ""}
+  <div class="sec-h col"><h2>Un sujet en 5 écrans</h2>${w ? `<p class="small">Le nombre sur un cercle : les propositions ajoutées depuis le ${esc(since)}.</p>` : ""}</div>
+  <div class="circles">${themes.map(([k, l]) => { const n = w ? w.added.filter(p => p.th === k).length : 0; return `<button type="button" class="sc" data-story="th:${k}" aria-label="Story : ${esc(l)}${n ? `, ${plural(n, "proposition")} ajoutée${n > 1 ? "s" : ""}` : ""}"><span class="ring${n ? " new" : ""}"><span>${svg(k)}</span>${n ? `<span class="nb" aria-hidden="true">+${n}</span>` : ""}</span><span class="lb">${esc(l)}</span></button>`; }).join("")}</div>
+  <section class="card"><h2>Le fil des propositions</h2><p class="small">Toutes les propositions des candidats, une par écran. L'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p><a class="more-btn as-link" href="#fil">Lancer le fil${ARW}</a></section>`;
+}
+
+/* Le fil des propositions (plein écran) */
+function screenFil() {
   const themes = DATA.themes.filter(([k]) => DATA.propositions.some(p => p.th === k));
   if (ui.feedTh !== "tous" && !themes.some(([k]) => k === ui.feedTh)) { ui.feedTh = "tous"; ui.feed = null; }
   if (!ui.feed) ui.feed = buildFeed();
@@ -998,7 +1357,7 @@ function screenMethode() {
     ${DATA.candidats.some(c => c.parcours) ? `<p><b>Les parcours.</b> Pour chaque candidat, le même format : un résumé, puis ses origines, son parcours et ce qu'il fait aujourd'hui. Aucune étiquette politique ni appréciation. Chaque phrase porte un numéro qui renvoie à sa source, en priorité officielle (Assemblée nationale, Sénat, Parlement européen, site du Gouvernement). La phrase sur les sujets de ses propositions est calculée automatiquement, avec la même règle pour tous.</p>` : ""}
     ${DATA.sujets ? `<p><b>Comprendre le sujet.</b> Pour chaque thème, le même plan : la situation en 30 secondes, les chiffres clés, ce qui a changé récemment, qui décide, ce qui concerne les 18-30 ans, et les grandes questions telles que les posent les rapports officiels. Uniquement des sources officielles, sans avis.</p>` : ""}
     ${DATA.kit ? `<p><b>La boîte à outils et le budget.</b> Les fiches « Avant de voter » et la page « Le budget en une image » (dans le sujet Budget de l'État) s'appuient uniquement sur des sources officielles : service-public.fr, Conseil constitutionnel, ministère de l'Intérieur, Insee.</p>` : ""}
-    <p><b>Les vidéos.</b> L'ordre du fil est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
+    <p><b>Les vidéos.</b> Les stories ne contiennent rien de nouveau : elles reprennent les fiches « Comprendre le sujet » et les propositions déjà publiées dans l'appli, avec leurs sources. Il n'y a pas de story par candidat, pour garder la même place à chacun. Quand une story montre quelques propositions en exemple, elles sont tirées au hasard. Dans le fil des propositions, l'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
     <p><b>Neutralité.</b> Même présentation pour tous, aucune couleur de parti, aucune note. Les sondages sont regroupés dans le dernier onglet, après une explication sur la façon de les lire.</p>
     <p><b>Vos données.</b> L'appli ne demande aucun compte et ne collecte rien sur vous. Seul votre choix entre mode clair et mode sombre (bouton en haut à droite) est gardé, sur votre téléphone uniquement.</p>
   </section>
@@ -1149,8 +1508,9 @@ function route() {
   let h = (location.hash || "#actu").slice(1);
   if (h === "programmes" || h === "propositions") h = "comparer";
   if (h.startsWith("t-") && THEME_NAME[h.slice(2)]) { app.classList.remove("full"); app.innerHTML = screenTheme(h.slice(2)); $("#ttl").innerHTML = esc(THEME_NAME[h.slice(2)]); const bk = $("#back"); bk.hidden = false; bk.dataset.to = "#comparer"; document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === "comparer" ? "page" : "false")); return; }
-  let tab = "actu", html, title, back = null;
-  if (h.startsWith("c-")) { tab = "candidats"; html = screenCandidat(h.slice(2)); title = nom(h.slice(2)); back = "#candidats"; }
+  let tab = "actu", html, title, back = null, full = false;
+  if (h === "fil") { tab = "videos"; html = screenFil(); title = "Le fil des propositions"; back = "#videos"; full = true; }
+  else if (h.startsWith("c-")) { tab = "candidats"; html = screenCandidat(h.slice(2)); title = nom(h.slice(2)); back = "#candidats"; }
   else if (h === "methode") { html = screenMethode(); title = "Méthode"; back = "#actu"; }
   else if (h === "sources") { html = screenSources(); title = "Sources"; back = "#methode"; }
   else if (h.startsWith("kit-")) { html = screenKit(h.slice(4)); title = "Avant de voter"; back = "#actu"; }
@@ -1158,14 +1518,14 @@ function route() {
   else if (h.startsWith("comprendre-")) { html = screenComprendre(h.slice(11)); title = THEME_NAME[h.slice(11)] || "Comprendre"; back = "#actu"; }
   else if (TAB_TITLE[h]) { tab = h; html = { candidats: screenCandidats, videos: screenVideos, comparer: screenComparer, sondages: screenSondages }[h](); title = TAB_TITLE[h]; }
   else { html = screenAccueil(); title = null; }
-  app.classList.toggle("full", tab === "videos");
+  app.classList.toggle("full", full);
   app.innerHTML = html;
   $("#ttl").innerHTML = title ? esc(title) : '<span class="wm">Programmes <em>2027</em></span>';
   const b = $("#back"); b.hidden = !back; b.dataset.to = back || "";
   document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === tab ? "page" : "false"));
 }
 function rerender() { const y = window.scrollY; route(); window.scrollTo(0, y); }
-window.addEventListener("hashchange", () => { closeMore(true); route(); window.scrollTo(0, 0); });
+window.addEventListener("hashchange", () => { closeMore(true); closeStory(true); route(); window.scrollTo(0, 0); });
 window.addEventListener("scroll", () => $("#bar").classList.toggle("scrolled", window.scrollY > 4), { passive: true });
 $("#back").addEventListener("click", e => { location.hash = e.currentTarget.dataset.to || "#actu"; });
 function setTheme(dark, save) {
