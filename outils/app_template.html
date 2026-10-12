@@ -183,6 +183,7 @@ a.row:hover .txt b { color: var(--bleu); }
 .st-publie { color: var(--ok); background: var(--ok-soft); }
 .st-partiel { color: var(--warn); background: var(--warn-soft); }
 .st-nonpublie { color: var(--mute); background: var(--mute-soft); }
+.st-primaire { color: var(--mute); background: transparent; box-shadow: inset 0 0 0 1px var(--line); }
 .newb { display: inline-block; vertical-align: 2px; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #FFFFFF; background: var(--rouge); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
 
 /* Propositions */
@@ -869,16 +870,17 @@ function screenAccueil() {
   ${screenActu(true)}`;
 }
 
-/* Actu : seulement la presse, sans les articles sur les sondages */
+/* Actu : seulement la presse, sans les articles sur les sondages. Le même jour, le dernier article ajouté passe en premier. */
+const byNewest = (a, b) => b.d.localeCompare(a.d) || DATA.presse.indexOf(b) - DATA.presse.indexOf(a);
 function screenActu(inHome) {
   const all = DATA.presse.filter(p => p.k !== "sondage");
   const cands = candSorted().filter(c => all.some(p => p.c.includes(c.id)));
   if (ui.actuC !== "tous" && !cands.some(c => c.id === ui.actuC)) ui.actuC = "tous";
-  const list = all.filter(p => ui.actuC === "tous" || p.c.includes(ui.actuC)).sort((a, b) => b.d.localeCompare(a.d));
+  const list = all.filter(p => ui.actuC === "tous" || p.c.includes(ui.actuC)).sort(byNewest);
   const days = [];
   list.forEach(p => { const last = days[days.length - 1]; if (last && last.d === p.d) last.items.push(p); else days.push({ d: p.d, items: [p] }); });
   return `
-  <div class="${inHome ? "sec-h col" : "page-h"}"><${inHome ? "h2" : "h1"}>L'actu de la campagne</${inHome ? "h2" : "h1"}><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien. À partir du dimanche 11 octobre, « L'essentiel de la semaine » résumera chaque dimanche les 10 infos à retenir.</p></div>
+  <div class="${inHome ? "sec-h col" : "page-h"}"><${inHome ? "h2" : "h1"}>L'actu de la campagne</${inHome ? "h2" : "h1"}><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien. Le résumé de la dernière mise à jour est dans <a href="#videos">En bref</a>, story « Cette semaine ».</p></div>
   <div class="chips" role="group" aria-label="Filtrer par candidat">${[["tous", "Tous"]].concat(cands.map(c => [c.id, c.nom])).map(([k, l]) => `<button class="chip" type="button" data-actu="${k}" aria-pressed="${ui.actuC === k}">${esc(l)}</button>`).join("")}</div>
   ${days.map(g => `<section class="card"><h2 class="day">${esc(cap(dayFmt.format(dt(g.d))))}${g.d.slice(0, 4) !== String(new Date().getFullYear()) ? " " + g.d.slice(0, 4) : ""}</h2><div class="rows news">${g.items.map(newsRow).join("")}</div></section>`).join("")}
   <div class="foot-links"><a href="#methode">Comment l'appli est faite</a><a href="#sources">Les sources</a></div>`;
@@ -926,25 +928,31 @@ function screenBudget() {
 
 function screenCandidats() {
   const leaf = d => { const x = dt(d.length === 7 ? d + "-15" : d); return `<span class="leaf"><small>${esc(new Intl.DateTimeFormat("fr-FR", { month: "short" }).format(x).replace(".", ""))} ${x.getFullYear() % 100}</small><b>${d.length === 7 ? "–" : x.getDate()}</b></span>`; };
+  const np = DATA.candidats.filter(c => c.statut === "primaire").length, notes = DATA.statutsNote || {};
   return `
-  <div class="page-h"><h1>Les candidats</h1><p class="lead">Les ${DATA.candidats.length} personnes qui ont annoncé publiquement leur candidature, par ordre alphabétique. La liste officielle sera publiée en mars 2027.</p></div>
+  <div class="page-h"><h1>Les candidats</h1><p class="lead">Les ${DATA.candidats.length} personnes qui ont annoncé publiquement leur candidature, par ordre alphabétique.${np ? ` ${np === 1 ? "L'une d'elles a" : `${np} d'entre elles ont`} depuis perdu une primaire.` : ""} La liste officielle sera publiée en mars 2027.</p></div>
   <div class="search"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="6" style="fill:none;stroke:currentColor;stroke-width:2"/><path d="M13 13l5 5" style="stroke:currentColor;stroke-width:2;stroke-linecap:round"/></svg><input id="qc" type="search" placeholder="Chercher un candidat ou un parti" aria-label="Chercher un candidat ou un parti" autocomplete="off"></div>
   <section class="card"><div class="rows" id="clist">${candSorted().map(c => `<a class="row" data-q="${esc((c.nom + " " + c.parti).toLowerCase())}" href="#c-${c.id}">${mono(c.id)}<span class="txt"><b>${esc(c.nom)}</b><span>${esc(c.parti)}</span><span class="st-line">${statut(c)}</span></span>${CHEV}</a>`).join("")}</div></section>
   <p class="small" id="cnone" style="padding-inline:4px" hidden>Aucun candidat ne correspond.</p>
   <p class="small" style="padding-inline:4px">« Programme en cours » : le candidat a annoncé des mesures mais n'a pas encore publié de programme complet.</p>
+  ${np && notes.primaire ? `<p class="small" style="padding-inline:4px">${esc(notes.primaire)}</p>` : ""}
   <section class="card"><h2>Les dates clés</h2><div class="agenda">${DATA.agenda.map(([d, t]) => `<div class="it">${leaf(d)}<span>${esc(t)}</span></div>`).join("")}</div></section>`;
 }
 
 /* Les sujets sur lesquels portent ses propositions publiées : même règle pour tous, calculée à partir des données */
 function themeLine(ps) {
-  if (!ps.length) return "Pas encore de proposition publiée.";
-  if (ps.length === 1) return `Sa seule proposition publiée à ce jour porte sur le sujet « ${THEME_NAME[ps[0].th]} ».`;
+  if (!ps.length) return "Aucune proposition relevée pour l'instant dans l'appli.";
+  if (ps.length === 1) return `La seule proposition relevée pour l'instant dans l'appli porte sur le sujet « ${THEME_NAME[ps[0].th]} ».`;
   const n = {}; ps.forEach(p => n[p.th] = (n[p.th] || 0) + 1);
   const top = Object.entries(n).sort((a, b) => b[1] - a[1] || THEME_NAME[a[0]].localeCompare(THEME_NAME[b[0]], "fr"));
+  if (top[0][1] === 1) {
+    const all = top.map(([k]) => `« ${THEME_NAME[k]} »`);
+    return all.length <= 4 ? `Les ${ps.length} propositions relevées dans l'appli portent chacune sur un sujet différent : ${all.slice(0, -1).join(", ")} et ${all[all.length - 1]}.` : `Les ${ps.length} propositions relevées dans l'appli portent chacune sur un sujet différent.`;
+  }
   const keep = top.filter(([, v]) => v >= Math.min(top[0][1], 2)).slice(0, 3);
   const list = (keep.length ? keep : top.slice(0, 2)).map(([k]) => `« ${THEME_NAME[k]} »`);
   const txt = list.length > 1 ? list.slice(0, -1).join(", ") + " et " + list[list.length - 1] : list[0];
-  return `Ses ${ps.length} propositions publiées portent surtout sur ${list.length > 1 ? "les sujets" : "le sujet"} ${txt}.`;
+  return `Les ${ps.length} propositions relevées dans l'appli portent surtout sur ${list.length > 1 ? "les sujets" : "le sujet"} ${txt}.`;
 }
 
 function screenCandidat(id) {
@@ -952,7 +960,7 @@ function screenCandidat(id) {
   const ps = propsOf(id);
   const themes = DATA.themes.filter(([k]) => ps.some(p => p.th === k));
   const silent = DATA.themes.filter(([k]) => !ps.some(p => p.th === k)).map(([, l]) => l);
-  const press = DATA.presse.filter(p => p.c.includes(id) && p.k !== "sondage").sort((a, b) => b.d.localeCompare(a.d));
+  const press = DATA.presse.filter(p => p.c.includes(id) && p.k !== "sondage").sort(byNewest);
   const vids = (DATA.videos || []).filter(v => v.c === id);
   const X = refBox(), pc = c.parcours;
   return `
@@ -966,7 +974,7 @@ function screenCandidat(id) {
     <p class="credit">${photoCredit(c)}</p>
   </section>
   ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="props">${ps.filter(p => p.th === k).map(propItem).join("")}</div></section>`).join("")}
-  ${silent.length ? `<p class="silent" style="padding-inline:4px">Pas encore de proposition publique sur : ${silent.map(esc).join(", ")}.</p>` : ""}
+  ${silent.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant sur : ${silent.map(esc).join(", ")}.</p>` : ""}
   ${pc ? `<section class="card parcours" id="parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>` : ""}
   ${c.docs.length ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
   ${c.faits.length ? `<section class="card"><h2>À savoir</h2><div class="prose">${c.faits.map(([t, s]) => `<p>${esc(t)} <span class="small">(${ext(SRC[s].u, esc(SRC[s].p))})</span></p>`).join("")}</div></section>` : ""}
@@ -1083,7 +1091,7 @@ function storyTheme(k) {
   if (c3) screens.push(`<span class="st-k in">Ce qui a changé</span><b class="st-t in"${D(150)}>${esc(c3.t)}</b>${stTimeline(c3.items, 700)}${stSrc([c3.src])}`);
   else if (rec.length) screens.push(`<span class="st-k in">Ce qui a changé</span>${stTimeline(rec.map(r => ({ d: r.date, txt: firstSentence(r.txt) })), 300)}${stSrc(rec.map(r => r.src))}`);
   const c4 = C.s4, propSrc = '<span class="st-src">Sources : les propositions de chaque candidat, dans l\'onglet Propositions</span>';
-  if (!ps.length) screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>Pas encore de proposition publique sur ce sujet</b>`);
+  if (!ps.length) screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>Aucune proposition relevée pour l'instant sur ce sujet</b>`);
   else if (c4 && sameIds(c4.ids, ps.map(p => p.id))) {
     const inG = new Set([].concat(...c4.groupes.map(g => g.c || []))), others = who.filter(c => !inG.has(c.id)).length;
     const step = c4.age ? 400 : 1200;
@@ -1424,7 +1432,7 @@ function screenComprendre(k) {
   ${S.questions && S.questions.length ? `<section class="card"><h2>Les grandes questions du débat</h2><p class="small">Les questions que posent les rapports officiels sur ce sujet. Les propositions des candidats, plus bas, y répondent chacune à sa façon.</p>${list(S.questions, "q")}</section>` : ""}
   ${S.lire && S.lire.length ? `<section class="card"><h2>Pour aller plus loin</h2><div class="rows">${S.lire.filter(id => SRC[id]).map(id => `<a class="row" href="${esc(SRC[id].u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(SRC[id].t)}</b><span>${esc(SRC[id].p)} · ${esc(fmtDate(SRC[id].d))}</span></span>${EXT}</a>`).join("")}</div></section>` : ""}
   <details class="srcs card"><summary>Les sources de cette fiche</summary>${X.list()}</details>` : `<section class="card"><p class="lead">La fiche « Comprendre le sujet », avec la situation actuelle en chiffres officiels, est en préparation pour ce thème.</p></section>`}
-  ${n ? `<a class="more-btn as-link" href="#t-${k}">Ce que proposent les ${n} candidats sur ce sujet${ARW}</a>` : ""}`;
+  ${n ? `<a class="more-btn as-link" href="#t-${k}">${n > 1 ? `Ce que proposent les ${n} candidats sur ce sujet` : "Ce que propose le candidat sur ce sujet"}${ARW}</a>` : ""}`;
 }
 
 /* Page d'un sujet (onglet Propositions) : les candidats et leurs propositions */
@@ -1451,21 +1459,21 @@ function themeAll(k) {
   ${ax ? `<section class="card"><h2>${esc(ax.titre)}</h2>${axis(ax)}<p class="small">${esc(ax.note)}</p></section>` : ""}
   ${budget}
   ${who.map(c => `<section class="card"><a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a><div class="props">${ps.filter(p => p.c === c.id).map(propItem).join("")}</div></section>`).join("")}
-  ${silent.length ? `<p class="silent" style="padding-inline:4px">Pas encore de proposition publique : ${silent.map(c => esc(c.nom)).join(", ")}.</p>` : ""}`;
+  ${silent.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant : ${silent.map(c => esc(c.nom)).join(", ")}.</p>` : ""}`;
 }
 
 /* Sondages : en dernier, et la façon de les lire avant les chiffres */
 function screenSondages() {
   const [last, ...prev] = DATA.sondages;
   const D = DATA.duels;
-  const news = DATA.presse.filter(p => p.k === "sondage").sort((a, b) => b.d.localeCompare(a.d));
+  const news = DATA.presse.filter(p => p.k === "sondage").sort(byNewest);
   return `
   <div class="page-h"><h1>Les sondages</h1><p class="lead">Ce que des personnes interrogées déclarent vouloir voter, à un moment donné. Un sondage n'est pas une prédiction et ne dit pas pour qui voter.</p></div>
   <section class="card">
     <h2>Avant de regarder les chiffres</h2>
     <ul class="howto">
       <li><span class="n">1</span><span><b>Il y a une marge d'erreur.</b> Avec environ 2 000 personnes interrogées, un score peut varier d'environ 2 points. Un écart d'un point entre deux candidats ne veut rien dire.</span></li>
-      <li><span class="n">2</span><span><b>Les candidats testés changent.</b> La primaire sociale-démocrate se tient les 9 et 10 octobre, et les Écologistes trancheront en décembre : chaque institut teste ses propres hypothèses.</span></li>
+      <li><span class="n">2</span><span><b>Les candidats testés changent.</b> Avant le 11 octobre, on ne savait pas qui gagnerait la primaire sociale-démocrate, et les Écologistes trancheront en décembre : chaque institut teste ses propres hypothèses.</span></li>
       <li><span class="n">3</span><span><b>Beaucoup de gens n'ont pas encore choisi.</b> À plusieurs mois du vote, les intentions bougent souvent.</span></li>
       <li><span class="n">4</span><span><b>Tout doit être indiqué.</b> La loi impose de publier le nom de l'institut, le commanditaire, les dates et le nombre de personnes interrogées.</span></li>
     </ul>
@@ -1624,7 +1632,7 @@ function moreHtml(p) {
     ${x.change ? `<div class="blk"><h3>Ce que ça changerait</h3><p>${esc(x.change)}</p></div>` : ""}
     ${x.pourquoi ? `<div class="blk"><h3>Ce qu'en dit ${esc(c.nom)}</h3><p>${esc(x.pourquoi[0])}${cite(x.pourquoi[1])}</p></div>` : ""}
     <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(FIN_HELP[p.fin] || "")}</p>${amount(p.a)}${finText(p)}${p.a && p.a.per === "an" ? `<p class="s">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</div>
-    ${others ? `<a class="more-btn as-link" href="#t-${p.th}">Ce que proposent les ${others} autres candidats sur ce sujet${ARW}</a>` : ""}
+    ${others ? `<a class="more-btn as-link" href="#t-${p.th}">${others > 1 ? `Ce que proposent les ${others} autres candidats sur ce sujet` : "Ce que propose l'autre candidat sur ce sujet"}${ARW}</a>` : ""}
     <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${allSrc(p).map(srcRow).join("")}</div></div>
     ${p.plus ? "" : `<p class="small">Bientôt dans cette fiche : la situation actuelle avec un chiffre officiel, et ce que la proposition changerait concrètement.</p>`}
   </div>`;

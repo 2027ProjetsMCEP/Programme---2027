@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-12",
- "version": 6,
+ "version": 7,
  "base": "2026-10-01",
  "themes": [
   [
@@ -67,7 +67,8 @@
  "statuts": {
   "publie": "Programme publié",
   "partiel": "Programme en cours",
-  "nonpublie": "Pas encore de programme"
+  "nonpublie": "Pas encore de programme",
+  "primaire": "A perdu la primaire"
  },
  "candidats": [
   {
@@ -964,7 +965,7 @@
    "statutTxt": "Candidature annoncée, programme non publié",
    "faits": [
     [
-     "A annoncé sa candidature le 17 septembre 2026 sur BFMTV ; la déclaration officielle est attendue à l'automne 2026.",
+     "A annoncé sa candidature le 17 septembre 2026 sur BFMTV ; selon Public Sénat, le 18 septembre, sa déclaration officielle était attendue à l'automne, probablement en octobre.",
      "ps_zemmour"
     ]
    ],
@@ -1723,8 +1724,8 @@
    "nom": "Olivier Faure",
    "tri": "Faure",
    "parti": "Parti socialiste",
-   "statut": "partiel",
-   "statutTxt": "Premières propositions, programme détaillé pas encore publié",
+   "statut": "primaire",
+   "statutTxt": "Arrivé deuxième à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
    "faits": [
     [
      "Arrivé deuxième au premier tour de la primaire, le 11 octobre 2026, derrière Raphaël Glucksmann, désigné candidat de la gauche sociale-démocrate.",
@@ -1809,8 +1810,8 @@
    "nom": "Jérôme Guedj",
    "tri": "Guedj",
    "parti": "Parti socialiste",
-   "statut": "partiel",
-   "statutTxt": "Sept priorités publiées, sans chiffrage",
+   "statut": "primaire",
+   "statutTxt": "Candidat à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
    "faits": [
     [
      "Candidat à la primaire « Choisir 2027 », remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
@@ -2190,8 +2191,8 @@
    "nom": "Emmanuel Maurel",
    "tri": "Maurel",
    "parti": "Gauche républicaine et socialiste",
-   "statut": "publie",
-   "statutTxt": "Programme publié",
+   "statut": "primaire",
+   "statutTxt": "Candidat à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
    "faits": [
     [
      "Candidat à la primaire « Choisir 2027 », organisée par le PS et ses alliés et remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
@@ -2406,8 +2407,8 @@
    "nom": "Ségolène Royal",
    "tri": "Royal",
    "parti": "Parti socialiste",
-   "statut": "partiel",
-   "statutTxt": "Cinq priorités publiées, sans chiffrage",
+   "statut": "primaire",
+   "statutTxt": "Candidate à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
    "faits": [
     [
      "Candidate à la primaire « Choisir 2027 », remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
@@ -5089,6 +5090,18 @@
    "aj": "2026-10-12",
    "fin": "n",
    "id": "p188"
+  },
+  {
+   "c": "zemmour",
+   "th": "ecologie",
+   "t": "Six nouveaux réacteurs nucléaires EPR d'ici 2035",
+   "d": "Relancer le nucléaire au nom de la souveraineté énergétique : six nouveaux réacteurs EPR d'ici 2035, et quatorze d'ici 2045.",
+   "s": [
+    "jdd_ecologie_droite"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p189"
   }
  ],
  "sources": {
@@ -11989,5 +12002,8 @@
     "txt": "L'ancien sujet « Climat et énergie » couvre maintenant aussi la biodiversité, l'eau, l'agriculture et les pesticides, les sols et la pollution de l'air, avec des chiffres officiels et de nouvelles propositions des candidats."
    }
   ]
+ },
+ "statutsNote": {
+  "primaire": "« A perdu la primaire » : candidat à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann. Ses propositions restent consultables dans l'appli."
  }
 }
