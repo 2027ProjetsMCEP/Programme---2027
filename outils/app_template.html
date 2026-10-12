@@ -127,7 +127,7 @@ p { margin: 0; }
 .bar .ttl .wm em { font-style: normal; color: var(--rouge); }
 .jx { flex: none; font-weight: 700; font-size: 0.8rem; color: var(--rouge); background: var(--rouge-soft); padding: 4px 10px; border-radius: 999px; font-variant-numeric: tabular-nums; }
 
-main { padding: 6px 16px calc(var(--nav-h) + 28px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 12px; }
+main { padding: 6px 16px calc(var(--nav-h) + 84px + env(safe-area-inset-bottom, 0px)); display: grid; gap: 12px; }
 
 /* Barre d'onglets */
 .nav { position: fixed; z-index: 30; bottom: 0; left: 50%; transform: translateX(-50%); width: min(100%, 560px); display: grid; grid-template-columns: repeat(5, 1fr); background: color-mix(in srgb, var(--card) 94%, transparent); backdrop-filter: saturate(1.5) blur(14px); -webkit-backdrop-filter: saturate(1.5) blur(14px); border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom, 0px); }
@@ -630,6 +630,53 @@ details.srcs.card { padding: 14px 16px; }
   @keyframes stLine { from { transform: scaleY(0); } }
   @keyframes stDrift { to { transform: translate(-60px, -40px) rotate(8deg); } }
 }
+/* « Une question ? » : petit chat qui cherche dans les contenus de l'appli */
+.sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+.ask { position: fixed; z-index: 31; right: max(16px, calc(50vw - 264px)); bottom: calc(var(--nav-h) + 14px + env(safe-area-inset-bottom, 0px)); width: 54px; height: 54px; border: 0; border-radius: 50%; background: var(--bleu); color: #FFFFFF; display: grid; place-items: center; cursor: pointer; box-shadow: 0 6px 18px rgba(13, 27, 82, .28); }
+.ask[hidden] { display: none; }
+.ask svg { width: 26px; height: 26px; }
+.ask:focus-visible { outline: 3px solid var(--bleu-2); outline-offset: 3px; }
+.chat-bg { position: fixed; inset: 0; z-index: 58; background: rgba(3, 5, 16, .5); display: flex; align-items: flex-end; justify-content: center; }
+.chat { width: min(100%, 560px); height: min(calc(100dvh - 56px - env(safe-area-inset-top, 0px)), 720px); box-sizing: border-box; background: var(--card); border: 1px solid var(--line); border-bottom: 0; border-radius: 22px 22px 0 0; display: flex; flex-direction: column; box-shadow: 0 -8px 30px rgba(13, 27, 82, .2); }
+.chat:focus { outline: none; }
+.chat .grab { flex: none; width: 40px; height: 4px; border-radius: 2px; background: var(--line); align-self: center; margin-top: 8px; }
+.chat-h { flex: none; display: flex; align-items: center; gap: 10px; padding: 8px 8px 10px 16px; border-bottom: 1px solid var(--line); }
+.chat-h .av { flex: none; width: 38px; height: 38px; border-radius: 50%; background: var(--bleu-soft); color: var(--bleu); display: grid; place-items: center; }
+.chat-h .av svg { width: 20px; height: 20px; }
+.chat-h .tt { flex: 1; display: grid; gap: 1px; min-width: 0; }
+.chat-h .tt b { font-family: var(--f-display); font-size: 1.05rem; }
+.chat-h .tt span { font-size: 0.78rem; color: var(--ink-3); }
+.chat-h .x { flex: none; width: 44px; height: 44px; border: 0; border-radius: 50%; background: transparent; color: var(--ink-2); display: grid; place-items: center; cursor: pointer; }
+.chat-h .x svg { width: 20px; height: 20px; }
+.chat-log { flex: 1; min-height: 0; overflow-y: auto; overscroll-behavior: contain; display: flex; flex-direction: column-reverse; gap: 12px; padding: 14px 14px 10px; }
+.msg { font-size: 0.95rem; line-height: 1.45; }
+.msg.me { align-self: flex-end; max-width: 80%; padding: 10px 14px; border-radius: 18px 18px 6px 18px; background: var(--bleu); color: #FFFFFF; overflow-wrap: anywhere; }
+.msg.bot { align-self: flex-start; width: 92%; box-sizing: border-box; display: grid; gap: 8px; padding: 12px; border-radius: 18px 18px 18px 6px; background: var(--chip); color: var(--ink); }
+.msg.bot.hi { width: auto; max-width: 92%; }
+.msg .sug { display: flex; flex-wrap: wrap; gap: 6px; }
+.msg .sug button { min-height: 36px; padding: 0 12px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--bleu); font: inherit; font-size: 0.85rem; font-weight: 600; cursor: pointer; }
+.hit { display: flex; gap: 10px; align-items: center; width: 100%; box-sizing: border-box; padding: 10px; border: 0; border-radius: 12px; background: var(--card); color: var(--ink); text-decoration: none; text-align: left; font: inherit; cursor: pointer; }
+.hit:hover { color: var(--ink); box-shadow: inset 0 0 0 1px var(--bleu-2); }
+.hit .ic { flex: none; width: 32px; height: 32px; border-radius: 10px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
+.hit .ic svg { width: 18px; height: 18px; }
+.hit .tx { display: grid; gap: 2px; min-width: 0; }
+.hit .k { font-size: 0.72rem; font-weight: 700; color: var(--bleu); }
+.hit .k.date { color: var(--rouge); }
+.hit b { font-size: 0.92rem; line-height: 1.3; }
+.hit .s { font-size: 0.8rem; color: var(--ink-3); }
+.hit mark { background: #FFF0B3; color: inherit; border-radius: 3px; }
+:root[data-theme="dark"] .hit mark { background: #5C4B00; }
+:root[data-theme="dark"] .ask, :root[data-theme="dark"] .chat-f button, :root[data-theme="dark"] .msg.me { color: #0B1238; }
+.chat-more { justify-self: start; border: 0; background: none; padding: 2px; color: var(--bleu); font: inherit; font-size: 0.88rem; font-weight: 600; cursor: pointer; }
+.chat-f { flex: none; display: grid; gap: 6px; padding: 10px 12px calc(12px + env(safe-area-inset-bottom, 0px)); border-top: 1px solid var(--line); }
+.chat-f .row1 { display: flex; gap: 8px; align-items: center; }
+.chat-f input { flex: 1; min-width: 0; height: 46px; box-sizing: border-box; border: 1.5px solid var(--line); border-radius: 999px; padding: 0 16px; background: var(--card); color: var(--ink); font: inherit; font-size: 16px; }
+.chat-f input::placeholder { color: var(--ink-3); }
+.chat-f input:focus { outline: none; border-color: var(--bleu-2); box-shadow: 0 0 0 3px var(--bleu-soft); }
+.chat-f button { flex: none; width: 46px; height: 46px; border: 0; border-radius: 50%; background: var(--bleu); color: #FFFFFF; display: grid; place-items: center; cursor: pointer; }
+.chat-f button svg { width: 20px; height: 20px; }
+.chat-f .note { font-size: 0.72rem; line-height: 1.35; color: var(--ink-3); text-align: center; }
+@media (prefers-reduced-motion: no-preference) { .chat-bg { animation: fade .18s ease-out; } .chat { animation: up .26s cubic-bezier(.2, .8, .2, 1); } .chat-log .msg { animation: rise .24s ease-out both; } }
 </style>
 </head>
 <body>
@@ -652,6 +699,7 @@ details.srcs.card { padding: 14px 16px; }
   <a href="#comparer" data-v="comparer"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><rect x="3.5" y="4" width="7" height="7" rx="1.5"/><rect x="13.5" y="4" width="7" height="7" rx="1.5"/><rect x="3.5" y="14" width="7" height="7" rx="1.5"/><rect x="13.5" y="14" width="7" height="7" rx="1.5"/></svg>Propositions</a>
   <a href="#sondages" data-v="sondages"><svg viewBox="0 0 24 24" style="fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round"><path d="M5 20v-7M10 20V5M15 20v-10M20 20v-4"/></svg>Sondages</a>
 </nav>
+<button class="ask" id="ask" type="button" aria-label="Une question ? Chercher dans l'appli" aria-haspopup="dialog"><svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round"><path d="M4 12a8 8 0 1 1 3.2 6.4L4 19.5l1.1-3.2A7.9 7.9 0 0 1 4 12z"/><path d="M10 9.6a2.1 2.1 0 1 1 3 1.9c-.6.3-1 .8-1 1.5v.3M12 15.6v.1"/></svg></button>
 
 <script type="application/json" id="seed">__SEED__</script>
 <script>
@@ -1189,6 +1237,102 @@ document.addEventListener("keydown", e => {
 document.addEventListener("visibilitychange", () => { if (document.hidden && story) stPlay(false); });
 window.addEventListener("popstate", () => { if (story) closeStory(true); });
 
+/* ---------- « Une question ? » : un petit chat qui cherche dans les contenus de l'appli ----------
+   Ce n'est pas une IA : il ne rédige rien, il montre les fiches qui correspondent. Tout se passe sur le téléphone. */
+const ASK_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round"><path d="M4 12a8 8 0 1 1 3.2 6.4L4 19.5l1.1-3.2A7.9 7.9 0 0 1 4 12z"/><path d="M10 9.6a2.1 2.1 0 1 1 3 1.9c-.6.3-1 .8-1 1.5v.3M12 15.6v.1"/></svg>';
+const SEND_ICO = '<svg viewBox="0 0 24 24" aria-hidden="true" style="fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round"><path d="M12 19V5M6 11l6-6 6 6"/></svg>';
+const ASK_SUGG = ["Qui veut supprimer Parcoursup ?", "La retraite à 62 ans", "Quand a lieu le premier tour ?", "Voter par procuration"];
+const ASK_STOP = new Set("le la les l un une des de du d et ou a au aux en dans sur pour par avec sans ce cet cette ces c qui que qu quoi quand comment combien pourquoi est sont etre il elle ils elles on je j tu nous vous se s sa son ses leur leurs y veut veulent vouloir propose proposent proposer proposition propositions pense pensent candidat candidats candidate faire fait plus moins quel quelle quels quelles ne n pas me m te t lui eux mon ma mes notre nos votre vos lieu dit disent sait savoir tout tous toute toutes bonjour salut merci svp".split(" "));
+const normQ = s => String(s).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g, "").replace(/œ/g, "oe").replace(/æ/g, "ae").replace(/[^a-z0-9]+/g, " ").trim();
+const qWords = s => normQ(s).split(" ").filter(Boolean);
+const qMatch = (w, k) => w === k || (k.length >= 4 && w.startsWith(k)) || (w.length >= 5 && k.startsWith(w));
+const qHit = (ws, k) => ws.some(w => qMatch(w, k));
+let askIdx = null;
+function askIndex() {
+  if (askIdx && askIdx.data === DATA) return askIdx;
+  const docs = [];
+  DATA.propositions.forEach(p => { const c = CAND[p.c]; if (c) docs.push({ k: "p", p, c, w: qWords(`${p.t} ${p.d || ""} ${c.nom} ${c.parti} ${THEME_NAME[p.th] || ""}`) }); });
+  DATA.themes.forEach(([k, l]) => { const S = DATA.sujets && DATA.sujets[k]; docs.push({ k: "t", th: k, l, lw: qWords(l), w: qWords(`${l} ${S ? S.trente.txt : ""}`) }); });
+  (DATA.kit || []).forEach(f => docs.push({ k: "k", f, w: qWords(`${f.titre} ${f.sous || ""} ${f.en_bref || ""}`) }));
+  DATA.agenda.forEach(([d, t]) => docs.push({ k: "d", d, t, w: qWords(`${fmtAg(d)} ${t}`) }));
+  return (askIdx = { data: DATA, docs, cands: DATA.candidats.map(c => ({ c, w: qWords(`${c.nom} ${c.parti}`) })) });
+}
+/* Les mots rares comptent plus que les mots fréquents ; on garde ce qui s'approche du meilleur résultat */
+function askSearch(q) {
+  const I = askIndex(), toks = normQ(q).split(" ").filter(t => t && !ASK_STOP.has(t));
+  if (!toks.length) return null;
+  const df = {}; toks.forEach(k => { df[k] = I.docs.filter(d => qHit(d.w, k)).length; });
+  const sc = I.docs.map(d => ({ d, s: toks.reduce((a, k) => a + (df[k] && qHit(d.w, k) ? 1 / df[k] : 0), 0) }));
+  const max = Math.max(0, ...sc.map(x => x.s)), keep = x => x.s > 0 && x.s >= max * 0.6;
+  const learn = sc.filter(x => (x.d.k === "t" && (keep(x) || toks.some(k => qHit(x.d.lw, k)))) || (x.d.k === "k" && keep(x))).sort((a, b) => b.s - a.s).map(x => x.d);
+  const dates = sc.filter(x => x.d.k === "d" && keep(x)).map(x => x.d);
+  const cs = I.cands.map(x => ({ c: x.c, n: toks.filter(k => k.length >= 3 && qHit(x.w, k)).length })), cmax = Math.max(0, ...cs.map(x => x.n));
+  const cands = cs.filter(x => x.n && x.n === cmax).map(x => x.c).sort((a, b) => a.tri.localeCompare(b.tri, "fr"));
+  const props = sc.filter(x => x.d.k === "p" && keep(x)).sort((a, b) => b.s - a.s || a.d.c.tri.localeCompare(b.d.c.tri, "fr")).map(x => x.d);
+  return { toks, learn, dates, cands, props };
+}
+const qMark = (t, toks) => (String(t).match(/\S+\s*/g) || [String(t)]).map(w => { const core = w.trimEnd(); return qWords(core).some(x => toks.some(k => qMatch(x, k))) ? `<mark>${esc(core)}</mark>${esc(w.slice(core.length))}` : esc(w); }).join("");
+function askAnswer(q, i) {
+  const r = askSearch(q);
+  if (!r) return `<div class="msg bot"><span>Écrivez quelques mots : un sujet, le nom d'un candidat ou une mesure.</span></div>`;
+  const total = r.learn.length + r.dates.length + r.cands.length + r.props.length;
+  if (!total) return `<div class="msg bot"><span>Je n'ai rien trouvé dans l'appli pour « ${esc(q)} ». Essayez avec un mot plus simple : un sujet (retraite, logement…), le nom d'un candidat ou une mesure (Smic, Parcoursup…).</span></div>`;
+  const props = ui.chatAll[i] ? r.props : r.props.slice(0, 4), rest = r.props.length - props.length;
+  return `<div class="msg bot"><span>Voici ce que j'ai trouvé dans l'appli${total > 1 ? ` (${total} résultats)` : ""} :</span>${r.learn.map(d => d.k === "t"
+    ? `<a class="hit" href="#comprendre-${d.th}"><span class="ic">${svg(d.th)}</span><span class="tx"><span class="k">Comprendre le sujet</span><b>${esc(d.l)}</b></span></a>`
+    : `<a class="hit" href="#kit-${esc(d.f.id)}"><span class="ic">${kico(d.f.id, 18)}</span><span class="tx"><span class="k">Avant de voter</span><b>${esc(d.f.titre)}</b></span></a>`).join("")}${r.dates.map(d => `<a class="hit" href="#candidats"><span class="ic">${SEM_ICO}</span><span class="tx"><span class="k date">Date clé · ${esc(fmtAg(d.d))}</span><b>${esc(d.t)}</b></span></a>`).join("")}${r.cands.map(c => `<a class="hit" href="#c-${c.id}">${mono(c.id, "s")}<span class="tx"><b>${esc(c.nom)}</b><span class="s">${esc(c.parti)} · ${plural(propsOf(c.id).length, "proposition")}</span></span></a>`).join("")}${props.map(d => `<button type="button" class="hit" data-more="${d.p.id}"><span class="tx"><b>${qMark(d.p.t, r.toks)}</b><span class="s">${esc(d.c.nom)} · ${esc(THEME_NAME[d.p.th] || "")}</span></span></button>`).join("")}${rest ? `<button type="button" class="chat-more" data-chat-more="${i}">${rest > 1 ? `Voir les ${rest} autres propositions` : "Voir l'autre proposition"}</button>` : ""}</div>`;
+}
+let chatEl = null, chatFrom = null;
+ui.chat = []; ui.chatAll = {};
+function chatLog() {
+  const m = [`<div class="msg bot hi"><span>Bonjour ! Posez votre question sur la présidentielle. Je vous montre où trouver la réponse dans l'appli, avec les sources.</span><span class="sug">${ASK_SUGG.map(t => `<button type="button" data-ask="${esc(t)}">${esc(t)}</button>`).join("")}</span></div>`];
+  ui.chat.forEach((q, i) => { m.push(`<div class="msg me">${esc(q)}</div>`, askAnswer(q, i)); });
+  return m.reverse().join("");
+}
+function askSync() { const b = $("#ask"); if (b) b.hidden = !!chatEl || location.hash === "#fil"; }
+function openChat() {
+  if (chatEl) return;
+  chatFrom = document.activeElement;
+  chatEl = document.createElement("div"); chatEl.className = "chat-bg";
+  chatEl.innerHTML = `<section class="chat" role="dialog" aria-modal="true" aria-labelledby="chat-t" tabindex="-1"><span class="grab" aria-hidden="true"></span>
+  <div class="chat-h"><span class="av" aria-hidden="true">${ASK_ICO}</span><span class="tt"><b id="chat-t">Une question ?</b><span>Je cherche dans les fiches vérifiées de l'appli</span></span><button type="button" class="x" data-chat-close aria-label="Fermer">${X_ICO}</button></div>
+  <div class="chat-log" aria-live="polite">${chatLog()}</div>
+  <form class="chat-f"><div class="row1"><label class="sr" for="chat-q">Votre question</label><input id="chat-q" type="text" placeholder="Écrivez votre question" autocomplete="off" enterkeyhint="send" maxlength="200"><button type="submit" aria-label="Envoyer">${SEND_ICO}</button></div><span class="note">Ce n'est pas une IA : je montre les fiches vérifiées de l'appli. Rien n'est envoyé ni gardé.</span></form></section>`;
+  document.body.appendChild(chatEl); document.body.classList.add("locked");
+  history.pushState({ chat: true }, "");
+  askSync();
+  if (window.matchMedia && matchMedia("(pointer: fine)").matches) chatEl.querySelector("#chat-q").focus({ preventScroll: true });
+  else chatEl.querySelector(".chat").focus({ preventScroll: true });
+}
+function closeChat(silent) {
+  if (!chatEl) return;
+  chatEl.remove(); chatEl = null;
+  if (!sheetEl && !story) document.body.classList.remove("locked");
+  if (!silent && history.state && history.state.chat) history.back();
+  askSync();
+  if (chatFrom && document.contains(chatFrom)) chatFrom.focus({ preventScroll: true });
+}
+function chatRender() { if (!chatEl) return; const l = chatEl.querySelector(".chat-log"); l.innerHTML = chatLog(); l.scrollTop = 0; }
+function chatSend(q) {
+  q = String(q || "").replace(/\s+/g, " ").trim().slice(0, 200); if (!q) return;
+  ui.chat.push(q);
+  if (ui.chat.length > 20) { ui.chat.shift(); ui.chatAll = {}; }
+  chatRender();
+}
+document.addEventListener("click", e => {
+  if (e.target.closest("#ask")) { openChat(); return; }
+  if (!chatEl || !chatEl.contains(e.target)) return;
+  if (e.target === chatEl || e.target.closest("[data-chat-close]")) { closeChat(); return; }
+  const a = e.target.closest("[data-ask]"); if (a) { chatSend(a.dataset.ask); return; }
+  const more = e.target.closest("[data-chat-more]"); if (more) { ui.chatAll[+more.dataset.chatMore] = true; const l = chatEl.querySelector(".chat-log"), y = l.scrollTop; l.innerHTML = chatLog(); l.scrollTop = y; return; }
+});
+document.addEventListener("submit", e => {
+  const f = e.target.closest(".chat-f"); if (!f) return;
+  e.preventDefault(); const inp = f.querySelector("input"); chatSend(inp.value); inp.value = "";
+});
+document.addEventListener("keydown", e => { if (e.key === "Escape" && chatEl && !sheetEl && !story) { e.stopPropagation(); closeChat(); } }, true);
+window.addEventListener("popstate", () => { if (chatEl && !(history.state && (history.state.chat || history.state.sheet))) closeChat(true); });
+
 function screenVideos() {
   const w = weekWindow(), themes = DATA.themes.filter(([k]) => DATA.sujets && DATA.sujets[k]);
   const sem = w ? storySemaine() : null;
@@ -1357,6 +1501,7 @@ function screenMethode() {
     ${DATA.candidats.some(c => c.parcours) ? `<p><b>Les parcours.</b> Pour chaque candidat, le même format : un résumé, puis ses origines, son parcours et ce qu'il fait aujourd'hui. Aucune étiquette politique ni appréciation. Chaque phrase porte un numéro qui renvoie à sa source, en priorité officielle (Assemblée nationale, Sénat, Parlement européen, site du Gouvernement). La phrase sur les sujets de ses propositions est calculée automatiquement, avec la même règle pour tous.</p>` : ""}
     ${DATA.sujets ? `<p><b>Comprendre le sujet.</b> Pour chaque thème, le même plan : la situation en 30 secondes, les chiffres clés, ce qui a changé récemment, qui décide, ce qui concerne les 18-30 ans, et les grandes questions telles que les posent les rapports officiels. Uniquement des sources officielles, sans avis.</p>` : ""}
     ${DATA.kit ? `<p><b>La boîte à outils et le budget.</b> Les fiches « Avant de voter » et la page « Le budget en une image » (dans le sujet Budget de l'État) s'appuient uniquement sur des sources officielles : service-public.fr, Conseil constitutionnel, ministère de l'Intérieur, Insee.</p>` : ""}
+    <p><b>« Une question ? »</b> Le petit bouton en bas à droite cherche uniquement dans les contenus de l'appli : propositions, fiches « Comprendre le sujet », fiches « Avant de voter » et dates clés. Ce n'est pas une IA : il ne rédige rien, il montre les fiches qui correspondent, avec leurs sources. La recherche se fait sur votre téléphone : vos questions ne sont ni envoyées ni gardées.</p>
     <p><b>Les vidéos.</b> Les stories ne contiennent rien de nouveau : elles reprennent les fiches « Comprendre le sujet » et les propositions déjà publiées dans l'appli, avec leurs sources. Il n'y a pas de story par candidat, pour garder la même place à chacun. Quand une story montre quelques propositions en exemple, elles sont tirées au hasard. Dans le fil des propositions, l'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
     <p><b>Neutralité.</b> Même présentation pour tous, aucune couleur de parti, aucune note. Les sondages sont regroupés dans le dernier onglet, après une explication sur la façon de les lire.</p>
     <p><b>Vos données.</b> L'appli ne demande aucun compte et ne collecte rien sur vous. Seul votre choix entre mode clair et mode sombre (bouton en haut à droite) est gardé, sur votre téléphone uniquement.</p>
@@ -1490,7 +1635,7 @@ function openMore(id) {
 }
 function closeMore(silent) {
   if (!sheetEl) return;
-  sheetEl.remove(); sheetEl = null; document.body.classList.remove("locked");
+  sheetEl.remove(); sheetEl = null; if (!chatEl && !story) document.body.classList.remove("locked");
   if (!silent && history.state && history.state.sheet) history.back();
   if (sheetFrom && document.contains(sheetFrom)) sheetFrom.focus({ preventScroll: true });
 }
@@ -1525,7 +1670,7 @@ function route() {
   document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === tab ? "page" : "false"));
 }
 function rerender() { const y = window.scrollY; route(); window.scrollTo(0, y); }
-window.addEventListener("hashchange", () => { closeMore(true); closeStory(true); route(); window.scrollTo(0, 0); });
+window.addEventListener("hashchange", () => { closeMore(true); closeStory(true); closeChat(true); route(); askSync(); window.scrollTo(0, 0); });
 window.addEventListener("scroll", () => $("#bar").classList.toggle("scrolled", window.scrollY > 4), { passive: true });
 $("#back").addEventListener("click", e => { location.hash = e.currentTarget.dataset.to || "#actu"; });
 function setTheme(dark, save) {
@@ -1577,6 +1722,7 @@ function boot() {
   prep();
   $("#jx").textContent = "J−" + daysTo("2027-04-18");
   route();
+  askSync();
   fetch("data.json", { cache: "no-store" }).then(r => r.ok ? r.json() : null).then(d => {
     if (d && d.maj && d.propositions && (d.maj > DATA.maj || d.version > DATA.version)) { DATA = d; prep(); ui.feed = null; rerender(); }
   }).catch(() => {});
