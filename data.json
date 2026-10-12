@@ -1,6 +1,6 @@
 {
- "maj": "2026-10-11",
- "version": 5,
+ "maj": "2026-10-12",
+ "version": 6,
  "base": "2026-10-01",
  "themes": [
   [
@@ -29,7 +29,7 @@
   ],
   [
    "ecologie",
-   "Climat et énergie"
+   "Environnement et climat"
   ],
   [
    "retraites",
@@ -4809,6 +4809,286 @@
    "aj": "2026-10-09",
    "fin": "n",
    "id": "p166"
+  },
+  {
+   "c": "le-pen",
+   "th": "ecologie",
+   "t": "Supprimer l'objectif « zéro artificialisation nette » (ZAN)",
+   "d": "Supprimer l'objectif de zéro artificialisation nette des sols (ZAN), qu'elle qualifie de « norme idéologique ».",
+   "s": [
+    "batiweb_lepen_logement"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p167"
+  },
+  {
+   "c": "le-pen",
+   "th": "ecologie",
+   "t": "Un plan massif de climatisation face aux canicules",
+   "d": "« Si je suis élue présidente de la République, je mettrai en place un plan massif de climatisation. »",
+   "s": [
+    "lcp_climatisation"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p168"
+  },
+  {
+   "c": "le-pen",
+   "th": "ecologie",
+   "t": "Faciliter le stockage de l'eau pour les agriculteurs",
+   "d": "Faciliter le stockage de l'eau pour les exploitations agricoles (annonce au Sommet de l'élevage, en octobre 2026).",
+   "s": [
+    "lid_philippe_rn_agri"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p169"
+  },
+  {
+   "c": "retailleau",
+   "th": "ecologie",
+   "t": "Supprimer l'Office français de la biodiversité (OFB)",
+   "d": "Supprimer l'OFB, l'Office français de la biodiversité.",
+   "s": [
+    "ps_congres_ja"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p170"
+  },
+  {
+   "c": "retailleau",
+   "th": "ecologie",
+   "t": "Abroger le « zéro artificialisation nette » (ZAN) par une loi d'urgence",
+   "d": "Une loi d'urgence pour « rendre la liberté de bâtir aux maires » en abrogeant le zéro artificialisation nette des sols (ZAN).",
+   "s": [
+    "e1_retailleau_immobilier"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p171"
+  },
+  {
+   "c": "retailleau",
+   "th": "ecologie",
+   "t": "Retirer le principe de précaution de la Constitution",
+   "d": "Modifier la Constitution « pour supprimer le principe de précaution ».",
+   "s": [
+    "ps_congres_ja"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p172"
+  },
+  {
+   "c": "attal",
+   "th": "ecologie",
+   "t": "Une « chasse au gâchis d'eau » : 1 000 milliards de litres d'ici 2035",
+   "d": "Lancer « la plus grande chasse au gâchis d'eau jamais menée », notamment contre les fuites des réseaux, pour récupérer 1 000 milliards de litres d'ici 2035. L'autorisation de réutiliser les eaux usées deviendrait automatique quand les normes sont respectées.",
+   "s": [
+    "lid_attal_eau"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "finTxt": "redéployer les 400 millions d'euros de l'actuel « plan eau » et 200 millions du fonds vert, et des prêts à très long terme de la Banque des Territoires pour les investissements plus lourds. Le coût total n'est pas chiffré.",
+   "id": "p173"
+  },
+  {
+   "c": "attal",
+   "th": "ecologie",
+   "t": "Un tarif bas et fixe pour les premiers litres d'eau",
+   "d": "Garantir un tarif bas et fixe pour les premiers litres d'eau essentiels, selon la taille du foyer.",
+   "s": [
+    "lid_attal_eau"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p174"
+  },
+  {
+   "c": "attal",
+   "th": "ecologie",
+   "t": "3 000 € d'amende en cas de non-respect d'un arrêté sécheresse",
+   "d": "Rendre la violation d'un arrêté sécheresse passible de 3 000 euros d'amende pour un particulier et de 15 000 euros pour une entreprise.",
+   "s": [
+    "lid_attal_eau"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p175"
+  },
+  {
+   "c": "philippe",
+   "th": "ecologie",
+   "t": "Un fonds unique d'adaptation au changement climatique",
+   "d": "Réunir le Fonds Barnier (prévention des risques naturels) et le Fonds vert dans un « fonds unique d'adaptation au changement climatique », doté de 2 milliards d'euros par an.",
+   "s": [
+    "lid_philippe_climat"
+   ],
+   "aj": "2026-10-12",
+   "a": {
+    "v": 2,
+    "nature": "cout",
+    "per": "an",
+    "lab": "Dotation annoncée",
+    "h": "montant annoncé"
+   },
+   "fin": "c",
+   "id": "p176"
+  },
+  {
+   "c": "philippe",
+   "th": "ecologie",
+   "t": "Produire un « Canadair français » pendant le quinquennat",
+   "d": "Se fixer l'objectif de produire un avion bombardier d'eau français, un « Canadair français », au cours du quinquennat, pour lutter contre les incendies.",
+   "s": [
+    "lid_philippe_climat"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p177"
+  },
+  {
+   "c": "philippe",
+   "th": "ecologie",
+   "t": "Réutiliser 10 % des eaux usées, comme l'Italie",
+   "d": "Lutter contre le gaspillage de l'eau, avec l'objectif de réutiliser 10 % des eaux usées, comme en Italie.",
+   "s": [
+    "lid_philippe_climat"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p178"
+  },
+  {
+   "c": "glucksmann",
+   "th": "ecologie",
+   "t": "Rénover et adapter les écoles face aux canicules",
+   "d": "Faire du « grand plan de rénovation thermique et d'adaptation » des écoles face aux canicules une « priorité nationale ».",
+   "s": [
+    "lid_glucksmann_ecoles"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p179"
+  },
+  {
+   "c": "glucksmann",
+   "th": "ecologie",
+   "t": "Une institution de préparation aux catastrophes, comme en Finlande",
+   "d": "Créer, comme en Finlande, une institution centralisée de préparation aux chocs et aux catastrophes.",
+   "s": [
+    "lid_glucksmann_ecoles"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p180"
+  },
+  {
+   "c": "glucksmann",
+   "th": "ecologie",
+   "t": "Une loi de programmation pour la transformation écologique",
+   "d": "Mettre en place « l'équivalent de la loi de programmation militaire pour la transformation écologique ».",
+   "s": [
+    "lid_glucksmann_ecoles"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p181"
+  },
+  {
+   "c": "melenchon",
+   "th": "ecologie",
+   "t": "Une « conscription écologique » contre les incendies",
+   "d": "Instaurer une « conscription écologique », notamment contre les incendies, avec une garde régionale de la sécurité civile pour renforcer les équipes permanentes pendant les crises.",
+   "s": [
+    "lid_melenchon_conscription"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p182"
+  },
+  {
+   "c": "melenchon",
+   "th": "ecologie",
+   "t": "Remplacer les régions par 13 « écorégions »",
+   "d": "Remplacer les régions actuelles par treize « écorégions » dessinées selon les grands bassins des fleuves, chargées notamment de l'eau, de la biodiversité, des forêts et de la qualité de l'air.",
+   "s": [
+    "ps_ecoregions"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p183"
+  },
+  {
+   "c": "tondelier",
+   "th": "ecologie",
+   "t": "Sortir des pesticides de synthèse d'ici 2050",
+   "d": "Un « pacte agricole » entre l'État et les agriculteurs pour sortir progressivement des pesticides de synthèse et des engrais azotés d'ici 2050, avec un fonds de transition agricole.",
+   "s": [
+    "lid_tondelier_sante_env"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p184"
+  },
+  {
+   "c": "tondelier",
+   "th": "ecologie",
+   "t": "Interdire les perturbateurs endocriniens et les PFAS dans les produits du quotidien",
+   "d": "Interdire les perturbateurs endocriniens et les « polluants éternels » (PFAS) dans les produits du quotidien.",
+   "s": [
+    "lid_tondelier_sante_env"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p185"
+  },
+  {
+   "c": "ruffin",
+   "th": "ecologie",
+   "t": "Payer les agriculteurs pour entretenir haies, mares et paysages",
+   "d": "Généraliser les paiements pour services environnementaux, qui rémunèrent les agriculteurs pour développer et bien gérer haies, mares et autres éléments du paysage, ou pour leurs façons de produire. Selon l'économiste qui présente son programme agricole, ces paiements coûteraient « de l'ordre du milliard d'euros par an ».",
+   "s": [
+    "ruffin_travaillisme",
+    "agra_ruffin"
+   ],
+   "aj": "2026-10-12",
+   "a": {
+    "v": 1,
+    "nature": "cout",
+    "per": "an",
+    "lab": "Ordre de grandeur annoncé",
+    "h": "ordre de grandeur annoncé"
+   },
+   "fin": "c",
+   "id": "p186"
+  },
+  {
+   "c": "ruffin",
+   "th": "ecologie",
+   "t": "Le retour de la consigne du verre",
+   "d": "Rétablir la consigne pour les bouteilles en verre et divers contenants.",
+   "s": [
+    "ruffin_travaillisme"
+   ],
+   "aj": "2026-10-12",
+   "fin": "s",
+   "id": "p187"
+  },
+  {
+   "c": "roussel",
+   "th": "ecologie",
+   "t": "Des réserves stratégiques de fourrage face à la sécheresse",
+   "d": "Organiser des « réserves stratégiques » de fourrage pour nourrir les animaux l'hiver, avec un achat de foin par l'État hors de France si les volumes manquent.",
+   "s": [
+    "cde_roussel_fourrage"
+   ],
+   "aj": "2026-10-12",
+   "fin": "n",
+   "id": "p188"
   }
  ],
  "sources": {
@@ -6968,13 +7248,6 @@
    "type": "donnees",
    "u": "https://entreprendre.service-public.gouv.fr/vosdroits/F37900"
   },
-  "sujet_ecologie_anah_chiffres2025": {
-   "t": "Les chiffres clés 2025",
-   "p": "Anah (Agence nationale de l'habitat)",
-   "d": "2026-02-20",
-   "type": "donnees",
-   "u": "https://www.anah.gouv.fr/anatheque/les-chiffres-cles-2025"
-  },
   "sujet_education_depp_enc2026": {
    "t": "L'éducation nationale en chiffres, édition 2026",
    "p": "DEPP, ministère de l'Éducation nationale",
@@ -8304,6 +8577,230 @@
    "d": "2026-10-11",
    "type": "presse",
    "u": "https://www.europe1.fr/politique/primaire-socialiste-raphael-glucksmann-elu-des-le-premier-tour-avec-66-des-voix-1139288"
+  },
+  "sujet_env_sdes_biodiv_2025": {
+   "t": "La biodiversité en France – État des connaissances en 2025",
+   "p": "SDES, ministère de la Transition écologique",
+   "d": "2026-04-01",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/la-biodiversite-en-france-etat-des-connaissances-en-2025"
+  },
+  "sujet_env_bsh_2026_09": {
+   "t": "Bulletin national de situation hydrologique de septembre 2026",
+   "p": "Eaufrance (service public d'information sur l'eau), bulletin rédigé par l'Office International de l'Eau",
+   "d": "2026-09-18",
+   "type": "donnees",
+   "u": "https://www.eaufrance.fr/publications/bsh/2026-09"
+  },
+  "sujet_env_guide_secheresse_2026": {
+   "t": "Guide de mise en œuvre des mesures de restriction des usages de l'eau en période de sécheresse",
+   "p": "Ministère de la Transition écologique",
+   "d": "2026-07",
+   "type": "donnees",
+   "u": "https://www.ecologie.gouv.fr/sites/default/files/documents/Guide_secheresse-2026.pdf"
+  },
+  "sujet_env_agencebio_2025": {
+   "t": "L'AGENCE BIO DÉVOILE LES CHIFFRES DU MARCHÉ ET DE LA PRODUCTION BIO 2025",
+   "p": "Agence BIO (groupement d'intérêt public)",
+   "d": "2026-06-16",
+   "type": "donnees",
+   "u": "https://www.agencebio.org/wp-content/uploads/2026/06/CP-Agence-BIO-Observatoire-2025-16-juin-2026.pdf"
+  },
+  "sujet_env_sdes_ventes_phyto_2024": {
+   "t": "Ventes de produits phytosanitaires en 2024 : un rebond du fait d’un recours accru aux fongicides",
+   "p": "SDES, ministère de la Transition écologique",
+   "d": "2026-07-24",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/ventes-de-produits-phytosanitaires-en-2024-un-rebond-du-fait-dun-recours-accru-aux-fongicides"
+  },
+  "sujet_env_portail_enaf_2011_2025": {
+   "t": "Parution des données de consommation d'espaces naturels agricoles et forestiers 2011-2025",
+   "p": "Portail de l'artificialisation des sols (Cerema, ministère de la Transition écologique)",
+   "d": "2026-06-30",
+   "type": "donnees",
+   "u": "https://artificialisation.developpement-durable.gouv.fr/actualites/parution-des-donnees-consommation-despaces-naturels-agricoles-et-forestiers-2011-2025"
+  },
+  "sujet_env_zan_fascicule_1": {
+   "t": "Zéro artificialisation nette, mise en œuvre de la réforme sur l'artificialisation des sols, Fascicule 1 : Définir et observer la consommation d'espaces naturels, agricoles et forestiers et l'artificialisation des sols",
+   "p": "Portail de l'artificialisation des sols (ministère de la Transition écologique)",
+   "d": "2025-08-01",
+   "type": "donnees",
+   "u": "https://artificialisation.developpement-durable.gouv.fr/sites/artificialisation/files/fichiers/2025/08/ZAN_FASCICULE_1_44P_v20250801.pdf"
+  },
+  "sujet_env_spf_air_2025": {
+   "t": "La pollution de l’air : des progrès pour notre santé nécessaires et possibles",
+   "p": "Santé publique France",
+   "d": "2025-10-13",
+   "type": "donnees",
+   "u": "https://www.santepubliquefrance.fr/les-actualites/la-pollution-de-lair-des-progres-pour-notre-sante-necessaires-et-possibles"
+  },
+  "sujet_env_spf_air_2016_2019": {
+   "t": "Impact de la pollution de l'air ambiant sur la mortalité en France métropolitaine : réduction en lien avec le confinement du printemps 2020 et impact à long terme pour la période 2016-2019",
+   "p": "Santé publique France",
+   "d": "2021-09-07",
+   "type": "donnees",
+   "u": "https://www.santepubliquefrance.fr/pollution-et-sante/air/article/impact-de-la-pollution-de-lair-ambiant-sur-la-mortalite-en-france-metropolitaine-reduction-en-lien"
+  },
+  "sujet_env_senat_chlordecone": {
+   "t": "Proposition de loi visant à reconnaître la responsabilité de l'État et à indemniser les victimes du chlordécone",
+   "p": "Sénat (La loi en clair)",
+   "d": "2026-06-12",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-reconnaitre-la-responsabilite-de-letat-et-a-indemniser-les-victimes-du-chlordecone.html"
+  },
+  "sujet_env_cc_2025_891": {
+   "t": "Décision n° 2025-891 DC du 7 août 2025 - Communiqué de presse",
+   "p": "Conseil constitutionnel",
+   "d": "2025-08-07",
+   "type": "donnees",
+   "u": "https://www.conseil-constitutionnel.fr/actualites/communique/decision-n-2025-891-dc-du-7-aout-2025-communique-de-presse"
+  },
+  "sujet_env_senat_duplomb": {
+   "t": "Lever les contraintes à l'exercice du métier d'agriculteur (dossier législatif)",
+   "p": "Sénat",
+   "d": "2025-08-12",
+   "type": "donnees",
+   "u": "https://www.senat.fr/dossier-legislatif/ppl24-108.html"
+  },
+  "sujet_env_senat_trace": {
+   "t": "Proposition de loi visant à instaurer une trajectoire de réduction de l'artificialisation concertée avec les élus locaux (TRACE)",
+   "p": "Sénat (La loi en clair)",
+   "d": "2025-03-18",
+   "type": "donnees",
+   "u": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-instaurer-une-trajectoire-de-reduction-de-lartificialisation-concertee-avec-les-elus-locaux.html"
+  },
+  "sujet_env_senat_qag_zan_2026": {
+   "t": "Zéro artificialisation nette des sols et PPL TRACE (question d'actualité au gouvernement n° 0949G)",
+   "p": "Sénat",
+   "d": "2026-06-24",
+   "type": "donnees",
+   "u": "https://www.senat.fr/questions/base/2026/qSEQ26060949G.html"
+  },
+  "sujet_env_loi_pfas_2025": {
+   "t": "Loi n° 2025-188 du 27 février 2025 visant à protéger la population des risques liés aux substances perfluoroalkylées et polyfluoroalkylées",
+   "p": "Ineris, base AIDA (texte du Journal officiel)",
+   "d": "2025-02-27",
+   "type": "donnees",
+   "u": "https://aida.ineris.fr/reglementation/loi-ndeg-2025-188-270225-visant-a-proteger-population-risques-lies-substances"
+  },
+  "sujet_env_ofb_rrn": {
+   "t": "Le règlement sur la restauration de la nature : un texte européen d’ambition inédite depuis 30 ans",
+   "p": "Office français de la biodiversité (OFB)",
+   "d": "2026-05-04",
+   "type": "donnees",
+   "u": "https://ofb.gouv.fr/actualites/le-reglement-sur-la-restauration-de-la-nature-un-texte-europeen-ambition-inedite-depuis"
+  },
+  "sujet_env_cese_pollutions_diffuses": {
+   "t": "Lutter contre les pollutions diffuses pour préserver la biodiversité",
+   "p": "Conseil économique, social et environnemental (CESE)",
+   "d": "2026-01-28",
+   "type": "donnees",
+   "u": "https://www.lecese.fr/travaux-publies/lutter-contre-les-pollutions-diffuses-pour-preserver-la-biodiversite"
+  },
+  "sujet_env_sdes_bilan_chiffres_cles": {
+   "t": "Bilan et chiffres clés de l'environnement",
+   "p": "SDES, ministère de la Transition écologique",
+   "d": "2026-05-29",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/bilan-et-chiffres-cles-de-lenvironnement"
+  },
+  "batiweb_lepen_logement": {
+   "t": "Logement : Marine Le Pen cible le ZAN, le DPE et la SRU",
+   "p": "Batiweb (avec AFP)",
+   "d": "2026-09-14",
+   "type": "presse",
+   "u": "https://www.batiweb.com/actualites/legislation/marine-le-pen-propositions-logement-2027-49281"
+  },
+  "lcp_climatisation": {
+   "t": "Face aux canicules, la climatisation devient un nouveau champ de bataille politique",
+   "p": "LCP",
+   "d": "2026-06-22",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/face-aux-canicules-la-climatisation-devient-un-nouveau-champ-de-bataille-politique"
+  },
+  "lid_philippe_rn_agri": {
+   "t": "Philippe tacle le programme du RN en agriculture, « contraire à l'intérêt de la France »",
+   "p": "ID, l'Info Durable (AFP)",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/philippe-tacle-le-programme-du-rn-en-agriculture-contraire-linteret-de-la-france-59314"
+  },
+  "ps_congres_ja": {
+   "t": "Retailleau, Tondelier, Attal, Tanguy et Trouvé : comme un air de campagne au congrès des Jeunes agriculteurs",
+   "p": "Public Sénat",
+   "d": "2026-06-04",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/economie/retailleau-tondelier-attal-tanguy-et-trouve-comme-un-air-de-campagne-au-congres-des-jeunes-agriculteurs"
+  },
+  "e1_retailleau_immobilier": {
+   "t": "Immobilier : Bruno Retailleau « veut renverser la table » en 2027",
+   "p": "Europe 1",
+   "d": "2026-05-28",
+   "type": "presse",
+   "u": "https://www.europe1.fr/immobilier/exclu-europe-1-immobilier-bruno-retailleau-veut-renverser-la-table-en-2027-939395"
+  },
+  "lid_attal_eau": {
+   "t": "Chasse au gaspillage, bouclier tarifaire : Attal promet un plan « massif » sur l'eau s'il est élu",
+   "p": "ID, l'Info Durable (AFP)",
+   "d": "2026-08-09",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/chasse-au-gaspillage-bouclier-tarifaire-attal-promet-un-plan-massif-sur-leau-sil-est-elu-58494"
+  },
+  "lid_philippe_climat": {
+   "t": "Entre le « déni » du RN et le « dogme » de LFI, le plan d'Édouard Philippe pour une « politique de sécurité climatique »",
+   "p": "ID, l'Info Durable (AFP)",
+   "d": "2026-09-17",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/entre-le-deni-du-rn-et-le-dogme-de-lfi-le-plan-dedouard-philippe-pour-une-politique-de-securite"
+  },
+  "lid_glucksmann_ecoles": {
+   "t": "Canicule : Glucksmann promet un grand plan de rénovation thermique des écoles",
+   "p": "ID, l'Info Durable (AFP)",
+   "d": "2026-06-25",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/canicule-glucksmann-promet-un-grand-plan-de-renovation-thermique-des-ecoles-57447"
+  },
+  "lid_melenchon_conscription": {
+   "t": "Présidentielle : Mélenchon colore sa rentrée en vert en proposant la « conscription écologique »",
+   "p": "ID, l'Info Durable (AFP)",
+   "d": "2026-08-23",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/presidentielle-melenchon-colore-sa-rentree-en-vert-en-proposant-la-conscription-ecologique-58678"
+  },
+  "ps_ecoregions": {
+   "t": "Écorégions : Jean-Luc Mélenchon propose de redessiner la carte des régions pour faire de la France « la première République écologique du monde »",
+   "p": "Public Sénat",
+   "d": "2026-07-02",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/ecoregions-jean-luc-melenchon-propose-de-redessiner-la-carte-des-regions-pour-faire-de-la-france-la-premiere-republique-ecologique-du-monde"
+  },
+  "lid_tondelier_sante_env": {
+   "t": "Présidentielle : Tondelier dévoile ses mesures pour la santé environnementale",
+   "p": "ID, l'Info Durable (AFP)",
+   "d": "2026-05-30",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/presidentielle-tondelier-devoile-ses-mesures-pour-la-sante-environnementale-56752"
+  },
+  "ruffin_travaillisme": {
+   "t": "Face au chantier du siècle : Pour un travaillisme écologique (cahier de campagne n° 5)",
+   "p": "Ruffin 2027, Nous Président !",
+   "d": "2026-09-09",
+   "type": "officiel",
+   "u": "https://nouspresident.fr/travaillisme-ecologique/"
+  },
+  "agra_ruffin": {
+   "t": "Le programme agricole de François Ruffin : « 2 Md€ supplémentaires par an pour l'agriculture »",
+   "p": "Agra",
+   "d": "2026-10-06",
+   "type": "presse",
+   "u": "https://www.agra.fr/formats/interviews/le-programme-agricole-de-francois-ruffin-2-mrdeur-supplementaires-pour"
+  },
+  "cde_roussel_fourrage": {
+   "t": "Fabien Roussel réclame des réserves de fourrage face à la sécheresse",
+   "p": "Connaissance des Énergies (AFP)",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://www.connaissancedesenergies.org/afp/secheresse-roussel-pcf-veut-des-reserves-strategiques-de-fourrage-261008"
   }
  },
  "presse": [
@@ -10185,11 +10682,12 @@
   },
   "ecologie": {
    "trente": {
-    "txt": "La France applique un cadre européen (marché du carbone SEQE-UE, cible de -55 % d'émissions en 2030) et sa propre programmation de l'énergie, la PPE 3, adoptée par décret en février 2026. En 2025, ses émissions de gaz à effet de serre sont pré-estimées à 359 Mt (-2,1 %) et 95,2 % de l'électricité produite est bas-carbone.",
+    "txt": "La France applique un cadre européen (marché du carbone SEQE-UE, cible de -55 % d'émissions en 2030) et sa propre programmation de l'énergie, la PPE 3, adoptée par décret en février 2026. En 2025, ses émissions de gaz à effet de serre sont pré-estimées à 359 Mt (-2,1 %). Côté nature, 18 % des espèces évaluées dans la Liste rouge nationale sont éteintes ou menacées (2024), et au 10 septembre 2026, 93 départements de l'Hexagone avaient des restrictions d'usage de l'eau.",
     "src": [
      "sujet_ecologie_hcc_ra2026",
      "sujet_ecologie_senat_ppe3",
-     "sujet_ecologie_rte_bilan2025"
+     "sujet_env_sdes_biodiv_2025",
+     "sujet_env_bsh_2026_09"
     ]
    },
    "chiffres": [
@@ -10214,14 +10712,43 @@
      "src": "sujet_ecologie_rte_bilan2025"
     },
     {
-     "v": "+2,5 %",
-     "l": "hausse moyenne des tarifs réglementés de l'électricité au 1er août 2026, acceptée par le Gouvernement, soit environ 26 € TTC de plus par an pour une facture moyenne",
-     "src": "sujet_ecologie_sp_tarifs_aout2026"
+     "v": "18 %",
+     "l": "des espèces évaluées dans la Liste rouge nationale sont éteintes ou menacées en France (2024)",
+     "src": "sujet_env_sdes_biodiv_2025"
     },
     {
-     "v": "379 428",
-     "l": "logements rénovés grâce aux aides de l'Anah en 2025, pour 4,39 Md€ d'aides distribuées (+16 %)",
-     "src": "sujet_ecologie_anah_chiffres2025"
+     "v": "93 départements",
+     "l": "de l'Hexagone avaient des restrictions d'usage de l'eau au 10 septembre 2026, dont 74 au niveau « crise », le plus élevé des quatre",
+     "src": [
+      "sujet_env_bsh_2026_09",
+      "sujet_env_guide_secheresse_2026"
+     ]
+    },
+    {
+     "v": "2,69 millions d'hectares",
+     "l": "cultivés en bio en 2025, soit environ 10 % de la surface agricole ; en légère baisse pour la troisième année de suite (-1,1 %)",
+     "src": "sujet_env_agencebio_2025"
+    },
+    {
+     "v": "70 100 tonnes",
+     "l": "de substances phytosanitaires (pesticides) vendues pour l'agriculture en 2024, soit 8 % de plus qu'en 2023 ; 38 % sont des substances utilisables en agriculture biologique ou de biocontrôle",
+     "src": "sujet_env_sdes_ventes_phyto_2024"
+    },
+    {
+     "v": "15 119 hectares",
+     "l": "d'espaces naturels, agricoles et forestiers consommés en 2024 (donnée provisoire), le plus bas niveau depuis 2011 ; la loi vise à diviser ce rythme par deux sur 2021-2031, puis le « zéro artificialisation nette » (ZAN) en 2050",
+     "src": [
+      "sujet_env_portail_enaf_2011_2025",
+      "sujet_env_zan_fascicule_1"
+     ]
+    },
+    {
+     "v": "près de 40 000",
+     "l": "décès par an attribuables aux particules fines (PM2,5) chez les 30 ans et plus, selon Santé publique France (estimation sur 2016-2019)",
+     "src": [
+      "sujet_env_spf_air_2025",
+      "sujet_env_spf_air_2016_2019"
+     ]
     }
    ],
    "recent": [
@@ -10242,6 +10769,36 @@
      "txt": "La troisième programmation pluriannuelle de l'énergie (PPE 3) est adoptée par décret. À l'horizon 2035, elle prévoit la mise en service de 55 à 80 GW de capacités photovoltaïques, 35 à 40 GW d'éolien terrestre et 15 GW d'éolien en mer.",
      "src": "sujet_ecologie_senat_ppe3",
      "iso": "2026-02-13"
+    },
+    {
+     "date": "12 juin 2026",
+     "iso": "2026-06-12",
+     "txt": "Une loi affirme la responsabilité de l'État dans les préjudices causés par le chlordécone, un pesticide utilisé en Guadeloupe et en Martinique. Elle fixe un objectif de dépollution des sols et des eaux et ouvre la voie à l'indemnisation des victimes.",
+     "src": "sujet_env_senat_chlordecone"
+    },
+    {
+     "date": "7 août 2025",
+     "iso": "2025-08-07",
+     "txt": "Le Conseil constitutionnel censure la disposition de la loi dite « Duplomb » qui permettait de déroger par décret à l'interdiction des produits contenant des néonicotinoïdes, au nom du droit de vivre dans un environnement équilibré et respectueux de la santé. Il valide, avec deux réserves, les mesures sur les ouvrages de stockage d'eau.",
+     "src": [
+      "sujet_env_cc_2025_891",
+      "sujet_env_senat_duplomb"
+     ]
+    },
+    {
+     "date": "18 mars 2025",
+     "iso": "2025-03-18",
+     "txt": "Le Sénat adopte en première lecture la proposition de loi « TRACE », qui assouplit la trajectoire de réduction de l'artificialisation des sols pour 2021-2031, sans toucher à l'objectif de zéro artificialisation nette en 2050. Le 24 juin 2026, le Gouvernement disait attendre un accord entre l'Assemblée nationale et le Sénat avant de l'inscrire à l'ordre du jour de l'Assemblée.",
+     "src": [
+      "sujet_env_senat_trace",
+      "sujet_env_senat_qag_zan_2026"
+     ]
+    },
+    {
+     "date": "27 févr. 2025",
+     "iso": "2025-02-27",
+     "txt": "Une loi interdit, à partir du 1er janvier 2026, de fabriquer, d'importer, d'exporter et de vendre des cosmétiques, des farts, des vêtements et des chaussures grand public contenant des PFAS, les « polluants éternels » (hors équipements de protection). Elle crée aussi une redevance sur les rejets de PFAS dans l'eau.",
+     "src": "sujet_env_loi_pfas_2025"
     }
    ],
    "decide": [
@@ -10256,6 +10813,18 @@
     {
      "txt": "Les collectivités, à travers leurs outils de planification et d'aménagement du territoire, sont des acteurs majeurs des politiques climatiques.",
      "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "txt": "En cas de sécheresse, ce sont les préfets de département qui restreignent les usages de l'eau par arrêté, selon quatre niveaux : vigilance, alerte, alerte renforcée et crise.",
+     "src": "sujet_env_guide_secheresse_2026"
+    },
+    {
+     "txt": "L'Union européenne fixe des objectifs de restauration de la nature (règlement entré en vigueur le 18 août 2024) : chaque État, dont la France, doit préparer un plan national de restauration, dont une première version était à transmettre à la Commission avant le 1er septembre 2026.",
+     "src": "sujet_env_ofb_rrn"
+    },
+    {
+     "txt": "L'objectif national de réduction de l'artificialisation des sols descend en cascade : les régions l'intègrent dans leurs schémas, puis les intercommunalités et les communes doivent rendre leurs documents d'urbanisme (SCoT, PLU) compatibles.",
+     "src": "sujet_env_zan_fascicule_1"
     }
    ],
    "jeunes": [
@@ -10288,12 +10857,22 @@
     {
      "txt": "Comment protéger les ménages les plus dépendants des énergies fossiles, face à la précarité mobilité (15 millions de personnes) et à la précarité énergétique (10,8 % des ménages), tout en réduisant les émissions ?",
      "src": "sujet_ecologie_hcc_ra2026"
+    },
+    {
+     "txt": "Faut-il assouplir la trajectoire de réduction de l'artificialisation des sols fixée pour 2021-2031, tout en gardant l'objectif de zéro artificialisation nette en 2050 ?",
+     "src": "sujet_env_senat_trace"
+    },
+    {
+     "txt": "Faut-il passer d'une gestion des pollutions diffuses (pesticides, engrais, plastiques…) qui répare après coup à une politique de prévention à la source, comme le propose le CESE ?",
+     "src": "sujet_env_cese_pollutions_diffuses"
     }
    ],
    "lire": [
     "sujet_ecologie_hcc_ra2026",
     "sujet_ecologie_rte_bilan2025",
-    "sujet_ecologie_citepa_secten2026"
+    "sujet_ecologie_citepa_secten2026",
+    "sujet_env_sdes_biodiv_2025",
+    "sujet_env_sdes_bilan_chiffres_cles"
    ]
   },
   "eco": {
@@ -11366,7 +11945,7 @@
   }
  },
  "semaine": {
-  "d": "2026-10-11",
+  "d": "2026-10-12",
   "titre": [
    "Raphaël Glucksmann remporte la primaire sociale-démocrate,",
    "{n} propositions ajoutées,",
@@ -11403,6 +11982,11 @@
      "markovic_pa_communique",
      "huff_markovic"
     ]
+   },
+   {
+    "k": "Dans l'appli",
+    "t": "Un sujet élargi : Environnement et climat",
+    "txt": "L'ancien sujet « Climat et énergie » couvre maintenant aussi la biodiversité, l'eau, l'agriculture et les pesticides, les sols et la pollution de l'air, avec des chiffres officiels et de nouvelles propositions des candidats."
    }
   ]
  }

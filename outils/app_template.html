@@ -840,7 +840,7 @@ function newsRow(p) {
 /* Références numérotées : chaque phrase porte un petit numéro, la liste des sources suit (même rendu partout) */
 function refBox() {
   const refs = [];
-  const ref = id => { if (!SRC[id]) return ""; let i = refs.indexOf(id); if (i < 0) { refs.push(id); i = refs.length - 1; } return `<sup class="ref"><a href="${esc(SRC[id].u)}" target="_blank" rel="noopener" aria-label="Source ${i + 1} : ${esc(SRC[id].p)}">${i + 1}</a></sup>`; };
+  const ref = id => { if (Array.isArray(id)) return id.map(ref).join(""); if (!SRC[id]) return ""; let i = refs.indexOf(id); if (i < 0) { refs.push(id); i = refs.length - 1; } return `<sup class="ref"><a href="${esc(SRC[id].u)}" target="_blank" rel="noopener" aria-label="Source ${i + 1} : ${esc(SRC[id].p)}">${i + 1}</a></sup>`; };
   const list = () => refs.length ? `<ol class="refs">${refs.map(id => { const x = SRC[id]; return `<li><a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.p)}</a>${x.d ? " · " + esc(fmtDate(x.d)) : ""} <span>${esc(x.t)}</span></li>`; }).join("")}</ol>` : "";
   return { ref, list };
 }
@@ -1264,7 +1264,8 @@ function askSearch(q) {
   const df = {}; toks.forEach(k => { df[k] = I.docs.filter(d => qHit(d.w, k)).length; });
   const sc = I.docs.map(d => ({ d, s: toks.reduce((a, k) => a + (df[k] && qHit(d.w, k) ? 1 / df[k] : 0), 0) }));
   const max = Math.max(0, ...sc.map(x => x.s)), keep = x => x.s > 0 && x.s >= max * 0.6;
-  const learn = sc.filter(x => (x.d.k === "t" && (keep(x) || toks.some(k => qHit(x.d.lw, k)))) || (x.d.k === "k" && keep(x))).sort((a, b) => b.s - a.s).map(x => x.d);
+  const inLabel = x => x.d.lw && toks.some(k => qHit(x.d.lw, k)) ? 1 : 0;
+  const learn = sc.filter(x => (x.d.k === "t" && (keep(x) || inLabel(x))) || (x.d.k === "k" && keep(x))).sort((a, b) => inLabel(b) - inLabel(a) || b.s - a.s).map(x => x.d);
   const dates = sc.filter(x => x.d.k === "d" && keep(x)).map(x => x.d);
   const cs = I.cands.map(x => ({ c: x.c, n: toks.filter(k => k.length >= 3 && qHit(x.w, k)).length })), cmax = Math.max(0, ...cs.map(x => x.n));
   const cands = cs.filter(x => x.n && x.n === cmax).map(x => x.c).sort((a, b) => a.tri.localeCompare(b.tri, "fr"));
@@ -1542,6 +1543,11 @@ function srcUsage() {
     set.forEach(s => add(s, "bio")); new Set(c.faits.map(f => f[1]).concat(c.docs)).forEach(s => add(s, "fiche"));
   });
   (DATA.kit || []).forEach(f => new Set(f.blocs.map(b => b.src)).forEach(s => add(s, "kit")));
+  Object.values(DATA.sujets || {}).forEach(S => {
+    const set = new Set(), put = x => [].concat(x || []).forEach(y => set.add(y));
+    put(S.trente && S.trente.src); ["chiffres", "recent", "decide", "jeunes", "questions"].forEach(b => (S[b] || []).forEach(it => put(it.src))); put(S.lire);
+    set.forEach(s => add(s, "sujet"));
+  });
   if (DATA.budget) DATA.budget.dep.src.concat(DATA.budget.rec.src).forEach(s => add(s, "ctx"));
   DATA.presse.forEach(p => add(p.s, "art"));
   DATA.sondages.forEach(s => new Set(s.s).forEach(x => add(x, "sond"))); add(DATA.duels.s, "sond");
@@ -1550,8 +1556,8 @@ function srcUsage() {
   Object.values(R.axes || {}).forEach(a => a.rows.forEach(r => add(r.s, "ctx")));
   return u;
 }
-const USE = { prop: ["proposition", "propositions"], bio: ["parcours", "parcours"], kit: ["fiche « Avant de voter »", "fiches « Avant de voter »"], fiche: ["fiche candidat", "fiches candidats"], art: ["article de l'actu", "articles de l'actu"], sond: ["sondage", "sondages"], ctx: ["chiffre de contexte", "chiffres de contexte"] };
-const useText = u => u ? "Citée pour : " + Object.entries(USE).filter(([k]) => u[k]).map(([k, [one, many]]) => `${u[k]} ${u[k] > 1 ? many : one}`).join(", ") : "Consultée pour vérifier la liste des candidats";
+const USE = { prop: ["proposition", "propositions"], bio: ["parcours", "parcours"], kit: ["fiche « Avant de voter »", "fiches « Avant de voter »"], sujet: ["fiche « Comprendre le sujet »", "fiches « Comprendre le sujet »"], fiche: ["fiche candidat", "fiches candidats"], art: ["article de l'actu", "articles de l'actu"], sond: ["sondage", "sondages"], ctx: ["chiffre de contexte", "chiffres de contexte"] };
+const useText = u => u ? "Citée pour : " + Object.entries(USE).filter(([k]) => u[k]).map(([k, [one, many]]) => `${u[k]} ${u[k] > 1 ? many : one}`).join(", ") : "Consultée pour vérifier les informations de l'appli";
 function srcItem(id, u) {
   const s = SRC[id], dom = host(s.u);
   return `<a class="row" data-q="${esc((s.t + " " + s.p + " " + dom).toLowerCase())}" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}${dom && !s.p.toLowerCase().includes(dom) ? " · " + esc(dom) : ""}</span><span class="use">${esc(useText(u))}</span></span>${EXT}</a>`;
