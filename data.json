@@ -1,6 +1,6 @@
 {
- "maj": "2026-10-12",
- "version": 7,
+ "maj": "2026-10-15",
+ "version": 8,
  "base": "2026-10-01",
  "themes": [
   [
@@ -485,6 +485,10 @@
     [
      "Le programme en ligne est l'édition 2025 ; le mouvement indique qu'une version réactualisée sera publiée.",
      "lfi_aec"
+    ],
+    [
+     "La nouvelle version de « L'Avenir en commun », son livre-programme, doit être présentée les 6 et 7 novembre 2026, avec une « convention » le 7 novembre au parc des expositions du Bourget.",
+     "lcp_melenchon_programme"
     ]
    ],
    "docs": [
@@ -2657,6 +2661,44 @@
        [
         "Pour se présenter, elle doit recevoir les parrainages de 500 élus.",
         "markovic_pa_site"
+       ]
+      ]
+     ]
+    ]
+   }
+  },
+  {
+   "id": "polony",
+   "nom": "Natacha Polony",
+   "tri": "Polony",
+   "parti": "Journaliste et essayiste",
+   "statut": "nonpublie",
+   "statutTxt": "Candidature annoncée, programme non publié",
+   "faits": [
+    [
+     "A annoncé sa candidature le 14 octobre 2026 sur France Inter.",
+     "lcp_polony"
+    ],
+    [
+     "Doit encore recevoir les parrainages de 500 élus pour pouvoir se présenter.",
+     "lcp_polony"
+    ]
+   ],
+   "docs": [],
+   "parcours": {
+    "chapo": [
+     "Natacha Polony est journaliste et essayiste. Elle a dirigé la rédaction de l'hebdomadaire Marianne de 2018 à 2024.",
+     [
+      "lcp_polony"
+     ]
+    ],
+    "paras": [
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Le 14 octobre 2026, sur France Inter, elle annonce sa candidature à l'élection présidentielle, qu'elle présente comme « une candidature de rassemblement ».",
+        "lcp_polony"
        ]
       ]
      ]
@@ -5102,6 +5144,78 @@
    "aj": "2026-10-12",
    "fin": "n",
    "id": "p189"
+  },
+  {
+   "c": "polony",
+   "th": "travail",
+   "t": "Augmenter les salaires de 20 à 30 %",
+   "d": "Augmenter les salaires de 20 à 30 %.",
+   "s": [
+    "lcp_polony"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p190"
+  },
+  {
+   "c": "polony",
+   "th": "eco",
+   "t": "Un « état d'urgence de la production »",
+   "d": "Décréter « un état d'urgence de la production » : la production française en priorité dans la commande publique, et la suppression des aides aux entreprises qui ne sont pas conditionnées à une production sur le sol national.",
+   "s": [
+    "lcp_polony"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p191"
+  },
+  {
+   "c": "le-pen",
+   "th": "europe",
+   "t": "Maintenir l'aide à l'Ukraine six mois, puis l'arrêter",
+   "d": "Maintenir l'aide financière à l'Ukraine pendant six mois après son élection, « pour ne mettre personne au pied du mur », puis l'arrêter, « car nous n'avons plus les moyens de le faire ».",
+   "s": [
+    "bfm_lepen_ukraine"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p192"
+  },
+  {
+   "c": "attal",
+   "th": "etudes",
+   "t": "Transformer Parcoursup plutôt que le supprimer",
+   "d": "Garder Parcoursup mais le transformer, avec davantage de mentorat, de tutorat et de stages dans le parcours d'orientation.",
+   "s": [
+    "lyonmag_attal_jeunesse"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p193"
+  },
+  {
+   "c": "attal",
+   "th": "institutions",
+   "t": "Un mois d'engagement civique obligatoire avant 25 ans",
+   "d": "Imposer à chacun au moins un mois d'engagement civique au service des autres avant l'âge de 25 ans.",
+   "s": [
+    "lyonmag_attal_jeunesse"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p194"
+  },
+  {
+   "c": "attal",
+   "th": "etudes",
+   "t": "Évaluer les licences et les masters tous les trois ans",
+   "d": "Évaluer les licences et les masters tous les trois ans.",
+   "s": [
+    "lyonmag_attal_jeunesse"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p195"
   }
  ],
  "sources": {
@@ -8814,6 +8928,55 @@
    "d": "2026-10-08",
    "type": "presse",
    "u": "https://www.connaissancedesenergies.org/afp/secheresse-roussel-pcf-veut-des-reserves-strategiques-de-fourrage-261008"
+  },
+  "lcp_polony": {
+   "t": "Natacha Polony annonce sa candidature à l'élection présidentielle",
+   "p": "LCP",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/natacha-polony-annonce-sa-candidature-a-l-election-presidentielle-443808"
+  },
+  "bfm_lepen_ukraine": {
+   "t": "Présidentielle 2027 : Marine Le Pen affirme qu'elle « maintiendra six mois » les aides à l'Ukraine si elle est élue",
+   "p": "BFMTV, sur Yahoo Actualités",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/presidentielle-2027-marine-pen-affirme-063100414.html"
+  },
+  "lyonmag_attal_jeunesse": {
+   "t": "Présidentielle 2027 : à Lyon, Gabriel Attal dévoile son « pacte pour la jeunesse » et cible Jean-Luc Mélenchon",
+   "p": "Lyon Mag",
+   "d": "2026-10-10",
+   "type": "presse",
+   "u": "https://www.lyonmag.com/article/154267/presidentielle-2027-a-lyon-gabriel-attal-devoile-son-pacte-pour-la-jeunesse-et-cible-jean-luc-melenchon"
+  },
+  "lcp_primaire_reactions": {
+   "t": "Victoire de Raphaël Glucksmann à la primaire socialiste : premières réactions des candidats vaincus et des autres partis de gauche",
+   "p": "LCP",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/victoire-de-raphael-glucksmann-a-la-primaire-socialiste-premieres-reactions-des"
+  },
+  "ps_odoxa_oct": {
+   "t": "Sondage présidentielle 2027 : Jean-Luc Mélenchon passe devant Édouard Philippe au premier tour, le centre cherche son cap",
+   "p": "Public Sénat",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/sondage-presidentielle-2027-jean-luc-melenchon-passe-devant-edouard-philippe-au-premier-tour-le-centre-cherche-son-cap"
+  },
+  "sudradio_lisnard": {
+   "t": "David Lisnard peut-il être la grosse cote de l'élection présidentielle de 2027 ?",
+   "p": "Sud Radio",
+   "d": "2026-10-15",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/david-lisnard-peut-il-etre-la-grosse-cote-de-lelection-presidentielle-de-2027"
+  },
+  "lcp_melenchon_programme": {
+   "t": "Présidentielle : le programme remanié de la « Nouvelle France » de Jean-Luc Mélenchon sera présenté début novembre",
+   "p": "LCP",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-le-programme-remanie-de-la-nouvelle-france-de-jean-luc-melenchon-sera"
   }
  },
  "presse": [
@@ -9276,6 +9439,68 @@
     "royal"
    ],
    "txt": "Raphaël Glucksmann remporte la primaire sociale-démocrate dès le premier tour, avec 66,13 % des voix, devant Olivier Faure : il est désigné candidat de la gauche sociale-démocrate à la présidentielle"
+  },
+  {
+   "d": "2026-10-11",
+   "s": "lcp_primaire_reactions",
+   "k": "campagne",
+   "c": [
+    "faure",
+    "glucksmann",
+    "guedj",
+    "maurel",
+    "royal"
+   ],
+   "txt": "Après la primaire, Olivier Faure appelle à « forger ensemble cet esprit de victoire », Ségolène Royal se dit « pour celui qui a gagné », Emmanuel Maurel promet un soutien « loyal et exigeant » et Jérôme Guedj dit qu'il continuera sa campagne « à la place que Raphaël Glucksmann jugera utile »"
+  },
+  {
+   "d": "2026-10-10",
+   "s": "lyonmag_attal_jeunesse",
+   "k": "programme",
+   "c": [
+    "attal"
+   ],
+   "txt": "À Lyon, Gabriel Attal présente un « pacte pour la jeunesse » : Parcoursup transformé, un mois d'engagement civique avant 25 ans, évaluation des licences et des masters"
+  },
+  {
+   "d": "2026-10-14",
+   "s": "lcp_polony",
+   "k": "campagne",
+   "c": [
+    "polony"
+   ],
+   "txt": "Natacha Polony, journaliste et essayiste, ancienne directrice de la rédaction de Marianne, annonce sa candidature à l'élection présidentielle sur France Inter"
+  },
+  {
+   "d": "2026-10-14",
+   "s": "bfm_lepen_ukraine",
+   "k": "programme",
+   "c": [
+    "le-pen"
+   ],
+   "txt": "Marine Le Pen dit qu'elle maintiendrait l'aide financière à l'Ukraine pendant six mois après son élection, puis qu'elle l'arrêterait"
+  },
+  {
+   "d": "2026-10-14",
+   "s": "ps_odoxa_oct",
+   "k": "sondage",
+   "c": [
+    "melenchon",
+    "philippe"
+   ],
+   "txt": "Baromètre Odoxa-Backbone (24 septembre au 7 octobre, 12 005 personnes) : avec Édouard Philippe comme candidat du centre, Jean-Luc Mélenchon atteint 18 % au premier tour, devant Édouard Philippe (17 %)"
+  },
+  {
+   "d": "2026-10-15",
+   "s": "sudradio_lisnard",
+   "k": "sondage",
+   "c": [
+    "attal",
+    "lisnard",
+    "retailleau",
+    "zemmour"
+   ],
+   "txt": "Sondage Ifop-Fiducial : David Lisnard est crédité de 6 % des intentions de vote au premier tour, devant Gabriel Attal, Bruno Retailleau et Éric Zemmour"
   }
  ],
  "sondages": [
@@ -11558,7 +11783,7 @@
      "src": "sujet_europe_sp_reserve"
     },
     {
-     "txt": "DiscoverEU : les jeunes de 18 ans nés en 2008, citoyens d'un État membre de l'UE ou d'un pays associé à Erasmus+, peuvent candidater (candidatures ouvertes le 1er octobre 2026, jusqu'au 15 octobre) à un pass ferroviaire gratuit valable jusqu'à 30 jours entre mars 2027 et mai 2028 (près de 41 000 titres).",
+     "txt": "DiscoverEU, session d'octobre 2026 (candidatures du 1er au 15 octobre) : pour les jeunes de 18 ans nés en 2008, citoyens d'un État membre de l'UE ou d'un pays associé à Erasmus+, un pass ferroviaire gratuit valable jusqu'à 30 jours entre mars 2027 et mai 2028 (près de 41 000 titres).",
      "src": "sujet_europe_ec_discovereu"
     }
    ],
@@ -11958,13 +12183,21 @@
   }
  },
  "semaine": {
-  "d": "2026-10-12",
+  "d": "2026-10-15",
   "titre": [
+   "Natacha Polony annonce sa candidature,",
    "Raphaël Glucksmann remporte la primaire sociale-démocrate,",
-   "{n} propositions ajoutées,",
-   "une nouvelle candidature."
+   "{n} propositions ajoutées."
   ],
   "ecrans": [
+   {
+    "k": "Nouvelle candidature",
+    "c1": "polony",
+    "txt": "Annoncée le 14 octobre 2026 sur France Inter. Elle doit encore recevoir les parrainages de 500 élus pour pouvoir se présenter.",
+    "src": [
+     "lcp_polony"
+    ]
+   },
    {
     "k": "Primaire sociale-démocrate",
     "t": "Raphaël Glucksmann l'emporte dès le premier tour",
@@ -11986,15 +12219,6 @@
      "e1_primaire_resultats"
     ],
     "cl": "Les cinq candidats de la primaire"
-   },
-   {
-    "k": "Nouvelle candidature",
-    "c1": "markovic",
-    "txt": "Présentée par son parti le 2 octobre 2026. Elle doit encore recevoir les parrainages de 500 élus pour pouvoir se présenter.",
-    "src": [
-     "markovic_pa_communique",
-     "huff_markovic"
-    ]
    },
    {
     "k": "Dans l'appli",
