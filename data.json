@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-15",
- "version": 8,
+ "version": 9,
  "base": "2026-10-01",
  "themes": [
   [
@@ -2734,10 +2734,10 @@
   {
    "c": "arthaud",
    "th": "travail",
-   "t": "Des salaires qui suivent les prix, et les licenciements interdits",
-   "d": "Indexer les salaires sur les prix et interdire les licenciements.",
+   "t": "Des salaires qui suivent les prix, et le travail réparti entre tous",
+   "d": "Indexer les salaires sur la hausse des prix (« quand les prix montent, notre salaire doit suivre ! ») et « imposer que le travail soit réparti entre tous ».",
    "s": [
-    "qpq"
+    "lo_brochure_2026"
    ],
    "aj": "2026-10-01",
    "fin": "n",
@@ -2749,7 +2749,7 @@
    "t": "Régulariser tous les sans-papiers",
    "d": "Régulariser tous les sans-papiers.",
    "s": [
-    "qpq"
+    "lo_brochure_2026"
    ],
    "aj": "2026-10-01",
    "fin": "n",
@@ -2758,10 +2758,10 @@
   {
    "c": "arthaud",
    "th": "europe",
-   "t": "Contre la hausse du budget de l'armée et le retour du service militaire",
-   "d": "S'opposer à la hausse des budgets militaires et au retour du service militaire.",
+   "t": "Contre la hausse du budget de l'armée",
+   "d": "S'opposer à la hausse des dépenses militaires.",
    "s": [
-    "qpq"
+    "lo_brochure_2026"
    ],
    "aj": "2026-10-01",
    "fin": "n",
@@ -4187,30 +4187,12 @@
   {
    "aj": "2026-10-03",
    "c": "brun",
-   "th": "budget",
-   "t": "66 milliards de dépenses financées par 66 milliards de recettes",
-   "d": "Son livret « Produire » (19 août 2026, 42 pages, 20 mesures) chiffre 66 milliards d'euros de dépenses, financées par 66 milliards de recettes.",
-   "s": [
-    "qpq"
-   ],
-   "a": {
-    "v": 66,
-    "nature": "cout",
-    "per": "nd",
-    "h": "chiffrage de son livret"
-   },
-   "fin": "f",
-   "finTxt": "66 milliards de recettes nouvelles, selon son livret",
-   "id": "p115"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "brun",
    "th": "travail",
-   "t": "Baisser la CSG sur les salaires inférieurs à 4 000 €",
-   "d": "Baisser la CSG sur les salaires inférieurs à 4 000 €.",
+   "t": "Baisser la CSG sur les salaires de moins de 4 000 € brut",
+   "d": "Le « salaire Brun » : baisser la CSG pour rapprocher le salaire brut du salaire net, pour ceux qui gagnent moins de 4 000 € brut par mois.",
    "s": [
-    "qpq"
+    "brun_produire",
+    "lcp_brun"
    ],
    "fin": "n",
    "id": "p116"
@@ -4220,9 +4202,10 @@
    "c": "brun",
    "th": "eco",
    "t": "Remettre EDF en monopole public et rétablir l'ISF",
-   "d": "Remettre EDF en monopole public et rétablir l'impôt sur la fortune.",
+   "d": "Revenir à un monopole public pour EDF, et rétablir l'impôt sur la fortune sur les biens non professionnels.",
    "s": [
-    "qpq"
+    "brun_produire",
+    "lcp_brun"
    ],
    "fin": "n",
    "id": "p117"
@@ -4232,9 +4215,9 @@
    "c": "brun",
    "th": "eco",
    "t": "Cinq usines par département",
-   "d": "Implanter cinq usines par département.",
+   "d": "Recréer cinq usines par département sur la durée du mandat.",
    "s": [
-    "qpq"
+    "lcp_brun"
    ],
    "fin": "n",
    "id": "p118"
@@ -4243,10 +4226,11 @@
    "aj": "2026-10-03",
    "c": "brun",
    "th": "retraites",
-   "t": "Un fonds de capitalisation collective pour les retraites",
-   "d": "Créer un fonds de capitalisation collective pour financer les retraites.",
+   "t": "Plus de capitalisation collective pour les retraites",
+   "d": "Intégrer « une dose de capitalisation collective » en dotant massivement le Fonds de réserve pour les retraites.",
    "s": [
-    "qpq"
+    "brun_produire",
+    "lcp_brun"
    ],
    "fin": "n",
    "id": "p119"
@@ -4286,9 +4270,9 @@
    "c": "branco",
    "th": "eco",
    "t": "Supprimer plus de 300 taxes",
-   "d": "Supprimer plus de 300 taxes.",
+   "d": "Supprimer « plus de 300 taxes, cotisations et impôts ».",
    "s": [
-    "qpq"
+    "branco_ruches"
    ],
    "fin": "n",
    "id": "p122"
@@ -4297,10 +4281,10 @@
    "aj": "2026-10-03",
    "c": "branco",
    "th": "eco",
-   "t": "Nationaliser l'électricité, l'eau et la santé",
-   "d": "Nationaliser l'électricité, l'eau et la santé.",
+   "t": "Nationaliser l'électricité, l'eau, la santé, les télécoms et les autoroutes",
+   "d": "Nationaliser le marché de l'électricité, de l'eau, de la santé, des télécoms et des autoroutes.",
    "s": [
-    "qpq"
+    "branco_ruches"
    ],
    "fin": "n",
    "id": "p123"
@@ -4310,9 +4294,9 @@
    "c": "branco",
    "th": "europe",
    "t": "Des référendums sur l'Union européenne, l'euro et l'OTAN",
-   "d": "Organiser des référendums sur l'appartenance à l'Union européenne, à l'euro et à l'OTAN.",
+   "d": "Organiser des référendums sur l'appartenance à l'Union européenne et à l'euro, et sur la sortie de l'OTAN.",
    "s": [
-    "qpq"
+    "branco_ruches"
    ],
    "fin": "s",
    "id": "p124"
@@ -4322,9 +4306,9 @@
    "c": "branco",
    "th": "institutions",
    "t": "Supprimer les régions",
-   "d": "Supprimer l'échelon régional.",
+   "d": "Supprimer les régions et déconcentrer les services de l'État.",
    "s": [
-    "qpq"
+    "branco_ruches"
    ],
    "fin": "s",
    "id": "p125"
@@ -4334,9 +4318,9 @@
    "c": "branco",
    "th": "securite",
    "t": "Des jurés citoyens à tous les niveaux de la justice",
-   "d": "Des jurés populaires à toutes les échelles de la justice.",
+   "d": "Des jurés populaires à tous les échelons de la justice.",
    "s": [
-    "qpq"
+    "branco_ruches"
    ],
    "fin": "n",
    "id": "p126"
@@ -5216,6 +5200,192 @@
    "aj": "2026-10-15",
    "fin": "s",
    "id": "p195"
+  },
+  {
+   "c": "philippe",
+   "th": "numerique",
+   "t": "100 000 ingénieurs formés par an, contre 40 000",
+   "d": "Faire passer de 40 000 à 100 000 le nombre d'ingénieurs formés chaque année, et doubler en cinq ans les infrastructures informatiques françaises.",
+   "s": [
+    "maddyness_ia"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p196"
+  },
+  {
+   "c": "philippe",
+   "th": "numerique",
+   "t": "Un « droit à la reconversion » face à l'IA",
+   "d": "Créer un « droit à la reconversion » pour les métiers menacés par l'intelligence artificielle.",
+   "s": [
+    "maddyness_ia"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p197"
+  },
+  {
+   "c": "retailleau",
+   "th": "numerique",
+   "t": "25 milliards d'euros sur cinq ans pour l'IA",
+   "d": "Un plan de 25 milliards d'euros sur cinq ans pour développer l'intelligence artificielle.",
+   "s": [
+    "maddyness_ia"
+   ],
+   "aj": "2026-10-15",
+   "a": {
+    "v": 25,
+    "nature": "cout",
+    "per": "total",
+    "h": "sur cinq ans"
+   },
+   "fin": "c",
+   "id": "p198"
+  },
+  {
+   "c": "glucksmann",
+   "th": "numerique",
+   "t": "Une agence industrielle du numérique et de l'IA",
+   "d": "Créer une « agence industrielle du numérique et de l'IA ».",
+   "s": [
+    "maddyness_ia"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p199"
+  },
+  {
+   "c": "glucksmann",
+   "th": "numerique",
+   "t": "Un traité international sur les usages les plus risqués de l'IA",
+   "d": "Créer un traité international encadrant les usages de l'intelligence artificielle à très haut risque.",
+   "s": [
+    "maddyness_ia"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p200"
+  },
+  {
+   "c": "tondelier",
+   "th": "numerique",
+   "t": "Étiqueter les contenus générés par l'IA",
+   "d": "Rendre obligatoire l'étiquetage des contenus générés par l'intelligence artificielle, et imposer la traçabilité des données utilisées pour entraîner les modèles.",
+   "s": [
+    "maddyness_ia"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p201"
+  },
+  {
+   "c": "retailleau",
+   "th": "pouvoir",
+   "t": "Supprimer les certificats d'économie d'énergie pour baisser le prix de l'essence",
+   "d": "Supprimer les certificats d'économie d'énergie (CEE), ce qui pourrait selon lui réduire les prix à la pompe de « 15 à 17 centimes par litre ».",
+   "s": [
+    "afp_pouvoir_achat"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p202"
+  },
+  {
+   "c": "retailleau",
+   "th": "travail",
+   "t": "Mieux payer ceux qui travaillent 30 minutes de plus par jour",
+   "d": "Mieux rémunérer ceux qui acceptent de travailler « 30 minutes de plus chaque jour ».",
+   "s": [
+    "afp_pouvoir_achat"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p203"
+  },
+  {
+   "c": "le-pen",
+   "th": "travail",
+   "t": "Des salaires augmentés de 10 %, sans cotisations patronales sur la hausse",
+   "d": "Inciter les entreprises à augmenter les salaires de 10 % en exonérant cette hausse de cotisations patronales.",
+   "s": [
+    "afp_pouvoir_achat"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p204"
+  },
+  {
+   "c": "melenchon",
+   "th": "etudes",
+   "t": "Supprimer Parcoursup",
+   "d": "Supprimer la plateforme Parcoursup, qu'il qualifie d'« école du vice ».",
+   "s": [
+    "orange_melenchon_jeunes"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p205"
+  },
+  {
+   "c": "melenchon",
+   "th": "institutions",
+   "t": "Le droit de vote à 16 ans",
+   "d": "Abaisser l'âge du droit de vote à 16 ans, contre 18 actuellement.",
+   "s": [
+    "orange_melenchon_jeunes"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p206"
+  },
+  {
+   "c": "melenchon",
+   "th": "education",
+   "t": "Le bac pro de nouveau en quatre ans",
+   "d": "Rétablir la règle des quatre ans pour passer un bac professionnel, et créer une filière qui part du CAP jusqu'à la licence professionnelle.",
+   "s": [
+    "orange_melenchon_jeunes"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p207"
+  },
+  {
+   "c": "becht",
+   "th": "etudes",
+   "t": "Supprimer et remplacer Parcoursup",
+   "d": "« Parcoursup est une boîte noire qui doit être supprimée et remplacée. »",
+   "s": [
+    "sudradio_becht"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p208"
+  },
+  {
+   "c": "becht",
+   "th": "travail",
+   "t": "Un contrat de travail unique, avec un salaire socle entre deux emplois",
+   "d": "Un contrat de travail « portable d'une entreprise à l'autre », qui resterait attaché à la personne entre deux emplois, avec un salaire socle, « une forme de revenu universel » : il faudrait accepter un emploi correspondant à ses qualifications, suivre une formation ou, sans travail, effectuer 25 heures de bénévolat.",
+   "s": [
+    "sudradio_becht"
+   ],
+   "aj": "2026-10-15",
+   "fin": "n",
+   "id": "p209"
+  },
+  {
+   "c": "becht",
+   "th": "education",
+   "t": "Décentraliser la gestion des enseignants",
+   "d": "Décentraliser la gestion des enseignants et donner plus d'autonomie aux établissements, pour que leurs directeurs puissent composer leurs équipes pédagogiques.",
+   "s": [
+    "sudradio_becht"
+   ],
+   "aj": "2026-10-15",
+   "fin": "s",
+   "id": "p210"
   }
  ],
  "sources": {
@@ -8977,6 +9147,55 @@
    "d": "2026-10-09",
    "type": "presse",
    "u": "https://lcp.fr/actualites/presidentielle-le-programme-remanie-de-la-nouvelle-france-de-jean-luc-melenchon-sera"
+  },
+  "afp_pouvoir_achat": {
+   "t": "Salaires, carburants, mobilisations : le pouvoir d'achat s'impose dans la campagne",
+   "p": "Sud Radio (dépêche AFP)",
+   "d": "2026-09-15",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/societe/salaires-carburants-mobilisations-le-pouvoir-dachat-simpose-dans-la-campagne"
+  },
+  "orange_melenchon_jeunes": {
+   "t": "Présidentielle 2027 : suppression de Parcoursup, droit de vote à 16 ans… Jean-Luc Mélenchon multiplie les propositions pour les jeunes",
+   "p": "Orange Actualités (6Médias avec L'Express)",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://actu.orange.fr/politique/presidentielle-2027-suppression-de-parcoursup-droit-de-vote-a-16-ans-jean-luc-melenchon-multiplie-les-propositions-pour-les-jeunes-magic-CNT000002sCYOg.html"
+  },
+  "sudradio_becht": {
+   "t": "Olivier Becht : « Je suis candidat à l'élection présidentielle et j'irai jusqu'au bout ! »",
+   "p": "Sud Radio",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/olivier-becht-je-suis-candidat-a-lelection-presidentielle-et-jirai-jusquau-bout"
+  },
+  "branco_ruches": {
+   "t": "Le Projet 2027 : programme en 6 piliers",
+   "p": "Les Ruches (mouvement de Juan Branco)",
+   "d": "2026",
+   "type": "officiel",
+   "u": "https://ruches.org/le-projet"
+  },
+  "brun_produire": {
+   "t": "Produire : faire de la France la première puissance économique européenne",
+   "p": "Philippe Brun (programme)",
+   "d": "2026-08",
+   "type": "officiel",
+   "u": "https://philippebrun.fr/Programme-P.Brun-Produire.pdf"
+  },
+  "lcp_brun": {
+   "t": "Présidentielle : le député Philippe Brun, candidat à la primaire du PS, veut « une révolution productive »",
+   "p": "LCP",
+   "d": "2026-08-19",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-le-depute-philippe-brun-candidat-a-la-primaire-du-ps-veut-une-revolution"
+  },
+  "lo_brochure_2026": {
+   "t": "Supplément au journal Lutte ouvrière n° 3021 (brochure d'été 2026)",
+   "p": "Lutte ouvrière",
+   "d": "2026-06-26",
+   "type": "officiel",
+   "u": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
   }
  },
  "presse": [
@@ -9501,6 +9720,24 @@
     "zemmour"
    ],
    "txt": "Sondage Ifop-Fiducial : David Lisnard est crédité de 6 % des intentions de vote au premier tour, devant Gabriel Attal, Bruno Retailleau et Éric Zemmour"
+  },
+  {
+   "d": "2026-10-11",
+   "s": "orange_melenchon_jeunes",
+   "k": "programme",
+   "c": [
+    "melenchon"
+   ],
+   "txt": "À Clermont-Ferrand, Jean-Luc Mélenchon propose de supprimer Parcoursup et d'abaisser l'âge du droit de vote à 16 ans"
+  },
+  {
+   "d": "2026-10-11",
+   "s": "sudradio_becht",
+   "k": "programme",
+   "c": [
+    "becht"
+   ],
+   "txt": "Olivier Becht présente son « Projet France » : supprimer et remplacer Parcoursup, un contrat de travail unique avec un salaire socle"
   }
  ],
  "sondages": [
@@ -10898,7 +11135,7 @@
        ]
       }
      ],
-     "aussi": "Et aussi : repas gratuits, rénovation des bâtiments, fin de la carte scolaire, structures pour les élèves perturbateurs, groupes de niveau, uniforme.",
+     "aussi": "Et aussi : repas gratuits, écoles rénovées, fin de la carte scolaire, structures pour élèves perturbateurs, groupes de niveau, uniforme, bac pro en 4 ans, gestion locale des profs.",
      "ids": [
       "p011",
       "p012",
@@ -10913,7 +11150,9 @@
       "p103",
       "p104",
       "p149",
-      "p150"
+      "p150",
+      "p207",
+      "p210"
      ]
     }
    }
