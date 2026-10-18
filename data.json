@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-15",
- "version": 10,
+ "version": 11,
  "base": "2026-10-01",
  "themes": [
   [
@@ -3143,8 +3143,8 @@
   {
    "c": "melenchon",
    "th": "travail",
-   "t": "Un SMIC à 1 600 € net par mois",
-   "d": "Porter le SMIC à 1 600 € net par mois.",
+   "t": "Un SMIC à 1 700 € net par mois",
+   "d": "Porter le SMIC à 1 700 € net par mois (2 176 € brut). C'est ce que prévoient une proposition de loi des députés insoumis déposée en septembre 2026 et le plan budgétaire présenté par son équipe le 14 octobre 2026.",
    "s": [
     "lfi_aec",
     "lfi_contrebudget_2025"
@@ -10573,9 +10573,9 @@
      },
      {
       "c": "melenchon",
-      "v": 1600,
-      "label": "1 600 € net",
-      "s": "lfi_aec"
+      "v": 1700,
+      "label": "1 700 € net",
+      "s": "an_ppl3176"
      },
      {
       "c": "ruffin",
