@@ -560,6 +560,103 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "L'édition 2025 de son programme, L'Avenir en commun, est en ligne. La nouvelle version doit être présentée les 6 et 7 novembre 2026, et le chiffrage complet est annoncé pour le début de 2027.",
+      "lcp_melenchon_programme",
+      "ps_contrebudget_2027"
+     ]
+    ],
+    "parties": [
+     [
+      "Le programme est organisé en trois parties : « Faire la révolution citoyenne », « L'harmonie des êtres humains avec la nature » et « Ordonner le monde », en 18 chapitres.",
+      "lfi_synthese"
+     ]
+    ],
+    "phares": {
+     "finances": [
+      "p211",
+      "p212",
+      "p037"
+     ],
+     "interieur": [
+      "p213",
+      "p214",
+      "p215"
+     ],
+     "social": [
+      "p216",
+      "p217",
+      "p218"
+     ],
+     "travail": [
+      "p034",
+      "p035"
+     ],
+     "environnement": [
+      "p040",
+      "p219",
+      "p182"
+     ],
+     "europe": [
+      "p220",
+      "p221",
+      "p222"
+     ],
+     "gouvernance": [
+      "p036",
+      "p206"
+     ],
+     "etat": [
+      "p183",
+      "p226"
+     ],
+     "education": [
+      "p227",
+      "p039",
+      "p205"
+     ],
+     "defense": [
+      "p223",
+      "p224",
+      "p225"
+     ],
+     "numerique": [
+      "p228",
+      "p229"
+     ]
+    },
+    "regle": "Jusqu'à 3 mesures par rubrique, choisies dans cet ordre : celles de son plan budgétaire et de ses discours de 2026, puis les titres et les mesures de son programme. Les autres propositions relevées sont listées plus bas.",
+    "fin": {
+     "cand": [
+      [
+       "Plan budgétaire pour 2027, présenté le 14 octobre 2026 : 106,4 milliards d'euros de recettes supplémentaires et 81,7 milliards de dépenses nouvelles. Il consacre 25 milliards d'euros à la réduction de la dette.",
+       "ps_contrebudget_2027",
+       "lcp_contrebudget_2027"
+      ],
+      [
+       "Principales recettes : rabot des niches fiscales (22 milliards), taxe sur les héritages (20 milliards), taxe Zucman (15 milliards), ISF climatique (10 milliards), suppression de la flat tax (9 milliards).",
+       "lcp_contrebudget_2027"
+      ],
+      [
+       "Principales dépenses : hausse du point d'indice des fonctionnaires (17 milliards), garantie d'autonomie des jeunes (9,5 milliards), retour de la retraite à 62 ans (9 milliards), hausse des APL de 10 % (8 milliards).",
+       "lcp_contrebudget_2027",
+       "ps_contrebudget_2027"
+      ],
+      [
+       "Ce plan porte sur la première année. Le chiffrage complet du programme est annoncé pour le début de 2027.",
+       "ps_contrebudget_2027"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ce plan.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -2765,7 +2862,8 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p005"
+   "id": "p005",
+   "rub": "defense"
   },
   {
    "c": "attal",
@@ -3146,20 +3244,32 @@
    "t": "Un SMIC à 1 700 € net par mois",
    "d": "Porter le SMIC à 1 700 € net par mois (2 176 € brut). C'est ce que prévoient une proposition de loi des députés insoumis déposée en septembre 2026 et le plan budgétaire présenté par son équipe le 14 octobre 2026.",
    "s": [
-    "lfi_aec",
-    "lfi_contrebudget_2025"
+    "an_ppl3176",
+    "lcp_contrebudget_2027"
    ],
    "aj": "2026-10-01",
-   "fin": "c",
+   "fin": "n",
    "id": "p034",
    "plus": {
     "detail": [
      [
-      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Augmenter le SMIC », dans la partie « Créer un état d'urgence sociale », et « Revaloriser le SMIC mensuel et indexer les salaires sur l'inflation ».",
+      "La proposition de loi des députés insoumis, déposée le 15 septembre 2026, fixe le Smic à au moins « 2 176 euros brut mensuel », soit 1 700 € net selon son exposé des motifs.",
+      "an_ppl3176"
+     ],
+     [
+      "Le même texte prévoit que chaque salaire du secteur privé soit revalorisé au moins autant que les prix à la consommation.",
+      "an_ppl3176"
+     ],
+     [
+      "Le plan budgétaire pour 2027 présenté par son équipe le 14 octobre 2026 reprend « la hausse du Smic à 1700 euros nets », selon Éric Coquerel, député insoumis et président de la commission des finances.",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Augmenter le SMIC », dans la partie « Créer un état d'urgence sociale ».",
       "lfi_synthese"
      ],
      [
-      "Pour les petites entreprises, son parti prévoit d'« aider les TPE et PME à financer l'augmentation du SMIC par la création d'un fonds de péréquation ».",
+      "En 2024, le contre-budget de son parti prévoyait 1 600 € net.",
       "lfi_contrebudget_2025"
      ]
     ],
@@ -3171,11 +3281,11 @@
     ],
     "pourquoi": [
      [
-      "« L'augmentation générale des salaires est donc un impératif social, afin de lutter contre les inégalités et la pauvreté »",
-      "lfi_contrebudget_2025"
+      "Dans l'exposé des motifs de la proposition de loi : « Car c'est le travail qui crée la richesse. » « Il n'y a pas d'argument purement technique ou de rationalité économique pour refuser la hausse des salaires. »",
+      "an_ppl3176"
      ],
      [
-      "Pour son parti, « l'augmentation du revenu des classes populaires est synonyme d'une hausse de la consommation favorable à l'activité économique et d'une augmentation des cotisations finançant notre système de protection sociale ».",
+      "« L'augmentation générale des salaires est donc un impératif social, afin de lutter contre les inégalités et la pauvreté »",
       "lfi_contrebudget_2025"
      ]
     ],
@@ -3185,23 +3295,23 @@
       "sujet_travail_sp_smic_juin"
      ],
      [
-      "Passer à 1 600 € net ferait environ 122 € de plus par mois, soit +8,3 % (calcul de l'appli à partir de ce montant).",
+      "Passer à 1 700 € net ferait environ 222 € de plus par mois, soit +15 % (calcul de l'appli à partir de ce montant).",
       "sujet_travail_sp_smic_juin"
      ]
     ],
     "fin_cand": [
      [
-      "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre « le passage du SMIC à 1 600€ net » à 1,6 milliard d'euros, une mesure qui « entraîne une hausse de cotisations à hauteur de 1,2 milliard d'euros » : le coût net est de 400 millions d'euros dans son tableau de synthèse.",
-      "lfi_contrebudget_2025"
+      "Nous n'avons pas trouvé de coût annoncé pour 1 700 € net, ni dans la proposition de loi ni dans les comptes rendus du plan budgétaire du 14 octobre 2026.",
+      null
      ],
      [
-      "Le fonds de péréquation pour les TPE et PME y est chiffré à 5 milliards d'euros.",
+      "Pour 1 600 € net, son parti chiffrait en novembre 2024 un coût de 1,6 milliard d'euros, compensé en partie par 1,2 milliard de cotisations en plus (400 millions d'euros net), et 5 milliards pour un fonds d'aide aux TPE et PME.",
       "lfi_contrebudget_2025"
      ]
     ],
     "fin_ind": [
      [
-      "L'Institut Montaigne a chiffré la même mesure quand elle figurait dans le programme du Nouveau Front populaire, en juin 2024 : 19 milliards d'euros par an pour les finances publiques (entre 17 et 21 milliards). Ce montant comprend surtout le coût des allègements généraux de cotisations (21,5 milliards) et la hausse des salaires du secteur public (3,7 milliards), diminué de 6 milliards de prélèvements supplémentaires.",
+      "Pour le Smic à 1 600 € net du programme du Nouveau Front populaire, l'Institut Montaigne estimait en juin 2024 le coût pour les finances publiques à 19 milliards d'euros par an (entre 17 et 21 milliards). Nous n'avons pas trouvé de chiffrage extérieur pour 1 700 €.",
       "montaigne_nfp_smic"
      ]
     ],
@@ -3242,6 +3352,10 @@
       "lcp_retraites_sept"
      ],
      [
+      "Le plan budgétaire pour 2027 présenté par son équipe le 14 octobre 2026 prévoit de « rétablir l'âge de départ à la retraite à 62 ans (avant un éventuel retour à 60 ans) ».",
+      "lcp_contrebudget_2027"
+     ],
+     [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Revaloriser les pensions de retraite a minima au niveau du SMIC revalorisé ».",
       "lfi_synthese"
      ]
@@ -3273,6 +3387,10 @@
      ]
     ],
     "fin_cand": [
+     [
+      "Dans le plan budgétaire pour 2027 présenté par son équipe le 14 octobre 2026, le retour à 62 ans est chiffré à 9 milliards d'euros, « la retraite promise à 60 ans » venant plus tard dans le quinquennat, selon Public Sénat.",
+      "ps_contrebudget_2027"
+     ],
      [
       "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre l'abrogation de la réforme et le retour à 60 ans avec 40 annuités à un « coût net de 26,5 milliards d'euros ».",
       "lfi_contrebudget_2025"
@@ -3469,7 +3587,8 @@
    "t": "19 élèves par classe, 160 000 profs recrutés et la cantine gratuite",
    "d": "Viser 19 élèves par classe en moyenne d'ici la fin du quinquennat, recruter 160 000 enseignants pour y parvenir et rendre la cantine gratuite avec des produits bio et paysans.",
    "s": [
-    "ps_ecole"
+    "ps_ecole",
+    "ps_contrebudget_2027"
    ],
    "aj": "2026-10-01",
    "fin": "c",
@@ -3516,6 +3635,10 @@
      ]
     ],
     "fin_cand": [
+     [
+      "Dans le plan budgétaire pour 2027 présenté par son équipe le 14 octobre 2026 : la cantine gratuite pour 3,6 milliards d'euros et 10 000 postes d'enseignants pour 500 millions d'euros, selon Public Sénat.",
+      "ps_contrebudget_2027"
+     ],
      [
       "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre la « gratuité intégrale à l'école : cantine scolaire, fournitures, transports, et activités périscolaires » à 6,2 milliards d'euros.",
       "lfi_contrebudget_2025"
@@ -3900,7 +4023,8 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p062"
+   "id": "p062",
+   "rub": "defense"
   },
   {
    "c": "ruffin",
@@ -4026,7 +4150,8 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p072"
+   "id": "p072",
+   "rub": "travail"
   },
   {
    "aj": "2026-10-03",
@@ -4673,7 +4798,8 @@
     "branco_ruches"
    ],
    "fin": "s",
-   "id": "p125"
+   "id": "p125",
+   "rub": "etat"
   },
   {
    "aj": "2026-10-03",
@@ -4757,7 +4883,8 @@
     "qpq"
    ],
    "fin": "s",
-   "id": "p132"
+   "id": "p132",
+   "rub": "defense"
   },
   {
    "aj": "2026-10-03",
@@ -4817,7 +4944,8 @@
     "qpq"
    ],
    "fin": "n",
-   "id": "p137"
+   "id": "p137",
+   "rub": "etat"
   },
   {
    "aj": "2026-10-03",
@@ -5483,7 +5611,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "rub": "etat"
   },
   {
    "c": "tondelier",
@@ -5946,6 +6075,316 @@
    "aj": "2026-10-15",
    "fin": "s",
    "id": "p210"
+  },
+  {
+   "c": "melenchon",
+   "th": "eco",
+   "t": "Un « ISF climatique »",
+   "d": "Rétablir un impôt sur la fortune avec un volet climatique. Son plan budgétaire pour 2027 en attend 10 milliards d'euros.",
+   "s": [
+    "lfi_synthese",
+    "lcp_contrebudget_2027"
+   ],
+   "aj": "2026-10-18",
+   "fin": "c",
+   "id": "p211",
+   "k": "isf",
+   "test": true,
+   "a": {
+    "v": 10,
+    "nature": "recette",
+    "per": "total",
+    "h": "recette attendue dans son plan budgétaire pour 2027"
+   }
+  },
+  {
+   "c": "melenchon",
+   "th": "eco",
+   "t": "Une taxe Zucman sur les patrimoines de plus de 100 millions d'euros",
+   "d": "Instaurer une taxe Zucman sur les patrimoines supérieurs à 100 millions d'euros. Son plan budgétaire pour 2027 en attend 15 milliards d'euros.",
+   "s": [
+    "lfi_synthese",
+    "lcp_contrebudget_2027"
+   ],
+   "aj": "2026-10-18",
+   "fin": "c",
+   "id": "p212",
+   "k": "zucman",
+   "test": true,
+   "a": {
+    "v": 15,
+    "nature": "recette",
+    "per": "total",
+    "h": "recette attendue dans son plan budgétaire pour 2027"
+   }
+  },
+  {
+   "c": "melenchon",
+   "th": "securite",
+   "t": "Rétablir une police de proximité",
+   "d": "Rétablir une police de proximité, interdire certaines pratiques dangereuses, « en premier lieu les LBD », et former les policiers.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "n",
+   "id": "p213",
+   "k": "police",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "immigration",
+   "t": "Abroger les dernières lois asile et immigration, et régulariser",
+   "d": "Abroger les dernières lois asile et immigration, et « régulariser les travailleurs, étudiants, parents d'enfants scolarisés ».",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p214",
+   "k": "asile",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "securite",
+   "t": "5 milliards contre les violences sexistes, sexuelles et faites aux enfants",
+   "d": "Consacrer 5 milliards d'euros à un plan de lutte contre les violences sexistes et sexuelles et contre les violences faites aux enfants.",
+   "s": [
+    "lcp_contrebudget_2027",
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "c",
+   "id": "p215",
+   "k": "vss",
+   "test": true,
+   "a": {
+    "v": 5,
+    "nature": "cout",
+    "per": "total",
+    "h": "coût annoncé dans son plan budgétaire pour 2027"
+   }
+  },
+  {
+   "c": "melenchon",
+   "th": "logement",
+   "t": "Augmenter les APL de 10 %",
+   "d": "Augmenter les aides personnalisées au logement (APL) de 10 %.",
+   "s": [
+    "lcp_contrebudget_2027",
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "c",
+   "id": "p216",
+   "k": "apl",
+   "test": true,
+   "a": {
+    "v": 8,
+    "nature": "cout",
+    "per": "total",
+    "h": "coût annoncé dans son plan budgétaire pour 2027"
+   }
+  },
+  {
+   "c": "melenchon",
+   "th": "logement",
+   "t": "Encadrer les loyers partout en France",
+   "d": "Étendre et pérenniser l'encadrement des loyers sur tout le territoire.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p217",
+   "k": "loyers",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "social",
+   "t": "3 milliards de plus pour l'hôpital et 10 000 soignants",
+   "d": "Augmenter le budget de l'hôpital de 3 milliards d'euros et créer 10 000 postes de personnels soignants.",
+   "s": [
+    "ps_contrebudget_2027"
+   ],
+   "aj": "2026-10-18",
+   "fin": "c",
+   "id": "p218",
+   "k": "hopital",
+   "test": true,
+   "a": {
+    "v": 3,
+    "nature": "cout",
+    "per": "total",
+    "h": "coût annoncé dans son plan budgétaire pour 2027"
+   }
+  },
+  {
+   "c": "melenchon",
+   "th": "ecologie",
+   "t": "100 % d'énergies renouvelables en 2050",
+   "d": "« Organiser le 100 % d'énergies renouvelables en 2050 et la rénovation énergétique » : c'est le titre d'une partie de son programme.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "n",
+   "id": "p219",
+   "k": "enr",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Ne pas appliquer les règles européennes qui bloquent son programme",
+   "d": "Utiliser la possibilité d'« opt out » sur les dispositions des traités européens qui empêcheraient d'appliquer son programme : la mesure figure dans la partie « Désobéir à chaque fois que c'est nécessaire ».",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p220",
+   "k": "traites",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Refuser les accords de libre-échange",
+   "d": "Refuser les accords de libre-échange et abroger ceux déjà en vigueur.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p221",
+   "k": "libreechange",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Aucune intervention militaire sans mandat de l'ONU",
+   "d": "Refuser toute intervention militaire sans mandat de l'ONU, et réformer le Conseil de sécurité pour que l'ONU soit « représentative du monde actuel ».",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p222",
+   "k": "onu",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Sortir de l'OTAN",
+   "d": "Sortir de l'OTAN, en commençant par son commandement intégré.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p223",
+   "k": "otan",
+   "test": true,
+   "rub": "defense"
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Équiper l'armée de matériel français",
+   "d": "Garantir la souveraineté de la France en équipant les armées de matériel militaire français.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "n",
+   "id": "p224",
+   "k": "materiel",
+   "test": true,
+   "rub": "defense"
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Relancer le désarmement nucléaire à l'ONU",
+   "d": "Relancer les processus multilatéraux de désarmement nucléaire et conventionnel dans le cadre de l'ONU.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p225",
+   "k": "desarmement",
+   "test": true,
+   "rub": "defense"
+  },
+  {
+   "c": "melenchon",
+   "th": "institutions",
+   "t": "Rouvrir les accueils physiques des services publics",
+   "d": "Rouvrir des accueils physiques dans les services publics.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "n",
+   "id": "p226",
+   "k": "accueils",
+   "test": true,
+   "rub": "etat"
+  },
+  {
+   "c": "melenchon",
+   "th": "etudes",
+   "t": "Une « garantie d'autonomie » de 1 337 € par mois pour les jeunes",
+   "d": "Créer une « garantie d'autonomie » de 1 337 euros par mois pour les jeunes.",
+   "s": [
+    "ps_contrebudget_2027"
+   ],
+   "aj": "2026-10-18",
+   "fin": "c",
+   "id": "p227",
+   "k": "autonomie",
+   "test": true,
+   "a": {
+    "v": 9.5,
+    "nature": "cout",
+    "per": "total",
+    "h": "coût annoncé dans son plan budgétaire pour 2027"
+   }
+  },
+  {
+   "c": "melenchon",
+   "th": "numerique",
+   "t": "Interdire la reconnaissance faciale",
+   "d": "Interdire la reconnaissance faciale.",
+   "s": [
+    "lfi_synthese"
+   ],
+   "aj": "2026-10-18",
+   "fin": "s",
+   "id": "p228",
+   "k": "faciale",
+   "test": true
+  },
+  {
+   "c": "melenchon",
+   "th": "numerique",
+   "t": "Des centres de données publics pour un cloud français",
+   "d": "Créer des centres de données publics pour un cloud français hors du contrôle américain, et confier la gouvernance mondiale de l'IA à l'ONU (tribune de février 2025).",
+   "s": [
+    "frenchweb_melenchon"
+   ],
+   "aj": "2026-10-18",
+   "fin": "n",
+   "id": "p229",
+   "k": "cloud",
+   "test": true
   }
  ],
  "sources": {
@@ -9840,6 +10279,34 @@
    "d": "2026-05-19",
    "type": "donnees",
    "u": "https://www.education.gouv.fr/reussir-au-lycee/bac-pro-ce-qui-change-en-2027-pour-les-terminales-9956"
+  },
+  "an_ppl3176": {
+   "t": "Proposition de loi n° 3176 visant l'augmentation des salaires et des pensions",
+   "p": "Assemblée nationale (groupe La France insoumise - NFP)",
+   "d": "2026-09-15",
+   "type": "officiel",
+   "u": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3176_proposition-loi.pdf"
+  },
+  "lcp_contrebudget_2027": {
+   "t": "Contre-budget : LFI propose 106,4 milliards d'euros de recettes supplémentaires et 81,7 milliards de dépenses nouvelles",
+   "p": "LCP",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/contre-budget-lfi-propose-1064-milliards-d-euros-de-recettes-supplementaires-et-817"
+  },
+  "ps_contrebudget_2027": {
+   "t": "Présidentielle 2027 : Jean-Luc Mélenchon table sur 106 milliards de recettes supplémentaires et 82 milliards de dépenses nouvelles pour 2027",
+   "p": "Public Sénat (avec AFP)",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-jean-luc-melenchon-table-sur-106-milliards-de-recettes-supplementaires-et-82-milliards-de-depenses-nouvelles-pour-2027"
+  },
+  "frenchweb_melenchon": {
+   "t": "Jean Luc Mélenchon fustige la « vassalisation numérique » de la France",
+   "p": "FrenchWeb",
+   "d": "2025-02-09",
+   "type": "presse",
+   "u": "https://www.frenchweb.fr/jean-luc-melenchon-fustige-la-vassalisation-numerique-de-la-france/451259"
   }
  },
  "presse": [
@@ -13112,5 +13579,68 @@
  },
  "statutsNote": {
   "primaire": "« A perdu la primaire » : candidat à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann. Ses propositions restent consultables dans l'appli."
+ },
+ "rubriques": [
+  [
+   "finances",
+   "Finances publiques"
+  ],
+  [
+   "interieur",
+   "Intérieur & Justice"
+  ],
+  [
+   "social",
+   "Social & Solidarité"
+  ],
+  [
+   "travail",
+   "Travail & Retraites"
+  ],
+  [
+   "environnement",
+   "Environnement"
+  ],
+  [
+   "europe",
+   "Europe & international"
+  ],
+  [
+   "gouvernance",
+   "Gouvernance & République"
+  ],
+  [
+   "etat",
+   "Réformes de l'État"
+  ],
+  [
+   "education",
+   "Éducation & Jeunesse"
+  ],
+  [
+   "defense",
+   "Défense"
+  ],
+  [
+   "numerique",
+   "Numérique & IA"
+  ]
+ ],
+ "themeRub": {
+  "budget": "finances",
+  "eco": "finances",
+  "securite": "interieur",
+  "immigration": "interieur",
+  "pouvoir": "social",
+  "logement": "social",
+  "social": "social",
+  "travail": "travail",
+  "retraites": "travail",
+  "ecologie": "environnement",
+  "europe": "europe",
+  "institutions": "gouvernance",
+  "education": "education",
+  "etudes": "education",
+  "numerique": "numerique"
  }
 }
