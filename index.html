@@ -230,18 +230,18 @@ a.cand-h:hover b { color: var(--bleu); }
 .oe-top { display: grid; gap: 8px; }
 .rubnav { gap: 10px; }
 .rubnav h2 { font-size: 1.05rem; }
-.rn-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
-.rn { display: grid; grid-template-columns: 20px minmax(0, 1fr); grid-template-rows: auto auto; align-items: center; align-content: center; column-gap: 8px; row-gap: 1px; min-height: 52px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); font: inherit; font-size: 0.86rem; font-weight: 600; line-height: 1.2; text-align: left; cursor: pointer; }
-.rn svg { width: 20px; height: 20px; color: var(--bleu); grid-row: 1 / 3; }
-.rn .t { min-width: 0; overflow-wrap: anywhere; }
-.rn small { grid-column: 2; font-size: 0.74rem; font-weight: 500; color: var(--ink-3); }
+.rn-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 74px; gap: 8px; }
+.rn { display: grid; grid-template-columns: 20px minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) auto; align-items: start; column-gap: 8px; row-gap: 2px; height: 100%; box-sizing: border-box; padding: 10px 10px 9px; overflow: hidden; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); font: inherit; font-size: 0.86rem; font-weight: 600; line-height: 1.2; text-align: left; cursor: pointer; }
+.rn svg { width: 20px; height: 20px; color: var(--bleu); grid-row: 1; margin-top: 0; }
+.rn .t { min-width: 0; overflow-wrap: break-word; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+.rn small { grid-column: 2; min-width: 0; font-size: 0.74rem; font-weight: 500; color: var(--ink-3); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .rn:hover { border-color: var(--bleu-2); background: var(--bleu-soft); }
 .rn:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
 .rn.off { cursor: default; color: var(--ink-3); background: transparent; border-style: dashed; font-weight: 500; }
 .rn.off svg { color: var(--ink-3); }
 .rn.off:hover { background: transparent; border-color: var(--line); }
-.rn-fin { grid-column: 1 / -1; }
 @media (min-width: 520px) { .rn-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+@media (max-width: 359px) { .rn { grid-template-columns: minmax(0, 1fr); padding-inline: 10px; font-size: 0.8rem; } .rn svg { display: none; } .rn small { grid-column: 1; } }
 .rubbar { position: fixed; z-index: 19; left: 50%; transform: translate(-50%, -8px); width: min(100%, 560px); display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 8px 16px; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: saturate(1.5) blur(12px); -webkit-backdrop-filter: saturate(1.5) blur(12px); border-bottom: 1px solid var(--line); opacity: 0; pointer-events: none; transition: opacity .15s, transform .15s; }
 .rubbar::-webkit-scrollbar { display: none; }
 main > .rubbar { animation: none; }
@@ -451,11 +451,14 @@ body.locked { overflow: hidden; }
 .blk h3 { font-family: var(--f-display); font-size: 0.98rem; font-weight: 700; color: var(--ink); }
 .blk p { font-size: 0.96rem; color: var(--ink-2); }
 .blk .warn { font-size: 0.86rem; color: var(--warn); background: var(--warn-soft); border-radius: 10px; padding: 8px 10px; }
-.blk .info { font-size: 0.84rem; color: var(--ink-2); background: var(--bleu-soft); border-radius: 10px; padding: 8px 10px; }
-.blk h4 { font-family: var(--f-body); font-size: 0.86rem; font-weight: 700; color: var(--ink); margin: 6px 0 0; }
-.blk .dl { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; font-size: 0.96rem; color: var(--ink-2); }
-.blk .dl li::marker { color: var(--ink-3); }
-.blk .q { border-left: 3px solid var(--line); padding-left: 10px; }
+.blk h4 { font-family: var(--f-body); font-size: 0.88rem; font-weight: 700; color: var(--ink); margin: 8px 0 0; }
+.items { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.items li { display: grid; gap: 3px; min-width: 0; }
+.items p { font-size: 0.96rem; color: var(--ink-2); }
+.items .s { font-size: 0.76rem; color: var(--ink-3); }
+.items .s a { color: var(--ink-2); }
+.blk .lede { font-size: 0.82rem; line-height: 1.45; color: var(--ink-3); }
+.blk .lede a { color: var(--ink-2); }
 .src-list { display: grid; gap: 8px; }
 .src-li { display: grid; gap: 1px; font-size: 0.76rem; line-height: 1.35; color: var(--ink-3); text-decoration: none; min-width: 0; }
 .src-li b { color: var(--ink-2); font-weight: 600; }
@@ -1028,20 +1031,20 @@ function rubNav(c, ps) {
     : `<span class="rn off">${svg("r_" + k)}<span class="t">${esc(l)}</span><small>Rien trouvé</small></span>`).join("");
   return `<nav class="card rubnav" id="rubnav" aria-label="Ses propositions par thème">
     <h2>Ses propositions par thème</h2>
-    <div class="rn-grid">${items}${fin ? `<button type="button" class="rn rn-fin" data-jump="r-fin">${svg("r_finances")}<span class="t">Le financement d'ensemble</span><small>Tout ce qu'il prévoit de dépenser et de faire rentrer</small></button>` : ""}</div>
+    <div class="rn-grid">${items}${fin ? `<button type="button" class="rn rn-fin" data-jump="r-fin">${svg("r_finances")}<span class="t">Financement d'ensemble</span><small>Le total prévu</small></button>` : ""}</div>
     ${c.oeil ? `<p class="small">${esc(c.oeil.regle)}</p>` : ""}
   </nav>
   <div class="rubbar" id="rubbar" aria-hidden="true">${DATA.rubriques.filter(([k]) => n(k)).map(([k, l]) => `<button type="button" tabindex="-1" data-jump="r-${k}" data-rb="r-${k}">${esc(l)}</button>`).join("")}${fin ? `<button type="button" tabindex="-1" data-jump="r-fin" data-rb="r-fin">Financement</button>` : ""}</div>`;
 }
-const srcSpan = (ids, label) => { const l = ids.filter(id => id && SRC[id]); return l.length ? ` <span class="s">${label ? `Source${l.length > 1 ? "s" : ""} : ` : ""}${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</span>` : ""; };
-const parasSrc = (list, label) => (list || []).map(it => `<p>${frTypo(it[0])}${srcSpan(it.slice(1), label)}</p>`).join("");
+const srcLineP = ids => { const l = ids.filter(id => id && SRC[id]); return l.length ? `<p class="s">Source${l.length > 1 ? "s" : ""} : ${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</p>` : ""; };
+const parasSrc = list => list && list.length ? `<ul class="items">${list.map(it => `<li><p>${frTypo(it[0])}</p>${srcLineP(it.slice(1))}</li>`).join("")}</ul>` : "";
 /* Ce que le candidat prévoit de dépenser et de faire rentrer au total */
 function finEnsemble(c) {
   const o = c.oeil; if (!o || !o.fin) return "";
   return `<section class="card oeil rub-sec" id="r-fin"><h2 class="th-h">${svg("r_finances")}Le financement d'ensemble</h2>
     <p class="small">Le total de ce qu'il prévoit de dépenser et de faire rentrer. Le coût de chaque mesure est dans sa fiche « Aller plus loin ».</p>
-    <h3 class="oe-h">Selon ${esc(c.nom)} et son parti</h3>${parasSrc(o.fin.cand, true)}
-    <h3 class="oe-h">D'autres chiffrages</h3>${parasSrc(o.fin.ind, true)}
+    <h3 class="oe-h">Selon ${esc(c.nom)} et son parti</h3>${parasSrc(o.fin.cand)}
+    <h3 class="oe-h">D'autres chiffrages</h3>${parasSrc(o.fin.ind)}
   </section>`;
 }
 /* Où en est son programme, avec ses documents */
@@ -1049,7 +1052,7 @@ function progDocs(c) {
   const o = c.oeil;
   if (!o && !c.docs.length) return "";
   return `<section class="card oeil"><h2>${o ? "Son programme" : "Ses documents"}</h2>
-    ${o ? `<div class="oe-top">${parasSrc(o.etat)}${parasSrc(o.parties)}</div>` : ""}
+    ${o ? parasSrc((o.etat || []).concat(o.parties || [])) : ""}
     ${c.docs.length ? `<div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)}, ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div>` : ""}
   </section>`;
 }
@@ -1727,18 +1730,20 @@ function screenSources() {
 function moreHtml(p) {
   const c = CAND[p.c], x = p.plus || {}, rich = !!x.detail;
   const others = new Set(DATA.propositions.filter(q => q.th === p.th && q.c !== p.c).map(q => q.c)).size;
-  const cite = ids => { const l = [].concat(ids).filter(id => id && SRC[id]); return l.length ? ` <span class="s">Source${l.length > 1 ? "s" : ""} : ${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</span>` : ""; };
   /* espaces insécables de la typographie française : jamais de « ou de : seul en début de ligne */
-  const nb = t => esc(t).replace(/« /g, "«\u00a0").replace(/ »/g, "\u00a0»").replace(/ ([:;?!])/g, "\u00a0$1");
-  const paras = (list, cls) => list.map(it => `<p${cls && it[1] ? ` class="${cls}"` : ""}>${nb(it[0])}${cite(it.slice(1))}</p>`).join("");
-  const bullets = list => `<ul class="dl">${list.map(it => `<li>${nb(it[0])}${cite(it.slice(1))}</li>`).join("")}</ul>`;
-  const srcRow = id => { const s = SRC[id]; return `<a class="src-li" href="${esc(s.u)}" target="_blank" rel="noopener"><span><b>${esc(s.p)}</b> · ${esc(KIND[s.type] || "")} · ${esc(fmtDate(s.d))}</span><span class="t">${esc(s.t)}</span></a>`; };
+  const nb = t => esc(t).replace(/« /g, "« ").replace(/ »/g, " »").replace(/ ([:;?!])/g, " $1");
+  const srcOf = ids => { const l = ids.filter(id => id && SRC[id]); return l.length ? `<p class="s">Source${l.length > 1 ? "s" : ""} : ${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</p>` : ""; };
+  /* Chaque bloc a la même forme : un titre, parfois une ligne d'explication, puis des éléments « texte + source » */
+  const items = list => `<ul class="items">${list.map(it => `<li><p>${nb(it[0])}</p>${srcOf(it.slice(1))}</li>`).join("")}</ul>`;
+  const blk = (title, list, lede = "") => list && list.length ? `<section class="blk"><h3>${title}</h3>${lede ? `<p class="lede">${lede}</p>` : ""}${items(list)}</section>` : "";
+  const srcRow = id => { const s = SRC[id]; return `<a class="src-li" href="${esc(s.u)}" target="_blank" rel="noopener"><span><b>${esc(s.p)}</b>, ${esc(KIND[s.type] || "")}, ${esc(fmtDate(s.d))}</span><span class="t">${esc(s.t)}</span></a>`; };
   const srcs = allSrc(p).sort((a, b) => SRC_ORDER.indexOf(SRC[a].type) - SRC_ORDER.indexOf(SRC[b].type));
   const fc = x.fin_cand || [], fi = x.fin_ind || [];
-  const finBlocks = !rich || (p.fin === "s" && !fc.length && !fi.length) ? "" : `
-      <h4>Selon ${esc(c.nom)} et son parti</h4>${fc.length ? paras(fc) : "<p>Nous n'avons pas trouvé de chiffrage de leur part.</p>"}
-      <h4>D'autres chiffrages</h4>${fi.length ? paras(fi) : "<p>Nous n'avons pas trouvé de chiffrage publié par un organisme extérieur.</p>"}
-      ${fc.length + fi.length > 1 ? `<p class="s">Les chiffrages ne mesurent pas toujours la même chose (année, périmètre, effets pris en compte) : ils sont repris tels que publiés, avec leur date.</p>` : ""}`;
+  const finSub = (title, list, empty) => `<h4>${title}</h4>${items(list.length ? list : [[empty]])}`;
+  const finBlocks = !rich || (p.fin === "s" && !fc.length && !fi.length) ? "" :
+    finSub(`Selon ${esc(c.nom)} et son parti`, fc, "Nous n'avons pas trouvé de chiffrage de leur part.") +
+    finSub("D'autres chiffrages", fi, "Nous n'avons pas trouvé de chiffrage publié par un organisme extérieur.") +
+    (fc.length + fi.length > 1 ? `<p class="lede">Les chiffrages ne mesurent pas toujours la même chose (année, périmètre, effets pris en compte) : ils sont repris tels que publiés, avec leur date.</p>` : "");
   return `<div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
     <span class="grab" aria-hidden="true"></span>
     <div class="sheet-h">
@@ -1747,15 +1752,17 @@ function moreHtml(p) {
       <span class="th">${svg(p.th)}${esc(THEME_NAME[p.th] || "")}</span>
       <button class="x" type="button" data-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
-    <div class="blk"><h3>La proposition</h3><p>${esc(p.d)}</p>${x.note ? `<p class="info">${nb(x.note[0])}${cite(x.note.slice(1))}</p>` : ""}</div>
-    ${rich ? `<div class="blk"><h3>En détail</h3>${bullets(x.detail)}</div>` : ""}
-    ${x.objectif ? `<div class="blk"><h3>L'objectif affiché</h3>${paras(x.objectif)}</div>` : ""}
-    ${rich ? `<div class="blk"><h3>Ses arguments</h3><p class="s">Ce que disent ${esc(c.nom)} ou son parti pour défendre la mesure, cité tel quel. L'appli ne juge pas ces arguments.</p>${paras(x.pourquoi || [["Nous n'avons pas encore trouvé ses arguments sur cette mesure."]], "q")}</div>` : ""}
-    ${x.auj ? `<div class="blk"><h3>Aujourd'hui</h3>${paras(x.auj)}</div>` : ""}
-    <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(finHelp(p))}</p>${amount(p.a)}${finText(p)}${finBlocks}${p.a && p.a.per === "an" ? `<p class="s">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</div>
+    ${blk("La proposition", [[p.d]])}
+    ${rich ? blk("En détail", x.detail) : ""}
+    ${blk("L'objectif affiché", x.objectif)}
+    ${rich ? blk("Ses arguments", x.pourquoi || [["Nous n'avons pas encore trouvé ses arguments sur cette mesure."]], `Ce que disent ${esc(c.nom)} ou son parti pour défendre la mesure, cité tel quel. L'appli ne juge pas ces arguments.`) : ""}
+    ${blk("Aujourd'hui", x.auj)}
+    <section class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p class="lede">${esc(finHelp(p))}</p>${amount(p.a)}${finText(p)}${finBlocks}${p.a && p.a.per === "an" ? `<p class="lede">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</section>
     ${others ? `<a class="more-btn as-link" href="#t-${p.th}">${others > 1 ? `Ce que proposent les ${others} autres candidats sur ce sujet` : "Ce que propose l'autre candidat sur ce sujet"}${ARW}</a>` : ""}
-    <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${srcs.map(srcRow).join("")}</div>${x.maj ? `<p class="s">Fiche vérifiée le ${esc(fmtDate(x.maj))}.</p>` : ""}</div>
-    ${rich ? "" : `<p class="small">Bientôt dans cette fiche : le détail de la mesure, l'objectif affiché, les arguments du candidat, la situation actuelle avec un chiffre officiel et les chiffrages disponibles.</p>`}
+    <section class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${srcs.map(srcRow).join("")}</div>
+      ${x.maj ? `<p class="lede">Fiche vérifiée le ${esc(fmtDate(x.maj))}.${x.note ? " " + nb(x.note[0]) : ""}</p>` : ""}
+      ${rich ? "" : `<p class="lede">Bientôt dans cette fiche : le détail de la mesure, l'objectif affiché, les arguments du candidat, la situation actuelle avec un chiffre officiel et les chiffrages disponibles.</p>`}
+    </section>
   </div>`;
 }
 let sheetEl = null, sheetFrom = null;
