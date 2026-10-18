@@ -258,7 +258,7 @@ main > .rubbar { animation: none; }
 .docs .row .txt b { font-size: 0.95rem; }
 
 /* Thèmes */
-.tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-auto-rows: 1fr; gap: 10px; }
 .tile { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 14px; display: grid; gap: 10px; text-decoration: none; color: inherit; min-height: 118px; align-content: start; }
 .tile:hover { border-color: var(--bleu-2); }
 .tile .ic { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
@@ -891,7 +891,7 @@ function axis(cfg) {
 }
 
 /* ---------- écrans ---------- */
-const ui = { actuC: "tous", cmpMode: "tous", cmpA: null, cmpB: null, cmpTh: "tous", feed: null, feedTh: "tous", srcG: "tous" };
+const ui = { actuC: "tous", cmpMode: "tous", cmpA: null, cmpB: null, cmpTh: "tous", rubTh: "tous", feed: null, feedTh: "tous", srcG: "tous" };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const dayFmt = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -1492,10 +1492,12 @@ function screenFil() {
 
 /* Comparer : deux candidats côte à côte, ou tous les candidats sur un sujet */
 function screenComparer() {
-  const seg = `<div class="seg" role="group" aria-label="Mode"><button type="button" data-mode="tous" aria-pressed="${ui.cmpMode === "tous"}">Par sujet</button><button type="button" data-mode="deux" aria-pressed="${ui.cmpMode === "deux"}">Deux candidats</button></div>`;
+  const seg = `<div class="seg" role="group" aria-label="Mode"><button type="button" data-mode="tous" aria-pressed="${ui.cmpMode === "tous"}">${DATA.rubriques ? "Par thème" : "Par sujet"}</button><button type="button" data-mode="deux" aria-pressed="${ui.cmpMode === "deux"}">Deux candidats</button></div>`;
   const chipsFor = list => `<div class="chips" role="group" aria-label="Sujet">${list.map(([k, l]) => `<button class="chip" type="button" data-th="${k}" aria-pressed="${ui.cmpTh === k}">${esc(l)}</button>`).join("")}</div>`;
   if (ui.cmpMode === "tous") {
     const nTh = k => new Set(DATA.propositions.filter(p => p.th === k).map(p => p.c)).size;
+    if (DATA.rubriques) return `<div class="page-h"><h1>Les propositions</h1><p class="lead">Ce que propose chaque candidat, thème par thème. Pour comprendre la situation actuelle, voir l'onglet Accueil.</p></div>${seg}
+    <div class="tiles">${DATA.rubriques.map(([k, l]) => { const ps = DATA.propositions.filter(p => rubOf(p) === k), n = new Set(ps.map(p => p.c)).size; return `<a class="tile" href="#p-${k}"><span class="ic">${svg("r_" + k)}</span><span class="tt"><b>${esc(l)}</b><span>${n ? `${n} candidat${n > 1 ? "s" : ""}, ${ps.length} proposition${ps.length > 1 ? "s" : ""}` : "Aucune proposition relevée"}</span></span></a>`; }).join("")}</div>`;
     return `<div class="page-h"><h1>Les propositions</h1><p class="lead">Ce que propose chaque candidat, sujet par sujet. Pour comprendre la situation actuelle, voir l'onglet Accueil.</p></div>${seg}
     <div class="tiles">${DATA.themes.map(([k, l]) => { const n = nTh(k), ok = DATA.sujets && DATA.sujets[k]; const np = DATA.propositions.filter(p => p.th === k).length; return `<a class="tile" href="#t-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${n} candidat${n > 1 ? "s" : ""} · ${np} proposition${np > 1 ? "s" : ""}</span></span></a>`; }).join("")}</div>`;
   }
@@ -1506,10 +1508,11 @@ function screenComparer() {
   }
   const opts = sel => candSorted().map(c => `<option value="${c.id}"${c.id === sel ? " selected" : ""}>${esc(c.nom)}</option>`).join("");
   const A = ui.cmpA, B = ui.cmpB;
-  const themes = ui.cmpTh === "tous" || !THEME_NAME[ui.cmpTh] ? DATA.themes : DATA.themes.filter(([k]) => k === ui.cmpTh);
-  const col = (id, k) => { const ps = DATA.propositions.filter(p => p.c === id && p.th === k); return `<div class="cmp-col">${ps.length ? ps.map(p => `<div class="ci"><b>${esc(p.t)}</b>${finBadge(p)}${tbc(p)}${p.a ? amount(p.a) : ""}${ext(SRC[p.s[0]].u, "Source : " + esc(SRC[p.s[0]].p))}<button class="more-lnk" type="button" data-more="${p.id}">Aller plus loin</button></div>`).join("") : `<span class="none">Rien de public pour l'instant</span>`}</div>`; };
+  const RB = DATA.rubriques, NAMES = RB ? Object.fromEntries(RB) : THEME_NAME, LIST = RB || DATA.themes, ic = k => RB ? "r_" + k : k;
+  const themes = ui.cmpTh === "tous" || !NAMES[ui.cmpTh] ? LIST : LIST.filter(([k]) => k === ui.cmpTh);
+  const col = (id, k) => { const ps = DATA.propositions.filter(p => p.c === id && (RB ? rubOf(p) : p.th) === k); return `<div class="cmp-col">${ps.length ? ps.map(p => `<div class="ci"><b>${esc(p.t)}</b>${finBadge(p)}${tbc(p)}${p.a ? amount(p.a) : ""}${ext(SRC[p.s[0]].u, "Source : " + esc(SRC[p.s[0]].p))}<button class="more-lnk" type="button" data-more="${p.id}">Aller plus loin</button></div>`).join("") : `<span class="none">Rien de public pour l'instant</span>`}</div>`; };
   return `
-  <div class="page-h"><h1>Les propositions</h1><p class="lead">Deux candidats côte à côte, sujet par sujet.</p></div>
+  <div class="page-h"><h1>Les propositions</h1><p class="lead">Deux candidats côte à côte, ${DATA.rubriques ? "thème par thème" : "sujet par sujet"}.</p></div>
   ${seg}
   <section class="card">
     <div class="pick">
@@ -1518,9 +1521,9 @@ function screenComparer() {
       <select id="cmpB" aria-label="Second candidat">${opts(B)}</select>
     </div>
   </section>
-  ${chipsFor([["tous", "Tous les sujets"]].concat(DATA.themes))}
+  ${chipsFor([["tous", RB ? "Tous les thèmes" : "Tous les sujets"]].concat(LIST))}
   <div class="cmp-head"><div>${mono(A, "s")}<span>${esc(nom(A))}</span></div><div>${mono(B, "s")}<span>${esc(nom(B))}</span></div></div>
-  ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="cmp-grid">${col(A, k)}${col(B, k)}</div></section>`).join("")}`;
+  ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(ic(k))}${esc(l)}</h2><div class="cmp-grid">${col(A, k)}${col(B, k)}</div></section>`).join("")}`;
 }
 /* La carte qui ouvre « Le budget en une image » (sujet Budget de l'État) */
 function budgetCard() {
@@ -1549,6 +1552,28 @@ function screenComprendre(k) {
   ${n ? `<a class="more-btn as-link" href="#t-${k}">${n > 1 ? `Ce que proposent les ${n} candidats sur ce sujet` : "Ce que propose le candidat sur ce sujet"}${ARW}</a>` : ""}`;
 }
 
+/* Page d'un thème (onglet Propositions) : les candidats et leurs propositions, avec un filtre par sujet quand le thème en regroupe plusieurs */
+const rubSujets = k => DATA.themes.filter(([t]) => DATA.themeRub[t] === k && DATA.propositions.some(p => rubOf(p) === k && p.th === t));
+function screenRub(k, th) {
+  const RN = Object.fromEntries(DATA.rubriques); if (!RN[k]) return screenComparer();
+  ui.cmpTh = k;
+  const subs = rubSujets(k); if (th) ui.rubTh = th; if (!subs.some(([t]) => t === ui.rubTh)) ui.rubTh = "tous";
+  const f = ui.rubTh, ps = DATA.propositions.filter(p => rubOf(p) === k && (f === "tous" || p.th === f));
+  const who = candSorted().filter(c => ps.some(p => p.c === c.id)), silent = candSorted().filter(c => !ps.some(p => p.c === c.id));
+  const R = DATA.reperes, axs = (f === "tous" ? subs.map(([t]) => t) : [f]).map(t => R.axes[t]).filter(Boolean);
+  const showBudget = subs.some(([t]) => t === "budget") && (f === "tous" || f === "budget");
+  const comp = subs.filter(([t]) => DATA.sujets && DATA.sujets[t]);
+  return `
+  <div class="page-h"><span class="kick">${svg("r_" + k)} Propositions</span><h1>${esc(RN[k])}</h1><p class="lead">Ce que propose chaque candidat sur ce thème.</p></div>
+  ${subs.length > 1 ? `<div class="chips" role="group" aria-label="Sujet">${[["tous", "Tout le thème"]].concat(subs).map(([t, l]) => `<button class="chip" type="button" data-rth="${t}" aria-pressed="${f === t}">${esc(l)}</button>`).join("")}</div>` : ""}
+  <p class="small" style="padding-inline:4px">${who.length ? `${who.length} candidat${who.length > 1 ? "s ont" : " a"} fait au moins une proposition ${f === "tous" ? "dans ce thème" : "sur ce sujet"}.` : "Aucune proposition relevée pour l'instant."}</p>
+  ${axs.map(ax => `<section class="card"><h2>${esc(ax.titre)}</h2>${axis(ax)}<p class="small">${esc(ax.note)}</p></section>`).join("")}
+  ${showBudget ? `<section class="card"><h2>Les comptes publics aujourd'hui</h2><div class="figs"><div><b>${nf0.format(R.dette.v)} Md€</b><span>de dette publique ${esc(R.dette.quand)}, ${esc(R.dette.pct)}</span></div><div><b>${nf1.format(R.deficit.v)} Md€</b><span>de déficit ${esc(R.deficit.quand)}, ${esc(R.deficit.pct)}</span></div></div><p class="small">Source : ${ext(SRC[R.dette.s].u, "Insee")}. Le déficit, c'est ce que l'État et les administrations dépensent en plus de ce qu'ils encaissent sur une année.</p>${DATA.budget ? `<a class="more-btn as-link" href="#budget">Le budget en une image${ARW}</a>` : ""}</section>` : ""}
+  ${who.map(c => `<section class="card"><a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a><div class="props">${ps.filter(p => p.c === c.id).map(propItem).join("")}</div></section>`).join("")}
+  ${silent.length && who.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant : ${silent.map(c => esc(c.nom)).join(", ")}.</p>` : ""}
+  <button class="more-btn" type="button" data-mode="deux" data-keepth="1">Comparer deux candidats sur ce thème</button>
+  ${comp.length ? `<section class="card"><h2>Comprendre le sujet</h2><p class="small">La situation aujourd'hui, avec des chiffres officiels.</p><div class="rows">${comp.map(([t, l]) => `<a class="row" href="#comprendre-${t}"><span class="ic-s">${svg(t)}</span><span class="txt"><b>${esc(l)}</b></span>${CHEV}</a>`).join("")}</div></section>` : ""}`;
+}
 /* Page d'un sujet (onglet Propositions) : les candidats et leurs propositions */
 function screenTheme(k) {
   if (!THEME_NAME[k]) return screenComparer();
@@ -1794,6 +1819,11 @@ const app = $("#app");
 function route() {
   let h = (location.hash || "#actu").slice(1);
   if (h === "programmes" || h === "propositions") h = "comparer";
+  const fresh = ui.lastH !== h; ui.lastH = h;
+  if (DATA.rubriques && (h.startsWith("p-") || (h.startsWith("t-") && THEME_NAME[h.slice(2)]))) {
+    const isT = h.startsWith("t-"), k = isT ? DATA.themeRub[h.slice(2)] : h.slice(2), RN = Object.fromEntries(DATA.rubriques);
+    if (RN[k]) { app.classList.remove("full"); app.innerHTML = screenRub(k, fresh ? (isT ? h.slice(2) : "tous") : null); $("#ttl").innerHTML = esc(RN[k]); const bk = $("#back"); bk.hidden = false; bk.dataset.to = "#comparer"; document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === "comparer" ? "page" : "false")); return; }
+  }
   if (h.startsWith("t-") && THEME_NAME[h.slice(2)]) { app.classList.remove("full"); app.innerHTML = screenTheme(h.slice(2)); $("#ttl").innerHTML = esc(THEME_NAME[h.slice(2)]); const bk = $("#back"); bk.hidden = false; bk.dataset.to = "#comparer"; document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === "comparer" ? "page" : "false")); return; }
   let tab = "actu", html, title, back = null, full = false;
   if (h === "fil") { tab = "videos"; html = screenFil(); title = "Le fil des propositions"; back = "#videos"; full = true; }
@@ -1853,6 +1883,7 @@ app.addEventListener("click", e => {
   else if (t.dataset.act === "refeed") { ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); }
   else if (t.dataset.mode) { ui.cmpMode = t.dataset.mode; if (!t.dataset.keepth && ui.cmpMode === "deux") ui.cmpTh = "tous"; if (location.hash !== "#comparer") location.hash = "#comparer"; else rerender(); }
   else if (t.dataset.th) { ui.cmpTh = t.dataset.th; rerender(); }
+  else if (t.dataset.rth) { ui.rubTh = t.dataset.rth; rerender(); }
   else if (t.dataset.jump) { const el = document.getElementById(t.dataset.jump); if (el) el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); }
   else if (t.dataset.srcg) { ui.srcG = t.dataset.srcg; rerender(); }
   else if (t.dataset.feedth) { ui.feedTh = t.dataset.feedth; ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); const c = document.querySelector(`[data-feedth="${ui.feedTh}"]`); if (c) c.scrollIntoView({ inline: "center", block: "nearest" }); }
