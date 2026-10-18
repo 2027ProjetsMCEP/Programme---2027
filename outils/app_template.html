@@ -414,6 +414,11 @@ body.locked { overflow: hidden; }
 .blk h3 { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); }
 .blk p { font-size: 0.96rem; color: var(--ink-2); }
 .blk .warn { font-size: 0.86rem; color: var(--warn); background: var(--warn-soft); border-radius: 10px; padding: 8px 10px; }
+.blk .info { font-size: 0.84rem; color: var(--ink-2); background: var(--bleu-soft); border-radius: 10px; padding: 8px 10px; }
+.blk h4 { font-family: var(--f-body); font-size: 0.86rem; font-weight: 700; color: var(--ink); margin: 6px 0 0; }
+.blk .dl { margin: 0; padding-left: 1.1em; display: grid; gap: 8px; font-size: 0.96rem; color: var(--ink-2); }
+.blk .dl li::marker { color: var(--ink-3); }
+.blk .q { border-left: 3px solid var(--line); padding-left: 10px; }
 .src-list { display: grid; gap: 8px; }
 .src-li { display: grid; gap: 1px; font-size: 0.76rem; line-height: 1.35; color: var(--ink-3); text-decoration: none; min-width: 0; }
 .src-li b { color: var(--ink-2); font-weight: 600; }
@@ -750,7 +755,7 @@ const md = v => nf1.format(v) + " milliard" + (v >= 2 ? "s" : "") + " d'euros";
 const daysTo = d => Math.max(0, Math.ceil((new Date(d + "T08:00:00") - new Date()) / 86400000));
 const daysSince = d => Math.floor((new Date() - dt(d)) / 86400000);
 const ext = (u, label) => `<a href="${esc(u)}" target="_blank" rel="noopener">${label}</a>`;
-const KIND = { officiel: "document du candidat", presse: "média", analyse: "comparateur", donnees: "source officielle", sondage: "institut de sondage" };
+const KIND = { officiel: "document du candidat", presse: "média", analyse: "comparateur", donnees: "source officielle", sondage: "institut de sondage", etude: "think tank ou institut" };
 
 function prep() {
   CAND = Object.fromEntries(DATA.candidats.map(c => [c.id, c]));
@@ -772,7 +777,11 @@ const photoCredit = c => c.photo
   : "Pas de photo libre de droits trouvée pour l'instant : l'appli n'utilise que des photos dont la licence autorise la réutilisation.";
 /* « À confirmer » : la proposition ne repose que sur un comparateur, pas encore sur un document du candidat ou un média */
 const onlyAnalyse = p => allSrc(p).every(s => SRC[s] && SRC[s].type === "analyse");
-const allSrc = p => p.s.concat((p.plus && p.plus.src) || []).filter((s, i, a) => SRC[s] && a.indexOf(s) === i);
+/* Fiche détaillée (p.plus) : chaque élément est [texte, source, ...] ; une source vide signale un constat de l'appli (« nous n'avons pas trouvé… ») */
+const PLUS_KEYS = ["detail", "objectif", "pourquoi", "auj", "fin_cand", "fin_ind"];
+const plusSrc = x => x ? PLUS_KEYS.flatMap(k => (x[k] || []).flatMap(it => it.slice(1))).concat(x.note ? x.note.slice(1) : []) : [];
+const SRC_ORDER = ["officiel", "donnees", "presse", "etude", "sondage", "analyse"];
+const allSrc = p => p.s.concat(plusSrc(p.plus)).filter((s, i, a) => s && SRC[s] && a.indexOf(s) === i);
 const tbc = p => onlyAnalyse(p) ? `<span class="tbc" title="Seule source trouvée : un comparateur. La proposition reste à confirmer sur un document du candidat ou dans un média.">À confirmer</span>` : "";
 const statut = c => `<span class="pill st-${c.statut}">${esc(DATA.statuts[c.statut])}</span>`;
 const isNew = p => p.aj > DATA.base && daysSince(p.aj) <= 10;
@@ -800,7 +809,7 @@ function finLabel(p) { if (p.fin === "c" && p.a && p.a.nature === "economie") re
 const finBadge = p => p.fin ? `<span class="fin fin-${p.fin}" title="${esc(FIN_HELP[p.fin])}">${esc(finLabel(p))}</span>` : "";
 const finText = p => p.finTxt ? `<p class="fintxt">Financement prévu : ${esc(p.finTxt)}</p>` : "";
 function propItem(p) {
-  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${esc(p.t)}</p><div class="badges">${finBadge(p)}${tbc(p)}</div>${amount(p.a)}${finText(p)}<p class="src">Source : ${srcLine(allSrc(p))}</p><button class="plus-btn" type="button" data-more="${p.id}">Aller plus loin${ARW}</button></div>`;
+  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${esc(p.t)}</p><div class="badges">${finBadge(p)}${tbc(p)}</div>${amount(p.a)}${finText(p)}<p class="src">Source : ${srcLine(p.s.filter(s => SRC[s]))}</p><button class="plus-btn" type="button" data-more="${p.id}">Aller plus loin${ARW}</button></div>`;
 }
 
 /* ---------- graphiques ---------- */
@@ -1012,7 +1021,7 @@ function reel(card) {
   const th = card.p ? card.p.th : card.v.th;
   const firstSrc = card.v ? (card.v.s ? SRC[card.v.s] : null) : SRC[card.p.s[0]];
   const yt = card.p ? allSrc(card.p).map(id => ytId(SRC[id].u)).find(Boolean) : null;
-  const said = card.p && card.p.plus && card.p.plus.pourquoi ? `<span class="said">${esc(card.p.plus.pourquoi[0])}</span>` : "";
+  const said = card.p && card.p.plus && card.p.plus.dit ? `<span class="said">${esc(card.p.plus.dit)}</span>` : "";
   const media = card.v ? videoMedia(card.v)
     : `<div class="poster"><span class="soon">${svg(th)}${esc(THEME_NAME[th])}</span><span class="big">${esc(card.p.t)}</span>${said}<span class="badges">${finBadge(card.p)}${tbc(card.p)}</span>${card.p.finTxt ? `<span class="fintxt">Financement prévu : ${esc(card.p.finTxt)}</span>` : ""}${yt ? `<button class="more-btn play" type="button" data-yt="${esc(yt)}" data-title="${esc(card.p.t)}">▶ Voir la vidéo source</button>` : `<span class="later">Pas encore de vidéo de ${esc(c.nom)} sur cette proposition</span>`}</div>`;
   return `<article class="reel">
@@ -1505,7 +1514,7 @@ function screenMethode() {
   <section class="card prose">
     <p><b>Les candidats.</b> Toutes les personnes qui ont annoncé publiquement leur candidature, avec le même traitement pour chacune. À partir de mars 2027, l'appli suivra la liste officielle publiée par le Conseil constitutionnel.</p>
     <p><b>Les propositions.</b> Uniquement des propositions rendues publiques pour 2027. Chacune est résumée en une phrase, avec un lien vers le document ou l'article d'origine. Le texte complet reste chez le candidat ou le média cité. Quand la seule source trouvée est un comparateur, la proposition porte la mention « À confirmer » : elle doit encore être confirmée par un document du candidat ou un média.</p>
-    <p><b>Aller plus loin.</b> Chaque proposition a sa fiche : le détail, le coût et le financement, et toutes les sources.${DATA.contexte ? " Quand c'est possible, la fiche donne aussi la situation actuelle, avec un chiffre officiel daté, et ce que dit le candidat pour justifier sa proposition." : ""}</p>
+    <p><b>Aller plus loin.</b> Chaque proposition a sa fiche : le détail, le coût et le financement, et toutes les sources.${DATA.propositions.some(p => p.plus && p.plus.detail) ? " Quand elle est complète, la fiche donne aussi l'objectif affiché, les arguments du candidat cités tels quels, la situation actuelle avec un chiffre officiel daté, et les chiffrages du candidat comme ceux d'autres organismes." : ""}</p>
     <p><b>Les photos.</b> Uniquement des photos libres de droits publiées sur Wikimedia Commons, recadrées de la même façon pour tous, avec le nom de l'auteur, l'année et la licence. Quand aucune photo libre n'existe, les initiales s'affichent à la place.</p>
     ${DATA.candidats.some(c => c.parcours) ? `<p><b>Les parcours.</b> Pour chaque candidat, le même format : un résumé, puis ses origines, son parcours et ce qu'il fait aujourd'hui. Aucune étiquette politique ni appréciation. Chaque phrase porte un numéro qui renvoie à sa source, en priorité officielle (Assemblée nationale, Sénat, Parlement européen, site du Gouvernement). La phrase sur les sujets de ses propositions est calculée automatiquement, avec la même règle pour tous.</p>` : ""}
     ${DATA.sujets ? `<p><b>Comprendre le sujet.</b> Pour chaque thème, le même plan : la situation en 30 secondes, les chiffres clés, ce qui a changé récemment, qui décide, ce qui concerne les 18-30 ans, et les grandes questions telles que les posent les rapports officiels. Uniquement des sources officielles, sans avis.</p>` : ""}
@@ -1537,6 +1546,7 @@ const SRC_GROUPS = [
   ["officiel", "Documents des candidats", "Programmes, sites de campagne et comptes officiels des candidats et de leurs partis."],
   ["donnees", "Sources officielles", "Insee, administrations, institutions et textes de loi."],
   ["presse", "Médias", "Articles et vidéos de presse."],
+  ["etude", "Autres chiffrages", "Think tanks et instituts qui chiffrent des propositions. Leurs méthodes diffèrent : les montants sont repris tels que publiés, avec leur date."],
   ["sondage", "Instituts de sondage", "Rapports d'enquête publiés par les instituts."],
   ["analyse", "Comparateurs et encyclopédies", "Ce ne sont pas des sources officielles. Ils servent de point de départ : une proposition qui ne repose que sur eux porte la mention « À confirmer »."]
 ];
@@ -1545,7 +1555,7 @@ const host = u => { try { return new URL(u).hostname.replace(/^www\./, ""); } ca
 function srcUsage() {
   const u = {};
   const add = (id, k) => { if (!id || !SRC[id]) return; (u[id] = u[id] || {})[k] = (u[id][k] || 0) + 1; };
-  DATA.propositions.forEach(p => { const set = new Set(allSrc(p)); if (p.plus && p.plus.pourquoi) set.add(p.plus.pourquoi[1]); set.forEach(s => add(s, "prop")); });
+  DATA.propositions.forEach(p => new Set(allSrc(p)).forEach(s => add(s, "prop")));
   DATA.candidats.forEach(c => {
     const set = new Set(); if (c.parcours) { c.parcours.chapo[1].forEach(x => set.add(x)); c.parcours.paras.forEach(([, ss]) => ss.forEach(([, x]) => set.add(x))); }
     set.forEach(s => add(s, "bio")); new Set(c.faits.map(f => f[1]).concat(c.docs)).forEach(s => add(s, "fiche"));
@@ -1613,11 +1623,20 @@ function screenSources() {
 
 /* ---------- « Aller plus loin » : la fiche d'une proposition, qui monte du bas de l'écran ---------- */
 function moreHtml(p) {
-  const c = CAND[p.c], x = p.plus || {};
+  const c = CAND[p.c], x = p.plus || {}, rich = !!x.detail;
   const others = new Set(DATA.propositions.filter(q => q.th === p.th && q.c !== p.c).map(q => q.c)).size;
-  const cite = id => SRC[id] ? ` <span class="s">Source : ${ext(SRC[id].u, esc(SRC[id].p))}${SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : ""}</span>` : "";
-  const ctx = (x.auj || []).map(k => DATA.contexte && DATA.contexte[k]).filter(Boolean);
+  const cite = ids => { const l = [].concat(ids).filter(id => id && SRC[id]); return l.length ? ` <span class="s">Source${l.length > 1 ? "s" : ""} : ${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</span>` : ""; };
+  /* espaces insécables de la typographie française : jamais de « ou de : seul en début de ligne */
+  const nb = t => esc(t).replace(/« /g, "«\u00a0").replace(/ »/g, "\u00a0»").replace(/ ([:;?!])/g, "\u00a0$1");
+  const paras = (list, cls) => list.map(it => `<p${cls && it[1] ? ` class="${cls}"` : ""}>${nb(it[0])}${cite(it.slice(1))}</p>`).join("");
+  const bullets = list => `<ul class="dl">${list.map(it => `<li>${nb(it[0])}${cite(it.slice(1))}</li>`).join("")}</ul>`;
   const srcRow = id => { const s = SRC[id]; return `<a class="src-li" href="${esc(s.u)}" target="_blank" rel="noopener"><span><b>${esc(s.p)}</b> · ${esc(KIND[s.type] || "")} · ${esc(fmtDate(s.d))}</span><span class="t">${esc(s.t)}</span></a>`; };
+  const srcs = allSrc(p).sort((a, b) => SRC_ORDER.indexOf(SRC[a].type) - SRC_ORDER.indexOf(SRC[b].type));
+  const fc = x.fin_cand || [], fi = x.fin_ind || [];
+  const finBlocks = !rich || (p.fin === "s" && !fc.length && !fi.length) ? "" : `
+      <h4>Selon ${esc(c.nom)} et son parti</h4>${fc.length ? paras(fc) : "<p>Nous n'avons pas trouvé de chiffrage de leur part.</p>"}
+      <h4>D'autres chiffrages</h4>${fi.length ? paras(fi) : "<p>Nous n'avons pas trouvé de chiffrage publié par un organisme extérieur.</p>"}
+      ${fc.length + fi.length > 1 ? `<p class="s">Les chiffrages ne mesurent pas toujours la même chose (année, périmètre, effets pris en compte) : ils sont repris tels que publiés, avec leur date.</p>` : ""}`;
   return `<div class="sheet" role="dialog" aria-modal="true" aria-labelledby="sh-t">
     <span class="grab" aria-hidden="true"></span>
     <div class="sheet-h">
@@ -1626,15 +1645,15 @@ function moreHtml(p) {
       <span class="th">${svg(p.th)}${esc(THEME_NAME[p.th] || "")}</span>
       <button class="x" type="button" data-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
-    <div class="blk"><h3>La proposition</h3><p>${esc(p.d)}</p></div>
-    ${x.clair ? `<div class="blk"><h3>En clair</h3><p>${esc(x.clair)}</p></div>` : ""}
-    ${ctx.length ? `<div class="blk"><h3>Aujourd'hui</h3>${ctx.map(([t, s]) => `<p>${esc(t)}${cite(s)}</p>`).join("")}</div>` : ""}
-    ${x.change ? `<div class="blk"><h3>Ce que ça changerait</h3><p>${esc(x.change)}</p></div>` : ""}
-    ${x.pourquoi ? `<div class="blk"><h3>Ce qu'en dit ${esc(c.nom)}</h3><p>${esc(x.pourquoi[0])}${cite(x.pourquoi[1])}</p></div>` : ""}
-    <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(FIN_HELP[p.fin] || "")}</p>${amount(p.a)}${finText(p)}${p.a && p.a.per === "an" ? `<p class="s">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</div>
+    <div class="blk"><h3>La proposition</h3><p>${esc(p.d)}</p>${x.note ? `<p class="info">${nb(x.note[0])}${cite(x.note.slice(1))}</p>` : ""}</div>
+    ${rich ? `<div class="blk"><h3>En détail</h3>${bullets(x.detail)}</div>` : ""}
+    ${x.objectif ? `<div class="blk"><h3>L'objectif affiché</h3>${paras(x.objectif)}</div>` : ""}
+    ${rich ? `<div class="blk"><h3>Ses arguments</h3><p class="s">Ce que disent ${esc(c.nom)} ou son parti pour défendre la mesure, cité tel quel. L'appli ne juge pas ces arguments.</p>${paras(x.pourquoi || [["Nous n'avons pas encore trouvé ses arguments sur cette mesure."]], "q")}</div>` : ""}
+    ${x.auj ? `<div class="blk"><h3>Aujourd'hui</h3>${paras(x.auj)}</div>` : ""}
+    <div class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p>${esc(FIN_HELP[p.fin] || "")}</p>${amount(p.a)}${finText(p)}${finBlocks}${p.a && p.a.per === "an" ? `<p class="s">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</div>
     ${others ? `<a class="more-btn as-link" href="#t-${p.th}">${others > 1 ? `Ce que proposent les ${others} autres candidats sur ce sujet` : "Ce que propose l'autre candidat sur ce sujet"}${ARW}</a>` : ""}
-    <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${allSrc(p).map(srcRow).join("")}</div></div>
-    ${p.plus ? "" : `<p class="small">Bientôt dans cette fiche : la situation actuelle avec un chiffre officiel, et ce que la proposition changerait concrètement.</p>`}
+    <div class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${srcs.map(srcRow).join("")}</div>${x.maj ? `<p class="s">Fiche vérifiée le ${esc(fmtDate(x.maj))}.</p>` : ""}</div>
+    ${rich ? "" : `<p class="small">Bientôt dans cette fiche : le détail de la mesure, l'objectif affiché, les arguments du candidat, la situation actuelle avec un chiffre officiel et les chiffrages disponibles.</p>`}
   </div>`;
 }
 let sheetEl = null, sheetFrom = null;

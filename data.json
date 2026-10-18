@@ -3146,11 +3146,71 @@
    "t": "Un SMIC à 1 600 € net par mois",
    "d": "Porter le SMIC à 1 600 € net par mois.",
    "s": [
-    "lfi_aec"
+    "lfi_aec",
+    "lfi_contrebudget_2025"
    ],
    "aj": "2026-10-01",
-   "fin": "n",
-   "id": "p034"
+   "fin": "c",
+   "id": "p034",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Augmenter le SMIC », dans la partie « Créer un état d'urgence sociale », et « Revaloriser le SMIC mensuel et indexer les salaires sur l'inflation ».",
+      "lfi_synthese"
+     ],
+     [
+      "Pour les petites entreprises, son parti prévoit d'« aider les TPE et PME à financer l'augmentation du SMIC par la création d'un fonds de péréquation ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Augmenter les salaires et réduire les inégalités salariales dans l'entreprise » : c'est le titre de la partie du programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« L'augmentation générale des salaires est donc un impératif social, afin de lutter contre les inégalités et la pauvreté »",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Pour son parti, « l'augmentation du revenu des classes populaires est synonyme d'une hausse de la consommation favorable à l'activité économique et d'une augmentation des cotisations finançant notre système de protection sociale ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026 (1 867,02 € brut).",
+      "sujet_travail_sp_smic_juin"
+     ],
+     [
+      "Passer à 1 600 € net ferait environ 122 € de plus par mois, soit +8,3 % (calcul de l'appli à partir de ce montant).",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre « le passage du SMIC à 1 600€ net » à 1,6 milliard d'euros, une mesure qui « entraîne une hausse de cotisations à hauteur de 1,2 milliard d'euros » : le coût net est de 400 millions d'euros dans son tableau de synthèse.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Le fonds de péréquation pour les TPE et PME y est chiffré à 5 milliards d'euros.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "fin_ind": [
+     [
+      "L'Institut Montaigne a chiffré la même mesure quand elle figurait dans le programme du Nouveau Front populaire, en juin 2024 : 19 milliards d'euros par an pour les finances publiques (entre 17 et 21 milliards). Ce montant comprend surtout le coût des allègements généraux de cotisations (21,5 milliards) et la hausse des salaires du secteur public (3,7 milliards), diminué de 6 milliards de prélèvements supplémentaires.",
+      "montaigne_nfp_smic"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -3170,7 +3230,74 @@
     "lab": "Coût estimé"
    },
    "fin": "c",
-   "id": "p035"
+   "id": "p035",
+   "plus": {
+    "detail": [
+     [
+      "Abroger la réforme des retraites de 2023 et ramener l'âge légal à 62 ans « dans un premier temps ».",
+      "ps_retraites"
+     ],
+     [
+      "Puis revenir « le plus vite possible » à la retraite à 60 ans avec 40 années de cotisation. Il l'a redit à son premier meeting de campagne, à Saint-Denis en juin 2026.",
+      "lcp_retraites_sept"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Revaloriser les pensions de retraite a minima au niveau du SMIC revalorisé ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "Son équipe présente la retraite à 60 ans comme la « mesure phare de l'Avenir en commun depuis 2017 ».",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Lors du débat organisé par le Medef fin août 2026 : « Le temps libre des retraités, c'est du travail civique, du temps familial. Ce n'est pas du temps perdu. »",
+      "lcp_retraites_sept"
+     ],
+     [
+      "Son parti veut « restituer la retraite à 60 ans avec 40 annuités » et défend « le renforcement du système de retraite par répartition et la solidarité intergénérationnelle ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "L'âge légal de départ va de 62 ans et 9 mois (personnes nées en 1964) à 64 ans (nées à partir de 1969). Le relèvement prévu par la réforme de 2023 est suspendu jusqu'en 2028.",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "Les dépenses de retraite représentent 14,1 % du PIB en 2025 (422 milliards d'euros), avec un déficit estimé à 5,1 milliards d'euros.",
+      "sujet_retraites_cor_ra2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre l'abrogation de la réforme et le retour à 60 ans avec 40 annuités à un « coût net de 26,5 milliards d'euros ».",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Nous n'y avons pas trouvé de financement propre à cette mesure. Le document pose le principe que les droits à la retraite « sont garantis par les cotisations des travailleurs », annonce « Nous financerons notre protection sociale en soumettant les revenus du capital aux cotisations » et prévoit d'« augmenter de 0,25 point par an pendant cinq ans les cotisations vieillesse ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "fin_ind": [
+     [
+      "Pierre Moscovici, premier président de la Cour des comptes, a chiffré en mars 2025 l'abrogation de la réforme de 2023 à 10,4 milliards d'euros en 2035.",
+      "ps_moscovici"
+     ],
+     [
+      "L'Institut Montaigne a chiffré en 2024 la mesure du Nouveau Front populaire, plus large (retour à 60 ans, minimum de pension au niveau du Smic, années de RSA comptées comme cotisées) : 58 milliards d'euros par an à l'horizon 2027 (entre 49 et 67 milliards), dont 8,2 milliards pour l'annulation de la réforme de 2023 et 27 milliards pour l'annulation du recul de l'âge décidé en 2010.",
+      "montaigne_nfp_retraites"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -3182,7 +3309,50 @@
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p036"
+   "id": "p036",
+   "plus": {
+    "detail": [
+     [
+      "Première étape : « Réunir une assemblée constituante pour passer à la 6e République », c'est-à-dire une assemblée chargée d'écrire une nouvelle Constitution.",
+      "lfi_synthese"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « La validation du projet de Constitution proposé par l'Assemblée constituante par référendum ».",
+      "lfi_synthese"
+     ],
+     [
+      "Le programme prévoit aussi d'« instaurer le référendum révocatoire des élus » : un vote qui permettrait de mettre fin au mandat d'un élu avant son terme.",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "Une République « permettant l'intervention populaire » : c'est le titre de la partie du programme où figure le référendum révocatoire.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "En mars 2017, lors de sa précédente campagne, il disait vouloir « mettre fin à la monarchie présidentielle et à sa collusion intime avec les puissances de l'argent ». Il jugeait la Constitution de 1958 « taillée sur mesure pour un homme exceptionnel, dans des conditions exceptionnelles ».",
+      "sudradio_6e_2017"
+     ],
+     [
+      "Nous n'avons pas trouvé de déclaration de 2026 qui détaille davantage ses arguments.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "La Constitution de la Ve République date de 1958. Depuis, 9 référendums nationaux ont été organisés sur la base de ses articles 11 et 89, le dernier le 29 mai 2005.",
+      "sujet_institutions_cc_referendums"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -3201,7 +3371,60 @@
     "h": "calcul du site : 18 % de la dette publique de fin juin 2026"
    },
    "fin": "n",
-   "id": "p037"
+   "id": "p037",
+   "plus": {
+    "detail": [
+     [
+      "Il vise « les 18 % de dette française détenus par la Banque de France pour le compte de la Banque centrale européenne (BCE) », selon la description de Public Sénat.",
+      "ps_dette_melenchon"
+     ],
+     [
+      "Le 23 août 2026, il a déclaré que la BCE « peut et doit mettre au congélateur les dettes des États », « en commençant par celles de la période Covid ».",
+      "ps_dette_melenchon"
+     ],
+     [
+      "Cette dette serait convertie en obligations perpétuelles à taux zéro, c'est-à-dire jamais remboursées et sans intérêts.",
+      "orange_melenchon"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Faire racheter la dette par la Banque centrale européenne (BCE) et sortir la dette des marchés ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Sortir la dette des marchés » : la mesure figure dans la partie « Refuser le chantage : annuler la dette publique ».",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il affirme que l'opération « ne coûterait rien à personne » et n'aurait « aucun impact économique et aucun impact financier », car ce serait un « jeu d'écriture dans le bilan de la banque centrale ».",
+      "ps_dette_melenchon"
+     ],
+     [
+      "À Clermont-Ferrand, le 11 octobre 2026 : « Si vous baissez la quantité de dette que nous avons, la confiance reviendra ».",
+      "sudradio_clermont"
+     ]
+    ],
+    "auj": [
+     [
+      "La dette publique atteint 3 595,5 milliards d'euros fin juin 2026, soit 119,0 % du PIB.",
+      "insee_dette"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il ne donne pas de coût : selon lui, l'opération n'aurait « aucun impact financier ».",
+      "ps_dette_melenchon"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -3213,7 +3436,32 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p038"
+   "id": "p038",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Créer un pôle public bancaire » et « Socialiser certaines banques de détail et les intégrer au pôle public bancaire ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "La mesure figure dans les parties « Mettre au pas la finance » et « Pour des banques au service de l'intérêt général » du programme.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure.",
+      null
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -3224,8 +3472,65 @@
     "ps_ecole"
    ],
    "aj": "2026-10-01",
-   "fin": "n",
-   "id": "p039"
+   "fin": "c",
+   "id": "p039",
+   "plus": {
+    "detail": [
+     [
+      "Atteindre « 19 élèves en moyenne à la fin du quinquennat » par classe, avec « le recrutement de 160 000 enseignants ».",
+      "ps_ecole"
+     ],
+     [
+      "Rendre la cantine gratuite et « porter à 100 % la part des produits issus de l'agriculture paysanne et biologique, en privilégiant autant que possible les produits locaux ».",
+      "ps_ecole"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Garantir la gratuité réelle de l'école (cantines, transports, sorties, manuels et fournitures) » et « Revaloriser les salaires des enseignants et fin du Pacte enseignant ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "Faire de l'école « un véritable levier de réduction des inégalités », selon la présentation de Public Sénat.",
+      "ps_ecole"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour son parti, « il est urgent de garantir un accès égal de l'enfant à l'instruction par la gratuité réelle et intégrale de l'école publique ».",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Le recrutement doit permettre de « combler les postes manquants » et d'« atteindre à terme un objectif de 19 élèves par classe ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "À la rentrée 2025, une classe compte en moyenne 21,7 élèves en maternelle et 21,1 en élémentaire (25,7 au collège).",
+      "sujet_education_depp_enc2026"
+     ],
+     [
+      "L'Éducation nationale compte 851 500 enseignants en 2025-2026 : 366 100 dans le premier degré et 485 450 dans le second degré.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre la « gratuité intégrale à l'école : cantine scolaire, fournitures, transports, et activités périscolaires » à 6,2 milliards d'euros.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Nous n'avons pas trouvé de chiffrage du recrutement de 160 000 enseignants.",
+      null
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -3236,8 +3541,65 @@
     "lfi_aec"
    ],
    "aj": "2026-10-01",
-   "fin": "n",
-   "id": "p040"
+   "fin": "c",
+   "id": "p040",
+   "plus": {
+    "detail": [
+     [
+      "La planification écologique est le chapitre 12 de son programme, L'Avenir en commun.",
+      "lfi_aec"
+     ],
+     [
+      "Depuis septembre 2026, son équipe publie des « plans d'investissement » qui « présentent nos objectifs de production dans une série de filières stratégiques », « dans le cadre de la planification écologique ». Les premiers portent sur le BTP et le logement, et sur l'automobile.",
+      "lfi_plans_invest"
+     ],
+     [
+      "Il veut aussi confier une partie de cette planification à 13 « écorégions », qui en seraient « la première ligne d'alerte, de propositions et de mise en œuvre ».",
+      "ps_ecoregions"
+     ],
+     [
+      "Son parti prévoit une « loi énergie-climat prévoyant plan climat, outil de la planification écologique ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Atteindre la neutralité carbone en 2050 et respecter nos engagements internationaux de réduction des gaz à effet de serre ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Le 23 août 2026 : « nous allons tous bientôt débarquer sur une autre planète en sortant de chez nous » ; « Pour s'y adapter, il est vital de tout changer dans nos manières de vivre, de produire et d'échanger ».",
+      "lid_melenchon_conscription"
+     ]
+    ],
+    "auj": [
+     [
+      "Les émissions de gaz à effet de serre de la France sont pré-estimées à 359 millions de tonnes équivalent CO2 en 2025, soit -2,1 % sur un an.",
+      "sujet_ecologie_hcc_ra2026"
+     ],
+     [
+      "Selon le Haut Conseil pour le climat, il faudrait les baisser de plus de 4 % par an en moyenne en 2026, 2027 et 2028.",
+      "sujet_ecologie_hcc_ra2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), La France insoumise consacre 24,6 milliards d'euros à « organiser la bifurcation écologique » : 11,4 milliards pour la transition énergétique, 5,5 milliards pour l'adaptation au changement climatique, 7,9 milliards pour les transports publics et 800 millions pour l'eau, moins 1 milliard d'économies sur la pollution et la biodiversité.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Les plans d'investissement publiés en 2026 ne donnent pas encore de montant.",
+      "lfi_plans_invest"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "philippe",
@@ -5035,7 +5397,44 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p182"
+   "id": "p182",
+   "plus": {
+    "detail": [
+     [
+      "« Nous envisageons une garde régionale de la sécurité civile », « une garde constituée par conscription », pour « venir en renfort efficace des équipes permanentes dans les épisodes de crise ».",
+      "lid_melenchon_conscription"
+     ],
+     [
+      "Il l'a annoncée le 23 août 2026 à Châteauneuf-sur-Isère (Drôme), en clôture des universités d'été de La France insoumise, après les incendies de l'été.",
+      "lid_melenchon_conscription"
+     ],
+     [
+      "Nous n'avons trouvé ni durée, ni âge concerné, ni coût annoncés.",
+      null
+     ]
+    ],
+    "objectif": [
+     [
+      "« Garantir de pouvoir mobiliser en masse une réserve nombreuse et formée ».",
+      "lid_melenchon_conscription"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il a vanté les mérites d'une « culture écologique pratique ».",
+      "lid_melenchon_conscription"
+     ],
+     [
+      "« Nous allons tous bientôt débarquer sur une autre planète en sortant de chez nous » ; « Pour s'y adapter, il est vital de tout changer dans nos manières de vivre, de produire et d'échanger ».",
+      "lid_melenchon_conscription"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -5047,7 +5446,44 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p183"
+   "id": "p183",
+   "plus": {
+    "detail": [
+     [
+      "Les 13 régions issues de la réforme de 2015 seraient remplacées par 13 « écorégions » dessinées selon les grands bassins des fleuves.",
+      "ps_ecoregions"
+     ],
+     [
+      "Elles géreraient le cycle de l'eau et les politiques liées : qualité de l'eau, protection des sols, biodiversité, forêts, qualité de l'air, mobilités et prévention des risques climatiques.",
+      "ps_ecoregions"
+     ],
+     [
+      "S'il est élu, « les écorégions figureront parmi les premières mesures » destinées à transformer la Constitution de la Ve République.",
+      "ps_ecoregions"
+     ]
+    ],
+    "objectif": [
+     [
+      "En faire « la première ligne d'alerte, de propositions et de mise en œuvre de la planification écologique », pour faire de la France « la première République écologique du monde ».",
+      "ps_ecoregions"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« La bifurcation écologique ne peut pas simplement être le résultat de structures verticales et étatiques »",
+      "ps_ecoregions"
+     ],
+     [
+      "« Les bassins versants fournissent un modèle de base pour cette organisation » ; « À la fin, tout revient à l'eau ».",
+      "ps_ecoregions"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "tondelier",
@@ -5325,7 +5761,46 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p205"
+   "id": "p205",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Démanteler Parcoursup et garantir l'accès sans sélection à la formation de son choix » et « La fin de la sélection en master ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "Pour son parti, « l'accès à l'université sera de nouveau démocratisé par l'abolition de ParcourSup ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "À Clermont-Ferrand, le 11 octobre 2026 : « Parcoursup doit être aboli » ; « Nous ne sommes pas pour la sélection à l'université ».",
+      "sudradio_clermont"
+     ],
+     [
+      "Il qualifie la plateforme d'« école du vice ».",
+      "orange_melenchon_jeunes"
+     ],
+     [
+      "Son parti la décrit comme une plateforme « qui trie les élèves et les laisse dans une incertitude angoissante ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens sur 660 399 candidats lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, soit environ 87 % (calcul de l'appli).",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -5337,7 +5812,47 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p206"
+   "id": "p206",
+   "plus": {
+    "detail": [
+     [
+      "Abaisser l'âge du droit de vote de 18 à 16 ans. Il l'a redit à Clermont-Ferrand le 11 octobre 2026.",
+      "ps_vote16"
+     ],
+     [
+      "La mesure ajouterait « environ 1,5 million d'électeurs potentiels », selon Public Sénat.",
+      "ps_vote16"
+     ]
+    ],
+    "objectif": [
+     [
+      "Donner « aux lycéens davantage de poids politique », selon Public Sénat, et favoriser le « respect » de la jeunesse, selon l'AFP.",
+      "ps_vote16",
+      "sudradio_clermont"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« À 16 ans, on peut être émancipé et assurer son devoir de parent, on vote aux élections prud'homales, on va en prison. » « Alors à 16 ans on doit pouvoir donner son avis, non pas secondairement, mais comme tous les autres, comme citoyen. »",
+      "ps_vote16"
+     ]
+    ],
+    "auj": [
+     [
+      "Le droit de vote est fixé à 18 ans depuis 1974 : il a alors été abaissé de 21 à 18 ans.",
+      "ps_vote16"
+     ],
+     [
+      "Au premier tour de la présidentielle de 2022, 67,2 % des inscrits de 18 à 29 ans ont voté, contre 77,0 % des 65 ans ou plus.",
+      "sujet_institutions_insee_ip1929"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -5348,8 +5863,53 @@
     "orange_melenchon_jeunes"
    ],
    "aj": "2026-10-15",
-   "fin": "n",
-   "id": "p207"
+   "fin": "c",
+   "id": "p207",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Rétablir le baccalauréat professionnel en quatre ans et abroger les contre-réformes du lycée professionnel ».",
+      "lfi_synthese"
+     ],
+     [
+      "Il propose aussi de « créer une filière qui part du CAP jusqu'à la licence professionnelle ».",
+      "orange_melenchon_jeunes"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Qualifier tout le monde » : c'est le titre de la partie du programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour son parti, les réformes successives du lycée professionnel « ont à la fois diminué les heures d'enseignement » et « sabordé les fondements de la qualification » ; la voie professionnelle serait « abandonnée au profit du “tout apprentissage” réclamé par le MEDEF ».",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Quatre ans de formation permettraient de « replacer les disciplines et les enseignements techniques et spécifiques au cœur de cette voie tout en renforçant les enseignements généraux ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Le bac professionnel se prépare aujourd'hui « sur une période de trois ans après la classe de troisième ».",
+      "edu_bacpro"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), La France insoumise chiffre le retour au bac pro en quatre ans et l'abrogation de la réforme de la voie professionnelle à 650 millions d'euros.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "becht",
@@ -9196,6 +9756,90 @@
    "d": "2026-06-26",
    "type": "officiel",
    "u": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
+  },
+  "lfi_synthese": {
+   "t": "Synthèse des contributions",
+   "p": "Mélenchon 2027 (site de campagne)",
+   "d": "2026-07-17",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/synthese-des-contributions/"
+  },
+  "lfi_contrebudget_2025": {
+   "t": "Budget 2025 : notre projet pour changer la vie (contre-budget)",
+   "p": "La France insoumise",
+   "d": "2024-11",
+   "type": "officiel",
+   "u": "https://lafranceinsoumise.fr/wp-content/uploads/2024/11/1.-LIVRET-ContreProjet-2025-H-Site-2.pdf"
+  },
+  "lfi_plans_invest": {
+   "t": "Les plans d'investissement",
+   "p": "Mélenchon 2027 (site de campagne)",
+   "d": "2026-09-25",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/plans-investissement/"
+  },
+  "montaigne_nfp_smic": {
+   "t": "Nouveau Front populaire : augmenter le Smic à 1 600 € net (chiffrage)",
+   "p": "Institut Montaigne (think tank)",
+   "d": "2024-06-24",
+   "type": "etude",
+   "u": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/augmenter-le-smic-a-1600-e-net"
+  },
+  "montaigne_nfp_retraites": {
+   "t": "Nouveau Front populaire : abroger la réforme des retraites, restaurer la retraite à 60 ans (chiffrage)",
+   "p": "Institut Montaigne (think tank)",
+   "d": "2024-06",
+   "type": "etude",
+   "u": "https://www.institutmontaigne.org/legislatives-2024/nouveau-front-populaire/abroger-la-reforme-des-retraites-restaurer-la-retraite-a-60-ans-en-prenant-en-compte-le-rsa-en-portant-le-minimum-contributif-au-smic"
+  },
+  "ps_moscovici": {
+   "t": "Retraites : « Si vous abrogez la réforme de 2023, c'est 10 milliards d'euros de plus qu'il faut trouver », souligne Pierre Moscovici",
+   "p": "Public Sénat",
+   "d": "2025-03-05",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/emploi/retraites-si-vous-abrogez-la-reforme-de-2023-cest-10-milliards-deuros-de-plus-quil-faut-trouver-souligne-pierre-moscovici"
+  },
+  "lcp_retraites_sept": {
+   "t": "Présidentielle : que proposent les candidats à l'Élysée sur les retraites ?",
+   "p": "LCP",
+   "d": "2026-09-16",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-que-proposent-les-candidats-a-l-elysee-sur-les-retraites-441751"
+  },
+  "ps_dette_melenchon": {
+   "t": "Dette publique : la piste d'une annulation partielle, défendue par Jean-Luc Mélenchon, se heurte à de nombreuses difficultés",
+   "p": "Public Sénat",
+   "d": "2026-08-25",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/dette-publique-la-piste-dune-annulation-partielle-defendue-par-jean-luc-melenchon-se-heurte-a-de-nombreuses-difficultes"
+  },
+  "sudradio_clermont": {
+   "t": "À Clermont-Ferrand, Mélenchon fait salle comble pour dénoncer « l'ignominie » Parcoursup",
+   "p": "Sud Radio (AFP)",
+   "d": "2026-10-11",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/societe/a-clermont-ferrand-melenchon-fait-salle-comble-pour-denoncer-lignominie-parcoursup"
+  },
+  "sudradio_6e_2017": {
+   "t": "Mélenchon : une VIe République pour « mettre fin à la monarchie présidentielle »",
+   "p": "Sud Radio",
+   "d": "2017-03-18",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/melenchon-une-vie-republique-pour-mettre-fin-a-la-monarchie-presidentielle"
+  },
+  "ps_vote16": {
+   "t": "Vote à 16 ans : la jeunesse doit-elle avoir son mot à dire dans les urnes ?",
+   "p": "Public Sénat",
+   "d": "2026-10-16",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/vote-a-16-ans-la-jeunesse-doit-elle-avoir-son-mot-a-dire-dans-les-urnes"
+  },
+  "edu_bacpro": {
+   "t": "Le baccalauréat professionnel",
+   "p": "Ministère de l'Éducation nationale",
+   "d": "2026-05-19",
+   "type": "donnees",
+   "u": "https://www.education.gouv.fr/reussir-au-lycee/bac-pro-ce-qui-change-en-2027-pour-les-terminales-9956"
   }
  },
  "presse": [
