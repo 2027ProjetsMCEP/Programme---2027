@@ -6095,6 +6095,65 @@
     "nature": "recette",
     "per": "total",
     "h": "recette attendue dans son plan budgétaire pour 2027"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Rétablir et renforcer l'impôt sur la fortune avec un volet climatique ».",
+      "lfi_synthese"
+     ],
+     [
+      "Le volet climatique doit servir à « faire payer les plus gros pollueurs », selon son parti.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Nous n'avons trouvé ni le seuil ni le barème prévus. En 2022, l'Institut Montaigne notait déjà que le candidat ne les avait pas précisés.",
+      "montaigne_2022_isf"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Faire la révolution fiscale » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son parti veut renforcer l'impôt sur la fortune « avec une composante climatique afin de faire payer les plus gros pollueurs ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis 2018, l'ISF est remplacé par l'impôt sur la fortune immobilière (IFI), qui ne porte que sur l'immobilier. Il doit rapporter 2,3 milliards d'euros en 2025, payés par 193 600 foyers, selon la DGFiP citée par l'AFP. L'ancien ISF rapportait « autour de 5 milliards d'euros en 2017 ».",
+      "moneyvox_ifi"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe attend 10 milliards d'euros de l'« ISF climatique ».",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti en attendait 15 milliards d'euros.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "fin_ind": [
+     [
+      "En 2022, l'Institut Montaigne estimait la recette totale à 5,5 milliards d'euros par an, soit 3,5 milliards de plus que l'IFI, quand le candidat annonçait 10 milliards.",
+      "montaigne_2022_isf"
+     ],
+     [
+      "En juin 2024, trois économistes (Lucas Chancel, Anne-Laure Delatte, Élise Huillery) estimaient entre 15 et 30 milliards d'euros la recette d'un ISF renforcé avec volet climatique et du rétablissement de l'exit tax, dans le programme du Nouveau Front populaire.",
+      "gc_nfp_recettes"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
    }
   },
   {
@@ -6116,6 +6175,59 @@
     "nature": "recette",
     "per": "total",
     "h": "recette attendue dans son plan budgétaire pour 2027"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Instaurer une taxe Zucman ou un impôt plancher sur le patrimoine des milliardaires ».",
+      "lfi_synthese"
+     ],
+     [
+      "Dans son plan budgétaire de 2026, la taxe porte sur « les patrimoines supérieurs à 100 millions d'euros ».",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "En 2024, son parti prévoyait une « garantie d'impôt de 2 % sur le patrimoine des milliardaires ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Faire la révolution fiscale » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son parti affirme que « les plus riches payent en moyenne seulement 2 % d'impôt sur leur revenu économique », et présente cet impôt plancher comme « un mécanisme de sécurité » contre l'optimisation fiscale.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Une taxe Zucman de 2 % sur les patrimoines de plus de 100 millions d'euros a été votée par l'Assemblée nationale le 20 février 2025, puis rejetée par le Sénat le 12 juin 2025 (188 voix contre, 129 pour).",
+      "ps_zucman_senat"
+     ],
+     [
+      "Le 31 octobre 2025, pendant l'examen du budget 2026, l'Assemblée l'a rejetée par 228 voix contre 172.",
+      "lcp_zucman_rejet"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe en attend 15 milliards d'euros.",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "En novembre 2024, son parti la présentait comme « neutre budgétairement ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
    }
   },
   {
@@ -6130,7 +6242,60 @@
    "fin": "n",
    "id": "p213",
    "k": "police",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Rétablir une police de proximité », « Interdire certaines pratiques dangereuses en premier lieu les LBD », « Former les policiers », « Interdire la reconnaissance faciale ».",
+      "lfi_synthese"
+     ],
+     [
+      "Dans la partie « Refonder une police républicaine », il prévoit aussi de « Supprimer la Brav-M » et de « Créer une police de proximité ».",
+      "lfi_synthese"
+     ],
+     [
+      "En 2024, son parti voulait « déployer de premières équipes de police de proximité » et « revoir et allonger la formation des policiers ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Une police de proximité au service de la sûreté des citoyens » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« La police sera rénovée de la cave au grenier afin de mettre en place une véritable police républicaine »",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "« Nous mènerons une politique intraitable vis-à-vis des violences policières. »",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "La police de proximité, créée par la gauche en 1998, a été supprimée en 2003 par Nicolas Sarkozy, alors ministre de l'Intérieur.",
+      "ps_police_proximite"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti chiffrait à 40 millions d'euros le déploiement des premières équipes de police de proximité avec le démantèlement de la Brav-M, et à 30 millions la refonte de la formation des policiers.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Nous n'avons pas trouvé de coût dans son plan budgétaire de 2026.",
+      null
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6144,7 +6309,56 @@
    "fin": "s",
    "id": "p214",
    "k": "asile",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Abroger les dernières lois asile et immigration » et « régulariser les travailleurs, étudiants, parents d'enfants scolarisés ».",
+      "lfi_synthese"
+     ],
+     [
+      "Le programme prévoit aussi de « garantir une protection effective des mineurs non accompagnés au titre de la protection de l'enfance ».",
+      "lfi_synthese"
+     ],
+     [
+      "En 2024, son parti voulait une « autorisation de travailler pour les demandeurs d'asile » et garantir l'accès à l'aide médicale de l'État (AME).",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Pour une politique migratoire humaniste » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son parti veut abroger les lois « votées par Macron pour punir et précariser toujours plus les migrants ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "La dernière loi sur l'immigration est la loi n° 2024-42 du 26 janvier 2024, « pour contrôler l'immigration, améliorer l'intégration ».",
+      "anil_loi_immigration"
+     ],
+     [
+      "En 2025, la France a délivré 384 230 premiers titres de séjour (+11,2 %) et procédé à 28 610 régularisations (-10,1 %). 151 665 demandes d'asile ont été déposées (-3,7 %), selon le ministère de l'Intérieur.",
+      "ps_titres_2025"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti chiffrait à 80 millions d'euros l'accompagnement social et l'autorisation de travailler des demandeurs d'asile.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6165,6 +6379,59 @@
     "nature": "cout",
     "per": "total",
     "h": "coût annoncé dans son plan budgétaire pour 2027"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe consacre 5 milliards d'euros à un plan contre les violences sexistes et sexuelles et contre les violences faites aux enfants.",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "En 2024, son parti voulait une « loi intégrale pour lutter contre les violences sexistes et sexuelles » et plus de moyens pour l'Aide sociale à l'enfance (ASE).",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Former les magistrats à la prise en charge des violences sexistes et sexuelles et des violences faites aux enfants ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Réaliser l'égalité entre les femmes et les hommes » et « Protéger les enfants » : ce sont des titres de parties de son programme.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Nous reprendrons la revendication des associations féministes d'une grande loi de lutte contre les violences sexistes »",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "« Il faut ensuite s'attaquer au scandale des dérives de l'Aide sociale à l'enfance »",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la police et la gendarmerie ont enregistré 132 300 victimes de violences sexuelles (+8 % sur un an). 85 % sont des femmes et 58 % des mineurs.",
+      "interieur_vss_2025"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, le plan est chiffré à 5 milliards d'euros.",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti chiffrait la loi intégrale à 2,4 milliards d'euros et la hausse des moyens de l'ASE à 1 milliard.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
    }
   },
   {
@@ -6181,11 +6448,54 @@
    "id": "p216",
    "k": "apl",
    "test": true,
-   "a": {
-    "v": 8,
-    "nature": "cout",
-    "per": "total",
-    "h": "coût annoncé dans son plan budgétaire pour 2027"
+   "plus": {
+    "detail": [
+     [
+      "Augmenter de 10 % les aides personnelles au logement (APL).",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "En 2024, son parti voulait que les APL « suivent l'inflation ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Garantir le droit au logement » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son parti veut « la revalorisation directe des APL de 10 % afin que ces dernières suivent l'inflation », et « que la baisse de 5 € par mois imposée par Macron ne soit plus qu'un mauvais souvenir ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, les aides personnelles au logement ont représenté 15,9 milliards d'euros : 7,1 milliards d'APL, 5,5 milliards d'ALS et 3,3 milliards d'ALF, versés à environ 5,8 millions de foyers.",
+      "drees_logement"
+     ],
+     [
+      "Une hausse de 10 % de ce montant représenterait environ 1,6 milliard d'euros par an (calcul de l'appli).",
+      "drees_logement"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Selon Éric Coquerel, son plan budgétaire pour 2027 prévoit « la hausse des APL de 10 % (8 milliards) ». Le compte rendu ne précise pas ce que couvrent ces 8 milliards, plus élevés que 10 % des aides actuelles.",
+      "lcp_contrebudget_2027"
+     ],
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti chiffrait la même hausse de 10 % à 1,7 milliard d'euros.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
    }
   },
   {
@@ -6200,7 +6510,51 @@
    "fin": "s",
    "id": "p217",
    "k": "loyers",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Étendre et pérenniser l'encadrement des loyers sur tout le territoire ».",
+      "lfi_synthese"
+     ],
+     [
+      "En 2024, son parti parlait d'un « encadrement des loyers à la baisse ».",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Le programme prévoit aussi de « Limiter la concentration immobilière en instaurant un plafond de logement transmis dans le cas de l'héritage ou achat direct ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Garantir le droit au logement » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
+     ]
+    ],
+    "auj": [
+     [
+      "L'encadrement des loyers est une expérimentation créée par la loi Élan du 23 novembre 2018. Elle doit prendre fin le 24 novembre 2026, sauf nouvelle prolongation. Environ 70 villes l'appliquent, dont Paris, Lille, Lyon, Bordeaux et Grenoble.",
+      "actujur_loyers"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé. La mesure change une règle et ne prévoit pas de dépense directe.",
+      null
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6220,6 +6574,59 @@
     "nature": "cout",
     "per": "total",
     "h": "coût annoncé dans son plan budgétaire pour 2027"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe augmente de 3 milliards d'euros le budget de l'hôpital, avec la création de 10 000 postes de personnels soignants.",
+      "ps_contrebudget_2027"
+     ],
+     [
+      "En 2024, son parti prévoyait un « plan pluriannuel de recrutement des professionnels du soin et du médico-social », la revalorisation du travail de nuit et du week-end à l'hôpital public, et la régulation de l'installation des médecins dans les déserts médicaux.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Instaurer le 100% Sécu » et « Reconnaître le burn out comme maladie professionnelle ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Faire passer la santé d'abord » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Le système de santé est en train de s'effondrer »",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "« Il y a ensuite urgence à entamer la reconstruction de l'hôpital public en desserrant l'étau budgétaire »",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Fin 2023, les hôpitaux et cliniques comptaient 369 400 lits d'hospitalisation complète, soit 4 500 de moins en un an et 43 400 de moins depuis fin 2013.",
+      "drees_lits"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, la mesure est chiffrée à 3 milliards d'euros.",
+      "ps_contrebudget_2027"
+     ],
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti chiffrait le plan de recrutement à 1,3 milliard d'euros, la revalorisation du travail de nuit et du week-end à 1,3 milliard, et la régulation des déserts médicaux à 500 millions.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
    }
   },
   {
@@ -6231,10 +6638,63 @@
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
-   "fin": "n",
+   "fin": "c",
    "id": "p219",
    "k": "enr",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son programme veut « Organiser le 100 % d'énergies renouvelables en 2050 et la rénovation énergétique ».",
+      "lfi_synthese"
+     ],
+     [
+      "Selon La Croix, La France insoumise et Les Écologistes veulent « planifier le passage à 100 % d'énergies renouvelables et la sortie du nucléaire », en abandonnant les projets de réacteurs EPR.",
+      "lacroix_energie"
+     ],
+     [
+      "En 2024, son parti voulait « développer et renforcer des filières françaises de production d'énergie renouvelable » et garantir le prêt à taux zéro pour la rénovation énergétique « à tous les propriétaires ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "Réduire la part des énergies fossiles : son parti vise 42 % en 2030.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Il s'agit d'un plan de décarbonation, et d'un plan de souveraineté »",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Son parti rappelle que « les énergies fossiles et l'uranium nécessaire à notre industrie nucléaire sont importés ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, les énergies renouvelables représentaient 23,0 % de la consommation finale brute d'énergie en France. L'objectif pour 2030 est de 33 %.",
+      "sdes_enr_2025"
+     ],
+     [
+      "Pour l'électricité, la part des renouvelables est de 30,8 %, pour un objectif de 40 % en 2030.",
+      "sdes_enr_2025"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti consacrait 10,6 milliards d'euros aux filières françaises d'énergies renouvelables et 800 millions au fonds chaleur de l'Ademe.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6248,7 +6708,36 @@
    "fin": "s",
    "id": "p220",
    "k": "traites",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Utiliser la possibilité d'“Opt Out” sur les dispositions des traités européens empêchant d'appliquer le programme ».",
+      "lfi_synthese"
+     ],
+     [
+      "Dans la partie « Utiliser tous les leviers d'action face aux institutions européennes », il prévoit aussi « Le conditionnement de la contribution française au budget de l'Union européenne » et « La réforme de la politique agricole commune (PAC) pour en finir avec la promotion tous azimuts de l'agrobusiness ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Désobéir à chaque fois que c'est nécessaire » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son parti veut « gouverner en fonction des besoins et non des injonctions des marchés financiers et de la Commission européenne ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6262,7 +6751,42 @@
    "fin": "s",
    "id": "p221",
    "k": "libreechange",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Le refus des accords de libre-échange » et l'abrogation des « accords de libre-échange déjà en vigueur ».",
+      "lfi_synthese"
+     ],
+     [
+      "Il veut aussi « Intégrer le respect des règles fondamentales de l'Organisation internationale du travail dans les accords commerciaux ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Refuser le libre-échange, instaurer un protectionnisme écologique et la coopération économique » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« nous sortirons des traités de libre-échange injustes que sont le CETA et le Mercosur. »",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "L'accord entre l'Union européenne et le Mercosur a été signé le 17 janvier 2026. Le Parlement européen a saisi la Cour de justice de l'UE le 21 janvier, ce qui suspend la ratification, mais la Commission a décidé de l'appliquer à titre provisoire. La France s'y oppose.",
+      "cdj_mercosur"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6276,7 +6800,41 @@
    "fin": "s",
    "id": "p222",
    "k": "onu",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Refuser toute intervention militaire sans mandat l'ONU et rétablir l'autorité du comité d'état-major des Nations unies ».",
+      "lfi_synthese"
+     ],
+     [
+      "Et : « Agir pour réformer le Conseil de sécurité et de l'Assemblée générale pour que l'ONU soit représentative du monde actuel ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Renforcer l'ONU » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
+     ]
+    ],
+    "auj": [
+     [
+      "Seuls les cinq membres permanents du Conseil de sécurité ont un droit de veto : la Chine, les États-Unis, la France, le Royaume-Uni et la Russie.",
+      "unric_veto"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6291,7 +6849,42 @@
    "id": "p223",
    "k": "otan",
    "test": true,
-   "rub": "defense"
+   "rub": "defense",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Sortir de l'OTAN en commençant par son commandement intégré ».",
+      "lfi_synthese"
+     ],
+     [
+      "Dans la même partie : « Stopper l'alignement de la France sur l'atlantisme de l'Union Européenne ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Assumer l'indépendance de la France » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Lors d'un colloque de l'Institut La Boétie, il a défendu un « non-alignement solidaire » : selon Business AM, il veut que la France cesse de suivre les orientations de la politique étrangère américaine et noue des partenariats avec les puissances émergentes.",
+      "businessam_otan"
+     ]
+    ],
+    "auj": [
+     [
+      "La France a quitté la structure militaire intégrée de l'OTAN en 1966 et y a retrouvé une pleine participation en 2009.",
+      "cdc_otan_2012"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6306,7 +6899,47 @@
    "id": "p224",
    "k": "materiel",
    "test": true,
-   "rub": "defense"
+   "rub": "defense",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Garantir la souveraineté de la France via l'acquisition de matériel militaire français dans les armées ».",
+      "lfi_synthese"
+     ],
+     [
+      "Dans la même partie, il veut « Faire de la France une puissance incontournable dans les technologies de rupture : miniaturisation, dronisation, intelligence artificielle ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Construire une défense souveraine » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
+     ]
+    ],
+    "auj": [
+     [
+      "La loi de programmation militaire « prévoit 413 milliards d'euros pour les armées entre 2024 et 2030 ». Le budget de la défense pour 2026 est de 57,1 milliards d'euros.",
+      "brut_lpm"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6321,7 +6954,37 @@
    "id": "p225",
    "k": "desarmement",
    "test": true,
-   "rub": "defense"
+   "rub": "defense",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Relancer les processus multilatéraux de désarmement nucléaire et conventionnel dans le cadre de l'ONU ».",
+      "lfi_synthese"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Construire une défense souveraine » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
+     ]
+    ],
+    "auj": [
+     [
+      "Le 2 mars 2026, Emmanuel Macron a annoncé une hausse du nombre de têtes nucléaires françaises, jusque-là « moins de 300 », et que ce nombre ne serait plus rendu public.",
+      "ps_dissuasion_2026"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6332,11 +6995,56 @@
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
-   "fin": "n",
+   "fin": "c",
    "id": "p226",
    "k": "accueils",
    "test": true,
-   "rub": "etat"
+   "rub": "etat",
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « La réouverture des accueils physiques dans les services publics », « La lutte contre les déserts médicaux » et « Le soutien au tissu associatif local ».",
+      "lfi_synthese"
+     ],
+     [
+      "En 2024, son parti voulait « Garantir l'accessibilité des services publics physiques à chaque personne ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "objectif": [
+     [
+      "« L'égalité des populations par la démocratie et les services publics » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Les maisons France service mises en place par les macronistes ne sont qu'un palliatif »",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Son parti veut garantir « la possibilité d'un accompagnement humain adapté tout au long des démarches administratives ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Le réseau France services compte plus de 2 840 espaces, qui ont traité près de neuf millions de démarches en 2023, selon la Cour des comptes.",
+      "bdt_france_services"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti chiffrait à 210 millions d'euros l'accessibilité des services publics physiques, et à 500 millions un plan d'investissement pour l'accès aux services publics sur tout le territoire.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6356,6 +7064,61 @@
     "nature": "cout",
     "per": "total",
     "h": "coût annoncé dans son plan budgétaire pour 2027"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe prévoit une « garantie d'autonomie » de 1 337 euros par mois pour les jeunes.",
+      "ps_contrebudget_2027"
+     ],
+     [
+      "En 2024, son parti la décrivait comme une « allocation d'autonomie », « pierre angulaire » de la protection sociale des étudiants.",
+      "lfi_contrebudget_2025"
+     ],
+     [
+      "Nous n'avons pas trouvé les conditions prévues en 2026 (âge, ressources). En 2022, sa version était de 1 063 euros par mois pendant trois ans pour les 18-25 ans, sous conditions de ressources et de formation.",
+      "montaigne_2022_garantie"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Construire l'autonomie des jeunes » : c'est le titre de la partie de son programme où figure la mesure.",
+      "lfi_synthese"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son parti affirme que « la précarité étudiante atteint des niveaux alarmants : 12 % des étudiants renoncent à leurs études ».",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "auj": [
+     [
+      "Le RSA est en principe ouvert à partir de 25 ans. Avant, le contrat d'engagement jeune (16-25 ans) donne droit à une allocation de 561,68 euros par mois au maximum.",
+      "infogouv_jeunes"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, la garantie d'autonomie est chiffrée à 9,5 milliards d'euros sur l'année.",
+      "ps_contrebudget_2027"
+     ],
+     [
+      "Dans son contre-budget 2025 (novembre 2024), son parti la chiffrait déjà à 9,5 milliards d'euros.",
+      "lfi_contrebudget_2025"
+     ]
+    ],
+    "fin_ind": [
+     [
+      "En 2022, pour la version à 1 063 euros par mois, l'Institut Montaigne estimait le coût à 12,3 milliards d'euros par an, et jusqu'à 21,4 à 33,7 milliards dans son hypothèse haute. Le candidat annonçait alors 10,3 milliards.",
+      "montaigne_2022_garantie"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
    }
   },
   {
@@ -6370,7 +7133,36 @@
    "fin": "s",
    "id": "p228",
    "k": "faciale",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Interdire la reconnaissance faciale », dans la partie sur la police de proximité.",
+      "lfi_synthese"
+     ],
+     [
+      "En avril 2026, une députée de son groupe, Élisa Martin, a interrogé le ministre de l'Intérieur sur l'« usage prohibé de logiciels de reconnaissance faciale par les forces de l'ordre » et lui a demandé d'interdire ces outils.",
+      "an_qe14328"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Dans sa question, Élisa Martin estime que ces pratiques installent une suspicion généralisée, avec un risque de surveillance de masse et de discriminations.",
+      "an_qe14328"
+     ]
+    ],
+    "auj": [
+     [
+      "La vidéosurveillance algorithmique, testée pour les Jeux olympiques de 2024, a été « reconduite, dans les mêmes conditions, jusqu'au 31 décembre 2027 ».",
+      "next_vsa"
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   },
   {
    "c": "melenchon",
@@ -6384,7 +7176,44 @@
    "fin": "n",
    "id": "p229",
    "k": "cloud",
-   "test": true
+   "test": true,
+   "plus": {
+    "detail": [
+     [
+      "Dans une tribune au Figaro en février 2025, il proposait des centres de données publics pour un cloud français hors du contrôle américain, la mise en commun des données sensibles sous le contrôle d'institutions publiques, et une gouvernance mondiale de l'IA confiée à l'ONU, selon FrenchWeb.",
+      "frenchweb_melenchon"
+     ]
+    ],
+    "objectif": [
+     [
+      "Sortir de ce qu'il appelle la « colonie numérique », selon FrenchWeb.",
+      "frenchweb_melenchon"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon FrenchWeb, il estime que les données hébergées par des entreprises américaines exposent la France aux lois américaines qui s'appliquent hors des États-Unis, un risque pour la défense et la santé.",
+      "frenchweb_melenchon"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis la loi de 2024 sur la sécurisation de l'espace numérique, les administrations de l'État doivent héberger leurs données sensibles chez des services qualifiés SecNumCloud.",
+      "acteurs_secnumcloud"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "note": [
+     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
+     "lcp_melenchon_programme"
+    ],
+    "maj": "2026-10-18"
+   }
   }
  ],
  "sources": {
@@ -10307,6 +11136,188 @@
    "d": "2025-02-09",
    "type": "presse",
    "u": "https://www.frenchweb.fr/jean-luc-melenchon-fustige-la-vassalisation-numerique-de-la-france/451259"
+  },
+  "montaigne_2022_isf": {
+   "t": "Jean-Luc Mélenchon : rétablir et renforcer l'ISF incluant un volet climatique (chiffrage)",
+   "p": "Institut Montaigne (think tank)",
+   "d": "2022",
+   "type": "etude",
+   "u": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/retablir-et-renforcer-lisf-incluant-un-volet-climatique"
+  },
+  "montaigne_2022_garantie": {
+   "t": "Jean-Luc Mélenchon : créer une garantie d'autonomie pour les 18-25 ans (chiffrage)",
+   "p": "Institut Montaigne (think tank)",
+   "d": "2022",
+   "type": "etude",
+   "u": "https://www.institutmontaigne.org/presidentielle-2022/jean-luc-melenchon/creer-une-garantie-dautonomie-de-trois-ans-sous-reserve-dune-formation-qualifiante-et-sous-conditions-de-ressources-pour-les-18-25-ans/"
+  },
+  "gc_nfp_recettes": {
+   "t": "Chiffrage des recettes fiscales du programme du Nouveau Front populaire (L. Chancel, A.-L. Delatte, É. Huillery)",
+   "p": "La Grande Conversation",
+   "d": "2024-06-21",
+   "type": "etude",
+   "u": "https://www.lagrandeconversation.com/app/uploads/2024/06/chiffrage-des-recettes-fiscales-du-programme-du-nouveau-front-populaire-la-grande-conversation.pdf"
+  },
+  "moneyvox_ifi": {
+   "t": "Les recettes de l'impôt sur la fortune immobilière attendues en hausse de 8 % en 2025",
+   "p": "MoneyVox (avec AFP)",
+   "d": "2026-04-14",
+   "type": "presse",
+   "u": "https://www.moneyvox.fr/impot/actualites/108416/les-recettes-de-impot-sur-la-fortune-immobiliere-attendues-en-hausse-de-8-en-2025"
+  },
+  "ps_zucman_senat": {
+   "t": "Taxe « Zucman » : le Sénat rejette la création d'un nouvel impôt sur les ultra-riches",
+   "p": "Public Sénat",
+   "d": "2025-06-12",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/economie/taxe-zucman-le-senat-rejette-la-creation-dun-nouvel-impot-sur-les-ultra-riches"
+  },
+  "lcp_zucman_rejet": {
+   "t": "Budget 2026 : la taxe Zucman rejetée par l'Assemblée nationale",
+   "p": "LCP",
+   "d": "2025-10-31",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/budget-2026-la-taxe-zucman-rejetee-par-l-assemblee-nationale-413632"
+  },
+  "ps_police_proximite": {
+   "t": "Police : faut-il revenir à plus de proximité avec les citoyens ?",
+   "p": "Public Sénat",
+   "d": "2023-10-14",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/emission/un-monde-en-doc/police-faut-il-revenir-a-plus-de-proximite-avec-les-citoyens-e4"
+  },
+  "anil_loi_immigration": {
+   "t": "Analyse juridique : Contrôler l'immigration, améliorer l'intégration (loi n° 2024-42 du 26 janvier 2024)",
+   "p": "ANIL",
+   "d": "2024-01-31",
+   "type": "donnees",
+   "u": "https://www.anil.org/aj-controler-immigration-ameliorer-integration"
+  },
+  "ps_titres_2025": {
+   "t": "Immigration : titres de séjour en nette hausse et régularisations en baisse sur l'année 2025",
+   "p": "Public Sénat",
+   "d": "2026-01-27",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/societe/immigration-titres-de-sejour-en-nette-hausse-et-regularisations-en-baisse-sur-lannee-2025"
+  },
+  "interieur_vss_2025": {
+   "t": "Victimes de violences physiques et sexuelles enregistrées : en hausse en 2025",
+   "p": "Ministère de l'Intérieur (SSMSI)",
+   "d": "2026-02-27",
+   "type": "donnees",
+   "u": "https://www.interieur.gouv.fr/actualites/communiques-de-presse/victimes-de-violences-physiques-et-sexuelles-enregistrees-en-hausse-en-2025-en-particulier-pour"
+  },
+  "drees_logement": {
+   "t": "La protection sociale en France et en Europe en 2024, fiche 10 : le risque logement",
+   "p": "DREES",
+   "d": "2026-03",
+   "type": "donnees",
+   "u": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2026-03/CPS2025%20-%20Fiche%2010%20-%20Le%20risque%20logement.pdf"
+  },
+  "actujur_loyers": {
+   "t": "Pas de clap de fin pour l'encadrement des loyers ?",
+   "p": "Actu-Juridique",
+   "d": "2026-09-24",
+   "type": "presse",
+   "u": "https://www.actu-juridique.fr/fiscalite/fiscal-finances/pas-de-clap-de-fin-pour-lencadrement-des-loyers/"
+  },
+  "drees_lits": {
+   "t": "Les établissements de santé en 2023, fiche 02 : les capacités d'accueil",
+   "p": "DREES",
+   "d": "2025-07",
+   "type": "donnees",
+   "u": "https://www.drees.solidarites-sante.gouv.fr/sites/default/files/2025-07/ES%202025%20-%20Fiche%2002%20-%20Les%20capacit%C3%A9s%20d%E2%80%99accueil%20en%20hospitalisation%20compl%C3%A8te%20et%20partielle.pdf"
+  },
+  "sdes_enr_2025": {
+   "t": "Chiffres clés des énergies renouvelables, édition 2025",
+   "p": "SDES, ministère de la Transition écologique",
+   "d": "2025-09-29",
+   "type": "donnees",
+   "u": "https://www.statistiques.developpement-durable.gouv.fr/chiffres-cles-des-energies-renouvelables-edition-2025"
+  },
+  "lacroix_energie": {
+   "t": "La France se cherche un avenir énergétique",
+   "p": "La Croix",
+   "d": "2026-02-12",
+   "type": "presse",
+   "u": "https://www.syndicat-energies-renouvelables.fr/wp-content/uploads/2026/02/La-Croix-12-02-2026-Pages-23.pdf"
+  },
+  "cdj_mercosur": {
+   "t": "Mercosur : le Brésil a ratifié l'accord avec l'UE",
+   "p": "Le Club des juristes",
+   "d": "2026-03-05",
+   "type": "presse",
+   "u": "https://www.leclubdesjuristes.com/en-bref/mercosur-le-bresil-a-ratifie-laccord-avec-lue-14808/"
+  },
+  "unric_veto": {
+   "t": "Droit de veto : ce qui va changer",
+   "p": "UNRIC, Centre régional d'information des Nations unies",
+   "d": "2022-04-29",
+   "type": "donnees",
+   "u": "https://unric.org/fr/droit-de-veto-ce-qui-va-changer/"
+  },
+  "cdc_otan_2012": {
+   "t": "La réintégration de la France dans le commandement intégré de l'OTAN : quel coût et quelles pistes d'économies possibles ?",
+   "p": "Cour des comptes",
+   "d": "2012-09",
+   "type": "donnees",
+   "u": "https://www.vie-publique.fr/files/rapport/pdf/124000631.pdf"
+  },
+  "businessam_otan": {
+   "t": "Le candidat à la présidence française Jean-Luc Mélenchon souhaite que la France se retire de l'OTAN",
+   "p": "Business AM",
+   "d": "2026-07-01",
+   "type": "presse",
+   "u": "https://fr.businessam.be/?p=260863"
+  },
+  "brut_lpm": {
+   "t": "Vautrin va présenter au Parlement une « actualisation » de la loi de programmation militaire",
+   "p": "Brut",
+   "d": "2025-11-17",
+   "type": "presse",
+   "u": "https://www.brut.media/fr/articles/france/politique/vautrin-va-presenter-au-parlement-une-actualisation-de-la-loi-de-programmation-militaire"
+  },
+  "ps_dissuasion_2026": {
+   "t": "Dissuasion nucléaire : Emmanuel Macron annonce « une évolution majeure » en lui donnant « une dimension européenne »",
+   "p": "Public Sénat",
+   "d": "2026-03-02",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/international/dissuasion-nucleaire-emmanuel-macron-annonce-une-evolution-majeure-en-lui-donnant-une-dimension-europeenne"
+  },
+  "bdt_france_services": {
+   "t": "Le réseau France services « participe à la réduction des fractures territoriales », estime la Cour des comptes",
+   "p": "Banque des Territoires",
+   "d": "2024-09-04",
+   "type": "presse",
+   "u": "https://www.banquedesterritoires.fr/le-reseau-france-services-participe-la-reduction-des-fractures-territoriales-estime-la-cour-des"
+  },
+  "infogouv_jeunes": {
+   "t": "Quelles sont les aides à l'emploi pour les jeunes en 2026 ?",
+   "p": "info.gouv.fr (Gouvernement)",
+   "d": "2026-07-15",
+   "type": "donnees",
+   "u": "https://www.info.gouv.fr/actualite/quelles-sont-les-aides-a-l-emploi-pour-les-jeunes-en-2026"
+  },
+  "next_vsa": {
+   "t": "Vidéosurveillance algorithmique : les députés ont voté la prolongation jusqu'en 2027",
+   "p": "Next",
+   "d": "2026-01-16",
+   "type": "presse",
+   "u": "https://next.ink/219264/videosurveillance-algorithmique-les-deputes-ont-vote-la-prolongation-jusquen-2027/"
+  },
+  "an_qe14328": {
+   "t": "Question écrite n° 14328 : usage prohibé de logiciels de reconnaissance faciale par les forces de l'ordre (Élisa Martin, LFI-NFP)",
+   "p": "Assemblée nationale",
+   "d": "2026-04-14",
+   "type": "officiel",
+   "u": "https://questions.assemblee-nationale.fr/dyn/17/questions/QANR5L17QE14328.pdf"
+  },
+  "acteurs_secnumcloud": {
+   "t": "Données sensibles de l'État : le gouvernement passe de la doctrine à l'obligation",
+   "p": "Acteurs publics",
+   "d": "2026-08-28",
+   "type": "presse",
+   "u": "https://acteurspublics.fr/articles/pour-les-administrations-lobligation-du-referentiel-secnumcloud-desormais-inscrite-dans-le-droit/"
   }
  },
  "presse": [
