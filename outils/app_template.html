@@ -227,17 +227,18 @@ a.cand-h:hover b { color: var(--bleu); }
 .oeil .s { font-size: 0.76rem; color: var(--ink-3); }
 .oeil .s a { color: var(--ink-2); }
 .oe-top { display: grid; gap: 8px; }
-.oe-grid { display: grid; gap: 0; }
-.oe-r { display: grid; gap: 6px; padding-block: 12px; border-top: 1px solid var(--line); }
-.oe-r h3 { display: flex; align-items: center; gap: 8px; font-family: var(--f-body); font-size: 0.92rem; font-weight: 700; color: var(--ink); }
-.oe-r h3 svg { width: 20px; height: 20px; color: var(--bleu); flex: none; }
-.oe-r ul { margin: 0; padding-left: 28px; display: grid; gap: 4px; }
-.oe-p { cursor: pointer; font-size: 0.92rem; line-height: 1.35; color: var(--ink-2); text-decoration: underline; text-decoration-color: var(--line); text-underline-offset: 3px; }
-.oe-p:hover, .oe-p:focus-visible { color: var(--bleu); text-decoration-color: currentColor; }
-.oe-p:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; border-radius: 3px; }
-.oe-more, .oe-none { padding-left: 28px; font-size: 0.8rem !important; color: var(--ink-3) !important; }
+.oe-idx { display: flex; flex-wrap: wrap; gap: 8px; }
+.oe-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--ink); font: inherit; font-size: 0.84rem; font-weight: 600; cursor: pointer; }
+.oe-chip svg { width: 16px; height: 16px; color: var(--bleu); flex: none; }
+.oe-chip b { font-weight: 700; color: var(--bleu); }
+.oe-chip:hover { border-color: var(--bleu-2); }
+.oe-chip:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
+.oe-chip.none { cursor: default; color: var(--ink-3); background: transparent; border-style: dashed; }
+.oe-chip.none svg, .oe-chip.none b { color: var(--ink-3); font-weight: 500; }
+.more-props { border-top: 1px solid var(--line); padding-top: 10px; }
+.more-props summary { cursor: pointer; font-size: 0.86rem; font-weight: 600; color: var(--bleu); }
+.more-props .props { margin-top: 8px; }
 .oe-h { font-family: var(--f-body); font-size: 0.86rem; font-weight: 700; color: var(--ink); }
-@media (min-width: 760px) { .oe-grid { grid-template-columns: 1fr 1fr; column-gap: 24px; } }
 .silent { font-size: 0.86rem; color: var(--ink-3); }
 .docs .row .txt b { font-size: 0.95rem; }
 
@@ -503,7 +504,7 @@ h3.sub { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; lette
 .card.kit .blk:first-child { border-top: 0; padding-top: 0; }
 /* Page d'un sujet */
 .jump { justify-self: start; border: 1px solid var(--line); background: var(--bleu-soft); color: var(--bleu); font-weight: 600; font-size: 0.84rem; border-radius: 12px; padding: 8px 12px; cursor: pointer; text-align: left; line-height: 1.35; }
-#comprendre, #parcours { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h) + 12px); }
+#comprendre, #parcours, .card[id^="r-"] { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h) + 12px); }
 .plist { margin: 0; padding-left: 18px; display: grid; gap: 8px; font-size: 0.95rem; color: var(--ink-2); }
 .plist.q li::marker { content: "? "; color: var(--bleu); font-weight: 800; }
 .tl { display: grid; gap: 10px; }
@@ -1003,12 +1004,13 @@ function oeilHtml(c, ps) {
   const src = ids => { const l = ids.filter(id => id && SRC[id]); return l.length ? ` <span class="s">${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</span>` : ""; };
   const paras = list => (list || []).map(it => `<p>${frTypo(it[0])}${src(it.slice(1))}</p>`).join("");
   const rows = DATA.rubriques.map(([k, l]) => {
-    const ids = (o.phares[k] || []).filter(id => P[id]), more = ps.filter(p => rubOf(p) === k && !ids.includes(p.id)).length;
-    return `<div class="oe-r"><h3>${svg("r_" + k)}${esc(l)}</h3>${ids.length ? `<ul>${ids.map(id => `<li><a class="oe-p" href="#c-${c.id}" data-more="${id}">${frTypo(P[id].t)}</a></li>`).join("")}</ul>${more ? `<p class="oe-more">+ ${more} autre${more > 1 ? "s" : ""} plus bas</p>` : ""}` : `<p class="oe-none">Rien trouvé dans ses documents pour l'instant.</p>`}</div>`;
+    const n = ps.filter(p => rubOf(p) === k).length;
+    return n ? `<button type="button" class="oe-chip" data-jump="r-${k}">${svg("r_" + k)}<span>${esc(l)}</span><b>${n}</b></button>`
+      : `<span class="oe-chip none">${svg("r_" + k)}<span>${esc(l)}</span><b>rien trouvé</b></span>`;
   }).join("");
   return `<section class="card oeil"><h2>Son programme en un coup d'œil</h2>
     <div class="oe-top">${paras(o.etat)}${paras(o.parties)}</div>
-    <div class="oe-grid">${rows}</div>
+    <div class="oe-idx" role="group" aria-label="Aller à une rubrique">${rows}</div>
     <p class="small">${esc(o.regle)}</p>
   </section>
   ${o.fin ? `<section class="card oeil"><h2>Financement d'ensemble</h2>
@@ -1016,6 +1018,15 @@ function oeilHtml(c, ps) {
     <h3 class="oe-h">D'autres chiffrages</h3>${paras(o.fin.ind)}
     <p class="small">Le coût mesure par mesure est dans chaque fiche « Aller plus loin ». Ici, la vue d'ensemble : ce que le candidat prévoit de dépenser et de faire rentrer au total.</p>
   </section>` : ""}`;
+}
+/* Une rubrique de la page candidat. Avec un coup d'œil : les mesures phares d'abord, les autres repliées. */
+function rubSection(c, ps, k, l) {
+  const all = ps.filter(p => rubOf(p) === k), ph = c.oeil ? (c.oeil.phares[k] || []) : [];
+  const top = ph.map(id => all.find(p => p.id === id)).filter(Boolean), rest = all.filter(p => !ph.includes(p.id));
+  const body = top.length && rest.length
+    ? `${top.map(propItem).join("")}<details class="more-props"><summary>${rest.length > 1 ? `Voir les ${rest.length} autres mesures` : "Voir l'autre mesure"}</summary><div class="props">${rest.map(propItem).join("")}</div></details>`
+    : (top.length ? top : all).map(propItem).join("");
+  return `<section class="card" id="r-${k}"><h2 class="th-h">${svg("r_" + k)}${esc(l)}</h2>${top.length ? `<p class="small">${top.length > 1 ? "Ses mesures phares" : "Sa mesure phare"}, selon la règle du coup d'œil.</p>` : ""}<div class="props">${body}</div></section>`;
 }
 function screenCandidat(id) {
   const c = CAND[id]; if (!c) return screenCandidats();
@@ -1037,7 +1048,7 @@ function screenCandidat(id) {
     <p class="credit">${photoCredit(c)}</p>
   </section>
   ${c.oeil ? oeilHtml(c, ps) : ""}
-  ${R ? `${rubs.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg("r_" + k)}${esc(l)}</h2><div class="props">${ps.filter(p => rubOf(p) === k).map(propItem).join("")}</div></section>`).join("")}
+  ${R ? `${rubs.map(([k, l]) => rubSection(c, ps, k, l)).join("")}
   ${rSilent.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant dans : ${rSilent.map(esc).join(", ")}.</p>` : ""}`
   : `${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="props">${ps.filter(p => p.th === k).map(propItem).join("")}</div></section>`).join("")}
   ${silent.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant sur : ${silent.map(esc).join(", ")}.</p>` : ""}`}
