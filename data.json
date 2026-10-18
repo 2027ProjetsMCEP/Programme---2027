@@ -628,7 +628,7 @@
       "p229"
      ]
     },
-    "regle": "Touchez une rubrique pour y aller. Dans chacune, jusqu'à 3 mesures phares viennent d'abord, choisies dans cet ordre : celles de son plan budgétaire et de ses discours de 2026, puis les titres et les mesures de son programme. Les autres sont repliées en dessous.",
+    "regle": "Dans chaque thème, ses mesures phares viennent d'abord : celles de son plan budgétaire et de ses discours de 2026, puis celles de son programme. Les autres sont repliées en dessous.",
     "fin": {
      "cand": [
       [
@@ -6094,7 +6094,7 @@
     "v": 10,
     "nature": "recette",
     "per": "total",
-    "h": "recette attendue dans son plan budgétaire pour 2027"
+    "h": "dans son plan budgétaire pour 2027"
    },
    "plus": {
     "detail": [
@@ -6174,7 +6174,7 @@
     "v": 15,
     "nature": "recette",
     "per": "total",
-    "h": "recette attendue dans son plan budgétaire pour 2027"
+    "h": "dans son plan budgétaire pour 2027"
    },
    "plus": {
     "detail": [
@@ -6378,7 +6378,7 @@
     "v": 5,
     "nature": "cout",
     "per": "total",
-    "h": "coût annoncé dans son plan budgétaire pour 2027"
+    "h": "dans son plan budgétaire pour 2027"
    },
    "plus": {
     "detail": [
@@ -6573,7 +6573,7 @@
     "v": 3,
     "nature": "cout",
     "per": "total",
-    "h": "coût annoncé dans son plan budgétaire pour 2027"
+    "h": "dans son plan budgétaire pour 2027"
    },
    "plus": {
     "detail": [
@@ -7063,7 +7063,7 @@
     "v": 9.5,
     "nature": "cout",
     "per": "total",
-    "h": "coût annoncé dans son plan budgétaire pour 2027"
+    "h": "dans son plan budgétaire pour 2027"
    },
    "plus": {
     "detail": [

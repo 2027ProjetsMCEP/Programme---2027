@@ -184,7 +184,7 @@ a.row:hover .txt b { color: var(--bleu); }
 .st-partiel { color: var(--warn); background: var(--warn-soft); }
 .st-nonpublie { color: var(--mute); background: var(--mute-soft); }
 .st-primaire { color: var(--mute); background: transparent; box-shadow: inset 0 0 0 1px var(--line); }
-.newb { display: inline-block; vertical-align: 2px; font-size: 0.66rem; font-weight: 700; letter-spacing: 0.04em; text-transform: uppercase; color: #FFFFFF; background: var(--rouge); padding: 2px 6px; border-radius: 4px; margin-right: 4px; }
+.newb { display: inline-block; vertical-align: 2px; font-family: var(--f-body); font-size: 0.7rem; font-weight: 700; color: var(--rouge); background: color-mix(in srgb, var(--rouge) 10%, transparent); padding: 1px 7px; border-radius: 999px; margin-right: 6px; }
 
 /* Propositions */
 .props { display: grid; }
@@ -217,9 +217,10 @@ a.cand-h:hover b { color: var(--bleu); }
 .profile h1 { font-size: 1.7rem; }
 .profile .party { color: var(--ink-2); font-size: 0.92rem; }
 .stats { display: flex; gap: 10px; width: 100%; }
-.stats div { flex: 1; background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; }
+.stats div { flex: 1; background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; align-content: start; }
 .stats b { font-family: var(--f-display); font-size: 1.5rem; line-height: 1.1; }
 .stats span { font-size: 0.78rem; color: var(--ink-2); }
+.stats b small { font-size: 0.9rem; font-weight: 600; color: var(--ink-3); margin-left: 1px; }
 .card > h2.th-h { display: flex; align-items: center; justify-content: flex-start; gap: 10px; font-size: 1rem; }
 .th-h svg { width: 22px; height: 22px; color: var(--bleu); flex: none; }
 .oeil { display: grid; gap: 12px; }
@@ -227,14 +228,28 @@ a.cand-h:hover b { color: var(--bleu); }
 .oeil .s { font-size: 0.76rem; color: var(--ink-3); }
 .oeil .s a { color: var(--ink-2); }
 .oe-top { display: grid; gap: 8px; }
-.oe-idx { display: flex; flex-wrap: wrap; gap: 8px; }
-.oe-chip { display: inline-flex; align-items: center; gap: 6px; min-height: 36px; padding: 6px 10px; border: 1px solid var(--line); border-radius: 999px; background: var(--card); color: var(--ink); font: inherit; font-size: 0.84rem; font-weight: 600; cursor: pointer; }
-.oe-chip svg { width: 16px; height: 16px; color: var(--bleu); flex: none; }
-.oe-chip b { font-weight: 700; color: var(--bleu); }
-.oe-chip:hover { border-color: var(--bleu-2); }
-.oe-chip:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
-.oe-chip.none { cursor: default; color: var(--ink-3); background: transparent; border-style: dashed; }
-.oe-chip.none svg, .oe-chip.none b { color: var(--ink-3); font-weight: 500; }
+.rubnav { gap: 10px; }
+.rubnav h2 { font-size: 1.05rem; }
+.rn-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.rn { display: grid; grid-template-columns: 20px minmax(0, 1fr); grid-template-rows: auto auto; align-items: center; align-content: center; column-gap: 8px; row-gap: 1px; min-height: 52px; padding: 8px 10px; border: 1px solid var(--line); border-radius: 12px; background: var(--card); color: var(--ink); font: inherit; font-size: 0.86rem; font-weight: 600; line-height: 1.2; text-align: left; cursor: pointer; }
+.rn svg { width: 20px; height: 20px; color: var(--bleu); grid-row: 1 / 3; }
+.rn .t { min-width: 0; overflow-wrap: anywhere; }
+.rn small { grid-column: 2; font-size: 0.74rem; font-weight: 500; color: var(--ink-3); }
+.rn:hover { border-color: var(--bleu-2); background: var(--bleu-soft); }
+.rn:focus-visible { outline: 2px solid var(--bleu); outline-offset: 2px; }
+.rn.off { cursor: default; color: var(--ink-3); background: transparent; border-style: dashed; font-weight: 500; }
+.rn.off svg { color: var(--ink-3); }
+.rn.off:hover { background: transparent; border-color: var(--line); }
+.rn-fin { grid-column: 1 / -1; }
+@media (min-width: 520px) { .rn-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.rubbar { position: fixed; z-index: 19; left: 50%; transform: translate(-50%, -8px); width: min(100%, 560px); display: flex; gap: 6px; overflow-x: auto; scrollbar-width: none; padding: 8px 16px; background: color-mix(in srgb, var(--bg) 92%, transparent); backdrop-filter: saturate(1.5) blur(12px); -webkit-backdrop-filter: saturate(1.5) blur(12px); border-bottom: 1px solid var(--line); opacity: 0; pointer-events: none; transition: opacity .15s, transform .15s; }
+.rubbar::-webkit-scrollbar { display: none; }
+main > .rubbar { animation: none; }
+.rubbar.on { opacity: 1; transform: translate(-50%, 0); pointer-events: auto; }
+.rubbar button { flex: none; border: 1px solid var(--line); background: var(--card); color: var(--ink-2); font: inherit; font-size: 0.8rem; font-weight: 600; border-radius: 999px; padding: 6px 12px; cursor: pointer; white-space: nowrap; }
+.rubbar button[aria-current="true"] { background: var(--ink); border-color: var(--ink); color: var(--bg); }
+@media (prefers-reduced-motion: reduce) { .rubbar { transition: none; } }
+.card > h2.th-h .cnt { margin-left: auto; }
 .more-props { border-top: 1px solid var(--line); padding-top: 10px; }
 .more-props summary { cursor: pointer; font-size: 0.86rem; font-weight: 600; color: var(--bleu); }
 .more-props .props { margin-top: 8px; }
@@ -244,14 +259,14 @@ a.cand-h:hover b { color: var(--bleu); }
 
 /* Thèmes */
 .tiles { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.tile { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 14px; display: grid; gap: 10px; text-decoration: none; color: inherit; min-height: 118px; align-content: space-between; }
+.tile { background: var(--card); border: 1px solid var(--line); border-radius: 18px; padding: 14px; display: grid; gap: 10px; text-decoration: none; color: inherit; min-height: 118px; align-content: start; }
 .tile:hover { border-color: var(--bleu-2); }
 .tile .ic { width: 40px; height: 40px; border-radius: 12px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
 .tile .ic svg { width: 22px; height: 22px; }
 .tile b { font-family: var(--f-display); font-size: 1.05rem; font-weight: 700; line-height: 1.2; display: block; }
 .tile span { font-size: 0.78rem; color: var(--ink-3); }
 .figs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.figs div { background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; }
+.figs div { background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; align-content: start; }
 .figs b { font-family: var(--f-display); font-size: 1.3rem; line-height: 1.1; }
 .figs span { font-size: 0.78rem; color: var(--ink-2); }
 
@@ -415,8 +430,13 @@ img.mono { object-fit: cover; display: block; }
 .tbc { justify-self: start; display: inline-flex; align-items: center; gap: 5px; font-size: 0.76rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; color: var(--warn); border: 1px solid color-mix(in srgb, var(--warn) 45%, transparent); white-space: nowrap; }
 .tbc::before { content: "?"; font-weight: 800; }
 /* Aller plus loin */
-.plus-btn { justify-self: start; display: inline-flex; align-items: center; gap: 6px; margin-top: 2px; border: 1px solid var(--line); background: var(--bleu-soft); color: var(--bleu); font-weight: 600; font-size: 0.84rem; border-radius: 999px; padding: 6px 12px 6px 14px; cursor: pointer; }
-.plus-btn:hover { border-color: var(--bleu-2); }
+.plus-btn { flex: none; display: inline-flex; align-items: center; gap: 2px; min-height: 40px; margin: -6px -8px -6px 0; border: 0; background: transparent; color: var(--bleu); font: inherit; font-weight: 600; font-size: 0.86rem; border-radius: 10px; padding: 6px 4px 6px 10px; cursor: pointer; }
+.plus-btn .chev { width: 18px; height: 18px; }
+.plus-btn:focus-visible { outline: 2px solid var(--bleu); outline-offset: 0; }
+.prop-f { display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.prop-f .src { min-width: 0; }
+.prop .src .more-s { white-space: nowrap; color: var(--ink-3); }
+.plus-btn:hover { background: var(--bleu-soft); }
 .more-lnk { justify-self: start; border: 0; background: none; padding: 2px 0; color: var(--bleu); font-weight: 600; font-size: 0.76rem; cursor: pointer; text-align: left; }
 body.locked { overflow: hidden; }
 .sheet-bg { position: fixed; inset: 0; z-index: 60; background: rgba(3, 5, 16, .62); display: flex; align-items: flex-end; justify-content: center; }
@@ -428,7 +448,7 @@ body.locked { overflow: hidden; }
 .sheet-h .th svg { width: 16px; height: 16px; color: var(--bleu); }
 .sheet .x { position: absolute; top: 0; right: 0; width: 38px; height: 38px; border-radius: 50%; border: 0; background: var(--chip); color: var(--ink); display: grid; place-items: center; cursor: pointer; }
 .blk { display: grid; gap: 8px; padding-top: 14px; border-top: 1px solid var(--line); min-width: 0; }
-.blk h3 { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--ink-3); }
+.blk h3 { font-family: var(--f-display); font-size: 0.98rem; font-weight: 700; color: var(--ink); }
 .blk p { font-size: 0.96rem; color: var(--ink-2); }
 .blk .warn { font-size: 0.86rem; color: var(--warn); background: var(--warn-soft); border-radius: 10px; padding: 8px 10px; }
 .blk .info { font-size: 0.84rem; color: var(--ink-2); background: var(--bleu-soft); border-radius: 10px; padding: 8px 10px; }
@@ -503,8 +523,9 @@ h3.sub { font-family: var(--f-body); font-size: 0.72rem; font-weight: 700; lette
 .ic-s { width: 34px; height: 34px; flex: none; border-radius: 10px; display: grid; place-items: center; background: var(--bleu-soft); color: var(--bleu); }
 .card.kit .blk:first-child { border-top: 0; padding-top: 0; }
 /* Page d'un sujet */
-.jump { justify-self: start; border: 1px solid var(--line); background: var(--bleu-soft); color: var(--bleu); font-weight: 600; font-size: 0.84rem; border-radius: 12px; padding: 8px 12px; cursor: pointer; text-align: left; line-height: 1.35; }
-#comprendre, #parcours, .card[id^="r-"] { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h) + 12px); }
+.jump { justify-self: start; border: 0; background: transparent; color: var(--bleu); font: inherit; font-weight: 600; font-size: 0.88rem; padding: 4px 0; cursor: pointer; text-align: left; text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--bleu) 35%, transparent); text-underline-offset: 3px; }
+#comprendre, #parcours { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h) + 12px); }
+.card[id^="r-"] { scroll-margin-top: calc(env(safe-area-inset-top, 0px) + var(--bar-h) + 62px); }
 .plist { margin: 0; padding-left: 18px; display: grid; gap: 8px; font-size: 0.95rem; color: var(--ink-2); }
 .plist.q li::marker { content: "? "; color: var(--bleu); font-weight: 800; }
 .tl { display: grid; gap: 10px; }
@@ -838,7 +859,8 @@ const finHelp = p => p.a && p.a.nature === "recette" ? "Le candidat annonce ce q
 const finBadge = p => p.fin ? `<span class="fin fin-${p.fin}" title="${esc(finHelp(p))}">${esc(finLabel(p))}</span>` : "";
 const finText = p => p.finTxt ? `<p class="fintxt">Financement prévu : ${esc(p.finTxt)}</p>` : "";
 function propItem(p) {
-  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${esc(p.t)}</p><div class="badges">${finBadge(p)}${tbc(p)}</div>${amount(p.a)}${finText(p)}<p class="src">Source : ${srcLine(p.s.filter(s => SRC[s]))}</p><button class="plus-btn" type="button" data-more="${p.id}">Aller plus loin${ARW}</button></div>`;
+  const ss = p.s.filter(s => SRC[s]);
+  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${frTypo(p.t)}</p><div class="badges">${finBadge(p)}${tbc(p)}</div>${amount(p.a)}${finText(p)}<div class="prop-f"><p class="src">Source : ${ss.length ? `${ext(SRC[ss[0]].u, esc(SRC[ss[0]].p))}, ${esc(fmtDate(SRC[ss[0]].d, true))}` : ""}${allSrc(p).length > 1 ? `<span class="more-s">, et ${allSrc(p).length - 1} autre${allSrc(p).length > 2 ? "s" : ""}</span>` : ""}</p><button class="plus-btn" type="button" data-more="${p.id}">Aller plus loin${CHEV}</button></div></div>`;
 }
 
 /* ---------- graphiques ---------- */
@@ -998,26 +1020,38 @@ function themeLine(ps) {
 /* Rubriques (version test) : la rubrique vient du sujet, sauf exception notée dans la proposition */
 const rubOf = p => p.rub || (DATA.themeRub || {})[p.th] || "";
 const frTypo = t => esc(t).replace(/« /g, "«\u00a0").replace(/ »/g, "\u00a0»").replace(/ ([:;?!])/g, "\u00a0$1");
-/* « Son programme en un coup d'œil » : même gabarit pour tous les candidats */
-function oeilHtml(c, ps) {
-  const o = c.oeil, P = Object.fromEntries(ps.map(p => [p.id, p]));
-  const src = ids => { const l = ids.filter(id => id && SRC[id]); return l.length ? ` <span class="s">${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</span>` : ""; };
-  const paras = list => (list || []).map(it => `<p>${frTypo(it[0])}${src(it.slice(1))}</p>`).join("");
-  const rows = DATA.rubriques.map(([k, l]) => {
-    const n = ps.filter(p => rubOf(p) === k).length;
-    return n ? `<button type="button" class="oe-chip" data-jump="r-${k}">${svg("r_" + k)}<span>${esc(l)}</span><b>${n}</b></button>`
-      : `<span class="oe-chip none">${svg("r_" + k)}<span>${esc(l)}</span><b>rien trouvé</b></span>`;
-  }).join("");
-  return `<section class="card oeil"><h2>Son programme en un coup d'œil</h2>
-    <div class="oe-top">${paras(o.etat)}${paras(o.parties)}</div>
-    <div class="oe-idx" role="group" aria-label="Aller à une rubrique">${rows}</div>
-    <p class="small">${esc(o.regle)}</p>
-  </section>
-  ${o.fin ? `<section class="card oeil"><h2>Financement d'ensemble</h2>
-    <h3 class="oe-h">Selon ${esc(c.nom)} et son parti</h3>${paras(o.fin.cand)}
-    <h3 class="oe-h">D'autres chiffrages</h3>${paras(o.fin.ind)}
-    <p class="small">Le coût mesure par mesure est dans chaque fiche « Aller plus loin ». Ici, la vue d'ensemble : ce que le candidat prévoit de dépenser et de faire rentrer au total.</p>
-  </section>` : ""}`;
+/* Sommaire des thèmes en haut de la page candidat, le même pour tous : un bouton par thème avec le nombre de propositions */
+function rubNav(c, ps) {
+  const n = k => ps.filter(p => rubOf(p) === k).length, fin = c.oeil && c.oeil.fin;
+  const items = DATA.rubriques.map(([k, l]) => n(k)
+    ? `<button type="button" class="rn" data-jump="r-${k}">${svg("r_" + k)}<span class="t">${esc(l)}</span><small>${n(k)} proposition${n(k) > 1 ? "s" : ""}</small></button>`
+    : `<span class="rn off">${svg("r_" + k)}<span class="t">${esc(l)}</span><small>Rien trouvé</small></span>`).join("");
+  return `<nav class="card rubnav" id="rubnav" aria-label="Ses propositions par thème">
+    <h2>Ses propositions par thème</h2>
+    <div class="rn-grid">${items}${fin ? `<button type="button" class="rn rn-fin" data-jump="r-fin">${svg("r_finances")}<span class="t">Le financement d'ensemble</span><small>Tout ce qu'il prévoit de dépenser et de faire rentrer</small></button>` : ""}</div>
+    ${c.oeil ? `<p class="small">${esc(c.oeil.regle)}</p>` : ""}
+  </nav>
+  <div class="rubbar" id="rubbar" aria-hidden="true">${DATA.rubriques.filter(([k]) => n(k)).map(([k, l]) => `<button type="button" tabindex="-1" data-jump="r-${k}" data-rb="r-${k}">${esc(l)}</button>`).join("")}${fin ? `<button type="button" tabindex="-1" data-jump="r-fin" data-rb="r-fin">Financement</button>` : ""}</div>`;
+}
+const srcSpan = (ids, label) => { const l = ids.filter(id => id && SRC[id]); return l.length ? ` <span class="s">${label ? `Source${l.length > 1 ? "s" : ""} : ` : ""}${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</span>` : ""; };
+const parasSrc = (list, label) => (list || []).map(it => `<p>${frTypo(it[0])}${srcSpan(it.slice(1), label)}</p>`).join("");
+/* Ce que le candidat prévoit de dépenser et de faire rentrer au total */
+function finEnsemble(c) {
+  const o = c.oeil; if (!o || !o.fin) return "";
+  return `<section class="card oeil rub-sec" id="r-fin"><h2 class="th-h">${svg("r_finances")}Le financement d'ensemble</h2>
+    <p class="small">Le total de ce qu'il prévoit de dépenser et de faire rentrer. Le coût de chaque mesure est dans sa fiche « Aller plus loin ».</p>
+    <h3 class="oe-h">Selon ${esc(c.nom)} et son parti</h3>${parasSrc(o.fin.cand, true)}
+    <h3 class="oe-h">D'autres chiffrages</h3>${parasSrc(o.fin.ind, true)}
+  </section>`;
+}
+/* Où en est son programme, avec ses documents */
+function progDocs(c) {
+  const o = c.oeil;
+  if (!o && !c.docs.length) return "";
+  return `<section class="card oeil"><h2>${o ? "Son programme" : "Ses documents"}</h2>
+    ${o ? `<div class="oe-top">${parasSrc(o.etat)}${parasSrc(o.parties)}</div>` : ""}
+    ${c.docs.length ? `<div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)}, ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div>` : ""}
+  </section>`;
 }
 /* Une rubrique de la page candidat. Avec un coup d'œil : les mesures phares d'abord, les autres repliées. */
 function rubSection(c, ps, k, l) {
@@ -1026,7 +1060,7 @@ function rubSection(c, ps, k, l) {
   const body = top.length && rest.length
     ? `${top.map(propItem).join("")}<details class="more-props"><summary>${rest.length > 1 ? `Voir les ${rest.length} autres mesures` : "Voir l'autre mesure"}</summary><div class="props">${rest.map(propItem).join("")}</div></details>`
     : (top.length ? top : all).map(propItem).join("");
-  return `<section class="card" id="r-${k}"><h2 class="th-h">${svg("r_" + k)}${esc(l)}</h2>${top.length ? `<p class="small">${top.length > 1 ? "Ses mesures phares" : "Sa mesure phare"}, selon la règle du coup d'œil.</p>` : ""}<div class="props">${body}</div></section>`;
+  return `<section class="card rub-sec" id="r-${k}"><h2 class="th-h">${svg("r_" + k)}${esc(l)}<span class="cnt">${all.length}</span></h2><div class="props">${body}</div></section>`;
 }
 function screenCandidat(id) {
   const c = CAND[id]; if (!c) return screenCandidats();
@@ -1040,23 +1074,23 @@ function screenCandidat(id) {
   return `
   <section class="card profile">
     <div class="who">${mono(id, "l")}<div><h1>${esc(c.nom)}</h1><div class="party">${esc(c.parti)}</div></div></div>
-    ${pc ? `<p class="chapo">${esc(pc.chapo[0])}${pc.chapo[1].map(X.ref).join("")} ${esc(themeLine(ps))}</p>` : ""}
+    ${pc ? `<p class="chapo">${esc(pc.chapo[0])}${pc.chapo[1].map(X.ref).join("")}${R ? "" : " " + esc(themeLine(ps))}</p>` : ""}
     ${statut(c)}
     <p class="lead">${esc(c.statutTxt)}.</p>
-    <div class="stats"><div><b>${ps.length}</b><span>propositions</span></div><div><b>${ps.filter(p => p.fin === "f" || p.fin === "c").length}</b><span>chiffrées</span></div>${R ? `<div><b>${rubs.length}</b><span>rubriques sur ${R.length}</span></div>` : `<div><b>${themes.length}</b><span>sujets sur ${DATA.themes.length}</span></div>`}</div>
-    ${pc ? `<button class="jump" type="button" data-jump="parcours">Lire son parcours ↓</button>` : ""}
+    <div class="stats"><div><b>${ps.length}</b><span>propositions</span></div><div><b>${ps.filter(p => p.fin === "f" || p.fin === "c").length}</b><span>chiffrées</span></div>${R ? `<div><b>${rubs.length}<small>/${R.length}</small></b><span>thèmes</span></div>` : `<div><b>${themes.length}<small>/${DATA.themes.length}</small></b><span>sujets</span></div>`}</div>
+    ${pc ? `<button class="jump" type="button" data-jump="parcours">Lire son parcours</button>` : ""}
     <p class="credit">${photoCredit(c)}</p>
   </section>
-  ${c.oeil ? oeilHtml(c, ps) : ""}
-  ${R ? `${rubs.map(([k, l]) => rubSection(c, ps, k, l)).join("")}
-  ${rSilent.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant dans : ${rSilent.map(esc).join(", ")}.</p>` : ""}`
+  ${R ? `${rubNav(c, ps)}${rubs.map(([k, l]) => rubSection(c, ps, k, l)).join("")}${finEnsemble(c)}${progDocs(c)}`
   : `${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(k)}${esc(l)}</h2><div class="props">${ps.filter(p => p.th === k).map(propItem).join("")}</div></section>`).join("")}
   ${silent.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant sur : ${silent.map(esc).join(", ")}.</p>` : ""}`}
-  ${pc ? `<section class="card parcours" id="parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>` : ""}
-  ${c.docs.length ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
+  ${pc && !R ? parcoursHtml(pc, X) : ""}
+  ${c.docs.length && !R ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
   ${c.faits.length ? `<section class="card"><h2>À savoir</h2><div class="prose">${c.faits.map(([t, s]) => `<p>${esc(t)} <span class="small">(${ext(SRC[s].u, esc(SRC[s].p))})</span></p>`).join("")}</div></section>` : ""}
-  ${press.length ? `<section class="card"><h2>Dans l'actu</h2><div class="rows news">${press.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}`;
+  ${press.length ? `<section class="card"><h2>Dans l'actu</h2><div class="rows news">${press.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
+  ${pc && R ? parcoursHtml(pc, X) : ""}`;
 }
+const parcoursHtml = (pc, X) => `<section class="card parcours" id="parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>`;
 
 /* Vidéos : un passage par candidat dans un ordre tiré au hasard, puis on recommence.
    Une vidéo du candidat passe avant ses propositions écrites ; sans vidéo, la carte présente la proposition. */
@@ -1770,6 +1804,25 @@ function route() {
   const b = $("#back"); b.hidden = !back; b.dataset.to = back || "";
   document.querySelectorAll(".nav a").forEach(a => a.setAttribute("aria-current", a.dataset.v === tab ? "page" : "false"));
 }
+/* Page candidat : une fois le sommaire passé, une barre de thèmes reste en haut et suit la lecture */
+let rbTick = false;
+function rubBarSync() {
+  rbTick = false;
+  const bar = document.getElementById("rubbar"), nav = document.getElementById("rubnav"); if (!bar || !nav) return;
+  const top = document.querySelector(".top").getBoundingClientRect().bottom;
+  bar.style.top = top + "px";
+  const secs = [...document.querySelectorAll(".rub-sec")], last = secs[secs.length - 1];
+  const on = nav.getBoundingClientRect().bottom < top && last && last.getBoundingClientRect().bottom > top + 60;
+  bar.classList.toggle("on", on); bar.setAttribute("aria-hidden", on ? "false" : "true");
+  bar.querySelectorAll("button").forEach(b => b.tabIndex = on ? 0 : -1);
+  let cur = null; secs.forEach(sct => { if (sct.getBoundingClientRect().top <= top + bar.offsetHeight + 24) cur = sct.id; });
+  bar.querySelectorAll("button").forEach(b => {
+    const act = b.dataset.rb === cur; if ((b.getAttribute("aria-current") === "true") === act) return;
+    b.setAttribute("aria-current", act ? "true" : "false");
+    if (act) bar.scrollTo({ left: b.offsetLeft - 16, behavior: "smooth" });
+  });
+}
+window.addEventListener("scroll", () => { if (!rbTick) { rbTick = true; requestAnimationFrame(rubBarSync); } }, { passive: true });
 function rerender() { const y = window.scrollY; route(); window.scrollTo(0, y); }
 window.addEventListener("hashchange", () => { closeMore(true); closeStory(true); closeChat(true); route(); askSync(); window.scrollTo(0, 0); });
 window.addEventListener("scroll", () => $("#bar").classList.toggle("scrolled", window.scrollY > 4), { passive: true });
