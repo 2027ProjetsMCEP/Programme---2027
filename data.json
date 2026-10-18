@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-15",
- "version": 10,
+ "version": 11,
  "base": "2026-10-01",
  "themes": [
   [
@@ -3143,10 +3143,11 @@
   {
    "c": "melenchon",
    "th": "travail",
-   "t": "Un SMIC à 1 600 € net par mois",
-   "d": "Porter le SMIC à 1 600 € net par mois.",
+   "t": "Un SMIC à 1 700 € net par mois",
+   "d": "Porter le SMIC à 1 700 € net par mois (2 176 € brut). C'est ce que prévoient une proposition de loi des députés insoumis déposée en septembre 2026 et le plan budgétaire présenté par son équipe le 14 octobre 2026.",
    "s": [
-    "lfi_aec"
+    "an_ppl3176",
+    "lcp_contrebudget_2027"
    ],
    "aj": "2026-10-01",
    "fin": "n",
@@ -9196,6 +9197,20 @@
    "d": "2026-06-26",
    "type": "officiel",
    "u": "https://www.lutte-ouvriere.org/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
+  },
+  "an_ppl3176": {
+   "t": "Proposition de loi n° 3176 visant l'augmentation des salaires et des pensions",
+   "p": "Assemblée nationale (groupe La France insoumise - NFP)",
+   "d": "2026-09-15",
+   "type": "officiel",
+   "u": "https://www.assemblee-nationale.fr/dyn/17/textes/l17b3176_proposition-loi.pdf"
+  },
+  "lcp_contrebudget_2027": {
+   "t": "Contre-budget : LFI propose 106,4 milliards d'euros de recettes supplémentaires et 81,7 milliards de dépenses nouvelles",
+   "p": "LCP",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/contre-budget-lfi-propose-1064-milliards-d-euros-de-recettes-supplementaires-et-817"
   }
  },
  "presse": [
@@ -9929,9 +9944,9 @@
      },
      {
       "c": "melenchon",
-      "v": 1600,
-      "label": "1 600 € net",
-      "s": "lfi_aec"
+      "v": 1700,
+      "label": "1 700 € net",
+      "s": "an_ppl3176"
      },
      {
       "c": "ruffin",
