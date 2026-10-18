@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-15",
- "version": 9,
+ "version": 10,
  "base": "2026-10-01",
  "themes": [
   [
@@ -3218,8 +3218,8 @@
   {
    "c": "melenchon",
    "th": "education",
-   "t": "19 élèves par classe, 160 000 profs en plus et la cantine gratuite",
-   "d": "Viser 19 élèves par classe en moyenne, recruter 160 000 enseignants supplémentaires et rendre la cantine gratuite avec des produits bio et paysans.",
+   "t": "19 élèves par classe, 160 000 profs recrutés et la cantine gratuite",
+   "d": "Viser 19 élèves par classe en moyenne d'ici la fin du quinquennat, recruter 160 000 enseignants pour y parvenir et rendre la cantine gratuite avec des produits bio et paysans.",
    "s": [
     "ps_ecole"
    ],
