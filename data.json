@@ -1098,8 +1098,8 @@
    "statutTxt": "Mesures annoncées par thème",
    "faits": [
     [
-     "Désigné candidat des Républicains le 19 avril 2026 par un vote des adhérents.",
-     "wiki_2027"
+     "Désigné candidat des Républicains le 19 avril 2026 par une consultation des adhérents : 73,8 % ont choisi de le désigner directement, sans primaire (participation : 60 %).",
+     "lcp_retailleau_designation"
     ]
    ],
    "docs": [],
@@ -1170,6 +1170,67 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il n'a pas publié de programme complet, mais présente ses mesures par thème : logement (mai et septembre), immigration et justice (septembre), plan budgétaire chiffré (12 octobre 2026).",
+      "e1_retailleau_immobilier",
+      "gazette_retailleau_sol",
+      "ps_retailleau_200md"
+     ]
+    ],
+    "phares": {
+     "finances": [
+      "p054",
+      "p332"
+     ],
+     "etat": [
+      "p331"
+     ],
+     "interieur": [
+      "p048",
+      "p049"
+     ],
+     "gouvernance": [
+      "p333"
+     ],
+     "travail": [
+      "p051",
+      "p203"
+     ],
+     "social": [
+      "p052",
+      "p050",
+      "p202"
+     ],
+     "education": [
+      "p053"
+     ],
+     "environnement": [
+      "p171",
+      "p170",
+      "p172"
+     ],
+     "numerique": [
+      "p198"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Plan présenté le 12 octobre 2026 : 197 milliards d'euros d'économies cumulées d'ici 2032 (État 96, social 91, collectivités 10), déficit sous 3 % en 2031, 51 milliards rendus aux ménages et aux entreprises, sans hausse d'impôts.",
+       "ps_retailleau_200md",
+       "gazette_retailleau_bulldozer"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage indépendant publié de ce plan.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -3897,6 +3958,47 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Candidate depuis le 14 octobre 2026, elle n'a pas encore publié de programme. Elle veut « rassembler les orphelins de la politique » autour de la production en France.",
+      "lcp_polony",
+      "afp_polony_lematin"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p190"
+     ],
+     "finances": [
+      "p191",
+      "p329"
+     ],
+     "environnement": [
+      "p327"
+     ],
+     "social": [
+      "p328"
+     ],
+     "defense": [
+      "p330"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   }
  ],
@@ -6197,11 +6299,38 @@
    "t": "Supprimer le droit du sol",
    "d": "Supprimer le droit du sol en métropole et durcir les conditions de l'immigration étudiante.",
    "s": [
+    "gazette_retailleau_sol",
     "jdd_retailleau"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p048"
+   "id": "p048",
+   "plus": {
+    "detail": [
+     [
+      "Il veut supprimer le droit du sol par référendum, car selon lui « les juges n'accepteraient pas » cette réforme sans passer par le peuple.",
+      "gazette_retailleau_sol"
+     ],
+     [
+      "Il veut aussi durcir les conditions de l'immigration étudiante.",
+      "jdd_retailleau"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "On ne doit pas pouvoir devenir français « par hasard, en catimini, de façon automatique ». Il cite l'exemple de Mayotte.",
+      "gazette_retailleau_sol"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 98 139 personnes ont acquis la nationalité française. La loi fixe les règles de la nationalité (article 34 de la Constitution).",
+      "sujet_immigration_dgef_nationalite2025",
+      "sujet_immigration_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -6213,7 +6342,30 @@
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p049"
+   "id": "p049",
+   "plus": {
+    "detail": [
+     [
+      "Abaisser la majorité pénale à 15 ans.",
+      "jdd_retailleau"
+     ],
+     [
+      "Instaurer des peines minimales pour les agressions de policiers, de gendarmes et de pompiers.",
+      "jdd_retailleau"
+     ],
+     [
+      "Il veut soumettre au référendum une loi « sur une politique pénale de grande fermeté ».",
+      "gazette_retailleau_sol"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 1er août 2026, 89 668 personnes étaient détenues pour 63 303 places opérationnelles.",
+      "sujet_securite_justice_detention_202608"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -6225,7 +6377,26 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p050"
+   "id": "p050",
+   "plus": {
+    "detail": [
+     [
+      "Fusionner les allocations familiales en un revenu parental unique, versé dès le premier enfant.",
+      "jdd_retailleau"
+     ],
+     [
+      "Nous n'avons pas trouvé le montant envisagé.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France compte 1,56 enfant par femme et 645 000 naissances.",
+      "sujet_sante_insee_bilan_demo"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -6243,7 +6414,45 @@
     "h": "sur cinq ans, montant annoncé"
    },
    "fin": "c",
-   "id": "p051"
+   "id": "p051",
+   "plus": {
+    "detail": [
+     [
+      "Un « minimal de départ » fixé à 63 ans, et l'âge du taux plein fixé à 65 ans, contre 67 ans aujourd'hui.",
+      "ps_retraites"
+     ],
+     [
+      "Partir à 63 ans entraînerait « une décote de 7 % par an sur le montant de la pension ».",
+      "ps_retraites"
+     ],
+     [
+      "Une part de capitalisation de 25 à 30 % pour les nouveaux entrants, financée « à hauteur de 0,5 % par le salarié et 0,5 % par l'employeur ».",
+      "ps_retraites"
+     ],
+     [
+      "Il promet des consultations avec les partenaires sociaux sur la pénibilité ; l'âge de 65 ans pourrait être relevé si l'espérance de vie augmente.",
+      "ps_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, la pension est à taux plein avec assez de trimestres, ou automatiquement à 67 ans.",
+      "sujet_retraites_sp_decote"
+     ],
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il revendique « 40 milliards d'économies en cumulé sur cinq ans ». Son plan budgétaire d'octobre 2026 compte 42 milliards d'économies sur les retraites.",
+      "ps_retraites",
+      "gazette_retailleau_bulldozer"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -6251,11 +6460,48 @@
    "t": "Un million de logements en plus en cinq ans",
    "d": "Un million de logements supplémentaires en cinq ans : fin du zéro artificialisation nette et de l'encadrement des loyers, chantiers ramenés de 7 à 3 ans, 9 000 € de TVA reversés à la commune par logement neuf.",
    "s": [
-    "jda_retailleau"
+    "jda_retailleau",
+    "e1_retailleau_immobilier",
+    "ps_retailleau_logement"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p052"
+   "id": "p052",
+   "plus": {
+    "detail": [
+     [
+      "Une loi d'urgence pour abroger le ZAN et « rendre la liberté de bâtir aux maires » ; il vise 45 000 logements construits de plus par an grâce à cette mesure.",
+      "e1_retailleau_immobilier"
+     ],
+     [
+      "Supprimer l'encadrement des loyers et lever les interdictions de location liées au DPE, pour remettre 450 000 logements sur le marché.",
+      "e1_retailleau_immobilier"
+     ],
+     [
+      "Un « pacte famille » : déduire de l'impôt 50 % des intérêts d'emprunt avec un enfant, 75 % avec deux, 100 % à partir de trois.",
+      "ps_retailleau_logement",
+      "e1_retailleau_immobilier"
+     ],
+     [
+      "Il relancerait le prêt à taux zéro pour les primo-accédants et l'expulsion administrative des squatteurs sous dix jours.",
+      "ps_retailleau_logement",
+      "e1_retailleau_immobilier"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il souligne que la France compte 57 % de propriétaires, contre 70 % ailleurs en Europe selon lui.",
+      "e1_retailleau_immobilier"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier, 21,3 % de moins que la moyenne des cinq années précédentes.",
+      "sujet_logement_sdes_construction2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -6267,25 +6513,94 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p053"
+   "id": "p053",
+   "plus": {
+    "detail": [
+     [
+      "« Un examen d'entrée en sixième, le développement des groupes de niveau » et la fin du passage automatique d'une classe à l'autre.",
+      "ps_ecole"
+     ],
+     [
+      "« La création de 1 000 établissements publics « libres », autorisés à adapter programmes, rythmes scolaires ou calendrier ».",
+      "ps_ecole"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Refonder l'école » autour des enseignants, de la transmission des savoirs, de l'autonomie des établissements et de l'autorité.",
+      "ps_ecole"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis la rentrée 2024, le français et les mathématiques sont enseignés en groupes de besoins en 6e et en 5e.",
+      "sujet_education_men_college"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
    "th": "budget",
-   "t": "Redresser les finances publiques de 120 milliards d'ici 2032",
-   "d": "Redresser les finances publiques de 120 milliards d'euros d'ici 2032.",
+   "t": "197 milliards d'euros d'économies d'ici 2032, sans hausse d'impôts",
+   "d": "Réaliser 197 milliards d'euros d'économies cumulées d'ici 2032 pour ramener le déficit sous 3 % du PIB en 2031, sans hausse d'impôts, et en « rendre » 51 milliards aux ménages et aux entreprises.",
    "s": [
-    "ifrap"
+    "ps_retailleau_200md",
+    "gazette_retailleau_bulldozer"
    ],
    "aj": "2026-10-01",
    "a": {
-    "v": 120,
+    "v": 197,
     "nature": "economie",
     "per": "total",
-    "h": "d'ici 2032"
+    "h": "cumulées d'ici 2032, dont 51 milliards rendus aux ménages et aux entreprises"
    },
    "fin": "c",
-   "id": "p054"
+   "id": "p054",
+   "plus": {
+    "detail": [
+     [
+      "Il annonce « un effort « inédit » de 197 milliards d'euros sur cinq ans » pour ramener en 2031 le déficit sous 3 % du PIB.",
+      "ps_retailleau_200md"
+     ],
+     [
+      "Répartition : 96 milliards sur l'État, 91 milliards sur le social (dont 42 sur les retraites, 4 sur les arrêts maladie et 10 sur l'immigration) et 10 milliards sur les collectivités.",
+      "gazette_retailleau_bulldozer",
+      "ps_retailleau_200md"
+     ],
+     [
+      "146 milliards serviraient à réduire la dépense et la dette, et 51 milliards seraient « rendus aux Français ».",
+      "gazette_retailleau_bulldozer"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Je veux donner un grand coup de frein à la dépense publique et un coup d'accélérateur à la croissance. »",
+      "gazette_retailleau_bulldozer"
+     ],
+     [
+      "« C'est ça ou la Grèce » : il juge la France « quasiment en faillite ».",
+      "gazette_retailleau_bulldozer",
+      "ps_retailleau_200md"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget pour 2027 prévoit un déficit public de 5,0 % du PIB et une dette de 121,7 % du PIB en 2027.",
+      "sujet_budget_ecogouv_plf2027",
+      "sujet_budget_an_plf2027"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "197 milliards d'euros d'économies cumulées d'ici 2032, dont 51 milliards rendus aux ménages (21) et aux entreprises (30).",
+      "gazette_retailleau_bulldozer",
+      "ps_retailleau_200md"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -9214,7 +9529,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p170"
+   "id": "p170",
+   "plus": {
+    "detail": [
+     [
+      "Il propose de supprimer l'Office français de la biodiversité (OFB).",
+      "ps_congres_ja"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, 18 % des espèces évaluées dans la Liste rouge nationale sont éteintes ou menacées en France.",
+      "sujet_env_sdes_biodiv_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -9226,7 +9556,23 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p171"
+   "id": "p171",
+   "plus": {
+    "detail": [
+     [
+      "Une loi d'urgence pour « rendre la liberté de bâtir aux maires » en abrogeant le ZAN.",
+      "e1_retailleau_immobilier"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, 15 119 hectares d'espaces naturels, agricoles et forestiers ont été consommés, le plus bas niveau depuis 2011. La loi vise à diviser ce rythme par deux sur 2021-2031, puis le ZAN en 2050.",
+      "sujet_env_portail_enaf_2011_2025",
+      "sujet_env_zan_fascicule_1"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -9238,7 +9584,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p172"
+   "id": "p172",
+   "plus": {
+    "detail": [
+     [
+      "Il veut modifier la Constitution « pour supprimer le principe de précaution ».",
+      "ps_congres_ja"
+     ]
+    ],
+    "auj": [
+     [
+      "Une révision de la Constitution doit être votée par les deux assemblées, puis approuvée par référendum ou par le Parlement réuni en Congrès (3/5 des voix).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -9737,7 +10098,32 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p190"
+   "id": "p190",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut « augmenter les salaires de 20 à 30% ».",
+      "lcp_polony"
+     ],
+     [
+      "Nous n'avons pas trouvé comment, ni en combien de temps.",
+      null
+     ]
+    ],
+    "objectif": [
+     [
+      "Sortir le pays d'une « spirale d'appauvrissement ».",
+      "afp_polony_lematin"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, le salaire net médian dans le privé est de 2 190 € par mois en équivalent temps plein.",
+      "sujet_travail_insee_salaires2024"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "polony",
@@ -9745,11 +10131,46 @@
    "t": "Un « état d'urgence de la production »",
    "d": "Décréter « un état d'urgence de la production » : la production française en priorité dans la commande publique, et la suppression des aides aux entreprises qui ne sont pas conditionnées à une production sur le sol national.",
    "s": [
-    "lcp_polony"
+    "lcp_polony",
+    "afp_polony_lematin",
+    "sudradio_polony_0915"
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p191"
+   "id": "p191",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut décréter « un état d'urgence de la production ».",
+      "lcp_polony"
+     ],
+     [
+      "Cela passerait par « la priorisation de la production française dans la commande publique » et « la suppression des aides aux entreprises qui ne sont pas conditionnées à une production sur le sol national ».",
+      "lcp_polony"
+     ],
+     [
+      "Sur la commande publique : « Ça ne doit pas être négociable. Il va falloir entrer dans un rapport de force. »",
+      "pleinchamp_polony"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Elle dénonce une « perte totale de rang de la France sur les questions économiques, sur notre indépendance, sur la souveraineté ».",
+      "afp_polony_lematin"
+     ],
+     [
+      "Selon l'AFP, elle estime que produire en France crée de l'activité et des recettes fiscales pour l'État.",
+      "afp_polony_lematin"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
+      "sujet_eco_bdf_bdp2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -9935,7 +10356,32 @@
     "h": "sur cinq ans"
    },
    "fin": "c",
-   "id": "p198"
+   "id": "p198",
+   "plus": {
+    "detail": [
+     [
+      "Un plan de 25 milliards d'euros sur cinq ans pour développer l'intelligence artificielle.",
+      "maddyness_ia"
+     ],
+     [
+      "Il compte aussi sur l'IA pour « remettre sur le terrain » 150 000 fonctionnaires.",
+      "acteurspublics_retailleau_etat"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« L'intelligence artificielle va être quelque chose de fondamental. »",
+      "acteurspublics_retailleau_etat"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 48 % des personnes de 12 ans et plus utilisaient des services d'IA générative.",
+      "sujet_numerique_arcep_cp"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -10017,7 +10463,22 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p202"
+   "id": "p202",
+   "plus": {
+    "detail": [
+     [
+      "Supprimer les certificats d'économie d'énergie (CEE), ce qui pourrait selon lui réduire les prix à la pompe de « 15 à 17 centimes par litre ».",
+      "afp_pouvoir_achat"
+     ]
+    ],
+    "auj": [
+     [
+      "En septembre 2026, les prix de l'énergie ont augmenté de 21,2 % sur un an (estimation provisoire).",
+      "sujet_pouvoir_insee_ipc_sept"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -10029,7 +10490,32 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p203"
+   "id": "p203",
+   "plus": {
+    "detail": [
+     [
+      "Mieux rémunérer ceux qui acceptent de travailler « 30 minutes de plus chaque jour ».",
+      "afp_pouvoir_achat"
+     ],
+     [
+      "Nous n'avons pas trouvé le mécanisme ni le coût.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Un pays où celui qui se lève à 6 heures paie pour ceux qui ne se lèvent pas finit par exploser. »",
+      "gazette_retailleau_bulldozer"
+     ]
+    ],
+    "auj": [
+     [
+      "La durée légale du travail est de 35 heures par semaine.",
+      "sujet_travail_sp_duree_travail"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -15144,6 +15630,312 @@
     ],
     "maj": "2026-10-19"
    }
+  },
+  {
+   "c": "polony",
+   "id": "p327",
+   "k": "agriculture",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Rendre du revenu aux paysans et protéger le marché européen",
+   "d": "Rendre du revenu aux agriculteurs, refuser la renationalisation de la PAC, défendre une préférence européenne avec des clauses miroirs, et planifier publiquement la gestion de l'eau.",
+   "s": [
+    "pleinchamp_polony"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Il suffit d'agir sur les bons éléments, pour rendre tout simplement aux paysans du revenu. »",
+      "pleinchamp_polony"
+     ],
+     [
+      "Sur la renationalisation de la PAC : « C'est une ligne rouge. Nous ne devons pas accepter ça. »",
+      "pleinchamp_polony"
+     ],
+     [
+      "Elle défend la préférence européenne : « s'échanger nos excédents pour enrichir tout le monde, mais dans un espace protégé », avec des clauses miroirs, une traçabilité obligatoire dans les plats préparés et des contrôles renforcés aux frontières.",
+      "pleinchamp_polony"
+     ],
+     [
+      "Elle veut « une planification de la gestion de l'eau par la puissance publique », et interdire aux distributeurs de « créer des grandes centrales européennes qui contournent les lois françaises ».",
+      "pleinchamp_polony"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Si dans 15 ans, dans 20 ans, il y a une crise alimentaire mondiale, nous allons à la catastrophe. »",
+      "pleinchamp_polony"
+     ],
+     [
+      "Sur les lois Egalim : « Il en a fallu une, deux, trois. Les paysans ne sont toujours pas payés correctement. »",
+      "pleinchamp_polony"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 2,69 millions d'hectares sont cultivés en bio, environ 10 % de la surface agricole.",
+      "sujet_env_agencebio_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "polony",
+   "id": "p328",
+   "k": "carburants",
+   "aj": "2026-10-19",
+   "th": "pouvoir",
+   "t": "Une taxe flottante sur les carburants",
+   "d": "Instaurer une taxe flottante sur les produits pétroliers, qui baisse quand les prix internationaux montent.",
+   "s": [
+    "sudradio_polony_0915"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Elle défend une taxe flottante, qui absorberait les hausses des prix internationaux du pétrole.",
+      "sudradio_polony_0915"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Une « taxe flottante sur les produits pétroliers est une mesure de bon sens qui s'adapte à la réalité du moment ».",
+      "sudradio_polony_0915"
+     ]
+    ],
+    "auj": [
+     [
+      "En septembre 2026, les prix de l'énergie ont augmenté de 21,2 % sur un an (estimation provisoire).",
+      "sujet_pouvoir_insee_ipc_sept"
+     ]
+    ],
+    "note": [
+     "Ces propos datent de septembre 2026, avant l'annonce de sa candidature le 14 octobre.",
+     "sudradio_polony_0915"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "polony",
+   "id": "p329",
+   "k": "edf",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Renationaliser EDF et protéger le nucléaire",
+   "d": "Renationaliser EDF et protéger la filière nucléaire.",
+   "s": [
+    "sudradio_polony_0915"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut renationaliser EDF et protéger le nucléaire.",
+      "sudradio_polony_0915"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Il n'y a pas d'industrie sans énergie. »",
+      "sudradio_polony_0915"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France.",
+      "sujet_ecologie_rte_bilan2025"
+     ]
+    ],
+    "note": [
+     "Ces propos datent de septembre 2026, avant l'annonce de sa candidature le 14 octobre.",
+     "sudradio_polony_0915"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "polony",
+   "id": "p330",
+   "k": "defense",
+   "aj": "2026-10-19",
+   "th": "defense",
+   "t": "Refuser un marché unique européen de la défense",
+   "d": "S'opposer à un marché unique européen de la défense, qui menacerait selon elle les industriels français comme Dassault, Thales ou Safran.",
+   "s": [
+    "sudradio_polony_0915"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Elle s'oppose à un marché unique européen de la défense, qui menacerait selon elle des groupes comme Dassault, Thales ou Safran.",
+      "sudradio_polony_0915"
+     ],
+     [
+      "Elle veut un « rapport de force » avec les États-Unis et les pays européens.",
+      "sudradio_polony_0915"
+     ]
+    ],
+    "auj": [
+     [
+      "L'Union a adopté en 2025 SAFE, un instrument de prêts allant jusqu'à 150 milliards d'euros pour les investissements de défense des États membres.",
+      "sujet_europe_consilium_safe"
+     ]
+    ],
+    "note": [
+     "Ces propos datent de septembre 2026, avant l'annonce de sa candidature le 14 octobre.",
+     "sudradio_polony_0915"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "retailleau",
+   "id": "p331",
+   "k": "fonctionnaires",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "400 000 fonctionnaires partant à la retraite non remplacés, et plus d'heures de travail",
+   "d": "Ne pas remplacer 400 000 fonctionnaires partant à la retraite d'ici 2032, porter leur temps de travail de 1 607 à 1 623 heures par an, instaurer trois jours de carence et supprimer la quasi-totalité des agences et opérateurs de l'État.",
+   "s": [
+    "acteurspublics_retailleau_etat",
+    "ps_retailleau_200md",
+    "gazette_retailleau_bulldozer"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 96,
+    "nature": "economie",
+    "per": "total",
+    "h": "d'économies sur l'État d'ici 2032, selon son plan"
+   },
+   "plus": {
+    "detail": [
+     [
+      "« Non-remplacement d'ici 2032 de 400.000 fonctionnaires partis à la retraite » ; il vise 600 000 postes en moins sur dix ans.",
+      "gazette_retailleau_bulldozer",
+      "acteurspublics_retailleau_etat"
+     ],
+     [
+      "Le temps de travail des fonctionnaires « passerait ainsi de 1 607 à 1 623 heures » par an, avec trois jours de carence « à l'image du privé ».",
+      "acteurspublics_retailleau_etat"
+     ],
+     [
+      "Il veut « supprimer la quasi-totalité des agences et opérateurs » : « la suppression sera la règle, et la prolongation d'activité l'exception ».",
+      "acteurspublics_retailleau_etat"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Sur le temps de travail : « Cela n'a jamais tué personne. »",
+      "acteurspublics_retailleau_etat"
+     ],
+     [
+      "Il dénonce des « dérives qui ont rendu l'État non seulement dépensier mais surtout impuissant ».",
+      "acteurspublics_retailleau_etat"
+     ]
+    ],
+    "auj": [
+     [
+      "Fin 2024, 5,9 millions d'agents travaillent dans les trois fonctions publiques, dont 2,59 millions pour l'État.",
+      "sujet_etat_insee_fp2024"
+     ],
+     [
+      "Une commission d'enquête du Sénat a recensé en 2025 103 agences, 434 opérateurs et 317 organismes consultatifs de l'État.",
+      "sujet_etat_senat_r807"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Non-remplacements, IA et 1 623 heures : 25 milliards d'euros ; agences : 7,5 milliards ; jours de carence : 3 milliards d'ici 2032 ; privatisations : 5 milliards, selon Acteurs publics.",
+      "acteurspublics_retailleau_etat"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "retailleau",
+   "id": "p332",
+   "k": "impots",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "51 milliards d'euros « rendus » aux ménages et aux entreprises",
+   "d": "Utiliser une partie des économies pour rendre 51 milliards d'euros : 21 milliards aux ménages et 30 milliards aux entreprises, notamment en supprimant des impôts de production.",
+   "s": [
+    "gazette_retailleau_bulldozer",
+    "ps_retailleau_200md"
+   ],
+   "fin": "f",
+   "a": {
+    "v": 51,
+    "nature": "cout",
+    "per": "total",
+    "h": "d'ici 2032 : 21 milliards pour les ménages, 30 pour les entreprises"
+   },
+   "finTxt": "Une partie des 197 milliards d'économies annoncées",
+   "plus": {
+    "detail": [
+     [
+      "Sur les 197 milliards d'économies, 51 milliards seraient « rendus aux Français » : 21 milliards pour les ménages et 30 pour les entreprises, notamment par la suppression d'impôts de production.",
+      "gazette_retailleau_bulldozer",
+      "ps_retailleau_200md"
+     ],
+     [
+      "Nous n'avons pas trouvé le détail des baisses d'impôts pour les ménages.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "retailleau",
+   "id": "p333",
+   "k": "referendum",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Élargir le référendum à l'immigration et à la politique pénale",
+   "d": "Réviser la Constitution pour pouvoir soumettre au référendum la politique migratoire et pénale, puis organiser deux référendums : une loi « pour réduire l'immigration » et une loi « sur une politique pénale de grande fermeté ».",
+   "s": [
+    "gazette_retailleau_sol"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut une révision constitutionnelle pour élargir les sujets soumis au référendum, notamment aux politiques migratoire et pénale.",
+      "gazette_retailleau_sol"
+     ],
+     [
+      "Deux textes seraient soumis au référendum : une loi « pour réduire l'immigration » et une loi « sur une politique pénale de grande fermeté ».",
+      "gazette_retailleau_sol"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, l'immigration est « devenue une charge ».",
+      "gazette_retailleau_sol"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, le référendum de l'article 11 porte sur l'organisation des pouvoirs publics, les réformes de la politique économique, sociale ou environnementale, et la ratification de certains traités.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   }
  ],
  "sources": {
@@ -19689,6 +20481,69 @@
    "d": "2026-10-09",
    "type": "presse",
    "u": "https://lcp.fr/actualites/allocations-familiales-edouard-philippe-propose-350-euros-des-le-premier-enfant-443576"
+  },
+  "afp_polony_lematin": {
+   "t": "Présidentielle 2027 : Natacha Polony veut relancer la production française",
+   "p": "Le Matin (dépêche AFP)",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://www.lematin.ch/story/france-l-essayiste-natacha-polony-candidate-a-la-presidentielle-2027-103649383"
+  },
+  "pleinchamp_polony": {
+   "t": "Natacha Polony candidate à l'Élysée avec l'agriculture comme champ de bataille",
+   "p": "Pleinchamp",
+   "d": "2026-10-14",
+   "type": "presse",
+   "u": "https://www.pleinchamp.com/actualite/natacha-polony-candidate-a-l-elysee-avec-l-agriculture-comme-champ-de-bataille"
+  },
+  "sudradio_polony_0915": {
+   "t": "Natacha Polony : « Je lance un appel aux orphelins de la politique »",
+   "p": "Sud Radio",
+   "d": "2026-09-15",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/natacha-polony-je-lance-un-appel-aux-orphelins-de-la-politique"
+  },
+  "gazette_retailleau_sol": {
+   "t": "Retailleau veut supprimer le droit du sol par référendum",
+   "p": "La Gazette France (dépêche AFP)",
+   "d": "2026-09-09",
+   "type": "presse",
+   "u": "https://www.lagazettefrance.fr/article/retailleau-veut-supprimer-le-droit-du-sol-par-referendum"
+  },
+  "ps_retailleau_200md": {
+   "t": "Présidentielle 2027 : Bruno Retailleau s'engage sur un plan d'économies de près de 200 milliards d'euros, s'il est élu",
+   "p": "Public Sénat",
+   "d": "2026-10-12",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/economie/presidentielle-2027-bruno-retailleau-sengage-sur-un-plan-deconomies-de-pres-de-200-milliards-deuros-sil-est-elu"
+  },
+  "gazette_retailleau_bulldozer": {
+   "t": "Présidentielle : Retailleau sort le « bulldozer » pour réduire la dépense publique",
+   "p": "La Gazette France (dépêche AFP)",
+   "d": "2026-10-12",
+   "type": "presse",
+   "u": "https://www.lagazettefrance.fr/article/presidentielle-retailleau-sort-le-bulldozer-pour-reduire-la-depense-publique"
+  },
+  "acteurspublics_retailleau_etat": {
+   "t": "Agences, effectifs, temps de travail : le plan de Bruno Retailleau pour amaigrir l'État",
+   "p": "Acteurs publics",
+   "d": "2026-10-12",
+   "type": "presse",
+   "u": "https://acteurspublics.fr/articles/agences-effectifs-temps-de-travail-le-plan-de-bruno-retailleau-pour-amaigrir-letat-cela-na-jamais-tue-personne-bruno-retailleau-veut-faire-travailler-davantage-le/"
+  },
+  "ps_retailleau_logement": {
+   "t": "Logement : Bruno Retailleau propose de déduire de l'impôt les intérêts d'emprunt pour un prêt immobilier en fonction du nombre d'enfants",
+   "p": "Public Sénat",
+   "d": "2026-09-15",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/logement-bruno-retailleau-propose-de-deduire-de-l-imot-les-interets-d-emprunt-pour-un-pret-immobilier-en-fonction-du-nombre-d-enfants"
+  },
+  "lcp_retailleau_designation": {
+   "t": "Présidentielle : Bruno Retailleau choisi comme candidat officiel des Républicains",
+   "p": "LCP",
+   "d": "2026-04-19",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-bruno-retailleau-choisi-comme-candidat-officiel-des-republicains-435440"
   }
  },
  "presse": [
