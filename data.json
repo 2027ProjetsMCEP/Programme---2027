@@ -1319,6 +1319,55 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Candidat depuis le 6 septembre 2026, il s'appuie sur le « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+      "f24_declares",
+      "pcf_pacte"
+     ]
+    ],
+    "phares": {
+     "finances": [
+      "p055"
+     ],
+     "travail": [
+      "p056",
+      "p061"
+     ],
+     "environnement": [
+      "p057",
+      "p188"
+     ],
+     "social": [
+      "p058",
+      "p059",
+      "p060"
+     ],
+     "defense": [
+      "p062"
+     ],
+     "education": [
+      "p149",
+      "p150"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il annonce 500 milliards d'euros d'investissements sur cinq ans, financés selon lui par les banques, la Caisse des dépôts et la Banque centrale européenne. Pour la jeunesse, le PCF propose de puiser dans les aides publiques aux entreprises et le budget de la défense.",
+       "pp_pcf_pacte",
+       "pw_roussel"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -1394,6 +1443,50 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il n'a pas de programme complet : il publie des cahiers de campagne thématiques sur son site, le premier consacré au travail.",
+      "ruffin_travail",
+      "ruffin_travaillisme"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p063",
+      "p064",
+      "p065"
+     ],
+     "finances": [
+      "p066"
+     ],
+     "gouvernance": [
+      "p067",
+      "p161"
+     ],
+     "education": [
+      "p160"
+     ],
+     "environnement": [
+      "p186",
+      "p187"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il ne chiffre pas l'ensemble de ses mesures. Son programme agricole est estimé à environ 1 milliard d'euros par an pour les paiements environnementaux.",
+       "agra_ruffin"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -1470,6 +1563,59 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Les Écologistes ont publié leur projet pour 2027, élaboré à partir de « 50 000 propositions individuelles » selon la presse. Ses adhérents doivent confirmer sa candidature en décembre 2026.",
+      "eco_projet",
+      "pp_ecolos_institutions",
+      "lcp_ecolos_0921"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p068",
+      "p334"
+     ],
+     "education": [
+      "p069"
+     ],
+     "environnement": [
+      "p184",
+      "p335",
+      "p070"
+     ],
+     "finances": [
+      "p336"
+     ],
+     "interieur": [
+      "p337"
+     ],
+     "europe": [
+      "p338"
+     ],
+     "defense": [
+      "p339"
+     ],
+     "numerique": [
+      "p201"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Montant trouvé : 2 milliards d'euros par an pour l'isolation des écoles. Nous n'avons pas trouvé de chiffrage d'ensemble.",
+       "ps_ecole"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de l'ensemble du projet.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -1547,6 +1693,41 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il a annoncé sa candidature le 17 septembre 2026 sur BFMTV. Son programme n'est pas encore publié : ses mesures viennent de ses interventions.",
+      "ps_zemmour",
+      "lavenir_zemmour_afp"
+     ]
+    ],
+    "phares": {
+     "interieur": [
+      "p071",
+      "p146"
+     ],
+     "travail": [
+      "p072"
+     ],
+     "environnement": [
+      "p189"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -3718,15 +3899,18 @@
    "nom": "Dominique de Villepin",
    "tri": "Villepin",
    "parti": "La France humaniste",
-   "statut": "nonpublie",
-   "statutTxt": "Candidat, programme détaillé pas encore publié",
+   "statut": "partiel",
+   "statutTxt": "Projet « France 2027 » publié par thèmes, dont 20 propositions économiques chiffrées",
    "faits": [
     [
      "Il revendique « plusieurs centaines » de parrainages et dit se battre pour être candidat.",
      "pp_villepin"
     ]
    ],
-   "docs": [],
+   "docs": [
+    "lfh_france2027",
+    "lfh_economie"
+   ],
    "photo": {
     "a": "Georges Seguin (Okki)",
     "y": "2010",
@@ -3792,6 +3976,65 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son mouvement, La France humaniste, publie un projet « France 2027 » par thèmes, dont 20 propositions économiques chiffrées. Il dit avoir « plusieurs centaines » de parrainages.",
+      "lfh_france2027",
+      "lfh_economie",
+      "pp_villepin"
+     ]
+    ],
+    "parties": [
+     [
+      "Ses propositions économiques sont regroupées en quatre axes : « Le travail paie, enfin », « Le Nouveau 1789 : abolir les rentes », « Rendre aux Français leur patrimoine » et « Écogaullisme et État stratège ».",
+      "lfh_france2027"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p340",
+      "p142",
+      "p341"
+     ],
+     "social": [
+      "p342",
+      "p343"
+     ],
+     "finances": [
+      "p344",
+      "p345",
+      "p346"
+     ],
+     "environnement": [
+      "p347"
+     ],
+     "etat": [
+      "p348"
+     ],
+     "education": [
+      "p158"
+     ],
+     "gouvernance": [
+      "p159"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il vise un déficit sous 3 % du PIB en 2031, avec une loi de finances pour cinq ans, la suppression des niches fiscales et une croissance estimée à 0,8 % par an.",
+       "lfh_economie",
+       "lcp_villepin_bigbang"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -6606,19 +6849,53 @@
    "c": "roussel",
    "th": "eco",
    "t": "Un fonds public de 500 milliards pour l'industrie et les infrastructures",
-   "d": "Créer un fonds public de 500 milliards d'euros pour les infrastructures et les relocalisations industrielles ; taxer davantage les plus-values et les grandes fortunes.",
+   "d": "Créer un fonds public de 500 milliards d'euros sur cinq ans pour les infrastructures et les relocalisations industrielles, nationaliser une partie des banques, et taxer davantage les plus-values et les grandes fortunes.",
    "s": [
-    "pcf_pacte"
+    "pcf_pacte",
+    "pp_pcf_pacte"
    ],
    "aj": "2026-10-01",
    "a": {
     "v": 500,
     "nature": "cout",
-    "per": "nd",
-    "h": "période non précisée dans la source"
+    "per": "total",
+    "h": "sur cinq ans, selon la présentation du pacte en 2025"
    },
    "fin": "c",
-   "id": "p055"
+   "id": "p055",
+   "plus": {
+    "detail": [
+     [
+      "Le pacte prévoit un fonds public de 500 milliards d'euros pour les infrastructures et les relocalisations industrielles.",
+      "pcf_pacte"
+     ],
+     [
+      "Lors de sa présentation, en août 2025, il parlait d'« un plan d'investissement de 500 milliards d'euros sur cinq ans » et voulait « nationaliser une partie du secteur bancaire ».",
+      "pp_pcf_pacte"
+     ],
+     [
+      "Il veut aussi taxer davantage les plus-values et les grandes fortunes.",
+      "pcf_pacte"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Selon lui, l'argent existe « dans nos banques, dans la Caisse des dépôts, à la Banque centrale européenne ».",
+      "pp_pcf_pacte"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
+      "sujet_eco_bdf_bdp2025"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6630,7 +6907,34 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p056"
+   "id": "p056",
+   "plus": {
+    "detail": [
+     [
+      "Abroger la retraite à 64 ans et rétablir le départ à 60 ans.",
+      "pcf_pacte"
+     ],
+     [
+      "Nous n'avons pas trouvé la durée de cotisation exigée ni le coût.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "En 2025, les dépenses de retraite représentent 14,1 % du PIB ; le système est estimé en déficit de 5,1 milliards d'euros.",
+      "sujet_retraites_cor_ra2026"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6638,11 +6942,45 @@
    "t": "20 nouveaux réacteurs nucléaires et des factures d'énergie divisées par deux",
    "d": "Construire 20 réacteurs EPR2 d'ici 2050, diviser par deux les tarifs de l'énergie et rénover 700 000 logements par an.",
    "s": [
-    "pcf_pacte"
+    "pcf_pacte",
+    "pp_pcf_pacte"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p057"
+   "id": "p057",
+   "plus": {
+    "detail": [
+     [
+      "Construire 20 réacteurs nucléaires EPR2 d'ici 2050.",
+      "pcf_pacte",
+      "pp_pcf_pacte"
+     ],
+     [
+      "Diviser par deux les tarifs de l'énergie : il veut « baisser tout de suite aussi le prix de l'électricité ».",
+      "pcf_pacte",
+      "pp_pcf_pacte"
+     ],
+     [
+      "Rénover 700 000 logements par an.",
+      "pcf_pacte"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France.",
+      "sujet_ecologie_rte_bilan2025"
+     ],
+     [
+      "Les tarifs réglementés de l'électricité sont proposés par la CRE puis fixés par les ministres.",
+      "sujet_pouvoir_cre_2026_147"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6650,11 +6988,33 @@
    "t": "Construire 200 000 logements par an",
    "d": "Construire 200 000 logements par an avec la Caisse des dépôts.",
    "s": [
-    "pcf_pacte"
+    "pcf_pacte",
+    "pp_pcf_pacte"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p058"
+   "id": "p058",
+   "plus": {
+    "detail": [
+     [
+      "Construire 200 000 logements par an, avec la Caisse des dépôts.",
+      "pcf_pacte",
+      "pp_pcf_pacte"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier ; 2,8 millions de ménages attendent un logement social.",
+      "sujet_logement_sdes_construction2025",
+      "sujet_logement_senat_avis819"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6666,7 +7026,31 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p059"
+   "id": "p059",
+   "plus": {
+    "detail": [
+     [
+      "Rembourser les soins à 100 % par la Sécurité sociale.",
+      "pcf_pacte"
+     ],
+     [
+      "Nous n'avons pas trouvé le coût ni le sort des complémentaires santé.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, la Sécurité sociale prend en charge 78,7 % des dépenses de soins, les complémentaires santé 12,8 % et les ménages 7,8 % (19,9 milliards d'euros).",
+      "sujet_sante_insee_financement",
+      "sujet_sante_insee_portrait"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6684,7 +7068,26 @@
    },
    "aj": "2026-10-01",
    "fin": "c",
-   "id": "p060"
+   "id": "p060",
+   "plus": {
+    "detail": [
+     [
+      "Une loi-cadre d'un milliard d'euros contre les violences faites aux femmes et pour l'égalité salariale.",
+      "pcf_pacte"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 132 100 victimes de violences sexuelles ont été enregistrées par la police et la gendarmerie (+8 %).",
+      "sujet_securite_ssmsi_bilan2025"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6696,7 +7099,31 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p061"
+   "id": "p061",
+   "plus": {
+    "detail": [
+     [
+      "Augmenter les salaires et les indexer sur l'inflation : il veut « augmenter les salaires tout de suite ».",
+      "pcf_pacte",
+      "pp_pcf_pacte"
+     ],
+     [
+      "Réserver 10 % des embauches aux moins de 25 ans.",
+      "pcf_pacte"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, le taux de chômage des 15-24 ans est de 21,6 %.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -6708,7 +7135,30 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p062"
+   "id": "p062",
+   "plus": {
+    "detail": [
+     [
+      "Sortir du commandement intégré de l'OTAN, et rejeter les contraintes budgétaires du pacte de stabilité européen.",
+      "pcf_pacte"
+     ],
+     [
+      "Sur l'Ukraine, le PCF défend « la neutralité de l'Ukraine et sa non-intégration dans l'OTAN ».",
+      "pp_pcf_pacte"
+     ]
+    ],
+    "auj": [
+     [
+      "La France a quitté la structure militaire intégrée de l'OTAN en 1966 et y a retrouvé une pleine participation en 2009.",
+      "cdc_otan_2012"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du « Pacte national pour l'avenir de la France » adopté par le PCF en juillet 2025 ; son programme de campagne n'est pas encore publié.",
+     "pcf_pacte"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -6716,11 +7166,48 @@
    "t": "Un SMIC à 1 700 € net et une prime de 1 000 € pour les bas salaires",
    "d": "SMIC à 1 700 € net, prime d'urgence obligatoire de 1 000 € pour les bas salaires, horaires atypiques payés double et salaires indexés sur l'inflation.",
    "s": [
-    "orange_ruffin"
+    "orange_ruffin",
+    "lyoncapitale_ruffin"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p063"
+   "id": "p063",
+   "plus": {
+    "detail": [
+     [
+      "Porter le Smic à 1 700 € net par mois.",
+      "orange_ruffin",
+      "lyoncapitale_ruffin"
+     ],
+     [
+      "Une prime d'urgence obligatoire de 1 000 € pour les bas salaires, et des salaires indexés sur l'inflation.",
+      "orange_ruffin"
+     ],
+     [
+      "Payer double le travail avant 8 heures et après 18 heures.",
+      "lyoncapitale_ruffin"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il se présente comme le porteur d'une « société qui repose sur le travail ».",
+      "lyoncapitale_ruffin"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026. Passer à 1 700 € net ferait environ 222 € de plus par mois, soit +15 % (calcul de l'appli).",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -6732,7 +7219,26 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p064"
+   "id": "p064",
+   "plus": {
+    "detail": [
+     [
+      "Créer un statut des « travailleurs essentiels », pour environ 7 millions de personnes.",
+      "ruffin_travail"
+     ],
+     [
+      "Nous n'avons pas trouvé la liste précise des métiers concernés ni les droits attachés à ce statut.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, le taux d'emploi des 15-64 ans est de 69,0 %.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -6740,11 +7246,32 @@
    "t": "Partir plus tôt quand le métier est pénible",
    "d": "Permettre un départ anticipé selon la pénibilité du métier.",
    "s": [
-    "orange_ruffin"
+    "orange_ruffin",
+    "lyoncapitale_ruffin"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p065"
+   "id": "p065",
+   "plus": {
+    "detail": [
+     [
+      "Permettre un départ anticipé à la retraite selon la pénibilité du métier.",
+      "orange_ruffin",
+      "lyoncapitale_ruffin"
+     ],
+     [
+      "Nous n'avons pas trouvé à quel âge ni selon quels critères.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -6756,7 +7283,32 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p066"
+   "id": "p066",
+   "plus": {
+    "detail": [
+     [
+      "Taxer davantage les grandes entreprises.",
+      "orange_ruffin"
+     ],
+     [
+      "Convoquer des états généraux de la fiscalité et de la protection sociale.",
+      "orange_ruffin"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il accuse Emmanuel Macron d'entretenir une France « où les privilèges règnent ».",
+      "lyoncapitale_ruffin"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2026, une contribution exceptionnelle sur les grandes entreprises est reconduite pour une nouvelle année.",
+      "sujet_eco_ecogouv_lfi2026_particuliers"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -6768,7 +7320,16 @@
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p067"
+   "id": "p067",
+   "plus": {
+    "detail": [
+     [
+      "« Je suis un député au SMIC, je serai un président au SMIC aussi. »",
+      "lyoncapitale_ruffin"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "tondelier",
@@ -6780,7 +7341,32 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p068"
+   "id": "p068",
+   "plus": {
+    "detail": [
+     [
+      "Elle a proposé de porter le Smic à 2 000 € brut par mois.",
+      "lci_tondelier"
+     ],
+     [
+      "Selon Parlons Politique, le projet des Écologistes ne prévoit pas de hausse directe du Smic, mais veut « supprimer des exonérations sur les bas salaires » pour inciter les employeurs à augmenter les salaires.",
+      "pp_ecolos_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic est de 1 867,02 € brut par mois pour un temps plein depuis le 1er juin 2026. Passer à 2 000 € brut ferait environ 133 € brut de plus par mois (calcul de l'appli).",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "tondelier",
@@ -6792,7 +7378,30 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p069"
+   "id": "p069",
+   "plus": {
+    "detail": [
+     [
+      "19 élèves par classe d'ici 2032, et 12 en REP+ (éducation prioritaire renforcée).",
+      "ps_ecole"
+     ],
+     [
+      "Une hausse des salaires des enseignants de 15 % en cinq ans, hors inflation.",
+      "ps_ecole"
+     ],
+     [
+      "Une filière de catégorie B pour les accompagnants d'élèves en situation de handicap (AESH).",
+      "ps_ecole"
+     ]
+    ],
+    "auj": [
+     [
+      "À la rentrée 2025, il y a en moyenne 21,1 élèves par classe en élémentaire et 25,7 au collège.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "tondelier",
@@ -6810,19 +7419,68 @@
     "h": "montant annoncé"
    },
    "fin": "c",
-   "id": "p070"
+   "id": "p070",
+   "plus": {
+    "detail": [
+     [
+      "Consacrer 2 milliards d'euros par an à l'isolation des écoles et à des « refuges climatiques ».",
+      "ps_ecole"
+     ]
+    ],
+    "auj": [
+     [
+      "Les communes, les départements et les régions sont chargés de la rénovation des écoles, collèges et lycées.",
+      "sujet_education_men_collectivites"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "zemmour",
    "th": "immigration",
-   "t": "Expulser les étrangers en situation régulière après un an de chômage",
-   "d": "Expulser les étrangers en situation régulière après un an de chômage, en plus des détenus étrangers et des personnes en situation irrégulière.",
+   "t": "Expulser les étrangers détenus, délinquants, clandestins, et après un an de chômage",
+   "d": "Expulser les étrangers détenus ou condamnés, les étrangers en situation irrégulière, et les étrangers en situation régulière au chômage depuis plus d'un an ou qui vivent uniquement des aides sociales.",
    "s": [
+    "lavenir_zemmour_afp",
     "ps_zemmour"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p071"
+   "id": "p071",
+   "plus": {
+    "detail": [
+     [
+      "Il défend l'expulsion des étrangers « et pas seulement l'arrêt de l'immigration », selon l'AFP.",
+      "lavenir_zemmour_afp"
+     ],
+     [
+      "« Il faut renvoyer tous les étrangers qui sont dans les prisons françaises », ainsi que « tous les délinquants étrangers, même ceux qui ne sont pas en prison ».",
+      "lavenir_zemmour_afp"
+     ],
+     [
+      "Les étrangers en situation régulière au chômage depuis « plus de six mois à un an, un an dirons-nous », ou qui vivent uniquement des aides sociales, seraient aussi expulsés.",
+      "lavenir_zemmour_afp"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il invoque un article du code des étrangers qu'il date « je pense, de 1945 », selon lequel « tout étranger qui pèse sur les finances publiques doit être expulsé ».",
+      "lavenir_zemmour_afp"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 23 549 éloignements d'étrangers en situation irrégulière ont été mis en œuvre, 11,1 % de plus qu'en 2024 (données provisoires).",
+      "sujet_immigration_dgef_eloignements2025"
+     ],
+     [
+      "Au 1er août 2026, 89 668 personnes étaient détenues en France.",
+      "sujet_securite_justice_detention_202608"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "zemmour",
@@ -6830,11 +7488,35 @@
    "t": "Remplacer la main-d'œuvre immigrée par des robots",
    "d": "Remplacer la main-d'œuvre immigrée par des robots, sur le modèle de la Chine et du Japon.",
    "s": [
+    "lavenir_zemmour_afp",
     "ps_zemmour"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p072"
+   "id": "p072",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'AFP, il estime que l'intelligence artificielle et « les robots pourraient à l'avenir remplacer la main d'oeuvre immigrée ».",
+      "lavenir_zemmour_afp"
+     ],
+     [
+      "Il cite les exemples de la Chine et du Japon.",
+      "ps_zemmour"
+     ],
+     [
+      "Nous n'avons pas trouvé de mesure concrète (aides à l'automatisation, calendrier).",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 50 848 premiers titres de séjour ont été délivrés pour motif économique (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8847,7 +9529,26 @@
     "cnews_villepin"
    ],
    "fin": "s",
-   "id": "p142"
+   "id": "p142",
+   "plus": {
+    "detail": [
+     [
+      "Inscrire le principe de la négociation sociale dans la loi et dans la Constitution.",
+      "cnews_villepin"
+     ],
+     [
+      "Nous n'avons pas trouvé quels sujets seraient obligatoirement négociés.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Pour l'assurance chômage, les représentants des employeurs et des salariés négocient déjà les règles ; sans accord, l'État les fixe par décret.",
+      "sujet_travail_unedic_qui_definit"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -8987,7 +9688,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p146"
+   "id": "p146",
+   "plus": {
+    "detail": [
+     [
+      "Rétablir la loi anti-casseurs, supprimée en 1981.",
+      "e1_zemmour_casseurs"
+     ],
+     [
+      "Faire payer les parents des casseurs, « quitte à leur prendre sur leurs allocations sociales ».",
+      "e1_zemmour_casseurs"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi de 2025 « visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents » a été promulguée après une décision du Conseil constitutionnel du 19 juin 2025.",
+      "sujet_securite_senat_mineurs_loi"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -9085,7 +9805,28 @@
    },
    "fin": "f",
    "finTxt": "Une partie des 211 milliards d'euros d'aides publiques reçues par les entreprises, et une partie du budget de la défense",
-   "id": "p149"
+   "id": "p149",
+   "plus": {
+    "detail": [
+     [
+      "Un budget rectificatif de 5 milliards d'euros pour rénover les lycées, puis 5 milliards d'euros par an pendant cinq ans pour moderniser les bâtiments scolaires.",
+      "pw_roussel"
+     ]
+    ],
+    "auj": [
+     [
+      "Les régions sont chargées de la construction et de la rénovation des lycées, les départements des collèges et les communes des écoles.",
+      "sujet_education_men_collectivites"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Le PCF propose de financer ses mesures pour la jeunesse par une partie des 211 milliards d'euros d'aides publiques reçues par les entreprises et une partie du budget de la défense.",
+      "pw_roussel"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -9104,7 +9845,32 @@
    },
    "fin": "f",
    "finTxt": "Une partie des 211 milliards d'euros d'aides publiques reçues par les entreprises, et une partie du budget de la défense",
-   "id": "p150"
+   "id": "p150",
+   "plus": {
+    "detail": [
+     [
+      "3,5 milliards d'euros pour recruter les 90 000 enseignants nécessaires pour réduire les effectifs par classe.",
+      "pw_roussel"
+     ],
+     [
+      "Remplacer tout professeur absent en 24 heures.",
+      "pw_roussel"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025-2026, 851 500 enseignants travaillent dans les écoles et établissements ; il y a en moyenne 25,7 élèves par classe au collège.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Même financement annoncé : une partie des aides publiques aux entreprises et du budget de la défense.",
+      "pw_roussel"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -9260,7 +10026,22 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p158"
+   "id": "p158",
+   "plus": {
+    "detail": [
+     [
+      "Avec François Ruffin, il demande la fin de Parcoursup et un budget de l'éducation « sanctuarisé ».",
+      "afp_villepin_ruffin"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "villepin",
@@ -9272,7 +10053,22 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p159"
+   "id": "p159",
+   "plus": {
+    "detail": [
+     [
+      "Ouvrir le droit de vote dès 16 ans, une demande faite avec François Ruffin.",
+      "afp_villepin_ruffin"
+     ]
+    ],
+    "auj": [
+     [
+      "Le droit de vote est fixé à 18 ans depuis 1974.",
+      "ps_vote16"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -9284,7 +10080,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p160"
+   "id": "p160",
+   "plus": {
+    "detail": [
+     [
+      "Avec Dominique de Villepin, il demande la fin de Parcoursup et un budget de l'éducation « sanctuarisé ».",
+      "afp_villepin_ruffin"
+     ],
+     [
+      "Nous n'avons pas trouvé par quoi il remplacerait la plateforme.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -9296,7 +10111,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p161"
+   "id": "p161",
+   "plus": {
+    "detail": [
+     [
+      "Ouvrir le droit de vote dès 16 ans, une demande faite avec Dominique de Villepin.",
+      "afp_villepin_ruffin"
+     ]
+    ],
+    "auj": [
+     [
+      "Le droit de vote est fixé à 18 ans depuis 1974.",
+      "ps_vote16"
+     ],
+     [
+      "Au premier tour de la présidentielle de 2022, 67,2 % des inscrits de 18 à 29 ans ont voté, contre 77,0 % des 65 ans ou plus.",
+      "sujet_institutions_insee_ip1929"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "markovic",
@@ -10018,7 +10852,26 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p184"
+   "id": "p184",
+   "plus": {
+    "detail": [
+     [
+      "Un « pacte agricole » entre l'État et les agriculteurs pour sortir progressivement des pesticides de synthèse et des engrais azotés d'ici 2050.",
+      "lid_tondelier_sante_env"
+     ],
+     [
+      "Un fonds de transition agricole accompagnerait les exploitations.",
+      "lid_tondelier_sante_env"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, 70 100 tonnes de pesticides ont été vendues pour l'agriculture, 8 % de plus qu'en 2023 ; 38 % sont utilisables en bio ou en biocontrôle.",
+      "sujet_env_sdes_ventes_phyto_2024"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "tondelier",
@@ -10030,7 +10883,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p185"
+   "id": "p185",
+   "plus": {
+    "detail": [
+     [
+      "Interdire les perturbateurs endocriniens et les « polluants éternels » (PFAS) dans les produits du quotidien.",
+      "lid_tondelier_sante_env"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er janvier 2026, une loi interdit les PFAS dans les cosmétiques, les farts, et les vêtements et chaussures grand public.",
+      "sujet_env_loi_pfas_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -10050,7 +10918,27 @@
     "h": "ordre de grandeur annoncé"
    },
    "fin": "c",
-   "id": "p186"
+   "id": "p186",
+   "plus": {
+    "detail": [
+     [
+      "Généraliser les paiements pour services environnementaux, qui rémunèrent les agriculteurs pour développer et bien gérer haies, mares et autres éléments du paysage.",
+      "ruffin_travaillisme",
+      "agra_ruffin"
+     ],
+     [
+      "Selon l'économiste qui présente son programme agricole, ces paiements coûteraient « de l'ordre du milliard d'euros par an ».",
+      "agra_ruffin"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 2,69 millions d'hectares sont cultivés en bio, environ 10 % de la surface agricole.",
+      "sujet_env_agencebio_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "ruffin",
@@ -10062,7 +10950,16 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p187"
+   "id": "p187",
+   "plus": {
+    "detail": [
+     [
+      "Rétablir la consigne pour les bouteilles en verre et divers contenants.",
+      "ruffin_travaillisme"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -10074,7 +10971,26 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p188"
+   "id": "p188",
+   "plus": {
+    "detail": [
+     [
+      "Organiser des « réserves stratégiques » de fourrage pour nourrir les animaux l'hiver.",
+      "cde_roussel_fourrage"
+     ],
+     [
+      "Si les volumes manquent, l'État achèterait du foin hors de France.",
+      "cde_roussel_fourrage"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 10 septembre 2026, 93 départements de l'Hexagone avaient des restrictions d'usage de l'eau, dont 74 au niveau « crise ».",
+      "sujet_env_bsh_2026_09"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "zemmour",
@@ -10086,7 +11002,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p189"
+   "id": "p189",
+   "plus": {
+    "detail": [
+     [
+      "Relancer le nucléaire au nom de la souveraineté énergétique : six nouveaux réacteurs EPR d'ici 2035, et quatorze d'ici 2045.",
+      "jdd_ecologie_droite"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France.",
+      "sujet_ecologie_rte_bilan2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "polony",
@@ -10451,7 +11382,26 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p201"
+   "id": "p201",
+   "plus": {
+    "detail": [
+     [
+      "Rendre obligatoire l'étiquetage des contenus générés par l'intelligence artificielle.",
+      "maddyness_ia"
+     ],
+     [
+      "Imposer la traçabilité des données utilisées pour entraîner les modèles.",
+      "maddyness_ia"
+     ]
+    ],
+    "auj": [
+     [
+      "Le règlement européen sur l'IA s'applique de façon générale depuis le 2 août 2026, avec des exceptions.",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -15936,6 +16886,550 @@
     ],
     "maj": "2026-10-19"
    }
+  },
+  {
+   "c": "tondelier",
+   "id": "p334",
+   "k": "retraites",
+   "aj": "2026-10-19",
+   "th": "retraites",
+   "t": "Revenir à 62 ans, et viser 60 ans pour les carrières longues",
+   "d": "Revenir à un âge minimum de départ de 62 ans, avec un objectif de 60 ans pour les carrières longues et les métiers pénibles.",
+   "s": [
+    "pp_ecolos_retraites",
+    "eco_projet"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Retour à un âge minimum de 62 ans, avec un objectif de 60 ans pour les carrières longues et les métiers pénibles.",
+      "pp_ecolos_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du projet des Écologistes pour 2027, tel que le résume la presse.",
+     "eco_projet"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "tondelier",
+   "id": "p335",
+   "k": "nucleaire",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Planifier la sortie du nucléaire sur une vingtaine d'années",
+   "d": "Planifier la sortie du parc nucléaire français sur une vingtaine d'années, au profit des renouvelables et du stockage.",
+   "s": [
+    "pp_ecolos_retraites",
+    "eco_projet"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Les écologistes veulent planifier la sortie du parc français sur une vingtaine d'années ».",
+      "pp_ecolos_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France. La programmation de l'énergie adoptée en 2026 prévoit de nouvelles capacités solaires et éoliennes d'ici 2035.",
+      "sujet_ecologie_rte_bilan2025",
+      "sujet_ecologie_senat_ppe3"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du projet des Écologistes pour 2027, tel que le résume la presse.",
+     "eco_projet"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "tondelier",
+   "id": "p336",
+   "k": "zucman",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Un impôt de 2 % sur les patrimoines de plus de 100 millions (taxe Zucman)",
+   "d": "Instaurer la taxe Zucman, un prélèvement de 2 % sur les patrimoines de plus de 100 millions d'euros, et une « fiscalité verte et juste » : l'avion plus cher, le train moins cher.",
+   "s": [
+    "pp_ecolos_retraites",
+    "pp_ecolos_institutions",
+    "eco_projet"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "La taxe Zucman : « un prélèvement de 2 % sur les patrimoines de plus de 100 millions d'euros ».",
+      "pp_ecolos_retraites"
+     ],
+     [
+      "Le projet évoque aussi « un ISF climatique, une TVA verte, ou une transformation de la fiscalité des transports » : « l'avion doit coûter plus cher, le train moins cher ».",
+      "pp_ecolos_institutions"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis 2026, une contribution différentielle impose au moins 20 % aux foyers dont le revenu fiscal dépasse 250 000 € (personne seule) ou 500 000 € (couple).",
+      "sujet_eco_ecogouv_lfi2026_particuliers"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du projet des Écologistes pour 2027, tel que le résume la presse.",
+     "eco_projet"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "tondelier",
+   "id": "p337",
+   "k": "lbd",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "Supprimer les LBD et démanteler la Brav-M",
+   "d": "Supprimer les lanceurs de balles de défense (LBD) et démanteler la Brav-M, une brigade de police motorisée.",
+   "s": [
+    "pp_ecolos_retraites",
+    "eco_projet"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Le projet prévoit « la suppression des LBD et le démantèlement de la Brav-M ».",
+      "pp_ecolos_retraites"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du projet des Écologistes pour 2027, tel que le résume la presse.",
+     "eco_projet"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "tondelier",
+   "id": "p338",
+   "k": "europe",
+   "aj": "2026-10-19",
+   "th": "europe",
+   "t": "Partager davantage de compétences avec l'Union européenne",
+   "d": "Donner plus de compétences à l'Union européenne, y compris en politique étrangère, sécurité commune, fiscalité et protection sociale.",
+   "s": [
+    "pp_ecolos_retraites",
+    "eco_projet"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Les écologistes veulent « partager davantage de compétences avec l'Union européenne », y compris la politique étrangère, la sécurité commune, la fiscalité et la protection sociale.",
+      "pp_ecolos_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Conseil de l'Union européenne, la politique étrangère et de sécurité commune se décide à l'unanimité, sauf exceptions.",
+      "sujet_europe_consilium_unanimity"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du projet des Écologistes pour 2027, tel que le résume la presse.",
+     "eco_projet"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "tondelier",
+   "id": "p339",
+   "k": "ukraine",
+   "aj": "2026-10-19",
+   "th": "defense",
+   "t": "Soutenir l'Ukraine militairement et préparer l'armée à une guerre de haute intensité",
+   "d": "Soutenir l'Ukraine militairement et économiquement, et préparer l'armée française à une guerre de haute intensité.",
+   "s": [
+    "pp_ecolos_retraites",
+    "eco_projet"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Soutenir Kiev « militairement » et économiquement, et préparer l'armée à une guerre de haute intensité.",
+      "pp_ecolos_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi d'août 2026 sur la programmation militaire prévoit 436 milliards d'euros pour la défense sur 2024-2030.",
+      "sujet_europe_senat_loi_lpm"
+     ]
+    ],
+    "note": [
+     "Ces mesures viennent du projet des Écologistes pour 2027, tel que le résume la presse.",
+     "eco_projet"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p340",
+   "k": "salaire",
+   "aj": "2026-10-19",
+   "th": "travail",
+   "t": "200 € nets de plus par mois en moyenne",
+   "d": "Une « révolution du salaire net » : 200 € nets de plus par mois en moyenne, en basculant plus de 200 milliards d'euros de cotisations vers une CSG à taux unique.",
+   "s": [
+    "lfh_economie",
+    "lcp_villepin_bigbang"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« La révolution du salaire net » : « +200 € nets par mois en moyenne ».",
+      "lfh_economie"
+     ],
+     [
+      "Il veut « un taux unique de CSG pour tous » et basculer vers la CSG « plus de deux cents milliards d'euros » de cotisations.",
+      "lcp_villepin_bigbang"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, le salaire net médian dans le privé est de 2 190 € par mois en équivalent temps plein.",
+      "sujet_travail_insee_salaires2024"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p341",
+   "k": "capitalisation",
+   "aj": "2026-10-19",
+   "th": "retraites",
+   "t": "Une capitalisation publique garantie dès la naissance",
+   "d": "Créer une capitalisation publique garantie dès la naissance, avec un livret universel au rendement garanti, adossée à un « Fonds France » réunissant 1 200 à 1 500 milliards d'euros d'actifs publics.",
+   "s": [
+    "lfh_economie"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Une capitalisation publique garantie », « dès la naissance », avec un livret universel au rendement garanti.",
+      "lfh_economie"
+     ],
+     [
+      "Un « Fonds France » réunirait « 1 200 à 1 500 Md€ d'actifs publics ».",
+      "lfh_economie"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les dépenses de retraite représentent 14,1 % du PIB, soit 422 milliards d'euros.",
+      "sujet_retraites_cor_ra2026"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p342",
+   "k": "electricite",
+   "aj": "2026-10-19",
+   "th": "pouvoir",
+   "t": "L'électricité au prix du nucléaire : -15 % sur la facture",
+   "d": "Vendre l'électricité au prix du nucléaire français, pour baisser la facture de 15 %.",
+   "s": [
+    "lfh_economie"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« L'électricité au prix du nucléaire français » : « −15 % sur la facture d'électricité ».",
+      "lfh_economie"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France. Les tarifs réglementés sont proposés par la CRE puis fixés par les ministres.",
+      "sujet_ecologie_rte_bilan2025",
+      "sujet_pouvoir_cre_2026_147"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p343",
+   "k": "logement",
+   "aj": "2026-10-19",
+   "th": "logement",
+   "t": "500 000 logements par an",
+   "d": "Construire 500 000 logements par an, en taxant le terrain plutôt que la maison : 0 € d'impôt pour bâtir et rénover.",
+   "s": [
+    "lfh_economie"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Un logement abordable » : « 500 000 logements par an ».",
+      "lfh_economie"
+     ],
+     [
+      "« Taxer le terrain, pas la maison » : « 0 € d'impôt pour bâtir et rénover ».",
+      "lfh_economie"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier, 21,3 % de moins que la moyenne des cinq années précédentes.",
+      "sujet_logement_sdes_construction2025"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p344",
+   "k": "niches",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Supprimer toutes les niches fiscales en cinq ans",
+   "d": "Une « nuit du 4 août des niches fiscales » : une loi d'extinction progressive de toutes les niches fiscales et sociales en cinq ans.",
+   "s": [
+    "lfh_economie",
+    "lcp_villepin_bigbang"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« La nuit du 4 août des niches fiscales » : « 5 ans pour supprimer toutes les niches fiscales ».",
+      "lfh_economie"
+     ],
+     [
+      "« Une grande loi d'extinction des niches fiscales et sociales », « progressive, accompagnée et évaluée tout au long du quinquennat ».",
+      "lcp_villepin_bigbang"
+     ],
+     [
+      "Une partie des recettes servirait à « compenser immédiatement les impacts sur l'emploi et sur la viabilité des entreprises et des associations ».",
+      "lcp_villepin_bigbang"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Une nouvelle abolition des privilèges est essentielle. »",
+      "lcp_villepin_bigbang"
+     ],
+     [
+      "Selon lui, « notre État est un tonneau des Danaïdes ».",
+      "lcp_villepin_bigbang"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p345",
+   "k": "impots",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Neuf impôts et un impôt unique sur le patrimoine des 1 % les plus riches",
+   "d": "Ramener la fiscalité à neuf impôts, créer un impôt unique sur le patrimoine des 1 % les plus riches (au-delà de 2,2 millions d'euros) et une imposition renforcée des successions, avec 1 million d'euros transmis sans droits de son vivant.",
+   "s": [
+    "lfh_economie",
+    "lcp_villepin_bigbang"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Neuf impôts, un code de quarante pages ».",
+      "lfh_economie"
+     ],
+     [
+      "« Un impôt unique sur le patrimoine des 1 % », à partir de 2,2 millions d'euros, « incluant l'ensemble des sources de la fortune ».",
+      "lfh_economie",
+      "lcp_villepin_bigbang"
+     ],
+     [
+      "« Une imposition unique et renforcée des successions », en échange d'une « défiscalisation intégrale des transmissions de son vivant » : 1 million d'euros transmis sans droits.",
+      "lcp_villepin_bigbang",
+      "lfh_economie"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, « l'héritage détermine la position sociale davantage que le travail ».",
+      "lcp_villepin_bigbang"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p346",
+   "k": "deficit",
+   "aj": "2026-10-19",
+   "th": "budget",
+   "t": "Une loi de finances pour cinq ans, et moins de 3 % de déficit en 2031",
+   "d": "Voter une loi de finances pour cinq ans et ramener le déficit public sous 3 % du PIB en 2031.",
+   "s": [
+    "lfh_economie",
+    "lcp_villepin_bigbang"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Une loi de finances pour cinq ans » et « < 3 % de déficit en 2031 ».",
+      "lfh_economie"
+     ],
+     [
+      "Il compte sur une forte baisse des dépenses et une croissance annuelle estimée à 0,8 %.",
+      "lcp_villepin_bigbang"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget pour 2027 prévoit un déficit public de 5,0 % du PIB ; le Gouvernement vise moins de 3 % en 2029.",
+      "sujet_budget_ecogouv_plf2027",
+      "sujet_budget_tresor_raa2026"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p347",
+   "k": "nucleaire",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "6 EPR2 et l'éolien en mer, et un million de voitures électriques en leasing social",
+   "d": "Construire 6 réacteurs EPR2, industrialiser l'éolien en mer et proposer un million de voitures électriques en leasing social.",
+   "s": [
+    "lfh_economie"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Pour « sortir de la “crise de Suez permanente” » : « 6 EPR2 et un éolien en mer industrialisé ».",
+      "lfh_economie"
+     ],
+     [
+      "« 1 million de voitures électriques en leasing social ».",
+      "lfh_economie"
+     ]
+    ],
+    "auj": [
+     [
+      "La programmation de l'énergie adoptée en 2026 prévoit 15 GW d'éolien en mer en 2035.",
+      "sujet_ecologie_senat_ppe3"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "villepin",
+   "id": "p348",
+   "k": "codes",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Diviser par quatre le volume des codes et clarifier qui fait quoi",
+   "d": "Diviser par quatre le volume des codes juridiques (un « nouveau Code Napoléon ») et passer un contrat avec les territoires : une compétence, une collectivité, un impôt voté localement.",
+   "s": [
+    "lfh_economie"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Le nouveau Code Napoléon » : « ÷ 4 le volume des codes ».",
+      "lfh_economie"
+     ],
+     [
+      "« Un contrat de confiance avec les territoires » : « 1 compétence, une collectivité, un impôt voté localement ».",
+      "lfh_economie"
+     ]
+    ],
+    "auj": [
+     [
+      "Les collectivités territoriales s'administrent librement par des conseils élus, dans les conditions prévues par la loi (article 72 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de La France humaniste ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   }
  ],
  "sources": {
@@ -20544,6 +22038,62 @@
    "d": "2026-04-19",
    "type": "presse",
    "u": "https://lcp.fr/actualites/presidentielle-bruno-retailleau-choisi-comme-candidat-officiel-des-republicains-435440"
+  },
+  "pp_pcf_pacte": {
+   "t": "PCF : le pacte de Fabien Roussel pour la France, 500 milliards en 5 ans, nationalisations bancaires, 200 000 logements par an",
+   "p": "Parlons Politique",
+   "d": "2025-08-23",
+   "type": "presse",
+   "u": "https://www.parlons-politique.fr/actualite-nationale/pcf-le-pacte-de-fabien-roussel-pour-la-france-500-milliards-en-5-ans-nationalisations-bancaires-200-000-logements-an-baisse-du-prix-de-lelectricite_2156/"
+  },
+  "lyoncapitale_ruffin": {
+   "t": "Présidentielle 2027 : à Lyon, François Ruffin lance sa campagne",
+   "p": "Lyon Capitale",
+   "d": "2026-04-26",
+   "type": "presse",
+   "u": "https://www.lyoncapitale.fr/?p=495954"
+  },
+  "pp_ecolos_retraites": {
+   "t": "Ce que le programme écologiste de Marine Tondelier changerait pour les retraites, le nucléaire et les impôts",
+   "p": "Parlons Politique",
+   "d": "2026-07-13",
+   "type": "presse",
+   "u": "https://www.parlons-politique.fr/elections/ce-que-le-programme-ecologiste-de-marine-tondelier-changerait-pour-les-retraites-le-nucleaire-et-les-impots_23570/"
+  },
+  "pp_ecolos_institutions": {
+   "t": "Présidentielle écologiste 2027 : les Français face à une refonte des institutions et à une fiscalité plus juste",
+   "p": "Parlons Politique",
+   "d": "2026-07",
+   "type": "presse",
+   "u": "https://www.parlons-politique.fr/elections/presidentielle-ecologiste-2027-les-francais-face-a-une-refonte-des-institutions-et-a-une-fiscalite-plus-juste_23552/"
+  },
+  "lfh_economie": {
+   "t": "Programme économique : 20 propositions",
+   "p": "La France humaniste (son mouvement)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://lafrancehumaniste.fr/programme/economie.html"
+  },
+  "lfh_france2027": {
+   "t": "Projet France 2027 : le programme de Dominique de Villepin",
+   "p": "La France humaniste (son mouvement)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://lafrancehumaniste.fr/france2027.html"
+  },
+  "lcp_villepin_bigbang": {
+   "t": "Présidentielle 2027 : Dominique de Villepin veut une « nouvelle abolition des privilèges » et un « big bang » fiscal",
+   "p": "LCP",
+   "d": "2026-08-28",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/presidentielle-2027-dominique-villepin-veut-une-nouvelle-abolition-des-privileges-et-un"
+  },
+  "lavenir_zemmour_afp": {
+   "t": "Zemmour confirme qu'il sera candidat à l'élection présidentielle en France et durcit encore son discours sur l'immigration",
+   "p": "L'Avenir (dépêche AFP)",
+   "d": "2026-09-18",
+   "type": "presse",
+   "u": "https://www.lavenir.net/actu/monde/2026/09/18/zemmour-confirme-quil-sera-candidat-a-lelection-presidentielle-en-france-et-durcit-encore-son-discours-sur-limmigration-5OFMOVM6CVCDFHY4B3GI5QID3Q/"
   }
  },
  "presse": [
