@@ -1026,6 +1026,67 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il n'a pas encore publié de programme complet : il présente ses mesures au fil des interventions (Medef en août, climat en septembre, « L'Heure de vérité » en octobre 2026).",
+      "lcp_philippe",
+      "lid_philippe_climat",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p041",
+      "p042",
+      "p326"
+     ],
+     "finances": [
+      "p324",
+      "p043",
+      "p325"
+     ],
+     "interieur": [
+      "p144"
+     ],
+     "social": [
+      "p145"
+     ],
+     "gouvernance": [
+      "p143",
+      "p045"
+     ],
+     "education": [
+      "p046"
+     ],
+     "environnement": [
+      "p176",
+      "p047",
+      "p177"
+     ],
+     "numerique": [
+      "p196",
+      "p197"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il vise un déficit à 2 % du PIB en fin de quinquennat. Montants trouvés : 30 milliards d'euros par an attendus de sa réforme des retraites, 50 milliards de baisse d'impôts de production compensée par moins d'aides, 2 milliards par an pour l'adaptation au climat.",
+       "sudradio_philippe_hdv",
+       "ps_retraites",
+       "lcp_philippe",
+       "lid_philippe_climat"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de l'ensemble de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -3402,11 +3463,15 @@
    "tri": "Philippot",
    "parti": "Les Patriotes",
    "statut": "partiel",
-   "statutTxt": "Livret d'orientations publié",
+   "statutTxt": "Candidat déclaré ; projet publié par son parti, que nous n'avons pas pu consulter",
    "faits": [
     [
-     "Candidat déclaré le 9 mai 2026.",
-     "qpq"
+     "« Je suis candidat à l'élection présidentielle », a-t-il déclaré le 9 mai 2026 sur France 2.",
+     "bio_philippot_sudradio"
+    ],
+    [
+     "Il a dit qu'il se retirerait en cas de « candidature plus rassembleuse » dans le camp souverainiste, citant Philippe de Villiers.",
+     "bio_philippot_sudradio"
     ]
    ],
    "docs": [],
@@ -3470,6 +3535,33 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son parti, Les Patriotes, a publié un projet, que nous n'avons pas pu consulter. Nous ne reprenons que ce que confirme la presse.",
+      null
+     ]
+    ],
+    "phares": {
+     "europe": [
+      "p120"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage vérifiable de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -5835,7 +5927,8 @@
    "t": "La retraite à 65 ans, complétée par de l'épargne retraite",
    "d": "Porter l'âge légal à 65 ans en moins de dix ans avec 45 annuités ; créer un fonds de capitalisation collectif obligatoire et généraliser le plan d'épargne retraite, abondé de 500 € au premier contrat.",
    "s": [
-    "ps_retraites"
+    "ps_retraites",
+    "sudradio_philippe_hdv"
    ],
    "aj": "2026-10-01",
    "a": {
@@ -5845,19 +5938,84 @@
     "h": "en année pleine, montant annoncé"
    },
    "fin": "c",
-   "id": "p041"
+   "id": "p041",
+   "plus": {
+    "detail": [
+     [
+      "Il vise un âge légal à 65 ans en « moins de dix ans », et propose « d'étendre la durée de cotisation à 45 ans, soit deux années de plus que le cadre actuel ».",
+      "ps_retraites"
+     ],
+     [
+      "Il veut un fonds de capitalisation « collectif obligatoire », « neutre sur le coût du travail », et généraliser le plan d'épargne retraite, abondé par l'État « de 500 euros lors de la signature du premier contrat de travail ».",
+      "ps_retraites"
+     ],
+     [
+      "Il prévoit une concertation préalable avec les partenaires sociaux.",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il assume de faire travailler plus longtemps, et affirme qu'un Français sur trois pourra partir entre 60 et 64 ans, grâce aux carrières longues ou aux métiers pénibles.",
+      "ps_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969), avec 170 à 172 trimestres requis pour les générations 1964 à 1968.",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "La loi de financement de la sécurité sociale pour 2026 a suspendu jusqu'en 2028 le relèvement de l'âge légal prévu par la réforme de 2023.",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Sa réforme pourrait rapporter 30 milliards d'euros en année pleine, selon ses estimations.",
+      "ps_retraites"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
    "th": "travail",
    "t": "Le chômage indemnisé 12 mois au maximum pour les moins de 50 ans",
-   "d": "Limiter l'indemnisation du chômage à 12 mois pour les moins de 50 ans (18 mois aujourd'hui) et renforcer les jours de carence pour les arrêts maladie courts.",
+   "d": "Limiter l'indemnisation du chômage à 12 mois pour les moins de 50 ans (18 mois aujourd'hui avant 55 ans), et instaurer deux jours de carence non indemnisés pour les arrêts maladie ponctuels.",
    "s": [
     "lcp_philippe"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p042"
+   "id": "p042",
+   "plus": {
+    "detail": [
+     [
+      "Il veut une indemnisation de « douze mois maximum pour les moins de 50 ans », pour « faire comme l'Allemagne ».",
+      "lcp_philippe"
+     ],
+     [
+      "Pour les arrêts maladie, il veut « mettre fin à l'open bar » : deux jours non indemnisés pour les arrêts ponctuels, comme en Espagne, et trois à six mois de délai entre un arrêt maladie et une rupture conventionnelle.",
+      "lcp_philippe"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il dénonce une hausse d'environ 40 % des arrêts maladie entre 2019 et 2025, « une dérive préoccupante », soit environ 17 milliards d'euros par an.",
+      "lcp_philippe"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, un chômeur peut être indemnisé jusqu'à 18 mois avant 55 ans ; depuis septembre 2026, 15 mois après une rupture conventionnelle.",
+      "sujet_travail_unedic_duree",
+      "sujet_travail_unedic_sept2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -5876,7 +6034,26 @@
    },
    "fin": "f",
    "finTxt": "Une baisse équivalente des aides aux entreprises",
-   "id": "p043"
+   "id": "p043",
+   "plus": {
+    "detail": [
+     [
+      "Il veut supprimer 50 milliards d'euros d'impôts de production, compensés par une baisse équivalente des aides aux entreprises. Il défend une politique de l'offre.",
+      "lcp_philippe"
+     ],
+     [
+      "Il veut aussi défendre le pacte Dutreil, qui allège la fiscalité des transmissions d'entreprises familiales.",
+      "lcp_philippe"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -5888,19 +6065,59 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p044"
+   "id": "p044",
+   "plus": {
+    "detail": [
+     [
+      "Il veut relever fortement les plafonds de donation pendant les trois premières années du quinquennat, pour transmettre le patrimoine « beaucoup plus vite » et aider la jeunesse.",
+      "lcp_philippe"
+     ],
+     [
+      "Il se dit en « désaccord frontal » avec les propositions de hausse de la fiscalité des successions.",
+      "lcp_philippe"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
    "th": "institutions",
-   "t": "Dissoudre l'Assemblée et organiser trois référendums après l'élection",
-   "d": "Dissoudre l'Assemblée après l'élection et organiser trois référendums : retraites, règle d'or budgétaire, ordonnances pour réformer justice, école et santé.",
+   "t": "Dissoudre l'Assemblée et organiser trois référendums après l'élection (annoncé en 2025)",
+   "d": "En mars 2025, il annonçait vouloir dissoudre l'Assemblée après l'élection et organiser trois référendums : retraites, règle d'or budgétaire, ordonnances pour réformer justice, école et santé. En octobre 2026, il n'a pas précisé par quelle voie passerait sa réforme des retraites.",
    "s": [
-    "e1_philippe"
+    "e1_philippe",
+    "sudradio_philippe_hdv"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p045"
+   "id": "p045",
+   "plus": {
+    "detail": [
+     [
+      "En mars 2025, il présentait cette méthode : dissolution de l'Assemblée après la présidentielle et référendums sur les retraites, une règle d'or budgétaire et des ordonnances.",
+      "e1_philippe"
+     ],
+     [
+      "En octobre 2026, il n'a pas précisé si sa réforme des retraites passerait par le Parlement, un référendum ou des ordonnances.",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il estime qu'« un président doit présider et non gouverner ».",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Président peut dissoudre l'Assemblée nationale ; la dernière dissolution date de juin 2024.",
+      "sujet_institutions_cc_constitution",
+      "sujet_institutions_info_dissolution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -5912,7 +6129,36 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p046"
+   "id": "p046",
+   "plus": {
+    "detail": [
+     [
+      "Augmenter de 20 % la rémunération moyenne des enseignants sur le quinquennat, pour « redonner de la dignité à leur métier ».",
+      "ps_ecole"
+     ],
+     [
+      "Une « amende de responsabilisation scolaire » pour certains parents d'enfants harceleurs, absentéistes ou très perturbateurs ; les établissements pourraient imposer l'uniforme.",
+      "ps_ecole"
+     ],
+     [
+      "Plus d'autonomie pour les établissements (méthodes, horaires, discipline, choix des enseignants), en échange de la publication de leurs résultats.",
+      "ps_ecole"
+     ]
+    ],
+    "objectif": [
+     [
+      "« L'intérêt de nos enfants sera la boussole du quinquennat. »",
+      "ps_ecole"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025-2026, 851 500 enseignants travaillent dans les écoles et établissements.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -5924,7 +6170,26 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p047"
+   "id": "p047",
+   "plus": {
+    "detail": [
+     [
+      "Il veut lancer un « grand plan fret-ferroviaire », utile selon lui à la compétitivité et à la baisse des émissions de CO2.",
+      "lcp_philippe"
+     ],
+     [
+      "Il veut aussi développer le stockage de l'eau sans puiser de façon excessive dans les nappes.",
+      "lcp_philippe"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les émissions de gaz à effet de serre de la France sont pré-estimées à 359 millions de tonnes équivalent CO2, en baisse de 2,1 %.",
+      "sujet_ecologie_hcc_ra2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -7456,31 +7721,41 @@
    "aj": "2026-10-03",
    "c": "philippot",
    "th": "europe",
-   "t": "Sortir de l'UE, de l'euro, de Schengen, de l'OTAN et de l'OMS",
-   "d": "Sortir de l'Union européenne, de l'euro, de l'espace Schengen, de la Convention européenne des droits de l'homme, de l'OTAN et de l'OMS.",
+   "t": "Sortir de l'Union européenne et de l'OTAN",
+   "d": "Faire sortir la France de l'Union européenne et de l'OTAN.",
    "s": [
-    "qpq"
+    "bio_philippot_sudradio"
    ],
    "fin": "n",
-   "id": "p120"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "philippot",
-   "th": "budget",
-   "t": "60 milliards d'économies et 74,8 milliards de recettes par an, grâce à ces sorties",
-   "d": "Il chiffre à 60 milliards d'euros les économies et à 74,8 milliards les recettes annuelles liées à la sortie de l'Union européenne.",
-   "s": [
-    "qpq"
-   ],
-   "a": {
-    "v": 60,
-    "nature": "economie",
-    "per": "an",
-    "h": "plus 74,8 milliards de recettes annoncées"
-   },
-   "fin": "c",
-   "id": "p121"
+   "id": "p120",
+   "plus": {
+    "detail": [
+     [
+      "Sud Radio le présente comme favorable à une sortie de la France de l'Union européenne et de l'OTAN.",
+      "bio_philippot_sudradio"
+     ],
+     [
+      "Il cite Philippe de Villiers comme incarnant « possiblement ce rassemblement anti-UE et anti-Otan ».",
+      "bio_philippot_sudradio"
+     ],
+     [
+      "Nous n'avons pas pu consulter le projet publié par son parti, Les Patriotes : nous n'avons pas repris les autres sorties (euro, Schengen, OMS) que lui attribuent des comparateurs.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Un seul pays a quitté l'Union européenne : le Royaume-Uni, qui a notifié son départ le 29 mars 2017 et est sorti le 31 janvier 2020.",
+      "ue_brexit_report_2020",
+      "pref_brexit_2021"
+     ],
+     [
+      "L'article 13 du traité de l'Atlantique Nord permet de quitter l'OTAN un an après l'avoir notifié au gouvernement des États-Unis.",
+      "nato_traite_1949"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8265,11 +8540,34 @@
    "t": "Une vingtaine d'ordonnances dès juillet 2027",
    "d": "S'il est élu, présenter « dès juillet » 2027, au début de la session extraordinaire du Parlement, une vingtaine d'ordonnances, pour qu'elles « entrent en vigueur dès l'automne ».",
    "s": [
-    "afp_philippe_ordonnances"
+    "afp_philippe_ordonnances",
+    "sudradio_philippe_hdv"
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p143"
+   "id": "p143",
+   "plus": {
+    "detail": [
+     [
+      "S'il est élu, il présenterait « dès juillet » 2027, après d'éventuelles législatives, « une vingtaine d'ordonnances », pour qu'elles « entrent en vigueur dès l'automne ».",
+      "afp_philippe_ordonnances",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il veut mettre fin à « l'indétermination » dans laquelle vit le pays, pour une France « commandée et gouvernée ».",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Gouvernement peut prendre des ordonnances dans des domaines de la loi, après une autorisation du Parlement (article 38 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -8277,11 +8575,46 @@
    "t": "Diviser par deux l'immigration légale et suspendre le regroupement familial",
    "d": "Réduire très sensiblement le nombre de titres de séjour délivrés chaque année, à un niveau « largement inférieur à 200 000 », et un moratoire sur le regroupement familial pendant la durée du quinquennat.",
    "s": [
-    "lcp_philippe_immig"
+    "lcp_philippe_immig",
+    "sudradio_philippe_hdv"
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p144"
+   "id": "p144",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « diviser par deux l'immigration légale », en revenant à un niveau « largement inférieur à 200.000 » titres de séjour par an, comme avant 2010.",
+      "lcp_philippe_immig",
+      "sudradio_philippe_hdv"
+     ],
+     [
+      "Il propose « un moratoire » pendant le quinquennat sur l'immigration issue de « choix individuels », en particulier le regroupement familial, avec un « protocole additionnel » à la Convention européenne des droits de l'homme.",
+      "lcp_philippe_immig"
+     ],
+     [
+      "Il ne veut pas ramener l'immigration « à zéro » : la France a besoin, selon lui, de « dizaines de milliers de personnes qui viennent travailler en France ».",
+      "lcp_philippe_immig"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Notre politique d'intégration ne fonctionne pas », et « un certain nombre de nos services publics sont saturés ».",
+      "lcp_philippe_immig"
+     ],
+     [
+      "« Il faut donc admettre que l'immigration est trop importante ».",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés, dont 90 959 pour motif familial (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -8289,11 +8622,45 @@
    "t": "Une allocation familiale unique de 350 euros dès le premier enfant",
    "d": "Une allocation familiale unique de 350 euros, versée dès le premier enfant à toutes les familles, y compris monoparentales, et une baisse d'impôt sur le revenu pendant les trois années qui suivent une naissance.",
    "s": [
-    "orange_philippe_alloc"
+    "lcp_philippe_alloc",
+    "orange_philippe_alloc",
+    "sudradio_philippe_hdv"
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p145"
+   "id": "p145",
+   "plus": {
+    "detail": [
+     [
+      "Une allocation familiale unique de 350 euros par mois, dès le premier enfant, pour toutes les familles, y compris monoparentales.",
+      "lcp_philippe_alloc"
+     ],
+     [
+      "Pour les familles qui travaillent, une réduction d'impôt d'environ 3 000 euros pendant les trois années suivant une naissance.",
+      "lcp_philippe_alloc",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Aujourd'hui, on les aide beaucoup, mais à partir du deuxième et encore plus à partir du troisième. »",
+      "lcp_philippe_alloc"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France compte 1,56 enfant par femme et 645 000 naissances.",
+      "sujet_sante_insee_bilan_demo"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût ni de financement annoncés.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "zemmour",
@@ -9008,7 +9375,26 @@
     "h": "montant annoncé"
    },
    "fin": "c",
-   "id": "p176"
+   "id": "p176",
+   "plus": {
+    "detail": [
+     [
+      "Il veut réunir le Fonds Barnier et le Fonds vert dans un « fonds unique d'adaptation au changement climatique », doté de 2 milliards d'euros par an.",
+      "lid_philippe_climat"
+     ],
+     [
+      "Il propose aussi une « journée nationale d'alerte » et de former « chaque jeune Français » aux « gestes de premiers secours ».",
+      "lid_philippe_climat"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il compare ce montant aux « 5 milliards d'euros que coûtent chaque année les catastrophes naturelles ».",
+      "lid_philippe_climat"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -9020,7 +9406,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p177"
+   "id": "p177",
+   "plus": {
+    "detail": [
+     [
+      "Il se fixe l'objectif de produire un « Canadair français » pendant le quinquennat.",
+      "lid_philippe_climat"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour « ne plus attendre, quand la France brûle, qu'un autre pays veuille bien nous vendre des avions pour l'éteindre ».",
+      "lid_philippe_climat"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -9032,7 +9433,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p178"
+   "id": "p178",
+   "plus": {
+    "detail": [
+     [
+      "Atteindre 10 % de réutilisation des eaux usées, sur le modèle de l'Italie, et lutter contre le gaspillage de l'eau.",
+      "lid_philippe_climat"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 10 septembre 2026, 93 départements de l'Hexagone avaient des restrictions d'usage de l'eau.",
+      "sujet_env_bsh_2026_09"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -9459,7 +9875,22 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p196"
+   "id": "p196",
+   "plus": {
+    "detail": [
+     [
+      "Faire passer de 40 000 à 100 000 le nombre d'ingénieurs formés chaque année, et doubler en cinq ans les infrastructures informatiques françaises.",
+      "maddyness_ia"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 85 % des 18-24 ans utilisent l'IA générative.",
+      "sujet_numerique_barometre_rapport"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -9471,7 +9902,22 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p197"
+   "id": "p197",
+   "plus": {
+    "detail": [
+     [
+      "Créer un « droit à la reconversion » pour les personnes dont le métier est menacé par l'intelligence artificielle.",
+      "maddyness_ia"
+     ]
+    ],
+    "auj": [
+     [
+      "Le règlement européen sur l'IA impose depuis février 2025 des obligations de formation aux organisations qui utilisent l'IA.",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -14603,6 +15049,101 @@
     ],
     "maj": "2026-10-19"
    }
+  },
+  {
+   "c": "philippe",
+   "id": "p324",
+   "k": "deficit",
+   "aj": "2026-10-19",
+   "th": "budget",
+   "t": "Un déficit à 2 % du PIB en fin de quinquennat",
+   "d": "Ramener le déficit public sous 3 %, puis à 2 % du PIB à la fin du quinquennat, avec la moitié de l'effort sur les dépenses sociales et un quart sur les collectivités.",
+   "s": [
+    "sudradio_philippe_hdv"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il veut ramener le déficit sous 3 %, puis à 2 % à la fin du quinquennat, avec un effort de 50 % sur les dépenses sociales et de 25 % sur les collectivités.",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il refuse les « promesses inconsidérées » : « l'argent magique n'existe pas ».",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget pour 2027 prévoit un déficit public de 5,0 % du PIB ; le Gouvernement vise moins de 3 % en 2029.",
+      "sujet_budget_ecogouv_plf2027",
+      "sujet_budget_tresor_raa2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "philippe",
+   "id": "p325",
+   "k": "fonctionnaires",
+   "aj": "2026-10-19",
+   "th": "budget",
+   "t": "Ne remplacer que deux fonctionnaires sur trois partant à la retraite",
+   "d": "Ne pas remplacer un fonctionnaire sur trois partant à la retraite, soit environ 250 000 postes en moins sur cinq ans.",
+   "s": [
+    "sudradio_philippe_hdv"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Ne pas remplacer un fonctionnaire sur trois partant à la retraite, soit environ 250 000 postes supprimés sur cinq ans.",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "auj": [
+     [
+      "Fin 2024, 5,9 millions d'agents travaillent dans les trois fonctions publiques, dont 2,59 millions pour l'État.",
+      "sujet_etat_insee_fp2024"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "philippe",
+   "id": "p326",
+   "k": "travailler_plus",
+   "aj": "2026-10-19",
+   "th": "travail",
+   "t": "Pas de cotisations sociales pour ceux qui travaillent plus longtemps",
+   "d": "Exonérer de cotisations sociales les salariés qui acceptent de travailler plus longtemps, environ 1 000 euros de plus par an au niveau du Smic selon lui.",
+   "s": [
+    "sudradio_philippe_hdv"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Exonérer de cotisations sociales les salariés qui acceptent de travailler plus longtemps : le salaire augmenterait et le coût du travail baisserait pour les entreprises.",
+      "sudradio_philippe_hdv"
+     ],
+     [
+      "Il évoque un gain d'environ 1 000 euros par an pour un salarié au Smic.",
+      "sudradio_philippe_hdv"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Smic, un salarié à temps plein touche 1 867,02 € brut par mois, soit 1 477,93 € net, depuis le 1er juin 2026.",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   }
  ],
  "sources": {
@@ -19134,6 +19675,20 @@
    "d": "2026-07-11",
    "type": "presse",
    "u": "https://jhm.fr/sous-la-banniere-dequinoxe-antoine-mikolajczak-brigue-la-presidence-de-la-republique/"
+  },
+  "sudradio_philippe_hdv": {
+   "t": "À « L'Heure de vérité », Philippe ébauche une France « à nouveau commandée et gouvernée »",
+   "p": "Sud Radio (dépêche AFP)",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/societe/a-lheure-de-verite-philippe-ebauche-une-france-a-nouveau-commandee-et-gouvernee"
+  },
+  "lcp_philippe_alloc": {
+   "t": "Allocations familiales : Édouard Philippe propose 350 euros dès le premier enfant",
+   "p": "LCP",
+   "d": "2026-10-09",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/allocations-familiales-edouard-philippe-propose-350-euros-des-le-premier-enfant-443576"
   }
  },
  "presse": [
