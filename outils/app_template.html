@@ -928,8 +928,10 @@ function screenAccueil() {
   return `
   ${kit.length ? `<div class="sec-h"><h2>Avant de voter</h2></div>
   <div class="tools" role="list">${kit.map(f => `<a class="tool" role="listitem" href="#kit-${f.id}"><span class="ic">${kico(f.id)}</span><b>${esc(f.titre)}</b><span>${esc(f.sous || "")}</span></a>`).join("")}</div>` : ""}
-  <div class="sec-h"><h2>Comprendre les grands sujets</h2></div>
-  <div class="tiles">${DATA.themes.map(([k, l]) => { const S = DATA.sujets && DATA.sujets[k], f = S && S.chiffres && S.chiffres[S.tuile || 0]; return `<a class="tile" href="#comprendre-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${f ? esc(short(`${f.v} ${f.l.split(/[;(]/)[0].trim()}`, 58)) : k === "budget" && DATA.budget ? "Le budget en une image" : "Fiche en préparation"}</span></span></a>`; }).join("")}</div>
+  ${DATA.rubriques ? `<div class="sec-h"><h2>Comprendre les grands thèmes</h2></div>
+  <div class="tiles">${DATA.rubriques.map(([r, l]) => { const subs = rubSujetsAll(r), one = subs.length === 1 ? subs[0][0] : null, S = one && DATA.sujets[one], f = S && S.chiffres && S.chiffres[S.tuile || 0];
+    return `<a class="tile" href="${one ? "#comprendre-" + one : "#comprendre-r-" + r}"><span class="ic">${svg("r_" + r)}</span><span class="tt"><b>${esc(l)}</b><span>${one ? (f ? esc(short(`${f.v} ${f.l.split(/[;(]/)[0].trim()}`, 58)) : "Fiche en préparation") : esc(`${subs.length} sujets : ${subs.map(x => x[1]).join(", ")}`)}</span></span></a>`; }).join("")}</div>` : `<div class="sec-h"><h2>Comprendre les grands sujets</h2></div>
+  <div class="tiles">${DATA.themes.map(([k, l]) => { const S = DATA.sujets && DATA.sujets[k], f = S && S.chiffres && S.chiffres[S.tuile || 0]; return `<a class="tile" href="#comprendre-${k}"><span class="ic">${svg(k)}</span><span class="tt"><b>${esc(l)}</b><span>${f ? esc(short(`${f.v} ${f.l.split(/[;(]/)[0].trim()}`, 58)) : k === "budget" && DATA.budget ? "Le budget en une image" : "Fiche en préparation"}</span></span></a>`; }).join("")}</div>`}
   ${screenActu(true)}`;
 }
 
@@ -1099,7 +1101,7 @@ const parcoursHtml = (pc, X) => `<section class="card parcours" id="parcours"><h
    Une vidéo du candidat passe avant ses propositions écrites ; sans vidéo, la carte présente la proposition. */
 /* Filtre par sujet : on fait défiler tous les candidats sur un même thème */
 function buildFeed() {
-  const th = ui.feedTh, keep = x => th === "tous" || x.th === th;
+  const th = ui.feedTh, keep = x => th === "tous" || (DATA.rubriques ? rubOf(x) : x.th) === th;
   const vids = (DATA.videos || []).filter(keep);
   const per = candSorted().map(c => ({ c: c.id, items: vids.filter(v => v.c === c.id).map(v => ({ v })).concat(propsOf(c.id).filter(keep).map(p => ({ p }))) }));
   const cards = [];
@@ -1221,6 +1223,22 @@ function storyTheme(k) {
   screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} sur ce sujet</span>` : `<b class="st-t in"${D(150)}>${esc(THEME_NAME[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#t-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-${k}">Comprendre le sujet en détail</a></div><button type="button" class="st-again" data-st-again>Revoir la story</button><span class="st-src">Tous les chiffres de cette story viennent de la fiche « Comprendre le sujet » et des propositions de l'appli.</span>`);
   return { title: THEME_NAME[k], sub: `Un sujet en ${screens.length} écrans`, icon: svg(k), screens };
 }
+/* Story d'un thème : la story du sujet s'il est seul ; sinon l'essentiel de chaque sujet, puis les propositions du thème */
+function storyRub(k) {
+  const RN = Object.fromEntries(DATA.rubriques); if (!RN[k]) return null;
+  const subs = rubSujetsAll(k); if (!subs.length) return null;
+  const ps = DATA.propositions.filter(p => rubOf(p) === k), who = candSorted().filter(c => ps.some(p => p.c === c.id));
+  if (subs.length === 1) { const S = storyTheme(subs[0][0]); if (!S) return null; return { ...S, title: RN[k], sub: `Un thème en ${S.screens.length} écrans`, icon: svg("r_" + k) }; }
+  const screens = subs.map(([t, l], i) => { const S = storyTheme(t); return S ? S.screens[0].replace(`<span class="st-k in">L'essentiel</span>`, `<span class="st-k in">${esc(l)}</span>`).replace(i ? `<span class="st-hint in"${D(2200)}>${HINT}</span>` : "@@", "") : null; }).filter(Boolean);
+  const propSrc = '<span class="st-src">Sources : les propositions de chaque candidat, dans l\'onglet Propositions</span>';
+  if (!ps.length) screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>Aucune proposition relevée pour l'instant dans ce thème</b>`);
+  else {
+    const pick = shuffle(who.slice()).slice(0, 4).map(c => { const mine = ps.filter(p => p.c === c.id); return { c, p: mine[Math.floor(Math.random() * mine.length)] }; });
+    screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>${who.length > 1 ? `${who.length} candidats ont fait des propositions` : "1 candidat a fait une proposition"}</b><div class="st-list">${pick.map((x, j) => `<div class="st-li in"${D(700 + j * 700)}><b>${esc(x.p.t)}</b><span>${esc(x.c.nom)}</span></div>`).join("")}</div>${ps.length > pick.length ? `<p class="st-p in"${D(700 + pick.length * 700)}>Et ${ps.length - pick.length} autre${ps.length - pick.length > 1 ? "s" : ""} proposition${ps.length - pick.length > 1 ? "s" : ""}. Les exemples sont tirés au hasard à chaque fois.</p>` : ""}${propSrc}`);
+  }
+  screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} dans ce thème</span>` : `<b class="st-t in"${D(150)}>${esc(RN[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#p-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-r-${k}">Comprendre le thème en détail</a></div><button type="button" class="st-again" data-st-again>Revoir la story</button><span class="st-src">Tous les chiffres de cette story viennent des fiches « Comprendre » et des propositions de l'appli.</span>`);
+  return { title: RN[k], sub: `Un thème en ${screens.length} écrans`, icon: svg("r_" + k), screens };
+}
 /* Semaine : les écrans rédigés de la mise à jour, puis les propositions ajoutées et l'agenda, calculés à partir des données */
 function weekWindow() {
   const W = DATA.semaine; if (!W) return null;
@@ -1235,7 +1253,7 @@ const fmtAg = d => d.length === 7 ? cap(fmtM.format(dt(d + "-15"))) : d.slice(0,
 function storySemaine() {
   const w = weekWindow(); if (!w) return null;
   const { W, added } = w, fill = s => s.replace("{n}", added.length);
-  const byTh = DATA.themes.map(([k, l]) => [l, added.filter(p => p.th === k).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "fr"));
+  const byTh = (DATA.rubriques || DATA.themes).map(([k, l]) => [l, added.filter(p => (DATA.rubriques ? rubOf(p) : p.th) === k).length]).filter(x => x[1]).sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "fr"));
   const screens = [];
   screens.push(`<span class="st-k in">Cette semaine dans la campagne</span><div class="st-lines">${W.titre.map((l, j) => `<b class="st-t in"${D(200 + j * 700)}>${esc(fill(l))}</b>`).join("")}</div><p class="st-p in"${D(200 + W.titre.length * 700)}>Mise à jour du ${esc(fmtWDM.format(dt(W.d)))} ${dt(W.d).getFullYear()}. Les sondages restent à part, dans le dernier onglet.</p><div class="st-foot"><span class="st-hint in"${D(2800)}>${HINT}</span></div>`);
   (W.ecrans || []).forEach(E => {
@@ -1248,7 +1266,7 @@ function storySemaine() {
     if (E.c && E.c.length) h += (E.cl ? `<span class="st-p in"${D(2100)}>${esc(E.cl)}</span>` : "") + `<div class="st-chips">${E.c.slice().sort(byTri).map((id, j) => `<span class="st-chip pop"${D(2300 + j * 140)}>${esc(nom(id))}</span>`).join("")}</div>`;
     screens.push(h + stSrc([E.src]));
   });
-  if (added.length) screens.push(`<span class="st-k in">Ajoutées cette semaine</span><div class="st-row in"${D(150)}>${stNum(String(added.length), 150, "st-hero", false)}<span class="st-u">proposition${added.length > 1 ? "s" : ""}, sur ${plural(byTh.length, "sujet")}</span></div><div class="st-chips">${byTh.map(([l, n], j) => `<span class="st-chip pop"${D(800 + j * 110)}>${esc(l)} · ${n}</span>`).join("")}</div><p class="st-p in"${D(900 + byTh.length * 110)}>Chacune avec l'article ou le document qui l'annonce, dans l'onglet Propositions.</p>`);
+  if (added.length) screens.push(`<span class="st-k in">Ajoutées cette semaine</span><div class="st-row in"${D(150)}>${stNum(String(added.length), 150, "st-hero", false)}<span class="st-u">proposition${added.length > 1 ? "s" : ""}, dans ${plural(byTh.length, DATA.rubriques ? "thème" : "sujet")}</span></div><div class="st-chips">${byTh.map(([l, n], j) => `<span class="st-chip pop"${D(800 + j * 110)}>${esc(l)} · ${n}</span>`).join("")}</div><p class="st-p in"${D(900 + byTh.length * 110)}>Chacune avec l'article ou le document qui l'annonce, dans l'onglet Propositions.</p>`);
   const t0 = todayIso(), next = DATA.agenda.filter(([d]) => (d.length === 7 ? d + "-31" : d) >= t0).slice(0, 4);
   screens.push(`<span class="st-k in">À venir</span>${stTimeline(next.map(([d, t]) => ({ d: fmtAg(d), txt: t })), 400)}<div class="st-foot in"${D(600 + next.length * 800)}><a class="st-btn main" href="#actu">Lire toute l'actu</a><button type="button" class="st-again" data-st-again>Revoir la story</button></div>`);
   return { title: "Cette semaine", sub: `Mise à jour du ${fmtDM.format(dt(W.d))}`, icon: SEM_ICO, screens };
@@ -1257,7 +1275,7 @@ function storySemaine() {
 /* Lecteur de story : plein écran, avance seul toutes les 7 secondes, pause en restant appuyé */
 let story = null;
 function openStory(key) {
-  const S = key === "semaine" ? storySemaine() : key.startsWith("th:") ? storyTheme(key.slice(3)) : null;
+  const S = key === "semaine" ? storySemaine() : key.startsWith("th:") ? storyTheme(key.slice(3)) : key.startsWith("rb:") ? storyRub(key.slice(3)) : null;
   if (!S || !S.screens.length) return;
   if (story) closeStory(true);
   const el = document.createElement("div");
@@ -1457,29 +1475,29 @@ document.addEventListener("keydown", e => { if (e.key === "Escape" && chatEl && 
 window.addEventListener("popstate", () => { if (chatEl && !(history.state && (history.state.chat || history.state.sheet))) closeChat(true); });
 
 function screenVideos() {
-  const w = weekWindow(), themes = DATA.themes.filter(([k]) => DATA.sujets && DATA.sujets[k]);
+  const w = weekWindow(), RB = DATA.rubriques, themes = RB ? RB.filter(([k]) => rubSujetsAll(k).length) : DATA.themes.filter(([k]) => DATA.sujets && DATA.sujets[k]);
   const sem = w ? storySemaine() : null;
   const since = w ? fmtDL.format(new Date(dt(w.from).getTime() + 86400000)) : "";
-  return `<div class="page-h"><h1>En bref</h1><p class="lead">Chaque sujet en quelques écrans, environ 35 secondes, et le fil des propositions. Tout vient des fiches vérifiées de l'appli, avec leurs sources.</p></div>
+  return `<div class="page-h"><h1>En bref</h1><p class="lead">${DATA.rubriques ? "Chaque thème en quelques écrans" : "Chaque sujet en quelques écrans"}, environ 35 secondes, et le fil des propositions. Tout vient des fiches vérifiées de l'appli, avec leurs sources.</p></div>
   ${sem ? `<button type="button" class="wk" data-story="semaine"><span class="ring"><span>${SEM_ICO}</span></span><span class="tx"><span class="k">Cette semaine · ${esc(fmtDM.format(dt(w.W.d)))}</span><b>${esc(w.W.titre.map(l => l.replace("{n}", w.added.length)).join(" "))}</b><span class="m">${sem.screens.length} écrans · environ ${sem.screens.length * STORY_DUR / 1000} secondes</span></span></button>` : ""}
-  <div class="sec-h col"><h2>Un sujet en 5 écrans</h2>${w ? `<p class="small">Le nombre sur un cercle : les propositions ajoutées depuis le ${esc(since)}.</p>` : ""}</div>
-  <div class="circles">${themes.map(([k, l]) => { const n = w ? w.added.filter(p => p.th === k).length : 0; return `<button type="button" class="sc" data-story="th:${k}" aria-label="Story : ${esc(l)}${n ? `, ${plural(n, "proposition")} ajoutée${n > 1 ? "s" : ""}` : ""}"><span class="ring${n ? " new" : ""}"><span>${svg(k)}</span>${n ? `<span class="nb" aria-hidden="true">+${n}</span>` : ""}</span><span class="lb">${esc(l)}</span></button>`; }).join("")}</div>
+  <div class="sec-h col"><h2>${RB ? "Un thème en quelques écrans" : "Un sujet en 5 écrans"}</h2>${w ? `<p class="small">Le nombre sur un cercle : les propositions ajoutées depuis le ${esc(since)}.</p>` : ""}</div>
+  <div class="circles">${themes.map(([k, l]) => { const n = w ? w.added.filter(p => (RB ? rubOf(p) : p.th) === k).length : 0; return `<button type="button" class="sc" data-story="${RB ? "rb" : "th"}:${k}" aria-label="Story : ${esc(l)}${n ? `, ${plural(n, "proposition")} ajoutée${n > 1 ? "s" : ""}` : ""}"><span class="ring${n ? " new" : ""}"><span>${svg(RB ? "r_" + k : k)}</span>${n ? `<span class="nb" aria-hidden="true">+${n}</span>` : ""}</span><span class="lb">${esc(l)}</span></button>`; }).join("")}</div>
   <section class="card"><h2>Le fil des propositions</h2><p class="small">Toutes les propositions des candidats, une par écran. L'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p><a class="more-btn as-link" href="#fil">Lancer le fil${ARW}</a></section>`;
 }
 
 /* Le fil des propositions (plein écran) */
 function screenFil() {
-  const themes = DATA.themes.filter(([k]) => DATA.propositions.some(p => p.th === k));
+  const themes = DATA.rubriques ? DATA.rubriques.filter(([k]) => DATA.propositions.some(p => rubOf(p) === k)) : DATA.themes.filter(([k]) => DATA.propositions.some(p => p.th === k));
   if (ui.feedTh !== "tous" && !themes.some(([k]) => k === ui.feedTh)) { ui.feedTh = "tous"; ui.feed = null; }
   if (!ui.feed) ui.feed = buildFeed();
   const n = (DATA.videos || []).length, nc = new Set(ui.feed.map(x => x.c)).size, one = ui.feedTh !== "tous";
   return `<div class="feed-wrap">
-  <div class="chips feed-chips" role="group" aria-label="Choisir un sujet">${[["tous", "Tous les sujets"]].concat(themes).map(([k, l]) => `<button class="chip" type="button" data-feedth="${k}" aria-pressed="${ui.feedTh === k}">${esc(l)}</button>`).join("")}</div>
+  <div class="chips feed-chips" role="group" aria-label="Choisir un thème">${[["tous", DATA.rubriques ? "Tous les thèmes" : "Tous les sujets"]].concat(themes).map(([k, l]) => `<button class="chip" type="button" data-feedth="${k}" aria-pressed="${ui.feedTh === k}">${esc(l)}</button>`).join("")}</div>
   <div class="feed" id="feed">
     <article class="reel intro">
       <div class="reel-media"><div class="poster">
-        <span class="soon">${one ? svg(ui.feedTh) + esc(THEME_NAME[ui.feedTh]) : "Les candidats en une minute"}</span>
-        <span class="big">${one ? `Ce que proposent ${nc} candidat${nc > 1 ? "s" : ""} sur ce sujet` : "Une proposition par écran"}</span>
+        <span class="soon">${one ? (DATA.rubriques ? svg("r_" + ui.feedTh) + esc(Object.fromEntries(DATA.rubriques)[ui.feedTh]) : svg(ui.feedTh) + esc(THEME_NAME[ui.feedTh])) : "Les candidats en une minute"}</span>
+        <span class="big">${one ? `Ce que proposent ${nc} candidat${nc > 1 ? "s" : ""} ${DATA.rubriques ? "dans ce thème" : "sur ce sujet"}` : "Une proposition par écran"}</span>
         <span class="later">${one ? `${ui.feed.length} proposition${ui.feed.length > 1 ? "s" : ""}, une par écran.` : `${n ? `${n} vidéo${n > 1 ? "s" : ""} de candidats.` : "Pas encore de vidéo de candidat."} En attendant, chaque carte présente une proposition, avec sa source.`} L'ordre est tiré au hasard à chaque visite : chaque candidat passe une fois avant que l'on recommence. Choisissez un sujet en haut pour voir tous les candidats sur un même thème.</span>
         <span class="swipe">Faites glisser vers le haut</span>
       </div></div>
@@ -1531,6 +1549,15 @@ function budgetCard() {
   return `<a class="budget-card" href="#budget"><span class="k">${kico("euro", 16)} Le budget en une image</span><b>${nf0.format(R.depenses.v)} milliards d'euros</b><span class="p">de dépenses publiques ${esc(R.depenses.quand)}. Où va l'argent, d'où il vient, et ce que pèse chaque promesse.</span><span class="stack" aria-hidden="true">${B.dep.postes.map((x, i) => `<i style="width:${x.pct}%;background:${STACK_COL[i % STACK_COL.length]}"></i>`).join("")}</span></a>`;
 }
 
+/* « Comprendre » d'un thème à plusieurs sujets : une fiche par sujet */
+function screenComprendreRub(k) {
+  const RN = Object.fromEntries(DATA.rubriques); if (!RN[k]) return screenAccueil();
+  const subs = rubSujetsAll(k), n = new Set(DATA.propositions.filter(p => rubOf(p) === k).map(p => p.c)).size;
+  return `
+  <div class="page-h"><span class="kick">${svg("r_" + k)} Comprendre le thème</span><h1>${esc(RN[k])}</h1><p class="lead">Ce thème regroupe ${subs.length} sujets. Chaque fiche donne la situation aujourd'hui, avec des chiffres officiels.</p></div>
+  <div class="tiles">${subs.map(([t, l]) => { const S = DATA.sujets[t], f = S.chiffres && S.chiffres[S.tuile || 0]; return `<a class="tile" href="#comprendre-${t}"><span class="ic">${svg(t)}</span><span class="tt"><b>${esc(l)}</b><span>${f ? esc(short(`${f.v} ${f.l.split(/[;(]/)[0].trim()}`, 58)) : ""}</span></span></a>`; }).join("")}</div>
+  ${n ? `<a class="more-btn as-link" href="#p-${k}">${n > 1 ? `Ce que proposent les ${n} candidats sur ce thème` : "Ce que propose le candidat sur ce thème"}${ARW}</a>` : ""}`;
+}
 /* « Comprendre le sujet » (onglet Accueil) : la situation aujourd'hui, même plan pour tous les sujets, sans les candidats */
 function screenComprendre(k) {
   if (!THEME_NAME[k]) return screenAccueil();
@@ -1553,6 +1580,7 @@ function screenComprendre(k) {
 }
 
 /* Page d'un thème (onglet Propositions) : les candidats et leurs propositions, avec un filtre par sujet quand le thème en regroupe plusieurs */
+const rubSujetsAll = k => DATA.themes.filter(([t]) => DATA.themeRub[t] === k && DATA.sujets && DATA.sujets[t]);
 const rubSujets = k => DATA.themes.filter(([t]) => DATA.themeRub[t] === k && DATA.propositions.some(p => rubOf(p) === k && p.th === t));
 function screenRub(k, th) {
   const RN = Object.fromEntries(DATA.rubriques); if (!RN[k]) return screenComparer();
@@ -1832,7 +1860,8 @@ function route() {
   else if (h === "sources") { html = screenSources(); title = "Sources"; back = "#methode"; }
   else if (h.startsWith("kit-")) { html = screenKit(h.slice(4)); title = "Avant de voter"; back = "#actu"; }
   else if (h === "budget") { html = screenBudget(); title = "Le budget"; back = "#comprendre-budget"; }
-  else if (h.startsWith("comprendre-")) { html = screenComprendre(h.slice(11)); title = THEME_NAME[h.slice(11)] || "Comprendre"; back = "#actu"; }
+  else if (h.startsWith("comprendre-r-") && DATA.rubriques) { const k = h.slice(13); html = screenComprendreRub(k); title = (Object.fromEntries(DATA.rubriques))[k] || "Comprendre"; back = "#actu"; }
+  else if (h.startsWith("comprendre-")) { const k = h.slice(11), r = DATA.rubriques && DATA.themeRub[k]; html = screenComprendre(k); title = THEME_NAME[k] || "Comprendre"; back = r && rubSujetsAll(r).length > 1 ? "#comprendre-r-" + r : "#actu"; }
   else if (TAB_TITLE[h]) { tab = h; html = { candidats: screenCandidats, videos: screenVideos, comparer: screenComparer, sondages: screenSondages }[h](); title = TAB_TITLE[h]; }
   else { html = screenAccueil(); title = null; }
   app.classList.toggle("full", full);

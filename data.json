@@ -56,8 +56,16 @@
    "Démocratie"
   ],
   [
+   "etat",
+   "Réformes de l'État"
+  ],
+  [
    "europe",
-   "Europe et défense"
+   "Europe et international"
+  ],
+  [
+   "defense",
+   "Défense"
   ],
   [
    "budget",
@@ -2854,7 +2862,7 @@
   },
   {
    "c": "arthaud",
-   "th": "europe",
+   "th": "defense",
    "t": "Contre la hausse du budget de l'armée",
    "d": "S'opposer à la hausse des dépenses militaires.",
    "s": [
@@ -2862,8 +2870,7 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p005",
-   "rub": "defense"
+   "id": "p005"
   },
   {
    "c": "attal",
@@ -4015,7 +4022,7 @@
   },
   {
    "c": "roussel",
-   "th": "europe",
+   "th": "defense",
    "t": "Quitter le commandement intégré de l'OTAN",
    "d": "Sortir du commandement intégré de l'OTAN et rejeter les contraintes budgétaires du pacte de stabilité.",
    "s": [
@@ -4023,8 +4030,7 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p062",
-   "rub": "defense"
+   "id": "p062"
   },
   {
    "c": "ruffin",
@@ -4142,7 +4148,7 @@
   },
   {
    "c": "zemmour",
-   "th": "eco",
+   "th": "travail",
    "t": "Remplacer la main-d'œuvre immigrée par des robots",
    "d": "Remplacer la main-d'œuvre immigrée par des robots, sur le modèle de la Chine et du Japon.",
    "s": [
@@ -4150,8 +4156,7 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p072",
-   "rub": "travail"
+   "id": "p072"
   },
   {
    "aj": "2026-10-03",
@@ -4791,15 +4796,14 @@
   {
    "aj": "2026-10-03",
    "c": "branco",
-   "th": "institutions",
+   "th": "etat",
    "t": "Supprimer les régions",
    "d": "Supprimer les régions et déconcentrer les services de l'État.",
    "s": [
     "branco_ruches"
    ],
    "fin": "s",
-   "id": "p125",
-   "rub": "etat"
+   "id": "p125"
   },
   {
    "aj": "2026-10-03",
@@ -4876,15 +4880,14 @@
   {
    "aj": "2026-10-03",
    "c": "labib",
-   "th": "europe",
+   "th": "defense",
    "t": "Contre la hausse du budget militaire",
    "d": "S'opposer aux guerres et à la hausse du budget militaire.",
    "s": [
     "qpq"
    ],
    "fin": "s",
-   "id": "p132",
-   "rub": "defense"
+   "id": "p132"
   },
   {
    "aj": "2026-10-03",
@@ -4937,15 +4940,14 @@
   {
    "aj": "2026-10-03",
    "c": "egger",
-   "th": "institutions",
+   "th": "etat",
    "t": "Plus de pouvoirs pour les communes",
    "d": "Décentraliser davantage de compétences vers les communes.",
    "s": [
     "qpq"
    ],
    "fin": "n",
-   "id": "p137",
-   "rub": "etat"
+   "id": "p137"
   },
   {
    "aj": "2026-10-03",
@@ -5566,7 +5568,7 @@
   },
   {
    "c": "melenchon",
-   "th": "ecologie",
+   "th": "etat",
    "t": "Remplacer les régions par 13 « écorégions »",
    "d": "Remplacer les régions actuelles par treize « écorégions » dessinées selon les grands bassins des fleuves, chargées notamment de l'eau, de la biodiversité, des forêts et de la qualité de l'air.",
    "s": [
@@ -5611,8 +5613,7 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   },
-   "rub": "etat"
+   }
   },
   {
    "c": "tondelier",
@@ -6838,7 +6839,7 @@
   },
   {
    "c": "melenchon",
-   "th": "europe",
+   "th": "defense",
    "t": "Sortir de l'OTAN",
    "d": "Sortir de l'OTAN, en commençant par son commandement intégré.",
    "s": [
@@ -6849,7 +6850,6 @@
    "id": "p223",
    "k": "otan",
    "test": true,
-   "rub": "defense",
    "plus": {
     "detail": [
      [
@@ -6888,7 +6888,7 @@
   },
   {
    "c": "melenchon",
-   "th": "europe",
+   "th": "defense",
    "t": "Équiper l'armée de matériel français",
    "d": "Garantir la souveraineté de la France en équipant les armées de matériel militaire français.",
    "s": [
@@ -6899,7 +6899,6 @@
    "id": "p224",
    "k": "materiel",
    "test": true,
-   "rub": "defense",
    "plus": {
     "detail": [
      [
@@ -6943,7 +6942,7 @@
   },
   {
    "c": "melenchon",
-   "th": "europe",
+   "th": "defense",
    "t": "Relancer le désarmement nucléaire à l'ONU",
    "d": "Relancer les processus multilatéraux de désarmement nucléaire et conventionnel dans le cadre de l'ONU.",
    "s": [
@@ -6954,7 +6953,6 @@
    "id": "p225",
    "k": "desarmement",
    "test": true,
-   "rub": "defense",
    "plus": {
     "detail": [
      [
@@ -6988,7 +6986,7 @@
   },
   {
    "c": "melenchon",
-   "th": "institutions",
+   "th": "etat",
    "t": "Rouvrir les accueils physiques des services publics",
    "d": "Rouvrir des accueils physiques dans les services publics.",
    "s": [
@@ -6999,7 +6997,6 @@
    "id": "p226",
    "k": "accueils",
    "test": true,
-   "rub": "etat",
    "plus": {
     "detail": [
      [
@@ -11318,6 +11315,27 @@
    "d": "2026-08-28",
    "type": "presse",
    "u": "https://acteurspublics.fr/articles/pour-les-administrations-lobligation-du-referentiel-secnumcloud-desormais-inscrite-dans-le-droit/"
+  },
+  "sujet_etat_insee_fp2024": {
+   "t": "L'emploi dans la fonction publique en 2024 (Insee Première n° 2094)",
+   "p": "Insee",
+   "d": "2026-02-10",
+   "type": "donnees",
+   "u": "https://www.insee.fr/fr/statistiques/8732435"
+  },
+  "sujet_etat_senat_r807": {
+   "t": "Agencification : une méthodologie repensée pour une action publique renforcée (rapport n° 807, 2024-2025)",
+   "p": "Sénat (commission d'enquête sur les agences, opérateurs et organismes consultatifs de l'État)",
+   "d": "2025-07-01",
+   "type": "donnees",
+   "u": "https://www.senat.fr/rap/r24-807-1/r24-807-10.html"
+  },
+  "sujet_etat_ps_agences": {
+   "t": "Les pistes du gouvernement pour réduire le nombre d'agences de l'État",
+   "p": "Public Sénat",
+   "d": "2025-05-19",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/info-public-senat-les-pistes-du-gouvernement-pour-reduire-le-nombre-dagences-de-letat"
   }
  },
  "presse": [
@@ -14050,53 +14068,31 @@
   },
   "europe": {
    "trente": {
-    "txt": "Le Président de la République est le chef des armées ; le Parlement vote les lois de programmation militaire et les lois de finances. La loi du 16 août 2026 actualise la programmation militaire 2024-2030. L'OTAN compte 32 membres, engagés en 2025 à investir 5 % du PIB dans la défense et la sécurité d'ici 2035.",
+    "txt": "La France contribue au budget de l'Union européenne par un prélèvement sur ses recettes, évalué à 28,8 milliards d'euros pour 2026. Au Conseil de l'Union, la politique étrangère et de sécurité commune se décide à l'unanimité, sauf exceptions. À l'ONU, la France est l'un des cinq membres permanents du Conseil de sécurité, qui sont seuls à disposer d'un droit de veto.",
     "src": [
-     "sujet_europe_cc_constitution",
-     "sujet_europe_senat_loi_lpm",
-     "sujet_europe_nato_members",
-     "sujet_europe_nato_hague"
+     "sujet_europe_senat_psr",
+     "sujet_europe_consilium_unanimity",
+     "unric_veto"
     ]
    },
    "chiffres": [
-    {
-     "v": "56,9 Md€",
-     "l": "de crédits pour la mission Défense hors pensions en 2026 (loi de finances initiale) ; 68,3 Md€ pour l'ensemble du ministère, pensions incluses",
-     "src": "sujet_europe_def_chiffres2026"
-    },
-    {
-     "v": "436 Md€",
-     "l": "de crédits budgétaires courants pour la mission Défense sur 2024-2030 selon la loi du 16 août 2026 actualisant la programmation militaire, avec 36 Md€ de ressources supplémentaires sur 2026-2030",
-     "src": "sujet_europe_senat_loi_lpm"
-    },
     {
      "v": "28,8 Md€",
      "l": "de prélèvement sur recettes au profit de l'Union européenne évalué pour 2026 par le projet de loi de finances (+24,6 % par rapport à la prévision d'exécution 2025)",
      "src": "sujet_europe_senat_psr"
     },
     {
-     "v": "5 % du PIB",
-     "l": "d'ici 2035 : engagement des Alliés de l'OTAN au sommet de La Haye en juin 2025, dont au moins 3,5 % pour les besoins de défense de base et jusqu'à 1,5 % pour des dépenses liées à la sécurité (infrastructures critiques, réseaux, résilience civile)",
-     "src": "sujet_europe_nato_hague"
-    },
-    {
-     "v": "201 016",
-     "l": "militaires du ministère (équivalents temps plein travaillés) au 31 décembre 2025, sur 264 720 personnels civils et militaires ; 49 290 réservistes sous contrat",
-     "src": "sujet_europe_def_chiffres2026"
-    },
-    {
      "v": "51,49 %",
      "l": "de participation en France aux élections européennes de juin 2024 (50,74 % dans l'ensemble de l'Union européenne)",
      "src": "sujet_europe_ep_results"
+    },
+    {
+     "v": "5",
+     "l": "membres permanents du Conseil de sécurité de l'ONU, seuls à avoir un droit de veto : la Chine, les États-Unis, la France, le Royaume-Uni et la Russie",
+     "src": "unric_veto"
     }
    ],
    "recent": [
-    {
-     "date": "16 août 2026",
-     "txt": "La loi actualisant la programmation militaire pour les années 2024 à 2030 est promulguée (loi n° 2026-791). Elle porte à 436 milliards d'euros courants les crédits de la mission Défense sur la période, avec 36 milliards de ressources supplémentaires sur 2026-2030. Le Parlement l'avait définitivement adoptée le 1er juillet 2026 et le Conseil constitutionnel l'a déclarée conforme à la Constitution le 6 août 2026.",
-     "src": "sujet_europe_senat_loi_lpm",
-     "iso": "2026-08-16"
-    },
     {
      "date": "23 avr. 2026",
      "txt": "Le Conseil de l'Union européenne finalise un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027, financé par de l'emprunt de l'UE sur les marchés de capitaux et garanti par la marge du budget de l'UE : 30 milliards pour le soutien macroéconomique, 60 milliards pour les capacités industrielles de défense de l'Ukraine.",
@@ -14108,23 +14104,9 @@
      "txt": "Le Conseil de l'Union européenne adopte SAFE (Security Action for Europe), un instrument de prêts allant jusqu'à 150 milliards d'euros pour financer des investissements de défense des États membres. En principe, les États bénéficiaires doivent mener des achats communs impliquant au moins deux pays participants.",
      "src": "sujet_europe_consilium_safe",
      "iso": "2025-05-27"
-    },
-    {
-     "date": "7 mars 2024",
-     "txt": "La Suède devient le 32e membre de l'OTAN, après la Finlande, 31e membre depuis le 4 avril 2023.",
-     "src": "sujet_europe_nato_members",
-     "iso": "2024-03-07"
     }
    ],
    "decide": [
-    {
-     "txt": "Le Président de la République est le chef des armées (article 15 de la Constitution) et le Premier ministre est responsable de la défense nationale (article 21). Le Parlement vote les lois de programmation, qui déterminent les objectifs de l'action de l'État (article 34), et les lois de finances, qui déterminent les ressources et les charges de l'État. La déclaration de guerre est autorisée par le Parlement ; le Gouvernement l'informe de toute intervention des forces armées à l'étranger au plus tard trois jours après son début et, au-delà de quatre mois, en soumet la prolongation à son autorisation (article 35).",
-     "src": "sujet_europe_cc_constitution"
-    },
-    {
-     "txt": "La programmation militaire est fixée par une loi : celle qui actualise la LPM 2024-2030 a été adoptée par le Sénat (texte de compromis du 30 juin 2026) puis par l'Assemblée nationale (1er juillet 2026), déclarée conforme à la Constitution par le Conseil constitutionnel le 6 août 2026 et promulguée le 16 août 2026.",
-     "src": "sujet_europe_senat_loi_lpm"
-    },
     {
      "txt": "Au niveau de l'Union européenne, le Conseil vote à l'unanimité sur la politique étrangère et de sécurité commune, sauf dans certains cas précis où la majorité qualifiée s'applique. Avec l'unanimité, l'abstention d'un État n'empêche pas l'adoption d'une décision.",
      "src": "sujet_europe_consilium_unanimity"
@@ -14132,27 +14114,11 @@
    ],
    "jeunes": [
     {
-     "txt": "Dès 16 ans, chaque Français doit faire son recensement citoyen. Il est ensuite convoqué automatiquement à la journée défense et citoyenneté (JDC), qu'il doit faire avant 25 ans ; service-public.gouv.fr l'appelle désormais « journée de mobilisation (ex-JDC) » et indique que les jeunes y sont convoqués pendant l'année de leurs 17 ans. Le certificat de participation est demandé pour s'inscrire au permis de conduire (de 17 à 24 ans) et aux examens et concours comme le bac ou les concours administratifs (de 18 à 24 ans) ; à partir de 25 ans, aucun justificatif n'est exigé.",
-     "src": "sujet_europe_sp_jdc"
-    },
-    {
-     "txt": "Le nouveau service national est volontaire et ouvert aux Français de 18 à 25 ans, avec ou sans diplôme. Il dure 10 mois (1 mois de formation initiale et 9 mois en unité), avec une solde d'au moins 800 euros brut par mois ; il est mis en place progressivement à partir de septembre 2026. Service-public.gouv.fr précise que ce service national, exclusivement militaire, est voué à remplacer le service national universel (SNU).",
-     "src": "sujet_europe_info_servicenational"
-    },
-    {
-     "txt": "Pour devenir réserviste opérationnel dans les armées, il faut être français, avoir 17 ans minimum (limite d'âge : 72 ans), être apte médicalement et avoir accompli la journée de mobilisation (ex-JDC) ou le service militaire. Le contrat d'engagement dure de 1 à 5 ans, pour 5 à 120 jours d'activité par année civile.",
-     "src": "sujet_europe_sp_reserve"
-    },
-    {
      "txt": "DiscoverEU, session d'octobre 2026 (candidatures du 1er au 15 octobre) : pour les jeunes de 18 ans nés en 2008, citoyens d'un État membre de l'UE ou d'un pays associé à Erasmus+, un pass ferroviaire gratuit valable jusqu'à 30 jours entre mars 2027 et mai 2028 (près de 41 000 titres).",
      "src": "sujet_europe_ec_discovereu"
     }
    ],
    "questions": [
-    {
-     "txt": "Quel effort de défense la France peut-elle financer compte tenu de l'état de ses finances publiques ?",
-     "src": "sujet_europe_senat_avis654"
-    },
     {
      "txt": "Quelle part de l'effort de défense doit être financée et organisée en commun au niveau européen, et quelle part doit rester nationale ?",
      "src": "sujet_europe_ec_white"
@@ -14160,15 +14126,9 @@
     {
      "txt": "Dans quels domaines l'Union européenne devrait-elle passer de l'unanimité à la majorité qualifiée, notamment avant un nouvel élargissement ?",
      "src": "sujet_europe_ec_enlargement"
-    },
-    {
-     "txt": "Quelle place donner aux jeunes dans la défense nationale : journée de mobilisation, service national volontaire, réserve ?",
-     "src": "sujet_europe_senat_r666"
     }
    ],
    "lire": [
-    "sujet_europe_senat_avis654",
-    "sujet_europe_senat_r666",
     "sujet_europe_ec_enlargement"
    ]
   },
@@ -14541,6 +14501,170 @@
     "sujet_pouvoir_senat_energie",
     "sujet_pouvoir_coj_rua"
    ]
+  },
+  "defense": {
+   "trente": {
+    "txt": "Le Président de la République est le chef des armées ; le Parlement vote les lois de programmation militaire et les lois de finances. La loi du 16 août 2026 actualise la programmation militaire 2024-2030. L'OTAN compte 32 membres, engagés en 2025 à investir 5 % du PIB dans la défense et la sécurité d'ici 2035.",
+    "src": [
+     "sujet_europe_cc_constitution",
+     "sujet_europe_senat_loi_lpm",
+     "sujet_europe_nato_members",
+     "sujet_europe_nato_hague"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "56,9 Md€",
+     "l": "de crédits pour la mission Défense hors pensions en 2026 (loi de finances initiale) ; 68,3 Md€ pour l'ensemble du ministère, pensions incluses",
+     "src": "sujet_europe_def_chiffres2026"
+    },
+    {
+     "v": "436 Md€",
+     "l": "de crédits budgétaires courants pour la mission Défense sur 2024-2030 selon la loi du 16 août 2026 actualisant la programmation militaire, avec 36 Md€ de ressources supplémentaires sur 2026-2030",
+     "src": "sujet_europe_senat_loi_lpm"
+    },
+    {
+     "v": "5 % du PIB",
+     "l": "d'ici 2035 : engagement des Alliés de l'OTAN au sommet de La Haye en juin 2025, dont au moins 3,5 % pour les besoins de défense de base et jusqu'à 1,5 % pour des dépenses liées à la sécurité (infrastructures critiques, réseaux, résilience civile)",
+     "src": "sujet_europe_nato_hague"
+    },
+    {
+     "v": "201 016",
+     "l": "militaires du ministère (équivalents temps plein travaillés) au 31 décembre 2025, sur 264 720 personnels civils et militaires ; 49 290 réservistes sous contrat",
+     "src": "sujet_europe_def_chiffres2026"
+    }
+   ],
+   "recent": [
+    {
+     "date": "16 août 2026",
+     "txt": "La loi actualisant la programmation militaire pour les années 2024 à 2030 est promulguée (loi n° 2026-791). Elle porte à 436 milliards d'euros courants les crédits de la mission Défense sur la période, avec 36 milliards de ressources supplémentaires sur 2026-2030. Le Parlement l'avait définitivement adoptée le 1er juillet 2026 et le Conseil constitutionnel l'a déclarée conforme à la Constitution le 6 août 2026.",
+     "src": "sujet_europe_senat_loi_lpm",
+     "iso": "2026-08-16"
+    },
+    {
+     "date": "27 mai 2025",
+     "txt": "Le Conseil de l'Union européenne adopte SAFE (Security Action for Europe), un instrument de prêts allant jusqu'à 150 milliards d'euros pour financer des investissements de défense des États membres. En principe, les États bénéficiaires doivent mener des achats communs impliquant au moins deux pays participants.",
+     "src": "sujet_europe_consilium_safe",
+     "iso": "2025-05-27"
+    },
+    {
+     "date": "7 mars 2024",
+     "txt": "La Suède devient le 32e membre de l'OTAN, après la Finlande, 31e membre depuis le 4 avril 2023.",
+     "src": "sujet_europe_nato_members",
+     "iso": "2024-03-07"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "Le Président de la République est le chef des armées (article 15 de la Constitution) et le Premier ministre est responsable de la défense nationale (article 21). Le Parlement vote les lois de programmation, qui déterminent les objectifs de l'action de l'État (article 34), et les lois de finances, qui déterminent les ressources et les charges de l'État. La déclaration de guerre est autorisée par le Parlement ; le Gouvernement l'informe de toute intervention des forces armées à l'étranger au plus tard trois jours après son début et, au-delà de quatre mois, en soumet la prolongation à son autorisation (article 35).",
+     "src": "sujet_europe_cc_constitution"
+    },
+    {
+     "txt": "La programmation militaire est fixée par une loi : celle qui actualise la LPM 2024-2030 a été adoptée par le Sénat (texte de compromis du 30 juin 2026) puis par l'Assemblée nationale (1er juillet 2026), déclarée conforme à la Constitution par le Conseil constitutionnel le 6 août 2026 et promulguée le 16 août 2026.",
+     "src": "sujet_europe_senat_loi_lpm"
+    }
+   ],
+   "jeunes": [
+    {
+     "txt": "Dès 16 ans, chaque Français doit faire son recensement citoyen. Il est ensuite convoqué automatiquement à la journée défense et citoyenneté (JDC), qu'il doit faire avant 25 ans ; service-public.gouv.fr l'appelle désormais « journée de mobilisation (ex-JDC) » et indique que les jeunes y sont convoqués pendant l'année de leurs 17 ans. Le certificat de participation est demandé pour s'inscrire au permis de conduire (de 17 à 24 ans) et aux examens et concours comme le bac ou les concours administratifs (de 18 à 24 ans) ; à partir de 25 ans, aucun justificatif n'est exigé.",
+     "src": "sujet_europe_sp_jdc"
+    },
+    {
+     "txt": "Le nouveau service national est volontaire et ouvert aux Français de 18 à 25 ans, avec ou sans diplôme. Il dure 10 mois (1 mois de formation initiale et 9 mois en unité), avec une solde d'au moins 800 euros brut par mois ; il est mis en place progressivement à partir de septembre 2026. Service-public.gouv.fr précise que ce service national, exclusivement militaire, est voué à remplacer le service national universel (SNU).",
+     "src": "sujet_europe_info_servicenational"
+    },
+    {
+     "txt": "Pour devenir réserviste opérationnel dans les armées, il faut être français, avoir 17 ans minimum (limite d'âge : 72 ans), être apte médicalement et avoir accompli la journée de mobilisation (ex-JDC) ou le service militaire. Le contrat d'engagement dure de 1 à 5 ans, pour 5 à 120 jours d'activité par année civile.",
+     "src": "sujet_europe_sp_reserve"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Quel effort de défense la France peut-elle financer compte tenu de l'état de ses finances publiques ?",
+     "src": "sujet_europe_senat_avis654"
+    },
+    {
+     "txt": "Quelle part de l'effort de défense doit être financée et organisée en commun au niveau européen, et quelle part doit rester nationale ?",
+     "src": "sujet_europe_ec_white"
+    },
+    {
+     "txt": "Quelle place donner aux jeunes dans la défense nationale : journée de mobilisation, service national volontaire, réserve ?",
+     "src": "sujet_europe_senat_r666"
+    }
+   ],
+   "lire": [
+    "sujet_europe_senat_avis654",
+    "sujet_europe_senat_r666"
+   ]
+  },
+  "etat": {
+   "trente": {
+    "txt": "L'organisation de la République est décentralisée : l'État, avec ses ministères, ses préfectures et ses opérateurs, partage l'action publique avec les collectivités territoriales (communes, départements, régions), qui s'administrent librement par des conseils élus. Fin 2024, 5,9 millions d'agents travaillent dans les trois fonctions publiques : d'État, territoriale et hospitalière.",
+    "src": [
+     "sujet_institutions_cc_constitution",
+     "sujet_etat_insee_fp2024"
+    ]
+   },
+   "chiffres": [
+    {
+     "v": "5,9 millions",
+     "l": "d'agents dans la fonction publique fin 2024 : 2,59 millions pour l'État, 2,04 millions pour la territoriale, 1,25 million pour l'hospitalière (+0,6 % en un an)",
+     "src": "sujet_etat_insee_fp2024"
+    },
+    {
+     "v": "24,0 %",
+     "l": "des agents publics sont contractuels fin 2024, soit 0,7 point de plus qu'en 2023",
+     "src": "sujet_etat_insee_fp2024"
+    },
+    {
+     "v": "434",
+     "l": "opérateurs de l'État recensés par une commission d'enquête du Sénat en 2025, avec 103 agences et 317 organismes consultatifs",
+     "src": "sujet_etat_senat_r807"
+    },
+    {
+     "v": "2 840",
+     "l": "espaces France services, ou plus, pour aider aux démarches administratives (près de 9 millions de démarches en 2023, selon la Cour des comptes)",
+     "src": "bdt_france_services"
+    }
+   ],
+   "recent": [
+    {
+     "date": "1er juil. 2025",
+     "txt": "La commission d'enquête du Sénat sur les agences, opérateurs et organismes consultatifs de l'État rend son rapport. Elle recense 103 agences, 434 opérateurs et 317 organismes consultatifs, et propose une méthode de réforme plutôt que des coupes budgétaires.",
+     "src": "sujet_etat_senat_r807",
+     "iso": "2025-07-01"
+    },
+    {
+     "date": "19 mai 2025",
+     "txt": "Le gouvernement veut supprimer ou fusionner environ un tiers des opérateurs et agences de l'État, avec 2 à 3 milliards d'euros d'économies visées en 2027, selon Public Sénat. Ces organismes emploient environ 180 000 personnes.",
+     "src": "sujet_etat_ps_agences",
+     "iso": "2025-05-19"
+    }
+   ],
+   "decide": [
+    {
+     "txt": "L'organisation de la République est décentralisée (article 1er de la Constitution). Les collectivités territoriales sont les communes, les départements, les régions, les collectivités à statut particulier et les collectivités d'outre-mer ; elles s'administrent librement par des conseils élus, dans les conditions prévues par la loi (article 72).",
+     "src": "sujet_institutions_cc_constitution"
+    },
+    {
+     "txt": "Le Gouvernement détermine et conduit la politique de la nation et dispose de l'administration (article 20 de la Constitution).",
+     "src": "sujet_institutions_cc_constitution"
+    }
+   ],
+   "questions": [
+    {
+     "txt": "Quelles missions confier à l'État, à ses agences et opérateurs, ou aux collectivités locales ?",
+     "src": "sujet_etat_senat_r807"
+    },
+    {
+     "txt": "Combien peut-on économiser en réduisant le nombre d'agences et d'opérateurs, sans dégrader le service rendu ?",
+     "src": "sujet_etat_ps_agences"
+    }
+   ],
+   "lire": [
+    "sujet_etat_senat_r807",
+    "sujet_etat_insee_fp2024"
+   ]
   }
  },
  "semaine": {
@@ -14652,6 +14776,8 @@
   "institutions": "gouvernance",
   "education": "education",
   "etudes": "education",
-  "numerique": "numerique"
+  "numerique": "numerique",
+  "defense": "defense",
+  "etat": "etat"
  }
 }
