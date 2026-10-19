@@ -3168,6 +3168,65 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son parti, Nouvelle Énergie, publie un programme en trois chapitres et des pages thématiques. Certaines mesures sont chiffrées.",
+      "ne_prog"
+     ]
+    ],
+    "parties": [
+     [
+      "Trois chapitres : « Être maître de notre destin », « Réussir une nouvelle ambition française » et « Générer un renouveau civique ».",
+      "ne_prog"
+     ]
+    ],
+    "phares": {
+     "finances": [
+      "p073"
+     ],
+     "travail": [
+      "p074",
+      "p320"
+     ],
+     "social": [
+      "p075",
+      "p076",
+      "p319"
+     ],
+     "interieur": [
+      "p078",
+      "p077",
+      "p314"
+     ],
+     "education": [
+      "p317",
+      "p318"
+     ],
+     "etat": [
+      "p321"
+     ],
+     "europe": [
+      "p322"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Montants trouvés : 11,5 milliards d'euros de baisse des impôts de production, 700 millions d'économies sur l'AME, 116 milliards de capitalisation pour les retraites. Il juge « possible » de réduire les dépenses publiques « de 8 points de PIB en 10 ans ».",
+       "ne_ambition",
+       "ne_immigration",
+       "ne_destin"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de l'ensemble de son programme.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -3258,8 +3317,8 @@
    "statutTxt": "Programme 2027 pas encore publié, trois priorités affichées",
    "faits": [
     [
-     "Désigné par les adhérents d'Équinoxe, en campagne depuis le 27 juin 2026.",
-     "qpq"
+     "Candidat du parti Équinoxe, il doit encore recueillir les 500 parrainages d'élus nécessaires.",
+     "jhm_mikolajczak"
     ]
    ],
    "docs": [],
@@ -3308,6 +3367,33 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son programme n'est pas encore publié. Son parti met en avant la décision collective, la modernisation des institutions, la production en France, la santé et l'environnement.",
+      "jhm_mikolajczak"
+     ]
+    ],
+    "phares": {
+     "etat": [
+      "p323"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -3645,6 +3731,42 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Présentée comme candidate du Parti animaliste le 2 octobre 2026, elle n'a pas encore publié de programme complet : ses premières priorités portent sur la condition animale.",
+      "markovic_pa_communique",
+      "markovic_pa_site"
+     ]
+    ],
+    "phares": {
+     "gouvernance": [
+      "p162",
+      "p163"
+     ],
+     "environnement": [
+      "p164",
+      "p165"
+     ],
+     "interieur": [
+      "p166"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -6150,7 +6272,42 @@
     "h": "baisse d'impôts annoncée"
    },
    "fin": "c",
-   "id": "p073"
+   "id": "p073",
+   "plus": {
+    "detail": [
+     [
+      "« La suppression de la C3S (Contribution sociale de solidarité au bénéfice de la Sécurité Sociale) » et, « le cas échéant, de la CVAE ».",
+      "ne_ambition"
+     ],
+     [
+      "Objectif : « une diminution de moitié des impôts de production, de 2% à 1% du PIB ».",
+      "ne_ambition"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, la situation « est clairement le résultat d'un esprit général hostile à la prise de risque entrepreneurial ».",
+      "ne_ambition"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Le coût « représenterait 11,5 milliards d'euros qui s'ajouteraient à la baisse de 10 milliards déjà prévue par le gouvernement ».",
+      "ne_ambition"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6162,7 +6319,40 @@
     "ne_ambition"
    ],
    "fin": "n",
-   "id": "p074"
+   "id": "p074",
+   "plus": {
+    "detail": [
+     [
+      "Il veut constituer une capitalisation « par tranches successives, soit environ 8 tranches », « pour atteindre un montant de capitalisation évalué à 116 milliards d'euros ».",
+      "ne_ambition"
+     ],
+     [
+      "Cela représenterait « environ 40% du montant total des retraites ».",
+      "ne_ambition"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Un tel dispositif permettra de garantir des revenus supérieurs aux retraités. »",
+      "ne_ambition"
+     ],
+     [
+      "Selon lui, « 34% du PIB de la France est affecté aux prestations de santé, de retraites, de chômage, de logement de handicap », « alors que la moyenne européenne est de 29% ».",
+      "ne_ambition"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les dépenses de retraite représentent 14,1 % du PIB, soit 422 milliards d'euros.",
+      "sujet_retraites_cor_ra2026"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6174,7 +6364,24 @@
     "ne_ambition"
    ],
    "fin": "n",
-   "id": "p075"
+   "id": "p075",
+   "plus": {
+    "detail": [
+     [
+      "Il propose « un minimum-vieillesse à hauteur de 1000 euros par mois ».",
+      "ne_ambition"
+     ],
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6186,7 +6393,30 @@
     "ne_ambition"
    ],
    "fin": "s",
-   "id": "p076"
+   "id": "p076",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « la suppression de l'article 55 de la loi SRU », « obligeant les communes à disposer de 20% et bientôt 25% de logements sociaux ».",
+      "ne_ambition"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi SRU impose à certaines communes 20 % ou 25 % de logements sociaux ; sinon, elles subissent un prélèvement et le préfet peut prononcer leur carence.",
+      "sujet_logement_anil_sru"
+     ],
+     [
+      "Au 1er janvier 2025, la France compte 5,4 millions de logements sociaux, soit 15,9 % des résidences principales.",
+      "sujet_logement_sdes_rpls2025"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6195,46 +6425,171 @@
    "t": "Rétablir le délit de séjour irrégulier",
    "d": "Rétablir le délit de séjour irrégulier, supprimé en 2012.",
    "s": [
+    "ne_immigration",
     "jdd_lisnard"
    ],
    "fin": "s",
-   "id": "p077"
+   "id": "p077",
+   "plus": {
+    "detail": [
+     [
+      "« Rétablir le délit de séjour irrégulier », supprimé en 2012.",
+      "ne_immigration",
+      "jdd_lisnard"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 23 549 éloignements d'étrangers en situation irrégulière ont été mis en œuvre (données provisoires).",
+      "sujet_immigration_dgef_eloignements2025"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "lisnard",
    "th": "immigration",
-   "t": "Des quotas d'immigration et une réforme de la Constitution",
-   "d": "Fixer des quotas d'immigration et réformer la Constitution pour sortir des contraintes des juges européens en matière migratoire.",
+   "t": "Des quotas, et la primauté du droit français sur les juges européens en matière migratoire",
+   "d": "Fixer des quotas de main-d'œuvre qualifiée, diviser par huit les titres de séjour et inscrire dans la Constitution la primauté du droit national en matière migratoire, jusqu'à sortir de la CEDH en dernier recours.",
    "s": [
+    "ne_immigration",
     "jdd_lisnard"
    ],
    "fin": "s",
-   "id": "p078"
+   "id": "p078",
+   "plus": {
+    "detail": [
+     [
+      "« Fixer des quotas de main-d'œuvre qualifiée » et « Diviser par huit la délivrance de titres de séjour ».",
+      "ne_immigration"
+     ],
+     [
+      "« Inscrire la primauté du droit national en matière migratoire dans la Constitution » « afin de rendre inapplicables les décisions de la CJUE et de la CEDH contraires à l'intérêt national ». « Sortir de la CEDH en dernier recours. »",
+      "ne_immigration"
+     ],
+     [
+      "Il veut aussi « Mettre fin à l'automaticité du droit du sol », « Revenir sur l'accord franco-algérien de 1968 » et allonger la rétention administrative à 24 mois.",
+      "ne_immigration"
+     ],
+     [
+      "Il veut « conditionner le regroupement familial à des critères de ressources et des tests d'intégration ».",
+      "ne_immigration"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Ses mesures sont classées sous quatre axes : « Oser le rapport de force », « Maîtriser notre peuplement », « Rétablir l'autorité de l'État » et « En finir avec l'angélisme ».",
+      "ne_immigration"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés (données provisoires). Les diviser par huit les ramènerait à environ 47 000 par an (calcul de l'appli).",
+      "sujet_immigration_dgef_titres2025"
+     ],
+     [
+      "Depuis le 12 juin 2026, les règles européennes du pacte sur la migration et l'asile s'appliquent.",
+      "sujet_immigration_consilium_pacte"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "lisnard",
    "th": "immigration",
    "t": "Traiter les demandes de visa hors des frontières européennes",
-   "d": "Créer des centres de traitement des visas à l'extérieur des frontières de l'Union européenne.",
+   "d": "Créer des centres de traitement des visas à l'extérieur des frontières de l'Union européenne, et traiter les demandes d'asile dans les consulats à l'étranger.",
    "s": [
-    "jdd_lisnard"
+    "jdd_lisnard",
+    "ne_immigration"
    ],
    "fin": "n",
-   "id": "p079"
+   "id": "p079",
+   "plus": {
+    "detail": [
+     [
+      "Il propose des centres de traitement des visas à l'extérieur des frontières de l'Union européenne.",
+      "jdd_lisnard"
+     ],
+     [
+      "Son programme prévoit aussi de « Traiter les demandes d'asiles au sein de nos consulats à l'étranger », et des mesures de rétorsion contre les pays qui ne coopèrent pas (« visas, transferts d'argent, aide publique au développement, etc. »).",
+      "ne_immigration"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, l'Ofpra a enregistré 145 210 demandes d'asile ; son taux de protection est de 41,2 %.",
+      "sujet_immigration_ofpra_bilan2025"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "lisnard",
    "th": "securite",
-   "t": "Un plan de remise à niveau de la police sur dix ans",
-   "d": "Un plan de remise à niveau de la police, déployé sur dix ans.",
+   "t": "Ramener les forces de l'ordre sur le terrain",
+   "d": "Porter à au moins 50 % le temps de présence des forces de sécurité sur le terrain, contre 37 % aujourd'hui, moderniser leurs outils et remettre à niveau les moyens de la police et de la justice.",
    "s": [
-    "ne_ambition"
+    "ne_securite",
+    "ne_destin"
    ],
    "fin": "n",
-   "id": "p080"
+   "id": "p080",
+   "plus": {
+    "detail": [
+     [
+      "« Ramener les forces de sécurité sur le terrain (50 % de présence minimum, contre 37 % aujourd'hui) ».",
+      "ne_securite"
+     ],
+     [
+      "« Donner aux préfets les moyens de commander réellement » et « moderniser les outils » (vidéoprotection, radios numériques, IA de prévention).",
+      "ne_securite"
+     ],
+     [
+      "Il juge que « des plans de remise à niveau des moyens de la police et de la justice sont indispensables ».",
+      "ne_destin"
+     ],
+     [
+      "Les communes volontaires pourraient armer leur police municipale : « cela doit rester une liberté, jamais une obligation ».",
+      "ne_securite"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« L'impunité progresse parce que l'État régresse. »",
+      "ne_securite"
+     ]
+    ],
+    "auj": [
+     [
+      "Environ 8 500 postes de policiers et de gendarmes doivent être créés entre 2023 et 2027.",
+      "sujet_securite_senat_securites_plf2026"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -7776,30 +8131,6 @@
   },
   {
    "aj": "2026-10-03",
-   "c": "mikolajczak",
-   "th": "retraites",
-   "t": "Baisser les pensions supérieures à 3 000 € par mois",
-   "d": "Baisser les pensions de retraite supérieures à 3 000 € par mois.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p138"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "mikolajczak",
-   "th": "ecologie",
-   "t": "Miser à la fois sur le nucléaire et les renouvelables",
-   "d": "Une politique énergétique qui combine nucléaire et énergies renouvelables.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p139"
-  },
-  {
-   "aj": "2026-10-03",
    "c": "batho",
    "th": "ecologie",
    "t": "Faire de la décroissance un projet politique",
@@ -8296,7 +8627,21 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p162"
+   "id": "p162",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut créer un ministère indépendant consacré à la condition animale.",
+      "markovic_pa_communique",
+      "huff_markovic"
+     ],
+     [
+      "Nous n'avons pas trouvé le budget ni les compétences précises de ce ministère.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "markovic",
@@ -8308,7 +8653,20 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p163"
+   "id": "p163",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut que les animaux ne relèvent plus du régime juridique des biens, c'est-à-dire des règles du droit qui s'appliquent aux choses que l'on possède.",
+      "huff_markovic"
+     ],
+     [
+      "Nous n'avons pas trouvé quel statut les remplacerait.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "markovic",
@@ -8321,7 +8679,27 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p164"
+   "id": "p164",
+   "plus": {
+    "detail": [
+     [
+      "Sortir de l'élevage intensif et accompagner financièrement la reconversion des éleveurs.",
+      "markovic_pa_communique",
+      "huff_markovic"
+     ],
+     [
+      "Nous n'avons pas trouvé de calendrier ni de montant pour l'accompagnement des éleveurs.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 2,69 millions d'hectares sont cultivés en bio, environ 10 % de la surface agricole, en légère baisse pour la troisième année de suite.",
+      "sujet_env_agencebio_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "markovic",
@@ -8334,7 +8712,21 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p165"
+   "id": "p165",
+   "plus": {
+    "detail": [
+     [
+      "Mettre fin à la chasse et à la corrida.",
+      "markovic_pa_communique",
+      "huff_markovic"
+     ],
+     [
+      "Nous n'avons pas trouvé s'il s'agirait d'une interdiction immédiate ou progressive.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "markovic",
@@ -8346,7 +8738,22 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p166"
+   "id": "p166",
+   "plus": {
+    "detail": [
+     [
+      "Intégrer les animaux aux plans ORSEC, qui organisent les secours en cas de catastrophe.",
+      "markovic_pa_communique"
+     ]
+    ],
+    "auj": [
+     [
+      "Le préfet de département a la charge de l'ordre public et de la sécurité des populations.",
+      "sujet_securite_gendarmerie_organisation"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -13781,6 +14188,421 @@
     ],
     "maj": "2026-10-19"
    }
+  },
+  {
+   "c": "lisnard",
+   "id": "p314",
+   "k": "mineurs",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "La majorité pénale à 16 ans",
+   "d": "Abaisser la majorité pénale à 16 ans, inverser l'excuse de minorité dès 13 ans et créer des internats disciplinaires fermés.",
+   "s": [
+    "ne_securite"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Abaisser la majorité pénale à 16 ans » et « inverser le principe de l'excuse de minorité dès 13 ans ».",
+      "ne_securite"
+     ],
+     [
+      "« Mettre en place des internats disciplinaires fermés » et « généraliser les travaux d'intérêt général dès le premier acte délictueux ».",
+      "ne_securite"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Une infraction, une sanction. »",
+      "ne_securite"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi « visant à renforcer l'autorité de la justice à l'égard des mineurs délinquants et de leurs parents » a été promulguée en 2025, après une décision du Conseil constitutionnel du 19 juin 2025.",
+      "sujet_securite_senat_mineurs_loi"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p315",
+   "k": "peines",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "Des peines planchers pour les récidivistes",
+   "d": "Rétablir les peines planchers pour les récidivistes, supprimer les réductions de peine automatiques et doubler les effectifs des tribunaux correctionnels.",
+   "s": [
+    "ne_securite"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Rétablir les peines planchers pour les récidivistes » et « supprimer les réductions de peine automatiques ».",
+      "ne_securite"
+     ],
+     [
+      "« Doubler les effectifs dans les juridictions correctionnelles ».",
+      "ne_securite"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Le budget de la justice est de loin le plus faible d'Europe (0,20% du PIB) », selon son programme.",
+      "ne_ambition"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, il fallait en moyenne 12,2 mois entre l'arrivée d'une affaire et la première décision du tribunal correctionnel.",
+      "sujet_securite_justice_rsj2026_delais"
+     ],
+     [
+      "Au 1er août 2026, 89 668 personnes étaient détenues pour 63 303 places opérationnelles.",
+      "sujet_securite_justice_detention_202608"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p316",
+   "k": "ame",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Supprimer l'AME, remplacée par une aide d'urgence",
+   "d": "Supprimer l'aide médicale d'État (AME) et la remplacer par une aide d'urgence, et réserver les prestations sociales non contributives aux étrangers en situation régulière depuis au moins cinq ans.",
+   "s": [
+    "ne_immigration"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 0.7,
+    "nature": "economie",
+    "per": "nd",
+    "h": "économie annoncée pour la fin de l'AME"
+   },
+   "plus": {
+    "detail": [
+     [
+      "« Supprimer l'Aide Médicale d'État (AME) et la remplacer par une aide d'urgence : 700 millions d'euros d'économies ».",
+      "ne_immigration"
+     ],
+     [
+      "« Conditionner les prestations sociales non contributives aux étrangers » « résidant régulièrement sur le territoire national depuis au moins cinq ans ».",
+      "ne_immigration"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Son programme annonce « 700 millions d'euros d'économies ».",
+      "ne_immigration"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p317",
+   "k": "ecole",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Supprimer la carte scolaire et créer un chèque-éducation",
+   "d": "Abroger la carte scolaire, créer progressivement un chèque-éducation pour choisir entre public et privé, et laisser les chefs d'établissement recruter leurs équipes.",
+   "s": [
+    "ne_education",
+    "ne_civique"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Il faut abroger la carte scolaire qui enferme les familles dans leur quartier, souvent contre leur gré ».",
+      "ne_education"
+     ],
+     [
+      "« L'instauration progressive d'un chèque-éducation : un financement public équivalent », pour choisir entre public et privé.",
+      "ne_education"
+     ],
+     [
+      "« La liberté donnée aux chefs d'établissement de recruter leurs équipes pédagogiques », avec une évaluation publique des résultats.",
+      "ne_education"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, la carte scolaire laisse aux familles aisées les moyens d'éviter leur établissement de secteur.",
+      "ne_education"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p318",
+   "k": "profs",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Les enseignants augmentés de 20 % en cinq ans, avec plus d'autonomie",
+   "d": "Augmenter de 20 % en cinq ans la rémunération des enseignants, en échange de plus d'autonomie, de présence, de formation et d'évaluation, et instaurer un certificat de fin de primaire pour entrer au collège.",
+   "s": [
+    "ne_education"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Une augmentation de 20 % des rémunérations en cinq ans », en échange de plus d'autonomie, de présence dans l'établissement, de formation et d'évaluation.",
+      "ne_education"
+     ],
+     [
+      "« Un corps unique d'enseignants contractuels, recrutés sur concours national ».",
+      "ne_education"
+     ],
+     [
+      "« Un certificat de fin de primaire, dont la validation conditionnera l'entrée au collège ».",
+      "ne_education"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025-2026, 851 500 enseignants travaillent dans les écoles et établissements.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p319",
+   "k": "sante",
+   "aj": "2026-10-19",
+   "th": "social",
+   "t": "Doubler le nombre d'étudiants en médecine et supprimer les ARS",
+   "d": "Doubler le nombre d'étudiants en médecine d'ici 2030, rembourser mieux les actes dans les zones sous-dotées et supprimer les agences régionales de santé.",
+   "s": [
+    "ne_sante"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Nous voulons doubler le nombre d'étudiants en médecine d'ici 2030, supprimer Parcoursup ».",
+      "ne_sante"
+     ],
+     [
+      "« La Sécurité sociale rembourse mieux les actes dans les zones sous-dotées que dans les zones saturées. »",
+      "ne_sante"
+     ],
+     [
+      "« Nous voulons supprimer les ARS, transférer les responsabilités aux préfets et aux élus ».",
+      "ne_sante"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Ce n'est pas une question de moyens – la France dépense plus que ses voisins. »",
+      "ne_sante"
+     ],
+     [
+      "« Ce n'est pas un problème de candidats – 90 000 jeunes veulent devenir médecins chaque année ».",
+      "ne_sante"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 6,4 millions d'assurés n'ont pas de médecin traitant.",
+      "sujet_sante_senat_rapport668"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p320",
+   "k": "contrat",
+   "aj": "2026-10-19",
+   "th": "travail",
+   "t": "Un contrat de travail unique pour les nouveaux emplois",
+   "d": "Instaurer un contrat de travail unique pour les nouveaux emplois et supprimer les charges des particuliers employeurs au niveau du Smic.",
+   "s": [
+    "ne_ambition"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« L'instauration d'un contrat de travail unique pour les nouveaux emplois ».",
+      "ne_ambition"
+     ],
+     [
+      "« Les charges pour les employeurs à domicile au niveau du SMIC seront supprimées ».",
+      "ne_ambition"
+     ]
+    ],
+    "auj": [
+     [
+      "Le taux de chômage est de 8,3 % au 2e trimestre 2026.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p321",
+   "k": "provinces",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Remplacer départements et régions par des « Provinces »",
+   "d": "Passer à trois niveaux, État, Provinces et bloc communal, les Provinces remplaçant départements et régions, avec un référendum constitutionnel, et transférer aux collectivités la plupart des compétences de l'État.",
+   "s": [
+    "ne_civique"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Un « nouveau schéma institutionnel à trois niveaux : Etat/ Province/ Bloc communal », « selon un choix à faire valider par un référendum constitutionnel ».",
+      "ne_civique"
+     ],
+     [
+      "« Les Provinces pourraient résulter de la fusion de départements avec des territoires des Régions actuelles. »",
+      "ne_civique"
+     ],
+     [
+      "L'État transférerait aux collectivités la plupart de ses compétences, sauf les fonctions régaliennes, et leur donnerait « un pouvoir normatif ».",
+      "ne_civique"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« L'organisation administrative territoriale est aujourd'hui d'une complexité incompréhensible pour le citoyen. »",
+      "ne_civique"
+     ]
+    ],
+    "auj": [
+     [
+      "Les collectivités territoriales sont les communes, les départements, les régions et des collectivités à statut particulier ; elles s'administrent librement (article 72 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lisnard",
+   "id": "p322",
+   "k": "europe",
+   "aj": "2026-10-19",
+   "th": "europe",
+   "t": "Un traité de démocratisation de l'Europe",
+   "d": "Négocier un traité de démocratisation de l'Europe pour revoir la répartition des compétences, avec un référendum en cas de blocage lié à des règles supranationales.",
+   "s": [
+    "ne_destin"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il propose « la négociation d'un Traité de démocratisation de l'Europe » pour revoir la répartition des compétences.",
+      "ne_destin"
+     ],
+     [
+      "En cas de blocage lié à des règles supranationales, il veut recourir au référendum.",
+      "ne_destin"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Conseil de l'Union européenne, la politique étrangère et de sécurité commune se décide à l'unanimité, sauf exceptions.",
+      "sujet_europe_consilium_unanimity"
+     ]
+    ],
+    "note": [
+     "Les pages du programme de Nouvelle Énergie ne sont pas datées : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "mikolajczak",
+   "id": "p323",
+   "k": "territoires",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Clarifier les compétences des collectivités et leur droit à l'expérimentation",
+   "d": "Simplifier le « millefeuille » administratif en clarifiant qui fait quoi, donner aux collectivités les moyens techniques et financiers d'agir, et élargir leur droit à l'expérimentation.",
+   "s": [
+    "equinoxe_territoires"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Clarté et stabilité des compétences : « Le premier besoin exprimé par les élus locaux n'est pas l'autonomie complète ».",
+      "equinoxe_territoires"
+     ],
+     [
+      "Moyens : « L'expertise des ingénieurs et agents territoriaux doit être mise au service des collectivités locales ».",
+      "equinoxe_territoires"
+     ],
+     [
+      "Droit à l'expérimentation : « Les réussites locales doivent pouvoir être mises en valeur et facilement répliquées ailleurs. »",
+      "equinoxe_territoires"
+     ]
+    ],
+    "auj": [
+     [
+      "Les collectivités territoriales s'administrent librement par des conseils élus, dans les conditions prévues par la loi (article 72 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   }
  ],
  "sources": {
@@ -18256,6 +19078,62 @@
    "d": "2026-09-13",
    "type": "presse",
    "u": "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
+  },
+  "ne_immigration": {
+   "t": "Programme : immigration",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/notre-programme/immigration/"
+  },
+  "ne_securite": {
+   "t": "Programme : sécurité",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/notre-programme/securite/"
+  },
+  "ne_sante": {
+   "t": "Programme : santé",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/notre-programme/sante/"
+  },
+  "ne_education": {
+   "t": "Programme : éducation",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/notre-programme/education/"
+  },
+  "ne_civique": {
+   "t": "Programme : générer un renouveau civique",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/"
+  },
+  "ne_destin": {
+   "t": "Programme : être maître de notre destin",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/"
+  },
+  "equinoxe_territoires": {
+   "t": "« Clarté, moyens et confiance pour nos territoires » (tribune d'Antoine Mikolajczak)",
+   "p": "Parti Équinoxe",
+   "d": "2026-08-26",
+   "type": "officiel",
+   "u": "https://parti-equinoxe.fr/clarte-moyens-et-confiance-pour-nos-territoires/"
+  },
+  "jhm_mikolajczak": {
+   "t": "Sous la bannière d'Équinoxe, Antoine Mikolajczak brigue la présidence de la République",
+   "p": "Le Journal de la Haute-Marne",
+   "d": "2026-07-11",
+   "type": "presse",
+   "u": "https://jhm.fr/sous-la-banniere-dequinoxe-antoine-mikolajczak-brigue-la-presidence-de-la-republique/"
   }
  },
  "presse": [
