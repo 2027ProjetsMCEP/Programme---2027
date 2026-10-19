@@ -199,7 +199,12 @@
    "parti": "Renaissance",
    "statut": "partiel",
    "statutTxt": "Premières lignes du programme présentées en mai 2026",
-   "faits": [],
+   "faits": [
+    [
+     "Il a tenu son premier grand meeting de campagne le 30 mai 2026, porte de Versailles, à Paris.",
+     "ps_meeting_attal"
+    ]
+   ],
    "docs": [
     "x_attal_ia"
    ],
@@ -268,6 +273,83 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il n'a pas encore publié de programme complet. Il présente ses mesures par thème depuis mai 2026 : salaires et frontières (mai), budget (juillet), école et eau (août), logement (septembre), jeunesse (octobre).",
+      "orange_attal",
+      "ps_attal_fonctionnaires",
+      "ps_ecole_attal_philippe",
+      "lid_attal_eau",
+      "gazette_logement_2026",
+      "lyonmag_attal_jeunesse"
+     ]
+    ],
+    "parties": [
+     [
+      "Il annonce « quatre piliers » : « L'école, les salaires, la gestion des frontières et l'intelligence artificielle ».",
+      "orange_attal"
+     ]
+    ],
+    "phares": {
+     "finances": [
+      "p244",
+      "p013"
+     ],
+     "interieur": [
+      "p006",
+      "p009"
+     ],
+     "social": [
+      "p014",
+      "p245"
+     ],
+     "travail": [
+      "p008",
+      "p010"
+     ],
+     "environnement": [
+      "p173",
+      "p174",
+      "p175"
+     ],
+     "gouvernance": [
+      "p247",
+      "p194"
+     ],
+     "etat": [
+      "p246"
+     ],
+     "education": [
+      "p011",
+      "p012",
+      "p248"
+     ],
+     "numerique": [
+      "p007"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il vise un déficit public sous 3 % du PIB avant 2032 et l'équilibre en 2037, avec « entre 120 et 150 milliards d'euros d'économies, sans hausse d'impôts ».",
+       "ps_attal_fonctionnaires",
+       "acteurspublics_attal"
+      ],
+      [
+       "Mesures chiffrées par lui ou son équipe : 2,5 milliards d'euros pour la hausse des salaires des enseignants, 7 milliards d'économies avec 100 000 postes de fonctionnaires en moins.",
+       "ps_ecole_attal_philippe",
+       "ps_attal_fonctionnaires"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de l'ensemble de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -3168,11 +3250,37 @@
    "t": "Des quotas d'immigration votés chaque année par le Parlement",
    "d": "Fixer chaque année des quotas d'immigration votés par le Parlement, les besoins de main-d'œuvre étant définis avec les partenaires sociaux.",
    "s": [
-    "orange_attal"
+    "orange_attal",
+    "ps_meeting_attal"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p006"
+   "id": "p006",
+   "plus": {
+    "detail": [
+     [
+      "Il propose une « préférence travail pour l'immigration » : « Les partenaires sociaux définiront donc les besoins en immigration pour notre économie », besoins « qui seront ensuite votés sous forme de quotas au Parlement ».",
+      "orange_attal"
+     ],
+     [
+      "Lors de son meeting du 30 mai 2026, il a parlé de « quotas d'immigration de travail, que nous fixerons, et votés par le Parlement ».",
+      "ps_meeting_attal"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« L'immigration zéro, ce n'est ni possible, ni souhaitable, pas plus que le fantasme des portes grandes ouvertes. »",
+      "ps_meeting_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés, dont 50 848 pour motif économique (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -3185,7 +3293,38 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p007"
+   "id": "p007",
+   "plus": {
+    "detail": [
+     [
+      "Il annonce un chantier sur l'intelligence artificielle « visant à former 20 millions de salariés en cinq ans ».",
+      "orange_attal"
+     ]
+    ],
+    "objectif": [
+     [
+      "Que « la France sera la patrie de l'intelligence artificielle ».",
+      "ps_meeting_attal"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour lui, l'intelligence artificielle, « c'est une question de puissance et d'avenir ».",
+      "ps_meeting_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 48 % des personnes de 12 ans et plus utilisaient des services d'IA générative, 15 points de plus qu'en un an.",
+      "sujet_numerique_arcep_cp"
+     ],
+     [
+      "Depuis le 2 février 2025, le règlement européen sur l'IA impose aux organisations qui utilisent l'IA des obligations de formation (« AI literacy »).",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -3193,35 +3332,147 @@
    "t": "Réduire l'écart entre salaire brut et salaire net, et réformer le chômage",
    "d": "Réduire l'écart entre salaire brut et salaire net (« droit au brut ») et réformer l'assurance chômage.",
    "s": [
-    "orange_attal"
+    "orange_attal",
+    "ps_meeting_attal"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p008"
+   "id": "p008",
+   "plus": {
+    "detail": [
+     [
+      "« Ma priorité sera les salaires. » Il veut un « droit au brut » : « Avec ce \"droit au brut\", nous pouvons atteindre une hausse inédite des salaires sur cinq ans. »",
+      "orange_attal"
+     ],
+     [
+      "Lors de son meeting, il a promis « un choc des salaires » et de « rapprocher le net du brut, en baissant les charges ».",
+      "ps_meeting_attal"
+     ],
+     [
+      "« Cela passera par des économies sur les dépenses sociales qui plombent nos comptes publics » « et par une réforme de l'assurance chômage ».",
+      "orange_attal"
+     ],
+     [
+      "Nous n'avons pas trouvé le détail de la réforme de l'assurance chômage qu'il propose.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Nos dépenses sociales ne peuvent plus autant reposer sur les Français qui travaillent. »",
+      "ps_meeting_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Smic, un salarié à temps plein touche 1 867,02 € brut par mois, soit 1 477,93 € net, depuis le 1er juin 2026.",
+      "sujet_travail_sp_smic_juin"
+     ],
+     [
+      "Les règles de l'assurance chômage sont négociées par les représentants des employeurs et des salariés ; sans accord, l'État les fixe par décret.",
+      "sujet_travail_unedic_qui_definit"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il ne donne pas de coût. Il veut financer la mesure par « des économies sur les dépenses sociales » et une réforme de l'assurance chômage.",
+      "orange_attal"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
    "th": "securite",
-   "t": "Un état d'urgence contre le trafic de drogue",
-   "d": "Instaurer un état d'urgence contre le narcotrafic.",
+   "t": "Un état d'urgence contre le narcotrafic",
+   "d": "Mettre en place un état d'urgence contre le narcotrafic, une mesure dans laquelle il dit « se retrouver ».",
    "s": [
     "orange_attal"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p009"
+   "id": "p009",
+   "plus": {
+    "detail": [
+     [
+      "Selon Le Parisien, cité par Orange, il dit « se retrouver » dans la mise en place d'un état d'urgence contre le narcotrafic, « une mesure plébiscitée par Bruno Retailleau (Les Républicains) et Édouard Philippe (Horizons) ».",
+      "orange_attal"
+     ],
+     [
+      "Nous n'avons pas trouvé de sa part le détail de ce que permettrait cet état d'urgence.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "La loi « visant à sortir la France du piège du narcotrafic » a été promulguée en juin 2025, après une décision du Conseil constitutionnel du 12 juin 2025.",
+      "sujet_securite_senat_narcotrafic_loi"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
    "th": "retraites",
    "t": "Plus d'âge légal : on part selon ses années de travail",
-   "d": "Abandonner l'âge légal au profit d'un système fondé sur la durée de cotisation, avec décote ou surcote selon l'âge de départ, et créer un pilier de retraite par capitalisation.",
+   "d": "Ne plus fixer d'âge légal mais une durée de cotisation, avec une décote si l'on part tôt et une surcote si l'on part tard. Ajouter une part de capitalisation, avec 1 000 euros versés par l'État à chaque naissance, et confier la gestion du système aux partenaires sociaux.",
    "s": [
-    "ps_retraites"
+    "ps_retraites",
+    "ps_meeting_attal"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p010"
+   "id": "p010",
+   "plus": {
+    "detail": [
+     [
+      "« On n'en est plus à bouger les paramètres ou les curseurs. » « Je propose qu'on prenne la durée de cotisation. »",
+      "ps_retraites"
+     ],
+     [
+      "« Vous avez une vraie décote si vous partez tôt, une vraie surcote si vous partez tard. »",
+      "ps_retraites"
+     ],
+     [
+      "Il propose un « vrai pilier de capitalisation », avec « 1.000 euros donnés par l'Etat à la naissance de chaque enfant ».",
+      "ps_retraites",
+      "ps_meeting_attal"
+     ],
+     [
+      "Il veut « confier la gestion de notre système de retraite aux partenaires sociaux ».",
+      "ps_meeting_attal"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, « ce système objectivement ne tient plus ».",
+      "ps_retraites"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969), avec 170 à 172 trimestres requis pour les générations 1964 à 1968.",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "Les retraites complémentaires des salariés du privé (Agirc-Arrco) sont déjà pilotées par les partenaires sociaux.",
+      "sujet_retraites_cor_agirc"
+     ],
+     [
+      "En 2025, les dépenses de retraite représentent 14,1 % du PIB, soit 422 milliards d'euros.",
+      "sujet_retraites_cor_ra2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de chiffrage de sa part, ni pour la capitalisation ni pour les 1 000 euros par naissance.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -3229,8 +3480,9 @@
    "t": "Moins de 20 élèves par classe en primaire, et les profs augmentés",
    "d": "Moins de 20 élèves par classe en primaire et une hausse de 200 à 500 € net par mois pour les enseignants.",
    "s": [
+    "ps_ecole_attal_philippe",
     "ps_ecole",
-    "qpq"
+    "ps_meeting_attal"
    ],
    "aj": "2026-10-01",
    "a": {
@@ -3240,51 +3492,203 @@
     "h": "coût annoncé de la hausse des salaires"
    },
    "fin": "f",
-   "finTxt": "Des économies, « notamment sur le social »",
-   "id": "p011"
+   "finTxt": "Notamment des économies sur les dépenses sociales",
+   "id": "p011",
+   "plus": {
+    "detail": [
+     [
+      "Il fixe « l'objectif de passer sous la barre des 20 élèves par classe en primaire ».",
+      "ps_ecole"
+     ],
+     [
+      "Il promet « une augmentation de 200 euros nets par mois, pouvant atteindre 500 euros en milieu de carrière », et veut « inscrire ces engagements dans une loi de programmation pour l'Éducation nationale dès 2027 ».",
+      "ps_ecole_attal_philippe"
+     ],
+     [
+      "Il veut aussi « recruter et mieux payer les AESH (accompagnants d'élèves en situation de handicap), essentiels à l'école inclusive ».",
+      "ps_meeting_attal"
+     ]
+    ],
+    "objectif": [
+     [
+      "Avoir « moins de 20 élèves par classe », « comme dans les meilleurs systèmes éducatifs européens ».",
+      "ps_meeting_attal"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Le métier a été progressivement smicardisé. »",
+      "ps_ecole_attal_philippe"
+     ]
+    ],
+    "auj": [
+     [
+      "À la rentrée 2025, il y a en moyenne 21,1 élèves par classe en élémentaire et 21,7 en maternelle.",
+      "sujet_education_depp_enc2026"
+     ],
+     [
+      "En 2025-2026, 366 100 enseignants travaillent dans le premier degré.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "« Le coût, évalué à 2,5 milliards d'euros par son entourage », « serait notamment financé par des économies sur les dépenses sociales ».",
+      "ps_ecole_attal_philippe"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
    "th": "education",
-   "t": "Un examen obligatoire avant l'entrée au collège",
-   "d": "Rétablir un examen obligatoire en fin de primaire avant l'entrée au collège et intégrer l'IA aux programmes dès le collège.",
+   "t": "Un certificat d'études avant le collège, le brevet obligatoire pour le lycée",
+   "d": "Rétablir un certificat d'études à l'entrée en 6e, avec une année passerelle pour les élèves les plus en difficulté, et rendre le brevet obligatoire pour entrer en seconde.",
    "s": [
+    "ps_ecole_attal_philippe",
     "ps_ecole",
     "orange_attal"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p012"
+   "id": "p012",
+   "plus": {
+    "detail": [
+     [
+      "« Il propose un certificat d'études à l'entrée en sixième » et « une année passerelle pour les élèves les plus en difficulté ».",
+      "ps_ecole_attal_philippe"
+     ],
+     [
+      "Ce certificat serait « destiné à vérifier que les élèves maîtrisent les connaissances fondamentales ».",
+      "ps_ecole"
+     ],
+     [
+      "Il veut aussi « un brevet obligatoire pour accéder à la seconde » : « Je pense notamment au brevet obligatoire pour passer au lycée ».",
+      "ps_ecole_attal_philippe",
+      "orange_attal"
+     ],
+     [
+      "Il « veut aussi généraliser les groupes de niveau en français et en mathématiques ».",
+      "ps_ecole_attal_philippe"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis la rentrée 2024, le français et les mathématiques sont enseignés en groupes de besoins en 6e et en 5e.",
+      "sujet_education_men_college"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
    "th": "budget",
-   "t": "100 000 postes de fonctionnaires en moins, sur la base du volontariat",
-   "d": "Plan de départs volontaires de fonctionnaires visant 100 000 postes en moins, en préservant l'Éducation nationale, les Armées, la Justice et l'Intérieur.",
+   "t": "Supprimer 100 000 postes de fonctionnaires d'État",
+   "d": "Supprimer 100 000 postes de fonctionnaires d'État par des départs à la retraite non remplacés et un plan de départs volontaires, en préservant l'Éducation nationale, les Armées, la Justice et l'Intérieur.",
    "s": [
-    "ifrap"
+    "ps_attal_fonctionnaires",
+    "acteurspublics_attal"
    ],
    "aj": "2026-10-01",
    "a": {
     "v": 7,
     "nature": "economie",
     "per": "nd",
-    "h": "économie estimée"
+    "h": "économie annoncée"
    },
    "fin": "c",
-   "id": "p013"
+   "id": "p013",
+   "plus": {
+    "detail": [
+     [
+      "Il propose « la suppression de 100 000 postes de fonctionnaires d'État ».",
+      "ps_attal_fonctionnaires"
+     ],
+     [
+      "Pour cela, il veut « assumer le non-remplacement de certains départs à la retraite » et lancer « un plan de départs volontaires ».",
+      "ps_attal_fonctionnaires"
+     ],
+     [
+      "Il « préserve l'Éducation nationale, les Armées, la Justice et l'Intérieur des suppressions de poste ».",
+      "ps_attal_fonctionnaires"
+     ],
+     [
+      "Il l'a annoncé dans un entretien au Parisien, en juillet 2026.",
+      "ps_attal_fonctionnaires",
+      "acteurspublics_attal"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, « la clé, ce sont les dépenses sociales ».",
+      "ps_attal_fonctionnaires"
+     ]
+    ],
+    "auj": [
+     [
+      "Fin 2024, la fonction publique d'État compte 2,59 millions d'agents, sur 5,9 millions dans les trois fonctions publiques.",
+      "sujet_etat_insee_fp2024"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il annonce une économie de « sept milliards d'euros ».",
+      "ps_attal_fonctionnaires"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
    "th": "logement",
-   "t": "Construire 400 000 logements par an",
-   "d": "Construire 400 000 logements par an.",
+   "t": "Une loi de programmation pluriannuelle pour le logement",
+   "d": "Voter une loi de programmation pluriannuelle pour le logement, avec une simplification du ZAN, un statut renforcé pour le bailleur privé et une garantie publique ou un prêt à taux zéro pour les primo-accédants solvables.",
    "s": [
-    "ifrap"
+    "gazette_logement_2026"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p014"
+   "id": "p014",
+   "plus": {
+    "detail": [
+     [
+      "Il propose de conjuguer un « choc d'offre et de demande » grâce à une « loi de programmation pluriannuelle garante de stabilité ».",
+      "gazette_logement_2026"
+     ],
+     [
+      "Cette loi contiendrait « une simplification du Zan, un approfondissement du statut du bailleur privé ».",
+      "gazette_logement_2026"
+     ],
+     [
+      "Elle prévoirait aussi « la mise en place d'une garantie publique ou d'un prêt à taux zéro pour les primo-accédants solvables ».",
+      "gazette_logement_2026"
+     ],
+     [
+      "Sur la rénovation, il dit : « je défends MaPrime Renov' », en l'élargissant aux travaux d'un seul type (mono-gestes). Il ajoute : « j'étudie le fait de décentraliser le pilotage, y compris de la distribution d'aides ».",
+      "gazette_logement_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il qualifie le logement de « grand plantage économique dans le macronisme ».",
+      "gazette_logement_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier, 21,3 % de moins que la moyenne des cinq années précédentes.",
+      "sujet_logement_sdes_construction2025"
+     ]
+    ],
+    "note": [
+     "Une ancienne version de cette fiche indiquait un objectif de 400 000 logements par an, repris d'un comparateur. Nous ne l'avons trouvé dans aucune déclaration de 2026 : il a été retiré.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "dupont-aignan",
@@ -5754,7 +6158,50 @@
    "aj": "2026-10-12",
    "fin": "n",
    "finTxt": "redéployer les 400 millions d'euros de l'actuel « plan eau » et 200 millions du fonds vert, et des prêts à très long terme de la Banque des Territoires pour les investissements plus lourds. Le coût total n'est pas chiffré.",
-   "id": "p173"
+   "id": "p173",
+   "plus": {
+    "detail": [
+     [
+      "« Je m'engage à lancer la plus grande chasse au gâchis d'eau jamais menée. » Objectif : « d'ici à 2035, de récupérer 1.000 milliards de litres d'eau ».",
+      "lid_attal_eau"
+     ],
+     [
+      "Les réseaux les moins performants seraient ciblés en priorité, avec un diagnostic et un plan de financement proposés aux communes ou intercommunalités.",
+      "lid_attal_eau"
+     ],
+     [
+      "La réutilisation des eaux usées serait autorisée automatiquement si les normes sont respectées, avec des contrats d'eau recyclée pour l'agriculture et l'industrie.",
+      "lid_attal_eau"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Un litre d'eau sur cinq se perd dans des fuites, c'est le gâchis du siècle. »",
+      "lid_attal_eau"
+     ],
+     [
+      "« La non-réutilisation des eaux usées est un autre scandale. L'Espagne réutilise son eau 14 fois plus que nous. »",
+      "lid_attal_eau"
+     ],
+     [
+      "Pour lui, « la maîtrise de l'eau est un enjeu existentiel pour la France ».",
+      "lid_attal_eau"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 10 septembre 2026, 93 départements de l'Hexagone avaient des restrictions d'usage de l'eau, dont 74 au niveau « crise ».",
+      "sujet_env_bsh_2026_09"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il veut redéployer « les 400 millions d'euros du +plan eau+ actuel, les 200 millions du fonds vert ». « Les investissements les plus lourds seront financés par des prêts à très long terme de la Banque des Territoires. »",
+      "lid_attal_eau"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -5766,7 +6213,26 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p174"
+   "id": "p174",
+   "plus": {
+    "detail": [
+     [
+      "« Garantir un tarif bas et fixe pour les premiers litres essentiels en fonction de la taille du foyer ».",
+      "lid_attal_eau"
+     ],
+     [
+      "Nous n'avons pas trouvé le niveau de ce tarif ni le nombre de litres concernés.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour lui, « la maîtrise de l'eau est un enjeu existentiel pour la France ».",
+      "lid_attal_eau"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -5778,7 +6244,26 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p175"
+   "id": "p175",
+   "plus": {
+    "detail": [
+     [
+      "« Violer un arrêté sécheresse sera passible de 3.000 euros d'amende pour un particulier et 15.000 pour une entreprise. »",
+      "lid_attal_eau"
+     ],
+     [
+      "Selon l'AFP, c'est le double du montant actuel.",
+      "lid_attal_eau"
+     ]
+    ],
+    "auj": [
+     [
+      "En cas de sécheresse, ce sont les préfets de département qui restreignent les usages de l'eau par arrêté, selon quatre niveaux : vigilance, alerte, alerte renforcée et crise.",
+      "sujet_env_guide_secheresse_2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -6083,7 +6568,26 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p193"
+   "id": "p193",
+   "plus": {
+    "detail": [
+     [
+      "Il ne veut pas supprimer Parcoursup mais le transformer en « véritable outil d'accompagnement », avec davantage de mentorat, de tutorat et de stages.",
+      "lyonmag_attal_jeunesse"
+     ],
+     [
+      "Il l'a annoncé à Lyon le 10 octobre 2026, en présentant ses propositions pour la jeunesse.",
+      "lyonmag_attal_jeunesse"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -6095,7 +6599,20 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p194"
+   "id": "p194",
+   "plus": {
+    "detail": [
+     [
+      "Il veut imposer à chaque jeune au moins un mois d'engagement civique au service des autres avant 25 ans.",
+      "lyonmag_attal_jeunesse"
+     ],
+     [
+      "Nous n'avons pas trouvé sous quelle forme (association, service civique, armée) ni avec quel budget.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -6107,7 +6624,26 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p195"
+   "id": "p195",
+   "plus": {
+    "detail": [
+     [
+      "Les licences et les masters seraient évalués « tous les trois ans ».",
+      "lyonmag_attal_jeunesse"
+     ],
+     [
+      "Les formations à la fois très décrochantes et peu insérantes pourraient être supprimées ou refondues.",
+      "lyonmag_attal_jeunesse"
+     ]
+    ],
+    "auj": [
+     [
+      "40,3 % des bacheliers 2020 inscrits en première année de licence ont obtenu leur licence en 3 ou 4 ans (30,1 % en 3 ans).",
+      "sujet_etudes_sies_nf29"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "philippe",
@@ -8072,6 +8608,264 @@
     "note": [
      "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
      "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p244",
+   "k": "equilibre",
+   "aj": "2026-10-19",
+   "th": "budget",
+   "t": "Revenir à l'équilibre des comptes publics en 2037",
+   "d": "Ramener le déficit public sous 3 % du PIB avant 2032 et revenir à l'équilibre en 2037, avec 120 à 150 milliards d'euros d'économies sans hausse d'impôts et une « règle d'or » soumise à référendum.",
+   "s": [
+    "ps_attal_fonctionnaires",
+    "acteurspublics_attal"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 120,
+    "nature": "economie",
+    "per": "total",
+    "lab": "Économies annoncées",
+    "h": "entre 120 et 150 milliards d'euros sur dix ans, selon lui"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Il vise un déficit public à 3 % du PIB « avant 2032 » et l'« absence de déséquilibre budgétaire à l'horizon 2037 ».",
+      "ps_attal_fonctionnaires"
+     ],
+     [
+      "« Pour réaliser entre 120 et 150 milliards d'euros d'économies, sans hausse d'impôts », les deux tiers viendraient des dépenses sociales.",
+      "acteurspublics_attal"
+     ],
+     [
+      "Il propose « un référendum en début de quinquennat pour une \"règle d'or\" d'équilibre budgétaire ».",
+      "acteurspublics_attal"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, les dépenses sociales sont « hors de contrôle et pèsent trop sur ceux qui travaillent ».",
+      "acteurspublics_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget pour 2027 prévoit un déficit public de 5,0 % du PIB, après 5,4 % attendu en 2026. Il n'est pas encore voté.",
+      "sujet_budget_ecogouv_plf2027"
+     ],
+     [
+      "Le Gouvernement vise un déficit sous 3 % du PIB en 2029.",
+      "sujet_budget_tresor_raa2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il chiffre l'effort à « 120 à 150 milliards d'euros sur dix ans ».",
+      "ps_attal_fonctionnaires"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p245",
+   "k": "annee_blanche",
+   "aj": "2026-10-19",
+   "th": "pouvoir",
+   "t": "Geler les prestations sociales en 2028, sauf les petites retraites",
+   "d": "Faire une « année blanche » sur l'ensemble des prestations sociales dans le budget 2028 : elles ne seraient pas revalorisées, sauf les petites retraites.",
+   "s": [
+    "acteurspublics_attal",
+    "ps_attal_fonctionnaires"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il prévoit, « pour le premier budget de 2028, d'une année blanche sur l'ensemble des prestations sociales ».",
+      "acteurspublics_attal"
+     ],
+     [
+      "Il veut « geler toutes les prestations sociales, en excluant toutefois les petites retraites ».",
+      "ps_attal_fonctionnaires"
+     ],
+     [
+      "Nous n'avons pas trouvé à partir de quel montant une retraite serait considérée comme « petite ».",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, les dépenses sociales sont « hors de contrôle et pèsent trop sur ceux qui travaillent ».",
+      "acteurspublics_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 1er janvier 2026, les pensions de retraite de base ont augmenté de 0,9 %.",
+      "sujet_retraites_sp_revalo"
+     ],
+     [
+      "Les prix ont augmenté de 3,0 % sur un an en septembre 2026 (estimation provisoire).",
+      "sujet_pouvoir_insee_ipc_sept"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p246",
+   "k": "impunite",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Les ministres qui ne tiennent pas leur budget devront partir",
+   "d": "Obliger les ministres et directeurs d'administration centrale qui ne tiennent pas leur budget à quitter leurs fonctions, et le gouvernement à démissionner si la trajectoire budgétaire n'est pas tenue trois ans de suite.",
+   "s": [
+    "acteurspublics_attal"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Les ministres et directeurs d'administration centrale qui n'auront pas tenu leur budget devront quitter leurs fonctions. »",
+      "acteurspublics_attal"
+     ],
+     [
+      "Si la trajectoire budgétaire n'est pas tenue trois années de suite, hors crise, « la responsabilité en incomberait au Premier ministre et à son gouvernement, appelés alors à démissionner ».",
+      "acteurspublics_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Gouvernement détermine et conduit la politique de la nation et dispose de l'administration (article 20 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p247",
+   "k": "referendums",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Des référendums réguliers",
+   "d": "Organiser des référendums réguliers pour consulter les Français pendant le quinquennat, dont un référendum sur une « règle d'or » budgétaire en début de mandat.",
+   "s": [
+    "ps_meeting_attal",
+    "acteurspublics_attal"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut des « référendums réguliers » pour ne pas attendre cinq ans avant de donner la parole aux Français.",
+      "ps_meeting_attal"
+     ],
+     [
+      "Le premier porterait sur une « règle d'or » d'équilibre budgétaire, en début de quinquennat.",
+      "acteurspublics_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis 1958, 9 référendums nationaux ont été organisés, le dernier le 29 mai 2005.",
+      "sujet_institutions_cc_referendums"
+     ],
+     [
+      "Le Président de la République peut soumettre au référendum certains projets de loi (article 11 de la Constitution), sur proposition du Gouvernement ou des deux assemblées.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p248",
+   "k": "ia_ecole",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "L'IA dans tous les programmes scolaires dès le collège",
+   "d": "Intégrer l'intelligence artificielle à tous les programmes scolaires, dès le collège.",
+   "s": [
+    "orange_attal"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « l'intégration de l'IA (intelligence artificielle) à tous les programmes scolaires, dès le collège ».",
+      "orange_attal"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 85 % des 18-24 ans utilisent l'IA générative.",
+      "sujet_numerique_barometre_rapport"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p249",
+   "k": "ghettos",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Fermer une centaine de « ghettos scolaires »",
+   "d": "Fermer une centaine d'établissements assimilés à des « ghettos scolaires ».",
+   "s": [
+    "ps_ecole_attal_philippe"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il « prévoit la fermeture d'une centaine d'établissements assimilés à des « ghettos scolaires » ».",
+      "ps_ecole_attal_philippe"
+     ],
+     [
+      "Nous n'avons pas trouvé selon quels critères ces établissements seraient choisis ni où iraient leurs élèves.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "attal",
+   "id": "p250",
+   "k": "lycee_pro",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Un contrat avec une entreprise dès la première pour les lycéens professionnels",
+   "d": "Permettre à chaque lycéen professionnel de signer, dès la première, un contrat avec une entreprise qui lui garantit un emploi ou une alternance après le diplôme.",
+   "s": [
+    "lyonmag_attal_jeunesse"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "À partir de la première, chaque lycéen professionnel pourrait signer « un contrat avec une entreprise » garantissant un emploi ou une alternance après le diplôme.",
+      "lyonmag_attal_jeunesse"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, le taux de chômage des 15-24 ans est de 21,6 %.",
+      "sujet_travail_insee_chomage"
+     ]
     ],
     "maj": "2026-10-19"
    }
@@ -12291,6 +13085,41 @@
    "d": "2026-02",
    "type": "donnees",
    "u": "https://eduscol.education.gouv.fr/6186/la-liberte-d-expression-un-droit-fondamental"
+  },
+  "ps_ecole_attal_philippe": {
+   "t": "Présidentielle 2027 : Philippe et Attal font de l'école un nouveau terrain de bataille, au risque d'éreinter le bilan Macron",
+   "p": "Public Sénat",
+   "d": "2026-08-25",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-philippe-et-attal-font-de-lecole-un-nouveau-terrain-de-bataille-au-risque-dereinter-le-bilan-macron"
+  },
+  "ps_meeting_attal": {
+   "t": "« Un an pour convaincre » : pour son premier grand meeting, Gabriel Attal mise sur l'espoir et joue sa différence avec Édouard Philippe",
+   "p": "Public Sénat",
+   "d": "2026-05-30",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/un-an-pour-convaincre-pour-son-premier-grand-meeting-gabriel-attal-mise-sur-lespoir-et-joue-sa-difference-avec-edouard-philippe"
+  },
+  "ps_attal_fonctionnaires": {
+   "t": "Réduction du nombre de fonctionnaires : le virage à 180 degrés de Gabriel Attal",
+   "p": "Public Sénat",
+   "d": "2026-07-03",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/reduction-de-nombre-de-fonctionnaires-le-virage-a-180-degres-de-gabriel-attal"
+  },
+  "acteurspublics_attal": {
+   "t": "Gabriel Attal propose 100 000 fonctionnaires en moins et « l'impunité zéro » pour les ministres dépensiers",
+   "p": "Acteurs publics",
+   "d": "2026-07-03",
+   "type": "presse",
+   "u": "https://acteurspublics.fr/articles/gabriel-attal-propose-100-000-fonctionnaires-en-moins-et-limpunite-zero-pour-les-ministres-depensiers/"
+  },
+  "gazette_logement_2026": {
+   "t": "Les candidats à la présidentielle dévoilent leur politique du logement",
+   "p": "La Gazette France",
+   "d": "2026-10-07",
+   "type": "presse",
+   "u": "https://www.lagazettefrance.fr/article/les-candidats-a-la-presidentielle-devoilent-leur-politique-du-logement"
   }
  },
  "presse": [
