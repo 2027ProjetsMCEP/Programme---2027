@@ -436,6 +436,52 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Debout la France actualise son programme pour 2027. En 2026, il met d'abord en avant la sortie de l'Union européenne.",
+      "dlf_projet",
+      "sudradio_nda_0920"
+     ]
+    ],
+    "phares": {
+     "europe": [
+      "p293",
+      "p019"
+     ],
+     "interieur": [
+      "p015",
+      "p016",
+      "p017"
+     ],
+     "social": [
+      "p018"
+     ],
+     "travail": [
+      "p294"
+     ],
+     "finances": [
+      "p295"
+     ],
+     "gouvernance": [
+      "p296"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il ne chiffre pas l'ensemble de ses mesures. Pour la baisse des carburants, il affirme qu'« il y a de l'argent, il est mal dépensé ».",
+       "sudradio_nda_0920"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -2159,8 +2205,12 @@
    "statutTxt": "Lettre-programme de 86 pages et 30 propositions publiées",
    "faits": [
     [
-     "Candidature annoncée le 28 avril 2026 et confirmée le 30 juillet. Il refuse toute primaire.",
-     "qpq"
+     "Il a présenté sa candidature le 16 juillet 2026 avec une lettre aux Français : « C'est donc par un contrat qui me lie aux Français que je présente ma candidature ».",
+     "lcp_cazeneuve_candidature"
+    ],
+    [
+     "Il refuse de participer à la primaire de la gauche : « Je pense que le risque que représente le RN appelle un large rassemblement ».",
+     "lcp_cazeneuve_candidature"
     ]
    ],
    "docs": [
@@ -2232,6 +2282,79 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il a publié en juillet 2026 une lettre-programme aux Français et une synthèse de 30 propositions, en trois parties.",
+      "caz_synthese",
+      "caz_lettre"
+     ]
+    ],
+    "parties": [
+     [
+      "Trois parties : « Protéger les vies », « Remettre l'État en état » et « Rebâtir les souverainetés ».",
+      "caz_synthese"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p084",
+      "p087",
+      "p286"
+     ],
+     "finances": [
+      "p085",
+      "p089",
+      "p292"
+     ],
+     "education": [
+      "p086",
+      "p288"
+     ],
+     "gouvernance": [
+      "p088",
+      "p289"
+     ],
+     "social": [
+      "p090",
+      "p285"
+     ],
+     "europe": [
+      "p091"
+     ],
+     "defense": [
+      "p281"
+     ],
+     "interieur": [
+      "p283",
+      "p282",
+      "p284"
+     ],
+     "environnement": [
+      "p287"
+     ],
+     "etat": [
+      "p290"
+     ],
+     "numerique": [
+      "p291"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Sa synthèse ne chiffre pas ses mesures. Il annonce « vérité budgétaire et maîtrise de la dette » et une baisse des impôts de production financée par moins d'aides fiscales.",
+       "caz_synthese"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -2243,11 +2366,15 @@
    "statutTxt": "Programme volontairement limité à la réforme des institutions",
    "faits": [
     [
-     "Candidature annoncée le 19 avril 2026.",
-     "qpq"
+     "Elle est « candidate à l'élection présidentielle de 2027 pour Solution Démocratique ». En 2022, elle avait recueilli 36 parrainages d'élus.",
+     "sd_accueil",
+     "sd_parrainage2027"
     ]
    ],
-   "docs": [],
+   "docs": [
+    "sd_calendrier",
+    "sd_parrainage2027"
+   ],
    "photo": {
     "a": "Thomas Binet",
     "y": "2021",
@@ -2308,6 +2435,38 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son programme est volontairement limité à la démocratie directe et à la décentralisation : deux référendums en 2027, puis un rôle d'arbitre pour la présidente.",
+      "sd_calendrier",
+      "sd_parrainage2027"
+     ]
+    ],
+    "phares": {
+     "gouvernance": [
+      "p136",
+      "p297"
+     ],
+     "etat": [
+      "p137"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage. Ses mesures sont des changements de règles.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -4009,7 +4168,35 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p015"
+   "id": "p015",
+   "plus": {
+    "detail": [
+     [
+      "Recruter 10 000 agents spécialisés pour le contrôle des frontières.",
+      "dlf_immigration"
+     ],
+     [
+      "Sortir de l'espace Schengen, pour contrôler les frontières nationales.",
+      "dlf_immigration"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés et 145 210 demandes d'asile ont été enregistrées par l'Ofpra (données provisoires).",
+      "sujet_immigration_dgef_titres2025",
+      "sujet_immigration_ofpra_bilan2025"
+     ],
+     [
+      "Depuis le 12 juin 2026, les règles européennes du pacte sur la migration et l'asile s'appliquent.",
+      "sujet_immigration_consilium_pacte"
+     ]
+    ],
+    "note": [
+     "Debout la France indique actualiser son programme pour 2027 : seules les pages marquées « Projet 2027 » sont reprises ici.",
+     "dlf_projet"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "dupont-aignan",
@@ -4021,7 +4208,30 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p016"
+   "id": "p016",
+   "plus": {
+    "detail": [
+     [
+      "Suspendre le regroupement familial.",
+      "dlf_immigration"
+     ],
+     [
+      "Supprimer les aides sociales non contributives (celles versées sans avoir cotisé) pour les étrangers.",
+      "dlf_immigration"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 90 959 premiers titres de séjour ont été délivrés pour motif familial, sur 377 000 (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "note": [
+     "Debout la France indique actualiser son programme pour 2027 : seules les pages marquées « Projet 2027 » sont reprises ici.",
+     "dlf_projet"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "dupont-aignan",
@@ -4033,31 +4243,125 @@
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p017"
+   "id": "p017",
+   "plus": {
+    "detail": [
+     [
+      "Supprimer le droit du sol par référendum.",
+      "dlf_immigration"
+     ],
+     [
+      "Exiger 10 ans de résidence pour être naturalisé, avec un plafond annuel voté par le Parlement.",
+      "dlf_immigration"
+     ],
+     [
+      "Fixer des quotas d'étudiants étrangers par filière et par pays.",
+      "dlf_immigration"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 98 139 personnes ont acquis la nationalité française, dont 42 246 par décret (naturalisation).",
+      "sujet_immigration_dgef_nationalite2025"
+     ],
+     [
+      "La loi fixe les règles de la nationalité (article 34 de la Constitution).",
+      "sujet_immigration_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Debout la France indique actualiser son programme pour 2027 : seules les pages marquées « Projet 2027 » sont reprises ici.",
+     "dlf_projet"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "dupont-aignan",
    "th": "pouvoir",
-   "t": "Baisser les taxes sur l'essence de 40 centimes par litre",
-   "d": "Baisser les taxes sur les carburants de 40 centimes par litre.",
+   "t": "Baisser les taxes sur l'essence de 50 centimes par litre",
+   "d": "Baisser le prix des carburants de 50 centimes par litre, en supprimant les certificats d'économie d'énergie, la TVA sur la taxe et 20 centimes d'accises.",
    "s": [
+    "sudradio_nda_0920",
     "nda_site"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p018"
+   "id": "p018",
+   "plus": {
+    "detail": [
+     [
+      "« Je supprime les certificats d'économie d'énergie inventés par une directive européenne : 15 centimes. »",
+      "sudradio_nda_0920"
+     ],
+     [
+      "« Je supprime la TVA sur la taxe. » Puis : « Et je supprime les accises de 20 centimes : 50 centimes, pour arriver au niveau de l'Espagne. »",
+      "sudradio_nda_0920"
+     ],
+     [
+      "Son site de campagne évoquait auparavant une baisse de 40 centimes par litre.",
+      "nda_site"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Donc il y a de l'argent, il est mal dépensé. »",
+      "sudradio_nda_0920"
+     ]
+    ],
+    "auj": [
+     [
+      "En septembre 2026, les prix de l'énergie ont augmenté de 21,2 % sur un an (estimation provisoire de l'Insee).",
+      "sujet_pouvoir_insee_ipc_sept"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il ne chiffre pas le coût de cette baisse pour l'État. Selon lui, « il y a de l'argent, il est mal dépensé ».",
+      "sudradio_nda_0920"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "dupont-aignan",
    "th": "europe",
-   "t": "Arrêter les aides financières à l'Ukraine",
-   "d": "Mettre fin aux aides financières à l'Ukraine.",
+   "t": "Arrêter les aides financières à l'Ukraine et négocier la paix",
+   "d": "Mettre fin aux aides financières à l'Ukraine et faire la paix, avec une Ukraine neutre.",
    "s": [
-    "nda_site"
+    "nda_site",
+    "sudradio_nda_0920",
+    "entrevue_nda_0916"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p019"
+   "id": "p019",
+   "plus": {
+    "detail": [
+     [
+      "« Je veux faire la paix en Ukraine. » « Faisons-en un pays neutre, défendons sa souveraineté. »",
+      "sudradio_nda_0920"
+     ],
+     [
+      "Selon lui, « les Français sont appauvris parce qu'on donne de l'argent à l'Ukraine ».",
+      "entrevue_nda_0916"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il affirme que « Ukrainiens et Russes se sont entendus sur un plan de paix ».",
+      "sudradio_nda_0920"
+     ]
+    ],
+    "auj": [
+     [
+      "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027.",
+      "sujet_europe_consilium_ukraine"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -5314,7 +5618,34 @@
     "caz_synthese"
    ],
    "fin": "n",
-   "id": "p084"
+   "id": "p084",
+   "plus": {
+    "detail": [
+     [
+      "Il pose quatre principes, dont la « durée de cotisation plutôt que recul de l'âge légal », en reprenant « la trajectoire d'allongement de 2014 ».",
+      "caz_synthese"
+     ],
+     [
+      "« Pénibilité rétablie (postures contraignantes, port de charges, vibrations, risques chimiques) », avec un droit au départ anticipé.",
+      "caz_synthese"
+     ],
+     [
+      "Il prévoit aussi la « liberté de travailler plus longtemps pour qui le souhaite » et une politique pour l'emploi des seniors, « gisement de huit cent mille emplois ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969), avec 170 à 172 trimestres requis pour les générations 1964 à 1968.",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "La loi de financement de la sécurité sociale pour 2026 a suspendu jusqu'en 2028 le relèvement de l'âge légal prévu par la réforme de 2023.",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -5326,7 +5657,30 @@
     "caz_synthese"
    ],
    "fin": "s",
-   "id": "p085"
+   "id": "p085",
+   "plus": {
+    "detail": [
+     [
+      "Il veut le « rétablissement plein et entier de la loi Veil » « à titre rétroactif depuis 2019 » : « toute exonération compensée à l'euro près, indexée sur les salaires ».",
+      "caz_synthese"
+     ],
+     [
+      "L'équilibre des comptes serait « apprécié sur un cycle de cinq ans » (dix ans au plus en cas de crise majeure), pour les branches maladie, vieillesse et autonomie.",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la branche maladie de la Sécurité sociale est en déficit de 15,9 milliards d'euros.",
+      "sujet_sante_senat_cf_comptes2025"
+     ],
+     [
+      "Le Parlement vote chaque année la loi de financement de la sécurité sociale, qui fixe ses objectifs de dépenses.",
+      "sujet_sante_an_fiche54"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -5338,7 +5692,28 @@
     "caz_synthese"
    ],
    "fin": "n",
-   "id": "p086"
+   "id": "p086",
+   "plus": {
+    "detail": [
+     [
+      "« Au moins 2 000 € d'aide supplémentaire pour chaque étudiant boursier au cours de ses deux premières années ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 668 284 étudiants recevaient une bourse sur critères sociaux (2,41 milliards d'euros versés).",
+      "sujet_etudes_crous_bourses"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût dans sa synthèse.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -5350,7 +5725,26 @@
     "caz_synthese"
    ],
    "fin": "n",
-   "id": "p087"
+   "id": "p087",
+   "plus": {
+    "detail": [
+     [
+      "Une « avance jeunesse de 3 000 € pour les 18-24 ans sans diplôme ni emploi, sous conditions de ressources ».",
+      "caz_synthese"
+     ],
+     [
+      "Nous n'avons pas trouvé si cette avance serait à rembourser.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, le taux de chômage des 15-24 ans est de 21,6 %.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -5362,7 +5756,31 @@
     "caz_synthese"
    ],
    "fin": "s",
-   "id": "p088"
+   "id": "p088",
+   "plus": {
+    "detail": [
+     [
+      "Il veut le « rétablissement du septennat » et une « dose de proportionnelle aux législatives ».",
+      "caz_synthese"
+     ],
+     [
+      "Il demande une « discipline sur le 49.3, les ordonnances et les procédures accélérées ».",
+      "caz_synthese"
+     ],
+     [
+      "Nous n'avons pas trouvé si le septennat serait renouvelable.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Le mandat présidentiel est de cinq ans (article 6 de la Constitution). Le 49.3 permet au Gouvernement de faire adopter un texte sans vote, sauf si une motion de censure est votée.",
+      "sujet_institutions_cc_constitution",
+      "sujet_institutions_info_budget493"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -5375,31 +5793,96 @@
    ],
    "fin": "n",
    "finTxt": "La baisse des impôts de production serait financée par moins d'aides fiscales aux entreprises",
-   "id": "p089"
+   "id": "p089",
+   "plus": {
+    "detail": [
+     [
+      "Il veut imposer réellement les très grandes fortunes et les rentes, et rééquilibrer la fiscalité entre travail et capital.",
+      "caz_synthese"
+     ],
+     [
+      "La « baisse des impôts de production » serait « financée par une réduction des aides fiscales ».",
+      "caz_synthese"
+     ],
+     [
+      "Sa méthode : « vérité budgétaire et maîtrise de la dette » et « le politique d'abord, l'expert ensuite », avec plus de cent cinquante experts.",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "cazeneuve",
    "th": "logement",
    "t": "Un grand plan de construction et de rénovation de logements sociaux",
-   "d": "Un grand plan de construction et de rénovation de logements sociaux et écologiques.",
+   "d": "Un grand plan de construction et de rénovation de logements, à la fois social et écologique, pour faire baisser les prix, avec des mécanismes nouveaux d'accession à la propriété.",
    "s": [
     "caz_synthese"
    ],
    "fin": "n",
-   "id": "p090"
+   "id": "p090",
+   "plus": {
+    "detail": [
+     [
+      "« Pour faire baisser les prix, grand plan de constructions et de rénovations, à la fois social et écologique ».",
+      "caz_synthese"
+     ],
+     [
+      "Le plan serait soutenu par des mécanismes nouveaux d'accession à la propriété. Nous n'avons pas trouvé d'objectif chiffré.",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier, 21,3 % de moins que la moyenne des cinq années précédentes.",
+      "sujet_logement_sdes_construction2025"
+     ],
+     [
+      "2,8 millions de ménages attendent un logement social en 2025.",
+      "sujet_logement_senat_avis819"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "cazeneuve",
    "th": "europe",
-   "t": "Réarmer et passer à la majorité au lieu de l'unanimité dans l'UE",
-   "d": "Réarmer à proportion de la menace, rester dans l'OTAN et remplacer la règle de l'unanimité par des décisions à la majorité dans l'Union européenne.",
+   "t": "Passer à la majorité au lieu de l'unanimité dans l'Union européenne",
+   "d": "Mettre fin à la règle de l'unanimité au profit de décisions à la majorité dans l'Union européenne, avec une réforme budgétaire et une politique industrielle commune.",
    "s": [
     "caz_synthese"
    ],
    "fin": "n",
-   "id": "p091"
+   "id": "p091",
+   "plus": {
+    "detail": [
+     [
+      "Il demande la « fin de la règle de l'unanimité au profit des décisions à la majorité ».",
+      "caz_synthese"
+     ],
+     [
+      "Il veut aussi une réforme budgétaire de l'Union et une politique industrielle commune.",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Conseil de l'Union européenne, la politique étrangère et de sécurité commune se décide à l'unanimité, sauf exceptions.",
+      "sujet_europe_consilium_unanimity"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6282,25 +6765,99 @@
    "aj": "2026-10-03",
    "c": "egger",
    "th": "institutions",
-   "t": "Un référendum d'initiative citoyenne déclenché par 700 000 signatures",
-   "d": "Un référendum d'initiative citoyenne constituant, déclenché par 700 000 signatures.",
+   "t": "Un référendum d'initiative citoyenne constituant, déclenché par 700 000 signatures",
+   "d": "Rendre le référendum obligatoire pour toute révision de la Constitution, et permettre aux citoyens d'en proposer une avec 700 000 signatures recueillies en 18 mois.",
    "s": [
-    "qpq"
+    "sd_parrainage2027",
+    "sd_calendrier"
    ],
    "fin": "s",
-   "id": "p136"
+   "id": "p136",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut rendre « obligatoire le référendum pour toute révision constitutionnelle ».",
+      "sd_parrainage2027"
+     ],
+     [
+      "Une révision proposée par les citoyens « doit recueillir 700 000 signatures d'électeurs dans un délai de 18 mois », puis être soumise au référendum.",
+      "sd_parrainage2027"
+     ],
+     [
+      "C'est l'un des deux textes qu'elle soumettrait au référendum dès 2027, en réformant l'article 89 de la Constitution.",
+      "sd_calendrier"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Les français pourront décider des droits qu'ils se donnent à eux-mêmes. »",
+      "sd_calendrier"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Le recours au référendum est inexistant depuis 2005. »",
+      "sd_parrainage2027"
+     ],
+     [
+      "Son parti cite la Suisse et l'Uruguay comme exemples de démocratie directe.",
+      "sd_accueil"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, la révision de la Constitution (article 89) est proposée par le Président ou les parlementaires, votée par les deux assemblées, puis approuvée par référendum ou par le Parlement réuni en Congrès (3/5 des voix).",
+      "sujet_institutions_cc_constitution"
+     ],
+     [
+      "Depuis 1958, 9 référendums nationaux ont été organisés, le dernier le 29 mai 2005.",
+      "sujet_institutions_cc_referendums"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "egger",
    "th": "etat",
    "t": "Plus de pouvoirs pour les communes",
-   "d": "Décentraliser davantage de compétences vers les communes.",
+   "d": "Obliger l'État à déléguer une compétence à une collectivité qui la demande, en privilégiant la plus petite (la commune), et permettre aux communes de fixer leurs propres règles électorales, jusqu'à la démocratie directe.",
    "s": [
-    "qpq"
+    "sd_parrainage2027",
+    "sd_calendrier"
    ],
-   "fin": "n",
-   "id": "p137"
+   "fin": "s",
+   "id": "p137",
+   "plus": {
+    "detail": [
+     [
+      "« L'État doit (et non peut) déléguer une compétence à une collectivité qui lui en fait la demande. »",
+      "sd_parrainage2027"
+     ],
+     [
+      "« En cas de conflit de compétences, l'échelon territorial le plus petit est privilégié. »",
+      "sd_parrainage2027"
+     ],
+     [
+      "Les communes pourraient reprendre la compétence sur leurs règles électorales et introduire la démocratie directe, ou la proportionnelle, par simple délibération.",
+      "sd_calendrier"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« La décentralisation s'opérerait alors non plus « par le haut » mais « par le bas ». »",
+      "sd_parrainage2027"
+     ]
+    ],
+    "auj": [
+     [
+      "Les collectivités territoriales s'administrent librement par des conseils élus, dans les conditions prévues par la loi (article 72 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -10891,6 +11448,572 @@
     ],
     "maj": "2026-10-19"
    }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p281",
+   "k": "defense",
+   "aj": "2026-10-19",
+   "th": "defense",
+   "t": "Réarmer à proportion de la menace, en restant dans l'OTAN",
+   "d": "Réarmer à proportion de la menace, consolider l'industrie de défense, rester dans l'OTAN sans rien y abdiquer et réfléchir à l'apport de la dissuasion à la sécurité européenne.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Réarmement à proportion de la menace, moyens rendus aux forces ; industrie de défense consolidée ».",
+      "caz_synthese"
+     ],
+     [
+      "La France resterait « dans l'OTAN sans rien y abdiquer, pour l'Europe de la défense sans prétendre s'y substituer ».",
+      "caz_synthese"
+     ],
+     [
+      "Il propose une réflexion sur « l'apport de la dissuasion, y compris avec le Royaume-Uni », une réserve citoyenne élargie et une protection antimissile coordonnée en Europe.",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2026, la mission Défense dispose de 56,9 milliards d'euros hors pensions. La loi d'août 2026 prévoit 436 milliards d'euros sur 2024-2030.",
+      "sujet_europe_def_chiffres2026",
+      "sujet_europe_senat_loi_lpm"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p282",
+   "k": "enfance",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "Aucune plainte pour violences sur un enfant sans réponse",
+   "d": "Traiter toutes les plaintes pour violences sur des enfants, en rappelant des magistrats retraités volontaires pour reprendre les dossiers en attente.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Aucune plainte pour violences faites à un enfant ne restera sans réponse ».",
+      "caz_synthese"
+     ],
+     [
+      "« Rappel des magistrats retraités volontaires, autant qu'il le faudra, pour reprendre les dossiers en souffrance ».",
+      "caz_synthese"
+     ],
+     [
+      "Pour la petite enfance : « nul ne peut être au contact d'enfants sans compétences vérifiées ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget 2026 prévoyait 13,1 milliards d'euros pour la Justice et 1 600 emplois supplémentaires.",
+      "sujet_securite_senat_justice_plf2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p283",
+   "k": "narcotrafic",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "Contre le narcotrafic : unités spécialisées et Parquet européen renforcé",
+   "d": "Lutter contre le narcotrafic avec des unités spécialisées, des peines réellement exécutées, un Parquet européen aux compétences élargies et le gel des avoirs.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Unités spécialisées, peines réellement exécutées, coopération européenne renforcée ».",
+      "caz_synthese"
+     ],
+     [
+      "« Parquet européen aux compétences élargies, gel des avoirs, traque des financements ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi « visant à sortir la France du piège du narcotrafic » a été promulguée en juin 2025.",
+      "sujet_securite_senat_narcotrafic_loi"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p284",
+   "k": "immigration",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Une politique d'immigration « humanité, intégration, fermeté »",
+   "d": "Fonder la politique migratoire sur trois principes : le droit d'asile, l'intégration (apprendre le français, respecter l'égalité entre les femmes et les hommes) et la fermeté contre l'immigration irrégulière.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Humanité : le droit d'asile, engagement de civilisation ».",
+      "caz_synthese"
+     ],
+     [
+      "Intégration : apprendre le français et respecter l'égalité entre les femmes et les hommes.",
+      "caz_synthese"
+     ],
+     [
+      "« Fermeté : lutte sans faiblesse contre l'immigration irrégulière et démantèlement des filières criminelles ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, l'Ofpra a enregistré 145 210 demandes d'asile, et 23 549 éloignements d'étrangers en situation irrégulière ont été mis en œuvre (données provisoires).",
+      "sujet_immigration_ofpra_bilan2025",
+      "sujet_immigration_dgef_eloignements2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p285",
+   "k": "sante_mentale",
+   "aj": "2026-10-19",
+   "th": "social",
+   "t": "La santé mentale des jeunes, grande cause nationale",
+   "d": "Faire de la santé mentale des jeunes une grande cause nationale, avec la formation des personnels de santé et de l'éducation.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« La santé mentale, épreuve silencieuse de la jeunesse, érigée en grande cause nationale », « avec formation des personnels de santé et de l'éducation ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Avec « Mon soutien psy », l'Assurance maladie rembourse jusqu'à 12 séances par an chez un psychologue conventionné, dès 3 ans, en cas de souffrance psychique légère à modérée, sans passer d'abord par un médecin.",
+      "sujet_sante_ameli_soutienpsy"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p286",
+   "k": "apprentissage",
+   "aj": "2026-10-19",
+   "th": "travail",
+   "t": "L'apprentissage dès la licence et le CDI comme norme pour les jeunes",
+   "d": "Généraliser l'apprentissage dès le premier cycle universitaire, encadrer les abus de stages, refaire du CDI la norme pour les jeunes et développer l'emploi des seniors.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Apprentissage généralisé dès le premier cycle universitaire ; encadrement du recours abusif aux stages ; »",
+      "caz_synthese"
+     ],
+     [
+      "« CDI redevenu la norme pour les jeunes ; » et une politique pour l'emploi des seniors, « gisement de huit cent mille emplois ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, le taux d'emploi des 15-64 ans est de 69,0 %.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p287",
+   "k": "ecole_climat",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Un plan École-Climat-Solidarité sur dix ans",
+   "d": "Rénover les établissements scolaires sur dix ans dans un plan École-Climat-Solidarité, piloté par une « DATAR du climat » rattachée au Premier ministre.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Un Plan École-Climat-Solidarité : « un engagement sur dix ans pour des établissements scolaires rénovés ».",
+      "caz_synthese"
+     ],
+     [
+      "Il serait piloté par « une DATAR du climat rattachée au Premier ministre ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Les communes, les départements et les régions sont chargés de la construction et de la rénovation des écoles, collèges et lycées.",
+      "sujet_education_men_collectivites"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p288",
+   "k": "philo",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "La philosophie dès la seconde et des enseignants mieux payés",
+   "d": "Mieux former et mieux payer les enseignants, enseigner l'esprit critique dès le collège et la philosophie dès la seconde, et lutter contre la ségrégation scolaire.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Des enseignants mieux formés et mieux payés, l'esprit critique dès le collège et la « philosophie dès la Seconde ».",
+      "caz_synthese"
+     ],
+     [
+      "Il veut un « retour aux Humanités et effort égal pour les sciences et les mathématiques », et lutter contre la ségrégation scolaire.",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En mathématiques, la France obtient 458 points à PISA 2025, 16 de moins qu'en 2022 (moyenne de l'OCDE : 463).",
+      "sujet_education_depp_pisa2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p289",
+   "k": "medias",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Limiter par la loi la concentration des médias",
+   "d": "Fixer par la loi des limites à la concentration capitalistique des médias.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut des « limites fixées par la loi à la concentration capitalistique » des médias.",
+      "caz_synthese"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p290",
+   "k": "normes",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Deux normes supprimées pour chaque norme créée",
+   "d": "Revoir systématiquement les normes, avec l'obligation d'en supprimer deux pour chaque norme créée.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Revue systématique des normes, avec obligation de compensation : deux normes supprimées pour une norme créée. »",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Une commission d'enquête du Sénat a recensé en 2025 103 agences, 434 opérateurs et 317 organismes consultatifs de l'État.",
+      "sujet_etat_senat_r807"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p291",
+   "k": "ia",
+   "aj": "2026-10-19",
+   "th": "numerique",
+   "t": "Un agent humain pour tout refus décidé avec l'IA",
+   "d": "Garantir qu'aucun refus d'aide, de place ou de titre ne soit décidé sans examen par un agent, stocker les données des Français en Europe et donner un pouvoir contraignant à l'autorité de contrôle de l'IA.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Aucun refus d'aide, de place ou de titre sans qu'un agent l'examine ».",
+      "caz_synthese"
+     ],
+     [
+      "« Les données des Français stockées en Europe, sous notre loi », et l'INESIA, l'institut public d'évaluation de l'IA, transformée en autorité au pouvoir contraignant.",
+      "caz_synthese"
+     ],
+     [
+      "Il donne la « priorité aux usages qui ne se vendent pas (l'hôpital, l'école, l'État) ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "Le règlement européen sur l'IA s'applique de façon générale depuis le 2 août 2026, avec des exceptions.",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "cazeneuve",
+   "id": "p292",
+   "k": "reindus",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Un plan de réindustrialisation sur dix ans",
+   "d": "Lancer un plan de réindustrialisation sur dix ans, avec des filières stratégiques sécurisées par l'État et un renouvellement planifié du parc nucléaire.",
+   "s": [
+    "caz_synthese"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Plan de réindustrialisation sur dix ans : filières stratégiques sécurisées par l'État, règles stables ».",
+      "caz_synthese"
+     ],
+     [
+      "« Énergie : filière électronucléaire assumée, renouvellement du parc planifié ».",
+      "caz_synthese"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
+      "sujet_eco_bdf_bdp2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "dupont-aignan",
+   "id": "p293",
+   "k": "frexit",
+   "aj": "2026-10-19",
+   "th": "europe",
+   "t": "Sortir de l'Union européenne",
+   "d": "Sortir de l'Union européenne « pour rendre son indépendance à la France ».",
+   "s": [
+    "sudradio_nda_0920",
+    "entrevue_nda_0916"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Je veux sortir de l'Union européenne pour rendre son indépendance à la France. »",
+      "sudradio_nda_0920"
+     ],
+     [
+      "Il veut « sortir de l'Union européenne pour reconstruire la France ».",
+      "entrevue_nda_0916"
+     ],
+     [
+      "Nous n'avons pas trouvé par quelle procédure (article 50, référendum) ni dans quel délai.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« La France ne peut plus obéir à Madame von der Leyen, qui va contre ses intérêts fondamentaux. »",
+      "sudradio_nda_0920"
+     ]
+    ],
+    "auj": [
+     [
+      "Un seul pays a quitté l'Union européenne : le Royaume-Uni, qui a notifié son départ le 29 mars 2017 et est sorti le 31 janvier 2020.",
+      "ue_brexit_report_2020",
+      "pref_brexit_2021"
+     ],
+     [
+      "La France contribue au budget de l'Union européenne à hauteur de 28,8 milliards d'euros prévus pour 2026.",
+      "sujet_europe_senat_psr"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "dupont-aignan",
+   "id": "p294",
+   "k": "retraite_bebe",
+   "aj": "2026-10-19",
+   "th": "retraites",
+   "t": "10 000 € d'assurance-retraite pour chaque nouveau-né",
+   "d": "Verser 10 000 euros d'assurance-retraite à chaque nouveau-né français, placés dès la naissance pour constituer un capital retraite.",
+   "s": [
+    "entrevue_nda_0916"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Je verserai 10 000 euros d'assurance-retraite à chaque nouveau-né français. »",
+      "entrevue_nda_0916"
+     ],
+     [
+      "La somme serait placée dès la naissance pour constituer peu à peu un capital retraite. Nous n'avons pas trouvé de coût ni de mode de gestion.",
+      "entrevue_nda_0916"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, il y a eu 645 000 naissances en France. 10 000 euros par naissance représenteraient environ 6,5 milliards d'euros par an (calcul de l'appli).",
+      "sujet_sante_insee_bilan_demo"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "dupont-aignan",
+   "id": "p295",
+   "k": "protectionnisme",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Un « protectionnisme intelligent »",
+   "d": "Mettre en place un « protectionnisme intelligent comme le font les pays d'Asie ».",
+   "s": [
+    "sudradio_nda_0920"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Je veux mettre en place un protectionnisme intelligent comme le font les pays d'Asie. »",
+      "sudradio_nda_0920"
+     ],
+     [
+      "Nous n'avons pas trouvé quels droits de douane ou quels secteurs seraient concernés.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
+      "sujet_eco_bdf_bdp2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "dupont-aignan",
+   "id": "p296",
+   "k": "suisse",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "La démocratie directe « à la Suisse »",
+   "d": "Instaurer une démocratie directe sur le modèle suisse.",
+   "s": [
+    "sudradio_nda_0920"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Je veux la démocratie directe à la Suisse. »",
+      "sudradio_nda_0920"
+     ],
+     [
+      "Il cite la Suisse, qui « s'en sort beaucoup mieux parce qu'il a gardé la maîtrise de sa politique ».",
+      "sudradio_nda_0920"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis 1958, 9 référendums nationaux ont été organisés en France, le dernier le 29 mai 2005.",
+      "sujet_institutions_cc_referendums"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "egger",
+   "id": "p297",
+   "k": "arbitre",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Un président arbitre et deux référendums dès octobre 2027",
+   "d": "Être une présidente « arbitre », sans programme de gouvernement, et nommer un gouvernement de transition chargé d'organiser deux référendums le 9 octobre 2027.",
+   "s": [
+    "sd_calendrier",
+    "sd_accueil"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Son parti veut « redonner au président de la République un rôle d'arbitre » : une présidente neutre, sans programme de gouvernement.",
+      "sd_accueil",
+      "sd_calendrier"
+     ],
+     [
+      "Son calendrier : élection le 2 mai 2027, nomination d'un gouvernement de transition chargé du référendum, débats au Parlement fin mai, référendums le 9 octobre 2027.",
+      "sd_calendrier"
+     ],
+     [
+      "Les deux textes porteraient sur l'article 89 de la Constitution et sur le code des collectivités territoriales.",
+      "sd_calendrier"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Président de la République peut soumettre au référendum certains projets de loi (article 11), sur proposition du Gouvernement ou des deux assemblées.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   }
  ],
  "sources": {
@@ -15247,6 +16370,48 @@
    "d": "2026-09-23",
    "type": "presse",
    "u": "https://lcp.fr/actualites/primaire-de-gauche-apres-le-rejet-de-sa-requete-par-la-justice-philippe-brun-va-faire"
+  },
+  "lcp_cazeneuve_candidature": {
+   "t": "Présidentielle 2027 : prêt à se lancer dans la course à l'Élysée, Bernard Cazeneuve décline la primaire socialiste",
+   "p": "LCP",
+   "d": "2026-07-16",
+   "type": "presse",
+   "u": "https://lcp.fr/index%2ephp/actualites/presidentielle-2027-pret-a-se-lancer-dans-la-course-a-l-elysee-bernard-cazeneuve-decline"
+  },
+  "sudradio_nda_0920": {
+   "t": "Nicolas Dupont-Aignan : « La position du RN est incompréhensible »",
+   "p": "Sud Radio",
+   "d": "2026-09-20",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/linvite-politique/nicolas-dupont-aignan-la-position-du-rn-est-incomprehensible"
+  },
+  "entrevue_nda_0916": {
+   "t": "« Sortir de l'Union européenne » : Nicolas Dupont-Aignan réaffirme sa ligne pour 2027",
+   "p": "Entrevue (d'après la Grande Interview Europe 1-CNews)",
+   "d": "2026-09-16",
+   "type": "presse",
+   "u": "https://entrevue.fr/presidentielle-2027/sortir-de-lunion-europeenne-nicolas-dupont-aignan-reaffirme-sa-ligne-pour-2027/"
+  },
+  "sd_parrainage2027": {
+   "t": "Parrainage 2027 : instaurer la démocratie directe",
+   "p": "Solution démocratique (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://solutiondemocratique.fr/parrainage2027/"
+  },
+  "sd_calendrier": {
+   "t": "Le calendrier de la présidente (programme de la candidate)",
+   "p": "Solution démocratique (son parti)",
+   "d": "2026-10-16",
+   "type": "officiel",
+   "u": "https://solutiondemocratique.fr/calendrier-president/"
+  },
+  "sd_accueil": {
+   "t": "Solution démocratique, parti politique pour la démocratie directe",
+   "p": "Solution démocratique (son parti)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://solutiondemocratique.fr/"
   }
  },
  "presse": [
