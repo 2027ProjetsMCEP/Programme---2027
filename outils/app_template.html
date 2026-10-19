@@ -1060,7 +1060,7 @@ function progDocs(c) {
 }
 /* Une rubrique de la page candidat. Avec un coup d'œil : les mesures phares d'abord, les autres repliées. */
 function rubSection(c, ps, k, l) {
-  const all = ps.filter(p => rubOf(p) === k), ph = c.oeil ? (c.oeil.phares[k] || []) : [];
+  const all = ps.filter(p => rubOf(p) === k), ph = (c.oeil && c.oeil.phares && c.oeil.phares[k]) || [];
   const top = ph.map(id => all.find(p => p.id === id)).filter(Boolean), rest = all.filter(p => !ph.includes(p.id));
   const body = top.length && rest.length
     ? `${top.map(propItem).join("")}<details class="more-props"><summary>${rest.length > 1 ? `Voir les ${rest.length} autres mesures` : "Voir l'autre mesure"}</summary><div class="props">${rest.map(propItem).join("")}</div></details>`

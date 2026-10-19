@@ -1,6 +1,6 @@
 {
  "maj": "2026-10-15",
- "version": 12,
+ "version": 13,
  "base": "2026-10-01",
  "themes": [
   [
@@ -2974,6 +2974,27 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Arrivé deuxième à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, il n'est plus candidat. Ses propositions restent consultables ici.",
+      "lcp_primaire_resultats"
+     ]
+    ],
+    "phares": {
+     "education": [
+      "p102",
+      "p103",
+      "p104"
+     ],
+     "travail": [
+      "p155"
+     ],
+     "finances": [
+      "p157"
+     ]
+    }
    }
   },
   {
@@ -3057,6 +3078,20 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Candidat à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, il n'est plus candidat. Ses propositions restent consultables ici.",
+      "lcp_primaire_resultats"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p156",
+      "p109"
+     ]
+    }
    }
   },
   {
@@ -3609,6 +3644,41 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Candidat à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, il n'est plus candidat. Son programme reste consultable ici.",
+      "lcp_primaire_resultats",
+      "maurel_prog"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p092",
+      "p098",
+      "p093"
+     ],
+     "finances": [
+      "p095",
+      "p096"
+     ],
+     "social": [
+      "p094",
+      "p099",
+      "p097"
+     ],
+     "interieur": [
+      "p100"
+     ],
+     "education": [
+      "p101",
+      "p154"
+     ],
+     "europe": [
+      "p153"
+     ]
+    }
    }
   },
   {
@@ -3890,6 +3960,14 @@
         "bio_royal_cc2007"
        ]
       ]
+     ]
+    ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Candidate à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, elle n'est plus candidate. Ses propositions restent consultables ici.",
+      "lcp_primaire_resultats"
      ]
     ]
    }
@@ -8180,7 +8258,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p092"
+   "id": "p092",
+   "plus": {
+    "detail": [
+     [
+      "Porter le Smic à 1 700 € net et indexer les salaires sur l'inflation.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026.",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8192,7 +8289,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p093"
+   "id": "p093",
+   "plus": {
+    "detail": [
+     [
+      "Augmenter de 10 % la grille de salaires de la fonction publique sur le quinquennat.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "Fin 2024, 5,9 millions d'agents travaillent dans les trois fonctions publiques.",
+      "sujet_etat_insee_fp2024"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8204,7 +8320,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p094"
+   "id": "p094",
+   "plus": {
+    "detail": [
+     [
+      "Augmenter le financement des hôpitaux d'au moins 4 % par an et supprimer la tarification à l'activité.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "En 2025, la branche maladie de la Sécurité sociale est en déficit de 15,9 milliards d'euros.",
+      "sujet_sante_senat_cf_comptes2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8223,7 +8358,26 @@
    },
    "fin": "f",
    "finTxt": "Par l'emprunt",
-   "id": "p095"
+   "id": "p095",
+   "plus": {
+    "detail": [
+     [
+      "Lancer un emprunt national d'investissement de 300 milliards d'euros pour l'industrie.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
+      "sujet_eco_bdf_bdp2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8235,7 +8389,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p096"
+   "id": "p096",
+   "plus": {
+    "detail": [
+     [
+      "Rétablir l'ISF, porter à 40 % l'impôt forfaitaire sur les revenus du capital et taxer les fortunes de plus de 100 millions d'euros.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8247,7 +8420,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p097"
+   "id": "p097",
+   "plus": {
+    "detail": [
+     [
+      "Sortir du marché européen de l'électricité et ramener la TVA sur l'électricité à 5,5 %.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "L'Union européenne impose un taux normal de TVA d'au moins 15 % ; chaque État fixe ses taux réduits dans ce cadre.",
+      "sujet_pouvoir_ue_tva"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8259,7 +8451,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p098"
+   "id": "p098",
+   "plus": {
+    "detail": [
+     [
+      "Consolider le droit de partir à 62 ans et rétablir les critères de pénibilité.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8271,7 +8482,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p099"
+   "id": "p099",
+   "plus": {
+    "detail": [
+     [
+      "Construire 750 000 logements sociaux en cinq ans et généraliser l'encadrement des loyers.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "2,8 millions de ménages attendent un logement social en 2025.",
+      "sujet_logement_senat_avis819"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8283,7 +8513,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p100"
+   "id": "p100",
+   "plus": {
+    "detail": [
+     [
+      "Régulariser les travailleurs sans papiers, maintenir le droit du sol et créer un service public de l'intégration.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "En 2025, 50 848 premiers titres de séjour ont été délivrés pour motif économique (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8295,7 +8544,26 @@
     "maurel_prog"
    ],
    "fin": "n",
-   "id": "p101"
+   "id": "p101",
+   "plus": {
+    "detail": [
+     [
+      "Augmenter de 30 % la dépense par étudiant et porter la recherche publique à 1 % du PIB.",
+      "maurel_prog"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "À la rentrée 2025, 3 049 600 étudiants sont inscrits dans l'enseignement supérieur.",
+      "sujet_etudes_sies_nf17"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8307,7 +8575,26 @@
     "ps_ecole"
    ],
    "fin": "n",
-   "id": "p102"
+   "id": "p102",
+   "plus": {
+    "detail": [
+     [
+      "Un petit-déjeuner gratuit pour chaque enfant à l'école.",
+      "ps_ecole"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025-2026, 6,15 millions d'enfants sont scolarisés à l'école primaire.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -8319,7 +8606,20 @@
     "ps_ecole"
    ],
    "fin": "n",
-   "id": "p103"
+   "id": "p103",
+   "plus": {
+    "detail": [
+     [
+      "Généraliser les classes découvertes pour les 5 millions d'enfants qui ne partent pas en vacances.",
+      "ps_ecole"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -9965,7 +10265,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p153"
+   "id": "p153",
+   "plus": {
+    "detail": [
+     [
+      "Lors d'un débat de la primaire, il a proposé de « saisir les avoirs gelés des Russes pour financer l'effort de guerre » de l'Ukraine.",
+      "bfm_debat_primaire"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027.",
+      "sujet_europe_consilium_ukraine"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "maurel",
@@ -9978,7 +10297,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "s",
-   "id": "p154"
+   "id": "p154",
+   "plus": {
+    "detail": [
+     [
+      "Abroger Parcoursup ainsi que la réforme du lycée de 2019, qui a créé les spécialités.",
+      "lcp_debat3"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "faure",
@@ -9990,7 +10328,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p155"
+   "id": "p155",
+   "plus": {
+    "detail": [
+     [
+      "Abaisser l'âge du taux plein, aujourd'hui 67 ans, à 66 ou 65 ans : c'est l'âge à partir duquel la pension n'est plus réduite, même sans tous ses trimestres.",
+      "lcp_debat3"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, la pension est à taux plein avec assez de trimestres, ou automatiquement à 67 ans.",
+      "sujet_retraites_sp_decote"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "guedj",
@@ -10002,7 +10359,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p156"
+   "id": "p156",
+   "plus": {
+    "detail": [
+     [
+      "Abaisser l'âge du taux plein, aujourd'hui 67 ans, à 66 ou 65 ans : c'est l'âge à partir duquel la pension n'est plus réduite, même sans tous ses trimestres.",
+      "lcp_debat3"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, la pension est à taux plein avec assez de trimestres, ou automatiquement à 67 ans.",
+      "sujet_retraites_sp_decote"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "faure",
@@ -10014,7 +10390,26 @@
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p157"
+   "id": "p157",
+   "plus": {
+    "detail": [
+     [
+      "Un impôt plancher de 2 % par an sur les patrimoines de plus de 100 millions d'euros (taxe Zucman).",
+      "lcp_debat2"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis 2026, une contribution différentielle impose au moins 20 % aux foyers dont le revenu fiscal dépasse 250 000 € (personne seule) ou 500 000 € (couple).",
+      "sujet_eco_ecogouv_lfi2026_particuliers"
+     ]
+    ],
+    "note": [
+     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
+     "lcp_primaire_resultats"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "villepin",
@@ -23525,9 +23920,11 @@
       {
        "big": "62 ans",
        "c": [
+        "glucksmann",
         "le-pen",
         "maurel",
-        "melenchon"
+        "melenchon",
+        "tondelier"
        ]
       },
       {
@@ -23565,9 +23962,11 @@
       "p112",
       "p119",
       "p128",
-      "p138",
       "p155",
-      "p156"
+      "p156",
+      "p294",
+      "p334",
+      "p341"
      ]
     }
    }
@@ -24019,8 +24418,11 @@
        "l": "Des professeurs mieux payés",
        "c": [
         "attal",
+        "becht",
+        "cazeneuve",
         "faure",
         "glucksmann",
+        "lisnard",
         "philippe",
         "tondelier"
        ]
@@ -24029,11 +24431,12 @@
        "l": "Un examen avant l'entrée en 6e",
        "c": [
         "attal",
+        "lisnard",
         "retailleau"
        ]
       }
      ],
-     "aussi": "Et aussi : repas gratuits, écoles rénovées, fin de la carte scolaire, structures pour élèves perturbateurs, groupes de niveau, uniforme, bac pro en 4 ans, gestion locale des profs.",
+     "aussi": "Et aussi : repas gratuits, écoles rénovées, fin de la carte scolaire, chèque-éducation, IA dans les programmes, philosophie dès la seconde, structures pour élèves perturbateurs, groupes de niveau, uniforme, bac pro en 4 ans, gestion locale des profs.",
      "ids": [
       "p011",
       "p012",
@@ -24043,14 +24446,22 @@
       "p046",
       "p053",
       "p069",
-      "p083",
       "p102",
       "p103",
       "p104",
       "p149",
       "p150",
       "p207",
-      "p210"
+      "p210",
+      "p248",
+      "p249",
+      "p250",
+      "p263",
+      "p265",
+      "p288",
+      "p300",
+      "p317",
+      "p318"
      ]
     }
    }
