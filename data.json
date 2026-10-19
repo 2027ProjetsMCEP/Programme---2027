@@ -1186,15 +1186,20 @@
    "nom": "François Asselineau",
    "tri": "Asselineau",
    "parti": "Union populaire républicaine",
-   "statut": "nonpublie",
-   "statutTxt": "Programme 2027 en cours d'élaboration",
+   "statut": "partiel",
+   "statutTxt": "Grandes mesures présentées à la rentrée 2026, programme complet non publié",
    "faits": [
     [
-     "Candidature déclarée le 21 mars 2026.",
-     "qpq"
+     "Il a lancé sa campagne pour 2027 le 21 mars 2026, aux 19 ans de l'UPR, à Paris.",
+     "upr_lancement_2026"
+    ],
+    [
+     "Son parti présente la collecte des 500 parrainages d'élus comme son premier défi.",
+     "upr_rentree_2026"
     ]
    ],
    "docs": [
+    "upr_rentree_2026",
     "site_asselineau"
    ],
    "photo": {
@@ -1258,6 +1263,53 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il n'a pas encore publié de programme complet. Il a lancé sa campagne le 21 mars 2026, puis présenté ses principales mesures dans son discours de rentrée, résumé par l'UPR le 30 septembre 2026.",
+      "upr_lancement_2026",
+      "upr_rentree_2026"
+     ]
+    ],
+    "phares": {
+     "europe": [
+      "p141",
+      "p233"
+     ],
+     "defense": [
+      "p232"
+     ],
+     "interieur": [
+      "p234"
+     ],
+     "finances": [
+      "p235"
+     ],
+     "gouvernance": [
+      "p236",
+      "p237",
+      "p238"
+     ],
+     "etat": [
+      "p242",
+      "p243"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il ne chiffre pas l'ensemble de ses mesures. Le seul montant trouvé : 6 milliards d'euros d'économies, selon son parti, pour la suppression des régions.",
+       "upr_rentree_2026"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -5227,13 +5279,65 @@
    "aj": "2026-10-03",
    "c": "asselineau",
    "th": "europe",
-   "t": "Sortir de l'Union européenne, de l'euro et de l'OTAN",
-   "d": "Sortir de l'Union européenne, de l'euro et de l'OTAN par l'article 50, avec un retour au franc.",
+   "t": "Sortir de l'Union européenne et de l'euro",
+   "d": "Engager la sortie de l'Union européenne par l'article 50 dès la première semaine du mandat, sans référendum préalable. Son parti veut aussi « se libérer » de l'euro.",
    "s": [
-    "qpq"
+    "upr_rentree_2026"
    ],
    "fin": "n",
-   "id": "p141"
+   "id": "p141",
+   "plus": {
+    "detail": [
+     [
+      "Il s'engage à « notifier l'activation de l'article 50 du Traité sur l'Union européenne » dès la première semaine de son mandat, pour « engager une procédure de sortie sous deux ans ».",
+      "upr_rentree_2026"
+     ],
+     [
+      "Son parti écrit qu'il « refuse l'idée d'un référendum préalable sur le sujet, estimant que son élection vaudra mandat ».",
+      "upr_rentree_2026"
+     ],
+     [
+      "Son parti résume ce volet par la formule « se libérer de l'UE, de l'euro et de l'OTAN ». Le compte rendu ne détaille pas comment se ferait la sortie de l'euro.",
+      "upr_rentree_2026"
+     ],
+     [
+      "En 2017, lors de sa précédente candidature, il annonçait déjà : « nous appliquerons l'article 50 pour sortir de l'UE ».",
+      "sudradio_asselineau_2017"
+     ]
+    ],
+    "objectif": [
+     [
+      "Son parti présente ce programme comme celui de « la Libération nationale ».",
+      "upr_rentree_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "En 2017, il expliquait : « Pour renégocier les traités, il faut l'accord des 27 autres gouvernements et des 27 autres peuples ».",
+      "sudradio_asselineau_2017"
+     ],
+     [
+      "Il assurait aussi : « nous ne nous isolerons pas du tout du reste du monde ».",
+      "sudradio_asselineau_2017"
+     ]
+    ],
+    "auj": [
+     [
+      "Un seul pays a quitté l'Union européenne : le Royaume-Uni. Il a notifié son départ le 29 mars 2017. Le délai de deux ans prévu par l'article 50 a été prolongé jusqu'au 31 janvier 2020, date de sa sortie.",
+      "ue_brexit_report_2020",
+      "pref_brexit_2021"
+     ],
+     [
+      "Les pièces et les billets en euros ont cours légal en France depuis le 1er janvier 2002.",
+      "eco_euro_20ans"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -7522,6 +7626,452 @@
       "« Pour qu'ils ne nous enfument pas »",
       "lo_brochure_2026"
      ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p232",
+   "k": "otan",
+   "aj": "2026-10-19",
+   "th": "defense",
+   "t": "Sortir de l'OTAN en un an",
+   "d": "Notifier dès le début du mandat aux États-Unis la sortie de la France de l'OTAN, prévue par l'article 13 du traité, pour quitter l'alliance en un an.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Notification immédiate au Département d'État américain via l'article 13 pour faire sortir la France de l'alliance sous un an. »",
+      "upr_rentree_2026"
+     ],
+     [
+      "En 2017, il voulait déjà « notifier au gouvernement de Washington la volonté de la France de sortir de l'Otan ».",
+      "sudradio_asselineau_2017"
+     ]
+    ],
+    "auj": [
+     [
+      "L'article 13 du traité de l'Atlantique Nord, signé le 4 avril 1949, permet à un pays de quitter l'alliance. La sortie prend effet un an après qu'il a notifié sa décision au gouvernement des États-Unis.",
+      "nato_traite_1949"
+     ],
+     [
+      "La France a quitté la structure militaire intégrée de l'OTAN en 1966 et y a retrouvé une pleine participation en 2009.",
+      "cdc_otan_2012"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p233",
+   "k": "ukraine",
+   "aj": "2026-10-19",
+   "th": "europe",
+   "t": "Arrêter immédiatement l'aide à l'Ukraine",
+   "d": "Arrêter, dès sa prise de fonction, tout versement d'aides financières et militaires à l'Ukraine.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Arrêt immédiat de tout versement d'aides financières et militaires à l'Ukraine dès sa prise de fonction. »",
+      "upr_rentree_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027 : 30 milliards de soutien macroéconomique et 60 milliards pour ses capacités industrielles de défense.",
+      "sujet_europe_consilium_ukraine"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p234",
+   "k": "frontieres",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Rétablir les contrôles aux frontières, aussi pour les marchandises et les capitaux",
+   "d": "Rétablir les contrôles aux frontières pour les personnes, les marchandises et les capitaux, notamment contre les délocalisations et l'évasion fiscale des grands groupes.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Rétablissement des contrôles frontaliers pour les flux humains, de marchandises et de capitaux »",
+      "upr_rentree_2026"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Lutter contre les délocalisations et l'évasion fiscale des grands groupes ».",
+      "upr_rentree_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "La France contrôle déjà certaines de ses frontières avec les autres pays de l'espace Schengen. Ces contrôles sont reconduits tous les six mois.",
+      "an_qe17214"
+     ],
+     [
+      "Dans un avis du 2 juin 2026, cité par un député, la Commission européenne recommande « la levée graduelle des contrôles aux frontières intérieures ».",
+      "an_qe17214"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p235",
+   "k": "emprunt",
+   "aj": "2026-10-19",
+   "th": "budget",
+   "t": "Un grand emprunt réservé aux Français pour racheter la dette détenue à l'étranger",
+   "d": "Lancer un grand emprunt national, réservé aux Français, pour racheter la dette publique détenue par des fonds étrangers.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Lancement d'un grand emprunt national réservé aux Français » pour « racheter la dette publique détenue par des fonds étrangers ».",
+      "upr_rentree_2026"
+     ],
+     [
+      "Le compte rendu ne précise ni le montant, ni la durée, ni le taux de cet emprunt.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Fin mars 2026, 57,5 % des titres de dette négociable de l'État étaient détenus par des non-résidents, selon la Banque de France citée par l'Agence France Trésor. Cette dette négociable atteignait 2 882 milliards d'euros fin juillet 2026.",
+      "aft_bm_aout2026"
+     ],
+     [
+      "La dette publique atteint 3 595,5 milliards d'euros fin juin 2026, soit 119,0 % du PIB.",
+      "insee_dette"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p236",
+   "k": "parlement",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Réduire le nombre de députés et de sénateurs",
+   "d": "Réduire le nombre de députés et de sénateurs.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Son parti annonce une « réduction drastique des élus et des structures », à commencer par la « réduction du nombre de députés et de sénateurs ».",
+      "upr_rentree_2026"
+     ],
+     [
+      "Le compte rendu ne dit pas à combien il ramènerait leur nombre.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "La Constitution fixe au plus 577 députés et 348 sénateurs (article 24).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p237",
+   "k": "ric",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Instaurer le référendum d'initiative citoyenne (RIC)",
+   "d": "Permettre aux citoyens de déclencher eux-mêmes un référendum.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Instauration du Référendum d'Initiative Citoyenne (RIC) »",
+      "upr_rentree_2026"
+     ],
+     [
+      "Le compte rendu ne précise ni le nombre de signatures nécessaires ni les sujets concernés.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, un référendum peut être organisé à l'initiative d'un cinquième des parlementaires, soutenue par un dixième des électeurs inscrits (article 11 de la Constitution). Les citoyens ne peuvent pas en déclencher un seuls.",
+      "sujet_institutions_cc_constitution"
+     ],
+     [
+      "Depuis 1958, 9 référendums nationaux ont été organisés, le dernier le 29 mai 2005.",
+      "sujet_institutions_cc_referendums"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p238",
+   "k": "expression",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Protéger la liberté d'expression dans la Constitution, sur le modèle américain",
+   "d": "Inscrire la liberté d'expression dans la Constitution, sur le modèle du premier amendement de la Constitution américaine.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Sanctuarisation de la liberté d'expression dans la Constitution sur le modèle du premier amendement américain »",
+      "upr_rentree_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "La Déclaration des droits de l'homme de 1789 protège déjà « la libre communication des pensées et des opinions », chacun devant « répondre de l'abus de cette liberté dans les cas déterminés par la Loi » (article 11).",
+      "eduscol_expression"
+     ],
+     [
+      "Le préambule de la Constitution de 1958 renvoie à cette Déclaration.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p239",
+   "k": "conscons",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Donner au peuple la primauté sur le Conseil constitutionnel",
+   "d": "Affirmer la « primauté du peuple sur le Conseil constitutionnel ».",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Son parti annonce la « primauté du peuple sur le Conseil constitutionnel », sans préciser comment elle serait organisée.",
+      "upr_rentree_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Conseil constitutionnel compte neuf membres, nommés pour neuf ans. Il vérifie que les lois respectent la Constitution, en particulier quand elles lui sont soumises avant leur promulgation (article 61).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p240",
+   "k": "laique",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Inscrire dans la Constitution une « République laïque de tradition chrétienne »",
+   "d": "Inscrire dans la Constitution que la France est une « République laïque de tradition chrétienne ».",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Son parti annonce l'inscription dans la Constitution de la France comme une « République laïque de tradition chrétienne ».",
+      "upr_rentree_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "L'article 1er de la Constitution dispose : « La France est une République indivisible, laïque, démocratique et sociale. »",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p241",
+   "k": "transparence",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Un questionnaire de transparence obligatoire pour les candidats à la présidentielle",
+   "d": "Obliger les candidats à la présidentielle à déclarer leurs autres nationalités, leurs liens avec certains cercles d'influence, leur appartenance à une loge maçonnique et les financements de leur parti.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Instauration d'un questionnaire obligatoire de transparence pour tous les candidats à la présidentielle »",
+      "upr_rentree_2026"
+     ],
+     [
+      "Il porterait sur la « déclaration des éventuelles autres nationalités », les « liens passés ou présents avec des cercles comme la French American Foundation ou le Bilderberg » et l'« appartenance à des sociétés de pensée ou loges maçonniques ».",
+      "upr_rentree_2026"
+     ],
+     [
+      "Il porterait aussi sur l'« origine des financements des partis et état réel des dettes politiques ».",
+      "upr_rentree_2026"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p242",
+   "k": "regions",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Supprimer les régions et la moitié des conseillers départementaux",
+   "d": "Supprimer les régions et la moitié des conseillers départementaux.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 6,
+    "nature": "economie",
+    "per": "nd",
+    "h": "économie annoncée par l'UPR pour la suppression des régions"
+   },
+   "plus": {
+    "detail": [
+     [
+      "« Suppression de la moitié des conseillers départementaux et suppression pure et simple des régions »",
+      "upr_rentree_2026"
+     ],
+     [
+      "Le compte rendu ne dit pas qui reprendrait les compétences des régions.",
+      null
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Son parti estime la suppression des régions « à 6 milliards d'économies ». Le compte rendu ne dit pas comment ce chiffre est calculé.",
+      "upr_rentree_2026"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "asselineau",
+   "id": "p243",
+   "k": "elysee",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Diviser par deux le budget de l'Élysée",
+   "d": "Diviser par deux le budget de la présidence de la République, revendre la plupart des avions présidentiels et mettre fin au statut non officiel de Première dame.",
+   "s": [
+    "upr_rentree_2026"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Division par deux du budget de la présidence » et « revente de la majeure partie des aéronefs présidentiels ».",
+      "upr_rentree_2026"
+     ],
+     [
+      "Il annonce aussi la « fin du statut non officiel de Première dame ».",
+      "upr_rentree_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget pour 2026 prévoyait une dotation de l'État à la présidence de la République de 122,56 millions d'euros, stable, selon la commission des finances du Sénat.",
+      "senat_pouvoirs_publics_plf2026"
+     ],
+     [
+      "La moitié de cette dotation représente environ 61 millions d'euros (calcul de l'appli).",
+      "senat_pouvoirs_publics_plf2026"
+     ]
+    ],
+    "note": [
+     "Ses mesures viennent du compte rendu de son discours de rentrée publié par l'UPR. Ce texte résume ses propos sans les citer mot pour mot.",
+     "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
    }
@@ -11664,6 +12214,83 @@
    "d": "2025-07",
    "type": "donnees",
    "u": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-07/Fiche%2005%20-%20Le%20niveau%20des%20pensions.pdf"
+  },
+  "upr_rentree_2026": {
+   "t": "Discours de rentrée 2026 de François Asselineau : la Libération nationale !",
+   "p": "UPR (Union populaire républicaine)",
+   "d": "2026-09-30",
+   "type": "officiel",
+   "u": "https://upr.fr/universites/discours-de-rentree-2026-de-francois-asselineau-la-liberation-nationale"
+  },
+  "upr_lancement_2026": {
+   "t": "19 ans de l'UPR : François Asselineau lance sa campagne présidentielle 2027 et nomme Marc Parigot directeur de campagne",
+   "p": "UPR (Union populaire républicaine)",
+   "d": "2026-03-22",
+   "type": "officiel",
+   "u": "https://upr.fr/militantisme/19-ans-de-lupr-francois-asselineau-lance-sa-campagne-presidentielle-2027-et-nomme-marc-parigot-directeur-de-campagne/"
+  },
+  "sudradio_asselineau_2017": {
+   "t": "Asselineau : « Sortir de l'UE et rester en bons termes avec nos voisins »",
+   "p": "Sud Radio",
+   "d": "2017-03-11",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/asselineau-sortir-de-lue-et-rester-en-bons-termes-avec-nos-voisins"
+  },
+  "nato_traite_1949": {
+   "t": "Le Traité de l'Atlantique Nord (Washington, 4 avril 1949)",
+   "p": "OTAN",
+   "d": "1949-04-04",
+   "type": "donnees",
+   "u": "https://www.nato.int/cps/fr/natolive/official_texts_17120.htm"
+  },
+  "ue_brexit_report_2020": {
+   "t": "Proposition de décision du Conseil portant modification de la décision (UE) 2019/274 (retrait du Royaume-Uni, COM(2020) 28 final)",
+   "p": "Commission européenne (registre du Conseil de l'UE)",
+   "d": "2020-01-17",
+   "type": "donnees",
+   "u": "https://data.consilium.europa.eu/doc/document/XT-21007-2020-INIT/fr/pdf"
+  },
+  "pref_brexit_2021": {
+   "t": "BREXIT : au 1er janvier 2021, les choses changent !",
+   "p": "Préfecture de la région Bretagne",
+   "d": "2020-12-24",
+   "type": "donnees",
+   "u": "https://www.prefectures-regions.gouv.fr/bretagne/Actualites/BREXIT-au-1er-janvier-2021-les-choses-changent-!"
+  },
+  "eco_euro_20ans": {
+   "t": "20 ans de l'euro : les dates clés de l'histoire de la monnaie unique européenne",
+   "p": "economie.gouv.fr",
+   "d": "2022-01-03",
+   "type": "donnees",
+   "u": "https://www.economie.gouv.fr/node/2623048"
+  },
+  "aft_bm_aout2026": {
+   "t": "Bulletin mensuel n° 435 (août 2026)",
+   "p": "Agence France Trésor",
+   "d": "2026-08",
+   "type": "donnees",
+   "u": "https://www.aft.gouv.fr/files/medias-aft/7_Publications/7.2_BM/435_Bulletin%20mensuel%20aout%202026.pdf"
+  },
+  "senat_pouvoirs_publics_plf2026": {
+   "t": "Projet de loi de finances pour 2026 : mission « Pouvoirs publics » (L'essentiel)",
+   "p": "Sénat (commission des finances)",
+   "d": "2025-10-28",
+   "type": "donnees",
+   "u": "https://www.senat.fr/fileadmin/cru-1762483659/Commissions/Finances/2025-2026/PLF_2026/Essentiel/Pouvoirs_publics_Essentiel_post-commission_PLF_26.pdf"
+  },
+  "an_qe17214": {
+   "t": "Question écrite n° 17214 sur les contrôles aux frontières intérieures",
+   "p": "Assemblée nationale (JO du 21 juillet 2026)",
+   "d": "2026-07-21",
+   "type": "donnees",
+   "u": "https://questions.assemblee-nationale.fr/q17/17-17214QE.htm"
+  },
+  "eduscol_expression": {
+   "t": "La liberté d'expression, un droit fondamental",
+   "p": "Éduscol (ministère de l'Éducation nationale)",
+   "d": "2026-02",
+   "type": "donnees",
+   "u": "https://eduscol.education.gouv.fr/6186/la-liberte-d-expression-un-droit-fondamental"
   }
  },
  "presse": [
