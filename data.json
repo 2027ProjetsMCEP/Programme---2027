@@ -566,6 +566,64 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Désigné candidat de la gauche sociale-démocrate le 11 octobre 2026, il n'a pas encore publié de programme complet. Ses propositions viennent de son livre, de ses entretiens et des débats de la primaire.",
+      "lcp_primaire_resultats",
+      "lcp_glucksmann",
+      "lcp_debat3"
+     ]
+    ],
+    "phares": {
+     "education": [
+      "p020",
+      "p300"
+     ],
+     "finances": [
+      "p151",
+      "p021"
+     ],
+     "travail": [
+      "p022"
+     ],
+     "interieur": [
+      "p023",
+      "p298"
+     ],
+     "gouvernance": [
+      "p024"
+     ],
+     "europe": [
+      "p025",
+      "p152"
+     ],
+     "environnement": [
+      "p179",
+      "p181",
+      "p299"
+     ],
+     "numerique": [
+      "p199",
+      "p200"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Montants trouvés : 6 milliards d'euros pour la hausse des salaires des enseignants, et 15 milliards d'euros de recettes attendues de la taxe sur les très gros héritages, reversées aux salariés.",
+       "ps_ecole",
+       "ps_glucksmann_propositions"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de l'ensemble de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -2647,11 +2705,12 @@
    "statutTxt": "Programme 2027 en cours d'élaboration",
    "faits": [
     [
-     "Cheminot et syndicaliste, candidat depuis le 1er juin 2026.",
-     "qpq"
+     "Cheminot, il est le candidat de Révolution permanente.",
+     "bio_kazib_a"
     ]
    ],
    "docs": [
+    "kazib_programme",
     "site_kazib"
    ],
    "photo": {
@@ -2714,6 +2773,53 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son programme 2027 est « en cours d'élaboration ». Son site présente un premier document de campagne en six axes.",
+      "kazib_programme"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p127",
+      "p128"
+     ],
+     "gouvernance": [
+      "p129"
+     ],
+     "social": [
+      "p301"
+     ],
+     "education": [
+      "p302"
+     ],
+     "interieur": [
+      "p303",
+      "p305"
+     ],
+     "defense": [
+      "p304"
+     ],
+     "finances": [
+      "p306"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il ne chiffre pas ses mesures. Il veut les faire financer par le patronat et l'expropriation des grands groupes.",
+       "kazib_programme"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -2725,8 +2831,8 @@
    "statutTxt": "Revendications publiées, pas de programme de gouvernement",
    "faits": [
     [
-     "Désignée candidate le 17 juin 2026.",
-     "qpq"
+     "Conductrice de bus, elle a été désignée candidate du NPA-Révolutionnaires le 17 juin 2026.",
+     "bio_labib_a"
     ]
    ],
    "docs": [],
@@ -2776,6 +2882,39 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Elle ne présente pas de programme de gouvernement : son parti veut faire de la présidentielle un « porte-voix » des luttes sociales, avec « un programme de luttes et des perspectives communistes et internationalistes ».",
+      "bio_labib_a"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p130"
+     ],
+     "interieur": [
+      "p131"
+     ],
+     "defense": [
+      "p132"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Elle ne chiffre pas ses revendications.",
+       "lbb_labib"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -2787,8 +2926,9 @@
    "statutTxt": "Neuf piliers publiés, sans chiffrage",
    "faits": [
     [
-     "Candidat déclaré le 19 août 2026.",
-     "qpq"
+     "Il a annoncé officiellement sa candidature le 19 août 2026, en promettant une « rupture avec le système politique actuel ».",
+     "lalibre_lalanne",
+     "bio_lalanne_pmbe2026"
     ]
    ],
    "docs": [
@@ -2851,6 +2991,40 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son programme met en avant la souveraineté nationale, une « réforme profonde de la justice » et une démocratie plus directe. Il n'est pas chiffré.",
+      "lalibre_lalanne"
+     ]
+    ],
+    "phares": {
+     "europe": [
+      "p133"
+     ],
+     "gouvernance": [
+      "p134",
+      "p135"
+     ],
+     "environnement": [
+      "p307"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -4367,9 +4541,11 @@
    "c": "glucksmann",
    "th": "education",
    "t": "Les profs augmentés d'au moins 10 %, jusqu'à 25 % en milieu de carrière",
-   "d": "Augmenter d'au moins 10 % le salaire de tous les enseignants, jusqu'à 25 % en milieu de carrière ; réduire les effectifs en primaire ; vaste programme de rénovation des écoles.",
+   "d": "Augmenter d'au moins 10 % le salaire de tous les enseignants, jusqu'à 25 % selon la carrière, réduire les effectifs en primaire et rénover les écoles, dans un « plan de sauvetage de l'école publique » sur cinq ans.",
    "s": [
-    "ps_ecole"
+    "ps_ecole",
+    "ps_glucksmann_propositions",
+    "lcp_debat3"
    ],
    "aj": "2026-10-01",
    "a": {
@@ -4379,7 +4555,53 @@
     "h": "coût annoncé de la hausse des salaires"
    },
    "fin": "c",
-   "id": "p020"
+   "id": "p020",
+   "plus": {
+    "detail": [
+     [
+      "Il veut augmenter « tous les enseignants » de 10 %, avec une hausse pouvant atteindre 25 % selon la carrière.",
+      "ps_ecole"
+     ],
+     [
+      "C'est l'un des trois volets d'un « plan de sauvetage de l'école publique » sur cinq ans : salaires, moins d'élèves par classe en primaire, rénovation des écoles.",
+      "ps_glucksmann_propositions",
+      "ps_ecole"
+     ],
+     [
+      "Il veut inscrire ces mesures dans une loi de programmation sur cinq ans, son « premier acte » s'il est élu.",
+      "lcp_debat3"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Rattraper les moyennes européennes » de salaire des enseignants.",
+      "ps_ecole"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, l'école française « reproduit le plus les inégalités en Europe » et « maltraite le plus les enseignants ».",
+      "ps_ecole"
+     ],
+     [
+      "Il affirme qu'un enseignant du primaire en France gagne moins qu'un enseignant portugais ou slovène.",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025-2026, 851 500 enseignants travaillent dans les écoles et établissements. À la rentrée 2025, il y a en moyenne 21,1 élèves par classe en élémentaire.",
+      "sujet_education_depp_enc2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "« Le coût annoncé est annoncé à six milliards d'euros. » L'article ne précise pas sur quelle durée.",
+      "ps_ecole"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -4387,24 +4609,84 @@
    "t": "Faire davantage contribuer les plus grandes fortunes",
    "d": "Rééquilibrer l'impôt entre travail, capital, retraites et successions pour faire davantage contribuer les plus grandes fortunes.",
    "s": [
-    "lcp_glucksmann"
+    "lcp_glucksmann",
+    "ps_glucksmann_propositions"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p021"
+   "id": "p021",
+   "plus": {
+    "detail": [
+     [
+      "Il veut rééquilibrer la « taxation entre le travail, le capital, la retraite et l'héritage ».",
+      "lcp_glucksmann"
+     ],
+     [
+      "Il veut « mettre fin à toute forme de sécession des ultrariches » et un « nouveau contrat social et fiscal favorable aux travailleurs ».",
+      "lcp_glucksmann"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il veut lutter contre une « société de rentiers ». Il décrit la France comme « une société de privilèges comme sous l'Ancien Régime ».",
+      "lcp_glucksmann",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
+      "sujet_eco_insee_apu_2025"
+     ],
+     [
+      "Depuis 2026, une contribution différentielle impose au moins 20 % aux foyers dont le revenu fiscal dépasse 250 000 € (personne seule) ou 500 000 € (couple).",
+      "sujet_eco_ecogouv_lfi2026_particuliers"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
    "th": "retraites",
-   "t": "Un âge de départ qui dépend de la pénibilité et de l'espérance de vie en bonne santé",
-   "d": "Faire dépendre l'âge de départ de l'espérance de vie en bonne santé et de la pénibilité plutôt que d'un âge unique.",
+   "t": "Abroger la réforme de 2023 et un départ selon la pénibilité",
+   "d": "Abroger la réforme des retraites de 2023, sans revenir à 60 ans, et faire partir plus tôt les carrières hachées et les métiers pénibles, plus tard ceux qui ont une espérance de vie en bonne santé plus longue.",
    "s": [
     "lcp_glucksmann",
-    "ps_retraites"
+    "lcp_debat3",
+    "ps_retraites",
+    "ps_glucksmann_propositions"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p022"
+   "id": "p022",
+   "plus": {
+    "detail": [
+     [
+      "« Nous abrogerons la réforme injuste de 2023. » Il exclut le retour à 60 ans et s'en tient à 62 ans.",
+      "lcp_debat3"
+     ],
+     [
+      "« L'équité exige que ceux qui ont les carrières les plus hachées et les métiers les plus difficiles puissent partir » plus tôt ; les cadres « devront en revanche partir plus tard ».",
+      "lcp_glucksmann"
+     ],
+     [
+      "Nous n'avons pas trouvé de chiffrage ni de critères précis de pénibilité.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "La loi de financement de la sécurité sociale pour 2026 a suspendu jusqu'en 2028 le relèvement de l'âge légal prévu par la réforme de 2023. Le COR chiffre cette suspension à 1,8 milliard d'euros par an en moyenne jusqu'en 2032.",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -4412,11 +4694,46 @@
    "t": "Une convention citoyenne tirée au sort sur l'immigration",
    "d": "Confier la définition de la politique d'immigration à une convention citoyenne tirée au sort.",
    "s": [
-    "lcp_glucksmann"
+    "lcp_glucksmann",
+    "ps_glucksmann_propositions"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p023"
+   "id": "p023",
+   "plus": {
+    "detail": [
+     [
+      "Des citoyens tirés au sort débattraient, confrontés aux données démographiques, économiques et sécuritaires ; leurs propositions seraient ensuite soumises au vote du Parlement.",
+      "ps_glucksmann_propositions",
+      "lcp_glucksmann"
+     ],
+     [
+      "« Non, l'immigration zéro n'est ni souhaitable, ni possible. Et non, s'installer en France n'est pas un droit universel. »",
+      "lcp_glucksmann"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Au lieu de fuir le débat migratoire, nous l'assumerons. »",
+      "lcp_glucksmann"
+     ],
+     [
+      "Il critique l'incapacité de l'État à faire appliquer les obligations de quitter le territoire (OQTF).",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "auj": [
+     [
+      "Des conventions citoyennes tirées au sort ont déjà été organisées sur le climat et sur la fin de vie.",
+      "lcp_glucksmann"
+     ],
+     [
+      "Au premier semestre 2025, 7 426 OQTF ont été exécutées pour 69 888 prononcées, d'après la DGEF citée par le Sénat.",
+      "sujet_immigration_senat_plf2026_immigration"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -4424,11 +4741,41 @@
    "t": "Un service civique obligatoire de 10 mois pour les jeunes",
    "d": "Créer un service civique obligatoire de 10 mois pour les jeunes (Ehpad, écoles, services publics, missions d'intérêt général).",
    "s": [
-    "lcp_glucksmann"
+    "lcp_glucksmann",
+    "ps_glucksmann_propositions"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p024"
+   "id": "p024",
+   "plus": {
+    "detail": [
+     [
+      "Les jeunes « consacreront dix mois de leur vie à la nation » : plusieurs semaines de regroupement, puis des missions dans les Ehpad, les écoles, les services publics ou les associations.",
+      "ps_glucksmann_propositions"
+     ],
+     [
+      "La dimension militaire resterait volontaire.",
+      "lcp_glucksmann"
+     ],
+     [
+      "Nous n'avons pas trouvé de coût ni de date de mise en place.",
+      null
+     ]
+    ],
+    "objectif": [
+     [
+      "« Retisser le lien civique ».",
+      "lcp_glucksmann"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, les jeunes Français participent à une Journée défense et citoyenneté (JDC).",
+      "sujet_europe_sp_jdc"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -4440,7 +4787,36 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p025"
+   "id": "p025",
+   "plus": {
+    "detail": [
+     [
+      "Il défend un grand emprunt européen et la suppression du droit de veto dans l'Union européenne, « afin de lever les freins existants ».",
+      "lcp_glucksmann"
+     ],
+     [
+      "Il se dit « partisan d'une Europe fédérale » et soutient « la construction d'une défense européenne ».",
+      "lcp_primaire_oppositions"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il dénonce le « déni » de ceux qui refusent de voir la menace russe.",
+      "lcp_glucksmann"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Conseil de l'Union européenne, la politique étrangère et de sécurité commune se décide à l'unanimité, sauf exceptions.",
+      "sujet_europe_consilium_unanimity"
+     ],
+     [
+      "L'Union a adopté en 2025 SAFE, un instrument de prêts allant jusqu'à 150 milliards d'euros pour les investissements de défense des États membres.",
+      "sujet_europe_consilium_safe"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -6657,13 +7033,51 @@
    "aj": "2026-10-03",
    "c": "kazib",
    "th": "travail",
-   "t": "Un SMIC à 2 000 € et les licenciements interdits",
-   "d": "Un SMIC à 2 000 € indexé sur l'inflation et l'interdiction des licenciements.",
+   "t": "Un Smic à 2 000 € net et les licenciements interdits",
+   "d": "Porter le Smic à 2 000 € net, augmenter tous les salaires de 500 € et les indexer sur l'inflation, interdire les licenciements et passer à 28 heures par semaine sans baisse de salaire.",
    "s": [
-    "qpq"
+    "kazib_programme",
+    "rp_kazib_campagne"
    ],
    "fin": "n",
-   "id": "p127"
+   "id": "p127",
+   "plus": {
+    "detail": [
+     [
+      "« SMIC à 2000 € net, revalorisation de toutes les allocations, augmentation des salaires de 500 € »",
+      "kazib_programme"
+     ],
+     [
+      "« Interdiction des licenciements. » « Répartition du travail pour une semaine de 28h sans baisse de salaire. »",
+      "kazib_programme"
+     ],
+     [
+      "« Fin de la sous-traitance et CDI pour tous·tes. Même travail, même salaire. »",
+      "kazib_programme"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il veut « s'attaquer au pouvoir des patrons sur nos vies ».",
+      "rp_kazib_campagne"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026. Passer à 2 000 € net ferait environ 522 € de plus par mois, soit +35 % (calcul de l'appli).",
+      "sujet_travail_sp_smic_juin"
+     ],
+     [
+      "La durée légale du travail est de 35 heures par semaine.",
+      "sujet_travail_sp_duree_travail"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6672,34 +7086,123 @@
    "t": "Retraite à 60 ans, 55 ans pour les métiers pénibles",
    "d": "Retraite à 60 ans, et à 55 ans pour les métiers pénibles, sans condition de durée de cotisation.",
    "s": [
-    "qpq"
+    "kazib_programme",
+    "rp_kazib_campagne"
    ],
    "fin": "n",
-   "id": "p128"
+   "id": "p128",
+   "plus": {
+    "detail": [
+     [
+      "« Retraite à 60 ans et 55 ans pour les métiers pénibles, sans conditions d'annuité. »",
+      "kazib_programme"
+     ],
+     [
+      "Sans condition d'annuité veut dire sans exiger un nombre minimum de trimestres cotisés pour toucher une pension complète.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969), avec 170 à 172 trimestres requis pour une pension à taux plein.",
+      "sujet_retraites_sp_suspension"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "kazib",
    "th": "institutions",
-   "t": "Supprimer la présidence et le Sénat au profit d'une assemblée unique",
-   "d": "Supprimer la présidence de la République et le Sénat au profit d'une assemblée unique élue pour deux ans.",
+   "t": "Mettre fin à la Ve République, au Sénat et à la présidence",
+   "d": "Mettre fin à la Ve République, au Sénat et à la fonction de président de la République.",
    "s": [
-    "qpq"
+    "kazib_programme"
    ],
    "fin": "s",
-   "id": "p129"
+   "id": "p129",
+   "plus": {
+    "detail": [
+     [
+      "« Fin de la Ve République, du Sénat et de la figure présidentielle. »",
+      "kazib_programme"
+     ],
+     [
+      "Nous n'avons pas trouvé par quelles institutions il les remplacerait.",
+      null
+     ]
+    ],
+    "objectif": [
+     [
+      "Son organisation veut « remettre à l'ordre du jour la perspective communiste ».",
+      "rp_kazib_campagne"
+     ]
+    ],
+    "auj": [
+     [
+      "Les institutions actuelles reposent sur la Constitution du 4 octobre 1958. Le Parlement compte au plus 577 députés et 348 sénateurs.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "labib",
    "th": "travail",
-   "t": "Un revenu minimum de 2 000 € net et les licenciements interdits",
-   "d": "Un revenu minimum de 2 000 € net, l'interdiction de tous les licenciements et le partage du temps de travail.",
+   "t": "Interdire tous les licenciements et partager le temps de travail",
+   "d": "Interdire tous les licenciements, partager le temps de travail entre tous et augmenter les salaires.",
    "s": [
-    "qpq"
+    "lbb_labib",
+    "votons_labib"
    ],
    "fin": "n",
-   "id": "p130"
+   "id": "p130",
+   "plus": {
+    "detail": [
+     [
+      "Elle défend « l'interdiction de tous les licenciements » et « le partage du temps de travail entre tous et toutes », à imposer par la lutte.",
+      "lbb_labib"
+     ],
+     [
+      "Elle réclame des hausses de salaires : « on est dans une situation d'inflation continue et nos salaires n'augmentent pas ».",
+      "lbb_labib"
+     ],
+     [
+      "Selon le comparateur Votons, elle a aussi demandé en septembre 2026 « pas un seul revenu sous les 2000 euros net » et 400 euros de plus par mois pour tous. Nous n'avons pas pu lire le texte d'origine.",
+      "votons_labib"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« C'est nous qui produisons tout, donc c'est à nous de décider de tout dans cette société. »",
+      "lbb_labib"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026.",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Elle assume de ne pas faire de promesses électorales chiffrées.",
+      "lbb_labib"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6708,22 +7211,64 @@
    "t": "Régulariser tous les sans-papiers et ouvrir les frontières",
    "d": "Régulariser tous les sans-papiers et ouvrir les frontières.",
    "s": [
-    "qpq"
+    "lbb_labib"
    ],
    "fin": "n",
-   "id": "p131"
+   "id": "p131",
+   "plus": {
+    "detail": [
+     [
+      "Elle défend « l'ouverture des frontières » et « la régularisation de tous les sans-papiers ».",
+      "lbb_labib"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Elle présente les travailleurs étrangers et immigrés comme des alliés des travailleurs français, pas comme des rivaux.",
+      "lbb_labib"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés, et 23 549 éloignements d'étrangers en situation irrégulière ont été mis en œuvre (données provisoires).",
+      "sujet_immigration_dgef_titres2025",
+      "sujet_immigration_dgef_eloignements2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "labib",
    "th": "defense",
-   "t": "Contre la hausse du budget militaire",
-   "d": "S'opposer aux guerres et à la hausse du budget militaire.",
+   "t": "S'opposer aux guerres et au militarisme",
+   "d": "S'opposer aux guerres et au militarisme, y compris ceux de la France.",
    "s": [
-    "qpq"
+    "lbb_labib",
+    "bio_labib_a"
    ],
    "fin": "s",
-   "id": "p132"
+   "id": "p132",
+   "plus": {
+    "detail": [
+     [
+      "Elle s'oppose aux guerres et au militarisme, menés selon elle par les grandes puissances, dont la France, pour les ressources.",
+      "lbb_labib"
+     ],
+     [
+      "Son parti veut en finir avec un système qui mène aux guerres et à « l'exploitation forcenée du travail humain ».",
+      "bio_labib_a"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi d'août 2026 sur la programmation militaire prévoit 436 milliards d'euros pour la défense sur 2024-2030, dont 36 milliards de ressources supplémentaires sur 2026-2030.",
+      "sujet_europe_senat_loi_lpm"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6732,10 +7277,43 @@
    "t": "Sortir de l'UE et de l'OTAN, revenir au franc",
    "d": "Sortir de l'Union européenne et de l'OTAN et revenir au franc.",
    "s": [
-    "qpq"
+    "brusselssignal_lalanne",
+    "lalibre_lalanne"
    ],
    "fin": "n",
-   "id": "p133"
+   "id": "p133",
+   "plus": {
+    "detail": [
+     [
+      "Selon Brussels Signal, son programme prévoit le « Frexit », la sortie de l'OTAN et le retour au franc.",
+      "brusselssignal_lalanne"
+     ],
+     [
+      "Son programme met en avant la « reprise en main de la souveraineté nationale », « dans une optique souverainiste et libertarienne totalement assumée ».",
+      "lalibre_lalanne"
+     ],
+     [
+      "Nous n'avons pas trouvé par quelle procédure ni dans quel délai.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Un seul pays a quitté l'Union européenne : le Royaume-Uni, qui a notifié son départ le 29 mars 2017 et est sorti le 31 janvier 2020.",
+      "ue_brexit_report_2020",
+      "pref_brexit_2021"
+     ],
+     [
+      "L'article 13 du traité de l'Atlantique Nord permet de quitter l'OTAN un an après l'avoir notifié au gouvernement des États-Unis.",
+      "nato_traite_1949"
+     ]
+    ],
+    "note": [
+     "Son site de campagne n'a pas pu être consulté : ces mesures viennent de la presse, qui cite le programme publié lors de sa déclaration.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6744,22 +7322,66 @@
    "t": "Un référendum d'initiative citoyenne",
    "d": "Instaurer un référendum d'initiative citoyenne.",
    "s": [
-    "qpq"
+    "brusselssignal_lalanne",
+    "lalibre_lalanne"
    ],
    "fin": "s",
-   "id": "p134"
+   "id": "p134",
+   "plus": {
+    "detail": [
+     [
+      "Son programme prévoit « l'instauration d'une démocratie plus directe et participative », avec le référendum d'initiative citoyenne.",
+      "lalibre_lalanne",
+      "brusselssignal_lalanne"
+     ],
+     [
+      "Nous n'avons pas trouvé le nombre de signatures nécessaires ni les sujets concernés.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, un référendum peut être organisé à l'initiative d'un cinquième des parlementaires, soutenue par un dixième des électeurs inscrits (article 11 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Son site de campagne n'a pas pu être consulté : ces mesures viennent de la presse, qui cite le programme publié lors de sa déclaration.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "lalanne",
    "th": "institutions",
-   "t": "Abroger des lois qui encadrent la parole publique",
-   "d": "Abroger des lois encadrant la parole publique.",
+   "t": "Abroger les lois Pleven, Gayssot et Avia sur la parole publique",
+   "d": "Abroger des lois qu'il présente comme bâillonnant le débat public : les lois Pleven (1972), Gayssot (1990) et Avia (2020).",
    "s": [
-    "qpq"
+    "brusselssignal_lalanne"
    ],
    "fin": "s",
-   "id": "p135"
+   "id": "p135",
+   "plus": {
+    "detail": [
+     [
+      "Selon Brussels Signal, il veut abroger des lois qui, selon lui, bâillonnent le débat public : la loi Pleven de 1972, la loi Gayssot de 1990 et la loi Avia de 2020.",
+      "brusselssignal_lalanne"
+     ]
+    ],
+    "auj": [
+     [
+      "La Déclaration de 1789 protège « la libre communication des pensées et des opinions », chacun devant « répondre de l'abus de cette liberté dans les cas déterminés par la Loi ».",
+      "eduscol_expression"
+     ]
+    ],
+    "note": [
+     "Son site de campagne n'a pas pu être consulté : ces mesures viennent de la presse, qui cite le programme publié lors de sa déclaration.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -7139,27 +7761,85 @@
   {
    "c": "glucksmann",
    "th": "eco",
-   "t": "Taxer les « méga héritages » au-delà de deux millions d'euros",
-   "d": "Une taxation des « méga héritages », au-delà de deux millions d'euros.",
+   "t": "Taxer les très gros héritages pour augmenter les salaires nets",
+   "d": "Taxer les « méga héritages » au-delà de deux millions d'euros, et verser sur la fiche de paie des salariés ce que rapporterait cette taxe sur le 1 % des plus gros héritages, soit 15 milliards d'euros selon lui.",
    "s": [
-    "lcp_debat3"
+    "lcp_debat3",
+    "ps_glucksmann_propositions"
    ],
    "aj": "2026-10-09",
-   "fin": "n",
-   "id": "p151"
+   "fin": "c",
+   "id": "p151",
+   "a": {
+    "v": 15,
+    "nature": "recette",
+    "per": "nd",
+    "h": "recette annoncée, reversée sur les fiches de paie"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Lors du dernier débat de la primaire, il a proposé de taxer les « méga héritages », au-delà de deux millions d'euros, pour financer une baisse de la CSG sur les salaires.",
+      "lcp_debat3"
+     ],
+     [
+      "En août 2026, il chiffrait à 15 milliards d'euros ce que rapporterait une taxe sur le 1 % des plus gros héritages, à « transférer directement sur la fiche de paie des travailleurs français ».",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, il y a 50 ans, le patrimoine venait surtout du travail ; aujourd'hui, il vient surtout de l'héritage.",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il annonce 15 milliards d'euros de recettes, intégralement reversées aux salariés.",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
    "th": "europe",
    "t": "Saisir les avoirs russes gelés pour financer l'aide à l'Ukraine",
-   "d": "Saisir les avoirs publics russes actuellement gelés pour financer le soutien à l'Ukraine, et construire une défense européenne « souveraine, autonome ».",
+   "d": "Saisir les avoirs publics russes gelés pour financer le soutien à l'Ukraine, et renforcer la défense européenne.",
    "s": [
     "bfm_debat_primaire",
     "lcp_debat3"
    ],
    "aj": "2026-10-09",
    "fin": "n",
-   "id": "p152"
+   "id": "p152",
+   "plus": {
+    "detail": [
+     [
+      "Il propose de saisir les avoirs publics russes gelés pour financer le soutien à l'Ukraine.",
+      "lcp_debat3",
+      "bfm_debat_primaire"
+     ],
+     [
+      "Il veut renforcer la défense européenne.",
+      "lcp_debat3"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Ce qui se joue, c'est l'avenir de l'Europe. »",
+      "lcp_debat3"
+     ]
+    ],
+    "auj": [
+     [
+      "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027, financé par de l'emprunt de l'UE.",
+      "sujet_europe_consilium_ukraine"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "maurel",
@@ -7576,7 +8256,36 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p179"
+   "id": "p179",
+   "plus": {
+    "detail": [
+     [
+      "Il promet un « grand plan de rénovation thermique et d'adaptation » des écoles, érigé en « priorité nationale ».",
+      "lid_glucksmann_ecoles"
+     ],
+     [
+      "Nous n'avons pas trouvé de montant.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Tout était prévisible, prévu, et si peu a été anticipé, planifié, investi, réalisé. »",
+      "lid_glucksmann_ecoles"
+     ],
+     [
+      "Selon lui, la climatisation ne remplace pas l'isolation des logements et la végétalisation des villes.",
+      "lid_glucksmann_ecoles"
+     ]
+    ],
+    "auj": [
+     [
+      "Les communes, les départements et les régions sont chargés de la construction et de la rénovation des écoles, collèges et lycées.",
+      "sujet_education_men_collectivites"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -7588,7 +8297,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p180"
+   "id": "p180",
+   "plus": {
+    "detail": [
+     [
+      "Il propose de « créer comme en Finlande une institution centralisée de préparation aux chocs et catastrophes ».",
+      "lid_glucksmann_ecoles"
+     ]
+    ],
+    "auj": [
+     [
+      "En cas de sécheresse, ce sont aujourd'hui les préfets de département qui restreignent les usages de l'eau par arrêté.",
+      "sujet_env_guide_secheresse_2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -7600,7 +8324,26 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p181"
+   "id": "p181",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « mettre en place l'équivalent de la loi de programmation militaire pour la transformation écologique ».",
+      "lid_glucksmann_ecoles"
+     ],
+     [
+      "Il défend une « révolution écologique ».",
+      "lcp_primaire_oppositions"
+     ]
+    ],
+    "auj": [
+     [
+      "Selon le Haut Conseil pour le climat, les émissions doivent baisser de plus de 4 % par an en 2026, 2027 et 2028 ; le rythme « a ralenti en 2025 ».",
+      "sujet_ecologie_hcc_ra2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "melenchon",
@@ -7955,7 +8698,26 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p199"
+   "id": "p199",
+   "plus": {
+    "detail": [
+     [
+      "Il propose de créer une « agence industrielle du numérique et de l'IA ».",
+      "maddyness_ia"
+     ],
+     [
+      "Son « nouveau contrat patriotique » vise « l'indépendance énergétique, technologique et industrielle ».",
+      "lcp_primaire_oppositions"
+     ]
+    ],
+    "auj": [
+     [
+      "Le règlement européen sur l'IA s'applique de façon générale depuis le 2 août 2026, avec des exceptions.",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "glucksmann",
@@ -7967,7 +8729,22 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p200"
+   "id": "p200",
+   "plus": {
+    "detail": [
+     [
+      "Il propose un traité international encadrant les usages de l'intelligence artificielle à très haut risque.",
+      "maddyness_ia"
+     ]
+    ],
+    "auj": [
+     [
+      "Dans l'Union européenne, le règlement sur l'IA interdit déjà certaines pratiques depuis le 2 février 2025.",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "tondelier",
@@ -12011,6 +12788,357 @@
       "Le Président de la République peut soumettre au référendum certains projets de loi (article 11), sur proposition du Gouvernement ou des deux assemblées.",
       "sujet_institutions_cc_constitution"
      ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "glucksmann",
+   "id": "p298",
+   "k": "regul",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Régulariser les travailleurs sans papiers",
+   "d": "Régulariser les travailleurs sans papiers.",
+   "s": [
+    "lcp_debat3"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut régulariser les travailleurs sans papiers : « Nous le ferons et ce sera populaire. »",
+      "lcp_debat3"
+     ],
+     [
+      "Nous n'avons pas trouvé selon quels critères.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il appelle à « arrêter d'avoir peur des diktats du Rassemblement national sur cette question ».",
+      "lcp_debat3"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 50 848 premiers titres de séjour ont été délivrés pour motif économique (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "glucksmann",
+   "id": "p299",
+   "k": "energie",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Le nucléaire et les renouvelables ensemble",
+   "d": "Développer à la fois le nucléaire et les énergies renouvelables, pour l'indépendance énergétique.",
+   "s": [
+    "lcp_debat3",
+    "lcp_primaire_oppositions"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il défend le nucléaire et les renouvelables : « La France a besoin des deux ».",
+      "lcp_debat3"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour ne pas dépendre de « régimes qui ne partagent aucun de nos principes et sont en lutte contre nos intérêts ».",
+      "lcp_debat3"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France ; les renouvelables représentent 30,8 % de la consommation d'électricité en 2024.",
+      "sujet_ecologie_rte_bilan2025",
+      "sujet_ecologie_sdes_enr2024"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "glucksmann",
+   "id": "p300",
+   "k": "colonies",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Un séjour collectif garanti à chaque enfant",
+   "d": "Relancer les colonies de vacances en garantissant à chaque enfant un séjour collectif.",
+   "s": [
+    "ps_glucksmann_propositions"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il veut relancer les colonies de vacances « en garantissant à chaque enfant un séjour collectif ».",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, les colonies accueillent trois fois moins d'enfants que dans les années 1980.",
+      "ps_glucksmann_propositions"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "kazib",
+   "id": "p301",
+   "k": "logement",
+   "aj": "2026-10-19",
+   "th": "logement",
+   "t": "Exproprier les logements vides et geler les loyers",
+   "d": "Exproprier les logements vides, plafonner et geler les loyers.",
+   "s": [
+    "kazib_programme"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Expropriation des logements vides, plafonnement et gel des loyers. »",
+      "kazib_programme"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, l'indice de référence des loyers progresse de 1,15 % sur un an.",
+      "sujet_pouvoir_insee_irl"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "kazib",
+   "id": "p302",
+   "k": "etudiants",
+   "aj": "2026-10-19",
+   "th": "etudes",
+   "t": "Un revenu étudiant au niveau du Smic, payé par le patronat",
+   "d": "Verser aux étudiants un revenu égal au Smic, financé par le patronat.",
+   "s": [
+    "kazib_programme"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Revenu étudiant à hauteur du SMIC, financé par le patronat. »",
+      "kazib_programme"
+     ],
+     [
+      "Il refuse aussi le SNU : « Non au SNU et à la militarisation de nos écoles et de nos facs. »",
+      "kazib_programme"
+     ]
+    ],
+    "auj": [
+     [
+      "À la rentrée 2025, 3 049 600 étudiants sont inscrits dans l'enseignement supérieur ; 44 % des étudiants travaillent pendant l'année (enquête de 2023).",
+      "sujet_etudes_sies_nf17",
+      "sujet_etudes_ove_reperes2023"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "kazib",
+   "id": "p303",
+   "k": "regul",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Régulariser tous les sans-papiers",
+   "d": "Régulariser tous les sans-papiers et instaurer la liberté de circulation et d'installation.",
+   "s": [
+    "kazib_programme"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Régularisation de tous les sans-papiers, liberté de circulation et d'installation. »",
+      "kazib_programme"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "kazib",
+   "id": "p304",
+   "k": "guerre",
+   "aj": "2026-10-19",
+   "th": "defense",
+   "t": "« Pas un euro pour la guerre » et retrait des troupes à l'étranger",
+   "d": "Refuser toute dépense pour la guerre, démanteler l'industrie d'armement et retirer les troupes françaises à l'étranger.",
+   "s": [
+    "kazib_programme"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Pas un euro pour la guerre, démantèlement de la machine de guerre française, 2ème exportateur d'armes mondial. »",
+      "kazib_programme"
+     ],
+     [
+      "« Retrait des troupes françaises à l'étranger. »",
+      "kazib_programme"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il veut combattre « l'impérialisme français ».",
+      "rp_kazib_campagne"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2026, la mission Défense dispose de 56,9 milliards d'euros hors pensions.",
+      "sujet_europe_def_chiffres2026"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "kazib",
+   "id": "p305",
+   "k": "police",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "Dissoudre les corps spéciaux de police et abroger les lois sécuritaires",
+   "d": "Dissoudre les corps spéciaux de police, abroger les lois qu'il qualifie de « sécuritaires, racistes et islamophobes », dont la loi de 2004, et amnistier les manifestants et syndicalistes condamnés.",
+   "s": [
+    "kazib_programme"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Dissolution des corps spéciaux de police. »",
+      "kazib_programme"
+     ],
+     [
+      "« Abrogation de toutes les lois sécuritaires, racistes et islamophobes, à commencer par la loi de 2004. »",
+      "kazib_programme"
+     ],
+     [
+      "« Amnistie de tous les manifestants, jeunes de quartiers populaires et syndicalistes réprimés. »",
+      "kazib_programme"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "kazib",
+   "id": "p306",
+   "k": "expropriation",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Exproprier les banques et les secteurs stratégiques",
+   "d": "Exproprier les secteurs stratégiques (énergie, transports, banques, santé) et supprimer les aides publiques aux grandes entreprises.",
+   "s": [
+    "kazib_programme"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Expropriation des secteurs stratégiques (énergie, transports, banques, santé, …) »",
+      "kazib_programme"
+     ],
+     [
+      "« Expropriation des groupes bancaires, prêts à taux 0 et fin des agios. » « Suppression des aides publiques aux grandes entreprises. »",
+      "kazib_programme"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Les 500 plus grandes fortunes françaises ont bondi de 1000 milliards en 20 ans. »",
+      "kazib_programme"
+     ]
+    ],
+    "note": [
+     "Son site indique que le programme 2027 est « en cours d'élaboration » ; ces mesures viennent de son premier document de campagne, non daté.",
+     "kazib_programme"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "lalanne",
+   "id": "p307",
+   "k": "pac",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Sortir de la politique agricole commune",
+   "d": "Sortir de la politique agricole commune (PAC) de l'Union européenne.",
+   "s": [
+    "brusselssignal_lalanne"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Selon Brussels Signal, son programme prévoit de sortir de la politique agricole commune.",
+      "brusselssignal_lalanne"
+     ],
+     [
+      "Nous n'avons pas trouvé par quoi il remplacerait les aides européennes aux agriculteurs.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "La France contribue au budget de l'Union européenne à hauteur de 28,8 milliards d'euros prévus pour 2026.",
+      "sujet_europe_senat_psr"
+     ]
+    ],
+    "note": [
+     "Son site de campagne n'a pas pu être consulté : ces mesures viennent de la presse, qui cite le programme publié lors de sa déclaration.",
+     null
     ],
     "maj": "2026-10-19"
    }
@@ -16412,6 +17540,62 @@
    "d": "2026-10-19",
    "type": "officiel",
    "u": "https://solutiondemocratique.fr/"
+  },
+  "ps_glucksmann_propositions": {
+   "t": "Fiscalité, école, immigration : ce que propose Raphaël Glucksmann",
+   "p": "Public Sénat",
+   "d": "2026-08-24",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/fiscalite-ecole-immigration-ce-que-propose-raphael-glucksmann"
+  },
+  "lcp_primaire_oppositions": {
+   "t": "Primaire de gauche : ce qui oppose Glucksmann, Faure, Royal, Guedj et Maurel",
+   "p": "LCP",
+   "d": "2026-09-23",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/primaire-de-gauche-ce-qui-oppose-glucksmann-faure-royal-guedj-et-maurel-442266"
+  },
+  "kazib_programme": {
+   "t": "Programme — Anasse Kazib 2027 (premier « 4 pages » de campagne)",
+   "p": "anasse2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://anasse2027.fr/programme"
+  },
+  "rp_kazib_campagne": {
+   "t": "Anasse Kazib 2027 : découvre la campagne et rejoins les assemblées ouvertes partout en France !",
+   "p": "Révolution permanente (son organisation)",
+   "d": "2026-09-11",
+   "type": "officiel",
+   "u": "https://www.revolutionpermanente.fr/Anasse-Kazib-2027-decouvre-la-campagne-et-rejoins-les-assemblees-ouvertes-partout-en-France"
+  },
+  "lbb_labib": {
+   "t": "Selma Labib : « C'est nous qui produisons tout, donc c'est à nous de décider de tout dans cette société » (entretien)",
+   "p": "Lyon Bondy Blog",
+   "d": "2026-07-13",
+   "type": "presse",
+   "u": "https://lyonbondyblog.fr/LBB/selma-labib-cest-nous-qui-produisons-tout-donc-cest-a-nous-de-decider-de-tout-dans-cette-societe/"
+  },
+  "votons_labib": {
+   "t": "Programme de Selma Labib (comparateur)",
+   "p": "votons-2027.fr",
+   "d": "2026-10-19",
+   "type": "analyse",
+   "u": "https://votons-2027.fr/candidats/labib/programme"
+  },
+  "brusselssignal_lalanne": {
+   "t": "French singer turned activist Francis Lalanne announces 2027 presidential run",
+   "p": "Brussels Signal (en anglais)",
+   "d": "2026-08-20",
+   "type": "presse",
+   "u": "https://brusselssignal.eu/2026/08/french-singer-turned-activist-francis-lalanne-announces-2027-presidential-run/"
+  },
+  "lalibre_lalanne": {
+   "t": "Francis Lalanne officiellement candidat à la présidentielle 2027",
+   "p": "La Libre Belgique",
+   "d": "2026-08-19",
+   "type": "presse",
+   "u": "https://www.lalibre.be/international/europe/2026/08/19/francis-lalanne-officiellement-candidat-a-la-presidentielle-2027-IYHINYS4IJG43AHUFIS2XZVX54/"
   }
  },
  "presse": [
