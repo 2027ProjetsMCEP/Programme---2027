@@ -706,6 +706,66 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Son programme complet n'est pas encore publié. Elle a présenté son plan budgétaire le 6 octobre 2026 et ses mesures sur le logement le 13 septembre.",
+      "ps_lepen_budget",
+      "sudradio_lepen_logement"
+     ]
+    ],
+    "phares": {
+     "finances": [
+      "p026"
+     ],
+     "social": [
+      "p029",
+      "p030",
+      "p031"
+     ],
+     "travail": [
+      "p027",
+      "p028",
+      "p204"
+     ],
+     "interieur": [
+      "p308"
+     ],
+     "europe": [
+      "p309",
+      "p192"
+     ],
+     "etat": [
+      "p310"
+     ],
+     "gouvernance": [
+      "p032"
+     ],
+     "environnement": [
+      "p167",
+      "p312",
+      "p168"
+     ],
+     "education": [
+      "p313"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Plan présenté le 6 octobre 2026 : 140 milliards d'euros nets d'économies en 2032 par rapport à 2026, dont 30 milliards de baisses d'impôts compensées ; déficit sous 3 % en 2030 et dette à 112 % du PIB en 2032.",
+       "gazette_lepen_140",
+       "ps_lepen_budget"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage indépendant publié de ce plan.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -4824,7 +4884,9 @@
    "t": "140 milliards d'euros d'économies d'ici 2032 et une règle d'or dans la Constitution",
    "d": "Réaliser 140 milliards d'euros d'économies d'ici 2032, pour ramener la dette publique de 121 % du PIB en 2027 à 112 % en 2032, et inscrire une règle d'or budgétaire dans la Constitution par référendum, dans les douze mois suivant l'élection.",
    "s": [
-    "ps_lepen_budget"
+    "ps_lepen_budget",
+    "gazette_lepen_140",
+    "sudradio_lepen"
    ],
    "aj": "2026-10-01",
    "a": {
@@ -4834,7 +4896,53 @@
     "h": "d'ici 2032, soit 15 milliards de plus que le chiffre annoncé fin août"
    },
    "fin": "c",
-   "id": "p026"
+   "id": "p026",
+   "plus": {
+    "detail": [
+     [
+      "Le RN vise « 140 milliards d'euros nets » d'économies en 2032 par rapport à 2026, et une dette qui passerait de « 121 % en 2027 à 112 % en 2032 ».",
+      "gazette_lepen_140",
+      "ps_lepen_budget"
+     ],
+     [
+      "Principales économies : réorganisation de l'État (20,7 milliards dès 2027), immigration (15 milliards en 2027), collectivités (8,2 milliards), contribution à l'Union européenne (-8,9 milliards nets), retraites (15 à 20 milliards à terme).",
+      "ps_lepen_budget",
+      "gazette_lepen_140"
+     ],
+     [
+      "Une partie servirait à 30 milliards d'euros de baisses d'impôts.",
+      "gazette_lepen_140"
+     ],
+     [
+      "La règle d'or serait inscrite dans la Constitution par référendum « dans les douze mois » suivant l'élection.",
+      "ps_lepen_budget"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Le premier qui doit faire un effort, c'est l'Etat. »",
+      "sudradio_lepen"
+     ],
+     [
+      "Le RN invoque la hausse des taux d'intérêt et un budget du gouvernement qu'il juge « indigent ».",
+      "ps_lepen_budget"
+     ]
+    ],
+    "auj": [
+     [
+      "Le projet de budget pour 2027 prévoit un déficit public de 5,0 % du PIB et une dette de 121,7 % du PIB en 2027.",
+      "sujet_budget_ecogouv_plf2027",
+      "sujet_budget_an_plf2027"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Elle annonce 140 milliards d'euros nets d'économies d'ici 2032, dont une partie finance 30 milliards de baisses d'impôts.",
+      "gazette_lepen_140"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -4853,7 +4961,48 @@
     "h": "en année pleine, montant annoncé"
    },
    "fin": "c",
-   "id": "p027"
+   "id": "p027",
+   "plus": {
+    "detail": [
+     [
+      "Retour de l'âge légal à 62 ans, avec 42 annuités requises hors carrières longues.",
+      "ps_retraites"
+     ],
+     [
+      "Ceux qui ont commencé à travailler « avant 20 ans » partiraient à 60 ans après 40 ans de cotisation.",
+      "sudradio_lepen",
+      "ps_retraites"
+     ],
+     [
+      "Le RN prévoit aussi un « pilier de capitalisation ».",
+      "gazette_lepen_140"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Elle présente la retraite à 60 ans pour les carrières longues comme un « choix de société ».",
+      "sudradio_lepen"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969), avec 170 à 172 trimestres requis pour les générations 1964 à 1968.",
+      "sujet_retraites_sp_suspension"
+     ],
+     [
+      "Le système de retraite est estimé en déficit de 5,1 milliards d'euros en 2025.",
+      "sujet_retraites_cor_ra2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Elle chiffre la mesure à 9 milliards d'euros par an en année pleine.",
+      "sudradio_lepen",
+      "ps_retraites"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -4865,32 +5014,111 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p028"
+   "id": "p028",
+   "plus": {
+    "detail": [
+     [
+      "Pour inciter les seniors qui ont droit à la retraite à continuer, elle propose de supprimer « les cotisations retraite et les cotisations chômage » pour ces travailleurs.",
+      "sudradio_lepen"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 2e trimestre 2026, le taux d'emploi des 15-64 ans est de 69,0 %.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
    "th": "logement",
-   "t": "Les logements sociaux attribués en priorité aux Français",
-   "d": "Donner la priorité aux citoyens français dans l'attribution des logements sociaux.",
+   "t": "Les logements sociaux et les APL en priorité aux Français",
+   "d": "Donner aux Français la priorité d'accès au logement social, leur réserver les aides au logement (APL) et vendre des HLM à des Français.",
    "s": [
+    "sudradio_lepen_logement",
     "ps_jacobelli",
     "bs_lepen"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p029"
+   "id": "p029",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut « donner la priorité d'accès au logement social aux Français » et « réserver » les APL aux Français.",
+      "sudradio_lepen_logement"
+     ],
+     [
+      "À dossier équivalent, une famille française passerait avant une famille étrangère ; le RN juge que ce n'est « pas anticonstitutionnel » car ce serait « une condition supplémentaire sur la nationalité ».",
+      "ps_jacobelli"
+     ],
+     [
+      "Elle prévoit aussi la vente « d'un certain nombre de HLM aux Français » et « l'expulsion des familles délinquantes » des logements sociaux.",
+      "sudradio_lepen_logement"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Nous allons garantir à tous les Français, comme cela se pratique dans tous les pays du monde, un droit naturel et juste. »",
+      "sudradio_lepen_logement"
+     ]
+    ],
+    "auj": [
+     [
+      "2,8 millions de ménages attendent un logement social en 2025.",
+      "sujet_logement_senat_avis819"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
    "th": "logement",
    "t": "Alléger les normes pour construire plus de logements",
-   "d": "Lever les normes jugées bloquantes pour construire (RE 2020, zéro artificialisation nette, quotas de la loi SRU), rendre le prêt immobilier transférable d'un bien à l'autre et encourager fiscalement la transformation de bureaux en logements.",
+   "d": "Abroger la loi SRU, supprimer le ZAN, alléger les normes de construction, mettre gratuitement des terrains publics à disposition des constructeurs en échange de logements à loyer modéré, rendre le prêt immobilier transférable et transformer des bureaux vides en logements.",
    "s": [
+    "sudradio_lepen_logement",
     "ps_jacobelli"
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p030"
+   "id": "p030",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut « abroger » la loi SRU et supprimer le ZAN, qu'elle qualifie de « norme idéologique ».",
+      "sudradio_lepen_logement"
+     ],
+     [
+      "Les terrains publics « seront mis gratuitement à disposition des constructeurs », en échange de logements à loyer modéré.",
+      "sudradio_lepen_logement"
+     ],
+     [
+      "Le RN veut rendre le taux du prêt immobilier transférable d'un logement à l'autre, et modifier la fiscalité pour transformer des bureaux en logements.",
+      "ps_jacobelli"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Libérer la construction, valoriser le parc existant, encourager et protéger la propriété ».",
+      "sudradio_lepen_logement"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier, 21,3 % de moins que la moyenne des cinq années précédentes.",
+      "sujet_logement_sdes_construction2025"
+     ],
+     [
+      "La loi SRU impose à certaines communes 20 % ou 25 % de logements sociaux, sous peine de prélèvement.",
+      "sujet_logement_anil_sru"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -4902,7 +5130,30 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p031"
+   "id": "p031",
+   "plus": {
+    "detail": [
+     [
+      "Selon Brussels Signal, elle veut ramener la TVA sur le gaz, l'électricité et le fioul de 20 % à 5,5 %.",
+      "bs_lepen"
+     ],
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En septembre 2026, les prix de l'énergie ont augmenté de 21,2 % sur un an (estimation provisoire).",
+      "sujet_pouvoir_insee_ipc_sept"
+     ],
+     [
+      "L'Union européenne impose un taux normal de TVA d'au moins 15 % ; chaque État fixe ses taux réduits dans ce cadre.",
+      "sujet_pouvoir_ue_tva"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -4914,19 +5165,61 @@
    ],
    "aj": "2026-10-01",
    "fin": "s",
-   "id": "p032"
+   "id": "p032",
+   "plus": {
+    "detail": [
+     [
+      "Selon Brussels Signal, elle propose un référendum pour interdire le voile islamique dans tous les espaces publics.",
+      "bs_lepen"
+     ],
+     [
+      "Nous n'avons pas trouvé la question qui serait posée ni la base constitutionnelle choisie.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Le Président peut soumettre au référendum certains projets de loi (article 11 de la Constitution), sur l'organisation des pouvoirs publics ou des réformes de la politique économique, sociale ou environnementale.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
    "th": "education",
-   "t": "Les élèves perturbateurs orientés vers des structures spécialisées",
-   "d": "Orienter les élèves perturbateurs vers des structures spécialisées, rétablir les séries au baccalauréat et afficher en classe une carte de France et une frise chronologique.",
+   "t": "Les élèves perturbateurs orientés vers des structures spécialisées (projet RN de 2024)",
+   "d": "Orienter vers des structures spécialisées les élèves exclus deux fois, rétablir les séries au bac et afficher en classe une carte de France et une frise chronologique. Ces mesures viennent du projet du RN pour les législatives de 2024 : son programme 2027 n'est pas encore publié.",
    "s": [
     "ps_ecole"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p033"
+   "id": "p033",
+   "plus": {
+    "detail": [
+     [
+      "Public Sénat s'appuie sur les propositions du RN pour les législatives de 2024, car son programme pour 2027 n'est pas encore publié.",
+      "ps_ecole"
+     ],
+     [
+      "Les élèves ayant fait l'objet de deux exclusions seraient orientés vers des structures spécialisées.",
+      "ps_ecole"
+     ],
+     [
+      "Le projet prévoit aussi le retour des séries au bac, l'affichage d'une carte de France et d'une frise chronologique du « récit national », l'abrogation du Pacte enseignant et le remplacement obligatoire des professeurs absents.",
+      "ps_ecole"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Le parti place « le rétablissement de l'autorité au cœur de son projet ».",
+      "ps_ecole"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "melenchon",
@@ -7699,7 +7992,28 @@
     "h": "estimation du parti"
    },
    "fin": "c",
-   "id": "p147"
+   "id": "p147",
+   "plus": {
+    "detail": [
+     [
+      "Le permis serait réservé aux jeunes présentant « un casier judiciaire vierge » qui en feraient la demande « dans leur dix-huitième année ».",
+      "lcp_rn_jeunes"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Cette trajectoire éclaircit l'avenir [des jeunes] et assure que notre modèle social durera toute leur vie. »",
+      "lcp_rn_jeunes"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Le RN estime le coût à « une enveloppe estimée de 700 millions d'euros chaque année », soit environ 700 000 jeunes à 1 000 € en moyenne.",
+      "lcp_rn_jeunes"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -7718,7 +8032,28 @@
     "h": "coût indiqué par LCP"
    },
    "fin": "c",
-   "id": "p148"
+   "id": "p148",
+   "plus": {
+    "detail": [
+     [
+      "« Exonérer les jeunes de moins de 30 ans d'impôt sur le revenu, jusqu'à quatre fois le Smic. » Elle la proposait déjà en 2022.",
+      "lcp_rn_jeunes"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 47 % des foyers fiscaux ont payé un impôt sur le revenu.",
+      "sujet_eco_dgfip_ir2024"
+     ]
+    ],
+    "fin_ind": [
+     [
+      "Selon LCP, la mesure coûterait « 2 milliards d'euros aux finances publiques chaque année ».",
+      "lcp_rn_jeunes"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "roussel",
@@ -8019,11 +8354,29 @@
    "t": "Supprimer l'objectif « zéro artificialisation nette » (ZAN)",
    "d": "Supprimer l'objectif de zéro artificialisation nette des sols (ZAN), qu'elle qualifie de « norme idéologique ».",
    "s": [
-    "batiweb_lepen_logement"
+    "batiweb_lepen_logement",
+    "sudradio_lepen_logement"
    ],
    "aj": "2026-10-12",
    "fin": "s",
-   "id": "p167"
+   "id": "p167",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut supprimer le ZAN, qu'elle qualifie de « norme idéologique ».",
+      "sudradio_lepen_logement",
+      "batiweb_lepen_logement"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, 15 119 hectares d'espaces naturels, agricoles et forestiers ont été consommés, le plus bas niveau depuis 2011. La loi vise à diviser ce rythme par deux sur 2021-2031, puis le ZAN en 2050.",
+      "sujet_env_portail_enaf_2011_2025",
+      "sujet_env_zan_fascicule_1"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -8035,7 +8388,20 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p168"
+   "id": "p168",
+   "plus": {
+    "detail": [
+     [
+      "« Si je suis élue présidente de la République, je mettrai en place un plan massif de climatisation. »",
+      "lcp_climatisation"
+     ],
+     [
+      "Nous n'avons pas trouvé de montant ni de lieux visés (écoles, Ehpad, logements).",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "le-pen",
@@ -8047,7 +8413,22 @@
    ],
    "aj": "2026-10-12",
    "fin": "n",
-   "id": "p169"
+   "id": "p169",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut faciliter le stockage de l'eau pour les exploitations agricoles ; elle l'a annoncé au Sommet de l'élevage, en octobre 2026.",
+      "lid_philippe_rn_agri"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Conseil constitutionnel a validé en 2025, avec deux réserves, les mesures de la loi « Duplomb » sur les ouvrages de stockage d'eau.",
+      "sujet_env_cc_2025_891"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "retailleau",
@@ -8557,7 +8938,22 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p192"
+   "id": "p192",
+   "plus": {
+    "detail": [
+     [
+      "Elle maintiendrait l'aide financière à l'Ukraine six mois après son élection, « pour ne mettre personne au pied du mur », puis l'arrêterait, « car nous n'avons plus les moyens de le faire ».",
+      "bfm_lepen_ukraine"
+     ]
+    ],
+    "auj": [
+     [
+      "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027.",
+      "sujet_europe_consilium_ukraine"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -8792,7 +9188,26 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p204"
+   "id": "p204",
+   "plus": {
+    "detail": [
+     [
+      "Les entreprises qui augmenteraient les salaires de 10 % seraient exonérées de cotisations patronales sur cette hausse.",
+      "afp_pouvoir_achat"
+     ],
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, le salaire net médian dans le privé est de 2 190 € par mois en équivalent temps plein.",
+      "sujet_travail_insee_salaires2024"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "melenchon",
@@ -13139,6 +13554,230 @@
     "note": [
      "Son site de campagne n'a pas pu être consulté : ces mesures viennent de la presse, qui cite le programme publié lors de sa déclaration.",
      null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "le-pen",
+   "id": "p308",
+   "k": "immigration",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Réduire fortement les dépenses liées à l'immigration",
+   "d": "Réaliser une grande partie des économies du plan budgétaire sur l'immigration : 15 milliards d'euros en 2027 et 29 milliards en année pleine, selon le RN.",
+   "s": [
+    "ps_lepen_budget",
+    "gazette_lepen_140"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 29,
+    "nature": "economie",
+    "per": "an",
+    "h": "en année pleine, selon le RN (15 milliards en 2027)"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Le plan budgétaire du RN prévoit 15 milliards d'euros d'économies sur l'immigration en 2027 et 29 milliards en année pleine, environ 20 % du plan.",
+      "ps_lepen_budget"
+     ],
+     [
+      "L'AFP parle d'un « plan de baisses de dépenses massif qui reposerait notamment sur l'immigration », sans détail des mesures.",
+      "gazette_lepen_140"
+     ],
+     [
+      "Nous n'avons pas trouvé la liste des dépenses visées.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés et l'Ofpra a enregistré 145 210 demandes d'asile (données provisoires).",
+      "sujet_immigration_dgef_titres2025",
+      "sujet_immigration_ofpra_bilan2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "le-pen",
+   "id": "p309",
+   "k": "ue",
+   "aj": "2026-10-19",
+   "th": "europe",
+   "t": "Baisser de 8,9 milliards la contribution de la France à l'Union européenne",
+   "d": "Réduire nettement la contribution de la France au budget de l'Union européenne, de 8,9 milliards d'euros nets.",
+   "s": [
+    "gazette_lepen_140",
+    "ps_lepen_budget"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 8.9,
+    "nature": "economie",
+    "per": "nd",
+    "h": "économie nette annoncée"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Elle veut « baisser significativement la contribution de la France à l'Union européenne (-8,9 milliards nets) ».",
+      "gazette_lepen_140"
+     ]
+    ],
+    "auj": [
+     [
+      "La France contribue au budget de l'Union européenne à hauteur de 28,8 milliards d'euros prévus pour 2026.",
+      "sujet_europe_senat_psr"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "le-pen",
+   "id": "p310",
+   "k": "agences",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Supprimer la plupart des agences de l'État, les intercommunalités et les métropoles",
+   "d": "Supprimer la quasi-totalité des agences de l'État ainsi que les intercommunalités et les métropoles, et centraliser les recettes de TVA à l'État.",
+   "s": [
+    "acteurspublics_rn_etat",
+    "ps_lepen_budget"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 3.4,
+    "nature": "economie",
+    "per": "nd",
+    "h": "pour les agences dès 2027, plus de 10 milliards en 2031 selon le RN"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Le RN veut supprimer « la quasi-totalité des agences et autres organismes parasites » : l'Ademe, l'Anah et l'ANR sont menacées.",
+      "acteurspublics_rn_etat"
+     ],
+     [
+      "Les intercommunalités et les métropoles seraient supprimées (1,25 milliard d'économies en 2031) ; l'État centraliserait les recettes de TVA.",
+      "acteurspublics_rn_etat"
+     ],
+     [
+      "Certains fonctionnaires d'État « ne seront pas remplacés lors de leur départ en retraite ».",
+      "acteurspublics_rn_etat"
+     ]
+    ],
+    "auj": [
+     [
+      "Une commission d'enquête du Sénat a recensé en 2025 103 agences, 434 opérateurs et 317 organismes consultatifs ; elle chiffrait les économies possibles à environ 500 millions d'euros sans supprimer de politiques publiques.",
+      "sujet_etat_senat_r807",
+      "ps_lepen_budget"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "3,4 milliards d'euros d'économies sur les agences dès 2027 et plus de 10 milliards en 2031, selon le RN.",
+      "acteurspublics_rn_etat"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "le-pen",
+   "id": "p311",
+   "k": "renov",
+   "aj": "2026-10-19",
+   "th": "logement",
+   "t": "Un prêt à taux zéro « 100 % rénov » à la place de MaPrimeRénov'",
+   "d": "Remplacer MaPrimeRénov' par un dispositif « 100 % rénov » fondé sur un prêt à taux zéro, et mettre fin à la « politique absurde » des diagnostics de performance énergétique.",
+   "s": [
+    "sudradio_lepen_logement"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut remplacer MaPrimeRénov' par un dispositif « 100% rénov » fondé sur « un prêt à taux zéro ».",
+      "sudradio_lepen_logement"
+     ],
+     [
+      "Elle veut faire « cesser (la) politique absurde » des diagnostics de performance énergétique.",
+      "sudradio_lepen_logement"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "le-pen",
+   "id": "p312",
+   "k": "intermittentes",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Arrêter les subventions au solaire et à l'éolien",
+   "d": "Arrêter les subventions aux énergies intermittentes (solaire, éolien), avec un objectif de neutralité carbone « avant 2050 ».",
+   "s": [
+    "gazette_lepen_140"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Le plan budgétaire prévoit l'arrêt des subventions aux énergies intermittentes (solaire, éolien) et vise la neutralité carbone « avant 2050 ».",
+      "gazette_lepen_140"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France. La programmation de l'énergie adoptée en 2026 prévoit 55 à 80 GW de solaire et 35 à 40 GW d'éolien terrestre en 2035.",
+      "sujet_ecologie_rte_bilan2025",
+      "sujet_ecologie_senat_ppe3"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "le-pen",
+   "id": "p313",
+   "k": "etudiants",
+   "aj": "2026-10-19",
+   "th": "etudes",
+   "t": "Une prime d'activité étudiante et la fin de la CVEC",
+   "d": "Créer une prime d'activité pour les étudiants qui travaillent et supprimer la contribution vie étudiante et de campus (CVEC).",
+   "s": [
+    "lcp_rn_jeunes"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 0.6,
+    "nature": "cout",
+    "per": "an",
+    "h": "estimation du parti pour la prime d'activité étudiante"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Le RN propose une « prime d'activité étudiante » liée aux jobs étudiants, une « priorité nationale au logement étudiant » et la suppression de la CVEC, payée avant l'inscription à l'université.",
+      "lcp_rn_jeunes"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2023, 44 % des étudiants travaillaient pendant l'année universitaire.",
+      "sujet_etudes_ove_reperes2023"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "La prime d'activité étudiante est estimée à 600 millions d'euros par an.",
+      "lcp_rn_jeunes"
+     ]
     ],
     "maj": "2026-10-19"
    }
@@ -17596,6 +18235,27 @@
    "d": "2026-08-19",
    "type": "presse",
    "u": "https://www.lalibre.be/international/europe/2026/08/19/francis-lalanne-officiellement-candidat-a-la-presidentielle-2027-IYHINYS4IJG43AHUFIS2XZVX54/"
+  },
+  "gazette_lepen_140": {
+   "t": "140 milliards d'économies : ce qu'il faut retenir de l'intervention de Marine Le Pen",
+   "p": "La Gazette France (dépêche AFP)",
+   "d": "2026-10-06",
+   "type": "presse",
+   "u": "https://www.lagazettefrance.fr/article/140-milliards-d-economies-ce-qu-il-faut-retenir-de-l-intervention-de-marine-le-pen"
+  },
+  "acteurspublics_rn_etat": {
+   "t": "La réforme de l'État et des collectivités au cœur des économies programmées par le RN",
+   "p": "Acteurs publics",
+   "d": "2026-10-06",
+   "type": "presse",
+   "u": "https://acteurspublics.fr/articles/la-reforme-de-letat-et-des-collectivites-au-coeur-des-economies-programmees-par-le-rn/"
+  },
+  "sudradio_lepen_logement": {
+   "t": "Le Pen veut mettre la priorité nationale au centre d'un grand chantier sur le logement",
+   "p": "Sud Radio (dépêche AFP)",
+   "d": "2026-09-13",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/societe/le-pen-veut-mettre-la-priorite-nationale-au-centre-dun-grand-chantier-sur-le-logement"
   }
  },
  "presse": [
