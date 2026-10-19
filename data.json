@@ -1659,15 +1659,17 @@
    "nom": "Xavier Bertrand",
    "tri": "Bertrand",
    "parti": "Nous France",
-   "statut": "partiel",
-   "statutTxt": "Candidature annoncée, propositions publiées au fil de l'eau",
+   "statut": "nonpublie",
+   "statutTxt": "Candidat déclaré, programme pour 2027 pas encore présenté",
    "faits": [
     [
-     "« Je serai candidat », a-t-il déclaré le 27 août 2026 à l'université d'été du Medef, en refusant toute primaire.",
-     "jdd_bertrand"
+     "« Je serai un candidat à la place, pas un candidat de plus, et avec un projet », a-t-il déclaré le 27 août 2026, en refusant une primaire.",
+     "bio_bertrand_lcp"
     ]
    ],
-   "docs": [],
+   "docs": [
+    "nousfrance_embuscade"
+   ],
    "photo": {
     "a": "Claudio Centonze / Union européenne",
     "y": "2025",
@@ -1732,6 +1734,33 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il n'a pas encore présenté de programme pour 2027. Il dit vouloir « tester » ses idées sur le terrain et être « plus précis », sans aligner « des 110 mesures pour le pays ».",
+      "nousfrance_embuscade"
+     ]
+    ],
+    "phares": {
+     "interieur": [
+      "p082"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -1743,11 +1772,13 @@
    "statutTxt": "Manifeste publié, sans programme détaillé ni chiffrage",
    "faits": [
     [
-     "Maire de Saint-Ouen-sur-Seine, candidat depuis le 9 juin 2026, en dehors de la primaire du PS.",
-     "qpq"
+     "Maire de Saint-Ouen-sur-Seine, il a annoncé sa candidature le 9 juin 2026 sur France Inter : « Moi, Karim Bouamrane, je suis candidat pour la prochaine élection présidentielle ».",
+     "bio_bouamrane_lcp"
     ]
    ],
-   "docs": [],
+   "docs": [
+    "manifeste_bouamrane"
+   ],
    "photo": {
     "a": "Oumma",
     "y": "2026",
@@ -1814,6 +1845,65 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Il a publié un manifeste, « La France humaine et forte », qui fixe des objectifs sans mesures chiffrées. Ses autres propositions viennent d'entretiens.",
+      "manifeste_bouamrane",
+      "oumma_bouamrane"
+     ]
+    ],
+    "parties": [
+     [
+      "Cinq fondements : « Protéger », « Loger », « Soigner », « Éduquer » et « Redonner de l'espoir ».",
+      "manifeste_bouamrane"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p112"
+     ],
+     "social": [
+      "p113",
+      "p114"
+     ],
+     "education": [
+      "p265"
+     ],
+     "defense": [
+      "p266"
+     ],
+     "environnement": [
+      "p267"
+     ],
+     "finances": [
+      "p268"
+     ],
+     "numerique": [
+      "p269"
+     ],
+     "interieur": [
+      "p270"
+     ],
+     "etat": [
+      "p271"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -5064,38 +5154,43 @@
   {
    "aj": "2026-10-03",
    "c": "bertrand",
-   "th": "immigration",
-   "t": "Diviser par trois le regroupement familial",
-   "d": "Diviser par trois le nombre d'entrées au titre du regroupement familial.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "s",
-   "id": "p081"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "bertrand",
    "th": "securite",
-   "t": "Un an de prison minimum pour les agressions de policiers, pompiers et élus",
-   "d": "Une peine minimale automatique d'un an de prison pour les agressions de policiers, de pompiers et d'élus.",
+   "t": "Un an de prison minimum pour les agresseurs de policiers, pompiers et maires (proposé en 2021)",
+   "d": "Une peine de prison automatique d'au moins un an, sans aménagement possible, pour les agresseurs de policiers, de gendarmes, de pompiers et de maires. Il l'a proposée en 2021 ; nous n'avons pas trouvé s'il la reprend pour 2027.",
    "s": [
-    "qpq"
+    "europe1_bertrand_peine_2021"
    ],
    "fin": "s",
-   "id": "p082"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "bertrand",
-   "th": "education",
-   "t": "Supprimer la carte scolaire",
-   "d": "Supprimer la carte scolaire, qui affecte les élèves à un établissement selon leur adresse.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "s",
-   "id": "p083"
+   "id": "p082",
+   "plus": {
+    "detail": [
+     [
+      "En avril 2021, il proposait une peine de prison d'au moins un an, « sans sursis, sans aménagement de peine possible », « quand on attaque un policier, un gendarme, un pompier, un maire ».",
+      "europe1_bertrand_peine_2021"
+     ],
+     [
+      "Il voulait modifier la Constitution pour permettre ces peines automatiques « au terme d'un procès », avec une consultation des Français à l'automne 2022.",
+      "europe1_bertrand_peine_2021"
+     ],
+     [
+      "Nous n'avons pas trouvé de déclaration de 2026 qui reprenne cette mesure : il dit vouloir « tester » ses idées avant de présenter son projet.",
+      "nousfrance_embuscade"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "C'était selon lui « la seule façon de casser l'impunité ».",
+      "europe1_bertrand_peine_2021"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi pénale, et donc les peines, est votée par le Parlement (article 34 de la Constitution). Avant leur promulgation, les lois peuvent être soumises au Conseil constitutionnel (article 61).",
+      "sujet_securite_cc_constitution"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -5446,36 +5541,132 @@
    "c": "bouamrane",
    "th": "retraites",
    "t": "Distinguer le travail subi du travail choisi pour la retraite",
-   "d": "Une retraite qui distingue le travail subi du travail choisi.",
+   "d": "Permettre aux métiers pénibles commencés très jeunes de partir bien plus tôt, et à ceux qui le souhaitent de travailler jusqu'à 67 ou 69 ans.",
    "s": [
-    "qpq"
+    "oumma_bouamrane"
    ],
    "fin": "n",
-   "id": "p112"
+   "id": "p112",
+   "plus": {
+    "detail": [
+     [
+      "« Il faut déconnecter le travail subi du travail voulu. »",
+      "oumma_bouamrane"
+     ],
+     [
+      "Selon l'entretien, les métiers pénibles commencés très jeunes pourraient partir beaucoup plus tôt, et ceux qui le veulent travailler jusqu'à 67 ou 69 ans.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Nous n'avons pas trouvé à quel âge ni selon quels critères de pénibilité.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il juge nécessaire de tenir compte de l'espérance de vie et de la démographie.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969). La pension est à taux plein à 67 ans quel que soit le nombre de trimestres.",
+      "sujet_retraites_sp_suspension",
+      "sujet_retraites_sp_decote"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "bouamrane",
    "th": "social",
-   "t": "Des soins remboursés selon les revenus",
-   "d": "Moduler le remboursement des soins selon les revenus.",
+   "t": "Faire davantage contribuer les très hauts revenus aux soins",
+   "d": "Sans remettre en cause l'accès universel aux soins, demander une contribution plus forte aux revenus très élevés.",
    "s": [
-    "qpq"
+    "oumma_bouamrane"
    ],
    "fin": "n",
-   "id": "p113"
+   "id": "p113",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'entretien, il ne remet pas en cause l'accès universel aux soins, mais veut que les revenus très élevés contribuent davantage que les ménages modestes.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Il met en avant la mutuelle municipale créée à Saint-Ouen pour les classes populaires et moyennes.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Nous n'avons pas trouvé sous quelle forme (cotisation, franchise, remboursement) ni à partir de quel revenu.",
+      null
+     ]
+    ],
+    "objectif": [
+     [
+      "Son manifeste veut l'accès à « des soins de qualité, quels que soient son lieu de résidence, ses revenus ».",
+      "manifeste_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, la Sécurité sociale prend en charge 78,7 % des dépenses de soins et de biens médicaux, les complémentaires santé 12,8 % et les ménages 7,8 %.",
+      "sujet_sante_insee_financement"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
    "c": "bouamrane",
    "th": "logement",
-   "t": "Baisser la TVA sur la construction",
-   "d": "Baisser la TVA sur la construction de logements.",
+   "t": "Baisser la TVA sur le logement",
+   "d": "Baisser la TVA pour faciliter la construction de logements et l'accès à la propriété.",
    "s": [
-    "qpq"
+    "oumma_bouamrane"
    ],
    "fin": "n",
-   "id": "p114"
+   "id": "p114",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'entretien, il veut baisser la TVA pour faciliter la construction et l'accession à la propriété.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Nous n'avons pas trouvé de taux ni de coût.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il estime que le logement doit être considéré comme un bien de première nécessité, et que la puissance publique doit intervenir quand le marché ne le garantit pas.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 274 611 logements ont été mis en chantier, 21,3 % de moins que la moyenne des cinq années précédentes.",
+      "sujet_logement_sdes_construction2025"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -9759,6 +9950,267 @@
     "note": [
      "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
      null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p265",
+   "k": "ecole",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Investir massivement dans l'école élémentaire et le périscolaire",
+   "d": "Investir massivement dans les écoles élémentaires et le périscolaire pour rendre l'école publique plus attractive que le privé, et créer des collèges à parcours (culture, sport, langues).",
+   "s": [
+    "oumma_bouamrane"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'entretien, il veut investir massivement dans les écoles élémentaires et le périscolaire, pour que les familles ne se tournent plus vers le privé.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Il propose aussi des collèges à parcours (culture, sport, langues étrangères).",
+      "oumma_bouamrane"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Donner à chaque enfant les mêmes chances et préparer chaque jeune à un emploi choisi. »",
+      "manifeste_bouamrane"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour lui, l'école doit favoriser la mixité sociale.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2024, la dépense annuelle par élève est de 9 080 € dans le premier degré et de 11 660 € dans le second degré.",
+      "sujet_education_depp_enc2026_pdf"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p266",
+   "k": "defense",
+   "aj": "2026-10-19",
+   "th": "defense",
+   "t": "Augmenter fortement les dépenses de défense",
+   "d": "Augmenter fortement les dépenses militaires.",
+   "s": [
+    "oumma_bouamrane"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'entretien, il défend une hausse importante des dépenses militaires.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Nous n'avons pas trouvé d'objectif chiffré.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2026, la mission Défense dispose de 56,9 milliards d'euros hors pensions. La loi d'août 2026 prévoit 436 milliards d'euros sur 2024-2030.",
+      "sujet_europe_def_chiffres2026",
+      "sujet_europe_senat_loi_lpm"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p267",
+   "k": "energie",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Nucléaire, géothermie et sortie progressive des énergies fossiles",
+   "d": "Combiner nucléaire et géothermie et sortir progressivement des énergies fossiles.",
+   "s": [
+    "oumma_bouamrane"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'entretien, il veut combiner nucléaire, géothermie et sortie progressive des énergies fossiles.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il critique la fermeture de la centrale de Fessenheim, qu'il présente comme un recul de la souveraineté énergétique.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France.",
+      "sujet_ecologie_rte_bilan2025"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p268",
+   "k": "preference",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Une préférence locale « à compétences égales » dans les marchés publics",
+   "d": "Faciliter l'accès des petites entreprises aux marchés publics, avec une préférence locale « à compétences égales ».",
+   "s": [
+    "oumma_bouamrane"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut faciliter l'accès des petites entreprises aux marchés publics, avec une préférence locale « à compétences égales ».",
+      "oumma_bouamrane"
+     ],
+     [
+      "Les entreprises aidées par l'argent public devraient investir, employer localement et payer leurs impôts en France.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, les jeunes entreprises ont besoin de commandes régulières, pas seulement d'aides ponctuelles.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p269",
+   "k": "numerique",
+   "aj": "2026-10-19",
+   "th": "numerique",
+   "t": "Une politique européenne commune sur l'IA, le cloud et les données",
+   "d": "Mettre en place une politique européenne commune sur l'intelligence artificielle, le cloud, les données et la cybersécurité, pour dépendre moins des géants américains.",
+   "s": [
+    "oumma_bouamrane"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Selon l'entretien, il appelle à une politique européenne commune sur l'intelligence artificielle, le cloud, les données et la cybersécurité.",
+      "oumma_bouamrane"
+     ],
+     [
+      "Il veut aussi attirer les ingénieurs en IA avec des conditions fiscales et immobilières favorables.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour réduire la dépendance aux grandes entreprises technologiques américaines.",
+      "oumma_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "Le règlement européen sur l'IA s'applique de façon générale depuis le 2 août 2026, avec des exceptions.",
+      "sujet_numerique_ec_ai_act"
+     ]
+    ],
+    "note": [
+     "L'entretien publié par Oumma rapporte surtout ses propos sans les citer mot pour mot.",
+     "oumma_bouamrane"
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p270",
+   "k": "reconduire",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Reconduire les étrangers en situation irrégulière",
+   "d": "Reconduire ceux qui se maintiennent irrégulièrement en France, tout en accueillant ceux qui ont le droit de rester.",
+   "s": [
+    "manifeste_bouamrane"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Son manifeste veut « reconduire ceux qui se maintiennent irrégulièrement sur notre territoire », tout en accueillant ceux qui ont le droit de rester.",
+      "manifeste_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 23 549 éloignements d'étrangers en situation irrégulière ont été mis en œuvre, 11,1 % de plus qu'en 2024 (données provisoires).",
+      "sujet_immigration_dgef_eloignements2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "bouamrane",
+   "id": "p271",
+   "k": "simplifier",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Simplifier l'action publique et réduire les doublons administratifs",
+   "d": "Simplifier l'action publique, réduire les doublons administratifs et alléger les normes.",
+   "s": [
+    "manifeste_bouamrane"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Nous simplifierons l'action publique. » « Nous réduirons les doublons administratifs. »",
+      "manifeste_bouamrane"
+     ],
+     [
+      "« Nous allégerons les normes qui paralysent l'initiative et l'efficacité. »",
+      "manifeste_bouamrane"
+     ]
+    ],
+    "auj": [
+     [
+      "Une commission d'enquête du Sénat a recensé en 2025 103 agences, 434 opérateurs et 317 organismes consultatifs de l'État.",
+      "sujet_etat_senat_r807"
+     ]
     ],
     "maj": "2026-10-19"
    }
@@ -14069,6 +14521,34 @@
    "d": "2026-10-19",
    "type": "officiel",
    "u": "https://becht2027.fr/projet-france/les-5-refondations/refondation-democratique-territoriale/"
+  },
+  "nousfrance_embuscade": {
+   "t": "Présidentielle 2027 : Xavier Bertrand, candidat en embuscade",
+   "p": "Nous France (son mouvement)",
+   "d": "2026-09-29",
+   "type": "officiel",
+   "u": "https://www.nousfrance.fr/2026/09/presidentielle-2027-xavier-bertrand-candidat-en-embuscade/"
+  },
+  "europe1_bertrand_peine_2021": {
+   "t": "Peine automatique pour les agresseurs de policiers : critiqué, Bertrand persiste et signe",
+   "p": "Europe 1",
+   "d": "2021-04-20",
+   "type": "presse",
+   "u": "https://www.europe1.fr/politique/peine-automatique-pour-les-agresseurs-de-policiers-critique-bertrand-persiste-et-signe-4039922"
+  },
+  "oumma_bouamrane": {
+   "t": "Karim Bouamrane défie Mélenchon et vise le second tour de la présidentielle 2027 (entretien)",
+   "p": "Oumma",
+   "d": "2026-07-02",
+   "type": "presse",
+   "u": "https://oumma.com/karim-bouamrane-defie-melenchon-et-vise-le-second-tour-de-la-presidentielle-2027/"
+  },
+  "manifeste_bouamrane": {
+   "t": "Manifeste « La France humaine et forte »",
+   "p": "lafrancehumaineetforte.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://www.lafrancehumaineetforte.fr/manifeste.html"
   }
  },
  "presse": [
