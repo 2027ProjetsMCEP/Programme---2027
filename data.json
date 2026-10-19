@@ -1401,8 +1401,18 @@
    "parti": "Génération écologie",
    "statut": "nonpublie",
    "statutTxt": "Programme présidentiel pas encore publié",
-   "faits": [],
+   "faits": [
+    [
+     "Elle a annoncé sa candidature fin novembre 2025, dans un entretien à L'Obs.",
+     "bio_batho_afp"
+    ],
+    [
+     "Elle présente son projet dans un livre, « La politique de la beauté. Une nouvelle écologie », paru le 19 juin 2026.",
+     "ge_livre_batho"
+    ]
+   ],
    "docs": [
+    "ge_livre_batho",
     "site_batho"
    ],
    "photo": {
@@ -1469,6 +1479,35 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Elle n'a pas encore publié de programme. Elle a présenté sa vision dans un livre paru en juin 2026, qui défend la décroissance et une « République terrestre ».",
+      "ge_livre_batho",
+      "librejournal_batho"
+     ]
+    ],
+    "phares": {
+     "environnement": [
+      "p140",
+      "p251"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -1476,15 +1515,17 @@
    "nom": "Olivier Becht",
    "tri": "Becht",
    "parti": "Député du Haut-Rhin, ancien ministre",
-   "statut": "nonpublie",
-   "statutTxt": "Candidature déclarée le 24 septembre 2026, pas encore de propositions détaillées",
+   "statut": "partiel",
+   "statutTxt": "« Projet France » en cinq refondations publié sur son site, sans chiffrage d'ensemble",
    "faits": [
     [
      "A annoncé sa candidature le 24 septembre 2026 à Rixheim (Haut-Rhin).",
      "ici_becht"
     ]
    ],
-   "docs": [],
+   "docs": [
+    "becht_5refondations"
+   ],
    "photo": {
     "a": "Dominique Giannelli",
     "y": "2026",
@@ -1545,6 +1586,72 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Candidat depuis le 24 septembre 2026, il publie sur son site un « Projet France » en cinq refondations (sociale, santé, énergie, sécurité, démocratique et territoriale). Il n'a pas publié de chiffrage d'ensemble.",
+      "ici_becht",
+      "becht_5refondations"
+     ]
+    ],
+    "parties": [
+     [
+      "Cinq refondations : « Un CDI pour la vie ! », la santé, « Une énergie 100% propre, 100% française ! », « Criminels en prison, délinquants au travail ! » et « Une France fédérale ».",
+      "becht_5refondations",
+      "becht_sociale",
+      "becht_energie",
+      "becht_securite",
+      "becht_democratie"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p209"
+     ],
+     "social": [
+      "p253",
+      "p252"
+     ],
+     "interieur": [
+      "p254",
+      "p255",
+      "p256"
+     ],
+     "environnement": [
+      "p257",
+      "p258"
+     ],
+     "europe": [
+      "p259"
+     ],
+     "gouvernance": [
+      "p260",
+      "p261"
+     ],
+     "etat": [
+      "p262"
+     ],
+     "education": [
+      "p208",
+      "p210",
+      "p263"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Il ne chiffre pas l'ensemble de son projet. Montants trouvés : 10 milliards d'euros sur cinq ans pour les territoires, plus de 4 milliards pour les Provinces, 10 milliards pour le rail.",
+       "becht_democratie"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -5672,12 +5779,54 @@
    "c": "batho",
    "th": "ecologie",
    "t": "Faire de la décroissance un projet politique",
-   "d": "La décroissance comme projet politique, en rupture avec l'objectif de croissance du PIB (« écologie intégrale démocratique »).",
+   "d": "Faire de la décroissance un nouveau modèle, en rupture avec l'objectif de croissance, au sein d'une « République terrestre » qui protège les territoires et la vie quotidienne.",
    "s": [
-    "qpq"
+    "librejournal_batho",
+    "ge_livre_batho"
    ],
    "fin": "n",
-   "id": "p140"
+   "id": "p140",
+   "plus": {
+    "detail": [
+     [
+      "« Un nouveau modèle est possible : la décroissance, qui permet à tous de vivre en sécurité. »",
+      "librejournal_batho"
+     ],
+     [
+      "Elle veut « construire une « République terrestre » qui protège nos territoires et notre vie quotidienne ».",
+      "librejournal_batho"
+     ],
+     [
+      "Son éditeur écrit qu'elle « a rompu avec l'idéologie productiviste de la gauche française pour embrasser la cause de la décroissance ».",
+      "ge_livre_batho"
+     ],
+     [
+      "Nous n'avons pas encore trouvé les mesures concrètes qui traduiraient ce projet (énergie, transports, consommation, fiscalité).",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon elle, la croissance ne peut pas compenser les chocs géopolitiques et climatiques, car « la base de l'économie, c'est l'énergie et les matières premières ».",
+      "librejournal_batho"
+     ],
+     [
+      "« L'écologie est aussi une stratégie de défense et de souveraineté, porteuse d'un autre modèle de portée mondiale. »",
+      "librejournal_batho"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le PIB de la France a augmenté de 0,8 %, après 1,5 % en 2024.",
+      "sujet_eco_insee_comptes_2025"
+     ],
+     [
+      "En 2025, les émissions de gaz à effet de serre de la France sont pré-estimées à 359 millions de tonnes équivalent CO2, en baisse de 2,1 %.",
+      "sujet_ecologie_hcc_ra2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "aj": "2026-10-03",
@@ -6929,19 +7078,106 @@
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p208"
+   "id": "p208",
+   "plus": {
+    "detail": [
+     [
+      "« Parcoursup est une boîte noire qui doit être supprimée et remplacée. »",
+      "sudradio_becht"
+     ],
+     [
+      "Il évoque à la place « une épreuve de spécialité permettant de déterminer l'orientation des élèves ».",
+      "sudradio_becht"
+     ],
+     [
+      "Nous n'avons pas trouvé par quoi exactement il remplacerait la plateforme.",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il juge le mouvement lycéen contre Parcoursup « légitime sur le fond ».",
+      "sudradio_becht"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "becht",
    "th": "travail",
    "t": "Un contrat de travail unique, avec un salaire socle entre deux emplois",
-   "d": "Un contrat de travail « portable d'une entreprise à l'autre », qui resterait attaché à la personne entre deux emplois, avec un salaire socle, « une forme de revenu universel » : il faudrait accepter un emploi correspondant à ses qualifications, suivre une formation ou, sans travail, effectuer 25 heures de bénévolat.",
+   "d": "Un contrat de travail unique qui suit la personne toute sa vie, transférable d'un employeur à l'autre, avec un revenu jamais inférieur au salaire minimum. En échange, il faudrait accepter un emploi correspondant à ses qualifications, se former ou, sans travail, faire 25 heures de bénévolat.",
    "s": [
-    "sudradio_becht"
+    "sudradio_becht",
+    "becht_sociale"
    ],
    "aj": "2026-10-15",
    "fin": "n",
-   "id": "p209"
+   "id": "p209",
+   "plus": {
+    "detail": [
+     [
+      "« Ce contrat serait portable d'une entreprise à l'autre » et resterait attaché à la personne entre deux emplois, avec un salaire socle, « une forme de revenu universel ».",
+      "sudradio_becht"
+     ],
+     [
+      "Son site parle d'un contrat « qui nous suit toute notre vie, transférable d'un établissement à un autre », « qui nous garantit un revenu permanent jamais en deçà du salaire minimum ».",
+      "becht_sociale"
+     ],
+     [
+      "Pour toucher ce revenu, il faudrait accepter un emploi correspondant à ses qualifications, suivre une formation ou, sans travail, « effectuer 25 heures de bénévolat au service de la société ».",
+      "sudradio_becht"
+     ],
+     [
+      "Le contrat permettrait aussi de prendre « une année sabbatique ».",
+      "becht_sociale"
+     ]
+    ],
+    "objectif": [
+     [
+      "Un contrat « fondé sur les notions d'engagement et de réciprocité ».",
+      "becht_sociale"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "À la création de la Sécurité sociale, « cinq personnes cotisaient pour une personne bénéficiant de prestations » ; « elles ne sont plus que 1,4 », selon lui.",
+      "sudradio_becht"
+     ],
+     [
+      "Il veut aussi protéger les travailleurs face à l'intelligence artificielle.",
+      "sudradio_becht"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026.",
+      "sujet_travail_sp_smic_juin"
+     ],
+     [
+      "Le taux de chômage est de 8,3 % au 2e trimestre 2026.",
+      "sujet_travail_insee_chomage"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé pour ce revenu garanti.",
+      null
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "becht",
@@ -6953,7 +7189,38 @@
    ],
    "aj": "2026-10-15",
    "fin": "s",
-   "id": "p210"
+   "id": "p210",
+   "plus": {
+    "detail": [
+     [
+      "Il veut gérer les enseignants au niveau local et donner plus d'autonomie aux établissements, pour que leurs directeurs composent leurs équipes.",
+      "sudradio_becht"
+     ],
+     [
+      "Il refuse une régionalisation de l'Éducation nationale : « Les programmes doivent rester les mêmes sur l'ensemble du territoire ».",
+      "sudradio_becht"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Qu'il y ait un enseignant devant chaque classe ».",
+      "sudradio_becht"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il affirme que « 3 000 enseignants sont sans affectation ».",
+      "sudradio_becht"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, l'État recrute et gère les enseignants et répartit les moyens consacrés à l'éducation.",
+      "sujet_education_men_etat"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "melenchon",
@@ -8866,6 +9133,632 @@
       "Au 2e trimestre 2026, le taux de chômage des 15-24 ans est de 21,6 %.",
       "sujet_travail_insee_chomage"
      ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "batho",
+   "id": "p251",
+   "k": "canicule",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Un plan national contre les canicules",
+   "d": "Organiser un plan contre les canicules, avec la liste des lieux frais, pour que chacun puisse passer deux à trois heures par jour dans un endroit rafraîchi, et rénover, isoler et végétaliser les écoles.",
+   "s": [
+    "librejournal_batho"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Elle regrette qu'« on ne dispose toujours pas d'un plan organisé comprenant ne serait-ce que la liste des lieux frais ».",
+      "librejournal_batho"
+     ],
+     [
+      "Elle estime que chacun devrait pouvoir « passer deux à trois heures par jour dans un endroit rafraîchi pour protéger sa santé ».",
+      "librejournal_batho"
+     ],
+     [
+      "« Il n'y a pas eu de grande politique nationale d'isolation, de végétalisation, de rénovation des écoles », critique-t-elle.",
+      "librejournal_batho"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Elle dénonce « l'impréparation du gouvernement, alors que cette canicule extrême était prévisible ».",
+      "librejournal_batho"
+     ],
+     [
+      "« Le Fonds vert a, par exemple, été ratiboisé avec beaucoup d'inconséquence. »",
+      "librejournal_batho"
+     ]
+    ],
+    "auj": [
+     [
+      "Les communes, les départements et les régions sont chargés de la construction, de la rénovation et des grosses réparations des écoles, collèges et lycées.",
+      "sujet_education_men_collectivites"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p252",
+   "k": "famille",
+   "aj": "2026-10-19",
+   "th": "social",
+   "t": "Des allocations dès le premier enfant et un accueil gratuit des tout-petits",
+   "d": "Verser des allocations dès le premier enfant et créer un réseau gratuit de crèches, de relais d'assistantes maternelles et de structures périscolaires.",
+   "s": [
+    "becht_sociale"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il propose « des allocations dès le premier enfant » et « un maillage de crèches, de relais d'assistantes maternelles et de structures périscolaires gratuites ».",
+      "becht_sociale"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Face à la baisse massive du nombre de naissances par femme ».",
+      "becht_sociale"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, la France compte 1,56 enfant par femme (1,61 en 2024) et 645 000 naissances.",
+      "sujet_sante_insee_bilan_demo"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p253",
+   "k": "sante",
+   "aj": "2026-10-19",
+   "th": "social",
+   "t": "Un médecin traitant à moins de 30 minutes, consultable sous 48 heures",
+   "d": "Garantir un médecin traitant et une pharmacie à moins de trente minutes de chez soi, un médecin consultable sous 48 heures, un spécialiste à moins d'une heure sous trois mois et les examens en moins d'un mois.",
+   "s": [
+    "becht_sante"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Il sera impératif qu'un médecin traitant et une pharmacie se trouvent à moins de trente minutes de chez soi », « consultable sous 48 heures ».",
+      "becht_sante"
+     ],
+     [
+      "« Il est nécessaire d'avoir un spécialiste à moins d'une heure, sous trois mois. » Pour les examens : « Chaque Français doit avoir accès à ces soins en moins d'un mois. »",
+      "becht_sante"
+     ],
+     [
+      "« Un secrétariat d'État à la santé publique fusionnera les cinq grandes agences existantes sous un même contrat d'objectifs ».",
+      "becht_sante"
+     ],
+     [
+      "Il veut « un financement par parcours de soins plutôt qu'un financement à l'activité » à l'hôpital, et intégrer « la carte Vitale à la carte d'identité ».",
+      "becht_sante"
+     ],
+     [
+      "Nous n'avons pas trouvé comment ces délais seraient garantis (nombre de médecins, obligations d'installation).",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 6,4 millions d'assurés n'ont pas de médecin traitant.",
+      "sujet_sante_senat_rapport668"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p254",
+   "k": "policiers",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "10 000 policiers de plus et des jugements en 18 mois maximum",
+   "d": "Recruter 10 000 policiers supplémentaires et donner à la justice les moyens de juger chaque affaire en dix-huit mois maximum.",
+   "s": [
+    "becht_securite"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Nous recruterons 10 000 policiers supplémentaires », avec plus de temps sur le terrain et moins de tâches administratives.",
+      "becht_securite"
+     ],
+     [
+      "La justice aurait des moyens supplémentaires pour que chaque affaire soit « jugée en dix-huit mois maximum ».",
+      "becht_securite"
+     ],
+     [
+      "« Nous instaurerons la confiscation des avoirs », pour que « le crime cesse d'être rentable ».",
+      "becht_securite"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, la présence policière est « aujourd'hui insuffisante face à la demande de protection des Français ».",
+      "becht_securite"
+     ]
+    ],
+    "auj": [
+     [
+      "Environ 8 500 postes de policiers et de gendarmes doivent être créés entre 2023 et 2027.",
+      "sujet_securite_senat_securites_plf2026"
+     ],
+     [
+      "En 2025, il fallait en moyenne 12,2 mois entre l'arrivée d'une affaire et la première décision du tribunal correctionnel.",
+      "sujet_securite_justice_rsj2026_delais"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p255",
+   "k": "redressement",
+   "aj": "2026-10-19",
+   "th": "securite",
+   "t": "Des centres de redressement encadrés par des militaires",
+   "d": "Envoyer les délinquants les plus durs dans des centres de redressement encadrés par des militaires, et les petits délinquants en travaux d'intérêt général.",
+   "s": [
+    "becht_securite"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Pour les délinquants les plus durs : « des centres de redressement encadrés par des militaires », pour rembourser les dégâts, apprendre un métier et préparer la réinsertion.",
+      "becht_securite"
+     ],
+     [
+      "Pour les petits délinquants, « des travaux d'intérêt général permettront de les responsabiliser ».",
+      "becht_securite"
+     ],
+     [
+      "Il veut aussi plus de places de prison en haute sécurité.",
+      "becht_securite"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 1er août 2026, 89 668 personnes étaient détenues pour 63 303 places opérationnelles.",
+      "sujet_securite_justice_detention_202608"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p256",
+   "k": "immigration",
+   "aj": "2026-10-19",
+   "th": "immigration",
+   "t": "Une immigration fondée sur le mérite, l'intégration comme condition du séjour",
+   "d": "Remanier entièrement le code de l'entrée et du séjour, pour une politique migratoire fondée sur le mérite et les projets, l'intégration devenant une condition du séjour.",
+   "s": [
+    "becht_securite"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Le code de l'entrée et du séjour sera entièrement remanié. » La politique migratoire serait « fondée sur le mérite et les projets ».",
+      "becht_securite"
+     ],
+     [
+      "L'intégration à la culture et aux valeurs françaises « constituera une condition sine qua non de leur séjour ».",
+      "becht_securite"
+     ],
+     [
+      "Nous n'avons pas trouvé de chiffres (quotas, critères précis).",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il présente la maîtrise des migrations comme une condition de l'ordre et de la sécurité.",
+      "becht_securite"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 377 000 premiers titres de séjour ont été délivrés : 116 835 pour études, 90 959 familiaux, 88 001 humanitaires et 50 848 économiques (données provisoires).",
+      "sujet_immigration_dgef_titres2025"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p257",
+   "k": "carburants",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Sortir des énergies fossiles grâce aux carburants de synthèse",
+   "d": "Sortir des énergies fossiles en développant les carburants de synthèse, avec un mix associant nucléaire, renouvelables et stockage, et viser la neutralité carbone avant les objectifs européens.",
+   "s": [
+    "becht_energie",
+    "sudradio_becht"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « sortir des énergies fossiles ». « Cette révolution passera par le développement des carburants de synthèse », pour les usages où l'électrification n'est pas encore réaliste.",
+      "becht_energie"
+     ],
+     [
+      "Il défend « un mix associant nucléaire, énergies renouvelables et nouvelles technologies de stockage ».",
+      "becht_energie"
+     ],
+     [
+      "Il veut « atteindre la neutralité carbone en avance de phase par rapport aux objectifs européens », sans donner de date.",
+      "becht_energie"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il veut réduire la dépendance aux importations de pétrole.",
+      "sudradio_becht"
+     ],
+     [
+      "« Cette sortie devra s'accompagner de solutions concrètes pour les Français », pour que leur facture n'explose pas.",
+      "becht_energie"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France, et l'électricité bas-carbone 95,2 %.",
+      "sujet_ecologie_rte_bilan2025"
+     ],
+     [
+      "L'Union européenne vise -55 % d'émissions en 2030 et -90 % en 2040 par rapport à 1990.",
+      "sujet_ecologie_hcc_ra2026"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p258",
+   "k": "rail",
+   "aj": "2026-10-19",
+   "th": "ecologie",
+   "t": "Un plan ferroviaire de 10 milliards d'euros",
+   "d": "Engager un plan de 10 milliards d'euros pour rénover et entretenir les lignes de train.",
+   "s": [
+    "becht_democratie"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 10,
+    "nature": "cout",
+    "per": "nd",
+    "h": "montant annoncé, durée non précisée"
+   },
+   "plus": {
+    "detail": [
+     [
+      "« Un grand plan ferroviaire de 10 milliards d'euros sera par ailleurs engagé pour la rénovation et l'entretien de nos lignes ».",
+      "becht_democratie"
+     ],
+     [
+      "Le site ne précise pas sur combien d'années.",
+      "becht_democratie"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, ces lignes sont souvent laissées à l'abandon.",
+      "becht_democratie"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p259",
+   "k": "europe3",
+   "aj": "2026-10-19",
+   "th": "europe",
+   "t": "Une « Europe des trois cercles », avec un noyau dur pour la défense",
+   "d": "Construire une « Europe des trois cercles », dont un premier cercle de six à huit États pour assurer la défense et peser face aux États-Unis et à la Chine.",
+   "s": [
+    "becht_securite",
+    "sudradio_becht"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « une Europe des trois cercles, dont le premier est à bâtir pour assurer notre défense ».",
+      "becht_securite"
+     ],
+     [
+      "Ce premier cercle serait « un noyau dur de six, sept ou peut-être huit États ».",
+      "sudradio_becht"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour peser face aux États-Unis et à la Chine.",
+      "sudradio_becht"
+     ]
+    ],
+    "auj": [
+     [
+      "Au Conseil de l'Union européenne, la politique étrangère et de sécurité commune se décide à l'unanimité, sauf exceptions.",
+      "sujet_europe_consilium_unanimity"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p260",
+   "k": "vote_blanc",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Reconnaître le vote blanc",
+   "d": "Reconnaître le vote blanc comme une expression électorale.",
+   "s": [
+    "becht_democratie"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Cette refondation démocratique passera tout d'abord par la reconnaissance du vote blanc ».",
+      "becht_democratie"
+     ],
+     [
+      "Le site ne précise pas les effets de cette reconnaissance (par exemple, annuler une élection si le vote blanc arrive en tête).",
+      null
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Pour que l'abstention ne soit plus le seul moyen de refuser tous les candidats.",
+      "becht_democratie"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p261",
+   "k": "ric",
+   "aj": "2026-10-19",
+   "th": "institutions",
+   "t": "Un référendum d'initiative citoyenne pour saisir l'Assemblée nationale",
+   "d": "Créer un référendum d'initiative citoyenne permettant à chacun de saisir directement l'Assemblée nationale.",
+   "s": [
+    "becht_democratie"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "Il veut « un véritable référendum d'initiative citoyenne, qui permettra à chacun de saisir directement l'Assemblée nationale ».",
+      "becht_democratie"
+     ],
+     [
+      "Nous n'avons pas trouvé le nombre de signatures nécessaires.",
+      null
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, un référendum peut être organisé à l'initiative d'un cinquième des parlementaires, soutenue par un dixième des électeurs inscrits (article 11 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p262",
+   "k": "provinces",
+   "aj": "2026-10-19",
+   "th": "etat",
+   "t": "Des « Provinces » et 10 milliards d'euros pour les territoires",
+   "d": "Permettre aux départements de fusionner en « Provinces », dotées de plus de 4 milliards d'euros, et faire financer par l'État 10 milliards d'euros sur cinq ans, soit 100 millions par département, pour les routes, les trains, la santé, le sport et la culture.",
+   "s": [
+    "becht_democratie"
+   ],
+   "fin": "c",
+   "a": {
+    "v": 10,
+    "nature": "cout",
+    "per": "total",
+    "h": "sur cinq ans, soit 100 millions d'euros par département"
+   },
+   "plus": {
+    "detail": [
+     [
+      "Les départements pourront fusionner « en Provinces », avec des « moyens renforcés, à hauteur de plus de 4 milliards d'euros ».",
+      "becht_democratie"
+     ],
+     [
+      "« L'État financera, pour sa part, 10 milliards d'euros sur cinq ans, soit 100 millions par département », pour les routes, les trains, la santé, le sport et la culture.",
+      "becht_democratie"
+     ],
+     [
+      "Il veut un « Pacte des territoires » garantissant leur autonomie, et des services de proximité : « l'internet à haut débit », un commerce alimentaire, une gendarmerie, des écoles, un collège et un lycée.",
+      "becht_democratie"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon lui, les collectivités connaissent mieux les besoins de leurs habitants, et l'État pourrait se recentrer sur ses missions premières.",
+      "becht_democratie"
+     ],
+     [
+      "Il défend « davantage de fédéralisme dans l'organisation de la République ».",
+      "sudradio_becht"
+     ]
+    ],
+    "auj": [
+     [
+      "Les collectivités territoriales s'administrent librement par des conseils élus, dans les conditions prévues par la loi (article 72 de la Constitution).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Il annonce 10 milliards d'euros sur cinq ans financés par l'État, et plus de 4 milliards d'euros de moyens pour les Provinces. Le site ne dit pas d'où viendrait cet argent.",
+      "becht_democratie"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p263",
+   "k": "profs",
+   "aj": "2026-10-19",
+   "th": "education",
+   "t": "Revaloriser le salaire des enseignants et repenser leur formation",
+   "d": "Revaloriser le salaire des enseignants et repenser leur formation.",
+   "s": [
+    "becht_sociale"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« La formation des enseignants sera repensée » et « leur salaire, revalorisé ».",
+      "becht_sociale"
+     ],
+     [
+      "Le site ne donne pas de montant.",
+      "becht_sociale"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Pour que l'enseignement redevienne un métier que l'on choisit ».",
+      "becht_sociale"
+     ]
+    ],
+    "auj": [
+     [
+      "Depuis 2026, les professeurs sont recrutés à bac+3, puis suivent deux années de formation rémunérée.",
+      "sujet_education_men_concours2026"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "becht",
+   "id": "p264",
+   "k": "pret",
+   "aj": "2026-10-19",
+   "th": "etudes",
+   "t": "Un prêt garanti par l'État pour les étudiants",
+   "d": "Créer un prêt étudiant garanti par l'État et donner plus de moyens à l'enseignement supérieur et à la recherche.",
+   "s": [
+    "becht_sociale"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "Il propose « un prêt garanti par l'État » pour les étudiants, et des moyens financiers et humains supplémentaires pour l'enseignement supérieur et la recherche.",
+      "becht_sociale"
+     ],
+     [
+      "Le site ne précise ni le montant ni les conditions de remboursement.",
+      "becht_sociale"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Afin que chacun puisse s'élever ».",
+      "becht_sociale"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 668 284 étudiants recevaient une bourse sur critères sociaux (2,41 milliards d'euros versés).",
+      "sujet_etudes_crous_bourses"
+     ]
+    ],
+    "note": [
+     "Le site de campagne ne date pas ses pages : nous les avons consultées le 19 octobre 2026.",
+     null
     ],
     "maj": "2026-10-19"
    }
@@ -13120,6 +14013,62 @@
    "d": "2026-10-07",
    "type": "presse",
    "u": "https://www.lagazettefrance.fr/article/les-candidats-a-la-presidentielle-devoilent-leur-politique-du-logement"
+  },
+  "librejournal_batho": {
+   "t": "Delphine Batho : son projet pour l'écologie en 2027 (entretien)",
+   "p": "Libre Journal",
+   "d": "2026-06-26",
+   "type": "presse",
+   "u": "https://librejournal.fr/article/delphine-batho-tournons-la-page-des-verts/"
+  },
+  "ge_livre_batho": {
+   "t": "En librairie : « La politique de la beauté. Une nouvelle écologie » de Delphine Batho",
+   "p": "Génération écologie",
+   "d": "2026-06-23",
+   "type": "officiel",
+   "u": "https://www.generationecologie.fr/2026/06/23/en-librairie-la-politique-de-la-beaute-une-nouvelle-ecologie-de-delphine-batho/"
+  },
+  "becht_5refondations": {
+   "t": "Le Projet France : les 5 refondations",
+   "p": "becht2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://becht2027.fr/projet-france/les-5-refondations/"
+  },
+  "becht_sociale": {
+   "t": "Refondation sociale : « Un CDI pour la vie ! »",
+   "p": "becht2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://becht2027.fr/projet-france/les-5-refondations/refondation-sociale/"
+  },
+  "becht_sante": {
+   "t": "Refondation santé",
+   "p": "becht2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://becht2027.fr/projet-france/les-5-refondations/refondation-sante/"
+  },
+  "becht_securite": {
+   "t": "Refondation sécurité : « Criminels en prison, délinquants au travail ! »",
+   "p": "becht2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://becht2027.fr/projet-france/les-5-refondations/refondation-securite/"
+  },
+  "becht_energie": {
+   "t": "Refondation énergie : « Une énergie 100% propre, 100% française ! »",
+   "p": "becht2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://becht2027.fr/projet-france/les-5-refondations/refondation-energie/"
+  },
+  "becht_democratie": {
+   "t": "Refondation démocratique et territoriale : « Une France fédérale »",
+   "p": "becht2027.fr (site de campagne)",
+   "d": "2026-10-19",
+   "type": "officiel",
+   "u": "https://becht2027.fr/projet-france/les-5-refondations/refondation-democratique-territoriale/"
   }
  },
  "presse": [
