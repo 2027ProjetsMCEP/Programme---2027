@@ -1034,7 +1034,7 @@ function rubNav(c, ps) {
   return `<nav class="card rubnav" id="rubnav" aria-label="Ses propositions par thème">
     <h2>Ses propositions par thème</h2>
     <div class="rn-grid">${items}${fin ? `<button type="button" class="rn rn-fin" data-jump="r-fin">${svg("r_finances")}<span class="t">Financement d'ensemble</span><small>Le total prévu</small></button>` : ""}</div>
-    ${c.oeil ? `<p class="small">${esc(c.oeil.regle)}</p>` : ""}
+    ${c.oeil && c.oeil.phares && DATA.reglePhares ? `<p class="small">${esc(DATA.reglePhares)}</p>` : ""}
   </nav>
   <div class="rubbar" id="rubbar" aria-hidden="true">${DATA.rubriques.filter(([k]) => n(k)).map(([k, l]) => `<button type="button" tabindex="-1" data-jump="r-${k}" data-rb="r-${k}">${esc(l)}</button>`).join("")}${fin ? `<button type="button" tabindex="-1" data-jump="r-fin" data-rb="r-fin">Financement</button>` : ""}</div>`;
 }

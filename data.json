@@ -150,6 +150,46 @@
       ]
      ]
     ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Elle présente ses propositions comme un « programme de lutte » plutôt que comme un programme de gouvernement. Elle a lancé sa campagne à la fête de Lutte ouvrière, en mai 2026.",
+      "lbb_arthaud",
+      "lo_brochure_2026"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p001",
+      "p003",
+      "p002"
+     ],
+     "interieur": [
+      "p004"
+     ],
+     "defense": [
+      "p005"
+     ],
+     "finances": [
+      "p230",
+      "p231"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Elle ne chiffre pas ses mesures. Elle affirme qu'il faut les financer « en prenant sur les profits », et que « la dette est celle de la bourgeoisie et que c'est à elle de payer ».",
+       "lo_journal_3031"
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
+       null
+      ]
+     ]
+    }
    }
   },
   {
@@ -636,7 +676,6 @@
       "p229"
      ]
     },
-    "regle": "Dans chaque thème, ses mesures phares viennent d'abord : celles de son plan budgétaire et de ses discours de 2026, puis celles de son programme. Les autres sont repliées en dessous.",
     "fin": {
      "cand": [
       [
@@ -2818,11 +2857,53 @@
    "t": "Un salaire minimum de 2 200 € net par mois",
    "d": "Porter le salaire minimum à 2 200 € net par mois.",
    "s": [
-    "lbb_arthaud"
+    "lbb_arthaud",
+    "lo_journal_3031"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p001"
+   "id": "p001",
+   "plus": {
+    "detail": [
+     [
+      "Elle veut que chaque travailleur puisse « s'en sortir avec un salaire, un revenu ou une pension d'au moins 2 200 euros net ».",
+      "lo_journal_3031"
+     ],
+     [
+      "Elle estime qu'il faudrait « 300, 400, 500 euros d'augmentation », et demande « une augmentation massive des salaires, des allocations et des pensions ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "objectif": [
+     [
+      "Pouvoir « gagner au moins 2 200 euros net par mois pour s'en sortir ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« C'est en prenant sur les profits qu'on pourra répartir le travail entre tous » et « permettre à chaque travailleur de s'en sortir ».",
+      "lo_journal_3031"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026.",
+      "sujet_travail_sp_smic_juin"
+     ],
+     [
+      "Passer à 2 200 € net ferait environ 722 € de plus par mois, soit +49 % (calcul de l'appli à partir de ce montant).",
+      "sujet_travail_sp_smic_juin"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Elle ne donne pas de coût. Selon elle, l'argent doit être pris « sur les profits ».",
+      "lo_journal_3031"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "arthaud",
@@ -2830,11 +2911,49 @@
    "t": "Aucune retraite en dessous de 2 200 € net par mois",
    "d": "Aucune pension de retraite inférieure à 2 200 € net par mois.",
    "s": [
-    "lbb_arthaud"
+    "lbb_arthaud",
+    "lo_journal_3031"
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p002"
+   "id": "p002",
+   "plus": {
+    "detail": [
+     [
+      "Elle met sur le même plan « un salaire, un revenu ou une pension d'au moins 2 200 euros net ».",
+      "lo_journal_3031"
+     ],
+     [
+      "Elle demande aussi que les pensions soient indexées « sur la hausse des prix ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "objectif": [
+     [
+      "Que chacun, actif ou retraité, ait au moins 2 200 euros net par mois.",
+      "lo_journal_3031"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Son journal, Lutte ouvrière, écrit : « Les retraites ne doivent pas baisser, car elles sont bien inférieures au salaire, déjà bas, de toute une vie. »",
+      "lo_journal_3031"
+     ]
+    ],
+    "auj": [
+     [
+      "Fin 2023, la pension moyenne de droit direct était de 1 607 euros brut par mois.",
+      "drees_pensions_2025"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Elle ne donne pas de coût. Son journal écrit que la retraite « devrait être financée intégralement par le patronat ».",
+      "lo_journal_3031"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "arthaud",
@@ -2846,7 +2965,56 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p003"
+   "id": "p003",
+   "plus": {
+    "detail": [
+     [
+      "Indexer les salaires sur les prix : « quand les prix montent, notre salaire doit suivre ! », et sur leur hausse réelle, « pas ceux de l'inflation officielle qui sous-estime toujours la réalité ».",
+      "lo_brochure_2026"
+     ],
+     [
+      "« Imposer que le travail soit réparti entre tous » et « baisser le temps et la charge de travail sans perte de salaire ».",
+      "lo_brochure_2026"
+     ],
+     [
+      "Faire établir par les salariés « une liste d'embauches dont ils auraient besoin », ce qui donnerait selon elle « des centaines de milliers d'emplois à créer tout de suite ! ».",
+      "lo_brochure_2026"
+     ],
+     [
+      "Son journal, Lutte ouvrière, écrit aussi qu'« il faut interdire les licenciements sous toutes les formes ».",
+      "lo_journal_3031"
+     ]
+    ],
+    "objectif": [
+     [
+      "Faire en sorte que « personne ne soit condamné au chômage ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Il faut selon elle baisser le temps de travail sans perte de salaire « pour permettre à tous de vivre ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "Le Smic est revalorisé chaque année en janvier, et automatiquement en cours d'année quand les prix augmentent d'au moins 2 %.",
+      "sujet_travail_insee_smic"
+     ],
+     [
+      "La durée légale du travail est de 35 heures par semaine.",
+      "sujet_travail_sp_duree_travail"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût annoncé.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "arthaud",
@@ -2857,8 +3025,33 @@
     "lo_brochure_2026"
    ],
    "aj": "2026-10-01",
-   "fin": "n",
-   "id": "p004"
+   "fin": "s",
+   "id": "p004",
+   "plus": {
+    "detail": [
+     [
+      "« Régularisation de tous les sans-papiers, liberté de circulation et d'installation pour chaque être humain de cette planète ! »",
+      "lo_brochure_2026"
+     ],
+     [
+      "Elle dénonce l'« Europe-forteresse ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Refusons de nous barricader contre des travailleurs plus pauvres que nous. »",
+      "lo_brochure_2026"
+     ]
+    ],
+    "auj": [
+     [
+      "En 2025, 28 610 personnes ont été régularisées (-10,1 %) et 384 230 premiers titres de séjour ont été délivrés, selon le ministère de l'Intérieur.",
+      "ps_titres_2025"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "arthaud",
@@ -2870,7 +3063,52 @@
    ],
    "aj": "2026-10-01",
    "fin": "n",
-   "id": "p005"
+   "id": "p005",
+   "plus": {
+    "detail": [
+     [
+      "Elle s'oppose aux « 36 milliards de rallonge pour l'armée » votés selon elle « quasiment sans discussion ».",
+      "lo_brochure_2026"
+     ],
+     [
+      "Elle veut ces milliards « pour les hôpitaux, les écoles, pas pour la guerre ! ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "objectif": [
+     [
+      "Refuser « l'unité nationale derrière les dirigeants irresponsables ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« La seule guerre que les travailleurs doivent se préparer à mener, c'est celle contre le capitalisme »",
+      "lo_brochure_2026"
+     ],
+     [
+      "Elle veut financer « les hôpitaux, les écoles ou la lutte contre les incendies plutôt que les marchands d'armes ».",
+      "lo_journal_3031"
+     ]
+    ],
+    "auj": [
+     [
+      "La loi d'août 2026 sur la programmation militaire prévoit 436 milliards d'euros pour la défense sur 2024-2030, dont 36 milliards de ressources supplémentaires sur 2026-2030.",
+      "sujet_europe_senat_loi_lpm"
+     ],
+     [
+      "En 2026, la mission Défense dispose de 56,9 milliards d'euros hors pensions.",
+      "sujet_europe_def_chiffres2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de coût ni d'économie chiffrés de sa part.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   },
   {
    "c": "attal",
@@ -7211,6 +7449,82 @@
     ],
     "maj": "2026-10-18"
    }
+  },
+  {
+   "c": "arthaud",
+   "id": "p230",
+   "k": "profits",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Confisquer les profits de guerre et exproprier le pétrole et l'armement",
+   "d": "Confisquer les bénéfices des « profiteurs de guerre » et exproprier « sans indemnité ni rachat » les actionnaires, en commençant par les groupes du pétrole et de l'armement.",
+   "s": [
+    "lo_brochure_2026"
+   ],
+   "fin": "n",
+   "plus": {
+    "detail": [
+     [
+      "« Confiscation des bénéfices de ces profiteurs de guerre : les milliards pour les hôpitaux, les écoles, pas pour la guerre ! »",
+      "lo_brochure_2026"
+     ],
+     [
+      "« Expropriation sans indemnité ni rachat de leurs actionnaires », en commençant par le pétrole et l'armement.",
+      "lo_brochure_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "Selon elle, ces profits « proviennent de la hausse des prix extorquée à la population de tous les pays ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Nous n'avons pas trouvé de montant annoncé.",
+      null
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
+  },
+  {
+   "c": "arthaud",
+   "id": "p231",
+   "k": "secret",
+   "aj": "2026-10-19",
+   "th": "eco",
+   "t": "Lever le secret des affaires des grandes entreprises",
+   "d": "Lever le secret commercial et le secret des affaires pour rendre publics les comptes des grandes entreprises.",
+   "s": [
+    "lo_brochure_2026"
+   ],
+   "fin": "s",
+   "plus": {
+    "detail": [
+     [
+      "« Levée du secret commercial et du secret des affaires pour rendre publics les comptes de ces grandes entreprises »",
+      "lo_brochure_2026"
+     ],
+     [
+      "Elle veut « imposer que l'intégralité des comptes des grandes entreprises soit rendue publique ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "objectif": [
+     [
+      "« Imposer la transparence complète de leurs circuits financiers ».",
+      "lo_brochure_2026"
+     ]
+    ],
+    "pourquoi": [
+     [
+      "« Pour qu'ils ne nous enfument pas »",
+      "lo_brochure_2026"
+     ]
+    ],
+    "maj": "2026-10-19"
+   }
   }
  ],
  "sources": {
@@ -11336,6 +11650,20 @@
    "d": "2025-05-19",
    "type": "presse",
    "u": "https://www.publicsenat.fr/actualites/politique/info-public-senat-les-pistes-du-gouvernement-pour-reduire-le-nombre-dagences-de-letat"
+  },
+  "lo_journal_3031": {
+   "t": "Lutte ouvrière n° 3031 (éditorial de Nathalie Arthaud et articles)",
+   "p": "Lutte ouvrière (journal)",
+   "d": "2026-09-04",
+   "type": "officiel",
+   "u": "https://www.lutte-ouvriere.org/medias/journalnumero/fichiers/2026/09/3031-web.pdf"
+  },
+  "drees_pensions_2025": {
+   "t": "Les retraités et les retraites, édition 2025, fiche 05 : le niveau des pensions",
+   "p": "DREES",
+   "d": "2025-07",
+   "type": "donnees",
+   "u": "https://drees.solidarites-sante.gouv.fr/sites/default/files/2025-07/Fiche%2005%20-%20Le%20niveau%20des%20pensions.pdf"
   }
  },
  "presse": [
@@ -14779,5 +15107,6 @@
   "numerique": "numerique",
   "defense": "defense",
   "etat": "etat"
- }
+ },
+ "reglePhares": "Dans chaque thème, jusqu'à 3 mesures phares viennent d'abord : celles que le candidat met lui-même le plus en avant (titres de son programme, documents chiffrés, discours de 2026). Les autres sont repliées en dessous."
 }
