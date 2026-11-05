@@ -1,6 +1,6 @@
 {
  "maj": "2026-11-05",
- "version": 14,
+ "version": 15,
  "base": "2026-10-01",
  "themes": [
   [
@@ -11902,7 +11902,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "dissuasion"
   },
   {
    "c": "melenchon",
@@ -16867,6 +16868,531 @@
     "maj": "2026-11-05"
    },
    "q": "parcoursup"
+  },
+  {
+   "c": "le-pen",
+   "th": "defense",
+   "t": "Sortir du commandement intégré de l'OTAN, sans quitter l'Alliance",
+   "d": "Dans le quinquennat ; la France resterait membre de l'OTAN mais retrouverait son autonomie de décision militaire.",
+   "s": [
+    "x_mlp_otan",
+    "21news_lepen_otan"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p359",
+   "k": "otan_ci",
+   "plus": {
+    "detail": [
+     [
+      "« Nous ne souhaitons pas sortir de l'OTAN. Nous sortirons du commandement intégré de l'OTAN dans le quinquennat. »",
+      "x_mlp_otan"
+     ],
+     [
+      "Elle l'a redit sur BFMTV le 22 mai 2026, jour d'une réunion des ministres de l'Alliance en Suède.",
+      "21news_lepen_otan"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "otan"
+  },
+  {
+   "c": "le-pen",
+   "th": "defense",
+   "t": "Garder la hausse du budget militaire prévue jusqu'en 2030",
+   "d": "Selon OpexNews, elle veut « sanctuariser » la trajectoire de la loi de programmation militaire, et refuse tout transfert de compétences de défense à l'Union européenne.",
+   "s": [
+    "opexnews_budget"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p360",
+   "k": "lpm",
+   "plus": {
+    "detail": [
+     [
+      "Selon OpexNews, elle veut « sanctuariser » la trajectoire de dépenses prévue par la loi de programmation militaire, et refuse tout transfert de compétences de défense vers l'Union européenne. L'article ne précise ni la date ni le lieu de ces déclarations.",
+      "opexnews_budget"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "budget_armee"
+  },
+  {
+   "c": "philippe",
+   "th": "defense",
+   "t": "Passer de 45 000 à 250 000 réservistes",
+   "d": "Et porter le service militaire volontaire de 3 000 à 50 000 places par an.",
+   "s": [
+    "philippe_site_surete"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p361",
+   "k": "reservistes",
+   "plus": {
+    "detail": [
+     [
+      "Son programme veut « porter le nombre de réservistes de 45 000 à 250 000 » et faire passer le service militaire volontaire de 3 000 à 50 000 places par an.",
+      "philippe_site_surete"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "budget_armee"
+  },
+  {
+   "c": "philippe",
+   "th": "defense",
+   "t": "Une nouvelle loi de programmation militaire pour « massifier » les armées",
+   "d": "Avec la production en masse de drones tactiques et un grand plan munitions pour dépasser 100 000 obus par an.",
+   "s": [
+    "philippe_site_surete"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p362",
+   "k": "lpm",
+   "plus": {
+    "detail": [
+     [
+      "La nouvelle loi de programmation militaire, centrée sur la « massification », remplacerait l'actuelle.",
+      "philippe_site_surete"
+     ],
+     [
+      "Il veut produire et acheter massivement des drones tactiques, en s'inspirant d'un programme américain de 300 000 drones, et lancer un grand plan munitions au-delà de l'objectif actuel de 100 000 obus par an.",
+      "philippe_site_surete"
+     ],
+     [
+      "Il propose aussi de doubler le nombre de navires aux Antilles, notamment contre le narcotrafic.",
+      "philippe_site_surete"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "budget_armee"
+  },
+  {
+   "c": "philippe",
+   "th": "europe",
+   "t": "Des troupes européennes en Ukraine une fois la paix revenue",
+   "d": "Pour dissuader la Russie d'attaquer de nouveau ; il voit l'entrée de l'Ukraine dans l'OTAN comme la « meilleure garantie de sécurité ».",
+   "s": [
+    "euronews_philippe_kyiv"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p363",
+   "k": "ukraine_troupes",
+   "plus": {
+    "detail": [
+     [
+      "À Kyiv, le 26 mai 2026, il a rencontré Volodymyr Zelensky et dit vouloir rester aux côtés des Ukrainiens « même au-delà » de la guerre.",
+      "euronews_philippe_kyiv"
+     ],
+     [
+      "Il défend le déploiement de troupes européennes après la paix, et l'adhésion de l'Ukraine à l'OTAN, « meilleure garantie de sécurité ».",
+      "euronews_philippe_kyiv"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "ukraine"
+  },
+  {
+   "c": "attal",
+   "th": "defense",
+   "t": "Un « dôme de fer » européen et un parapluie nucléaire français pour l'Europe",
+   "d": "Sa « doctrine des deux boucliers » : une défense commune contre les missiles et les drones, notamment au-dessus de la Pologne et des pays baltes, et la dissuasion française étendue aux Européens.",
+   "s": [
+    "attal_eurosatory"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p364",
+   "k": "boucliers",
+   "plus": {
+    "detail": [
+     [
+      "Au salon Eurosatory, le 16 juin 2026, il présente une « doctrine des deux boucliers » : un « dôme de fer européen » contre les missiles et les drones, et un parapluie nucléaire français pour l'Europe.",
+      "attal_eurosatory"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "dissuasion"
+  },
+  {
+   "c": "attal",
+   "th": "defense",
+   "t": "Une « DARPA européenne » et des armées moins dépendantes des États-Unis",
+   "d": "Il veut diviser « au moins » par deux la part des équipements qui dépendent de chaînes extra-européennes, et écrire un nouveau Livre blanc de la défense dans l'année.",
+   "s": [
+    "attal_eurosatory"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p365",
+   "k": "darpa",
+   "plus": {
+    "detail": [
+     [
+      "Il défend une « désaméricanisation complète » des forces armées et veut diviser « au moins » par deux la part des équipements dépendant de chaînes extra-européennes.",
+      "attal_eurosatory"
+     ],
+     [
+      "Il propose une « DARPA européenne », une revue de tous les programmes d'armement et un nouveau Livre blanc de la défense dans l'année ; le précédent date de 2013.",
+      "attal_eurosatory"
+     ],
+     [
+      "Le financement de ces mesures n'est pas précisé.",
+      "attal_eurosatory"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "industrie_def"
+  },
+  {
+   "c": "attal",
+   "th": "europe",
+   "t": "Construire les « États-Unis d'Europe » avec un noyau de pays volontaires",
+   "d": "Une économie commune (impôts, droit du travail et des affaires), un président élu au suffrage universel et un « premier référendum européen » pour valider le projet.",
+   "s": [
+    "ps_attal_eue"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p366",
+   "k": "eue",
+   "plus": {
+    "detail": [
+     [
+      "À Reims, le 17 septembre 2026 : « La grande mission de ma génération est d'accomplir le rêve européen et de faire naître les Etats-Unis d'Europe ».",
+      "ps_attal_eue"
+     ],
+     [
+      "Un noyau de pays mettrait en commun impôts, droit du travail, droit des affaires et ressources budgétaires ; les États garderaient la défense, l'immigration, l'éducation et le régalien, selon son entourage.",
+      "ps_attal_eue"
+     ],
+     [
+      "Le projet serait validé par un « premier référendum européen », organisé en même temps dans les pays concernés.",
+      "ps_attal_eue"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "changer_ue"
+  },
+  {
+   "c": "retailleau",
+   "th": "europe",
+   "t": "Un « bouclier constitutionnel » face à certaines décisions de justice européennes",
+   "d": "Une loi organique pourrait écarter une jurisprudence européenne contraire aux « intérêts fondamentaux » de la France, par exemple pour expulser des étrangers dangereux.",
+   "s": [
+    "laclepublique_retailleau"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p367",
+   "k": "bouclier_ue",
+   "plus": {
+    "detail": [
+     [
+      "Annoncé dans un entretien au Figaro le 2 septembre 2026 ; aucun texte complet n'était publié début septembre.",
+      "laclepublique_retailleau"
+     ],
+     [
+      "La Cour de justice de l'Union affirme la primauté du droit européen, y compris sur les constitutions nationales : la France resterait tenue par ses obligations européennes, avec un risque de procédure en manquement.",
+      "laclepublique_retailleau"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "changer_ue"
+  },
+  {
+   "c": "lisnard",
+   "th": "defense",
+   "t": "Augmenter le budget de la défense",
+   "d": "Il relie cette hausse à la baisse des dépenses de l'État hors de ses missions régaliennes.",
+   "s": [
+    "ne_armee"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p368",
+   "k": "budget_def",
+   "plus": {
+    "detail": [
+     [
+      "Sur RMC, le 21 avril 2026, il a jugé indispensable d'augmenter le budget de la défense, en réduisant les dépenses de l'État hors de ses missions régaliennes.",
+      "ne_armee"
+     ],
+     [
+      "« La puissance, la liberté et la souveraineté ne se décrètent pas : elles se financent. » (9 juin 2026)",
+      "ne_armee"
+     ],
+     [
+      "Il chiffre à 8 milliards d'euros les crédits de paiement qui manquaient au budget précédent pour l'achat d'armes (meeting de Paris, 21 janvier 2026). La page de son parti n'avance pas de montant pour la hausse proposée.",
+      "ne_armee"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "budget_armee"
+  },
+  {
+   "c": "lisnard",
+   "th": "defense",
+   "t": "Un système de combat aérien entièrement français",
+   "d": "Après l'abandon de l'avion franco-allemand : appareil, drones, cloud de combat et capteurs, à partir du Rafale F5 et d'un drone de combat furtif déjà développés en France.",
+   "s": [
+    "ne_armee"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p369",
+   "k": "combat_aerien",
+   "plus": {
+    "detail": [
+     [
+      "Après l'abandon de l'avion de combat franco-allemand en juin 2026, il parle de « l'échec d'une méthode ».",
+      "ne_armee"
+     ],
+     [
+      "Il propose un système complet, intégré à la dissuasion nucléaire, à partir du Rafale F5 et d'un drone de combat furtif déjà développés en France.",
+      "ne_armee"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "industrie_def"
+  },
+  {
+   "c": "lisnard",
+   "th": "ecologie",
+   "t": "Remplacer le « zéro artificialisation nette » par une incitation à la densité",
+   "d": "Il juge le ZAN « absurde » et « inapplicable », et veut libérer du foncier pour l'industrie.",
+   "s": [
+    "ne_industrie"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p370",
+   "k": "zan_densite",
+   "plus": {
+    "detail": [
+     [
+      "Il veut remplacer ce régime « descendant » par une incitation à construire plus dense.",
+      "ne_industrie"
+     ],
+     [
+      "Il en fait l'un de ses « six F » pour réindustrialiser : foncier, flux énergétiques, formalités, formation, fonds et fiscalité.",
+      "ne_industrie"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "zan"
+  },
+  {
+   "c": "lisnard",
+   "th": "numerique",
+   "t": "L'IA générative pour instruire les dossiers dans l'administration",
+   "d": "Pour contrôler les pièces et rédiger les actes, sur le modèle de l'Estonie.",
+   "s": [
+    "ne_ia"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p371",
+   "k": "ia_admin",
+   "plus": {
+    "detail": [
+     [
+      "À Saint-Raphaël, le 3 juillet 2026, il a présenté l'IA générative comme un outil pour instruire les dossiers, contrôler les pièces et rédiger les actes administratifs, en citant l'Estonie.",
+      "ne_ia"
+     ]
+    ],
+    "maj": "2026-11-05"
+   }
+  },
+  {
+   "c": "lisnard",
+   "th": "numerique",
+   "t": "Moins de règles européennes sur l'IA, plus de capacités de calcul",
+   "d": "Il reproche à l'Union d'avoir réglementé l'IA avant de la produire, et veut investir dans le calcul et une électricité décarbonée bon marché.",
+   "s": [
+    "ne_ia"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p372",
+   "k": "ia_calcul",
+   "plus": {
+    "detail": [
+     [
+      "Il voit dans l'IA « l'une des grandes batailles de souveraineté du siècle » et met en garde contre une dépendance aux États-Unis et à la Chine.",
+      "ne_ia"
+     ],
+     [
+      "Le 12 août 2026, il a reproché à l'Union européenne d'avoir été la première à réglementer l'IA plutôt qu'à la produire.",
+      "ne_ia"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "investir"
+  },
+  {
+   "c": "lisnard",
+   "th": "institutions",
+   "t": "Limiter la loi aux grands principes",
+   "d": "Sauf en fiscalité et en droit pénal ; l'application serait confiée au gouvernement et aux collectivités.",
+   "s": [
+    "ne_destin"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p373",
+   "k": "loi_principes",
+   "plus": {
+    "detail": [
+     [
+      "Les textes existants seraient regroupés dans des codes simplifiés, dont une instance de parlementaires, de juristes et de représentants de la société civile extrairait les principes fondamentaux.",
+      "ne_destin"
+     ],
+     [
+      "Le Parlement aurait un droit d'initiative réservé sur un périmètre défini, et devrait faire un diagnostic avant toute nouvelle norme.",
+      "ne_destin"
+     ]
+    ],
+    "maj": "2026-11-05"
+   }
+  },
+  {
+   "c": "lisnard",
+   "th": "institutions",
+   "t": "Recentrer le rôle du président sur trois missions",
+   "d": "Les grandes décisions, avec le Haut-Commissariat au Plan ; la gestion des crises ; le lien avec les forces vives du pays.",
+   "s": [
+    "ne_destin"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p374",
+   "k": "president_3",
+   "plus": {
+    "detail": [
+     [
+      "Le président se concentrerait sur les grandes décisions, avec le Haut-Commissariat au Plan, sur la gestion des crises majeures, notamment diplomatiques et militaires, et sur le lien avec les forces vives du pays.",
+      "ne_destin"
+     ]
+    ],
+    "maj": "2026-11-05"
+   }
+  },
+  {
+   "c": "glucksmann",
+   "th": "social",
+   "t": "Sortir les Ehpad et les crèches de la logique marchande",
+   "d": "Les modalités et le calendrier ne sont pas encore précisés.",
+   "s": [
+    "pp_lettre_glucksmann"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p375",
+   "k": "ehpad_creches",
+   "plus": {
+    "detail": [
+     [
+      "« Nous démarchandiserons les EHPAD et les crèches », écrit-il dans sa lettre aux Français du 25 août 2026, jour de sa déclaration de candidature.",
+      "pp_lettre_glucksmann"
+     ]
+    ],
+    "maj": "2026-11-05"
+   }
+  },
+  {
+   "c": "zemmour",
+   "th": "retraites",
+   "t": "La retraite à 64 ans",
+   "d": "Sa proposition de 2022, que son parti défend toujours ; il n'a pas encore présenté de plan pour 2027.",
+   "s": [
+    "capital_retraites"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p376",
+   "k": "retraite64",
+   "plus": {
+    "detail": [
+     [
+      "En 2022, il proposait de reculer progressivement l'âge légal à 64 ans d'ici 2030, avec une année de cotisation en plus, des départs anticipés pour les carrières longues et pénibles, et un bonus-malus pour dissuader les licenciements de seniors.",
+      "capital_retraites"
+     ],
+     [
+      "Selon Capital, Reconquête défend toujours les 64 ans ; aucun chiffrage pour 2027 n'est publié.",
+      "capital_retraites"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "age_retraite"
+  },
+  {
+   "c": "zemmour",
+   "th": "numerique",
+   "t": "Faire de la France le troisième pays de l'IA",
+   "d": "Derrière les États-Unis et la Chine, en mobilisant l'épargne des Français et des Européens et en supprimant des réglementations.",
+   "s": [
+    "e1_zemmour_rentree"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p377",
+   "k": "ia_3e",
+   "plus": {
+    "detail": [
+     [
+      "Lors de son discours de rentrée à Port-Marly, le 13 septembre 2026, il a présenté l'IA comme la « troisième grande révolution industrielle ».",
+      "e1_zemmour_rentree"
+     ],
+     [
+      "Il veut faire de la France le pays européen où il est le plus facile de créer une entreprise d'IA, et mobiliser l'épargne des Français et des Européens, qu'il estime à 37 000 milliards d'euros.",
+      "e1_zemmour_rentree"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "investir"
+  },
+  {
+   "c": "retailleau",
+   "th": "defense",
+   "t": "Multiplier par cinq les moyens de l'IA de défense",
+   "d": "Le détail et le coût de la mesure ne sont pas précisés dans les sources consultées.",
+   "s": [
+    "opexnews_budget"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p378",
+   "k": "ia_defense",
+   "plus": {
+    "detail": [
+     [
+      "Selon OpexNews, il met l'accent sur la technologie et veut multiplier par cinq les moyens consacrés à l'intelligence artificielle de défense.",
+      "opexnews_budget"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "industrie_def"
   }
  ],
  "sources": {
@@ -21678,6 +22204,104 @@
    "d": "2026-10-31",
    "type": "presse",
    "u": "https://actu.orange.fr/france/journee-de-mobilisation-pour-le-pouvoir-d-achat-les-derniers-developpements-CNT000002tudVr.html"
+  },
+  "philippe_site_surete": {
+   "t": "Pour une France plus sûre",
+   "p": "Site de campagne d'Édouard Philippe",
+   "d": "2026-11-05",
+   "type": "officiel",
+   "u": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure"
+  },
+  "euronews_philippe_kyiv": {
+   "t": "Édouard Philippe a rencontré Volodymyr Zelensky à Kyiv",
+   "p": "Euronews",
+   "d": "2026-05-26",
+   "type": "presse",
+   "u": "https://fr.euronews.com/my-europe/2026/05/26/edouard-philippe-a-rencontre-volodymyr-zelensky-a-kyiv"
+  },
+  "attal_eurosatory": {
+   "t": "Eurosatory : Gabriel Attal défend souveraineté technologique et indépendance européenne pour notre défense",
+   "p": "Site de campagne de Gabriel Attal",
+   "d": "2026-06-16",
+   "type": "officiel",
+   "u": "https://attalpresident.fr/actualites/eurosatory-gabriel-attal-presente-sa-strategie-de-souverainete-technologique-et-d-independance-europeenne-au-salon"
+  },
+  "ps_attal_eue": {
+   "t": "Gabriel Attal veut construire « les Etats-Unis d'Europe », proposition choc pour « relancer l'idéal européen »",
+   "p": "Public Sénat",
+   "d": "2026-09-17",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/gabriel-attal-veut-construire-les-etats-unis-deurope-proposition-choc-pour-relancer-lideal-europeen"
+  },
+  "x_mlp_otan": {
+   "t": "Message de Marine Le Pen sur le commandement intégré de l'OTAN",
+   "p": "Compte X de Marine Le Pen",
+   "d": "2026-05-22",
+   "type": "officiel",
+   "u": "https://x.com/MLP_officiel/status/2057739227203354893"
+  },
+  "21news_lepen_otan": {
+   "t": "Marine Le Pen veut sortir la France du commandement intégré de l'OTAN",
+   "p": "21 News",
+   "d": "2026-05-23",
+   "type": "presse",
+   "u": "https://www.21news.be/marine-le-pen-veut-sortir-la-france-du-commandement-integre-de-lotan/"
+  },
+  "opexnews_budget": {
+   "t": "Budget des armées : la promesse survivra-t-elle à 2027 ?",
+   "p": "OpexNews",
+   "d": "2026-10-08",
+   "type": "presse",
+   "u": "https://opexnews.fr/budget-armees-defense-2027-presidentielle/"
+  },
+  "ne_armee": {
+   "t": "Quel candidat à la présidentielle 2027 veut renforcer l'armée ?",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-10-16",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-renforcer-l-armee/"
+  },
+  "ne_industrie": {
+   "t": "Quel candidat à la présidentielle 2027 veut réindustrialiser la France ?",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-11-05",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/questions/quel-candidat-veut-reindustrialiser-la-france/"
+  },
+  "ne_ia": {
+   "t": "Quel candidat à la présidentielle 2027 a une vision sur l'intelligence artificielle ?",
+   "p": "Nouvelle Énergie (son parti)",
+   "d": "2026-11-05",
+   "type": "officiel",
+   "u": "https://www.unenouvelleenergie.fr/questions/quel-candidat-a-une-vision-sur-l-intelligence-artificielle/"
+  },
+  "laclepublique_retailleau": {
+   "t": "Retailleau : ce que sa réforme constitutionnelle changerait",
+   "p": "La Clé publique",
+   "d": "2026-09-05",
+   "type": "presse",
+   "u": "https://laclepublique.fr/national/articles/2026/2026-09-05-retailleau-reforme-constitutionnelle/"
+  },
+  "e1_zemmour_rentree": {
+   "t": "Présidentielle 2027 : Éric Zemmour appelle à un « vote du sursaut » lors de son discours de rentrée",
+   "p": "Europe 1",
+   "d": "2026-09-13",
+   "type": "presse",
+   "u": "https://www.europe1.fr/politique/presidentielle-2027-eric-zemmour-appelle-a-un-vote-du-sursaut-lors-de-son-discours-de-rentree-1075178"
+  },
+  "capital_retraites": {
+   "t": "Présidentielle 2027, ce que proposent les candidats pour votre retraite",
+   "p": "Capital, repris par Yahoo Finance",
+   "d": "2026-09-24",
+   "type": "presse",
+   "u": "https://fr.finance.yahoo.com/actualites/presidentielle-2027-proposent-candidats-retraite-120000835.html"
+  },
+  "pp_lettre_glucksmann": {
+   "t": "Raphaël Glucksmann - Sa lettre aux Français",
+   "p": "Place publique",
+   "d": "2026-08-25",
+   "type": "officiel",
+   "u": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais"
   }
  },
  "presse": [
@@ -22701,6 +23325,11 @@
       "c": "roussel",
       "v": 60,
       "s": "pcf_pacte"
+     },
+     {
+      "c": "zemmour",
+      "v": 64,
+      "s": "capital_retraites"
      }
     ],
     "note": "Sans âge fixe : Gabriel Attal (selon les années de travail), Raphaël Glucksmann et François Ruffin (selon la pénibilité)."
@@ -23430,7 +24059,6 @@
       {
        "big": "62 ans",
        "c": [
-        "glucksmann",
         "le-pen",
         "melenchon",
         "tondelier"
@@ -23440,6 +24068,12 @@
        "big": "63 ans",
        "c": [
         "retailleau"
+       ]
+      },
+      {
+       "big": "64 ans",
+       "c": [
+        "zemmour"
        ]
       },
       {
@@ -23467,7 +24101,8 @@
       "p128",
       "p294",
       "p334",
-      "p341"
+      "p341",
+      "p376"
      ]
     }
    }
@@ -25382,6 +26017,26 @@
    },
    {
     "k": "Dans l'appli",
+    "t": "Défense, Europe et IA : des thèmes complétés",
+    "txt": "Nous avons recherché les positions des candidats les plus testés dans les sondages sur les thèmes où l'appli n'avait encore rien pour eux, avec une source pour chaque proposition. Quand rien de public n'existe, la comparaison l'indique : « Pas de position trouvée ».",
+    "c": [
+     "attal",
+     "glucksmann",
+     "le-pen",
+     "lisnard",
+     "philippe",
+     "retailleau",
+     "zemmour"
+    ],
+    "cl": "Propositions ajoutées",
+    "src": [
+     "philippe_site_surete",
+     "attal_eurosatory",
+     "ne_armee"
+    ]
+   },
+   {
+    "k": "Dans l'appli",
     "t": "Cinq personnes retirées de la liste des candidats",
     "txt": "Olivier Faure, Ségolène Royal, Emmanuel Maurel et Jérôme Guedj, battus à la primaire du 11 octobre, et Philippe Brun, qui en avait été exclu, ne sont plus candidats. Deux candidats sans parti sont ajoutés : Benoît Mathieu et Manolo Mlekuz.",
     "src": [
@@ -25719,7 +26374,7 @@
   "defense": [
    [
     "budget_armee",
-    "Quel budget pour l'armée ?"
+    "Quels moyens pour l'armée ?"
    ],
    [
     "otan",
@@ -25728,6 +26383,10 @@
    [
     "industrie_def",
     "Quelle industrie de défense ?"
+   ],
+   [
+    "dissuasion",
+    "Quelle place pour la dissuasion nucléaire ?"
    ]
   ],
   "numerique": [
@@ -25741,7 +26400,7 @@
    ],
    [
     "investir",
-    "Faut-il investir publiquement dans l'IA et le cloud ?"
+    "Comment développer l'IA et le cloud en France ?"
    ]
   ]
  }
