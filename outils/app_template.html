@@ -214,6 +214,8 @@ a.cand-h:hover b { color: var(--bleu); }
 /* Fiche candidat */
 .profile { display: grid; gap: 12px; justify-items: start; }
 .profile .who { display: flex; gap: 14px; align-items: center; }
+.profile .who > div { min-width: 0; }
+.profile .who h1 { overflow-wrap: break-word; hyphens: auto; }
 .profile h1 { font-size: 1.7rem; }
 .profile .party { color: var(--ink-2); font-size: 0.92rem; }
 .stats { display: flex; gap: 10px; width: 100%; }
@@ -266,7 +268,8 @@ main > .rubbar { animation: none; }
 .tile b { font-family: var(--f-display); font-size: 1.05rem; font-weight: 700; line-height: 1.2; display: block; }
 .tile span { font-size: 0.78rem; color: var(--ink-3); }
 .figs { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
-.figs div { background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; align-content: start; }
+.figs div { background: var(--chip); border-radius: 12px; padding: 10px 12px; display: grid; gap: 2px; align-content: start; min-width: 0; }
+.figs b, .figs span { overflow-wrap: break-word; hyphens: auto; }
 .figs b { font-family: var(--f-display); font-size: 1.3rem; line-height: 1.1; }
 .figs span { font-size: 0.78rem; color: var(--ink-2); }
 
@@ -305,6 +308,25 @@ main > .rubbar { animation: none; }
 .cmp-col .ci b { font-weight: 600; }
 .cmp-col .ci a { font-size: 0.74rem; color: var(--ink-3); }
 .cmp-col .none { font-size: 0.82rem; color: var(--ink-3); }
+.cmp-col .ci .cd { font-size: 0.8rem; color: var(--ink-2, var(--ink-3)); }
+.cmp-col .ci .cf { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.cmp-col .ci + .ci { border-top: 1px solid var(--line); padding-top: 10px; }
+.cmp-card .q-row + .q-row, .cmp-card .q-row + .q-rest { margin-top: 16px; }
+.q-t { font-size: 0.95rem; font-weight: 700; margin: 0 0 8px; line-height: 1.3; }
+details.q-rest { border-top: 1px solid var(--line); padding-top: 12px; }
+details.q-rest summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.9rem; color: var(--bleu); }
+details.q-rest summary::-webkit-details-marker { display: none; }
+details.q-rest summary::after { content: "+"; margin-left: auto; font-weight: 700; }
+details.q-rest[open] summary::after { content: "−"; }
+details.q-rest summary .n { font-size: 0.78rem; color: var(--ink-3); font-weight: 600; }
+details.q-rest .cmp-grid { margin-top: 10px; }
+.sq { display: grid; gap: 8px; margin-top: 8px; }
+.sq-i { display: flex; align-items: center; gap: 10px; width: 100%; text-align: left; border: 0; border-radius: 12px; padding: 10px 12px; background: var(--chip); color: var(--ink); font: inherit; cursor: pointer; }
+.sq-i .tx { display: grid; gap: 2px; min-width: 0; font-size: 0.86rem; line-height: 1.35; }
+.sq-i .tx b { font-weight: 700; }
+.q-card h2 { margin-bottom: 2px; }
+.q-card .q-cand { border-top: 1px solid var(--line); padding-top: 12px; margin-top: 12px; }
+.q-card .q-cand .props { margin-top: 8px; }
 
 /* Sondages */
 .poll { display: grid; gap: 8px; }
@@ -330,6 +352,10 @@ details.prev summary::-webkit-details-marker { display: none; }
 details.prev summary::after { content: "+"; color: var(--bleu); font-weight: 700; }
 details.prev[open] summary::after { content: "−"; }
 details.prev .poll { margin-top: 12px; }
+details.hyps { margin-top: 14px; }
+details.hyps summary { font-weight: 600; color: var(--bleu); }
+details.hyps .hyp-t { margin: 16px 0 0; font-weight: 600; color: var(--ink); }
+details.hyps .hyp-t + .poll { margin-top: 8px; }
 
 .prose { display: grid; gap: 10px; font-size: 0.95rem; color: var(--ink-2); }
 .prose b { color: var(--ink); }
@@ -427,6 +453,7 @@ img.mono { object-fit: cover; display: block; }
 .bio .s a, .blk .s a { color: var(--ink-2); }
 /* Statuts et « À confirmer » */
 .badges { display: flex; flex-wrap: wrap; gap: 6px; }
+.badges:empty { display: none; }
 .tbc { justify-self: start; display: inline-flex; align-items: center; gap: 5px; font-size: 0.76rem; font-weight: 600; padding: 2px 9px; border-radius: 999px; color: var(--warn); border: 1px solid color-mix(in srgb, var(--warn) 45%, transparent); white-space: nowrap; }
 .tbc::before { content: "?"; font-weight: 800; }
 /* Aller plus loin */
@@ -859,11 +886,15 @@ const FIN_HELP = {
 };
 function finLabel(p) { if (p.fin === "c" && p.a && p.a.nature === "economie") return "Économie chiffrée"; if (p.fin === "c" && p.a && p.a.nature === "recette") return "Recette chiffrée"; return { f: "Chiffrée et financée", c: "Chiffrée, financement non trouvé", n: "Aucun chiffrage trouvé", s: "Sans dépense directe" }[p.fin] || ""; }
 const finHelp = p => p.a && p.a.nature === "recette" ? "Le candidat annonce ce que la mesure rapporterait." : FIN_HELP[p.fin] || "";
+/* Une proposition peut répondre à une ou deux questions clés de son thème */
+const hasQ = (p, q) => Array.isArray(p.q) ? p.q.includes(q) : p.q === q;
 const finBadge = p => p.fin ? `<span class="fin fin-${p.fin}" title="${esc(finHelp(p))}">${esc(finLabel(p))}</span>` : "";
+/* Sur les cartes, « Aucun chiffrage trouvé » n'apporte rien : le statut reste dans la fiche « Aller plus loin » */
+const finCard = p => p.fin === "n" ? "" : finBadge(p);
 const finText = p => p.finTxt ? `<p class="fintxt">Financement prévu : ${esc(p.finTxt)}</p>` : "";
 function propItem(p) {
   const ss = p.s.filter(s => SRC[s]);
-  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${frTypo(p.t)}</p><div class="badges">${finBadge(p)}${tbc(p)}</div>${amount(p.a)}${finText(p)}<div class="prop-f"><p class="src">Source : ${ss.length ? `${ext(SRC[ss[0]].u, esc(SRC[ss[0]].p))}, ${esc(fmtDate(SRC[ss[0]].d, true))}` : ""}${allSrc(p).length > 1 ? `<span class="more-s">, et ${allSrc(p).length - 1} autre${allSrc(p).length > 2 ? "s" : ""}</span>` : ""}</p><button class="plus-btn" type="button" data-more="${p.id}">Aller plus loin${CHEV}</button></div></div>`;
+  return `<div class="prop"><p class="pt">${isNew(p) ? '<span class="newb">Nouveau</span>' : ""}${frTypo(p.t)}</p><div class="badges">${finCard(p)}${tbc(p)}</div>${amount(p.a)}${finText(p)}<div class="prop-f"><p class="src">Source : ${ss.length ? `${ext(SRC[ss[0]].u, esc(SRC[ss[0]].p))}, ${esc(fmtDate(SRC[ss[0]].d, true))}` : ""}${allSrc(p).length > 1 ? `<span class="more-s">, et ${allSrc(p).length - 1} autre${allSrc(p).length > 2 ? "s" : ""}</span>` : ""}</p><button class="plus-btn" type="button" data-more="${p.id}">Aller plus loin${CHEV}</button></div></div>`;
 }
 
 /* ---------- graphiques ---------- */
@@ -891,7 +922,7 @@ function axis(cfg) {
 }
 
 /* ---------- écrans ---------- */
-const ui = { actuC: "tous", cmpMode: "tous", cmpA: null, cmpB: null, cmpTh: "tous", rubTh: "tous", feed: null, feedTh: "tous", srcG: "tous" };
+const ui = { actuC: "tous", cmpMode: "tous", cmpA: null, cmpB: null, cmpTh: "tous", rubTh: "tous", rubView: "q", feed: null, feedTh: "tous", srcG: "tous" };
 const shuffle = a => { for (let i = a.length - 1; i > 0; i--) { const j = Math.floor(Math.random() * (i + 1)); [a[i], a[j]] = [a[j], a[i]]; } return a; };
 const dayFmt = new Intl.DateTimeFormat("fr-FR", { weekday: "long", day: "numeric", month: "long" });
 const cap = s => s.charAt(0).toUpperCase() + s.slice(1);
@@ -945,7 +976,7 @@ function screenActu(inHome) {
   const days = [];
   list.forEach(p => { const last = days[days.length - 1]; if (last && last.d === p.d) last.items.push(p); else days.push({ d: p.d, items: [p] }); });
   return `
-  <div class="${inHome ? "sec-h col" : "page-h"}"><${inHome ? "h2" : "h1"}>L'actu de la campagne</${inHome ? "h2" : "h1"}><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien. Le résumé de la dernière mise à jour est dans <a href="#videos">En bref</a>, story « Cette semaine ».</p></div>
+  <div class="${inHome ? "sec-h col" : "page-h"}"><${inHome ? "h2" : "h1"}>L'actu de la campagne</${inHome ? "h2" : "h1"}><p class="lead">Les articles de presse sur les candidats et la campagne, du plus récent au plus ancien. Le résumé de la dernière mise à jour est dans <a href="#videos">En bref</a>, rubrique « Cette semaine ».</p></div>
   <div class="chips" role="group" aria-label="Filtrer par candidat">${[["tous", "Tous"]].concat(cands.map(c => [c.id, c.nom])).map(([k, l]) => `<button class="chip" type="button" data-actu="${k}" aria-pressed="${ui.actuC === k}">${esc(l)}</button>`).join("")}</div>
   ${days.map(g => `<section class="card"><h2 class="day">${esc(cap(dayFmt.format(dt(g.d))))}${g.d.slice(0, 4) !== String(new Date().getFullYear()) ? " " + g.d.slice(0, 4) : ""}</h2><div class="rows news">${g.items.map(newsRow).join("")}</div></section>`).join("")}
   <div class="foot-links"><a href="#methode">Comment l'appli est faite</a><a href="#sources">Les sources</a></div>`;
@@ -1130,7 +1161,7 @@ function reel(card) {
   const yt = card.p ? allSrc(card.p).map(id => ytId(SRC[id].u)).find(Boolean) : null;
   const said = card.p && card.p.plus && card.p.plus.dit ? `<span class="said">${esc(card.p.plus.dit)}</span>` : "";
   const media = card.v ? videoMedia(card.v)
-    : `<div class="poster"><span class="soon">${svg(th)}${esc(THEME_NAME[th])}</span><span class="big">${esc(card.p.t)}</span>${said}<span class="badges">${finBadge(card.p)}${tbc(card.p)}</span>${card.p.finTxt ? `<span class="fintxt">Financement prévu : ${esc(card.p.finTxt)}</span>` : ""}${yt ? `<button class="more-btn play" type="button" data-yt="${esc(yt)}" data-title="${esc(card.p.t)}">▶ Voir la vidéo source</button>` : `<span class="later">Pas encore de vidéo de ${esc(c.nom)} sur cette proposition</span>`}</div>`;
+    : `<div class="poster"><span class="soon">${svg(th)}${esc(THEME_NAME[th])}</span><span class="big">${esc(card.p.t)}</span>${said}<span class="badges">${finCard(card.p)}${tbc(card.p)}</span>${card.p.finTxt ? `<span class="fintxt">Financement prévu : ${esc(card.p.finTxt)}</span>` : ""}${yt ? `<button class="more-btn play" type="button" data-yt="${esc(yt)}" data-title="${esc(card.p.t)}">▶ Voir la vidéo source</button>` : `<span class="later">Pas encore de vidéo de ${esc(c.nom)} sur cette proposition</span>`}</div>`;
   return `<article class="reel">
     <div class="reel-media">${media}</div>
     <div class="reel-info">
@@ -1220,15 +1251,15 @@ function storyTheme(k) {
     const pick = shuffle(who.slice()).slice(0, 4).map(c => { const mine = ps.filter(p => p.c === c.id); return { c, p: mine[Math.floor(Math.random() * mine.length)] }; });
     screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>${who.length > 1 ? `${who.length} candidats ont fait des propositions` : "1 candidat a fait une proposition"}</b><div class="st-list">${pick.map((x, j) => `<div class="st-li in"${D(700 + j * 700)}><b>${esc(x.p.t)}</b><span>${esc(x.c.nom)}</span></div>`).join("")}</div>${ps.length > pick.length ? `<p class="st-p in"${D(700 + pick.length * 700)}>Et ${ps.length - pick.length} autre${ps.length - pick.length > 1 ? "s" : ""} proposition${ps.length - pick.length > 1 ? "s" : ""}. Les exemples sont tirés au hasard à chaque fois.</p>` : ""}${propSrc}`);
   }
-  screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} sur ce sujet</span>` : `<b class="st-t in"${D(150)}>${esc(THEME_NAME[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#t-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-${k}">Comprendre le sujet en détail</a></div><button type="button" class="st-again" data-st-again>Revoir la story</button><span class="st-src">Tous les chiffres de cette story viennent de la fiche « Comprendre le sujet » et des propositions de l'appli.</span>`);
-  return { title: THEME_NAME[k], sub: `Un sujet en ${screens.length} écrans`, icon: svg(k), screens };
+  screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} sur ce sujet</span>` : `<b class="st-t in"${D(150)}>${esc(THEME_NAME[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#t-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-${k}">Comprendre le sujet en détail</a></div><button type="button" class="st-again" data-st-again>Revoir le résumé</button><span class="st-src">Tous les chiffres de ce résumé viennent de la fiche « Comprendre le sujet » et des propositions de l'appli.</span>`);
+  return { title: THEME_NAME[k], sub: `Résumé en ${screens.length} écrans`, icon: svg(k), screens };
 }
 /* Story d'un thème : la story du sujet s'il est seul ; sinon l'essentiel de chaque sujet, puis les propositions du thème */
 function storyRub(k) {
   const RN = Object.fromEntries(DATA.rubriques); if (!RN[k]) return null;
   const subs = rubSujetsAll(k); if (!subs.length) return null;
   const ps = DATA.propositions.filter(p => rubOf(p) === k), who = candSorted().filter(c => ps.some(p => p.c === c.id));
-  if (subs.length === 1) { const S = storyTheme(subs[0][0]); if (!S) return null; return { ...S, title: RN[k], sub: `Un thème en ${S.screens.length} écrans`, icon: svg("r_" + k) }; }
+  if (subs.length === 1) { const S = storyTheme(subs[0][0]); if (!S) return null; return { ...S, title: RN[k], sub: `Résumé en ${S.screens.length} écrans`, icon: svg("r_" + k) }; }
   const screens = subs.map(([t, l], i) => { const S = storyTheme(t); return S ? S.screens[0].replace(`<span class="st-k in">L'essentiel</span>`, `<span class="st-k in">${esc(l)}</span>`).replace(i ? `<span class="st-hint in"${D(2200)}>${HINT}</span>` : "@@", "") : null; }).filter(Boolean);
   const propSrc = '<span class="st-src">Sources : les propositions de chaque candidat, dans l\'onglet Propositions</span>';
   if (!ps.length) screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>Aucune proposition relevée pour l'instant dans ce thème</b>`);
@@ -1236,8 +1267,8 @@ function storyRub(k) {
     const pick = shuffle(who.slice()).slice(0, 4).map(c => { const mine = ps.filter(p => p.c === c.id); return { c, p: mine[Math.floor(Math.random() * mine.length)] }; });
     screens.push(`<span class="st-k in">Ce que proposent les candidats</span><b class="st-t in"${D(150)}>${who.length > 1 ? `${who.length} candidats ont fait des propositions` : "1 candidat a fait une proposition"}</b><div class="st-list">${pick.map((x, j) => `<div class="st-li in"${D(700 + j * 700)}><b>${esc(x.p.t)}</b><span>${esc(x.c.nom)}</span></div>`).join("")}</div>${ps.length > pick.length ? `<p class="st-p in"${D(700 + pick.length * 700)}>Et ${ps.length - pick.length} autre${ps.length - pick.length > 1 ? "s" : ""} proposition${ps.length - pick.length > 1 ? "s" : ""}. Les exemples sont tirés au hasard à chaque fois.</p>` : ""}${propSrc}`);
   }
-  screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} dans ce thème</span>` : `<b class="st-t in"${D(150)}>${esc(RN[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#p-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-r-${k}">Comprendre le thème en détail</a></div><button type="button" class="st-again" data-st-again>Revoir la story</button><span class="st-src">Tous les chiffres de cette story viennent des fiches « Comprendre » et des propositions de l'appli.</span>`);
-  return { title: RN[k], sub: `Un thème en ${screens.length} écrans`, icon: svg("r_" + k), screens };
+  screens.push(`<span class="st-k in">Pour aller plus loin</span>${ps.length ? `${stNum(String(ps.length), 150)}<span class="st-u in"${D(300)}>proposition${ps.length > 1 ? "s" : ""} de ${plural(who.length, "candidat")} dans ce thème</span>` : `<b class="st-t in"${D(150)}>${esc(RN[k])}</b>`}<div class="st-btns in"${D(700)}>${ps.length ? `<a class="st-btn main" href="#p-${k}">Voir toutes les propositions</a>` : ""}<a class="st-btn" href="#comprendre-r-${k}">Comprendre le thème en détail</a></div><button type="button" class="st-again" data-st-again>Revoir le résumé</button><span class="st-src">Tous les chiffres de ce résumé viennent des fiches « Comprendre » et des propositions de l'appli.</span>`);
+  return { title: RN[k], sub: `Résumé en ${screens.length} écrans`, icon: svg("r_" + k), screens };
 }
 /* Semaine : les écrans rédigés de la mise à jour, puis les propositions ajoutées et l'agenda, calculés à partir des données */
 function weekWindow() {
@@ -1268,7 +1299,7 @@ function storySemaine() {
   });
   if (added.length) screens.push(`<span class="st-k in">Ajoutées cette semaine</span><div class="st-row in"${D(150)}>${stNum(String(added.length), 150, "st-hero", false)}<span class="st-u">proposition${added.length > 1 ? "s" : ""}, dans ${plural(byTh.length, DATA.rubriques ? "thème" : "sujet")}</span></div><div class="st-chips">${byTh.map(([l, n], j) => `<span class="st-chip pop"${D(800 + j * 110)}>${esc(l)} · ${n}</span>`).join("")}</div><p class="st-p in"${D(900 + byTh.length * 110)}>Chacune avec l'article ou le document qui l'annonce, dans l'onglet Propositions.</p>`);
   const t0 = todayIso(), next = DATA.agenda.filter(([d]) => (d.length === 7 ? d + "-31" : d) >= t0).slice(0, 4);
-  screens.push(`<span class="st-k in">À venir</span>${stTimeline(next.map(([d, t]) => ({ d: fmtAg(d), txt: t })), 400)}<div class="st-foot in"${D(600 + next.length * 800)}><a class="st-btn main" href="#actu">Lire toute l'actu</a><button type="button" class="st-again" data-st-again>Revoir la story</button></div>`);
+  screens.push(`<span class="st-k in">À venir</span>${stTimeline(next.map(([d, t]) => ({ d: fmtAg(d), txt: t })), 400)}<div class="st-foot in"${D(600 + next.length * 800)}><a class="st-btn main" href="#actu">Lire toute l'actu</a><button type="button" class="st-again" data-st-again>Revoir le résumé</button></div>`);
   return { title: "Cette semaine", sub: `Mise à jour du ${fmtDM.format(dt(W.d))}`, icon: SEM_ICO, screens };
 }
 
@@ -1279,9 +1310,9 @@ function openStory(key) {
   if (!S || !S.screens.length) return;
   if (story) closeStory(true);
   const el = document.createElement("div");
-  el.className = "story"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Story : " + S.title);
+  el.className = "story"; el.setAttribute("role", "dialog"); el.setAttribute("aria-modal", "true"); el.setAttribute("aria-label", "Résumé : " + S.title);
   el.innerHTML = `<div class="st-in"><div class="st-bg" aria-hidden="true">${S.icon}</div><div class="st-prog" aria-hidden="true">${S.screens.map(() => "<i><b></b></i>").join("")}</div>
-  <div class="st-head"><span class="st-ic" aria-hidden="true">${S.icon}</span><span class="st-tt"><b>${esc(S.title)}</b><span><span class="st-pos"></span> · ${esc(S.sub)}</span></span><button type="button" class="st-pp" aria-label="Mettre en pause">${PAUSE_ICO}</button><button type="button" class="st-x" aria-label="Fermer la story">${X_ICO}</button></div>
+  <div class="st-head"><span class="st-ic" aria-hidden="true">${S.icon}</span><span class="st-tt"><b>${esc(S.title)}</b><span><span class="st-pos"></span> · ${esc(S.sub)}</span></span><button type="button" class="st-pp" aria-label="Mettre en pause">${PAUSE_ICO}</button><button type="button" class="st-x" aria-label="Fermer le résumé">${X_ICO}</button></div>
   <div class="st-body"></div>
   <button type="button" class="st-zone p" aria-label="Écran précédent"></button><button type="button" class="st-zone n" aria-label="Écran suivant"></button></div>`;
   document.body.appendChild(el); document.body.classList.add("locked");
@@ -1311,7 +1342,7 @@ function stPlay(on) {
   story.playing = on;
   story.el.classList.toggle("paused", !on);
   const b = story.el.querySelector(".st-pp");
-  b.innerHTML = on ? PAUSE_ICO : PLAY_ICO; b.setAttribute("aria-label", on ? "Mettre en pause" : "Lire la story");
+  b.innerHTML = on ? PAUSE_ICO : PLAY_ICO; b.setAttribute("aria-label", on ? "Mettre en pause" : "Lire le résumé");
   stCount();
 }
 /* Si un écran est trop long pour le téléphone, on le réduit pour qu'il tienne en entier, sans rien couper */
@@ -1478,9 +1509,9 @@ function screenVideos() {
   const w = weekWindow(), RB = DATA.rubriques, themes = RB ? RB.filter(([k]) => rubSujetsAll(k).length) : DATA.themes.filter(([k]) => DATA.sujets && DATA.sujets[k]);
   const sem = w ? storySemaine() : null;
   const since = w ? fmtDL.format(new Date(dt(w.from).getTime() + 86400000)) : "";
-  return `<div class="page-h"><h1>En bref</h1><p class="lead">${DATA.rubriques ? "Chaque thème en quelques écrans" : "Chaque sujet en quelques écrans"}, environ 35 secondes, et le fil des propositions. Tout vient des fiches vérifiées de l'appli, avec leurs sources.</p></div>
+  return `<div class="page-h"><h1>En bref</h1><p class="lead">Le résumé de chaque thème en quelques écrans, environ 35 secondes, et le fil des propositions. Tout vient des fiches vérifiées de l'appli, avec leurs sources.</p></div>
   ${sem ? `<button type="button" class="wk" data-story="semaine"><span class="ring"><span>${SEM_ICO}</span></span><span class="tx"><span class="k">Cette semaine · ${esc(fmtDM.format(dt(w.W.d)))}</span><b>${esc(w.W.titre.map(l => l.replace("{n}", w.added.length)).join(" "))}</b><span class="m">${sem.screens.length} écrans · environ ${sem.screens.length * STORY_DUR / 1000} secondes</span></span></button>` : ""}
-  <div class="sec-h col"><h2>${RB ? "Un thème en quelques écrans" : "Un sujet en 5 écrans"}</h2>${w ? `<p class="small">Le nombre sur un cercle : les propositions ajoutées depuis le ${esc(since)}.</p>` : ""}</div>
+  <div class="sec-h col"><h2>Résumés par thème</h2>${w ? `<p class="small">Le nombre sur un cercle : les propositions ajoutées depuis le ${esc(since)}.</p>` : ""}</div>
   <div class="circles">${themes.map(([k, l]) => { const n = w ? w.added.filter(p => (RB ? rubOf(p) : p.th) === k).length : 0; return `<button type="button" class="sc" data-story="${RB ? "rb" : "th"}:${k}" aria-label="Story : ${esc(l)}${n ? `, ${plural(n, "proposition")} ajoutée${n > 1 ? "s" : ""}` : ""}"><span class="ring${n ? " new" : ""}"><span>${svg(RB ? "r_" + k : k)}</span>${n ? `<span class="nb" aria-hidden="true">+${n}</span>` : ""}</span><span class="lb">${esc(l)}</span></button>`; }).join("")}</div>
   <section class="card"><h2>Le fil des propositions</h2><p class="small">Toutes les propositions des candidats, une par écran. L'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p><a class="more-btn as-link" href="#fil">Lancer le fil${ARW}</a></section>`;
 }
@@ -1528,9 +1559,21 @@ function screenComparer() {
   const A = ui.cmpA, B = ui.cmpB;
   const RB = DATA.rubriques, NAMES = RB ? Object.fromEntries(RB) : THEME_NAME, LIST = RB || DATA.themes, ic = k => RB ? "r_" + k : k;
   const themes = ui.cmpTh === "tous" || !NAMES[ui.cmpTh] ? LIST : LIST.filter(([k]) => k === ui.cmpTh);
-  const col = (id, k) => { const ps = DATA.propositions.filter(p => p.c === id && (RB ? rubOf(p) : p.th) === k); return `<div class="cmp-col">${ps.length ? ps.map(p => `<div class="ci"><b>${esc(p.t)}</b>${finBadge(p)}${tbc(p)}${p.a ? amount(p.a) : ""}${ext(SRC[p.s[0]].u, "Source : " + esc(SRC[p.s[0]].p))}<button class="more-lnk" type="button" data-more="${p.id}">Aller plus loin</button></div>`).join("") : `<span class="none">Rien de public pour l'instant</span>`}</div>`; };
+  /* Une ligne par question clé : la réponse de chacun en face, ou « Pas de position trouvée ». Le reste, replié, en dessous. */
+  const item = p => `<div class="ci"><b>${esc(p.t)}</b>${p.d ? `<span class="cd">${esc(p.d)}</span>` : ""}${finCard(p) || tbc(p) ? `<span class="badges">${finCard(p)}${tbc(p)}</span>` : ""}${p.a ? amount(p.a) : ""}<span class="cf">${ext(SRC[p.s[0]].u, "Source : " + esc(SRC[p.s[0]].p))}<button class="more-lnk" type="button" data-more="${p.id}">Aller plus loin</button></span></div>`;
+  const colOf = ps => `<div class="cmp-col">${ps.length ? ps.map(item).join("") : `<span class="none">Pas de position trouvée</span>`}</div>`;
+  const block = k => {
+    const of = id => DATA.propositions.filter(p => p.c === id && (RB ? rubOf(p) : p.th) === k);
+    const pa = of(A), pb = of(B);
+    if (!pa.length && !pb.length) return `<div class="cmp-grid"><div class="cmp-col"><span class="none">Rien de public pour l'instant</span></div><div class="cmp-col"><span class="none">Rien de public pour l'instant</span></div></div>`;
+    const qs = ((DATA.questions || {})[k] || []).filter(([q]) => pa.some(p => hasQ(p, q)) || pb.some(p => hasQ(p, q)));
+    const rows = qs.map(([q, l]) => `<div class="q-row"><h3 class="q-t">${esc(l)}</h3><div class="cmp-grid">${colOf(pa.filter(p => hasQ(p, q)))}${colOf(pb.filter(p => hasQ(p, q)))}</div></div>`).join("");
+    const ra = pa.filter(p => !p.q), rb = pb.filter(p => !p.q), n = ra.length + rb.length;
+    const rest = n ? `<details class="q-rest"${qs.length ? "" : " open"}><summary>Autres mesures, sans équivalent chez l'autre <span class="n">${n}</span></summary><div class="cmp-grid">${ra.length ? colOf(ra) : `<div class="cmp-col"><span class="none">Aucune autre mesure</span></div>`}${rb.length ? colOf(rb) : `<div class="cmp-col"><span class="none">Aucune autre mesure</span></div>`}</div></details>` : "";
+    return rows + rest;
+  };
   return `
-  <div class="page-h"><h1>Les propositions</h1><p class="lead">Deux candidats côte à côte, ${DATA.rubriques ? "thème par thème" : "sujet par sujet"}.</p></div>
+  <div class="page-h"><h1>Les propositions</h1><p class="lead">Deux candidats côte à côte, question par question : sur chaque ligne, ce que chacun propose sur le même sujet. Les mesures sans équivalent sont regroupées en dessous.</p></div>
   ${seg}
   <section class="card">
     <div class="pick">
@@ -1541,7 +1584,7 @@ function screenComparer() {
   </section>
   ${chipsFor([["tous", RB ? "Tous les thèmes" : "Tous les sujets"]].concat(LIST))}
   <div class="cmp-head"><div>${mono(A, "s")}<span>${esc(nom(A))}</span></div><div>${mono(B, "s")}<span>${esc(nom(B))}</span></div></div>
-  ${themes.map(([k, l]) => `<section class="card"><h2 class="th-h">${svg(ic(k))}${esc(l)}</h2><div class="cmp-grid">${col(A, k)}${col(B, k)}</div></section>`).join("")}`;
+  ${themes.map(([k, l]) => `<section class="card cmp-card"><h2 class="th-h">${svg(ic(k))}${esc(l)}</h2>${block(k)}</section>`).join("")}`;
 }
 /* La carte qui ouvre « Le budget en une image » (sujet Budget de l'État) */
 function budgetCard() {
@@ -1591,16 +1634,25 @@ function screenRub(k, th) {
   const R = DATA.reperes, axs = (f === "tous" ? subs.map(([t]) => t) : [f]).map(t => R.axes[t]).filter(Boolean);
   const showBudget = subs.some(([t]) => t === "budget") && (f === "tous" || f === "budget");
   const comp = subs.filter(([t]) => DATA.sujets && DATA.sujets[t]);
+  const qsHere = ((DATA.questions || {})[k] || []).filter(([q]) => ps.some(p => hasQ(p, q))), view = qsHere.length ? ui.rubView : "c";
   return `
   <div class="page-h"><span class="kick">${svg("r_" + k)} Propositions</span><h1>${esc(RN[k])}</h1><p class="lead">Ce que propose chaque candidat sur ce thème.</p></div>
   ${subs.length > 1 ? `<div class="chips" role="group" aria-label="Sujet">${[["tous", "Tout le thème"]].concat(subs).map(([t, l]) => `<button class="chip" type="button" data-rth="${t}" aria-pressed="${f === t}">${esc(l)}</button>`).join("")}</div>` : ""}
   <p class="small" style="padding-inline:4px">${who.length ? `${who.length} candidat${who.length > 1 ? "s ont" : " a"} fait au moins une proposition ${f === "tous" ? "dans ce thème" : "sur ce sujet"}.` : "Aucune proposition relevée pour l'instant."}</p>
   ${axs.map(ax => `<section class="card"><h2>${esc(ax.titre)}</h2>${axis(ax)}<p class="small">${esc(ax.note)}</p></section>`).join("")}
   ${showBudget ? `<section class="card"><h2>Les comptes publics aujourd'hui</h2><div class="figs"><div><b>${nf0.format(R.dette.v)} Md€</b><span>de dette publique ${esc(R.dette.quand)}, ${esc(R.dette.pct)}</span></div><div><b>${nf1.format(R.deficit.v)} Md€</b><span>de déficit ${esc(R.deficit.quand)}, ${esc(R.deficit.pct)}</span></div></div><p class="small">Source : ${ext(SRC[R.dette.s].u, "Insee")}. Le déficit, c'est ce que l'État et les administrations dépensent en plus de ce qu'ils encaissent sur une année.</p>${DATA.budget ? `<a class="more-btn as-link" href="#budget">Le budget en une image${ARW}</a>` : ""}</section>` : ""}
-  ${who.map(c => `<section class="card"><a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a><div class="props">${ps.filter(p => p.c === c.id).map(propItem).join("")}</div></section>`).join("")}
+  ${who.length && qsHere.length ? `<div class="seg" role="group" aria-label="Affichage"><button type="button" data-rview="q" aria-pressed="${view === "q"}">Par question</button><button type="button" data-rview="c" aria-pressed="${view === "c"}">Par candidat</button></div>` : ""}
+  ${view === "q" ? rubByQuestion(qsHere, ps) : who.map(c => `<section class="card"><a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a><div class="props">${ps.filter(p => p.c === c.id).map(propItem).join("")}</div></section>`).join("")}
   ${silent.length && who.length ? `<p class="silent" style="padding-inline:4px">Aucune proposition relevée pour l'instant : ${silent.map(c => esc(c.nom)).join(", ")}.</p>` : ""}
   <button class="more-btn" type="button" data-mode="deux" data-keepth="1">Comparer deux candidats sur ce thème</button>
   ${comp.length ? `<section class="card"><h2>Comprendre le sujet</h2><p class="small">La situation aujourd'hui, avec des chiffres officiels.</p><div class="rows">${comp.map(([t, l]) => `<a class="row" href="#comprendre-${t}"><span class="ic-s">${svg(t)}</span><span class="txt"><b>${esc(l)}</b></span>${CHEV}</a>`).join("")}</div></section>` : ""}`;
+}
+/* Vue « Par question » d'un thème : pour chaque question clé, la réponse de chaque candidat qui en a une ; les autres mesures ensuite */
+function rubByQuestion(qs, ps) {
+  const byCand = list => candSorted().filter(c => list.some(p => p.c === c.id)).map(c => `<div class="q-cand"><a class="cand-h" href="#c-${c.id}">${mono(c.id, "s")}<span class="nm"><b>${esc(c.nom)}</b><small>${esc(c.parti)}</small></span></a><div class="props">${list.filter(p => p.c === c.id).map(propItem).join("")}</div></div>`).join("");
+  const rest = ps.filter(p => !p.q);
+  return qs.map(([q, l]) => { const list = ps.filter(p => hasQ(p, q)), n = new Set(list.map(p => p.c)).size; return `<section class="card q-card"><h2>${esc(l)}</h2><p class="small">${n} candidat${n > 1 ? "s ont" : " a"} une position sur cette question.</p>${byCand(list)}</section>`; }).join("")
+    + (rest.length ? `<section class="card q-card"><h2>Autres mesures</h2><p class="small">Les propositions qui ne répondent à aucune des questions ci-dessus.</p>${byCand(rest)}</section>` : "");
 }
 /* Page d'un sujet (onglet Propositions) : les candidats et leurs propositions */
 function screenTheme(k) {
@@ -1630,6 +1682,12 @@ function themeAll(k) {
 }
 
 /* Sondages : en dernier, et la façon de les lire avant les chiffres */
+/* Les autres hypothèses d'un même sondage, repliées, dans l'ordre de l'institut */
+function hypsHtml(s) {
+  const hs = s.hyps || [];
+  if (!hs.length) return "";
+  return `<details class="prev hyps"><summary><span>Les ${hs.length} autres hypothèses de ce sondage</span></summary>${hs.map(h => `<p class="small hyp-t">${esc(h.hyp)}</p>${pollBars({ ...h, n: s.n })}`).join("")}</details>`;
+}
 function screenSondages() {
   const [last, ...prev] = DATA.sondages;
   const D = DATA.duels;
@@ -1640,7 +1698,7 @@ function screenSondages() {
     <h2>Avant de regarder les chiffres</h2>
     <ul class="howto">
       <li><span class="n">1</span><span><b>Il y a une marge d'erreur.</b> Avec environ 2 000 personnes interrogées, un score peut varier d'environ 2 points. Un écart d'un point entre deux candidats ne veut rien dire.</span></li>
-      <li><span class="n">2</span><span><b>Les candidats testés changent.</b> Avant le 11 octobre, on ne savait pas qui gagnerait la primaire sociale-démocrate, et les Écologistes trancheront en décembre : chaque institut teste ses propres hypothèses.</span></li>
+      <li><span class="n">2</span><span><b>Les candidats testés changent.</b> Chaque institut choisit ses hypothèses, par exemple avec ou sans Gabriel Attal, Édouard Philippe ou David Lisnard. Le centre et la droite débattent d'une primaire, et les Écologistes votent en décembre sur leur candidature : la liste peut encore bouger.</span></li>
       <li><span class="n">3</span><span><b>Beaucoup de gens n'ont pas encore choisi.</b> À plusieurs mois du vote, les intentions bougent souvent.</span></li>
       <li><span class="n">4</span><span><b>Tout doit être indiqué.</b> La loi impose de publier le nom de l'institut, le commanditaire, les dates et le nombre de personnes interrogées.</span></li>
     </ul>
@@ -1649,7 +1707,8 @@ function screenSondages() {
     <h2>Premier tour</h2>
     <p class="small">${esc(last.inst)} pour ${esc(last.pour)} · ${esc(last.terrain)} · ${nf0.format(last.n)} personnes inscrites sur les listes électorales</p>
     ${pollBars(last, { moe: true })}
-    <p class="small">Hypothèse testée : ${esc(last.hyp.replace(/^Hypothèse 1 : /, ""))}. Les traits rouges montrent la marge d'erreur. ${ext(SRC[last.s[0]].u, "Voir l'enquête")}</p>
+    <p class="small">${esc(last.hyp)}. Les traits rouges montrent la marge d'erreur. ${ext(SRC[last.s[0]].u, "Voir l'enquête")}</p>
+    ${hypsHtml(last)}
   </section>
   <section class="card">
     <h2>Second tour</h2>
@@ -1659,7 +1718,7 @@ function screenSondages() {
   </section>
   <section class="card">
     <h2>Sondages précédents</h2>
-    ${prev.map(s => `<details class="prev"><summary><span>${esc(s.inst)} · ${esc(s.terrain)}</span></summary>${pollBars(s)}<p class="small" style="margin-top:10px">${esc(s.hyp)}. ${nf0.format(s.n)} personnes interrogées. Scores relevés sur ${ext(SRC[s.s[0]].u, esc(SRC[s.s[0]].p))}.</p></details>`).join("")}
+    ${prev.map(s => `<details class="prev"><summary><span>${esc(s.inst)} · ${esc(s.terrain)}</span></summary>${pollBars(s)}<p class="small" style="margin-top:10px">${esc(s.hyp)}. ${nf0.format(s.n)} personnes interrogées. Scores relevés sur ${ext(SRC[s.s[0]].u, esc(SRC[s.s[0]].p))}.</p>${hypsHtml(s)}</details>`).join("")}
   </section>
   ${news.length ? `<section class="card"><h2>Les sondages dans la presse</h2><div class="rows news">${news.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}`;
 }
@@ -1670,21 +1729,22 @@ function screenMethode() {
   return `
   <div class="page-h"><h1>Comment l'appli est faite</h1></div>
   <section class="card prose">
-    <p><b>Les candidats.</b> Toutes les personnes qui ont annoncé publiquement leur candidature, avec le même traitement pour chacune. À partir de mars 2027, l'appli suivra la liste officielle publiée par le Conseil constitutionnel.</p>
+    <p><b>Les candidats.</b> Toutes les personnes qui ont annoncé publiquement leur candidature, avec le même traitement pour chacune. Celles qui renoncent, ou qui perdent une primaire, sont retirées de la liste. À partir de mars 2027, l'appli suivra la liste officielle publiée par le Conseil constitutionnel.</p>
     <p><b>Les propositions.</b> Uniquement des propositions rendues publiques pour 2027. Chacune est résumée en une phrase, avec un lien vers le document ou l'article d'origine. Le texte complet reste chez le candidat ou le média cité. Quand la seule source trouvée est un comparateur, la proposition porte la mention « À confirmer » : elle doit encore être confirmée par un document du candidat ou un média.</p>
+    <p><b>Comparer.</b> Dans chaque thème, les propositions sont rangées sous des questions clés communes, formulées de la même façon pour tous (par exemple « À quel âge partir à la retraite ? »). Une proposition n'est rangée sous une question que si elle y répond directement ; les autres restent visibles à part. « Pas de position trouvée » veut dire que nous n'avons trouvé aucune proposition publique du candidat sur cette question, pas qu'il n'en a pas.</p>
     <p><b>Aller plus loin.</b> Chaque proposition a sa fiche : le détail, le coût et le financement, et toutes les sources.${DATA.propositions.some(p => p.plus && p.plus.detail) ? " Quand elle est complète, la fiche donne aussi l'objectif affiché, les arguments du candidat cités tels quels, la situation actuelle avec un chiffre officiel daté, et les chiffrages du candidat comme ceux d'autres organismes." : ""}</p>
     <p><b>Les photos.</b> Uniquement des photos libres de droits publiées sur Wikimedia Commons, recadrées de la même façon pour tous, avec le nom de l'auteur, l'année et la licence. Quand aucune photo libre n'existe, les initiales s'affichent à la place.</p>
     ${DATA.candidats.some(c => c.parcours) ? `<p><b>Les parcours.</b> Pour chaque candidat, le même format : un résumé, puis ses origines, son parcours et ce qu'il fait aujourd'hui. Aucune étiquette politique ni appréciation. Chaque phrase porte un numéro qui renvoie à sa source, en priorité officielle (Assemblée nationale, Sénat, Parlement européen, site du Gouvernement). La phrase sur les sujets de ses propositions est calculée automatiquement, avec la même règle pour tous.</p>` : ""}
     ${DATA.sujets ? `<p><b>Comprendre le sujet.</b> Pour chaque thème, le même plan : la situation en 30 secondes, les chiffres clés, ce qui a changé récemment, qui décide, ce qui concerne les 18-30 ans, et les grandes questions telles que les posent les rapports officiels. Uniquement des sources officielles, sans avis.</p>` : ""}
     ${DATA.kit ? `<p><b>La boîte à outils et le budget.</b> Les fiches « Avant de voter » et la page « Le budget en une image » (dans le sujet Budget de l'État) s'appuient uniquement sur des sources officielles : service-public.fr, Conseil constitutionnel, ministère de l'Intérieur, Insee.</p>` : ""}
     <p><b>« Une question ? »</b> Le petit bouton en bas à droite cherche uniquement dans les contenus de l'appli : propositions, fiches « Comprendre le sujet », fiches « Avant de voter » et dates clés. Ce n'est pas une IA : il ne rédige rien, il montre les fiches qui correspondent, avec leurs sources. La recherche se fait sur votre téléphone : vos questions ne sont ni envoyées ni gardées.</p>
-    <p><b>En bref.</b> Les stories ne contiennent rien de nouveau : elles reprennent les fiches « Comprendre le sujet » et les propositions déjà publiées dans l'appli, avec leurs sources. Il n'y a pas de story par candidat, pour garder la même place à chacun. Quand une story montre quelques propositions en exemple, elles sont tirées au hasard. Dans le fil des propositions, l'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
+    <p><b>En bref.</b> Les résumés par thème ne contiennent rien de nouveau : ils reprennent les fiches « Comprendre le sujet » et les propositions déjà publiées dans l'appli, avec leurs sources. Il n'y a pas de résumé par candidat, pour garder la même place à chacun. Quand un résumé montre quelques propositions en exemple, elles sont tirées au hasard. Dans le fil des propositions, l'ordre est tiré au hasard, et chaque candidat passe une fois avant que l'on recommence.</p>
     <p><b>Neutralité.</b> Même présentation pour tous, aucune couleur de parti, aucune note. Les sondages sont regroupés dans le dernier onglet, après une explication sur la façon de les lire.</p>
     <p><b>Vos données.</b> L'appli ne demande aucun compte et ne collecte rien sur vous. Seul votre choix entre mode clair et mode sombre (bouton en haut à droite) est gardé, sur votre téléphone uniquement.</p>
   </section>
   <section class="card">
     <h2>Combien ça coûte, qui paie</h2>
-    <p class="lead">Chaque proposition porte un statut, attribué selon la même règle pour tous. L'appli ne calcule jamais de coût elle-même : les montants sont ceux annoncés par les candidats ou rapportés par la source citée.</p>
+    <p class="lead">Chaque proposition porte un statut, attribué selon la même règle pour tous. L'appli ne calcule jamais de coût elle-même : les montants sont ceux annoncés par les candidats ou rapportés par la source citée. Pour alléger les listes, le statut « Aucun chiffrage trouvé » n'apparaît que dans la fiche « Aller plus loin » de la proposition.</p>
     <div class="fin-key">
       <div><span class="fin fin-f">Chiffrée et financée</span><span>${esc(FIN_HELP.f)} (${cnt("f")})</span></div>
       <div><span class="fin fin-c">Chiffrée, financement non trouvé</span><span>${esc(FIN_HELP.c)} (${cnt("c")})</span></div>
@@ -1783,6 +1843,13 @@ function screenSources() {
 function moreHtml(p) {
   const c = CAND[p.c], x = p.plus || {}, rich = !!x.detail;
   const others = new Set(DATA.propositions.filter(q => q.th === p.th && q.c !== p.c).map(q => q.c)).size;
+  /* Si le résumé redit ce que la fiche cite déjà avec sa source, on ne garde que la citation */
+  const tk = t => new Set(t.toLowerCase().replace(/[^a-z0-9àâçéèêëîïôûùüÿœ]+/g, " ").split(" ").filter(w => w.length > 2));
+  const dupD = !!p.d && (x.detail || []).some(it => { const a = tk(p.d), b = tk(it[0]); let n = 0; a.forEach(w => { if (b.has(w)) n++; }); return a.size > 0 && n / a.size >= 0.75; });
+  /* Les réponses des autres candidats à la même question clé, pour comparer directement */
+  const QL = Object.fromEntries(Object.values(DATA.questions || {}).flat());
+  const sameQ = [].concat(p.q || []).map(q => [q, DATA.propositions.filter(o => o.c !== p.c && hasQ(o, q)).sort((a, b) => CAND[a.c].tri.localeCompare(CAND[b.c].tri, "fr"))]).filter(([, l]) => l.length)
+    .map(([q, l]) => `<section class="blk"><h3>Les autres réponses à cette question</h3><p class="lede">${esc(QL[q])}</p><div class="sq">${l.map(o => `<button type="button" class="sq-i" data-more="${o.id}">${mono(o.c, "s")}<span class="tx"><b>${esc(nom(o.c))}</b><span>${esc(o.t)}</span></span></button>`).join("")}</div></section>`).join("");
   /* espaces insécables de la typographie française : jamais de « ou de : seul en début de ligne */
   const nb = t => esc(t).replace(/« /g, "« ").replace(/ »/g, " »").replace(/ ([:;?!])/g, " $1");
   const srcOf = ids => { const l = ids.filter(id => id && SRC[id]); return l.length ? `<p class="s">Source${l.length > 1 ? "s" : ""} : ${l.map(id => ext(SRC[id].u, esc(SRC[id].p)) + (SRC[id].d ? ", " + esc(fmtDate(SRC[id].d)) : "")).join(" ; ")}</p>` : ""; };
@@ -1805,12 +1872,13 @@ function moreHtml(p) {
       <span class="th">${svg(p.th)}${esc(THEME_NAME[p.th] || "")}</span>
       <button class="x" type="button" data-close aria-label="Fermer"><svg viewBox="0 0 24 24" aria-hidden="true" style="width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2.2;stroke-linecap:round"><path d="M6 6l12 12M18 6L6 18"/></svg></button>
     </div>
-    ${blk("La proposition", [[p.d]])}
+    ${p.d && !dupD ? blk("La proposition", [[p.d]]) : ""}
     ${rich ? blk("En détail", x.detail) : ""}
     ${blk("L'objectif affiché", x.objectif)}
-    ${rich ? blk("Ses arguments", x.pourquoi || [["Nous n'avons pas encore trouvé ses arguments sur cette mesure."]], `Ce que disent ${esc(c.nom)} ou son parti pour défendre la mesure, cité tel quel. L'appli ne juge pas ces arguments.`) : ""}
+    ${rich && x.pourquoi && x.pourquoi.length ? blk("Ses arguments", x.pourquoi, `Ce que disent ${esc(c.nom)} ou son parti pour défendre la mesure, cité tel quel. L'appli ne juge pas ces arguments.`) : ""}
     ${blk("Aujourd'hui", x.auj)}
     <section class="blk"><h3>Coût et financement</h3><div class="badges">${finBadge(p)}</div><p class="lede">${esc(finHelp(p))}</p>${amount(p.a)}${finText(p)}${finBlocks}${p.a && p.a.per === "an" ? `<p class="lede">Pour comparer : l'ensemble des dépenses publiques (État, Sécurité sociale, collectivités locales) s'élevait à ${nf0.format(DATA.reperes.depenses.v)} milliards d'euros ${esc(DATA.reperes.depenses.quand)}. Source : ${ext(SRC[DATA.reperes.depenses.s].u, "Insee")}.</p>` : ""}</section>
+    ${sameQ}
     ${others ? `<a class="more-btn as-link" href="#t-${p.th}">${others > 1 ? `Ce que proposent les ${others} autres candidats sur ce sujet` : "Ce que propose l'autre candidat sur ce sujet"}${ARW}</a>` : ""}
     <section class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${srcs.map(srcRow).join("")}</div>
       ${x.maj ? `<p class="lede">Fiche vérifiée le ${esc(fmtDate(x.maj))}.${x.note ? " " + nb(x.note[0]) : ""}</p>` : ""}
@@ -1913,6 +1981,7 @@ app.addEventListener("click", e => {
   else if (t.dataset.mode) { ui.cmpMode = t.dataset.mode; if (!t.dataset.keepth && ui.cmpMode === "deux") ui.cmpTh = "tous"; if (location.hash !== "#comparer") location.hash = "#comparer"; else rerender(); }
   else if (t.dataset.th) { ui.cmpTh = t.dataset.th; rerender(); }
   else if (t.dataset.rth) { ui.rubTh = t.dataset.rth; rerender(); }
+  else if (t.dataset.rview) { ui.rubView = t.dataset.rview; rerender(); }
   else if (t.dataset.jump) { const el = document.getElementById(t.dataset.jump); if (el) el.scrollIntoView({ behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth", block: "start" }); }
   else if (t.dataset.srcg) { ui.srcG = t.dataset.srcg; rerender(); }
   else if (t.dataset.feedth) { ui.feedTh = t.dataset.feedth; ui.feed = buildFeed(); route(); const f = $("#feed"); if (f) f.scrollTo(0, 0); const c = document.querySelector(`[data-feedth="${ui.feedTh}"]`); if (c) c.scrollIntoView({ inline: "center", block: "nearest" }); }

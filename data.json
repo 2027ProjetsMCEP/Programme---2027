@@ -1,6 +1,6 @@
 {
- "maj": "2026-10-15",
- "version": 13,
+ "maj": "2026-11-05",
+ "version": 14,
  "base": "2026-10-01",
  "themes": [
   [
@@ -203,6 +203,10 @@
     [
      "Il a tenu son premier grand meeting de campagne le 30 mai 2026, porte de Versailles, à Paris.",
      "ps_meeting_attal"
+    ],
+    [
+     "Il propose une primaire du centre et de la droite d'ici le début de 2027 : « À la fin, je crois que cette primaire aura lieu. C'est inéluctable » (TF1, 2 novembre 2026).",
+     "lcp_attal_primaire"
     ]
    ],
    "docs": [
@@ -294,8 +298,7 @@
     ],
     "phares": {
      "finances": [
-      "p244",
-      "p013"
+      "p244"
      ],
      "interieur": [
       "p006",
@@ -319,7 +322,8 @@
       "p194"
      ],
      "etat": [
-      "p246"
+      "p246",
+      "p013"
      ],
      "education": [
       "p011",
@@ -495,6 +499,10 @@
     [
      "Désigné candidat de la gauche sociale-démocrate à la présidentielle le 11 octobre 2026, après avoir remporté dès le premier tour la primaire « Choisir 2027 », avec 66,13 % des voix.",
      "lcp_primaire_resultats"
+    ],
+    [
+     "Olivier Faure, arrivé deuxième, a dit souhaiter « sa victoire à la présidence de la République » et promis les moyens du PS pour sa campagne.",
+     "yahoo_faure_glucksmann"
     ]
    ],
    "docs": [],
@@ -637,6 +645,10 @@
     [
      "Candidature annoncée le 7 juillet 2026, le jour de sa condamnation en appel dans l'affaire des assistants parlementaires européens du FN ; elle s'est pourvue en cassation.",
      "touteleurope"
+    ],
+    [
+     "Le 16 décembre 2026, la Cour de cassation examinera les questions prioritaires de constitutionnalité posées par sa défense, avant de juger le pourvoi.",
+     "express_lepen_cassation"
     ]
    ],
    "docs": [
@@ -959,7 +971,12 @@
    "parti": "Horizons",
    "statut": "partiel",
    "statutTxt": "Méthode et mesures annoncées progressivement",
-   "faits": [],
+   "faits": [
+    [
+     "Il refuse la primaire proposée par Gabriel Attal : « Cette primaire, c'est une primaire de la division et une primaire de la confusion » (TF1, 1er novembre 2026).",
+     "lcp_attal_primaire"
+    ]
+   ],
    "docs": [],
    "photo": {
     "a": "Jérémy Barande / École polytechnique",
@@ -1044,8 +1061,7 @@
      ],
      "finances": [
       "p324",
-      "p043",
-      "p325"
+      "p043"
      ],
      "interieur": [
       "p144"
@@ -1068,6 +1084,9 @@
      "numerique": [
       "p196",
       "p197"
+     ],
+     "etat": [
+      "p325"
      ]
     },
     "fin": {
@@ -1100,6 +1119,10 @@
     [
      "Désigné candidat des Républicains le 19 avril 2026 par une consultation des adhérents : 73,8 % ont choisi de le désigner directement, sans primaire (participation : 60 %).",
      "lcp_retailleau_designation"
+    ],
+    [
+     "Le 3 novembre 2026, il a estimé qu'« il faudra une primaire sans doute en début d'année » au centre et à droite : « Ou bien on est départagés par un vote démocratique, ou bien moi j'irai jusqu'au bout ».",
+     "afp_primaire_retailleau"
     ]
    ],
    "docs": [],
@@ -1342,8 +1365,7 @@
      ],
      "social": [
       "p058",
-      "p059",
-      "p060"
+      "p059"
      ],
      "defense": [
       "p062"
@@ -1351,6 +1373,9 @@
      "education": [
       "p149",
       "p150"
+     ],
+     "interieur": [
+      "p060"
      ]
     },
     "fin": {
@@ -1502,6 +1527,10 @@
      "lcp_ecolos_0921"
     ],
     [
+     "Le 26 octobre 2026, elle a évoqué un possible retrait : « Nous allons discuter avec les partenaires et il est assez vraisemblable qu'il y a un chemin évident qui se pose. »",
+     "orange_tondelier_retrait"
+    ],
+    [
      "Le projet des Écologistes a été élaboré avec près de 50 000 contributions citoyennes selon le parti.",
      "eco_projet"
     ]
@@ -1593,9 +1622,7 @@
       "p337"
      ],
      "europe": [
-      "p338"
-     ],
-     "defense": [
+      "p338",
       "p339"
      ],
      "numerique": [
@@ -2462,7 +2489,8 @@
       "p123"
      ],
      "europe": [
-      "p124"
+      "p124",
+      "p276"
      ],
      "etat": [
       "p125"
@@ -2483,9 +2511,6 @@
      "gouvernance": [
       "p275"
      ],
-     "defense": [
-      "p276"
-     ],
      "numerique": [
       "p277"
      ]
@@ -2495,117 +2520,6 @@
       [
        "Nous n'avons pas trouvé de chiffrage de son programme.",
        null
-      ]
-     ],
-     "ind": [
-      [
-       "Nous n'avons pas trouvé de chiffrage extérieur de ses propositions.",
-       null
-      ]
-     ]
-    }
-   }
-  },
-  {
-   "id": "brun",
-   "nom": "Philippe Brun",
-   "tri": "Brun",
-   "parti": "Parti socialiste (suspendu)",
-   "statut": "partiel",
-   "statutTxt": "Livret économique « Produire » publié, avec un chiffrage",
-   "faits": [
-    [
-     "Suspendu par le PS le 16 septembre 2026 « en raison d'accusations de violence », il a été écarté de la primaire. Il dit ignorer ce qui lui est reproché.",
-     "bio_brun_lcp"
-    ],
-    [
-     "La justice a rejeté sa demande de réintégration ; il dénonce un « coup monté » et a annoncé faire appel.",
-     "lcp_brun_appel"
-    ]
-   ],
-   "docs": [
-    "brun_produire"
-   ],
-   "photo": {
-    "a": "Pierre2777",
-    "y": "2022",
-    "l": "CC BY-SA 4.0",
-    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
-    "u": "https://commons.wikimedia.org/wiki/File:LOUVIERS_-_4e_circo_Eure_-_Philippe_Brun_nouveau_d%C3%A9put%C3%A9_22_juin_2022_(1)_(cropped).jpg"
-   },
-   "parcours": {
-    "chapo": [
-     "Magistrat administratif de profession, Philippe Brun est député de l'Eure et siège parmi les non-inscrits à l'Assemblée nationale. Il a été suspendu du Parti socialiste en septembre 2026.",
-     [
-      "bio_brun_an",
-      "bio_brun_lcp"
-     ]
-    ],
-    "paras": [
-     [
-      "Origines et formation",
-      [
-       [
-        "Philippe Brun est né en 1991 à Rouen (Seine-Maritime).",
-        "bio_brun_an"
-       ],
-       [
-        "Diplômé de Sciences Po, de l'ENA et d'HEC, il était magistrat au tribunal administratif de Montreuil (Seine-Saint-Denis) en 2022.",
-        "bio_brun_ap"
-       ]
-      ]
-     ],
-     [
-      "Parcours",
-      [
-       [
-        "Conseiller municipal PS d'opposition à Louviers (Eure), il a été élu député de l'Eure en juin 2022.",
-        "bio_brun_ap"
-       ]
-      ]
-     ],
-     [
-      "Aujourd'hui",
-      [
-       [
-        "Il est député de la 4e circonscription de l'Eure et siège parmi les non-inscrits à l'Assemblée nationale.",
-        "bio_brun_an"
-       ],
-       [
-        "En septembre 2026, il a été suspendu du PS puis exclu à titre conservatoire du groupe des députés socialistes ; il ne participera pas à la primaire de gauche.",
-        "bio_brun_lcp"
-       ]
-      ]
-     ]
-    ]
-   },
-   "oeil": {
-    "etat": [
-     [
-      "Il a présenté en août 2026 un programme économique, « Produire ». Écarté de la primaire de la gauche, il conteste cette décision en justice.",
-      "lcp_brun",
-      "lcp_brun_appel"
-     ]
-    ],
-    "phares": {
-     "travail": [
-      "p116",
-      "p119"
-     ],
-     "finances": [
-      "p117",
-      "p118",
-      "p280"
-     ],
-     "numerique": [
-      "p279"
-     ]
-    },
-    "fin": {
-     "cand": [
-      [
-       "Il veut financer son programme par le retour de l'ISF et une « mise à contribution » des 1 000 milliards d'euros de successions attendus dans les années à venir.",
-       "lcp_brun"
       ]
      ],
      "ind": [
@@ -2886,210 +2800,6 @@
        "Nous n'avons pas trouvé de chiffrage extérieur.",
        null
       ]
-     ]
-    }
-   }
-  },
-  {
-   "id": "faure",
-   "nom": "Olivier Faure",
-   "tri": "Faure",
-   "parti": "Parti socialiste",
-   "statut": "primaire",
-   "statutTxt": "Arrivé deuxième à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
-   "faits": [
-    [
-     "Arrivé deuxième au premier tour de la primaire, le 11 octobre 2026, derrière Raphaël Glucksmann, désigné candidat de la gauche sociale-démocrate.",
-     "lcp_primaire_resultats"
-    ],
-    [
-     "Premier secrétaire du PS, candidat à la primaire « Choisir 2027 » à partir du 30 août 2026.",
-     "qpq"
-    ]
-   ],
-   "docs": [
-    "site_faure"
-   ],
-   "photo": {
-    "a": "Olivier Faure",
-    "y": "2012",
-    "l": "CC BY-SA 2.0",
-    "lu": "https://creativecommons.org/licenses/by-sa/2.0",
-    "u": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Olivier_Faure.jpg"
-   },
-   "parcours": {
-    "chapo": [
-     "Premier secrétaire du Parti socialiste depuis 2018, Olivier Faure est député de Seine-et-Marne depuis 2012. Il a présidé le groupe socialiste à l'Assemblée nationale à partir de décembre 2016.",
-     [
-      "bio_faure_afp2026",
-      "bio_faure_ps2016"
-     ]
-    ],
-    "paras": [
-     [
-      "Origines et formation",
-      [
-       [
-        "Olivier Faure est né en 1968 à La Tronche (Isère).",
-        "bio_faure_an"
-       ],
-       [
-        "Juriste de formation, diplômé en droit et en sciences politiques, il a été l'un des dirigeants d'une PME de haute technologie.",
-        "bio_faure_ps2016"
-       ]
-      ]
-     ],
-     [
-      "Parcours",
-      [
-       [
-        "Il a été conseiller de Martine Aubry au ministère de l'Emploi de 1997 à 2000.",
-        "bio_faure_ps2016"
-       ],
-       [
-        "Il a ensuite été directeur adjoint du cabinet de François Hollande, premier secrétaire du Parti socialiste, de 2000 à 2007.",
-        "bio_faure_ps2016"
-       ],
-       [
-        "Il a été élu pour la première fois député de Seine-et-Marne en 2012.",
-        "bio_faure_ps2016"
-       ],
-       [
-        "Il a été élu président du groupe socialiste à l'Assemblée nationale en décembre 2016.",
-        "bio_faure_ps2016"
-       ]
-      ]
-     ],
-     [
-      "Aujourd'hui",
-      [
-       [
-        "Député de Seine-et-Marne depuis 2012, il est premier secrétaire du Parti socialiste depuis 2018.",
-        "bio_faure_afp2026"
-       ],
-       [
-        "Candidat à la primaire de la gauche, il arrive deuxième au premier tour, le 11 octobre 2026, derrière Raphaël Glucksmann.",
-        "lcp_primaire_resultats"
-       ]
-      ]
-     ]
-    ]
-   },
-   "oeil": {
-    "etat": [
-     [
-      "Arrivé deuxième à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, il n'est plus candidat. Ses propositions restent consultables ici.",
-      "lcp_primaire_resultats"
-     ]
-    ],
-    "phares": {
-     "education": [
-      "p102",
-      "p103",
-      "p104"
-     ],
-     "travail": [
-      "p155"
-     ],
-     "finances": [
-      "p157"
-     ]
-    }
-   }
-  },
-  {
-   "id": "guedj",
-   "nom": "Jérôme Guedj",
-   "tri": "Guedj",
-   "parti": "Parti socialiste",
-   "statut": "primaire",
-   "statutTxt": "Candidat à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
-   "faits": [
-    [
-     "Candidat à la primaire « Choisir 2027 », remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    [
-     "Il avait rejoint la primaire « Choisir 2027 » le 23 août 2026.",
-     "qpq"
-    ]
-   ],
-   "docs": [
-    "site_guedj"
-   ],
-   "photo": {
-    "a": "Audrey AK",
-    "y": "2010",
-    "l": "CC BY-SA 2.0",
-    "lu": "https://creativecommons.org/licenses/by-sa/2.0",
-    "u": "https://commons.wikimedia.org/wiki/File:J%C3%A9r%C3%B4me_Guedj_2010.jpg"
-   },
-   "parcours": {
-    "chapo": [
-     "Député de l'Essonne et membre du Parti socialiste, Jérôme Guedj a présidé le conseil général de l'Essonne de 2011 à 2015.",
-     [
-      "bio_guedj_an",
-      "bio_guedj_gazette",
-      "bio_guedj_sud"
-     ]
-    ],
-    "paras": [
-     [
-      "Origines et formation",
-      [
-       [
-        "Jérôme Guedj est né en 1972 à Pantin (Seine-Saint-Denis).",
-        "bio_guedj_an"
-       ],
-       [
-        "Diplômé de Sciences Po Paris en 1992, il a étudié à l'ENA de 1994 à 1996, puis rejoint l'Inspection générale des affaires sociales.",
-        "bio_guedj_sud"
-       ]
-      ]
-     ],
-     [
-      "Parcours",
-      [
-       [
-        "Il a présidé le conseil général de l'Essonne de 2011 à 2015.",
-        "bio_guedj_sud"
-       ],
-       [
-        "En 2012, il est devenu député de l'Essonne en remplacement de François Lamy, nommé au gouvernement.",
-        "bio_guedj_an13"
-       ],
-       [
-        "Son mandat de député s'est terminé en mai 2014 ; il l'est redevenu en juin 2022.",
-        "bio_guedj_sycomore"
-       ]
-      ]
-     ],
-     [
-      "Aujourd'hui",
-      [
-       [
-        "Il est député de la 6e circonscription de l'Essonne et membre du groupe Socialistes et apparentés.",
-        "bio_guedj_an"
-       ],
-       [
-        "En février 2026, il a annoncé sa candidature à l'élection présidentielle de 2027, en dehors de la primaire de la gauche.",
-        "bio_guedj_gazette"
-       ]
-      ]
-     ]
-    ]
-   },
-   "oeil": {
-    "etat": [
-     [
-      "Candidat à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, il n'est plus candidat. Ses propositions restent consultables ici.",
-      "lcp_primaire_resultats"
-     ]
-    ],
-    "phares": {
-     "travail": [
-      "p156",
-      "p109"
      ]
     }
    }
@@ -3526,10 +3236,10 @@
      ],
      "travail": [
       "p074",
-      "p320"
+      "p320",
+      "p075"
      ],
      "social": [
-      "p075",
       "p076",
       "p319"
      ],
@@ -3563,120 +3273,6 @@
        "Nous n'avons pas trouvé de chiffrage extérieur de l'ensemble de son programme.",
        null
       ]
-     ]
-    }
-   }
-  },
-  {
-   "id": "maurel",
-   "nom": "Emmanuel Maurel",
-   "tri": "Maurel",
-   "parti": "Gauche républicaine et socialiste",
-   "statut": "primaire",
-   "statutTxt": "Candidat à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
-   "faits": [
-    [
-     "Candidat à la primaire « Choisir 2027 », organisée par le PS et ses alliés et remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ]
-   ],
-   "docs": [
-    "maurel_prog"
-   ],
-   "photo": {
-    "a": "Tyseria",
-    "y": "2019",
-    "l": "CC BY-SA 4.0",
-    "lu": "https://creativecommons.org/licenses/by-sa/4.0",
-    "u": "https://commons.wikimedia.org/wiki/File:Meeting_France_insoumise_24_mars_2019,_Nevers_-_Emmanuel_Maurel_01_(cropped).jpg"
-   },
-   "parcours": {
-    "chapo": [
-     "Député du Val-d'Oise depuis 2024, Emmanuel Maurel a été député européen de 2014 à 2024 et vice-président de la région Île-de-France. Il a participé à la création de la Gauche républicaine et socialiste.",
-     [
-      "bio_maurel_syc",
-      "bio_maurel_sr",
-      "bio_maurel_pe"
-     ]
-    ],
-    "paras": [
-     [
-      "Origines et formation",
-      [
-       [
-        "Emmanuel Maurel est né le 10 mai 1973 à Épinay-sur-Seine (Seine-Saint-Denis).",
-        "bio_maurel_an"
-       ],
-       [
-        "Il est diplômé de l'Institut d'études politiques de Paris, puis il a étudié les lettres modernes et l'histoire.",
-        "bio_maurel_sr"
-       ]
-      ]
-     ],
-     [
-      "Parcours",
-      [
-       [
-        "Il a rejoint le Parti socialiste à 17 ans, puis est devenu conseiller municipal de Persan (Val-d'Oise) en 2001.",
-        "bio_maurel_sr"
-       ],
-       [
-        "Il est devenu en 2004 vice-président de la région Île-de-France, chargé des affaires européennes et internationales.",
-        "bio_maurel_sr"
-       ],
-       [
-        "Élu député européen en 2014, il a quitté le Parti socialiste en 2018 et a participé à la création de la Gauche républicaine et socialiste.",
-        "bio_maurel_sr"
-       ],
-       [
-        "Il a siégé au Parlement européen du 2 juillet 2019 au 15 juillet 2024, avec la Gauche républicaine et socialiste comme parti national.",
-        "bio_maurel_pe"
-       ]
-      ]
-     ],
-     [
-      "Aujourd'hui",
-      [
-       [
-        "Il est député du Val-d'Oise depuis le 8 juillet 2024 et appartient au groupe Gauche démocrate et républicaine.",
-        "bio_maurel_syc"
-       ]
-      ]
-     ]
-    ]
-   },
-   "oeil": {
-    "etat": [
-     [
-      "Candidat à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, il n'est plus candidat. Son programme reste consultable ici.",
-      "lcp_primaire_resultats",
-      "maurel_prog"
-     ]
-    ],
-    "phares": {
-     "travail": [
-      "p092",
-      "p098",
-      "p093"
-     ],
-     "finances": [
-      "p095",
-      "p096"
-     ],
-     "social": [
-      "p094",
-      "p099",
-      "p097"
-     ],
-     "interieur": [
-      "p100"
-     ],
-     "education": [
-      "p101",
-      "p154"
-     ],
-     "europe": [
-      "p153"
      ]
     }
    }
@@ -3877,102 +3473,6 @@
    }
   },
   {
-   "id": "royal",
-   "nom": "Ségolène Royal",
-   "tri": "Royal",
-   "parti": "Parti socialiste",
-   "statut": "primaire",
-   "statutTxt": "Candidate à la primaire sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann",
-   "faits": [
-    [
-     "Candidate à la primaire « Choisir 2027 », remportée dès le premier tour par Raphaël Glucksmann le 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    [
-     "Candidate à la primaire « Choisir 2027 » à partir du 10 juillet 2026.",
-     "qpq"
-    ]
-   ],
-   "docs": [
-    "site_royal"
-   ],
-   "photo": {
-    "a": "Matthieu Riegler",
-    "y": "2012",
-    "l": "CC BY 3.0",
-    "lu": "https://creativecommons.org/licenses/by/3.0",
-    "u": "https://commons.wikimedia.org/wiki/File:S%C3%A9gol%C3%A8ne_Royal_-_Janvier_2012.jpg"
-   },
-   "parcours": {
-    "chapo": [
-     "Ancienne ministre, notamment de l'Écologie (2014-2017), ancienne présidente de la région Poitou-Charentes et candidate à l'élection présidentielle de 2007, Ségolène Royal préside l'Association France-Algérie.",
-     [
-      "bio_royal_tsa",
-      "bio_royal_sudradio",
-      "bio_royal_anfonc",
-      "bio_royal_unfccc"
-     ]
-    ],
-    "paras": [
-     [
-      "Origines et formation",
-      [
-       [
-        "Ségolène Royal est née le 22 septembre 1953 à Dakar (Sénégal).",
-        "bio_royal_an"
-       ],
-       [
-        "Elle a étudié à l'Institut d'études politiques de Paris et à l'ENA, puis a été conseillère du président François Mitterrand de 1982 à 1988.",
-        "bio_royal_unfccc"
-       ]
-      ]
-     ],
-     [
-      "Parcours",
-      [
-       [
-        "Élue députée des Deux-Sèvres (2e circonscription) en 1988, elle a été réélue en 1993, en 1997 et en 2002 ; son dernier mandat a pris fin le 19 juin 2007.",
-        "bio_royal_anfonc"
-       ],
-       [
-        "Elle a été ministre de l'Environnement dans le gouvernement de Pierre Bérégovoy (1992-1993), puis ministre déléguée dans celui de Lionel Jospin (1997-2002).",
-        "bio_royal_sudradio"
-       ],
-       [
-        "Elle a présidé la région Poitou-Charentes d'avril 2004 à mai 2014.",
-        "bio_royal_unfccc"
-       ],
-       [
-        "Elle a été ministre de l'Écologie dans les gouvernements de Manuel Valls puis de Bernard Cazeneuve, de 2014 à 2017.",
-        "bio_royal_sudradio"
-       ]
-      ]
-     ],
-     [
-      "Aujourd'hui",
-      [
-       [
-        "Elle préside l'Association France-Algérie, élue par le conseil d'administration le 18 décembre 2025 en remplacement d'Arnaud Montebourg.",
-        "bio_royal_tsa"
-       ],
-       [
-        "Elle a été candidate à l'élection présidentielle de 2007.",
-        "bio_royal_cc2007"
-       ]
-      ]
-     ]
-    ]
-   },
-   "oeil": {
-    "etat": [
-     [
-      "Candidate à la primaire de la gauche sociale-démocrate, remportée le 11 octobre 2026 par Raphaël Glucksmann, elle n'est plus candidate. Ses propositions restent consultables ici.",
-      "lcp_primaire_resultats"
-     ]
-    ]
-   }
-  },
-  {
    "id": "villepin",
    "nom": "Dominique de Villepin",
    "tri": "Villepin",
@@ -3980,6 +3480,10 @@
    "statut": "partiel",
    "statutTxt": "Projet « France 2027 » publié par thèmes, dont 20 propositions économiques chiffrées",
    "faits": [
+    [
+     "Le 3 novembre 2026 sur France Inter, il a confirmé qu'il serait candidat, sans fixer la date de son annonce officielle.",
+     "entrevue_villepin"
+    ],
     [
      "Il revendique « plusieurs centaines » de parrainages et dit se battre pour être candidat.",
      "pp_villepin"
@@ -4321,6 +3825,166 @@
      ]
     }
    }
+  },
+  {
+   "id": "mathieu",
+   "nom": "Benoît Mathieu",
+   "tri": "Mathieu",
+   "parti": "Sans parti",
+   "statut": "nonpublie",
+   "statutTxt": "Pas de programme complet, deux propositions publiées",
+   "faits": [
+    [
+     "Candidat sans parti, il parcourt la France à vélo à la rencontre des maires pour réunir les 500 parrainages d'élus nécessaires.",
+     "mathieu_site"
+    ]
+   ],
+   "docs": [
+    "mathieu_programme"
+   ],
+   "parcours": {
+    "chapo": [
+     "Ingénieur en agroalimentaire de formation, Benoît Mathieu a enseigné les sciences et les mathématiques. Il se présente comme « candidat citoyen » à l'élection présidentielle de 2027.",
+     [
+      "sudradio_mathieu",
+      "mathieu_site"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Il avait 27 ans en mai 2026.",
+        "sudradio_mathieu"
+       ],
+       [
+        "Il est ingénieur en agroalimentaire de formation.",
+        "sudradio_mathieu"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Il a enseigné les sciences et les mathématiques.",
+        "sudradio_mathieu"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Candidat sans parti, il parcourt la France à vélo à la rencontre des maires pour réunir les 500 parrainages nécessaires.",
+        "mathieu_site"
+       ]
+      ]
+     ]
+    ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Pas de programme complet. Il dit vouloir le construire « avec, par et pour les citoyens » et défend le recours à des conventions citoyennes de 150 personnes tirées au sort.",
+      "mathieu_site",
+      "sudradio_mathieu"
+     ]
+    ],
+    "phares": {
+     "gouvernance": [
+      "p350",
+      "p349"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
+   }
+  },
+  {
+   "id": "mlekuz",
+   "nom": "Manolo Mlekuz",
+   "tri": "Mlekuz",
+   "parti": "Sans parti",
+   "statut": "nonpublie",
+   "statutTxt": "Programme pas encore publié",
+   "faits": [
+    [
+     "Il sillonne la France en van aménagé pour recueillir les parrainages de maires nécessaires.",
+     "bfm_mlekuz"
+    ]
+   ],
+   "docs": [],
+   "parcours": {
+    "chapo": [
+     "Âgé de 20 ans, Manolo Mlekuz est le plus jeune des candidats déclarés à l'élection présidentielle de 2027. Il s'est déclaré sur les réseaux sociaux.",
+     [
+      "obs_candidats_1012",
+      "sudradio_candidats_0824"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Il avait 20 ans en octobre 2026.",
+        "bfm_mlekuz"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Candidat sans parti, il sillonne la France avec un ami dans un van aménagé pour recueillir les parrainages de maires.",
+        "bfm_mlekuz"
+       ]
+      ]
+     ]
+    ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Pas de programme publié. Il met en avant un président « sans pouvoir » et une assemblée constituante.",
+      "sudradio_candidats_0824",
+      "obs_candidats_1012"
+     ]
+    ],
+    "phares": {
+     "gouvernance": [
+      "p351"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
+   }
   }
  ],
  "propositions": [
@@ -4328,7 +3992,7 @@
    "c": "arthaud",
    "th": "travail",
    "t": "Un salaire minimum de 2 200 € net par mois",
-   "d": "Porter le salaire minimum à 2 200 € net par mois.",
+   "d": "Le même minimum vaudrait pour les revenus et les pensions ; elle chiffre la hausse nécessaire à « 300, 400, 500 euros ».",
    "s": [
     "lbb_arthaud",
     "lo_journal_3031"
@@ -4376,13 +4040,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "smic"
   },
   {
    "c": "arthaud",
    "th": "retraites",
    "t": "Aucune retraite en dessous de 2 200 € net par mois",
-   "d": "Aucune pension de retraite inférieure à 2 200 € net par mois.",
+   "d": "Le même minimum que pour les salaires, avec des pensions indexées sur la hausse des prix.",
    "s": [
     "lbb_arthaud",
     "lo_journal_3031"
@@ -4426,7 +4091,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "pension_min"
   },
   {
    "c": "arthaud",
@@ -4487,13 +4153,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "arthaud",
    "th": "immigration",
    "t": "Régulariser tous les sans-papiers",
-   "d": "Régulariser tous les sans-papiers.",
+   "d": "Avec la « liberté de circulation et d'installation pour chaque être humain ».",
    "s": [
     "lo_brochure_2026"
    ],
@@ -4524,13 +4191,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "c": "arthaud",
    "th": "defense",
    "t": "Contre la hausse du budget de l'armée",
-   "d": "S'opposer à la hausse des dépenses militaires.",
+   "d": "Elle s'oppose aux « 36 milliards de rallonge pour l'armée » et veut cet argent « pour les hôpitaux, les écoles ».",
    "s": [
     "lo_brochure_2026"
    ],
@@ -4581,7 +4249,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "budget_armee"
   },
   {
    "c": "attal",
@@ -4619,13 +4288,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "immig_niveau"
   },
   {
    "c": "attal",
    "th": "numerique",
    "t": "Former 20 millions d'actifs à l'intelligence artificielle en cinq ans",
-   "d": "Former 20 millions d'actifs à l'intelligence artificielle en cinq ans.",
    "s": [
     "orange_attal",
     "x_attal_ia"
@@ -4663,13 +4332,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "former_ia"
   },
   {
    "c": "attal",
    "th": "travail",
    "t": "Réduire l'écart entre salaire brut et salaire net, et réformer le chômage",
-   "d": "Réduire l'écart entre salaire brut et salaire net (« droit au brut ») et réformer l'assurance chômage.",
+   "d": "Il appelle cela le « droit au brut » ; le détail de la réforme du chômage n'est pas précisé.",
    "s": [
     "orange_attal",
     "ps_meeting_attal"
@@ -4719,7 +4389,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "attal",
@@ -4750,7 +4421,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "narcotrafic"
   },
   {
    "c": "attal",
@@ -4811,7 +4483,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "attal",
@@ -4877,7 +4550,11 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "eleves_classe",
+    "profs_salaire"
+   ]
   },
   {
    "c": "attal",
@@ -4919,11 +4596,12 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "examen"
   },
   {
    "c": "attal",
-   "th": "budget",
+   "th": "etat",
    "t": "Supprimer 100 000 postes de fonctionnaires d'État",
    "d": "Supprimer 100 000 postes de fonctionnaires d'État par des départs à la retraite non remplacés et un plan de départs volontaires, en préservant l'Éducation nationale, les Armées, la Justice et l'Intérieur.",
    "s": [
@@ -4978,7 +4656,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fonctionnaires"
   },
   {
    "c": "attal",
@@ -5027,7 +4706,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "c": "dupont-aignan",
@@ -5067,7 +4747,8 @@
      "dlf_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "frontieres"
   },
   {
    "c": "dupont-aignan",
@@ -5102,7 +4783,8 @@
      "dlf_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "regroupement"
   },
   {
    "c": "dupont-aignan",
@@ -5145,7 +4827,8 @@
      "dlf_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "droit_sol"
   },
   {
    "c": "dupont-aignan",
@@ -5193,7 +4876,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "energie_prix"
   },
   {
    "c": "dupont-aignan",
@@ -5232,13 +4916,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ukraine"
   },
   {
    "c": "glucksmann",
    "th": "education",
    "t": "Les profs augmentés d'au moins 10 %, jusqu'à 25 % en milieu de carrière",
-   "d": "Augmenter d'au moins 10 % le salaire de tous les enseignants, jusqu'à 25 % selon la carrière, réduire les effectifs en primaire et rénover les écoles, dans un « plan de sauvetage de l'école publique » sur cinq ans.",
+   "d": "Dans un « plan de sauvetage de l'école publique » sur cinq ans, qui prévoit aussi moins d'élèves en primaire et des écoles rénovées.",
    "s": [
     "ps_ecole",
     "ps_glucksmann_propositions",
@@ -5298,7 +4983,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "profs_salaire"
   },
   {
    "c": "glucksmann",
@@ -5341,7 +5027,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fortunes"
   },
   {
    "c": "glucksmann",
@@ -5383,7 +5070,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "glucksmann",
@@ -5423,14 +5111,11 @@
      [
       "Des conventions citoyennes tirées au sort ont déjà été organisées sur le climat et sur la fin de vie.",
       "lcp_glucksmann"
-     ],
-     [
-      "Au premier semestre 2025, 7 426 OQTF ont été exécutées pour 69 888 prononcées, d'après la DGEF citée par le Sénat.",
-      "sujet_immigration_senat_plf2026_immigration"
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "immig_niveau"
   },
   {
    "c": "glucksmann",
@@ -5472,7 +5157,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "engagement"
   },
   {
    "c": "glucksmann",
@@ -5513,7 +5199,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "changer_ue"
   },
   {
    "c": "le-pen",
@@ -5579,7 +5266,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "le-pen",
@@ -5639,13 +5327,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "le-pen",
    "th": "travail",
    "t": "Plus de cotisations retraite ni chômage pour qui travaille après l'âge de départ",
-   "d": "Supprimer les cotisations retraite et chômage pour les personnes qui continuent à travailler après l'âge de départ.",
    "s": [
     "sudradio_lepen"
    ],
@@ -5659,14 +5347,9 @@
       "sudradio_lepen"
      ]
     ],
-    "auj": [
-     [
-      "Au 2e trimestre 2026, le taux d'emploi des 15-64 ans est de 69,0 %.",
-      "sujet_travail_insee_chomage"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "travailler_plus"
   },
   {
    "c": "le-pen",
@@ -5709,7 +5392,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "loyers"
   },
   {
    "c": "le-pen",
@@ -5755,13 +5439,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "c": "le-pen",
    "th": "pouvoir",
    "t": "La TVA sur le gaz, l'électricité et le fioul ramenée de 20 % à 5,5 %",
-   "d": "Ramener la TVA sur le gaz, l'électricité et le fioul de 20 % à 5,5 %.",
    "s": [
     "bs_lepen"
    ],
@@ -5773,10 +5457,6 @@
      [
       "Selon Brussels Signal, elle veut ramener la TVA sur le gaz, l'électricité et le fioul de 20 % à 5,5 %.",
       "bs_lepen"
-     ],
-     [
-      "Nous n'avons pas trouvé de coût annoncé.",
-      null
      ]
     ],
     "auj": [
@@ -5790,13 +5470,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "energie_prix"
   },
   {
    "c": "le-pen",
    "th": "institutions",
    "t": "Un référendum pour interdire le voile islamique dans tout l'espace public",
-   "d": "Organiser un référendum pour interdire le voile islamique dans l'ensemble de l'espace public.",
    "s": [
     "bs_lepen"
    ],
@@ -5827,7 +5507,7 @@
    "c": "le-pen",
    "th": "education",
    "t": "Les élèves perturbateurs orientés vers des structures spécialisées (projet RN de 2024)",
-   "d": "Orienter vers des structures spécialisées les élèves exclus deux fois, rétablir les séries au bac et afficher en classe une carte de France et une frise chronologique. Ces mesures viennent du projet du RN pour les législatives de 2024 : son programme 2027 n'est pas encore publié.",
+   "d": "Pour les élèves exclus deux fois. Mesure du projet du RN pour les législatives de 2024, qui prévoyait aussi de rétablir les séries au bac.",
    "s": [
     "ps_ecole"
    ],
@@ -5862,7 +5542,7 @@
    "c": "melenchon",
    "th": "travail",
    "t": "Un SMIC à 1 700 € net par mois",
-   "d": "Porter le SMIC à 1 700 € net par mois (2 176 € brut). C'est ce que prévoient une proposition de loi des députés insoumis déposée en septembre 2026 et le plan budgétaire présenté par son équipe le 14 octobre 2026.",
+   "d": "Soit 2 176 € brut. C'est ce que prévoient une proposition de loi des députés insoumis (septembre 2026) et son plan budgétaire du 14 octobre 2026.",
    "s": [
     "an_ppl3176",
     "lcp_contrebudget_2027"
@@ -5940,7 +5620,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "smic"
   },
   {
    "c": "melenchon",
@@ -6035,13 +5716,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "melenchon",
    "th": "institutions",
    "t": "Passer à une VIe République",
-   "d": "Passer à une VIe République.",
+   "d": "Une assemblée constituante écrirait une nouvelle Constitution, soumise à référendum ; le programme prévoit aussi un référendum révocatoire des élus.",
    "s": [
     "lfi_aec"
    ],
@@ -6073,10 +5755,6 @@
      [
       "En mars 2017, lors de sa précédente campagne, il disait vouloir « mettre fin à la monarchie présidentielle et à sa collusion intime avec les puissances de l'argent ». Il jugeait la Constitution de 1958 « taillée sur mesure pour un homme exceptionnel, dans des conditions exceptionnelles ».",
       "sudradio_6e_2017"
-     ],
-     [
-      "Nous n'avons pas trouvé de déclaration de 2026 qui détaille davantage ses arguments.",
-      null
      ]
     ],
     "auj": [
@@ -6090,7 +5768,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "constitution"
   },
   {
    "c": "melenchon",
@@ -6162,13 +5841,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "melenchon",
    "th": "eco",
    "t": "Créer un pôle bancaire public",
-   "d": "Créer un pôle public bancaire.",
+   "d": "Certaines banques de détail seraient « socialisées » et intégrées à ce pôle.",
    "s": [
     "orange_melenchon"
    ],
@@ -6188,18 +5868,13 @@
       "lfi_synthese"
      ]
     ],
-    "pourquoi": [
-     [
-      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure.",
-      null
-     ]
-    ],
     "note": [
      "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "nationaliser"
   },
   {
    "c": "melenchon",
@@ -6273,13 +5948,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "eleves_classe"
   },
   {
    "c": "melenchon",
    "th": "ecologie",
    "t": "Mettre en place une planification écologique",
-   "d": "Mettre en place une planification écologique (chapitre 12 du programme).",
+   "d": "Avec l'objectif de « neutralité carbone en 2050 » et des plans d'investissement par filière publiés depuis septembre 2026.",
    "s": [
     "lfi_aec"
    ],
@@ -6342,7 +6018,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "planification"
   },
   {
    "c": "philippe",
@@ -6400,7 +6077,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "philippe",
@@ -6476,7 +6154,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "impots_entreprises"
   },
   {
    "c": "philippe",
@@ -6501,7 +6180,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "heritage"
   },
   {
    "c": "philippe",
@@ -6540,13 +6220,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "referendums"
   },
   {
    "c": "philippe",
    "th": "education",
    "t": "Les profs augmentés de 20 % en cinq ans",
-   "d": "Augmenter de 20 % le salaire des enseignants sur le quinquennat, créer une « amende de responsabilisation scolaire » pour les parents et laisser les établissements imposer l'uniforme.",
+   "d": "Sur le quinquennat. Il propose aussi une « amende de responsabilisation scolaire » pour les parents et l'uniforme au choix des établissements.",
    "s": [
     "ps_ecole"
    ],
@@ -6581,13 +6262,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "profs_salaire"
   },
   {
    "c": "philippe",
    "th": "ecologie",
    "t": "Un grand plan pour le transport de marchandises par le train",
-   "d": "Lancer un grand plan pour le fret ferroviaire et développer le stockage de l'eau sans surexploiter les nappes.",
    "s": [
     "lcp_philippe"
    ],
@@ -6605,20 +6286,15 @@
       "lcp_philippe"
      ]
     ],
-    "auj": [
-     [
-      "En 2025, les émissions de gaz à effet de serre de la France sont pré-estimées à 359 millions de tonnes équivalent CO2, en baisse de 2,1 %.",
-      "sujet_ecologie_hcc_ra2026"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "trains"
   },
   {
    "c": "retailleau",
    "th": "immigration",
    "t": "Supprimer le droit du sol",
-   "d": "Supprimer le droit du sol en métropole et durcir les conditions de l'immigration étudiante.",
+   "d": "En métropole. Il veut aussi durcir les conditions de l'immigration étudiante.",
    "s": [
     "gazette_retailleau_sol",
     "jdd_retailleau"
@@ -6631,10 +6307,6 @@
      [
       "Il veut supprimer le droit du sol par référendum, car selon lui « les juges n'accepteraient pas » cette réforme sans passer par le peuple.",
       "gazette_retailleau_sol"
-     ],
-     [
-      "Il veut aussi durcir les conditions de l'immigration étudiante.",
-      "jdd_retailleau"
      ]
     ],
     "pourquoi": [
@@ -6651,7 +6323,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "droit_sol"
   },
   {
    "c": "retailleau",
@@ -6679,14 +6352,9 @@
       "gazette_retailleau_sol"
      ]
     ],
-    "auj": [
-     [
-      "Au 1er août 2026, 89 668 personnes étaient détenues pour 63 303 places opérationnelles.",
-      "sujet_securite_justice_detention_202608"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "sanctions"
   },
   {
    "c": "retailleau",
@@ -6702,10 +6370,6 @@
    "plus": {
     "detail": [
      [
-      "Fusionner les allocations familiales en un revenu parental unique, versé dès le premier enfant.",
-      "jdd_retailleau"
-     ],
-     [
       "Nous n'avons pas trouvé le montant envisagé.",
       null
      ]
@@ -6717,7 +6381,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "familles"
   },
   {
    "c": "retailleau",
@@ -6773,7 +6438,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "retailleau",
@@ -6822,7 +6488,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "c": "retailleau",
@@ -6859,7 +6526,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "examen"
   },
   {
    "c": "retailleau",
@@ -6921,13 +6589,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "roussel",
    "th": "eco",
    "t": "Un fonds public de 500 milliards pour l'industrie et les infrastructures",
-   "d": "Créer un fonds public de 500 milliards d'euros sur cinq ans pour les infrastructures et les relocalisations industrielles, nationaliser une partie des banques, et taxer davantage les plus-values et les grandes fortunes.",
+   "d": "Sur cinq ans, pour les infrastructures et les relocalisations. Il veut aussi nationaliser une partie des banques et taxer davantage plus-values et grandes fortunes.",
    "s": [
     "pcf_pacte",
     "pp_pcf_pacte"
@@ -6973,7 +6642,8 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "industrie"
   },
   {
    "c": "roussel",
@@ -6988,10 +6658,6 @@
    "id": "p056",
    "plus": {
     "detail": [
-     [
-      "Abroger la retraite à 64 ans et rétablir le départ à 60 ans.",
-      "pcf_pacte"
-     ],
      [
       "Nous n'avons pas trouvé la durée de cotisation exigée ni le coût.",
       null
@@ -7012,7 +6678,8 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "roussel",
@@ -7058,13 +6725,14 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "roussel",
    "th": "logement",
    "t": "Construire 200 000 logements par an",
-   "d": "Construire 200 000 logements par an avec la Caisse des dépôts.",
+   "d": "Avec la Caisse des dépôts.",
    "s": [
     "pcf_pacte",
     "pp_pcf_pacte"
@@ -7092,13 +6760,13 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "c": "roussel",
    "th": "social",
    "t": "Les soins remboursés à 100 % par la Sécurité sociale",
-   "d": "Rembourser les soins à 100 % par la Sécurité sociale.",
    "s": [
     "pcf_pacte"
    ],
@@ -7128,11 +6796,12 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "remboursement"
   },
   {
    "c": "roussel",
-   "th": "social",
+   "th": "securite",
    "t": "Un milliard d'euros contre les violences faites aux femmes",
    "d": "Une loi-cadre d'un milliard d'euros contre les violences faites aux femmes et pour l'égalité salariale.",
    "s": [
@@ -7148,12 +6817,7 @@
    "fin": "c",
    "id": "p060",
    "plus": {
-    "detail": [
-     [
-      "Une loi-cadre d'un milliard d'euros contre les violences faites aux femmes et pour l'égalité salariale.",
-      "pcf_pacte"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "En 2025, 132 100 victimes de violences sexuelles ont été enregistrées par la police et la gendarmerie (+8 %).",
@@ -7165,7 +6829,8 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "violences"
   },
   {
    "c": "roussel",
@@ -7201,13 +6866,13 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "roussel",
    "th": "defense",
    "t": "Quitter le commandement intégré de l'OTAN",
-   "d": "Sortir du commandement intégré de l'OTAN et rejeter les contraintes budgétaires du pacte de stabilité.",
    "s": [
     "pcf_pacte"
    ],
@@ -7236,7 +6901,8 @@
      "pcf_pacte"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "otan"
   },
   {
    "c": "ruffin",
@@ -7285,13 +6951,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "smic"
   },
   {
    "c": "ruffin",
    "th": "travail",
    "t": "Un statut protecteur pour 7 millions de « travailleurs essentiels »",
-   "d": "Créer un statut des « travailleurs essentiels » pour 7 millions de personnes.",
    "s": [
     "ruffin_travail"
    ],
@@ -7309,12 +6975,6 @@
       null
      ]
     ],
-    "auj": [
-     [
-      "Au 2e trimestre 2026, le taux d'emploi des 15-64 ans est de 69,0 %.",
-      "sujet_travail_insee_chomage"
-     ]
-    ],
     "maj": "2026-10-19"
    }
   },
@@ -7322,7 +6982,6 @@
    "c": "ruffin",
    "th": "retraites",
    "t": "Partir plus tôt quand le métier est pénible",
-   "d": "Permettre un départ anticipé selon la pénibilité du métier.",
    "s": [
     "orange_ruffin",
     "lyoncapitale_ruffin"
@@ -7349,7 +7008,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "ruffin",
@@ -7386,13 +7046,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "impots_entreprises"
   },
   {
    "c": "ruffin",
    "th": "institutions",
    "t": "Se verser un salaire égal au SMIC s'il est élu",
-   "d": "Se verser, s'il est élu, une rémunération équivalente au SMIC.",
    "s": [
     "orange_ruffin"
    ],
@@ -7413,7 +7073,7 @@
    "c": "tondelier",
    "th": "travail",
    "t": "Un SMIC à 2 000 € brut par mois",
-   "d": "Porter le SMIC à 2 000 € brut par mois.",
+   "d": "Selon Parlons Politique, le projet des Écologistes ne prévoit pas de hausse directe, mais la suppression d'exonérations sur les bas salaires.",
    "s": [
     "lci_tondelier"
    ],
@@ -7444,7 +7104,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "smic"
   },
   {
    "c": "tondelier",
@@ -7479,7 +7140,11 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "eleves_classe",
+    "profs_salaire"
+   ]
   },
   {
    "c": "tondelier",
@@ -7499,12 +7164,7 @@
    "fin": "c",
    "id": "p070",
    "plus": {
-    "detail": [
-     [
-      "Consacrer 2 milliards d'euros par an à l'isolation des écoles et à des « refuges climatiques ».",
-      "ps_ecole"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Les communes, les départements et les régions sont chargés de la rénovation des écoles, collèges et lycées.",
@@ -7512,7 +7172,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "canicules"
   },
   {
    "c": "zemmour",
@@ -7558,7 +7219,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "c": "zemmour",
@@ -7647,7 +7309,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "impots_entreprises"
   },
   {
    "aj": "2026-10-03",
@@ -7692,14 +7355,14 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "capitalisation"
   },
   {
    "aj": "2026-10-03",
    "c": "lisnard",
-   "th": "social",
+   "th": "retraites",
    "t": "Un minimum vieillesse à 1 000 € par mois",
-   "d": "Porter le minimum vieillesse à 1 000 € par mois.",
    "s": [
     "ne_ambition"
    ],
@@ -7710,10 +7373,6 @@
      [
       "Il propose « un minimum-vieillesse à hauteur de 1000 euros par mois ».",
       "ne_ambition"
-     ],
-     [
-      "Nous n'avons pas trouvé de coût annoncé.",
-      null
      ]
     ],
     "note": [
@@ -7721,7 +7380,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "pension_min"
   },
   {
    "aj": "2026-10-03",
@@ -7756,7 +7416,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "aj": "2026-10-03",
@@ -7771,13 +7432,7 @@
    "fin": "s",
    "id": "p077",
    "plus": {
-    "detail": [
-     [
-      "« Rétablir le délit de séjour irrégulier », supprimé en 2012.",
-      "ne_immigration",
-      "jdd_lisnard"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "En 2025, 23 549 éloignements d'étrangers en situation irrégulière ont été mis en œuvre (données provisoires).",
@@ -7789,7 +7444,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "aj": "2026-10-03",
@@ -7843,7 +7499,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "immig_niveau"
   },
   {
    "aj": "2026-10-03",
@@ -7929,7 +7586,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "police"
   },
   {
    "aj": "2026-10-03",
@@ -7970,7 +7628,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "sanctions"
   },
   {
    "aj": "2026-10-03",
@@ -8009,7 +7668,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "aj": "2026-10-03",
@@ -8044,7 +7704,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "aj": "2026-10-03",
@@ -8077,7 +7738,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "etudiants"
   },
   {
    "aj": "2026-10-03",
@@ -8092,10 +7754,6 @@
    "id": "p087",
    "plus": {
     "detail": [
-     [
-      "Une « avance jeunesse de 3 000 € pour les 18-24 ans sans diplôme ni emploi, sous conditions de ressources ».",
-      "caz_synthese"
-     ],
      [
       "Nous n'avons pas trouvé si cette avance serait à rembourser.",
       null
@@ -8144,7 +7802,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "elections"
   },
   {
    "aj": "2026-10-03",
@@ -8180,7 +7839,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fortunes"
   },
   {
    "aj": "2026-10-03",
@@ -8215,7 +7875,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "aj": "2026-10-03",
@@ -8246,476 +7907,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "travail",
-   "t": "Un SMIC à 1 700 € net",
-   "d": "Porter le SMIC à 1 700 € net et indexer les salaires sur l'inflation.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p092",
-   "plus": {
-    "detail": [
-     [
-      "Porter le Smic à 1 700 € net et indexer les salaires sur l'inflation.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026.",
-      "sujet_travail_sp_smic_juin"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "travail",
-   "t": "Les salaires des fonctionnaires augmentés de 10 % en cinq ans",
-   "d": "Augmenter de 10 % la grille de la fonction publique sur le quinquennat.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p093",
-   "plus": {
-    "detail": [
-     [
-      "Augmenter de 10 % la grille de salaires de la fonction publique sur le quinquennat.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "Fin 2024, 5,9 millions d'agents travaillent dans les trois fonctions publiques.",
-      "sujet_etat_insee_fp2024"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "social",
-   "t": "Le budget des hôpitaux augmenté d'au moins 4 % par an",
-   "d": "Augmenter le financement des hôpitaux d'au moins 4 % par an et supprimer la tarification à l'activité.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p094",
-   "plus": {
-    "detail": [
-     [
-      "Augmenter le financement des hôpitaux d'au moins 4 % par an et supprimer la tarification à l'activité.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "En 2025, la branche maladie de la Sécurité sociale est en déficit de 15,9 milliards d'euros.",
-      "sujet_sante_senat_cf_comptes2025"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "eco",
-   "t": "Un emprunt national de 300 milliards pour l'industrie",
-   "d": "Lancer un emprunt national d'investissement de 300 milliards d'euros pour l'industrie.",
-   "s": [
-    "maurel_prog"
-   ],
-   "a": {
-    "v": 300,
-    "nature": "cout",
-    "per": "nd",
-    "h": "montant annoncé"
    },
-   "fin": "f",
-   "finTxt": "Par l'emprunt",
-   "id": "p095",
-   "plus": {
-    "detail": [
-     [
-      "Lancer un emprunt national d'investissement de 300 milliards d'euros pour l'industrie.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
-      "sujet_eco_bdf_bdp2025"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "eco",
-   "t": "Rétablir l'ISF et taxer les fortunes de plus de 100 millions",
-   "d": "Rétablir l'ISF, porter à 40 % l'impôt forfaitaire sur les revenus du capital et taxer les fortunes de plus de 100 millions d'euros.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p096",
-   "plus": {
-    "detail": [
-     [
-      "Rétablir l'ISF, porter à 40 % l'impôt forfaitaire sur les revenus du capital et taxer les fortunes de plus de 100 millions d'euros.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "En 2025, les prélèvements obligatoires représentent 43,6 % du PIB.",
-      "sujet_eco_insee_apu_2025"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "pouvoir",
-   "t": "Sortir du marché européen de l'électricité et baisser sa TVA à 5,5 %",
-   "d": "Sortir du marché européen de l'électricité et ramener la TVA sur l'électricité à 5,5 %.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p097",
-   "plus": {
-    "detail": [
-     [
-      "Sortir du marché européen de l'électricité et ramener la TVA sur l'électricité à 5,5 %.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "L'Union européenne impose un taux normal de TVA d'au moins 15 % ; chaque État fixe ses taux réduits dans ce cadre.",
-      "sujet_pouvoir_ue_tva"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "retraites",
-   "t": "Garantir la retraite à 62 ans",
-   "d": "Consolider le droit de partir à 62 ans et rétablir les critères de pénibilité.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p098",
-   "plus": {
-    "detail": [
-     [
-      "Consolider le droit de partir à 62 ans et rétablir les critères de pénibilité.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
-      "sujet_retraites_sp_suspension"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "logement",
-   "t": "750 000 logements sociaux en cinq ans",
-   "d": "Construire 750 000 logements sociaux en cinq ans et généraliser l'encadrement des loyers.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p099",
-   "plus": {
-    "detail": [
-     [
-      "Construire 750 000 logements sociaux en cinq ans et généraliser l'encadrement des loyers.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "2,8 millions de ménages attendent un logement social en 2025.",
-      "sujet_logement_senat_avis819"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "immigration",
-   "t": "Régulariser les travailleurs sans papiers et garder le droit du sol",
-   "d": "Régulariser les travailleurs sans papiers, maintenir le droit du sol et créer un service public de l'intégration.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p100",
-   "plus": {
-    "detail": [
-     [
-      "Régulariser les travailleurs sans papiers, maintenir le droit du sol et créer un service public de l'intégration.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "En 2025, 50 848 premiers titres de séjour ont été délivrés pour motif économique (données provisoires).",
-      "sujet_immigration_dgef_titres2025"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "maurel",
-   "th": "etudes",
-   "t": "30 % de dépense en plus par étudiant à l'université",
-   "d": "Augmenter de 30 % la dépense par étudiant et porter la recherche publique à 1 % du PIB.",
-   "s": [
-    "maurel_prog"
-   ],
-   "fin": "n",
-   "id": "p101",
-   "plus": {
-    "detail": [
-     [
-      "Augmenter de 30 % la dépense par étudiant et porter la recherche publique à 1 % du PIB.",
-      "maurel_prog"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "À la rentrée 2025, 3 049 600 étudiants sont inscrits dans l'enseignement supérieur.",
-      "sujet_etudes_sies_nf17"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "faure",
-   "th": "education",
-   "t": "Un petit-déjeuner gratuit pour chaque enfant",
-   "d": "Un petit-déjeuner gratuit pour chaque enfant à l'école.",
-   "s": [
-    "ps_ecole"
-   ],
-   "fin": "n",
-   "id": "p102",
-   "plus": {
-    "detail": [
-     [
-      "Un petit-déjeuner gratuit pour chaque enfant à l'école.",
-      "ps_ecole"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2025-2026, 6,15 millions d'enfants sont scolarisés à l'école primaire.",
-      "sujet_education_depp_enc2026"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "faure",
-   "th": "education",
-   "t": "Des classes découvertes pour les 5 millions d'enfants qui ne partent pas en vacances",
-   "d": "Généraliser les classes découvertes pour les 5 millions d'enfants qui ne partent pas en vacances.",
-   "s": [
-    "ps_ecole"
-   ],
-   "fin": "n",
-   "id": "p103",
-   "plus": {
-    "detail": [
-     [
-      "Généraliser les classes découvertes pour les 5 millions d'enfants qui ne partent pas en vacances.",
-      "ps_ecole"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "faure",
-   "th": "education",
-   "t": "19 élèves par classe et des profs mieux payés",
-   "d": "19 élèves par classe et une hausse des salaires des enseignants.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p104"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "faure",
-   "th": "social",
-   "t": "Un fonds alimentaire pour les familles modestes",
-   "d": "Créer un fonds alimentaire pour les familles modestes.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p105"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "faure",
-   "th": "ecologie",
-   "t": "Un fonds d'investissement écologique sur 20 à 30 ans",
-   "d": "Un fonds national et européen d'investissement écologique sur 20 à 30 ans.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p106"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "guedj",
-   "th": "institutions",
-   "t": "Créer un Défenseur de la laïcité",
-   "d": "Créer une autorité chargée de défendre la laïcité.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p107"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "guedj",
-   "th": "immigration",
-   "t": "Une immigration planifiée par le Parlement",
-   "d": "Faire planifier l'immigration par le Parlement.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "s",
-   "id": "p108"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "guedj",
-   "th": "retraites",
-   "t": "Moins revaloriser les plus hautes pensions, si les gros héritages contribuent aussi",
-   "d": "Une sous-indexation possible des plus hautes pensions, à condition que les héritages contribuent également.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p109"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "royal",
-   "th": "securite",
-   "t": "Des caméras dans les écoles, les crèches et les Ehpad",
-   "d": "Installer des caméras dans les écoles, les crèches et les Ehpad.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p110"
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "royal",
-   "th": "securite",
-   "t": "Tolérance zéro pour les violences faites aux enfants",
-   "d": "Tolérance zéro pour les violences, avec la protection des enfants parmi ses cinq priorités.",
-   "s": [
-    "qpq"
-   ],
-   "fin": "n",
-   "id": "p111"
+   "q": "changer_ue"
   },
   {
    "aj": "2026-10-03",
@@ -8761,7 +7954,8 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "aj": "2026-10-03",
@@ -8806,7 +8000,8 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "remboursement"
   },
   {
    "aj": "2026-10-03",
@@ -8847,179 +8042,14 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "brun",
-   "th": "travail",
-   "t": "Baisser la CSG sur les salaires de moins de 4 000 € brut",
-   "d": "Le « salaire Brun » : baisser la CSG sur les salaires de moins de 4 000 euros par mois, pour augmenter le salaire net.",
-   "s": [
-    "lcp_brun",
-    "gazette_brun_produire",
-    "brun_produire"
-   ],
-   "fin": "n",
-   "id": "p116",
-   "plus": {
-    "detail": [
-     [
-      "Il veut « faire baisser la part de la CSG sur les salaires de moins de 4.000 euros par mois ».",
-      "lcp_brun"
-     ],
-     [
-      "Nous n'avons pas trouvé de combien la CSG baisserait, ni le coût.",
-      null
-     ]
-    ],
-    "objectif": [
-     [
-      "Une « révolution productive » pour « redonner du pouvoir d'achat » aux Français.",
-      "gazette_brun_produire"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2024, le salaire net médian dans le privé est de 2 190 € par mois en équivalent temps plein.",
-      "sujet_travail_insee_salaires2024"
-     ],
-     [
-      "Au Smic, un salarié à temps plein touche 1 867,02 € brut par mois, soit 1 477,93 € net, depuis le 1er juin 2026.",
-      "sujet_travail_sp_smic_juin"
-     ]
-    ],
-    "fin_cand": [
-     [
-      "Pour financer son programme, il propose « le retour de l'impôt sur la fortune (ISF) » et une « mise à contribution » des 1 000 milliards d'euros de « la grande transmission » des successions.",
-      "lcp_brun"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "brun",
-   "th": "eco",
-   "t": "Remettre EDF en monopole public et rétablir l'ISF",
-   "d": "Revenir à un monopole public pour EDF, et rétablir l'impôt sur la fortune sur les biens non professionnels.",
-   "s": [
-    "brun_produire",
-    "lcp_brun"
-   ],
-   "fin": "n",
-   "id": "p117",
-   "plus": {
-    "detail": [
-     [
-      "Il propose « le retour au monopole public d'EDF » : « Nous voulons faire d'EDF l'Aramco français ».",
-      "lcp_brun"
-     ],
-     [
-      "Il veut aussi « le retour de l'impôt sur la fortune (ISF) ».",
-      "lcp_brun",
-      "gazette_brun_produire"
-     ]
-    ],
-    "objectif": [
-     [
-      "« Avoir l'électricité décarbonée la moins chère d'Europe » et offrir des contrats de long terme aux entreprises.",
-      "gazette_brun_produire",
-      "lcp_brun"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2025, le nucléaire a produit 68,1 % de l'électricité en France, et l'électricité bas-carbone 95,2 %.",
-      "sujet_ecologie_rte_bilan2025"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "brun",
-   "th": "eco",
-   "t": "Cinq usines par département",
-   "d": "Recréer cinq usines par département sur la durée du mandat.",
-   "s": [
-    "lcp_brun"
-   ],
-   "fin": "n",
-   "id": "p118",
-   "plus": {
-    "detail": [
-     [
-      "« Le but assumé est de recréer cinq usines par département sur la durée du mandat. »",
-      "lcp_brun"
-     ]
-    ],
-    "pourquoi": [
-     [
-      "« La production est à la base de tout. »",
-      "lcp_brun",
-      "gazette_brun_produire"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2025, la France a importé 58,0 milliards d'euros de biens de plus qu'elle n'en a exporté.",
-      "sujet_eco_bdf_bdp2025"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "aj": "2026-10-03",
-   "c": "brun",
-   "th": "retraites",
-   "t": "Une capitalisation publique pour les retraites, gérée par les syndicats",
-   "d": "Passer à un système mixte : un fonds de capitalisation public et souverain, géré par les syndicats, alimenté par 15 milliards d'euros par an.",
-   "s": [
-    "lcp_brun",
-    "brun_produire"
-   ],
-   "fin": "n",
-   "id": "p119",
-   "plus": {
-    "detail": [
-     [
-      "« Je propose une capitalisation publique et souveraine avec un fonds géré par les syndicats », avec une mise en réserve de « 15 milliards d'euros par an ».",
-      "lcp_brun"
-     ],
-     [
-      "Ce fonds financerait aussi la transition écologique, l'intelligence artificielle et la souveraineté industrielle.",
-      "lcp_brun"
-     ]
-    ],
-    "pourquoi": [
-     [
-      "« Il n'y a pas aujourd'hui assez d'actifs par retraités, donc ça ne marchera pas. »",
-      "lcp_brun"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2025, il y a 2,5 personnes de 20 à 64 ans pour une personne de 65 ans ou plus, contre 3,6 en 2009.",
-      "sujet_retraites_cor_ra2026"
-     ],
-     [
-      "Les dépenses de retraite représentent 14,1 % du PIB en 2025, soit 422 milliards d'euros.",
-      "sujet_retraites_cor_ra2026"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "aj": "2026-10-03",
    "c": "philippot",
    "th": "europe",
    "t": "Sortir de l'Union européenne et de l'OTAN",
-   "d": "Faire sortir la France de l'Union européenne et de l'OTAN.",
    "s": [
     "bio_philippot_sudradio"
    ],
@@ -9052,14 +8082,15 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "rester_ue"
   },
   {
    "aj": "2026-10-03",
    "c": "branco",
    "th": "eco",
    "t": "Supprimer plus de 300 taxes",
-   "d": "Supprimer « plus de 300 taxes, cotisations et impôts ».",
+   "d": "Son chapitre sur l'économie en détaille 267, dont 117 « sans rendement connu ».",
    "s": [
     "branco_ruches"
    ],
@@ -9097,14 +8128,15 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "impots_simplifier"
   },
   {
    "aj": "2026-10-03",
    "c": "branco",
    "th": "eco",
    "t": "Nationaliser l'électricité, l'eau, la santé, les télécoms et les autoroutes",
-   "d": "Nationaliser le marché de l'électricité, de l'eau, de la santé, des télécoms et des autoroutes.",
+   "d": "Le programme prévoit aussi d'exproprier l'armateur CMA CGM ; le coût et l'indemnisation ne sont pas précisés.",
    "s": [
     "branco_ruches"
    ],
@@ -9130,7 +8162,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nationaliser"
   },
   {
    "aj": "2026-10-03",
@@ -9175,7 +8208,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "rester_ue"
   },
   {
    "aj": "2026-10-03",
@@ -9210,14 +8244,15 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "aj": "2026-10-03",
    "c": "branco",
    "th": "securite",
    "t": "Des jurés citoyens à tous les niveaux de la justice",
-   "d": "Des jurés populaires à tous les échelons de la justice.",
+   "d": "Les jurés d'assises seraient rétablis pour les crimes et étendus aux tribunaux correctionnels.",
    "s": [
     "branco_ruches"
    ],
@@ -9297,7 +8332,11 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "smic",
+    "contrat"
+   ]
   },
   {
    "aj": "2026-10-03",
@@ -9333,14 +8372,14 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "aj": "2026-10-03",
    "c": "kazib",
    "th": "institutions",
    "t": "Mettre fin à la Ve République, au Sénat et à la présidence",
-   "d": "Mettre fin à la Ve République, au Sénat et à la fonction de président de la République.",
    "s": [
     "kazib_programme"
    ],
@@ -9374,7 +8413,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "constitution"
   },
   {
    "aj": "2026-10-03",
@@ -9409,12 +8449,6 @@
       "lbb_labib"
      ]
     ],
-    "auj": [
-     [
-      "Le Smic net mensuel pour un temps plein est de 1 477,93 € depuis le 1er juin 2026.",
-      "sujet_travail_sp_smic_juin"
-     ]
-    ],
     "fin_cand": [
      [
       "Elle assume de ne pas faire de promesses électorales chiffrées.",
@@ -9422,14 +8456,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "contrat"
   },
   {
    "aj": "2026-10-03",
    "c": "labib",
    "th": "immigration",
    "t": "Régulariser tous les sans-papiers et ouvrir les frontières",
-   "d": "Régulariser tous les sans-papiers et ouvrir les frontières.",
    "s": [
     "lbb_labib"
    ],
@@ -9456,7 +8490,11 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "irreguliers",
+    "frontieres"
+   ]
   },
   {
    "aj": "2026-10-03",
@@ -9488,14 +8526,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "budget_armee"
   },
   {
    "aj": "2026-10-03",
    "c": "lalanne",
    "th": "europe",
    "t": "Sortir de l'UE et de l'OTAN, revenir au franc",
-   "d": "Sortir de l'Union européenne et de l'OTAN et revenir au franc.",
    "s": [
     "brusselssignal_lalanne",
     "lalibre_lalanne"
@@ -9533,14 +8571,14 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "rester_ue"
   },
   {
    "aj": "2026-10-03",
    "c": "lalanne",
    "th": "institutions",
    "t": "Un référendum d'initiative citoyenne",
-   "d": "Instaurer un référendum d'initiative citoyenne.",
    "s": [
     "brusselssignal_lalanne",
     "lalibre_lalanne"
@@ -9570,7 +8608,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ric"
   },
   {
    "aj": "2026-10-03",
@@ -9657,7 +8696,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ric"
   },
   {
    "aj": "2026-10-03",
@@ -9699,7 +8739,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "aj": "2026-10-03",
@@ -9817,14 +8858,14 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "rester_ue"
   },
   {
    "aj": "2026-10-03",
    "c": "villepin",
    "th": "travail",
    "t": "Inscrire la négociation sociale dans la Constitution",
-   "d": "Inscrire le principe de la négociation sociale dans la loi et dans la Constitution.",
    "s": [
     "cnews_villepin"
    ],
@@ -9930,7 +8971,11 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "immig_niveau",
+    "regroupement"
+   ]
   },
   {
    "c": "philippe",
@@ -9976,7 +9021,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "familles"
   },
   {
    "c": "zemmour",
@@ -10007,7 +9053,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "sanctions"
   },
   {
    "c": "le-pen",
@@ -10107,12 +9154,7 @@
    "finTxt": "Une partie des 211 milliards d'euros d'aides publiques reçues par les entreprises, et une partie du budget de la défense",
    "id": "p149",
    "plus": {
-    "detail": [
-     [
-      "Un budget rectificatif de 5 milliards d'euros pour rénover les lycées, puis 5 milliards d'euros par an pendant cinq ans pour moderniser les bâtiments scolaires.",
-      "pw_roussel"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Les régions sont chargées de la construction et de la rénovation des lycées, les départements des collèges et les communes des écoles.",
@@ -10170,7 +9212,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "eleves_classe"
   },
   {
    "c": "glucksmann",
@@ -10214,7 +9257,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "heritage"
   },
   {
    "c": "glucksmann",
@@ -10253,169 +9297,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "maurel",
-   "th": "europe",
-   "t": "Saisir les avoirs russes gelés pour financer l'effort de guerre ukrainien",
-   "d": "« Saisir les avoirs gelés des Russes pour financer l'effort de guerre » de l'Ukraine.",
-   "s": [
-    "bfm_debat_primaire"
-   ],
-   "aj": "2026-10-09",
-   "fin": "n",
-   "id": "p153",
-   "plus": {
-    "detail": [
-     [
-      "Lors d'un débat de la primaire, il a proposé de « saisir les avoirs gelés des Russes pour financer l'effort de guerre » de l'Ukraine.",
-      "bfm_debat_primaire"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027.",
-      "sujet_europe_consilium_ukraine"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "maurel",
-   "th": "etudes",
-   "t": "Abroger Parcoursup et la réforme du lycée de 2019",
-   "d": "Abroger Parcoursup ainsi que la réforme du lycée de 2019, qui a créé les spécialités.",
-   "s": [
-    "lcp_debat3",
-    "bfm_debat_primaire"
-   ],
-   "aj": "2026-10-09",
-   "fin": "s",
-   "id": "p154",
-   "plus": {
-    "detail": [
-     [
-      "Abroger Parcoursup ainsi que la réforme du lycée de 2019, qui a créé les spécialités.",
-      "lcp_debat3"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "auj": [
-     [
-      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
-      "sujet_etudes_parcoursup_tdb"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "faure",
-   "th": "retraites",
-   "t": "Le taux plein à 66 ou 65 ans au lieu de 67 ans",
-   "d": "Abaisser l'âge de départ à taux plein, aujourd'hui fixé à 67 ans, à 66 ou 65 ans. C'est l'âge à partir duquel la pension n'est plus réduite, même sans avoir tous ses trimestres.",
-   "s": [
-    "lcp_debat3"
-   ],
-   "aj": "2026-10-09",
-   "fin": "n",
-   "id": "p155",
-   "plus": {
-    "detail": [
-     [
-      "Abaisser l'âge du taux plein, aujourd'hui 67 ans, à 66 ou 65 ans : c'est l'âge à partir duquel la pension n'est plus réduite, même sans tous ses trimestres.",
-      "lcp_debat3"
-     ]
-    ],
-    "auj": [
-     [
-      "Aujourd'hui, la pension est à taux plein avec assez de trimestres, ou automatiquement à 67 ans.",
-      "sujet_retraites_sp_decote"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "guedj",
-   "th": "retraites",
-   "t": "Le taux plein à 66 ou 65 ans au lieu de 67 ans",
-   "d": "Abaisser l'âge de départ à taux plein, aujourd'hui fixé à 67 ans, à 66 ou 65 ans. C'est l'âge à partir duquel la pension n'est plus réduite, même sans avoir tous ses trimestres.",
-   "s": [
-    "lcp_debat3"
-   ],
-   "aj": "2026-10-09",
-   "fin": "n",
-   "id": "p156",
-   "plus": {
-    "detail": [
-     [
-      "Abaisser l'âge du taux plein, aujourd'hui 67 ans, à 66 ou 65 ans : c'est l'âge à partir duquel la pension n'est plus réduite, même sans tous ses trimestres.",
-      "lcp_debat3"
-     ]
-    ],
-    "auj": [
-     [
-      "Aujourd'hui, la pension est à taux plein avec assez de trimestres, ou automatiquement à 67 ans.",
-      "sujet_retraites_sp_decote"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "faure",
-   "th": "eco",
-   "t": "Une taxe Zucman : 2 % par an sur les patrimoines de plus de 100 millions",
-   "d": "Un impôt plancher de 2 % par an sur les patrimoines excédant 100 millions d'euros.",
-   "s": [
-    "lcp_debat2"
-   ],
-   "aj": "2026-10-09",
-   "fin": "n",
-   "id": "p157",
-   "plus": {
-    "detail": [
-     [
-      "Un impôt plancher de 2 % par an sur les patrimoines de plus de 100 millions d'euros (taxe Zucman).",
-      "lcp_debat2"
-     ]
-    ],
-    "auj": [
-     [
-      "Depuis 2026, une contribution différentielle impose au moins 20 % aux foyers dont le revenu fiscal dépasse 250 000 € (personne seule) ou 500 000 € (couple).",
-      "sujet_eco_ecogouv_lfi2026_particuliers"
-     ]
-    ],
-    "note": [
-     "Fiche allégée : il n'est plus candidat depuis la primaire du 11 octobre 2026.",
-     "lcp_primaire_resultats"
-    ],
-    "maj": "2026-10-19"
-   }
+   },
+   "q": "ukraine"
   },
   {
    "c": "villepin",
    "th": "etudes",
    "t": "Supprimer Parcoursup",
-   "d": "La suppression de Parcoursup, demandée avec François Ruffin.",
+   "d": "Avec François Ruffin, il demande aussi un budget de l'éducation « sanctuarisé ».",
    "s": [
     "afp_villepin_ruffin"
    ],
@@ -10436,13 +9325,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "parcoursup"
   },
   {
    "c": "villepin",
    "th": "institutions",
    "t": "Le droit de vote dès 16 ans",
-   "d": "Ouvrir le droit de vote dès 16 ans, une demande faite avec François Ruffin.",
    "s": [
     "afp_villepin_ruffin"
    ],
@@ -10463,13 +9352,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "vote16"
   },
   {
    "c": "ruffin",
    "th": "etudes",
    "t": "Supprimer Parcoursup",
-   "d": "La suppression de Parcoursup, demandée avec Dominique de Villepin.",
+   "d": "Avec Dominique de Villepin, il demande aussi un budget de l'éducation « sanctuarisé ».",
    "s": [
     "afp_villepin_ruffin"
    ],
@@ -10494,13 +9384,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "parcoursup"
   },
   {
    "c": "ruffin",
    "th": "institutions",
    "t": "Le droit de vote dès 16 ans",
-   "d": "Ouvrir le droit de vote dès 16 ans, une demande faite avec Dominique de Villepin.",
    "s": [
     "afp_villepin_ruffin"
    ],
@@ -10525,13 +9415,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "vote16"
   },
   {
    "c": "markovic",
    "th": "institutions",
    "t": "Un ministère indépendant de la Condition animale",
-   "d": "Créer un ministère indépendant consacré à la condition animale.",
    "s": [
     "markovic_pa_communique",
     "huff_markovic"
@@ -10568,10 +9458,6 @@
    "plus": {
     "detail": [
      [
-      "Elle veut que les animaux ne relèvent plus du régime juridique des biens, c'est-à-dire des règles du droit qui s'appliquent aux choses que l'on possède.",
-      "huff_markovic"
-     ],
-     [
       "Nous n'avons pas trouvé quel statut les remplacerait.",
       null
      ]
@@ -10594,29 +9480,18 @@
    "plus": {
     "detail": [
      [
-      "Sortir de l'élevage intensif et accompagner financièrement la reconversion des éleveurs.",
-      "markovic_pa_communique",
-      "huff_markovic"
-     ],
-     [
       "Nous n'avons pas trouvé de calendrier ni de montant pour l'accompagnement des éleveurs.",
       null
      ]
     ],
-    "auj": [
-     [
-      "En 2025, 2,69 millions d'hectares sont cultivés en bio, environ 10 % de la surface agricole, en légère baisse pour la troisième année de suite.",
-      "sujet_env_agencebio_2025"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "agriculture"
   },
   {
    "c": "markovic",
    "th": "ecologie",
    "t": "Mettre fin à la chasse et à la corrida",
-   "d": "Mettre fin à la chasse et à la corrida.",
    "s": [
     "markovic_pa_communique",
     "huff_markovic"
@@ -10651,12 +9526,7 @@
    "fin": "n",
    "id": "p166",
    "plus": {
-    "detail": [
-     [
-      "Intégrer les animaux aux plans ORSEC, qui organisent les secours en cas de catastrophe.",
-      "markovic_pa_communique"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Le préfet de département a la charge de l'ordre public et de la sécurité des populations.",
@@ -10694,13 +9564,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "zan"
   },
   {
    "c": "le-pen",
    "th": "ecologie",
    "t": "Un plan massif de climatisation face aux canicules",
-   "d": "« Si je suis élue présidente de la République, je mettrai en place un plan massif de climatisation. »",
    "s": [
     "lcp_climatisation"
    ],
@@ -10719,7 +9589,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "canicules"
   },
   {
    "c": "le-pen",
@@ -10733,12 +9604,7 @@
    "fin": "n",
    "id": "p169",
    "plus": {
-    "detail": [
-     [
-      "Elle veut faciliter le stockage de l'eau pour les exploitations agricoles ; elle l'a annoncé au Sommet de l'élevage, en octobre 2026.",
-      "lid_philippe_rn_agri"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Le Conseil constitutionnel a validé en 2025, avec deux réserves, les mesures de la loi « Duplomb » sur les ouvrages de stockage d'eau.",
@@ -10746,13 +9612,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "eau"
   },
   {
    "c": "retailleau",
    "th": "ecologie",
    "t": "Supprimer l'Office français de la biodiversité (OFB)",
-   "d": "Supprimer l'OFB, l'Office français de la biodiversité.",
    "s": [
     "ps_congres_ja"
    ],
@@ -10801,7 +9667,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "zan"
   },
   {
    "c": "retailleau",
@@ -10815,12 +9682,7 @@
    "fin": "s",
    "id": "p172",
    "plus": {
-    "detail": [
-     [
-      "Il veut modifier la Constitution « pour supprimer le principe de précaution ».",
-      "ps_congres_ja"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Une révision de la Constitution doit être votée par les deux assemblées, puis approuvée par référendum ou par le Parlement réuni en Congrès (3/5 des voix).",
@@ -10884,7 +9746,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "eau"
   },
   {
    "c": "attal",
@@ -10900,10 +9763,6 @@
    "plus": {
     "detail": [
      [
-      "« Garantir un tarif bas et fixe pour les premiers litres essentiels en fonction de la taille du foyer ».",
-      "lid_attal_eau"
-     ],
-     [
       "Nous n'avons pas trouvé le niveau de ce tarif ni le nombre de litres concernés.",
       null
      ]
@@ -10915,7 +9774,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "eau"
   },
   {
    "c": "attal",
@@ -10946,7 +9806,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "eau"
   },
   {
    "c": "philippe",
@@ -11011,7 +9872,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "catastrophes"
   },
   {
    "c": "philippe",
@@ -11038,7 +9900,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "eau"
   },
   {
    "c": "glucksmann",
@@ -11056,10 +9919,6 @@
      [
       "Il promet un « grand plan de rénovation thermique et d'adaptation » des écoles, érigé en « priorité nationale ».",
       "lid_glucksmann_ecoles"
-     ],
-     [
-      "Nous n'avons pas trouvé de montant.",
-      null
      ]
     ],
     "pourquoi": [
@@ -11079,7 +9938,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "canicules"
   },
   {
    "c": "glucksmann",
@@ -11093,20 +9953,10 @@
    "fin": "s",
    "id": "p180",
    "plus": {
-    "detail": [
-     [
-      "Il propose de « créer comme en Finlande une institution centralisée de préparation aux chocs et catastrophes ».",
-      "lid_glucksmann_ecoles"
-     ]
-    ],
-    "auj": [
-     [
-      "En cas de sécheresse, ce sont aujourd'hui les préfets de département qui restreignent les usages de l'eau par arrêté.",
-      "sujet_env_guide_secheresse_2026"
-     ]
-    ],
+    "detail": [],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "catastrophes"
   },
   {
    "c": "glucksmann",
@@ -11122,10 +9972,6 @@
    "plus": {
     "detail": [
      [
-      "Il veut « mettre en place l'équivalent de la loi de programmation militaire pour la transformation écologique ».",
-      "lid_glucksmann_ecoles"
-     ],
-     [
       "Il défend une « révolution écologique ».",
       "lcp_primaire_oppositions"
      ]
@@ -11137,7 +9983,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "planification"
   },
   {
    "c": "melenchon",
@@ -11186,7 +10033,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "catastrophes"
   },
   {
    "c": "melenchon",
@@ -11235,7 +10083,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "territoires"
   },
   {
    "c": "tondelier",
@@ -11251,10 +10100,6 @@
    "plus": {
     "detail": [
      [
-      "Un « pacte agricole » entre l'État et les agriculteurs pour sortir progressivement des pesticides de synthèse et des engrais azotés d'ici 2050.",
-      "lid_tondelier_sante_env"
-     ],
-     [
       "Un fonds de transition agricole accompagnerait les exploitations.",
       "lid_tondelier_sante_env"
      ]
@@ -11266,13 +10111,13 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "agriculture"
   },
   {
    "c": "tondelier",
    "th": "ecologie",
    "t": "Interdire les perturbateurs endocriniens et les PFAS dans les produits du quotidien",
-   "d": "Interdire les perturbateurs endocriniens et les « polluants éternels » (PFAS) dans les produits du quotidien.",
    "s": [
     "lid_tondelier_sante_env"
    ],
@@ -11326,20 +10171,14 @@
       "agra_ruffin"
      ]
     ],
-    "auj": [
-     [
-      "En 2025, 2,69 millions d'hectares sont cultivés en bio, environ 10 % de la surface agricole.",
-      "sujet_env_agencebio_2025"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "agriculture"
   },
   {
    "c": "ruffin",
    "th": "ecologie",
    "t": "Le retour de la consigne du verre",
-   "d": "Rétablir la consigne pour les bouteilles en verre et divers contenants.",
    "s": [
     "ruffin_travaillisme"
    ],
@@ -11385,7 +10224,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "agriculture"
   },
   {
    "c": "zemmour",
@@ -11399,12 +10239,7 @@
    "fin": "n",
    "id": "p189",
    "plus": {
-    "detail": [
-     [
-      "Relancer le nucléaire au nom de la souveraineté énergétique : six nouveaux réacteurs EPR d'ici 2035, et quatorze d'ici 2045.",
-      "jdd_ecologie_droite"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "En 2025, le nucléaire a produit 68,1 % de l'électricité en France.",
@@ -11412,13 +10247,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "polony",
    "th": "travail",
    "t": "Augmenter les salaires de 20 à 30 %",
-   "d": "Augmenter les salaires de 20 à 30 %.",
+   "d": "Pour sortir le pays d'une « spirale d'appauvrissement » ; la méthode et le calendrier ne sont pas précisés.",
    "s": [
     "lcp_polony"
    ],
@@ -11449,7 +10285,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "polony",
@@ -11496,7 +10333,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "industrie"
   },
   {
    "c": "le-pen",
@@ -11510,12 +10348,7 @@
    "fin": "n",
    "id": "p192",
    "plus": {
-    "detail": [
-     [
-      "Elle maintiendrait l'aide financière à l'Ukraine six mois après son élection, « pour ne mettre personne au pied du mur », puis l'arrêterait, « car nous n'avons plus les moyens de le faire ».",
-      "bfm_lepen_ukraine"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Le 23 avril 2026, le Conseil de l'Union européenne a finalisé un prêt de 90 milliards d'euros à l'Ukraine pour 2026 et 2027.",
@@ -11523,7 +10356,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ukraine"
   },
   {
    "c": "attal",
@@ -11554,7 +10388,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "parcoursup"
   },
   {
    "c": "attal",
@@ -11579,13 +10414,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "engagement"
   },
   {
    "c": "attal",
    "th": "etudes",
    "t": "Évaluer les licences et les masters tous les trois ans",
-   "d": "Évaluer les licences et les masters tous les trois ans.",
+   "d": "Les formations à la fois très décrochantes et peu insérantes pourraient être supprimées ou refondues.",
    "s": [
     "lyonmag_attal_jeunesse"
    ],
@@ -11596,10 +10432,6 @@
     "detail": [
      [
       "Les licences et les masters seraient évalués « tous les trois ans ».",
-      "lyonmag_attal_jeunesse"
-     ],
-     [
-      "Les formations à la fois très décrochantes et peu insérantes pourraient être supprimées ou refondues.",
       "lyonmag_attal_jeunesse"
      ]
     ],
@@ -11624,20 +10456,10 @@
    "fin": "n",
    "id": "p196",
    "plus": {
-    "detail": [
-     [
-      "Faire passer de 40 000 à 100 000 le nombre d'ingénieurs formés chaque année, et doubler en cinq ans les infrastructures informatiques françaises.",
-      "maddyness_ia"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2025, 85 % des 18-24 ans utilisent l'IA générative.",
-      "sujet_numerique_barometre_rapport"
-     ]
-    ],
+    "detail": [],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "former_ia"
   },
   {
    "c": "philippe",
@@ -11651,12 +10473,7 @@
    "fin": "n",
    "id": "p197",
    "plus": {
-    "detail": [
-     [
-      "Créer un « droit à la reconversion » pour les personnes dont le métier est menacé par l'intelligence artificielle.",
-      "maddyness_ia"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Le règlement européen sur l'IA impose depuis février 2025 des obligations de formation aux organisations qui utilisent l'IA.",
@@ -11664,7 +10481,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "former_ia"
   },
   {
    "c": "retailleau",
@@ -11686,10 +10504,6 @@
    "plus": {
     "detail": [
      [
-      "Un plan de 25 milliards d'euros sur cinq ans pour développer l'intelligence artificielle.",
-      "maddyness_ia"
-     ],
-     [
       "Il compte aussi sur l'IA pour « remettre sur le terrain » 150 000 fonctionnaires.",
       "acteurspublics_retailleau_etat"
      ]
@@ -11707,13 +10521,14 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "investir"
   },
   {
    "c": "glucksmann",
    "th": "numerique",
    "t": "Une agence industrielle du numérique et de l'IA",
-   "d": "Créer une « agence industrielle du numérique et de l'IA ».",
+   "d": "Dans un « nouveau contrat patriotique » pour « l'indépendance énergétique, technologique et industrielle ».",
    "s": [
     "maddyness_ia"
    ],
@@ -11725,20 +10540,11 @@
      [
       "Il propose de créer une « agence industrielle du numérique et de l'IA ».",
       "maddyness_ia"
-     ],
-     [
-      "Son « nouveau contrat patriotique » vise « l'indépendance énergétique, technologique et industrielle ».",
-      "lcp_primaire_oppositions"
-     ]
-    ],
-    "auj": [
-     [
-      "Le règlement européen sur l'IA s'applique de façon générale depuis le 2 août 2026, avec des exceptions.",
-      "sujet_numerique_ec_ai_act"
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "investir"
   },
   {
    "c": "glucksmann",
@@ -11752,12 +10558,7 @@
    "fin": "s",
    "id": "p200",
    "plus": {
-    "detail": [
-     [
-      "Il propose un traité international encadrant les usages de l'intelligence artificielle à très haut risque.",
-      "maddyness_ia"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Dans l'Union européenne, le règlement sur l'IA interdit déjà certaines pratiques depuis le 2 février 2025.",
@@ -11765,7 +10566,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "encadrer_ia"
   },
   {
    "c": "tondelier",
@@ -11796,7 +10598,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "encadrer_ia"
   },
   {
    "c": "retailleau",
@@ -11810,12 +10613,7 @@
    "fin": "s",
    "id": "p202",
    "plus": {
-    "detail": [
-     [
-      "Supprimer les certificats d'économie d'énergie (CEE), ce qui pourrait selon lui réduire les prix à la pompe de « 15 à 17 centimes par litre ».",
-      "afp_pouvoir_achat"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "En septembre 2026, les prix de l'énergie ont augmenté de 21,2 % sur un an (estimation provisoire).",
@@ -11823,7 +10621,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "energie_prix"
   },
   {
    "c": "retailleau",
@@ -11838,10 +10637,6 @@
    "id": "p203",
    "plus": {
     "detail": [
-     [
-      "Mieux rémunérer ceux qui acceptent de travailler « 30 minutes de plus chaque jour ».",
-      "afp_pouvoir_achat"
-     ],
      [
       "Nous n'avons pas trouvé le mécanisme ni le coût.",
       null
@@ -11860,7 +10655,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "le-pen",
@@ -11878,10 +10674,6 @@
      [
       "Les entreprises qui augmenteraient les salaires de 10 % seraient exonérées de cotisations patronales sur cette hausse.",
       "afp_pouvoir_achat"
-     ],
-     [
-      "Nous n'avons pas trouvé de coût annoncé.",
-      null
      ]
     ],
     "auj": [
@@ -11891,7 +10683,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "melenchon",
@@ -11942,13 +10735,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "parcoursup"
   },
   {
    "c": "melenchon",
    "th": "institutions",
    "t": "Le droit de vote à 16 ans",
-   "d": "Abaisser l'âge du droit de vote à 16 ans, contre 18 actuellement.",
+   "d": "Soit environ 1,5 million d'électeurs en plus, selon Public Sénat.",
    "s": [
     "orange_melenchon_jeunes"
    ],
@@ -11994,7 +10788,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "vote16"
   },
   {
    "c": "melenchon",
@@ -12051,13 +10846,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "lycee_pro"
   },
   {
    "c": "becht",
    "th": "etudes",
    "t": "Supprimer et remplacer Parcoursup",
-   "d": "« Parcoursup est une boîte noire qui doit être supprimée et remplacée. »",
+   "d": "Il évoque à la place « une épreuve de spécialité » pour orienter les élèves.",
    "s": [
     "sudradio_becht"
    ],
@@ -12092,7 +10888,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "parcoursup"
   },
   {
    "c": "becht",
@@ -12162,7 +10959,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "contrat"
   },
   {
    "c": "becht",
@@ -12285,7 +11083,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "fortunes"
   },
   {
    "c": "melenchon",
@@ -12359,7 +11158,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "fortunes"
   },
   {
    "c": "melenchon",
@@ -12426,7 +11226,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "police"
   },
   {
    "c": "melenchon",
@@ -12489,7 +11290,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "c": "melenchon",
@@ -12563,13 +11365,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "violences"
   },
   {
    "c": "melenchon",
    "th": "logement",
    "t": "Augmenter les APL de 10 %",
-   "d": "Augmenter les aides personnalisées au logement (APL) de 10 %.",
+   "d": "Pour que les APL suivent l'inflation, selon son parti.",
    "s": [
     "lcp_contrebudget_2027",
     "lfi_synthese"
@@ -12627,7 +11430,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "loyers"
   },
   {
    "c": "melenchon",
@@ -12663,11 +11467,6 @@
       "lfi_synthese"
      ]
     ],
-    "pourquoi": [
-     [
-      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
-     ]
-    ],
     "auj": [
      [
       "L'encadrement des loyers est une expérimentation créée par la loi Élan du 23 novembre 2018. Elle doit prendre fin le 24 novembre 2026, sauf nouvelle prolongation. Environ 70 villes l'appliquent, dont Paris, Lille, Lyon, Bordeaux et Grenoble.",
@@ -12685,7 +11484,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "loyers"
   },
   {
    "c": "melenchon",
@@ -12758,13 +11558,14 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "soignants"
   },
   {
    "c": "melenchon",
    "th": "ecologie",
    "t": "100 % d'énergies renouvelables en 2050",
-   "d": "« Organiser le 100 % d'énergies renouvelables en 2050 et la rénovation énergétique » : c'est le titre d'une partie de son programme.",
+   "d": "Avec la sortie du nucléaire et l'abandon des projets de réacteurs EPR, selon La Croix.",
    "s": [
     "lfi_synthese"
    ],
@@ -12825,7 +11626,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "melenchon",
@@ -12868,7 +11670,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "changer_ue"
   },
   {
    "c": "melenchon",
@@ -12949,11 +11752,6 @@
       "lfi_synthese"
      ]
     ],
-    "pourquoi": [
-     [
-      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
-     ]
-    ],
     "auj": [
      [
       "Seuls les cinq membres permanents du Conseil de sécurité ont un droit de veto : la Chine, les États-Unis, la France, le Royaume-Uni et la Russie.",
@@ -13014,7 +11812,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "otan"
   },
   {
    "c": "melenchon",
@@ -13046,11 +11845,6 @@
       "lfi_synthese"
      ]
     ],
-    "pourquoi": [
-     [
-      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
-     ]
-    ],
     "auj": [
      [
       "La loi de programmation militaire « prévoit 413 milliards d'euros pour les armées entre 2024 et 2030 ». Le budget de la défense pour 2026 est de 57,1 milliards d'euros.",
@@ -13068,7 +11862,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "industrie_def"
   },
   {
    "c": "melenchon",
@@ -13096,11 +11891,6 @@
       "lfi_synthese"
      ]
     ],
-    "pourquoi": [
-     [
-      "Nous n'avons pas trouvé, pour l'instant, d'explication détaillée de sa part sur cette mesure."
-     ]
-    ],
     "auj": [
      [
       "Le 2 mars 2026, Emmanuel Macron a annoncé une hausse du nombre de têtes nucléaires françaises, jusque-là « moins de 300 », et que ce nombre ne serait plus rendu public.",
@@ -13118,7 +11908,7 @@
    "c": "melenchon",
    "th": "etat",
    "t": "Rouvrir les accueils physiques des services publics",
-   "d": "Rouvrir des accueils physiques dans les services publics.",
+   "d": "Pour un accompagnement humain dans les démarches ; son parti juge les maisons France services « un palliatif ».",
    "s": [
     "lfi_synthese"
    ],
@@ -13177,7 +11967,7 @@
    "c": "melenchon",
    "th": "etudes",
    "t": "Une « garantie d'autonomie » de 1 337 € par mois pour les jeunes",
-   "d": "Créer une « garantie d'autonomie » de 1 337 euros par mois pour les jeunes.",
+   "d": "Prévue dans son plan budgétaire du 14 octobre 2026 ; les conditions (âge, ressources) ne sont pas précisées.",
    "s": [
     "ps_contrebudget_2027"
    ],
@@ -13246,13 +12036,13 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "etudiants"
   },
   {
    "c": "melenchon",
    "th": "numerique",
    "t": "Interdire la reconnaissance faciale",
-   "d": "Interdire la reconnaissance faciale.",
    "s": [
     "lfi_synthese"
    ],
@@ -13289,7 +12079,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "encadrer_ia"
   },
   {
    "c": "melenchon",
@@ -13340,7 +12131,8 @@
      "lcp_melenchon_programme"
     ],
     "maj": "2026-10-18"
-   }
+   },
+   "q": "investir"
   },
   {
    "c": "arthaud",
@@ -13378,7 +12170,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nationaliser"
   },
   {
    "c": "arthaud",
@@ -13394,10 +12187,6 @@
    "fin": "s",
    "plus": {
     "detail": [
-     [
-      "« Levée du secret commercial et du secret des affaires pour rendre publics les comptes de ces grandes entreprises »",
-      "lo_brochure_2026"
-     ],
      [
       "Elle veut « imposer que l'intégralité des comptes des grandes entreprises soit rendue publique ».",
       "lo_brochure_2026"
@@ -13456,7 +12245,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "otan"
   },
   {
    "c": "asselineau",
@@ -13488,7 +12278,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ukraine"
   },
   {
    "c": "asselineau",
@@ -13530,7 +12321,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "frontieres"
   },
   {
    "c": "asselineau",
@@ -13546,10 +12338,6 @@
    "fin": "n",
    "plus": {
     "detail": [
-     [
-      "« Lancement d'un grand emprunt national réservé aux Français » pour « racheter la dette publique détenue par des fonds étrangers ».",
-      "upr_rentree_2026"
-     ],
      [
       "Le compte rendu ne précise ni le montant, ni la durée, ni le taux de cet emprunt.",
       null
@@ -13570,7 +12358,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "asselineau",
@@ -13579,7 +12368,6 @@
    "aj": "2026-10-19",
    "th": "institutions",
    "t": "Réduire le nombre de députés et de sénateurs",
-   "d": "Réduire le nombre de députés et de sénateurs.",
    "s": [
     "upr_rentree_2026"
    ],
@@ -13606,7 +12394,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "elections"
   },
   {
    "c": "asselineau",
@@ -13646,7 +12435,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ric"
   },
   {
    "c": "asselineau",
@@ -13691,7 +12481,6 @@
    "aj": "2026-10-19",
    "th": "institutions",
    "t": "Donner au peuple la primauté sur le Conseil constitutionnel",
-   "d": "Affirmer la « primauté du peuple sur le Conseil constitutionnel ».",
    "s": [
     "upr_rentree_2026"
    ],
@@ -13723,7 +12512,6 @@
    "aj": "2026-10-19",
    "th": "institutions",
    "t": "Inscrire dans la Constitution une « République laïque de tradition chrétienne »",
-   "d": "Inscrire dans la Constitution que la France est une « République laïque de tradition chrétienne ».",
    "s": [
     "upr_rentree_2026"
    ],
@@ -13789,7 +12577,6 @@
    "aj": "2026-10-19",
    "th": "etat",
    "t": "Supprimer les régions et la moitié des conseillers départementaux",
-   "d": "Supprimer les régions et la moitié des conseillers départementaux.",
    "s": [
     "upr_rentree_2026"
    ],
@@ -13822,7 +12609,8 @@
      "upr_rentree_2026"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "c": "asselineau",
@@ -13922,7 +12710,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "attal",
@@ -14038,7 +12827,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "referendums"
   },
   {
    "c": "attal",
@@ -14053,12 +12843,7 @@
    ],
    "fin": "n",
    "plus": {
-    "detail": [
-     [
-      "Il veut « l'intégration de l'IA (intelligence artificielle) à tous les programmes scolaires, dès le collège ».",
-      "orange_attal"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "En 2025, 85 % des 18-24 ans utilisent l'IA générative.",
@@ -14083,16 +12868,13 @@
    "plus": {
     "detail": [
      [
-      "Il « prévoit la fermeture d'une centaine d'établissements assimilés à des « ghettos scolaires » ».",
-      "ps_ecole_attal_philippe"
-     ],
-     [
       "Nous n'avons pas trouvé selon quels critères ces établissements seraient choisis ni où iraient leurs élèves.",
       null
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "mixite"
   },
   {
    "c": "attal",
@@ -14120,7 +12902,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "lycee_pro"
   },
   {
    "c": "batho",
@@ -14166,7 +12949,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "canicules"
   },
   {
    "c": "becht",
@@ -14204,7 +12988,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "familles"
   },
   {
    "c": "becht",
@@ -14252,7 +13037,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "soignants"
   },
   {
    "c": "becht",
@@ -14302,7 +13088,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "police"
   },
   {
    "c": "becht",
@@ -14342,7 +13129,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "sanctions"
   },
   {
    "c": "becht",
@@ -14388,7 +13176,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "immig_niveau"
   },
   {
    "c": "becht",
@@ -14443,7 +13232,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fossiles"
   },
   {
    "c": "becht",
@@ -14485,7 +13275,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "trains"
   },
   {
    "c": "becht",
@@ -14528,7 +13319,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "changer_ue"
   },
   {
    "c": "becht",
@@ -14564,7 +13356,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "elections"
   },
   {
    "c": "becht",
@@ -14581,10 +13374,6 @@
    "plus": {
     "detail": [
      [
-      "Il veut « un véritable référendum d'initiative citoyenne, qui permettra à chacun de saisir directement l'Assemblée nationale ».",
-      "becht_democratie"
-     ],
-     [
       "Nous n'avons pas trouvé le nombre de signatures nécessaires.",
       null
      ]
@@ -14600,7 +13389,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ric"
   },
   {
    "c": "becht",
@@ -14662,7 +13452,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "c": "becht",
@@ -14671,7 +13462,7 @@
    "aj": "2026-10-19",
    "th": "education",
    "t": "Revaloriser le salaire des enseignants et repenser leur formation",
-   "d": "Revaloriser le salaire des enseignants et repenser leur formation.",
+   "d": "« Pour que l'enseignement redevienne un métier que l'on choisit » ; le montant n'est pas précisé.",
    "s": [
     "becht_sociale"
    ],
@@ -14704,7 +13495,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "profs_salaire"
   },
   {
    "c": "becht",
@@ -14746,7 +13538,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "etudiants"
   },
   {
    "c": "bouamrane",
@@ -14803,7 +13596,6 @@
    "aj": "2026-10-19",
    "th": "defense",
    "t": "Augmenter fortement les dépenses de défense",
-   "d": "Augmenter fortement les dépenses militaires.",
    "s": [
     "oumma_bouamrane"
    ],
@@ -14831,7 +13623,8 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "budget_armee"
   },
   {
    "c": "bouamrane",
@@ -14869,7 +13662,8 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "bouamrane",
@@ -14886,10 +13680,6 @@
    "plus": {
     "detail": [
      [
-      "Il veut faciliter l'accès des petites entreprises aux marchés publics, avec une préférence locale « à compétences égales ».",
-      "oumma_bouamrane"
-     ],
-     [
       "Les entreprises aidées par l'argent public devraient investir, employer localement et payer leurs impôts en France.",
       "oumma_bouamrane"
      ]
@@ -14905,7 +13695,8 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "industrie"
   },
   {
    "c": "bouamrane",
@@ -14947,7 +13738,8 @@
      "oumma_bouamrane"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "investir"
   },
   {
    "c": "bouamrane",
@@ -14975,7 +13767,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "c": "bouamrane",
@@ -15007,7 +13800,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "normes"
   },
   {
    "c": "branco",
@@ -15047,7 +13841,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "smic"
   },
   {
    "c": "branco",
@@ -15087,7 +13882,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "remboursement"
   },
   {
    "c": "branco",
@@ -15102,12 +13898,7 @@
    ],
    "fin": "n",
    "plus": {
-    "detail": [
-     [
-      "« Rétablissement de la gratuité réelle des études universitaires pour tout résident Français. »",
-      "branco_ruches"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "À la rentrée 2025, 3 049 600 étudiants sont inscrits dans l'enseignement supérieur.",
@@ -15119,7 +13910,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "etudiants"
   },
   {
    "c": "branco",
@@ -15151,14 +13943,15 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "medias"
   },
   {
    "c": "branco",
    "id": "p276",
    "k": "ukraine",
    "aj": "2026-10-19",
-   "th": "defense",
+   "th": "europe",
    "t": "Arrêter les livraisons d'armes à l'Ukraine",
    "d": "Arrêter les livraisons d'armes à l'Ukraine et abandonner l'interopérabilité systématique avec les systèmes de l'OTAN.",
    "s": [
@@ -15193,7 +13986,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ukraine"
   },
   {
    "c": "branco",
@@ -15202,7 +13996,6 @@
    "aj": "2026-10-19",
    "th": "numerique",
    "t": "Un opérateur unique des réseaux et des télécoms",
-   "d": "Mettre en place un opérateur unique des réseaux et des télécoms.",
    "s": [
     "branco_ruches"
    ],
@@ -15223,7 +14016,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "investir"
   },
   {
    "c": "branco",
@@ -15259,71 +14053,8 @@
      "branco_ruches"
     ],
     "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "brun",
-   "id": "p279",
-   "k": "ia",
-   "aj": "2026-10-19",
-   "th": "numerique",
-   "t": "1,5 % du PIB pour l'intelligence artificielle",
-   "d": "Investir massivement dans l'intelligence artificielle, à hauteur de 1,5 % du PIB, et créer un laboratoire de 1 700 chercheurs.",
-   "s": [
-    "lcp_brun",
-    "gazette_brun_produire"
-   ],
-   "fin": "n",
-   "plus": {
-    "detail": [
-     [
-      "« Un investissement massif à hauteur de 1,5% du PIB pour investir dans l'intelligence artificielle » et « créer un laboratoire de 1.700 chercheurs ».",
-      "lcp_brun"
-     ]
-    ],
-    "pourquoi": [
-     [
-      "Pour la souveraineté, il veut que la France soit parmi « les meilleurs » dans le numérique et les composants.",
-      "gazette_brun_produire"
-     ]
-    ],
-    "auj": [
-     [
-      "En 2025, 48 % des personnes de 12 ans et plus utilisaient des services d'IA générative.",
-      "sujet_numerique_arcep_cp"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
-  },
-  {
-   "c": "brun",
-   "id": "p280",
-   "k": "mines",
-   "aj": "2026-10-19",
-   "th": "eco",
-   "t": "Une compagnie nationale des mines",
-   "d": "Créer une compagnie nationale des mines de France pour relancer l'exploitation minière.",
-   "s": [
-    "lcp_brun",
-    "gazette_brun_produire"
-   ],
-   "fin": "n",
-   "plus": {
-    "detail": [
-     [
-      "Il souhaite la création d'une « compagnie nationale des mines de France pour renforcer l'exploitation minière ».",
-      "lcp_brun"
-     ]
-    ],
-    "pourquoi": [
-     [
-      "« La production est à la base de tout. »",
-      "lcp_brun"
-     ]
-    ],
-    "maj": "2026-10-19"
-   }
+   },
+   "q": "regroupement"
   },
   {
    "c": "cazeneuve",
@@ -15360,7 +14091,11 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "budget_armee",
+    "otan"
+   ]
   },
   {
    "c": "cazeneuve",
@@ -15396,7 +14131,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "violences"
   },
   {
    "c": "cazeneuve",
@@ -15428,7 +14164,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "narcotrafic"
   },
   {
    "c": "cazeneuve",
@@ -15465,7 +14202,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "immig_niveau"
   },
   {
    "c": "cazeneuve",
@@ -15518,12 +14256,6 @@
       "caz_synthese"
      ]
     ],
-    "auj": [
-     [
-      "Au 2e trimestre 2026, le taux d'emploi des 15-64 ans est de 69,0 %.",
-      "sujet_travail_insee_chomage"
-     ]
-    ],
     "maj": "2026-10-19"
    }
   },
@@ -15557,7 +14289,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "canicules"
   },
   {
    "c": "cazeneuve",
@@ -15582,14 +14315,9 @@
       "caz_synthese"
      ]
     ],
-    "auj": [
-     [
-      "En mathématiques, la France obtient 458 points à PISA 2025, 16 de moins qu'en 2022 (moyenne de l'OCDE : 463).",
-      "sujet_education_depp_pisa2025"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "profs_salaire"
   },
   {
    "c": "cazeneuve",
@@ -15611,7 +14339,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "medias"
   },
   {
    "c": "cazeneuve",
@@ -15632,14 +14361,9 @@
       "caz_synthese"
      ]
     ],
-    "auj": [
-     [
-      "Une commission d'enquête du Sénat a recensé en 2025 103 agences, 434 opérateurs et 317 organismes consultatifs de l'État.",
-      "sujet_etat_senat_r807"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "normes"
   },
   {
    "c": "cazeneuve",
@@ -15675,7 +14399,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "encadrer_ia"
   },
   {
    "c": "cazeneuve",
@@ -15707,7 +14432,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "industrie"
   },
   {
    "c": "dupont-aignan",
@@ -15724,10 +14450,6 @@
    "fin": "n",
    "plus": {
     "detail": [
-     [
-      "« Je veux sortir de l'Union européenne pour rendre son indépendance à la France. »",
-      "sudradio_nda_0920"
-     ],
      [
       "Il veut « sortir de l'Union européenne pour reconstruire la France ».",
       "entrevue_nda_0916"
@@ -15755,7 +14477,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "rester_ue"
   },
   {
    "c": "dupont-aignan",
@@ -15787,7 +14510,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "capitalisation"
   },
   {
    "c": "dupont-aignan",
@@ -15804,10 +14528,6 @@
    "plus": {
     "detail": [
      [
-      "« Je veux mettre en place un protectionnisme intelligent comme le font les pays d'Asie. »",
-      "sudradio_nda_0920"
-     ],
-     [
       "Nous n'avons pas trouvé quels droits de douane ou quels secteurs seraient concernés.",
       null
      ]
@@ -15819,7 +14539,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "industrie"
   },
   {
    "c": "dupont-aignan",
@@ -15828,7 +14549,6 @@
    "aj": "2026-10-19",
    "th": "institutions",
    "t": "La démocratie directe « à la Suisse »",
-   "d": "Instaurer une démocratie directe sur le modèle suisse.",
    "s": [
     "sudradio_nda_0920"
    ],
@@ -15851,7 +14571,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ric"
   },
   {
    "c": "egger",
@@ -15889,7 +14610,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "referendums"
   },
   {
    "c": "glucksmann",
@@ -15898,7 +14620,7 @@
    "aj": "2026-10-19",
    "th": "immigration",
    "t": "Régulariser les travailleurs sans papiers",
-   "d": "Régulariser les travailleurs sans papiers.",
+   "d": "« Nous le ferons et ce sera populaire », dit-il ; les critères ne sont pas précisés.",
    "s": [
     "lcp_debat3"
    ],
@@ -15927,7 +14649,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "c": "glucksmann",
@@ -15963,7 +14686,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "glucksmann",
@@ -15978,12 +14702,7 @@
    ],
    "fin": "n",
    "plus": {
-    "detail": [
-     [
-      "Il veut relancer les colonies de vacances « en garantissant à chaque enfant un séjour collectif ».",
-      "ps_glucksmann_propositions"
-     ]
-    ],
+    "detail": [],
     "pourquoi": [
      [
       "Selon lui, les colonies accueillent trois fois moins d'enfants que dans les années 1980.",
@@ -16000,7 +14719,6 @@
    "aj": "2026-10-19",
    "th": "logement",
    "t": "Exproprier les logements vides et geler les loyers",
-   "d": "Exproprier les logements vides, plafonner et geler les loyers.",
    "s": [
     "kazib_programme"
    ],
@@ -16023,7 +14741,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "loyers"
   },
   {
    "c": "kazib",
@@ -16060,7 +14779,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "etudiants"
   },
   {
    "c": "kazib",
@@ -16092,7 +14812,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "irreguliers"
   },
   {
    "c": "kazib",
@@ -16134,7 +14855,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "budget_armee"
   },
   {
    "c": "kazib",
@@ -16168,7 +14890,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "police"
   },
   {
    "c": "kazib",
@@ -16204,7 +14927,8 @@
      "kazib_programme"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nationaliser"
   },
   {
    "c": "lalanne",
@@ -16240,7 +14964,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "agriculture"
   },
   {
    "c": "le-pen",
@@ -16284,7 +15009,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "aides_etrangers"
   },
   {
    "c": "le-pen",
@@ -16319,7 +15045,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "changer_ue"
   },
   {
    "c": "le-pen",
@@ -16369,7 +15096,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "c": "le-pen",
@@ -16424,7 +15152,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "le-pen",
@@ -16464,7 +15193,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "etudiants"
   },
   {
    "c": "lisnard",
@@ -16506,7 +15236,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "sanctions"
   },
   {
    "c": "lisnard",
@@ -16552,7 +15283,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "sanctions"
   },
   {
    "c": "lisnard",
@@ -16594,7 +15326,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "aides_etrangers"
   },
   {
    "c": "lisnard",
@@ -16635,7 +15368,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "mixite"
   },
   {
    "c": "lisnard",
@@ -16644,7 +15378,7 @@
    "aj": "2026-10-19",
    "th": "education",
    "t": "Les enseignants augmentés de 20 % en cinq ans, avec plus d'autonomie",
-   "d": "Augmenter de 20 % en cinq ans la rémunération des enseignants, en échange de plus d'autonomie, de présence, de formation et d'évaluation, et instaurer un certificat de fin de primaire pour entrer au collège.",
+   "d": "En échange de plus d'autonomie, de présence, de formation et d'évaluation. Il veut aussi un certificat de fin de primaire pour entrer au collège.",
    "s": [
     "ne_education"
    ],
@@ -16675,7 +15409,11 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": [
+    "profs_salaire",
+    "examen"
+   ]
   },
   {
    "c": "lisnard",
@@ -16725,7 +15463,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "soignants"
   },
   {
    "c": "lisnard",
@@ -16761,7 +15500,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "contrat"
   },
   {
    "c": "lisnard",
@@ -16807,7 +15547,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "c": "lisnard",
@@ -16843,7 +15584,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "changer_ue"
   },
   {
    "c": "mikolajczak",
@@ -16879,7 +15621,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "territoires"
   },
   {
    "c": "philippe",
@@ -16914,14 +15657,15 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "philippe",
    "id": "p325",
    "k": "fonctionnaires",
    "aj": "2026-10-19",
-   "th": "budget",
+   "th": "etat",
    "t": "Ne remplacer que deux fonctionnaires sur trois partant à la retraite",
    "d": "Ne pas remplacer un fonctionnaire sur trois partant à la retraite, soit environ 250 000 postes en moins sur cinq ans.",
    "s": [
@@ -16929,12 +15673,7 @@
    ],
    "fin": "n",
    "plus": {
-    "detail": [
-     [
-      "Ne pas remplacer un fonctionnaire sur trois partant à la retraite, soit environ 250 000 postes supprimés sur cinq ans.",
-      "sudradio_philippe_hdv"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Fin 2024, 5,9 millions d'agents travaillent dans les trois fonctions publiques, dont 2,59 millions pour l'État.",
@@ -16942,7 +15681,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fonctionnaires"
   },
   {
    "c": "philippe",
@@ -16967,14 +15707,9 @@
       "sudradio_philippe_hdv"
      ]
     ],
-    "auj": [
-     [
-      "Au Smic, un salarié à temps plein touche 1 867,02 € brut par mois, soit 1 477,93 € net, depuis le 1er juin 2026.",
-      "sujet_travail_sp_smic_juin"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "travailler_plus"
   },
   {
    "c": "polony",
@@ -17017,14 +15752,9 @@
       "pleinchamp_polony"
      ]
     ],
-    "auj": [
-     [
-      "En 2025, 2,69 millions d'hectares sont cultivés en bio, environ 10 % de la surface agricole.",
-      "sujet_env_agencebio_2025"
-     ]
-    ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "agriculture"
   },
   {
    "c": "polony",
@@ -17062,7 +15792,8 @@
      "sudradio_polony_0915"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "energie_prix"
   },
   {
    "c": "polony",
@@ -17071,7 +15802,6 @@
    "aj": "2026-10-19",
    "th": "eco",
    "t": "Renationaliser EDF et protéger le nucléaire",
-   "d": "Renationaliser EDF et protéger la filière nucléaire.",
    "s": [
     "sudradio_polony_0915"
    ],
@@ -17100,7 +15830,8 @@
      "sudradio_polony_0915"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nationaliser"
   },
   {
    "c": "polony",
@@ -17117,10 +15848,6 @@
    "plus": {
     "detail": [
      [
-      "Elle s'oppose à un marché unique européen de la défense, qui menacerait selon elle des groupes comme Dassault, Thales ou Safran.",
-      "sudradio_polony_0915"
-     ],
-     [
       "Elle veut un « rapport de force » avec les États-Unis et les pays européens.",
       "sudradio_polony_0915"
      ]
@@ -17136,7 +15863,8 @@
      "sudradio_polony_0915"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "industrie_def"
   },
   {
    "c": "retailleau",
@@ -17201,7 +15929,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fonctionnaires"
   },
   {
    "c": "retailleau",
@@ -17242,7 +15971,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "impots_simplifier"
   },
   {
    "c": "retailleau",
@@ -17280,7 +16010,8 @@
      ]
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "referendums"
   },
   {
    "c": "tondelier",
@@ -17296,12 +16027,7 @@
    ],
    "fin": "n",
    "plus": {
-    "detail": [
-     [
-      "Retour à un âge minimum de 62 ans, avec un objectif de 60 ans pour les carrières longues et les métiers pénibles.",
-      "pp_ecolos_retraites"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "Depuis le 1er septembre 2026, l'âge légal va de 62 ans et 9 mois (nés en 1964) à 64 ans (nés à partir de 1969).",
@@ -17313,7 +16039,8 @@
      "eco_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "age_retraite"
   },
   {
    "c": "tondelier",
@@ -17347,7 +16074,8 @@
      "eco_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "tondelier",
@@ -17356,7 +16084,7 @@
    "aj": "2026-10-19",
    "th": "eco",
    "t": "Un impôt de 2 % sur les patrimoines de plus de 100 millions (taxe Zucman)",
-   "d": "Instaurer la taxe Zucman, un prélèvement de 2 % sur les patrimoines de plus de 100 millions d'euros, et une « fiscalité verte et juste » : l'avion plus cher, le train moins cher.",
+   "d": "Un prélèvement de 2 % sur ces patrimoines. Elle veut aussi une « fiscalité verte et juste » : l'avion plus cher, le train moins cher.",
    "s": [
     "pp_ecolos_retraites",
     "pp_ecolos_institutions",
@@ -17385,7 +16113,8 @@
      "eco_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fortunes"
   },
   {
    "c": "tondelier",
@@ -17412,7 +16141,8 @@
      "eco_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "police"
   },
   {
    "c": "tondelier",
@@ -17445,14 +16175,15 @@
      "eco_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "changer_ue"
   },
   {
    "c": "tondelier",
    "id": "p339",
    "k": "ukraine",
    "aj": "2026-10-19",
-   "th": "defense",
+   "th": "europe",
    "t": "Soutenir l'Ukraine militairement et préparer l'armée à une guerre de haute intensité",
    "d": "Soutenir l'Ukraine militairement et économiquement, et préparer l'armée française à une guerre de haute intensité.",
    "s": [
@@ -17461,12 +16192,7 @@
    ],
    "fin": "n",
    "plus": {
-    "detail": [
-     [
-      "Soutenir Kiev « militairement » et économiquement, et préparer l'armée à une guerre de haute intensité.",
-      "pp_ecolos_retraites"
-     ]
-    ],
+    "detail": [],
     "auj": [
      [
       "La loi d'août 2026 sur la programmation militaire prévoit 436 milliards d'euros pour la défense sur 2024-2030.",
@@ -17478,7 +16204,8 @@
      "eco_projet"
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "ukraine"
   },
   {
    "c": "villepin",
@@ -17515,7 +16242,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "salaires"
   },
   {
    "c": "villepin",
@@ -17551,7 +16279,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "capitalisation"
   },
   {
    "c": "villepin",
@@ -17584,7 +16313,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "energie_prix"
   },
   {
    "c": "villepin",
@@ -17620,7 +16350,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "logements"
   },
   {
    "c": "villepin",
@@ -17671,7 +16402,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "impots_simplifier"
   },
   {
    "c": "villepin",
@@ -17714,7 +16446,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "fortunes"
   },
   {
    "c": "villepin",
@@ -17752,7 +16485,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "deficit"
   },
   {
    "c": "villepin",
@@ -17788,7 +16522,8 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "nucleaire_enr"
   },
   {
    "c": "villepin",
@@ -17824,7 +16559,314 @@
      null
     ],
     "maj": "2026-10-19"
-   }
+   },
+   "q": "normes"
+  },
+  {
+   "c": "mathieu",
+   "th": "institutions",
+   "t": "Créer un référendum d'initiative citoyenne (RIC)",
+   "d": "Il prépare un article de loi prêt à l'emploi, inspiré des propositions de Votation France et de Solution démocratique ; le texte n'est pas encore finalisé.",
+   "s": [
+    "mathieu_programme"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p349",
+   "k": "ric",
+   "plus": {
+    "detail": [
+     [
+      "Le site de campagne doit publier un article de loi « prêt à l'emploi », consultable en ligne. Le candidat indique revoir un premier brouillon.",
+      "mathieu_programme"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, un référendum peut être organisé à l'initiative d'un cinquième des parlementaires, soutenue par un dixième des électeurs inscrits (article 11 de la Constitution). Les citoyens ne peuvent pas en déclencher un seuls.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "ric"
+  },
+  {
+   "c": "mathieu",
+   "th": "institutions",
+   "t": "Une nouvelle Constitution écrite par 500 citoyens tirés au sort",
+   "d": "Le texte serait soumis à référendum, puis le président démissionnerait.",
+   "s": [
+    "mathieu_programme",
+    "obs_candidats_1012"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p350",
+   "k": "constituante",
+   "plus": {
+    "detail": [
+     [
+      "Une assemblée constituante de 500 personnes tirées au sort réécrirait la Constitution, en s'appuyant sur le Livre blanc de Démocratie ouverte, rédigé par des constitutionnalistes et des experts.",
+      "mathieu_programme"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, la révision de la Constitution (article 89) est proposée par le Président ou les parlementaires, votée par les deux assemblées, puis approuvée par référendum ou par le Parlement réuni en Congrès (3/5 des voix).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "constitution"
+  },
+  {
+   "c": "mlekuz",
+   "th": "institutions",
+   "t": "Convoquer une assemblée constituante",
+   "d": "Il dit vouloir être un président « sans pouvoir » ; le détail de son projet n'est pas publié.",
+   "s": [
+    "obs_candidats_1012",
+    "sudradio_candidats_0824"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p351",
+   "k": "constituante",
+   "plus": {
+    "detail": [
+     [
+      "Il veut une assemblée constituante.",
+      "obs_candidats_1012"
+     ],
+     [
+      "Son slogan : « je serais un président sans pouvoir ».",
+      "sudradio_candidats_0824"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, la révision de la Constitution (article 89) est proposée par le Président ou les parlementaires, votée par les deux assemblées, puis approuvée par référendum ou par le Parlement réuni en Congrès (3/5 des voix).",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "constitution"
+  },
+  {
+   "c": "tondelier",
+   "th": "etudes",
+   "t": "Supprimer Parcoursup",
+   "d": "Elle veut la fin d'un « algorithme injuste, opaque » qui « stresse les élèves et leurs parents », et la demande « avant la présidentielle ».",
+   "s": [
+    "lcp_parcoursup_candidats"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p352",
+   "k": "parcoursup_nov",
+   "plus": {
+    "detail": [
+     [
+      "Sur France 2, le 26 octobre 2026, elle demande la suppression d'un « algorithme injuste, opaque », qui « stresse les élèves et leurs parents », « avant la présidentielle ».",
+      "lcp_parcoursup_candidats"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "parcoursup"
+  },
+  {
+   "c": "roussel",
+   "th": "etudes",
+   "t": "Abroger Parcoursup",
+   "d": "Pour « ouvrir les études à toutes et à tous ».",
+   "s": [
+    "lcp_parcoursup_candidats"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p353",
+   "k": "parcoursup_nov",
+   "plus": {
+    "detail": [
+     [
+      "Il est favorable à l'abrogation de Parcoursup, pour « ouvrir les études à toutes et à tous ».",
+      "lcp_parcoursup_candidats"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "parcoursup"
+  },
+  {
+   "c": "le-pen",
+   "th": "etudes",
+   "t": "Réformer Parcoursup pour rendre publics les critères de tri",
+   "d": "Elle exige une « transparence totale dans les critères » choisis par les universités et les écoles.",
+   "s": [
+    "lcp_parcoursup_candidats"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p354",
+   "k": "parcoursup_nov",
+   "plus": {
+    "detail": [
+     [
+      "Sur CNews, mi-octobre 2026, elle demande une « transparence totale dans les critères » choisis par les universités et les écoles.",
+      "lcp_parcoursup_candidats"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "parcoursup"
+  },
+  {
+   "c": "le-pen",
+   "th": "ecologie",
+   "t": "Autoriser de nouveau la recherche de pétrole et de gaz en France",
+   "d": "Elle veut abolir la loi Hulot de 2017, qui interdit les nouveaux permis d'exploration et prévoit la fin de l'extraction en France en 2040.",
+   "s": [
+    "afp_lepen_hulot"
+   ],
+   "aj": "2026-11-05",
+   "fin": "s",
+   "id": "p355",
+   "k": "loi_hulot",
+   "plus": {
+    "detail": [
+     [
+      "À Orléans, le 25 octobre 2026, lors de son premier grand meeting : « Nous abolirons, par exemple, la stupide loi Hulot qui interdit la recherche d'hydrocarbures sur le sol français. »",
+      "afp_lepen_hulot"
+     ],
+     [
+      "La loi de 2017 interdit les nouveaux permis d'exploration et le renouvellement des concessions, sur terre comme en mer, pour arrêter l'extraction d'hydrocarbures en France en 2040.",
+      "afp_lepen_hulot"
+     ],
+     [
+      "Selon l'AFP, 64 gisements de pétrole et de gaz étaient encore exploités en France en 2024, surtout dans les bassins aquitain et parisien. Ils couvraient environ 1 % de la consommation nationale.",
+      "afp_lepen_hulot"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "fossiles"
+  },
+  {
+   "c": "glucksmann",
+   "th": "etudes",
+   "t": "Remplacer Parcoursup après des états généraux de l'orientation",
+   "d": "Il veut « le supprimer pour le remplacer » selon « un calendrier précis », par un système préparé avec les lycéens, les parents et les enseignants.",
+   "s": [
+    "lcp_parcoursup_candidats"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p356",
+   "k": "parcoursup_nov",
+   "plus": {
+    "detail": [
+     [
+      "Sur TF1, le 26 octobre 2026, il veut « le supprimer pour le remplacer », avec « un calendrier précis ».",
+      "lcp_parcoursup_candidats"
+     ],
+     [
+      "L'alternative, « plus juste », sortirait d'« états généraux de l'orientation » réunissant lycéens, parents et enseignants.",
+      "lcp_parcoursup_candidats"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "parcoursup"
+  },
+  {
+   "c": "retailleau",
+   "th": "etudes",
+   "t": "Remplacer Parcoursup et sélectionner à l'université selon le « mérite »",
+   "d": "Il veut une nouvelle plateforme à la place de cette « boîte noire » et dit « assumer » la sélection à l'entrée de l'université.",
+   "s": [
+    "lcp_parcoursup_candidats"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p357",
+   "k": "parcoursup_nov",
+   "plus": {
+    "detail": [
+     [
+      "Il décrit Parcoursup comme une « boîte noire » et veut créer une nouvelle plateforme.",
+      "lcp_parcoursup_candidats"
+     ],
+     [
+      "Il veut une sélection à l'université fondée sur le « mérite », qu'il dit « assumer ».",
+      "lcp_parcoursup_candidats"
+     ]
+    ],
+    "auj": [
+     [
+      "Au 11 juillet 2026, 576 749 lycéens avaient reçu au moins une proposition d'admission sur Parcoursup, sur 660 399 candidats lycéens.",
+      "sujet_etudes_parcoursup_tdb"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "parcoursup"
+  },
+  {
+   "c": "melenchon",
+   "th": "etudes",
+   "t": "150 000 places de plus dans l'enseignement supérieur",
+   "d": "Pour que « tout bachelier » puisse « s'inscrire dans la formation de son choix comme la Constitution le prévoit ».",
+   "s": [
+    "lcp_parcoursup_candidats"
+   ],
+   "aj": "2026-11-05",
+   "fin": "n",
+   "id": "p358",
+   "k": "places_sup",
+   "plus": {
+    "detail": [
+     [
+      "Son parti réclame l'abolition de Parcoursup et 150 000 places supplémentaires, pour que « tout bachelier » puisse « s'inscrire dans la formation de son choix comme la Constitution le prévoit » (site de La France insoumise, 25 septembre 2026).",
+      "lcp_parcoursup_candidats"
+     ]
+    ],
+    "auj": [
+     [
+      "À la rentrée 2025, 3 049 600 étudiants étaient inscrits dans l'enseignement supérieur (+1,1 %).",
+      "sujet_etudes_sies_nf17"
+     ]
+    ],
+    "maj": "2026-11-05"
+   },
+   "q": "parcoursup"
   }
  ],
  "sources": {
@@ -22489,6 +21531,153 @@
    "d": "2026-09-18",
    "type": "presse",
    "u": "https://www.lavenir.net/actu/monde/2026/09/18/zemmour-confirme-quil-sera-candidat-a-lelection-presidentielle-en-france-et-durcit-encore-son-discours-sur-limmigration-5OFMOVM6CVCDFHY4B3GI5QID3Q/"
+  },
+  "toluna_v8": {
+   "t": "Intentions de vote à l'élection présidentielle, vague 8 (rapport complet)",
+   "p": "Toluna Harris Interactive pour M6 et RTL",
+   "d": "2026-10-23",
+   "type": "sondage",
+   "u": "https://tolunacorporate.com/wp-content/uploads/2026/10/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-8-M6-RTL-23-octobre-2026-1.pdf"
+  },
+  "ifop_baro_v7": {
+   "t": "Baromètre de l'élection présidentielle, vague 7 (résultats d'ensemble)",
+   "p": "Ifop-Fiducial pour LCI, Le Figaro et Sud Radio",
+   "d": "2026-10-20",
+   "type": "sondage",
+   "u": "https://www.ifopgroup.com/wp-content/uploads/2026/10/122853-barometre-de-lelection-presidentielle-vague-7-resultats-densemble.pdf"
+  },
+  "elabe_0829": {
+   "t": "Les Français et l'élection présidentielle 2027 (août 2026)",
+   "p": "Elabe pour BFMTV et La Tribune Dimanche",
+   "d": "2026-08-29",
+   "type": "sondage",
+   "u": "https://elabe.fr/fichier-pdf/13224-les-francais-et-lelection-presidentielle-2027/"
+  },
+  "entrevue_ifop_lci": {
+   "t": "Présidentielle 2027 : Le Pen et Mélenchon en tête du dernier sondage Ifop, David Lisnard devance Bruno Retailleau",
+   "p": "Entrevue",
+   "d": "2026-11-03",
+   "type": "presse",
+   "u": "https://entrevue.fr/presidentielle-2027/presidentielle-2027-le-pen-et-melenchon-en-tete-du-dernier-sondage-ifop/"
+  },
+  "mathieu_site": {
+   "t": "Benoît Mathieu, candidat citoyen 2027 · Cap 500 signatures",
+   "p": "Site de campagne de Benoît Mathieu",
+   "d": "2026-11-05",
+   "type": "officiel",
+   "u": "https://benoitmathieu2027.fr/"
+  },
+  "mathieu_programme": {
+   "t": "Programme",
+   "p": "Site de campagne de Benoît Mathieu",
+   "d": "2026-11-05",
+   "type": "officiel",
+   "u": "https://benoitmathieu2027.fr/programme"
+  },
+  "sudradio_mathieu": {
+   "t": "Présidentielle 2027 : un professeur sillonne la France à vélo en quête des 500 parrainages",
+   "p": "Sud Radio",
+   "d": "2026-05-06",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/sud-radio/presidentielle-2027-un-professeur-sillonne-la-france-a-velo-en-quete-des-500-parrainages"
+  },
+  "obs_candidats_1012": {
+   "t": "Quels sont les 29 candidats déjà officiellement déclarés à la présidentielle de 2027 ?",
+   "p": "L'Obs, repris par Yahoo Actualités",
+   "d": "2026-10-12",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/quels-25-candidats-d%C3%A9j%C3%A0-officiellement-065546555.html"
+  },
+  "bfm_mlekuz": {
+   "t": "À 20 ans, Manolo Mlekuz est candidat à l'élection présidentielle de 2027",
+   "p": "BFMTV, repris par Orange Actualités",
+   "d": "2026-10-22",
+   "type": "presse",
+   "u": "https://actu.orange.fr/videos/societe/a-20-ans-manolo-mlekuz-est-candidat-a-l-election-presidentielle-de-2027-CNT000002tl9U4.html"
+  },
+  "sudradio_candidats_0824": {
+   "t": "Présidentielle 2027 : le point sur toutes les candidatures",
+   "p": "Sud Radio",
+   "d": "2026-08-24",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/politique/presidentielle-2027-le-point-sur-toutes-les-candidatures"
+  },
+  "lcp_parcoursup_candidats": {
+   "t": "Parcoursup : suppression, remplacement, réforme... Ce que proposent les candidats à la présidentielle",
+   "p": "LCP",
+   "d": "2026-10-26",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/parcoursup-suppression-remplacement-reforme-ce-que-proposent-les-candidats-a-la"
+  },
+  "afp_lepen_hulot": {
+   "t": "Marine Le Pen souhaite abolir la loi Hulot sur la fin de l'exploitation des hydrocarbures en France",
+   "p": "L'Info Durable (dépêche AFP)",
+   "d": "2026-10-25",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/marine-le-pen-souhaite-abolir-la-loi-hulot-sur-la-fin-de-lexploitation-des-hydrocarbures-en-france"
+  },
+  "orange_tondelier_retrait": {
+   "t": "Présidentielle 2027 : Marine Tondelier évoque la possibilité de retirer sa candidature",
+   "p": "L'Express (6Médias), repris par Orange Actualités",
+   "d": "2026-10-26",
+   "type": "presse",
+   "u": "https://actu.orange.fr/politique/presidentielle-2027-marine-tondelier-evoque-la-possibilite-de-retirer-sa-candidature-l-express-via-6medias-CNT000002tosYK.html"
+  },
+  "yahoo_faure_glucksmann": {
+   "t": "« À présent, il faut avancer » : Olivier Faure souhaite « la victoire » de Raphaël Glucksmann à la présidentielle",
+   "p": "20 Minutes, repris par Yahoo Actualités",
+   "d": "2026-10-18",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/sport/%C3%A0-pr%C3%A9sent-faut-avancer-olivier-083110839.html"
+  },
+  "lcp_attal_primaire": {
+   "t": "« C'est inéluctable » : Gabriel Attal s'accroche à sa primaire, malgré le refus d'Édouard Philippe",
+   "p": "LCP",
+   "d": "2026-11-02",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/c-est-ineluctable-gabriel-attal-s-accroche-a-sa-primaire-malgre-le-refus-d-edouard"
+  },
+  "afp_primaire_retailleau": {
+   "t": "Primaire à droite et au centre : Retailleau remet la pression sur Philippe",
+   "p": "AFP, repris par Le Courrier du Vietnam",
+   "d": "2026-11-04",
+   "type": "presse",
+   "u": "https://lecourrier.vn/primaire-a-droite-et-au-centre-retailleau-remet-la-pression-sur-philippe/1358720.html"
+  },
+  "entrevue_villepin": {
+   "t": "Présidentielle 2027 : Dominique de Villepin confirme ses ambitions mais repousse l'annonce de sa candidature",
+   "p": "Entrevue",
+   "d": "2026-11-03",
+   "type": "presse",
+   "u": "https://entrevue.fr/politique/presidentielle-2027-dominique-de-villepin-confirme-ses-ambitions/"
+  },
+  "lfi_aec_sortie": {
+   "t": "Sortie de l'Avenir en commun, le programme de la Nouvelle France, ce vendredi 6 novembre",
+   "p": "La France insoumise",
+   "d": "2026-11-02",
+   "type": "officiel",
+   "u": "https://lafranceinsoumise.fr/2026/11/02/avenir-en-commun-nouvelle-france/"
+  },
+  "express_lepen_cassation": {
+   "t": "Affaire des assistants parlementaires du RN : la Cour de cassation fixera le sort de Marine Le Pen le 16 décembre",
+   "p": "L'Express (6Médias), repris par Orange Actualités",
+   "d": "2026-10-17",
+   "type": "presse",
+   "u": "https://actu.orange.fr/politique/affaire-des-assistants-parlementaires-du-rn-la-cour-de-cassation-fixera-le-sort-de-marine-le-pen-le-16-decembre-l-express-via-6medias-CNT000002t1bDR.html"
+  },
+  "lcp_parcoursup_gouv": {
+   "t": "Parcoursup « transformé », suppressions de postes annulées... : les réponses du gouvernement à la mobilisation lycéenne",
+   "p": "LCP",
+   "d": "2026-10-26",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/parcoursup-transforme-suppressions-de-postes-annulees-les-reponses-du-gouvernement-a-la"
+  },
+  "afp_mobilisation_1031": {
+   "t": "Journée de mobilisation pour le pouvoir d'achat : les derniers développements",
+   "p": "AFP, repris par Orange Actualités",
+   "d": "2026-10-31",
+   "type": "presse",
+   "u": "https://actu.orange.fr/france/journee-de-mobilisation-pour-le-pouvoir-d-achat-les-derniers-developpements-CNT000002tudVr.html"
   }
  },
  "presse": [
@@ -22696,11 +21885,7 @@
    "s": "lcp_debat2",
    "k": "campagne",
    "c": [
-    "faure",
-    "glucksmann",
-    "guedj",
-    "maurel",
-    "royal"
+    "glucksmann"
    ],
    "txt": "Deuxième débat de la primaire sociale-démocrate, sur France 2 et France Inter : le rapport à La France insoumise concentre les tensions"
   },
@@ -22708,9 +21893,7 @@
    "d": "2026-10-01",
    "s": "lcp_debat2",
    "k": "programme",
-   "c": [
-    "faure"
-   ],
+   "c": [],
    "txt": "Olivier Faure défend la taxe Zucman, un impôt plancher de 2 % par an sur les patrimoines de plus de 100 millions d'euros"
   },
   {
@@ -22757,19 +21940,14 @@
    "d": "2026-10-05",
    "s": "lcp_debat3",
    "k": "programme",
-   "c": [
-    "maurel"
-   ],
+   "c": [],
    "txt": "Emmanuel Maurel propose d'abroger Parcoursup et la réforme du lycée de 2019, qui a créé les spécialités"
   },
   {
    "d": "2026-10-05",
    "s": "lcp_debat3",
    "k": "programme",
-   "c": [
-    "faure",
-    "guedj"
-   ],
+   "c": [],
    "txt": "Olivier Faure et Jérôme Guedj veulent abaisser l'âge de la retraite à taux plein, aujourd'hui 67 ans, à 66 ou 65 ans"
   },
   {
@@ -22880,11 +22058,7 @@
    "s": "afp_primaire_t1",
    "k": "campagne",
    "c": [
-    "faure",
-    "glucksmann",
-    "guedj",
-    "maurel",
-    "royal"
+    "glucksmann"
    ],
    "txt": "Premier tour de la primaire sociale-démocrate : vote électronique jusqu'au samedi 10 octobre à 20 h, second tour éventuel les 16 et 17 octobre"
   },
@@ -22918,11 +22092,7 @@
    "s": "lcp_primaire_prolongee",
    "k": "campagne",
    "c": [
-    "faure",
-    "glucksmann",
-    "guedj",
-    "maurel",
-    "royal"
+    "glucksmann"
    ],
    "txt": "Après une cyberattaque contre la plateforme de vote en ligne, le premier tour de la primaire sociale-démocrate est prolongé jusqu'au dimanche 11 octobre à 18 h ; les résultats sont annoncés à 18 h 30"
   },
@@ -22931,11 +22101,7 @@
    "s": "afp_primaire_dimanche",
    "k": "campagne",
    "c": [
-    "faure",
-    "glucksmann",
-    "guedj",
-    "maurel",
-    "royal"
+    "glucksmann"
    ],
    "txt": "Primaire sociale-démocrate : dimanche à 9 h, plus de 110 000 personnes avaient voté, selon les organisateurs ; un second tour est prévu si besoin les 16 et 17 octobre"
   },
@@ -22944,11 +22110,7 @@
    "s": "lcp_primaire_resultats",
    "k": "campagne",
    "c": [
-    "faure",
-    "glucksmann",
-    "guedj",
-    "maurel",
-    "royal"
+    "glucksmann"
    ],
    "txt": "Raphaël Glucksmann remporte la primaire sociale-démocrate dès le premier tour, avec 66,13 % des voix, devant Olivier Faure : il est désigné candidat de la gauche sociale-démocrate à la présidentielle"
   },
@@ -22957,11 +22119,7 @@
    "s": "lcp_primaire_reactions",
    "k": "campagne",
    "c": [
-    "faure",
-    "glucksmann",
-    "guedj",
-    "maurel",
-    "royal"
+    "glucksmann"
    ],
    "txt": "Après la primaire, Olivier Faure appelle à « forger ensemble cet esprit de victoire », Ségolène Royal se dit « pour celui qui a gagné », Emmanuel Maurel promet un soutien « loyal et exigeant » et Jérôme Guedj dit qu'il continuera sa campagne « à la place que Raphaël Glucksmann jugera utile »"
   },
@@ -23031,9 +22189,378 @@
     "becht"
    ],
    "txt": "Olivier Becht présente son « Projet France » : supprimer et remplacer Parcoursup, un contrat de travail unique avec un salaire socle"
+  },
+  {
+   "d": "2026-11-03",
+   "s": "entrevue_ifop_lci",
+   "k": "sondage",
+   "c": [],
+   "txt": "Ifop pour LCI (27 au 29 octobre, 1 501 inscrits) : Marine Le Pen entre 35 et 37 %, Jean-Luc Mélenchon entre 17,5 et 18 %, Raphaël Glucksmann entre 10 et 13 % selon les hypothèses"
+  },
+  {
+   "d": "2026-10-23",
+   "s": "toluna_v8",
+   "k": "sondage",
+   "c": [],
+   "txt": "Baromètre Toluna Harris Interactive, vague 8 : cinq hypothèses de premier tour et trois duels testés"
+  },
+  {
+   "d": "2026-10-20",
+   "s": "ifop_baro_v7",
+   "k": "sondage",
+   "c": [],
+   "txt": "Baromètre Ifop-Fiducial, vague 7 : huit hypothèses de premier tour testées après la primaire sociale-démocrate"
+  },
+  {
+   "d": "2026-10-17",
+   "s": "express_lepen_cassation",
+   "k": "campagne",
+   "c": [
+    "le-pen"
+   ],
+   "txt": "La Cour de cassation examinera le 16 décembre les questions de constitutionnalité posées par la défense de Marine Le Pen ; une décision sur le fond pourrait suivre fin mars ou début avril 2027"
+  },
+  {
+   "d": "2026-10-18",
+   "s": "yahoo_faure_glucksmann",
+   "k": "campagne",
+   "c": [
+    "glucksmann"
+   ],
+   "txt": "Olivier Faure, battu à la primaire, souhaite « la victoire » de Raphaël Glucksmann et promet les moyens du PS pour sa campagne"
+  },
+  {
+   "d": "2026-10-22",
+   "s": "bfm_mlekuz",
+   "k": "campagne",
+   "c": [
+    "mlekuz"
+   ],
+   "txt": "À 20 ans, Manolo Mlekuz sillonne la France en van pour recueillir les parrainages de maires"
+  },
+  {
+   "d": "2026-10-25",
+   "s": "afp_lepen_hulot",
+   "k": "programme",
+   "c": [
+    "le-pen"
+   ],
+   "txt": "Premier grand meeting de Marine Le Pen à Orléans : elle promet d'abolir la loi Hulot qui interdit la recherche d'hydrocarbures en France"
+  },
+  {
+   "d": "2026-10-26",
+   "s": "lcp_parcoursup_candidats",
+   "k": "programme",
+   "c": [
+    "attal",
+    "glucksmann",
+    "le-pen",
+    "melenchon",
+    "retailleau",
+    "roussel",
+    "tondelier"
+   ],
+   "txt": "Parcoursup : suppression, remplacement ou réforme, ce que proposent les candidats"
+  },
+  {
+   "d": "2026-10-26",
+   "s": "lcp_parcoursup_gouv",
+   "k": "campagne",
+   "c": [],
+   "txt": "Face à la mobilisation lycéenne, le gouvernement annonce un remplaçant à Parcoursup en 2028 et annule 836 suppressions de postes dans les lycées publics"
+  },
+  {
+   "d": "2026-10-26",
+   "s": "orange_tondelier_retrait",
+   "k": "campagne",
+   "c": [
+    "tondelier"
+   ],
+   "txt": "Marine Tondelier évoque la possibilité de retirer sa candidature, en regrettant l'absence d'union de la gauche"
+  },
+  {
+   "d": "2026-10-31",
+   "s": "afp_mobilisation_1031",
+   "k": "campagne",
+   "c": [
+    "le-pen",
+    "retailleau"
+   ],
+   "txt": "Mobilisation pour le pouvoir d'achat et les services publics : 320 000 manifestants le 31 octobre selon les autorités ; Marine Le Pen et Bruno Retailleau condamnent l'attaque d'un gendarme à Paris"
+  },
+  {
+   "d": "2026-11-02",
+   "s": "lcp_attal_primaire",
+   "k": "campagne",
+   "c": [
+    "attal",
+    "philippe"
+   ],
+   "txt": "Gabriel Attal juge une primaire du centre et de la droite « inéluctable » ; Édouard Philippe la refuse"
+  },
+  {
+   "d": "2026-11-02",
+   "s": "lfi_aec_sortie",
+   "k": "programme",
+   "c": [
+    "melenchon"
+   ],
+   "txt": "La France insoumise annonce la 5e édition de L'Avenir en commun, 1 069 mesures dont 238 nouvelles, en librairie le 6 novembre"
+  },
+  {
+   "d": "2026-11-03",
+   "s": "entrevue_villepin",
+   "k": "campagne",
+   "c": [
+    "villepin"
+   ],
+   "txt": "Dominique de Villepin confirme qu'il sera candidat, mais repousse l'annonce officielle"
+  },
+  {
+   "d": "2026-11-04",
+   "s": "afp_primaire_retailleau",
+   "k": "campagne",
+   "c": [
+    "lisnard",
+    "philippe",
+    "retailleau"
+   ],
+   "txt": "Bruno Retailleau relance l'idée d'une primaire en début d'année : « Ou bien on est départagés par un vote démocratique, ou bien moi j'irai jusqu'au bout »"
   }
  ],
  "sondages": [
+  {
+   "id": "harris-v8",
+   "inst": "Toluna Harris Interactive",
+   "pour": "M6 et RTL",
+   "terrain": "19 au 21 octobre 2026",
+   "d": "2026-10-23",
+   "n": 2094,
+   "hyp": "Hypothèse 1 : Édouard Philippe, Dominique de Villepin et David Lisnard candidats",
+   "s": [
+    "toluna_v8"
+   ],
+   "scores": {
+    "arthaud": 1,
+    "melenchon": 17,
+    "roussel": 2,
+    "tondelier": 2,
+    "glucksmann": 12,
+    "philippe": 15,
+    "villepin": 1,
+    "lisnard": 7,
+    "retailleau": 4,
+    "dupont-aignan": 1,
+    "le-pen": 33,
+    "zemmour": 5
+   },
+   "hyps": [
+    {
+     "hyp": "Hypothèse 2 : Gabriel Attal, Dominique de Villepin et David Lisnard candidats",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 17,
+      "roussel": 2,
+      "tondelier": 2,
+      "glucksmann": 14,
+      "attal": 10,
+      "villepin": 2,
+      "lisnard": 8,
+      "retailleau": 5,
+      "dupont-aignan": 1,
+      "le-pen": 33,
+      "zemmour": 5
+     }
+    },
+    {
+     "hyp": "Hypothèse 3 : Gabriel Attal et Édouard Philippe candidats",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 17,
+      "roussel": 1,
+      "tondelier": 2,
+      "glucksmann": 12,
+      "attal": 5,
+      "philippe": 13,
+      "retailleau": 6,
+      "dupont-aignan": 2,
+      "le-pen": 35,
+      "zemmour": 6
+     }
+    },
+    {
+     "hyp": "Hypothèse 4 : Édouard Philippe seul candidat du centre",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 17,
+      "roussel": 2,
+      "tondelier": 2,
+      "glucksmann": 13,
+      "philippe": 16,
+      "retailleau": 7,
+      "dupont-aignan": 2,
+      "le-pen": 35,
+      "zemmour": 5
+     }
+    },
+    {
+     "hyp": "Hypothèse 5 : Gabriel Attal seul candidat du centre",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 19,
+      "roussel": 2,
+      "tondelier": 2,
+      "glucksmann": 13,
+      "attal": 11,
+      "retailleau": 9,
+      "dupont-aignan": 2,
+      "le-pen": 35,
+      "zemmour": 6
+     }
+    }
+   ]
+  },
+  {
+   "id": "ifop-v7",
+   "inst": "Ifop-Fiducial",
+   "pour": "LCI, Le Figaro et Sud Radio",
+   "terrain": "17 au 19 octobre 2026",
+   "d": "2026-10-20",
+   "n": 1928,
+   "hyp": "Hypothèse 1 : Gabriel Attal et Édouard Philippe candidats",
+   "s": [
+    "ifop_baro_v7"
+   ],
+   "scores": {
+    "arthaud": 0.5,
+    "melenchon": 16.5,
+    "roussel": 3,
+    "tondelier": 3,
+    "glucksmann": 13.5,
+    "attal": 5,
+    "philippe": 12,
+    "retailleau": 5,
+    "dupont-aignan": 2,
+    "le-pen": 36,
+    "zemmour": 3.5
+   },
+   "hyps": [
+    {
+     "hyp": "Hypothèse 2 : Édouard Philippe seul candidat du centre",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 16.5,
+      "roussel": 2.5,
+      "tondelier": 3,
+      "glucksmann": 14,
+      "philippe": 15,
+      "retailleau": 7.5,
+      "dupont-aignan": 1.5,
+      "le-pen": 36,
+      "zemmour": 3.5
+     }
+    },
+    {
+     "hyp": "Hypothèse 3 : Gabriel Attal seul candidat du centre",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 16,
+      "roussel": 2,
+      "tondelier": 3,
+      "glucksmann": 16,
+      "attal": 13,
+      "retailleau": 7,
+      "dupont-aignan": 1.5,
+      "le-pen": 38,
+      "zemmour": 3
+     }
+    },
+    {
+     "hyp": "Hypothèse 4 : Jean-Luc Mélenchon et Raphaël Glucksmann seuls candidats de gauche",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 18,
+      "glucksmann": 16,
+      "philippe": 16,
+      "retailleau": 6.5,
+      "dupont-aignan": 2.5,
+      "le-pen": 37,
+      "zemmour": 3.5
+     }
+    },
+    {
+     "hyp": "Hypothèse 5 : Jean-Luc Mélenchon et François Hollande seuls candidats de gauche (François Hollande n'est pas candidat déclaré)",
+     "autres": [
+      [
+       "François Hollande",
+       10
+      ]
+     ],
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 20,
+      "attal": 6.5,
+      "philippe": 14,
+      "retailleau": 6,
+      "dupont-aignan": 2,
+      "le-pen": 38,
+      "zemmour": 3
+     }
+    },
+    {
+     "hyp": "Hypothèse 6 : François Ruffin, Dominique de Villepin et David Lisnard candidats",
+     "scores": {
+      "melenchon": 15,
+      "roussel": 2,
+      "ruffin": 1.5,
+      "tondelier": 2.5,
+      "glucksmann": 12,
+      "attal": 4,
+      "philippe": 12,
+      "villepin": 1.5,
+      "retailleau": 5.5,
+      "lisnard": 5.5,
+      "dupont-aignan": 1.5,
+      "le-pen": 34,
+      "zemmour": 3
+     }
+    },
+    {
+     "hyp": "Hypothèse 7 : David Lisnard seul candidat de droite",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 15.5,
+      "roussel": 2,
+      "tondelier": 3,
+      "glucksmann": 13,
+      "attal": 5,
+      "philippe": 13,
+      "lisnard": 7,
+      "dupont-aignan": 2,
+      "le-pen": 36,
+      "zemmour": 3
+     }
+    },
+    {
+     "hyp": "Hypothèse 8 : François Ruffin et Natacha Polony candidats",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 15,
+      "roussel": 2,
+      "ruffin": 2,
+      "tondelier": 3,
+      "glucksmann": 12,
+      "attal": 6,
+      "philippe": 12,
+      "retailleau": 6,
+      "dupont-aignan": 2,
+      "le-pen": 35,
+      "zemmour": 3.5,
+      "polony": 1
+     }
+    }
+   ]
+  },
   {
    "id": "harris-v6",
    "inst": "Toluna Harris Interactive",
@@ -23062,13 +22589,13 @@
   {
    "id": "elabe-08",
    "inst": "Elabe",
-   "pour": "voir la notice de l'institut",
+   "pour": "BFMTV et La Tribune Dimanche",
    "terrain": "26 au 28 août 2026",
-   "d": "2026-08-28",
+   "d": "2026-08-29",
    "n": 1501,
-   "hyp": "Hypothèse avec Raphaël Glucksmann et Édouard Philippe, sans Gabriel Attal",
+   "hyp": "Configuration 1 : Raphaël Glucksmann et Édouard Philippe candidats, sans Gabriel Attal",
    "s": [
-    "wiki_polls"
+    "elabe_0829"
    ],
    "scores": {
     "le-pen": 34,
@@ -23083,56 +22610,31 @@
     "arthaud": 1.5,
     "villepin": 2
    }
-  },
-  {
-   "id": "ifop-08",
-   "inst": "Ifop",
-   "pour": "voir la notice de l'institut",
-   "terrain": "24 et 25 août 2026",
-   "d": "2026-08-25",
-   "n": 1598,
-   "hyp": "Hypothèse avec Raphaël Glucksmann, Gabriel Attal et Édouard Philippe",
-   "s": [
-    "wiki_polls"
-   ],
-   "scores": {
-    "le-pen": 33,
-    "melenchon": 16,
-    "philippe": 14.5,
-    "glucksmann": 11,
-    "attal": 8,
-    "retailleau": 6,
-    "zemmour": 3.5,
-    "roussel": 3,
-    "tondelier": 3,
-    "dupont-aignan": 1.5,
-    "arthaud": 0.5
-   }
   }
  ],
  "duels": {
   "inst": "Toluna Harris Interactive pour M6 et RTL",
-  "terrain": "8 au 10 septembre 2026",
-  "n": 2052,
-  "s": "toluna_v5",
+  "terrain": "19 au 21 octobre 2026",
+  "n": 2094,
+  "s": "toluna_v8",
   "list": [
    [
     "le-pen",
-    67,
+    70,
     "melenchon",
-    33
+    30
    ],
    [
     "le-pen",
-    56,
-    "attal",
-    44
+    59,
+    "glucksmann",
+    41
    ],
    [
     "le-pen",
-    55,
+    57,
     "philippe",
-    45
+    43
    ]
   ]
  },
@@ -23246,8 +22748,16 @@
  },
  "agenda": [
   [
+   "2026-11-06",
+   "Jean-Luc Mélenchon publie son programme, L'Avenir en commun, présenté en meeting le 7 novembre au Bourget"
+  ],
+  [
    "2026-12-13",
    "Les adhérents des Écologistes décident s'ils gardent Marine Tondelier comme candidate (vote du 10 au 13 décembre)"
+  ],
+  [
+   "2026-12-16",
+   "La Cour de cassation examine les questions de constitutionnalité posées par la défense de Marine Le Pen"
   ],
   [
    "2027-03",
@@ -23922,7 +23432,6 @@
        "c": [
         "glucksmann",
         "le-pen",
-        "maurel",
         "melenchon",
         "tondelier"
        ]
@@ -23932,10 +23441,6 @@
        "c": [
         "retailleau"
        ]
-      },
-      {
-       "big": "64 ans",
-       "ref": "La règle actuelle, pour les personnes nées à partir de 1969"
       },
       {
        "big": "65 ans",
@@ -23956,14 +23461,10 @@
       "p056",
       "p065",
       "p074",
+      "p075",
       "p084",
-      "p098",
-      "p109",
       "p112",
-      "p119",
       "p128",
-      "p155",
-      "p156",
       "p294",
       "p334",
       "p341"
@@ -24407,7 +23908,6 @@
        "l": "Moins d'élèves par classe",
        "c": [
         "attal",
-        "faure",
         "glucksmann",
         "melenchon",
         "roussel",
@@ -24420,7 +23920,6 @@
         "attal",
         "becht",
         "cazeneuve",
-        "faure",
         "glucksmann",
         "lisnard",
         "philippe",
@@ -24446,9 +23945,6 @@
       "p046",
       "p053",
       "p069",
-      "p102",
-      "p103",
-      "p104",
       "p149",
       "p150",
       "p207",
@@ -25837,47 +25333,62 @@
   }
  },
  "semaine": {
-  "d": "2026-10-15",
+  "d": "2026-11-05",
   "titre": [
-   "Natacha Polony annonce sa candidature,",
-   "Raphaël Glucksmann remporte la primaire sociale-démocrate,",
+   "Parcoursup au cœur de la campagne,",
+   "le centre et la droite divisés sur une primaire,",
    "{n} propositions ajoutées."
   ],
   "ecrans": [
    {
-    "k": "Nouvelle candidature",
-    "c1": "polony",
-    "txt": "Annoncée le 14 octobre 2026 sur France Inter. Elle doit encore recevoir les parrainages de 500 élus pour pouvoir se présenter.",
-    "src": [
-     "lcp_polony"
-    ]
+    "k": "Mobilisation des jeunes",
+    "t": "Le gouvernement annonce un remplaçant à Parcoursup en 2028",
+    "txt": "Après plusieurs semaines de mobilisation lycéenne et étudiante, il annule aussi 836 suppressions de postes dans les lycées publics et crée 500 postes de professeurs. Des organisations lycéennes appellent à continuer.",
+    "src": "lcp_parcoursup_gouv"
    },
    {
-    "k": "Primaire sociale-démocrate",
-    "t": "Raphaël Glucksmann l'emporte dès le premier tour",
-    "txt": "Le vote, prolongé jusqu'à dimanche 18 h après une cyberattaque, est terminé. Il est désigné candidat de la gauche sociale-démocrate à la présidentielle. Olivier Faure arrive deuxième. Pas de second tour.",
-    "stat": {
-     "pre": "Raphaël Glucksmann obtient",
-     "v": "66,13 %",
-     "u": "des voix"
-    },
+    "k": "Parcoursup",
+    "t": "Ce que proposent les candidats",
+    "txt": "Supprimer la plateforme, la remplacer ou la réformer : les positions de six candidats sont ajoutées. Pour les comparer, voir le thème Éducation & Jeunesse, question « Que faire de Parcoursup ? ».",
     "c": [
-     "faure",
      "glucksmann",
-     "guedj",
-     "maurel",
-     "royal"
+     "le-pen",
+     "melenchon",
+     "retailleau",
+     "roussel",
+     "tondelier"
     ],
-    "src": [
-     "lcp_primaire_resultats",
-     "e1_primaire_resultats"
+    "cl": "Nouvelles propositions ajoutées",
+    "src": "lcp_parcoursup_candidats"
+   },
+   {
+    "k": "Centre et droite",
+    "t": "Une primaire pour départager les candidats ?",
+    "txt": "Gabriel Attal la juge « inéluctable » et Bruno Retailleau propose de l'organiser en début d'année. Édouard Philippe refuse « une primaire de la division et une primaire de la confusion ».",
+    "c": [
+     "attal",
+     "lisnard",
+     "philippe",
+     "retailleau"
     ],
-    "cl": "Les cinq candidats de la primaire"
+    "cl": "Les candidats concernés",
+    "src": "lcp_attal_primaire"
+   },
+   {
+    "k": "Gauche",
+    "t": "Marine Tondelier n'exclut plus de se retirer",
+    "txt": "Elle regrette l'absence de primaire et d'union de toute la gauche. Les adhérents des Écologistes votent du 10 au 13 décembre.",
+    "src": "orange_tondelier_retrait"
    },
    {
     "k": "Dans l'appli",
-    "t": "Un sujet élargi : Environnement et climat",
-    "txt": "L'ancien sujet « Climat et énergie » couvre maintenant aussi la biodiversité, l'eau, l'agriculture et les pesticides, les sols et la pollution de l'air, avec des chiffres officiels et de nouvelles propositions des candidats."
+    "t": "Cinq personnes retirées de la liste des candidats",
+    "txt": "Olivier Faure, Ségolène Royal, Emmanuel Maurel et Jérôme Guedj, battus à la primaire du 11 octobre, et Philippe Brun, qui en avait été exclu, ne sont plus candidats. Deux candidats sans parti sont ajoutés : Benoît Mathieu et Manolo Mlekuz.",
+    "src": [
+     "lcp_primaire_resultats",
+     "bio_brun_lcp",
+     "obs_candidats_1012"
+    ]
    }
   ]
  },
@@ -25949,5 +25460,289 @@
   "defense": "defense",
   "etat": "etat"
  },
- "reglePhares": "Dans chaque thème, jusqu'à 3 mesures phares viennent d'abord : celles que le candidat met lui-même le plus en avant (titres de son programme, documents chiffrés, discours de 2026). Les autres sont repliées en dessous."
+ "reglePhares": "Dans chaque thème, jusqu'à 3 mesures phares viennent d'abord : celles que le candidat met lui-même le plus en avant (titres de son programme, documents chiffrés, discours de 2026). Les autres sont repliées en dessous.",
+ "questions": {
+  "finances": [
+   [
+    "deficit",
+    "Quel objectif pour le déficit et la dette ?"
+   ],
+   [
+    "fortunes",
+    "Quelle imposition des plus grandes fortunes ?"
+   ],
+   [
+    "heritage",
+    "Quelle fiscalité sur les héritages et les donations ?"
+   ],
+   [
+    "impots_entreprises",
+    "Quels impôts pour les entreprises ?"
+   ],
+   [
+    "nationaliser",
+    "Faut-il nationaliser des entreprises ou des secteurs ?"
+   ],
+   [
+    "industrie",
+    "Comment relancer la production en France ?"
+   ],
+   [
+    "impots_simplifier",
+    "Quels impôts supprimer ou simplifier ?"
+   ]
+  ],
+  "interieur": [
+   [
+    "immig_niveau",
+    "Quel niveau d'immigration légale ?"
+   ],
+   [
+    "irreguliers",
+    "Que faire des étrangers en situation irrégulière ?"
+   ],
+   [
+    "droit_sol",
+    "Faut-il garder le droit du sol ?"
+   ],
+   [
+    "regroupement",
+    "Quelles règles pour le regroupement familial ?"
+   ],
+   [
+    "frontieres",
+    "Faut-il rétablir des contrôles aux frontières nationales ?"
+   ],
+   [
+    "aides_etrangers",
+    "Quelles aides publiques pour les étrangers ?"
+   ],
+   [
+    "police",
+    "Quelle police : effectifs, missions, équipements ?"
+   ],
+   [
+    "sanctions",
+    "Quelles sanctions contre la délinquance, y compris des mineurs ?"
+   ],
+   [
+    "narcotrafic",
+    "Comment lutter contre le narcotrafic ?"
+   ],
+   [
+    "violences",
+    "Comment lutter contre les violences faites aux femmes et aux enfants ?"
+   ]
+  ],
+  "social": [
+   [
+    "logements",
+    "Comment construire plus de logements ?"
+   ],
+   [
+    "loyers",
+    "Quelles aides au logement et quels loyers ?"
+   ],
+   [
+    "energie_prix",
+    "Comment baisser les prix de l'énergie et des carburants ?"
+   ],
+   [
+    "familles",
+    "Quelles aides pour les familles ?"
+   ],
+   [
+    "remboursement",
+    "Comment rembourser les soins ?"
+   ],
+   [
+    "soignants",
+    "Comment avoir plus de médecins et de soignants ?"
+   ]
+  ],
+  "travail": [
+   [
+    "age_retraite",
+    "À quel âge partir à la retraite ?"
+   ],
+   [
+    "capitalisation",
+    "Faut-il une part de retraite par capitalisation ?"
+   ],
+   [
+    "pension_min",
+    "Quelle pension minimum ?"
+   ],
+   [
+    "smic",
+    "Quel salaire minimum ?"
+   ],
+   [
+    "salaires",
+    "Comment augmenter les salaires ?"
+   ],
+   [
+    "travailler_plus",
+    "Faut-il encourager à travailler après l'âge de départ ?"
+   ],
+   [
+    "contrat",
+    "Quelles règles pour les contrats et les licenciements ?"
+   ]
+  ],
+  "environnement": [
+   [
+    "nucleaire_enr",
+    "Quelle place pour le nucléaire et les renouvelables ?"
+   ],
+   [
+    "fossiles",
+    "Comment réduire ou utiliser les énergies fossiles ?"
+   ],
+   [
+    "zan",
+    "Faut-il garder l'objectif « zéro artificialisation nette » ?"
+   ],
+   [
+    "canicules",
+    "Comment faire face aux canicules ?"
+   ],
+   [
+    "eau",
+    "Comment gérer l'eau ?"
+   ],
+   [
+    "agriculture",
+    "Quelle agriculture ?"
+   ],
+   [
+    "trains",
+    "Plus de trains pour les voyageurs et les marchandises ?"
+   ],
+   [
+    "planification",
+    "Faut-il planifier la transition écologique par la loi ?"
+   ],
+   [
+    "catastrophes",
+    "Comment se préparer aux incendies et aux catastrophes ?"
+   ]
+  ],
+  "europe": [
+   [
+    "rester_ue",
+    "Faut-il rester dans l'Union européenne ?"
+   ],
+   [
+    "changer_ue",
+    "Comment changer l'Union européenne ?"
+   ],
+   [
+    "ukraine",
+    "Quelle aide à l'Ukraine ?"
+   ]
+  ],
+  "gouvernance": [
+   [
+    "ric",
+    "Faut-il un référendum d'initiative citoyenne ?"
+   ],
+   [
+    "referendums",
+    "Faut-il organiser des référendums ?"
+   ],
+   [
+    "constitution",
+    "Faut-il changer de Constitution ?"
+   ],
+   [
+    "vote16",
+    "Le droit de vote à 16 ans ?"
+   ],
+   [
+    "elections",
+    "Faut-il changer le mode d'élection ?"
+   ],
+   [
+    "engagement",
+    "Un service ou un engagement obligatoire pour les jeunes ?"
+   ],
+   [
+    "medias",
+    "Faut-il encadrer la propriété des médias ?"
+   ]
+  ],
+  "etat": [
+   [
+    "fonctionnaires",
+    "Combien d'agents publics ?"
+   ],
+   [
+    "territoires",
+    "Quelle organisation des régions, départements et communes ?"
+   ],
+   [
+    "normes",
+    "Comment simplifier les règles et l'administration ?"
+   ]
+  ],
+  "education": [
+   [
+    "eleves_classe",
+    "Combien d'élèves par classe ?"
+   ],
+   [
+    "profs_salaire",
+    "Quel salaire pour les enseignants ?"
+   ],
+   [
+    "examen",
+    "Un examen avant le collège ou le lycée ?"
+   ],
+   [
+    "parcoursup",
+    "Que faire de Parcoursup ?"
+   ],
+   [
+    "etudiants",
+    "Comment aider les étudiants à vivre ?"
+   ],
+   [
+    "mixite",
+    "Carte scolaire et mixité sociale ?"
+   ],
+   [
+    "lycee_pro",
+    "Quel avenir pour le lycée professionnel ?"
+   ]
+  ],
+  "defense": [
+   [
+    "budget_armee",
+    "Quel budget pour l'armée ?"
+   ],
+   [
+    "otan",
+    "Faut-il rester dans l'OTAN ?"
+   ],
+   [
+    "industrie_def",
+    "Quelle industrie de défense ?"
+   ]
+  ],
+  "numerique": [
+   [
+    "former_ia",
+    "Comment former à l'IA et au numérique ?"
+   ],
+   [
+    "encadrer_ia",
+    "Comment encadrer l'IA et la surveillance ?"
+   ],
+   [
+    "investir",
+    "Faut-il investir publiquement dans l'IA et le cloud ?"
+   ]
+  ]
+ }
 }
