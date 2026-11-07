@@ -1,6 +1,6 @@
 {
- "maj": "2026-11-05",
- "version": 15,
+ "maj": "2026-11-07",
+ "version": 16,
  "base": "2026-10-01",
  "themes": [
   [
@@ -786,19 +786,21 @@
    "tri": "Mélenchon",
    "parti": "La France insoumise",
    "statut": "publie",
-   "statutTxt": "Programme publié : « L'Avenir en commun », nouvelle version annoncée",
+   "statutTxt": "Programme publié : « L'Avenir en commun » (6 novembre 2026), chiffrage complet annoncé pour début 2027",
    "faits": [
     [
-     "Le programme en ligne est l'édition 2025 ; le mouvement indique qu'une version réactualisée sera publiée.",
-     "lfi_aec"
+     "Son programme, L'Avenir en commun, est paru le 6 novembre 2026 : 212 pages et 1 069 mesures, dont 238 nouvelles selon son mouvement. Il le présente en meeting au Bourget le 7 novembre.",
+     "ps_aec27",
+     "lfi_aec_sortie"
     ],
     [
-     "La nouvelle version de « L'Avenir en commun », son livre-programme, doit être présentée les 6 et 7 novembre 2026, avec une « convention » le 7 novembre au parc des expositions du Bourget.",
-     "lcp_melenchon_programme"
+     "Le chiffrage complet du programme est annoncé pour le début de 2027.",
+     "ps_aec27"
     ]
    ],
    "docs": [
-    "lfi_aec"
+    "aec27_livre",
+    "aec27_budget"
    ],
    "photo": {
     "a": "jlm2017.fr",
@@ -870,15 +872,15 @@
    "oeil": {
     "etat": [
      [
-      "L'édition 2025 de son programme, L'Avenir en commun, est en ligne. La nouvelle version doit être présentée les 6 et 7 novembre 2026, et le chiffrage complet est annoncé pour le début de 2027.",
-      "lcp_melenchon_programme",
-      "ps_contrebudget_2027"
+      "Programme complet publié le 6 novembre 2026, en ligne chapitre par chapitre. L'appli en retient une quarantaine de mesures, comme pour les autres candidats ; les 1 069 mesures sont dans son programme.",
+      "aec27_livre",
+      "ps_aec27"
      ]
     ],
     "parties": [
      [
-      "Le programme est organisé en trois parties : « Faire la révolution citoyenne », « L'harmonie des êtres humains avec la nature » et « Ordonner le monde », en 18 chapitres.",
-      "lfi_synthese"
+      "Le programme compte six parties : « Pour une bifurcation écologique et sociale », « Une économie au service des besoins », « Mettre en sécurité sociale », « Le goût du futur », « Fonder la 6e République » et « Un monde ordonné ».",
+      "aec27_livre"
      ]
     ],
     "phares": {
@@ -890,39 +892,41 @@
      "interieur": [
       "p213",
       "p214",
-      "p215"
+      "p386"
      ],
      "social": [
+      "p385",
       "p216",
-      "p217",
       "p218"
      ],
      "travail": [
       "p034",
-      "p035"
+      "p035",
+      "p384"
      ],
      "environnement": [
-      "p040",
       "p219",
+      "p040",
       "p182"
      ],
      "europe": [
+      "p382",
       "p220",
-      "p221",
-      "p222"
+      "p383"
      ],
      "gouvernance": [
       "p036",
-      "p206"
+      "p380",
+      "p379"
      ],
      "etat": [
       "p183",
       "p226"
      ],
      "education": [
-      "p227",
+      "p205",
       "p039",
-      "p205"
+      "p227"
      ],
      "defense": [
       "p223",
@@ -930,6 +934,7 @@
       "p225"
      ],
      "numerique": [
+      "p381",
       "p228",
       "p229"
      ]
@@ -937,7 +942,8 @@
     "fin": {
      "cand": [
       [
-       "Plan budgétaire pour 2027, présenté le 14 octobre 2026 : 106,4 milliards d'euros de recettes supplémentaires et 81,7 milliards de dépenses nouvelles. Il consacre 25 milliards d'euros à la réduction de la dette.",
+       "Plan budgétaire pour 2027, présenté le 14 octobre 2026 : 106,4 milliards d'euros de recettes nouvelles et 81,7 milliards de dépenses nouvelles, soit 24,7 milliards de réduction du déficit.",
+       "aec27_budget",
        "ps_contrebudget_2027",
        "lcp_contrebudget_2027"
       ],
@@ -951,8 +957,9 @@
        "ps_contrebudget_2027"
       ],
       [
-       "Ce plan porte sur la première année. Le chiffrage complet du programme est annoncé pour le début de 2027.",
-       "ps_contrebudget_2027"
+       "Ce plan porte sur la première année : son document précise qu'il « ne constitue pas un chiffrage complet du programme ». Le chiffrage complet est annoncé pour le début de 2027.",
+       "aec27_budget",
+       "ps_aec27"
       ]
      ],
      "ind": [
@@ -5542,8 +5549,9 @@
    "c": "melenchon",
    "th": "travail",
    "t": "Un SMIC à 1 700 € net par mois",
-   "d": "Soit 2 176 € brut. C'est ce que prévoient une proposition de loi des députés insoumis (septembre 2026) et son plan budgétaire du 14 octobre 2026.",
+   "d": "Soit 2 176 € brut, « immédiatement », avec une hausse des minima sociaux.",
    "s": [
+    "aec27_p2c2",
     "an_ppl3176",
     "lcp_contrebudget_2027"
    ],
@@ -5552,6 +5560,10 @@
    "id": "p034",
    "plus": {
     "detail": [
+     [
+      "« Porter immédiatement le SMIC mensuel à 1 700 euros net ».",
+      "aec27_p2c2"
+     ],
      [
       "La proposition de loi des députés insoumis, déposée le 15 septembre 2026, fixe le Smic à au moins « 2 176 euros brut mensuel », soit 1 700 € net selon son exposé des motifs.",
       "an_ppl3176"
@@ -5615,21 +5627,18 @@
       "montaigne_nfp_smic"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "smic"
   },
   {
    "c": "melenchon",
    "th": "retraites",
-   "t": "Retour de la retraite à 62 ans, puis objectif 60 ans",
-   "d": "Abroger la réforme de 2023 : retour à 62 ans dans un premier temps, puis objectif de retraite à 60 ans.",
+   "t": "Abroger la retraite à 64 ans, puis revenir progressivement à 60 ans",
+   "d": "À taux plein avec 40 annuités ; le programme ne fixe pas de calendrier.",
    "s": [
-    "lfi_aec",
+    "aec27_p3c1",
+    "ps_aec27",
     "ps_retraites"
    ],
    "aj": "2026-10-01",
@@ -5644,6 +5653,14 @@
    "id": "p035",
    "plus": {
     "detail": [
+     [
+      "Le programme prévoit d'abroger la réforme qui a porté l'âge à 64 ans, puis un abaissement progressif pour « restaurer le droit à la retraite à 60 ans à taux plein pour 40 annuités de cotisations ».",
+      "aec27_p3c1"
+     ],
+     [
+      "Selon Public Sénat, le calendrier est plus progressif qu'en 2022 : retour à 62 ans, puis 60 ans à taux plein.",
+      "ps_aec27"
+     ],
      [
       "Abroger la réforme des retraites de 2023 et ramener l'âge légal à 62 ans « dans un premier temps ».",
       "ps_retraites"
@@ -5711,11 +5728,7 @@
       "montaigne_nfp_retraites"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "age_retraite"
   },
@@ -5723,9 +5736,9 @@
    "c": "melenchon",
    "th": "institutions",
    "t": "Passer à une VIe République",
-   "d": "Une assemblée constituante écrirait une nouvelle Constitution, soumise à référendum ; le programme prévoit aussi un référendum révocatoire des élus.",
+   "d": "Un référendum lancerait une Assemblée constituante, dont la Constitution serait soumise à référendum ; il vise un « régime parlementaire stable ».",
    "s": [
-    "lfi_aec"
+    "aec27_p5c1"
    ],
    "aj": "2026-10-01",
    "fin": "s",
@@ -5733,21 +5746,19 @@
    "plus": {
     "detail": [
      [
+      "« Convoquer un référendum (article 11) pour engager le processus constituant » ; le projet de Constitution serait ensuite soumis à référendum.",
+      "aec27_p5c1"
+     ],
+     [
+      "La 6e République serait « un régime parlementaire stable et d'intervention citoyenne ».",
+      "aec27_p5c1"
+     ],
+     [
       "Première étape : « Réunir une assemblée constituante pour passer à la 6e République », c'est-à-dire une assemblée chargée d'écrire une nouvelle Constitution.",
       "lfi_synthese"
      ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « La validation du projet de Constitution proposé par l'Assemblée constituante par référendum ».",
-      "lfi_synthese"
-     ],
-     [
-      "Le programme prévoit aussi d'« instaurer le référendum révocatoire des élus » : un vote qui permettrait de mettre fin au mandat d'un élu avant son terme.",
-      "lfi_synthese"
-     ]
-    ],
-    "objectif": [
-     [
-      "Une République « permettant l'intervention populaire » : c'est le titre de la partie du programme où figure le référendum révocatoire.",
       "lfi_synthese"
      ]
     ],
@@ -5763,22 +5774,18 @@
       "sujet_institutions_cc_referendums"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "constitution"
   },
   {
    "c": "melenchon",
    "th": "budget",
-   "t": "Annuler la dette française détenue par la Banque centrale européenne",
-   "d": "Annuler la part de la dette publique détenue par la Banque centrale européenne (18 % du total) en la convertissant en obligations perpétuelles à taux zéro.",
+   "t": "Que la BCE gèle ou annule la dette publique qu'elle détient",
+   "d": "Sans révision des traités, selon son document budgétaire ; il veut aussi une BCE « sous contrôle démocratique ».",
    "s": [
-    "orange_melenchon",
-    "insee_dette"
+    "aec27_budget",
+    "aec27_p6c1"
    ],
    "aj": "2026-10-01",
    "a": {
@@ -5791,6 +5798,14 @@
    "id": "p037",
    "plus": {
     "detail": [
+     [
+      "Son document budgétaire indique que la BCE pourrait « geler ou annuler la part des dettes publiques qu'elle possède », sans révision des traités.",
+      "aec27_budget"
+     ],
+     [
+      "Le programme veut aussi une BCE « placée sous contrôle démocratique et mobilisée pour financer la bifurcation écologique et sociale des États ».",
+      "aec27_p6c1"
+     ],
      [
       "Il vise « les 18 % de dette française détenus par la Banque de France pour le compte de la Banque centrale européenne (BCE) », selon la description de Public Sénat.",
       "ps_dette_melenchon"
@@ -5836,27 +5851,27 @@
       "ps_dette_melenchon"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "deficit"
   },
   {
    "c": "melenchon",
    "th": "eco",
-   "t": "Créer un pôle bancaire public",
-   "d": "Certaines banques de détail seraient « socialisées » et intégrées à ce pôle.",
+   "t": "Revenir sur des privatisations et créer des pôles publics",
+   "d": "Aéroports, autoroutes, Française des jeux ; des pôles publics dans la banque et l'assurance, l'énergie, l'armement, les mines et les satellites.",
    "s": [
-    "orange_melenchon"
+    "aec27_p2c1"
    ],
    "aj": "2026-10-01",
    "fin": "n",
    "id": "p038",
    "plus": {
     "detail": [
+     [
+      "« Revenir sur les privatisations (aéroports, autoroutes, Française des jeux, etc.) » et constituer des pôles publics dans la « banque et assurance, énergie, armement, mines, satellite ».",
+      "aec27_p2c1"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Créer un pôle public bancaire » et « Socialiser certaines banques de détail et les intégrer au pôle public bancaire ».",
       "lfi_synthese"
@@ -5868,20 +5883,17 @@
       "lfi_synthese"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "nationaliser"
   },
   {
    "c": "melenchon",
    "th": "education",
-   "t": "19 élèves par classe, 160 000 profs recrutés et la cantine gratuite",
-   "d": "Viser 19 élèves par classe en moyenne d'ici la fin du quinquennat, recruter 160 000 enseignants pour y parvenir et rendre la cantine gratuite avec des produits bio et paysans.",
+   "t": "Moins de 19 élèves par classe et la cantine gratuite",
+   "d": "Pour « faire mieux que la moyenne européenne de 19 élèves par classe », avec un plan pluriannuel de recrutement d'enseignants.",
    "s": [
+    "aec27_p4c2",
     "ps_ecole",
     "ps_contrebudget_2027"
    ],
@@ -5890,6 +5902,14 @@
    "id": "p039",
    "plus": {
     "detail": [
+     [
+      "« Réduire partout les effectifs par classe pour faire mieux que la moyenne européenne de 19 élèves par classe », avec un plan pluriannuel de recrutement.",
+      "aec27_p4c2"
+     ],
+     [
+      "Assurer « la gratuité réelle de l'éducation publique, y compris de la cantine, du transport ».",
+      "aec27_p4c2"
+     ],
      [
       "Atteindre « 19 élèves en moyenne à la fin du quinquennat » par classe, avec « le recrutement de 160 000 enseignants ».",
       "ps_ecole"
@@ -5943,11 +5963,7 @@
       null
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "eleves_classe"
   },
@@ -5955,9 +5971,9 @@
    "c": "melenchon",
    "th": "ecologie",
    "t": "Mettre en place une planification écologique",
-   "d": "Avec l'objectif de « neutralité carbone en 2050 » et des plans d'investissement par filière publiés depuis septembre 2026.",
+   "d": "Un conseil à la planification, une baisse de 65 % des émissions de gaz à effet de serre d'ici 2033 et une « règle verte » inscrite dans la Constitution.",
    "s": [
-    "lfi_aec"
+    "aec27_p1c1"
    ],
    "aj": "2026-10-01",
    "fin": "c",
@@ -5965,8 +5981,12 @@
    "plus": {
     "detail": [
      [
-      "La planification écologique est le chapitre 12 de son programme, L'Avenir en commun.",
-      "lfi_aec"
+      "« Créer un conseil à la planification écologique », avec une baisse de 65 % des émissions de gaz à effet de serre d'ici 2033.",
+      "aec27_p1c1"
+     ],
+     [
+      "La « règle verte » serait inscrite dans la Constitution : « on ne prélève pas davantage sur la nature que ce qu'elle est en état de reconstituer ».",
+      "aec27_p1c1"
      ],
      [
       "Depuis septembre 2026, son équipe publie des « plans d'investissement » qui « présentent nos objectifs de production dans une série de filières stratégiques », « dans le cadre de la planification écologique ». Les premiers portent sur le BTP et le logement, et sur l'automobile.",
@@ -5978,12 +5998,6 @@
      ],
      [
       "Son parti prévoit une « loi énergie-climat prévoyant plan climat, outil de la planification écologique ».",
-      "lfi_contrebudget_2025"
-     ]
-    ],
-    "objectif": [
-     [
-      "« Atteindre la neutralité carbone en 2050 et respecter nos engagements internationaux de réduction des gaz à effet de serre ».",
       "lfi_contrebudget_2025"
      ]
     ],
@@ -6013,11 +6027,7 @@
       "lfi_plans_invest"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "planification"
   },
@@ -10028,20 +10038,18 @@
       "lid_melenchon_conscription"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "catastrophes"
   },
   {
    "c": "melenchon",
    "th": "etat",
-   "t": "Remplacer les régions par 13 « écorégions »",
-   "d": "Remplacer les régions actuelles par treize « écorégions » dessinées selon les grands bassins des fleuves, chargées notamment de l'eau, de la biodiversité, des forêts et de la qualité de l'air.",
+   "t": "Remplacer les régions par des « écorégions »",
+   "d": "Délimitées selon des critères écologiques ; il veut aussi supprimer les métropoles.",
    "s": [
+    "aec27_p5c3",
+    "aec27_p5c1",
     "ps_ecoregions"
    ],
    "aj": "2026-10-12",
@@ -10049,6 +10057,10 @@
    "id": "p183",
    "plus": {
     "detail": [
+     [
+      "« Créer des éco-régions pour remplacer les régions actuelles », délimitées selon des critères écologiques, et « supprimer les métropoles technocratiques ».",
+      "aec27_p5c3"
+     ],
      [
       "Les 13 régions issues de la réforme de 2015 seraient remplacées par 13 « écorégions » dessinées selon les grands bassins des fleuves.",
       "ps_ecoregions"
@@ -10078,11 +10090,7 @@
       "ps_ecoregions"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "territoires"
   },
@@ -10689,9 +10697,11 @@
   {
    "c": "melenchon",
    "th": "etudes",
-   "t": "Supprimer Parcoursup",
-   "d": "Supprimer la plateforme Parcoursup, qu'il qualifie d'« école du vice ».",
+   "t": "Supprimer Parcoursup et ouvrir l'université sans sélection",
+   "d": "Pour « garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix » ; son parti chiffre le besoin à 150 000 places de plus.",
    "s": [
+    "aec27_p4c2",
+    "lcp_parcoursup_candidats",
     "orange_melenchon_jeunes"
    ],
    "aj": "2026-10-15",
@@ -10699,6 +10709,14 @@
    "id": "p205",
    "plus": {
     "detail": [
+     [
+      "« Garantir à tous les bacheliers l'accès sans sélection à la formation de leur choix en démantelant le système Parcoursup ».",
+      "aec27_p4c2"
+     ],
+     [
+      "Son parti réclame aussi 150 000 places supplémentaires dans l'enseignement supérieur (site de La France insoumise, 25 septembre 2026).",
+      "lcp_parcoursup_candidats"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Démanteler Parcoursup et garantir l'accès sans sélection à la formation de son choix » et « La fin de la sélection en master ».",
       "lfi_synthese"
@@ -10730,11 +10748,7 @@
       "sujet_etudes_parcoursup_tdb"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "parcoursup"
   },
@@ -10744,6 +10758,7 @@
    "t": "Le droit de vote à 16 ans",
    "d": "Soit environ 1,5 million d'électeurs en plus, selon Public Sénat.",
    "s": [
+    "aec27_p5c1",
     "orange_melenchon_jeunes"
    ],
    "aj": "2026-10-15",
@@ -10751,6 +10766,10 @@
    "id": "p206",
    "plus": {
     "detail": [
+     [
+      "« Donner le droit de vote à 16 ans ».",
+      "aec27_p5c1"
+     ],
      [
       "Abaisser l'âge du droit de vote de 18 à 16 ans. Il l'a redit à Clermont-Ferrand le 11 octobre 2026.",
       "ps_vote16"
@@ -10783,11 +10802,7 @@
       "sujet_institutions_insee_ip1929"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "vote16"
   },
@@ -10797,6 +10812,7 @@
    "t": "Le bac pro de nouveau en quatre ans",
    "d": "Rétablir la règle des quatre ans pour passer un bac professionnel, et créer une filière qui part du CAP jusqu'à la licence professionnelle.",
    "s": [
+    "aec27_p4c2",
     "orange_melenchon_jeunes"
    ],
    "aj": "2026-10-15",
@@ -10804,6 +10820,10 @@
    "id": "p207",
    "plus": {
     "detail": [
+     [
+      "« Rétablir le baccalauréat professionnel en quatre ans, abroger les contre-réformes du lycée professionnel ».",
+      "aec27_p4c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Rétablir le baccalauréat professionnel en quatre ans et abroger les contre-réformes du lycée professionnel ».",
       "lfi_synthese"
@@ -10841,11 +10861,7 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "lycee_pro"
   },
@@ -11011,6 +11027,7 @@
    "t": "Un « ISF climatique »",
    "d": "Rétablir un impôt sur la fortune avec un volet climatique. Son plan budgétaire pour 2027 en attend 10 milliards d'euros.",
    "s": [
+    "aec27_p2c2",
     "lfi_synthese",
     "lcp_contrebudget_2027"
    ],
@@ -11027,6 +11044,10 @@
    },
    "plus": {
     "detail": [
+     [
+      "« Rétablir et renforcer l'impôt de solidarité sur la fortune (ISF) », avec un volet climatique visant les gros pollueurs.",
+      "aec27_p2c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Rétablir et renforcer l'impôt sur la fortune avec un volet climatique ».",
       "lfi_synthese"
@@ -11078,20 +11099,17 @@
       "gc_nfp_recettes"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "fortunes"
   },
   {
    "c": "melenchon",
    "th": "eco",
-   "t": "Une taxe Zucman sur les patrimoines de plus de 100 millions d'euros",
-   "d": "Instaurer une taxe Zucman sur les patrimoines supérieurs à 100 millions d'euros. Son plan budgétaire pour 2027 en attend 15 milliards d'euros.",
+   "t": "Un impôt d'au moins 2 % sur les patrimoines de plus de 100 millions d'euros",
+   "d": "La « taxe Zucman ». Son plan budgétaire pour 2027 en attend 15 milliards d'euros.",
    "s": [
+    "aec27_p2c2",
     "lfi_synthese",
     "lcp_contrebudget_2027"
    ],
@@ -11108,6 +11126,10 @@
    },
    "plus": {
     "detail": [
+     [
+      "« Introduire une garantie d'impôt de 2 % sur le patrimoine des centimillionaires, dite « taxe Zucman » ».",
+      "aec27_p2c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Instaurer une taxe Zucman ou un impôt plancher sur le patrimoine des milliardaires ».",
       "lfi_synthese"
@@ -11153,20 +11175,17 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "fortunes"
   },
   {
    "c": "melenchon",
    "th": "securite",
-   "t": "Rétablir une police de proximité",
-   "d": "Rétablir une police de proximité, interdire certaines pratiques dangereuses, « en premier lieu les LBD », et former les policiers.",
+   "t": "Une police de proximité, sans BAC ni BRAV-M",
+   "d": "Il veut aussi interdire les tasers, les grenades de désencerclement, les LBD et la « nasse » en manifestation.",
    "s": [
+    "aec27_p5c2",
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
@@ -11176,6 +11195,14 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "Le programme prévoit de démanteler les brigades anticriminalité (BAC) et la BRAV-M, et de rétablir une police de proximité.",
+      "aec27_p5c2"
+     ],
+     [
+      "Il veut interdire les tasers, les grenades de désencerclement et les LBD pour les interventions courantes et le maintien de l'ordre, ainsi que la « nasse » en manifestation.",
+      "aec27_p5c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Rétablir une police de proximité », « Interdire certaines pratiques dangereuses en premier lieu les LBD », « Former les policiers », « Interdire la reconnaissance faciale ».",
       "lfi_synthese"
@@ -11221,11 +11248,7 @@
       null
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "police"
   },
@@ -11233,8 +11256,9 @@
    "c": "melenchon",
    "th": "immigration",
    "t": "Abroger les dernières lois asile et immigration, et régulariser",
-   "d": "Abroger les dernières lois asile et immigration, et « régulariser les travailleurs, étudiants, parents d'enfants scolarisés ».",
+   "d": "Abroger aussi la circulaire Retailleau, et régulariser les « travailleurs, étudiants, parents d'enfants scolarisés sans papiers ».",
    "s": [
+    "aec27_p6c3",
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
@@ -11244,6 +11268,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Abroger les dernières lois sur l'asile et l'immigration, la circulaire dite « Retailleau » », et régulariser les « travailleurs, étudiants, parents d'enfants scolarisés sans papiers ».",
+      "aec27_p6c3"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Abroger les dernières lois asile et immigration » et « régulariser les travailleurs, étudiants, parents d'enfants scolarisés ».",
       "lfi_synthese"
@@ -11285,11 +11313,7 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "irreguliers"
   },
@@ -11297,9 +11321,10 @@
    "c": "melenchon",
    "th": "securite",
    "t": "5 milliards contre les violences sexistes, sexuelles et faites aux enfants",
-   "d": "Consacrer 5 milliards d'euros à un plan de lutte contre les violences sexistes et sexuelles et contre les violences faites aux enfants.",
+   "d": "Selon son plan budgétaire pour 2027 ; son programme prévoit 3 milliards pour les seules violences sexistes et sexuelles, le montant « demandé par les associations ».",
    "s": [
     "lcp_contrebudget_2027",
+    "aec27_p3c3",
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
@@ -11315,6 +11340,10 @@
    },
    "plus": {
     "detail": [
+     [
+      "Le programme prévoit d'« allouer les 3 milliards de budget demandés par les associations » contre les violences sexistes et sexuelles, et une loi de lutte contre ces violences.",
+      "aec27_p3c3"
+     ],
      [
       "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe consacre 5 milliards d'euros à un plan contre les violences sexistes et sexuelles et contre les violences faites aux enfants.",
       "lcp_contrebudget_2027"
@@ -11360,11 +11389,7 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "violences"
   },
@@ -11374,6 +11399,7 @@
    "t": "Augmenter les APL de 10 %",
    "d": "Pour que les APL suivent l'inflation, selon son parti.",
    "s": [
+    "aec27_p2c2",
     "lcp_contrebudget_2027",
     "lfi_synthese"
    ],
@@ -11384,6 +11410,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Revaloriser les aides pour le logement (APL) de 10 % ».",
+      "aec27_p2c2"
+     ],
      [
       "Augmenter de 10 % les aides personnelles au logement (APL).",
       "lcp_contrebudget_2027"
@@ -11425,11 +11455,7 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "loyers"
   },
@@ -11479,11 +11505,7 @@
       null
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "loyers"
   },
@@ -11491,9 +11513,10 @@
    "c": "melenchon",
    "th": "social",
    "t": "3 milliards de plus pour l'hôpital et 10 000 soignants",
-   "d": "Augmenter le budget de l'hôpital de 3 milliards d'euros et créer 10 000 postes de personnels soignants.",
+   "d": "Selon son plan budgétaire pour 2027 ; le programme prévoit aussi de sortir de la tarification à l'acte et de rouvrir urgences et maternités.",
    "s": [
-    "ps_contrebudget_2027"
+    "ps_contrebudget_2027",
+    "aec27_p4c4"
    ],
    "aj": "2026-10-18",
    "fin": "c",
@@ -11508,6 +11531,10 @@
    },
    "plus": {
     "detail": [
+     [
+      "Le programme prévoit un « plan pluriannuel de recrutement des professionnels du soin et du médico-social », sans nombre de postes, de sortir de la tarification à l'acte et de rouvrir progressivement urgences, maternités et Ehpad publics.",
+      "aec27_p4c4"
+     ],
      [
       "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe augmente de 3 milliards d'euros le budget de l'hôpital, avec la création de 10 000 postes de personnels soignants.",
       "ps_contrebudget_2027"
@@ -11553,21 +11580,18 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "soignants"
   },
   {
    "c": "melenchon",
    "th": "ecologie",
-   "t": "100 % d'énergies renouvelables en 2050",
-   "d": "Avec la sortie du nucléaire et l'abandon des projets de réacteurs EPR, selon La Croix.",
+   "t": "100 % d'énergies renouvelables au plus tard en 2060",
+   "d": "Avec la sortie des énergies fossiles avant 2050, l'arrêt des nouveaux réacteurs EPR2, et des centrales fermées progressivement, sans les prolonger au-delà de 60 ans.",
    "s": [
-    "lfi_synthese"
+    "aec27_p1c3",
+    "ps_aec27"
    ],
    "aj": "2026-10-18",
    "fin": "c",
@@ -11577,8 +11601,16 @@
    "plus": {
     "detail": [
      [
-      "Son programme veut « Organiser le 100 % d'énergies renouvelables en 2050 et la rénovation énergétique ».",
-      "lfi_synthese"
+      "Objectif de 100 % d'énergies renouvelables « au plus tard en 2060 », et « la sortie des énergies fossiles avant 2050 ».",
+      "aec27_p1c3"
+     ],
+     [
+      "Arrêt du programme « de nouveau nucléaire (EPR2) » et fermeture progressive des centrales, sans les prolonger au-delà de 60 ans de fonctionnement.",
+      "aec27_p1c3"
+     ],
+     [
+      "En 2022, l'objectif de 100 % renouvelables était fixé à 2050, selon Public Sénat.",
+      "ps_aec27"
      ],
      [
       "Selon La Croix, La France insoumise et Les Écologistes veulent « planifier le passage à 100 % d'énergies renouvelables et la sortie du nucléaire », en abandonnant les projets de réacteurs EPR.",
@@ -11621,21 +11653,17 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "nucleaire_enr"
   },
   {
    "c": "melenchon",
    "th": "europe",
-   "t": "Ne pas appliquer les règles européennes qui bloquent son programme",
-   "d": "Utiliser la possibilité d'« opt out » sur les dispositions des traités européens qui empêcheraient d'appliquer son programme : la mesure figure dans la partie « Désobéir à chaque fois que c'est nécessaire ».",
+   "t": "Désobéir aux règles européennes qui bloquent son programme",
+   "d": "Le Parlement voterait la suspension de certaines règles de l'Union, au nom d'un « droit d'objection souveraine ».",
    "s": [
-    "lfi_synthese"
+    "aec27_p6c1"
    ],
    "aj": "2026-10-18",
    "fin": "s",
@@ -11644,6 +11672,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "Le Parlement voterait la suspension de certaines règles de fonctionnement de l'Union, au nom d'un « droit d'objection souveraine », et la France désobéirait « aux règles bloquantes, chaque fois que cela sera nécessaire ».",
+      "aec27_p6c1"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Utiliser la possibilité d'“Opt Out” sur les dispositions des traités européens empêchant d'appliquer le programme ».",
       "lfi_synthese"
@@ -11665,21 +11697,17 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "changer_ue"
   },
   {
    "c": "melenchon",
    "th": "europe",
-   "t": "Refuser les accords de libre-échange",
-   "d": "Refuser les accords de libre-échange et abroger ceux déjà en vigueur.",
+   "t": "Un droit de veto sur les accords de libre-échange",
+   "d": "Et sur les projets d'élargissement de l'Union.",
    "s": [
-    "lfi_synthese"
+    "aec27_p6c1"
    ],
    "aj": "2026-10-18",
    "fin": "s",
@@ -11688,6 +11716,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "Le programme prévoit un « droit de veto sur les accords de libre-échange ou projet d'élargissement ». Il ne prévoit pas explicitement d'abroger les accords existants.",
+      "aec27_p6c1"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Le refus des accords de libre-échange » et l'abrogation des « accords de libre-échange déjà en vigueur ».",
       "lfi_synthese"
@@ -11715,11 +11747,7 @@
       "cdj_mercosur"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    }
   },
   {
@@ -11728,6 +11756,7 @@
    "t": "Aucune intervention militaire sans mandat de l'ONU",
    "d": "Refuser toute intervention militaire sans mandat de l'ONU, et réformer le Conseil de sécurité pour que l'ONU soit « représentative du monde actuel ».",
    "s": [
+    "aec27_p6c2",
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
@@ -11737,6 +11766,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "Il refuse « toute intervention militaire sans mandat clair de l'ONU ».",
+      "aec27_p6c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Refuser toute intervention militaire sans mandat l'ONU et rétablir l'autorité du comité d'état-major des Nations unies ».",
       "lfi_synthese"
@@ -11758,20 +11791,16 @@
       "unric_veto"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    }
   },
   {
    "c": "melenchon",
    "th": "defense",
-   "t": "Sortir de l'OTAN",
-   "d": "Sortir de l'OTAN, en commençant par son commandement intégré.",
+   "t": "Quitter le commandement intégré de l'OTAN, puis l'OTAN",
+   "d": "« Immédiatement » pour le commandement intégré, puis « par étapes » pour l'organisation elle-même.",
    "s": [
-    "lfi_synthese"
+    "aec27_p6c2"
    ],
    "aj": "2026-10-18",
    "fin": "s",
@@ -11780,6 +11809,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Se retirer immédiatement du commandement intégré de l'OTAN puis, par étapes, de l'organisation elle-même ».",
+      "aec27_p6c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Sortir de l'OTAN en commençant par son commandement intégré ».",
       "lfi_synthese"
@@ -11807,21 +11840,18 @@
       "cdc_otan_2012"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "otan"
   },
   {
    "c": "melenchon",
    "th": "defense",
-   "t": "Équiper l'armée de matériel français",
-   "d": "Garantir la souveraineté de la France en équipant les armées de matériel militaire français.",
+   "t": "Créer un pôle public de l'armement",
+   "d": "Pour réintégrer dans le secteur public des entreprises stratégiques de la défense.",
    "s": [
-    "lfi_synthese"
+    "aec27_p6c2",
+    "aec27_p2c1"
    ],
    "aj": "2026-10-18",
    "fin": "n",
@@ -11830,6 +11860,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Créer un pôle public de l'armement », en réintégrant des entreprises stratégiques dans le secteur public.",
+      "aec27_p6c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Garantir la souveraineté de la France via l'acquisition de matériel militaire français dans les armées ».",
       "lfi_synthese"
@@ -11857,11 +11891,7 @@
       null
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "industrie_def"
   },
@@ -11869,9 +11899,9 @@
    "c": "melenchon",
    "th": "defense",
    "t": "Relancer le désarmement nucléaire à l'ONU",
-   "d": "Relancer les processus multilatéraux de désarmement nucléaire et conventionnel dans le cadre de l'ONU.",
+   "d": "Dans le cadre de l'ONU ; la France participerait comme observatrice au traité sur l'interdiction des armes nucléaires.",
    "s": [
-    "lfi_synthese"
+    "aec27_p6c2"
    ],
    "aj": "2026-10-18",
    "fin": "s",
@@ -11880,6 +11910,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Relancer les processus multilatéraux de désarmement nucléaire et conventionnel » à l'ONU, et participer comme observateur au traité sur l'interdiction des armes nucléaires (TIAN).",
+      "aec27_p6c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Relancer les processus multilatéraux de désarmement nucléaire et conventionnel dans le cadre de l'ONU ».",
       "lfi_synthese"
@@ -11897,20 +11931,17 @@
       "ps_dissuasion_2026"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "dissuasion"
   },
   {
    "c": "melenchon",
    "th": "etat",
-   "t": "Rouvrir les accueils physiques des services publics",
-   "d": "Pour un accompagnement humain dans les démarches ; son parti juge les maisons France services « un palliatif ».",
+   "t": "Rouvrir des accueils physiques dans les services publics",
+   "d": "Avec des services publics itinérants et un moratoire sur les fermetures d'écoles, de maternités et de bureaux de poste.",
    "s": [
+    "aec27_p5c3",
     "lfi_synthese"
    ],
    "aj": "2026-10-18",
@@ -11920,6 +11951,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Renforcer et réouvrir des accueils physiques dans les services publics », développer des services publics itinérants et instaurer un moratoire sur les fermetures d'écoles, de maternités et de bureaux de poste.",
+      "aec27_p5c3"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « La réouverture des accueils physiques dans les services publics », « La lutte contre les déserts médicaux » et « Le soutien au tissu associatif local ».",
       "lfi_synthese"
@@ -11957,19 +11992,17 @@
       "lfi_contrebudget_2025"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    }
   },
   {
    "c": "melenchon",
    "th": "etudes",
-   "t": "Une « garantie d'autonomie » de 1 337 € par mois pour les jeunes",
-   "d": "Prévue dans son plan budgétaire du 14 octobre 2026 ; les conditions (âge, ressources) ne sont pas précisées.",
+   "t": "Une « garantie d'autonomie » : aucun revenu sous 1 337 € par mois",
+   "d": "Le seuil de pauvreté pour une personne seule ; elle financerait notamment l'autonomie des jeunes qui ne dépendent plus du foyer fiscal de leurs parents.",
    "s": [
+    "aec27_p3c1",
+    "aec27_p3c2",
     "ps_contrebudget_2027"
    ],
    "aj": "2026-10-18",
@@ -11986,16 +12019,16 @@
    "plus": {
     "detail": [
      [
-      "Dans son plan budgétaire pour 2027, présenté le 14 octobre 2026, son équipe prévoit une « garantie d'autonomie » de 1 337 euros par mois pour les jeunes.",
+      "Le programme prévoit que « le revenu mensuel de chaque personne atteindra le seuil de pauvreté (1 337 euros pour une personne seule) ».",
+      "aec27_p3c1"
+     ],
+     [
+      "Il veut « financer l'autonomie des jeunes détachés du foyer fiscal parental grâce à la garantie d'autonomie », et créer un office pour l'autonomie des jeunes.",
+      "aec27_p3c2"
+     ],
+     [
+      "Son plan budgétaire pour 2027, présenté le 14 octobre 2026, la présente comme une garantie d'autonomie de 1 337 euros par mois pour les jeunes.",
       "ps_contrebudget_2027"
-     ],
-     [
-      "En 2024, son parti la décrivait comme une « allocation d'autonomie », « pierre angulaire » de la protection sociale des étudiants.",
-      "lfi_contrebudget_2025"
-     ],
-     [
-      "Nous n'avons pas trouvé les conditions prévues en 2026 (âge, ressources). En 2022, sa version était de 1 063 euros par mois pendant trois ans pour les 18-25 ans, sous conditions de ressources et de formation.",
-      "montaigne_2022_garantie"
      ]
     ],
     "objectif": [
@@ -12032,11 +12065,7 @@
       "montaigne_2022_garantie"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "etudiants"
   },
@@ -12045,7 +12074,8 @@
    "th": "numerique",
    "t": "Interdire la reconnaissance faciale",
    "s": [
-    "lfi_synthese"
+    "aec27_p5c2",
+    "aec27_p4c7"
    ],
    "aj": "2026-10-18",
    "fin": "s",
@@ -12054,6 +12084,10 @@
    "test": true,
    "plus": {
     "detail": [
+     [
+      "« Interdire la reconnaissance faciale » et la surveillance biométrique de masse dans l'espace public.",
+      "aec27_p5c2"
+     ],
      [
       "Son équipe classe parmi les mesures « déjà présentes dans le programme » : « Interdire la reconnaissance faciale », dans la partie sur la police de proximité.",
       "lfi_synthese"
@@ -12075,21 +12109,18 @@
       "next_vsa"
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
+   "d": "Et toute identification biométrique de masse dans l'espace public.",
    "q": "encadrer_ia"
   },
   {
    "c": "melenchon",
    "th": "numerique",
-   "t": "Des centres de données publics pour un cloud français",
-   "d": "Créer des centres de données publics pour un cloud français hors du contrôle américain, et confier la gouvernance mondiale de l'IA à l'ONU (tribune de février 2025).",
+   "t": "Un cloud public, avec des centres de données publics",
+   "d": "Et un moratoire sur l'installation de centres de données « non souverains ».",
    "s": [
-    "frenchweb_melenchon"
+    "aec27_p4c7"
    ],
    "aj": "2026-10-18",
    "fin": "n",
@@ -12099,8 +12130,12 @@
    "plus": {
     "detail": [
      [
-      "Dans une tribune au Figaro en février 2025, il proposait des centres de données publics pour un cloud français hors du contrôle américain, la mise en commun des données sensibles sous le contrôle d'institutions publiques, et une gouvernance mondiale de l'IA confiée à l'ONU, selon FrenchWeb.",
-      "frenchweb_melenchon"
+      "« Construire un cloud véritablement public, composé de data centers publics interconnectés », et « décréter un moratoire sur l'installation de centres de données non souverains ».",
+      "aec27_p4c7"
+     ],
+     [
+      "Il veut aussi généraliser les logiciels libres dans les administrations et l'Éducation nationale.",
+      "aec27_p4c7"
      ]
     ],
     "objectif": [
@@ -12127,11 +12162,7 @@
       null
      ]
     ],
-    "note": [
-     "Son programme est en cours de réactualisation : la nouvelle version doit être présentée les 6 et 7 novembre 2026. Cette fiche sera alors mise à jour.",
-     "lcp_melenchon_programme"
-    ],
-    "maj": "2026-10-18"
+    "maj": "2026-11-07"
    },
    "q": "investir"
   },
@@ -16841,35 +16872,6 @@
    "q": "parcoursup"
   },
   {
-   "c": "melenchon",
-   "th": "etudes",
-   "t": "150 000 places de plus dans l'enseignement supérieur",
-   "d": "Pour que « tout bachelier » puisse « s'inscrire dans la formation de son choix comme la Constitution le prévoit ».",
-   "s": [
-    "lcp_parcoursup_candidats"
-   ],
-   "aj": "2026-11-05",
-   "fin": "n",
-   "id": "p358",
-   "k": "places_sup",
-   "plus": {
-    "detail": [
-     [
-      "Son parti réclame l'abolition de Parcoursup et 150 000 places supplémentaires, pour que « tout bachelier » puisse « s'inscrire dans la formation de son choix comme la Constitution le prévoit » (site de La France insoumise, 25 septembre 2026).",
-      "lcp_parcoursup_candidats"
-     ]
-    ],
-    "auj": [
-     [
-      "À la rentrée 2025, 3 049 600 étudiants étaient inscrits dans l'enseignement supérieur (+1,1 %).",
-      "sujet_etudes_sies_nf17"
-     ]
-    ],
-    "maj": "2026-11-05"
-   },
-   "q": "parcoursup"
-  },
-  {
    "c": "le-pen",
    "th": "defense",
    "t": "Sortir du commandement intégré de l'OTAN, sans quitter l'Alliance",
@@ -17393,6 +17395,258 @@
     "maj": "2026-11-05"
    },
    "q": "industrie_def"
+  },
+  {
+   "c": "melenchon",
+   "th": "institutions",
+   "t": "Élire l'Assemblée à la proportionnelle et rendre le vote obligatoire",
+   "d": "Avec le vote blanc reconnu et un seuil de votes exprimés pour valider une élection.",
+   "s": [
+    "aec27_p5c1",
+    "ps_aec27"
+   ],
+   "aj": "2026-11-07",
+   "fin": "s",
+   "id": "p379",
+   "k": "elections",
+   "plus": {
+    "detail": [
+     [
+      "« Élire l'Assemblée nationale au scrutin proportionnel », par la loi, sans attendre la nouvelle Constitution.",
+      "aec27_p5c1"
+     ],
+     [
+      "Il veut « mettre en place le vote obligatoire », avec un seuil de votes exprimés pour qu'une élection soit validée, et « reconnaître le vote blanc ».",
+      "aec27_p5c1"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "elections"
+  },
+  {
+   "c": "melenchon",
+   "th": "institutions",
+   "t": "Le référendum d'initiative citoyenne (RIC)",
+   "d": "Avec assez de signatures, les citoyens pourraient proposer ou abroger une loi, modifier la Constitution ou révoquer un élu.",
+   "s": [
+    "aec27_p5c1"
+   ],
+   "aj": "2026-11-07",
+   "fin": "s",
+   "id": "p380",
+   "k": "ric",
+   "plus": {
+    "detail": [
+     [
+      "Présenté comme une « mesure clé » : « Instaurer le référendum d'initiative citoyenne (RIC) ».",
+      "aec27_p5c1"
+     ],
+     [
+      "Les citoyens qui réunissent assez de signatures pourraient proposer ou abroger une loi, modifier la Constitution et révoquer des élus. Le nombre de signatures n'est pas précisé.",
+      "aec27_p5c1"
+     ]
+    ],
+    "auj": [
+     [
+      "Aujourd'hui, un référendum peut être organisé à l'initiative d'un cinquième des parlementaires, soutenue par un dixième des électeurs inscrits (article 11 de la Constitution). Les citoyens ne peuvent pas en déclencher un seuls.",
+      "sujet_institutions_cc_constitution"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "ric"
+  },
+  {
+   "c": "melenchon",
+   "th": "numerique",
+   "t": "Une autorité nationale qui autorise les IA « à haut risque »",
+   "d": "Avant leur mise sur le marché ; il veut aussi garantir le droit à un interlocuteur humain.",
+   "s": [
+    "aec27_p4c7",
+    "ps_aec27"
+   ],
+   "aj": "2026-11-07",
+   "fin": "n",
+   "id": "p381",
+   "k": "ia_autorite",
+   "plus": {
+    "detail": [
+     [
+      "« Créer une autorité nationale de l'intelligence artificielle », qui délivrerait aux systèmes d'IA « à haut risque » une autorisation de mise sur le marché.",
+      "aec27_p4c7"
+     ],
+     [
+      "Il veut des IA qui aident les travailleurs « plutôt qu'à les surveiller ou les remplacer », et « garantir le droit à un interlocuteur humain ».",
+      "aec27_p4c7"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "encadrer_ia"
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Rester dans l'Union européenne et dans l'euro",
+   "d": "Tout en désobéissant aux règles européennes qu'il juge bloquantes pour son programme.",
+   "s": [
+    "aec27_p6c1"
+   ],
+   "aj": "2026-11-07",
+   "fin": "s",
+   "id": "p382",
+   "k": "rester_ue",
+   "plus": {
+    "detail": [
+     [
+      "« Avec nous, la France ne sortira ni de l'Union, ni de la zone euro ».",
+      "aec27_p6c1"
+     ],
+     [
+      "Le Parlement voterait la suspension de certaines règles de l'Union, et la France désobéirait aux « règles bloquantes, chaque fois que cela sera nécessaire ».",
+      "aec27_p6c1"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "rester_ue"
+  },
+  {
+   "c": "melenchon",
+   "th": "europe",
+   "t": "Un cessez-le-feu en Ukraine et le retrait des troupes russes",
+   "d": "Puis des négociations ; tout changement de frontières devrait être validé par un vote des populations concernées.",
+   "s": [
+    "aec27_p6c2"
+   ],
+   "aj": "2026-11-07",
+   "fin": "s",
+   "id": "p383",
+   "k": "ukraine",
+   "plus": {
+    "detail": [
+     [
+      "Il vise un cessez-le-feu, « le retrait des troupes russes » et des négociations.",
+      "aec27_p6c2"
+     ],
+     [
+      "« Tout accord sur une modification des frontières devra être validé par un vote des populations concernées. »",
+      "aec27_p6c2"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "ukraine"
+  },
+  {
+   "c": "melenchon",
+   "th": "retraites",
+   "t": "Aucune pension sous le Smic pour une carrière complète",
+   "d": "Pour les salariés, indépendants et agriculteurs ; le minimum vieillesse serait porté au seuil de pauvreté.",
+   "s": [
+    "aec27_p3c1"
+   ],
+   "aj": "2026-11-07",
+   "fin": "n",
+   "id": "p384",
+   "k": "pension_smic",
+   "plus": {
+    "detail": [
+     [
+      "« Porter, a minima, toutes les pensions pour une carrière complète (salarié, indépendant, agriculteur) au niveau du SMIC revalorisé ».",
+      "aec27_p3c1"
+     ],
+     [
+      "Le minimum vieillesse serait porté au niveau du seuil de pauvreté, et la décote supprimée.",
+      "aec27_p3c1"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "pension_min"
+  },
+  {
+   "c": "melenchon",
+   "th": "pouvoir",
+   "t": "Bloquer les prix des produits de première nécessité",
+   "d": "Alimentation, énergie et carburant ; il veut aussi une première tranche gratuite d'électricité, de chaleur, d'eau et de gaz.",
+   "s": [
+    "aec27_p2c2",
+    "aec27_p3c1"
+   ],
+   "aj": "2026-11-07",
+   "fin": "n",
+   "id": "p385",
+   "k": "blocage_prix",
+   "plus": {
+    "detail": [
+     [
+      "« Bloquer et encadrer les prix des produits de première nécessité (alimentation, énergie, carburant) », dans un « état d'urgence sociale ».",
+      "aec27_p2c2"
+     ],
+     [
+      "Il veut aussi une première tranche gratuite de consommation d'électricité, de chaleur, d'eau et de gaz, et interdire la « réduflation ».",
+      "aec27_p3c1"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "energie_prix"
+  },
+  {
+   "c": "melenchon",
+   "th": "immigration",
+   "t": "Le droit du sol intégral pour tous les enfants nés en France",
+   "d": "Et un accès facilité à la nationalité française.",
+   "s": [
+    "aec27_p3c4"
+   ],
+   "aj": "2026-11-07",
+   "fin": "s",
+   "id": "p386",
+   "k": "droit_sol",
+   "plus": {
+    "detail": [
+     [
+      "Présenté comme une « mesure clé » : « Garantir le droit du sol intégral à tous les enfants nés en France ».",
+      "aec27_p3c4"
+     ],
+     [
+      "Il veut aussi « faciliter l'accès à la nationalité française ».",
+      "aec27_p3c4"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "droit_sol"
+  },
+  {
+   "c": "melenchon",
+   "th": "social",
+   "t": "Rembourser à 100 % les soins prescrits (« 100 % Sécu »)",
+   "d": "En intégrant les mutuelles dans la Sécurité sociale et en supprimant les franchises médicales.",
+   "s": [
+    "aec27_p3c1"
+   ],
+   "aj": "2026-11-07",
+   "fin": "n",
+   "id": "p387",
+   "k": "secu100",
+   "plus": {
+    "detail": [
+     [
+      "« Instaurer le \"100 % Sécu\" en remboursant à 100 % les soins de santé prescrits », en intégrant les assurances maladie complémentaires dans la Sécurité sociale.",
+      "aec27_p3c1"
+     ],
+     [
+      "Il veut aussi supprimer les franchises médicales et les participations forfaitaires, et indemniser les arrêts maladie à 100 % du salaire, sans jour de carence.",
+      "aec27_p3c1"
+     ]
+    ],
+    "maj": "2026-11-07"
+   },
+   "q": "remboursement"
   }
  ],
  "sources": {
@@ -22302,6 +22556,146 @@
    "d": "2026-08-25",
    "type": "officiel",
    "u": "https://place-publique.eu/posts/2fgDdljEIy36rgxBjRyiQZ/raphael-glucksmann-sa-lettre-aux-francais"
+  },
+  "aec27_livre": {
+   "t": "L'Avenir en commun, programme pour 2027 (sommaire en ligne)",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/"
+  },
+  "aec27_budget": {
+   "t": "Comment nous allons remettre de l'ordre dans les comptes publics",
+   "p": "La France insoumise (melenchon2027.fr)",
+   "d": "2026-10-14",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf"
+  },
+  "ps_aec27": {
+   "t": "Présidentielle 2027 : avec la « Nouvelle France », Jean-Luc Mélenchon fait de l'écologie la clé de voûte de son programme",
+   "p": "Public Sénat",
+   "d": "2026-11-06",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-avec-la-nouvelle-france-jean-luc-melenchon-fait-de-lecologie-la-cle-de-voute-de-son-programme"
+  },
+  "aec27_p1c1": {
+   "t": "L'Avenir en commun, partie 1, chapitre 1 : Planification écologique",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1"
+  },
+  "aec27_p1c3": {
+   "t": "L'Avenir en commun, partie 1, chapitre 3 : Les grands chantiers de la bifurcation écologique",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3"
+  },
+  "aec27_p2c1": {
+   "t": "L'Avenir en commun, partie 2, chapitre 1 : L'ère d'un nouveau collectivisme",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1"
+  },
+  "aec27_p2c2": {
+   "t": "L'Avenir en commun, partie 2, chapitre 2 : Partager les richesses",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2"
+  },
+  "aec27_p3c1": {
+   "t": "L'Avenir en commun, partie 3, chapitre 1 : À chacun selon ses besoins",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1"
+  },
+  "aec27_p3c2": {
+   "t": "L'Avenir en commun, partie 3, chapitre 2 : Une République de l'égalité réelle et des droits nouveaux",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2"
+  },
+  "aec27_p3c3": {
+   "t": "L'Avenir en commun, partie 3, chapitre 3 : Entrer pleinement dans l'ère de l'émancipation des femmes",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3"
+  },
+  "aec27_p3c4": {
+   "t": "L'Avenir en commun, partie 3, chapitre 4 : Faire triompher l'égalité contre le racisme et les discriminations",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4"
+  },
+  "aec27_p4c2": {
+   "t": "L'Avenir en commun, partie 4, chapitre 2 : Élever le niveau d'éducation et de savoirs",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2"
+  },
+  "aec27_p4c4": {
+   "t": "L'Avenir en commun, partie 4, chapitre 4 : Faire de la santé un enjeu global",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4"
+  },
+  "aec27_p4c7": {
+   "t": "L'Avenir en commun, partie 4, chapitre 7 : Démocratiser la révolution numérique",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7"
+  },
+  "aec27_p5c1": {
+   "t": "L'Avenir en commun, partie 5, chapitre 1 : Le pouvoir au peuple",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1"
+  },
+  "aec27_p5c2": {
+   "t": "L'Avenir en commun, partie 5, chapitre 2 : Libertés publiques et sûreté",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2"
+  },
+  "aec27_p5c3": {
+   "t": "L'Avenir en commun, partie 5, chapitre 3 : Une France sans déserts de droits",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3"
+  },
+  "aec27_p6c1": {
+   "t": "L'Avenir en commun, partie 6, chapitre 1 : Se libérer du libéralisme en Europe",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1"
+  },
+  "aec27_p6c2": {
+   "t": "L'Avenir en commun, partie 6, chapitre 2 : Une France indépendante au service de la paix",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2"
+  },
+  "aec27_p6c3": {
+   "t": "L'Avenir en commun, partie 6, chapitre 3 : Les nouvelles coopérations de la diplomatie altermondialiste",
+   "p": "Programme de Jean-Luc Mélenchon (melenchon2027.fr)",
+   "d": "2026-11-06",
+   "type": "officiel",
+   "u": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3"
   }
  },
  "presse": [
@@ -22950,6 +23344,15 @@
     "retailleau"
    ],
    "txt": "Bruno Retailleau relance l'idée d'une primaire en début d'année : « Ou bien on est départagés par un vote démocratique, ou bien moi j'irai jusqu'au bout »"
+  },
+  {
+   "d": "2026-11-06",
+   "s": "ps_aec27",
+   "k": "programme",
+   "c": [
+    "melenchon"
+   ],
+   "txt": "Jean-Luc Mélenchon publie L'Avenir en commun : 1 069 mesures, l'écologie en tête, 100 % d'énergies renouvelables repoussé à 2060 au plus tard"
   }
  ],
  "sondages": [
@@ -23376,10 +23779,6 @@
   }
  },
  "agenda": [
-  [
-   "2026-11-06",
-   "Jean-Luc Mélenchon publie son programme, L'Avenir en commun, présenté en meeting le 7 novembre au Bourget"
-  ],
   [
    "2026-12-13",
    "Les adhérents des Écologistes décident s'ils gardent Marine Tondelier comme candidate (vote du 10 au 13 décembre)"
@@ -24102,7 +24501,8 @@
       "p294",
       "p334",
       "p341",
-      "p376"
+      "p376",
+      "p384"
      ]
     }
    }
@@ -25968,13 +26368,26 @@
   }
  },
  "semaine": {
-  "d": "2026-11-05",
+  "d": "2026-11-07",
   "titre": [
+   "Mélenchon publie son programme,",
    "Parcoursup au cœur de la campagne,",
-   "le centre et la droite divisés sur une primaire,",
    "{n} propositions ajoutées."
   ],
   "ecrans": [
+   {
+    "k": "Programme",
+    "t": "Jean-Luc Mélenchon publie « L'Avenir en commun »",
+    "txt": "1 069 mesures, dont 238 nouvelles selon son mouvement. Parmi les changements : 100 % d'énergies renouvelables au plus tard en 2060, contre 2050 en 2022, et une « règle verte » dans la Constitution. L'appli en retient une quarantaine, comme pour les autres candidats, avec le lien vers le programme complet.",
+    "c": [
+     "melenchon"
+    ],
+    "cl": "Sa fiche mise à jour",
+    "src": [
+     "ps_aec27",
+     "aec27_livre"
+    ]
+   },
    {
     "k": "Mobilisation des jeunes",
     "t": "Le gouvernement annonce un remplaçant à Parcoursup en 2028",
