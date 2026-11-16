@@ -1,6 +1,6 @@
 {
- "maj": "2026-11-07",
- "version": 16,
+ "maj": "2026-11-16",
+ "version": 17,
  "base": "2026-10-01",
  "themes": [
   [
@@ -205,8 +205,9 @@
      "ps_meeting_attal"
     ],
     [
-     "Il propose une primaire du centre et de la droite d'ici le début de 2027 : « À la fin, je crois que cette primaire aura lieu. C'est inéluctable » (TF1, 2 novembre 2026).",
-     "lcp_attal_primaire"
+     "Il défend une primaire du centre et de la droite, « inéluctable » selon lui (TF1, 2 novembre 2026). Son parti a répondu « favorablement » à l'initiative de Gérard Larcher, le 14 novembre.",
+     "lcp_attal_primaire",
+     "afp_larcher"
     ]
    ],
    "docs": [
@@ -608,7 +609,7 @@
       "p152"
      ],
      "environnement": [
-      "p179",
+      "p392",
       "p181",
       "p299"
      ],
@@ -789,9 +790,10 @@
    "statutTxt": "Programme publié : « L'Avenir en commun » (6 novembre 2026), chiffrage complet annoncé pour début 2027",
    "faits": [
     [
-     "Son programme, L'Avenir en commun, est paru le 6 novembre 2026 : 212 pages et 1 069 mesures, dont 238 nouvelles selon son mouvement. Il le présente en meeting au Bourget le 7 novembre.",
+     "Son programme, L'Avenir en commun, est paru le 6 novembre 2026 : 212 pages et 1 069 mesures, dont 238 nouvelles selon son mouvement. Il l'a présenté en meeting au Bourget le 7 novembre.",
      "ps_aec27",
-     "lfi_aec_sortie"
+     "lfi_aec_sortie",
+     "melenchon_bourget"
     ],
     [
      "Le chiffrage complet du programme est annoncé pour le début de 2027.",
@@ -982,6 +984,10 @@
     [
      "Il refuse la primaire proposée par Gabriel Attal : « Cette primaire, c'est une primaire de la division et une primaire de la confusion » (TF1, 1er novembre 2026).",
      "lcp_attal_primaire"
+    ],
+    [
+     "Le 13 novembre, il maintient son refus : « Je ne changerai pas d'avis, je suis constant et cohérent ».",
+     "afp_larcher"
     ]
    ],
    "docs": [],
@@ -1054,10 +1060,11 @@
    "oeil": {
     "etat": [
      [
-      "Il n'a pas encore publié de programme complet : il présente ses mesures au fil des interventions (Medef en août, climat en septembre, « L'Heure de vérité » en octobre 2026).",
+      "Il n'a pas encore publié de programme complet : il présente ses mesures au fil des interventions (Medef en août, climat en septembre, « L'Heure de vérité » en octobre, logement et famille en novembre 2026).",
       "lcp_philippe",
       "lid_philippe_climat",
-      "sudradio_philippe_hdv"
+      "sudradio_philippe_hdv",
+      "qz_philippe_logement"
      ]
     ],
     "phares": {
@@ -1074,7 +1081,8 @@
       "p144"
      ],
      "social": [
-      "p145"
+      "p145",
+      "p395"
      ],
      "gouvernance": [
       "p143",
@@ -1128,8 +1136,8 @@
      "lcp_retailleau_designation"
     ],
     [
-     "Le 3 novembre 2026, il a estimé qu'« il faudra une primaire sans doute en début d'année » au centre et à droite : « Ou bien on est départagés par un vote démocratique, ou bien moi j'irai jusqu'au bout ».",
-     "afp_primaire_retailleau"
+     "Le 10 novembre 2026, il a proposé à Édouard Philippe, Gabriel Attal et David Lisnard une primaire les dimanches 31 janvier et 7 février 2027 : « le temps joue contre nous ».",
+     "yahoo_retailleau_dates"
     ]
    ],
    "docs": [],
@@ -1415,8 +1423,8 @@
      "bio_ruffin_lcp0512"
     ],
     [
-     "Le projet de primaire commune de la gauche et des écologistes a été abandonné : en septembre 2026, les Écologistes ont pris acte qu'il « n'est plus d'actualité ».",
-     "lcp_ecolos_0921"
+     "Le 6 novembre 2026, il a dit qu'il retirerait sa candidature « si une solution se dégage pour battre Marine Le Pen au deuxième tour », ajoutant : « je ne la vois pas aujourd'hui ».",
+     "yahoo_ruffin_retrait"
     ]
    ],
    "docs": [
@@ -1658,11 +1666,12 @@
    "tri": "Zemmour",
    "parti": "Reconquête",
    "statut": "nonpublie",
-   "statutTxt": "Candidature annoncée, programme non publié",
+   "statutTxt": "Candidature officialisée le 10 novembre 2026, programme non publié",
    "faits": [
     [
-     "A annoncé sa candidature le 17 septembre 2026 sur BFMTV ; selon Public Sénat, le 18 septembre, sa déclaration officielle était attendue à l'automne, probablement en octobre.",
-     "ps_zemmour"
+     "A annoncé sa candidature le 17 septembre 2026 sur BFMTV, puis l'a officialisée le 10 novembre au journal de 20 heures de TF1 : « Je me présente pour me permettre de conserver une France française ».",
+     "ps_zemmour",
+     "sudradio_zemmour_tf1"
     ]
    ],
    "docs": [],
@@ -1731,13 +1740,15 @@
    "oeil": {
     "etat": [
      [
-      "Il a annoncé sa candidature le 17 septembre 2026 sur BFMTV. Son programme n'est pas encore publié : ses mesures viennent de ses interventions.",
+      "Il a annoncé sa candidature le 17 septembre 2026 sur BFMTV et l'a officialisée le 10 novembre sur TF1. Son programme n'est pas encore publié : ses mesures viennent de ses interventions.",
       "ps_zemmour",
+      "sudradio_zemmour_tf1",
       "lavenir_zemmour_afp"
      ]
     ],
     "phares": {
      "interieur": [
+      "p398",
       "p071",
       "p146"
      ],
@@ -3992,6 +4003,100 @@
      ]
     }
    }
+  },
+  {
+   "id": "riner",
+   "nom": "Teddy Riner",
+   "tri": "Riner",
+   "parti": "Sans parti",
+   "statut": "nonpublie",
+   "statutTxt": "Candidature annoncée le 9 novembre 2026, programme pas encore publié",
+   "faits": [
+    [
+     "A annoncé sa candidature le 9 novembre 2026, dans une vidéo sur les réseaux sociaux et un entretien au Parisien, avec le slogan « La France qu'on veut ».",
+     "lcp_riner_annonce"
+    ],
+    [
+     "Il se dit « ni de droite, ni de gauche » et doit, comme les autres, réunir 500 parrainages d'élus.",
+     "lcp_riner_prop",
+     "lcp_riner_annonce"
+    ]
+   ],
+   "docs": [],
+   "parcours": {
+    "chapo": [
+     "Judoka, quintuple champion olympique, Teddy Riner se présente à l'élection présidentielle de 2027 en se disant « ni de droite, ni de gauche ». Il veut « relever la France » et être « le président qui réconcilie et qui fédère ».",
+     [
+      "lcp_riner_annonce",
+      "lcp_riner_prop"
+     ]
+    ],
+    "paras": [
+     [
+      "Origines et formation",
+      [
+       [
+        "Né le 7 avril 1989 en Guadeloupe.",
+        "wiki_riner"
+       ]
+      ]
+     ],
+     [
+      "Parcours",
+      [
+       [
+        "Champion olympique en individuel (plus de 100 kg) en 2012, 2016 et 2024, et par équipes mixtes en 2020 et 2024.",
+        "wiki_riner"
+       ],
+       [
+        "Onze fois champion du monde en individuel.",
+        "wiki_riner"
+       ]
+      ]
+     ],
+     [
+      "Aujourd'hui",
+      [
+       [
+        "Il dit avoir réuni un « noyau dur d'une vingtaine de personnalités issues de la société civile, des fonctionnaires, des anciens ministres ».",
+        "lcp_riner_annonce"
+       ]
+      ]
+     ]
+    ]
+   },
+   "oeil": {
+    "etat": [
+     [
+      "Pas encore de programme : ses premières orientations datent de sa déclaration de candidature, le 9 novembre 2026.",
+      "lcp_riner_prop"
+     ]
+    ],
+    "phares": {
+     "travail": [
+      "p388",
+      "p389",
+      "p390"
+     ],
+     "finances": [
+      "p391"
+     ]
+    },
+    "fin": {
+     "cand": [
+      [
+       "Nous n'avons pas trouvé de chiffrage de sa part.",
+       null
+      ]
+     ],
+     "ind": [
+      [
+       "Nous n'avons pas trouvé de chiffrage extérieur.",
+       null
+      ]
+     ]
+    }
+   }
   }
  ],
  "propositions": [
@@ -4609,11 +4714,12 @@
   {
    "c": "attal",
    "th": "etat",
-   "t": "Supprimer 100 000 postes de fonctionnaires d'État",
-   "d": "Supprimer 100 000 postes de fonctionnaires d'État par des départs à la retraite non remplacés et un plan de départs volontaires, en préservant l'Éducation nationale, les Armées, la Justice et l'Intérieur.",
+   "t": "Supprimer 100 000 postes de fonctionnaires",
+   "d": "Par le non-remplacement de certains départs à la retraite et un plan de départs volontaires indemnisés, en préservant l'Éducation nationale, les Armées, la Justice et l'Intérieur ; la fonction publique territoriale pourrait aussi être concernée.",
    "s": [
     "ps_attal_fonctionnaires",
-    "acteurspublics_attal"
+    "acteurspublics_attal",
+    "capital_attal_fp"
    ],
    "aj": "2026-10-01",
    "a": {
@@ -4627,7 +4733,7 @@
    "plus": {
     "detail": [
      [
-      "Il propose « la suppression de 100 000 postes de fonctionnaires d'État ».",
+      "En juillet 2026, il proposait « la suppression de 100 000 postes de fonctionnaires d'État ».",
       "ps_attal_fonctionnaires"
      ],
      [
@@ -4642,6 +4748,10 @@
       "Il l'a annoncé dans un entretien au Parisien, en juillet 2026.",
       "ps_attal_fonctionnaires",
       "acteurspublics_attal"
+     ],
+     [
+      "En novembre 2026, il précise sur franceinfo que les suppressions « ne se limiteraient pas seulement à l'État » et que le montant de l'indemnité de départ « sera déterminé avec du dialogue social ».",
+      "capital_attal_fp"
      ]
     ],
     "pourquoi": [
@@ -4662,7 +4772,7 @@
       "ps_attal_fonctionnaires"
      ]
     ],
-    "maj": "2026-10-19"
+    "maj": "2026-11-16"
    },
    "q": "fonctionnaires"
   },
@@ -5308,6 +5418,10 @@
      [
       "Le RN prévoit aussi un « pilier de capitalisation ».",
       "gazette_lepen_140"
+     ],
+     [
+      "Avant la présentation de sa réforme, le 17 novembre 2026, des responsables du RN évoquent pour une retraite complète « une fourchette allant de 40 à 42 ans de cotisations », et un fonds d'investissement de type souverain alimenté par une partie des cotisations.",
+      "reuters_lepen_retraites"
      ]
     ],
     "pourquoi": [
@@ -5333,7 +5447,7 @@
       "ps_retraites"
      ]
     ],
-    "maj": "2026-10-19"
+    "maj": "2026-11-16"
    },
    "q": "age_retraite"
   },
@@ -7188,11 +7302,11 @@
   {
    "c": "zemmour",
    "th": "immigration",
-   "t": "Expulser les étrangers détenus, délinquants, clandestins, et après un an de chômage",
-   "d": "Expulser les étrangers détenus ou condamnés, les étrangers en situation irrégulière, et les étrangers en situation régulière au chômage depuis plus d'un an ou qui vivent uniquement des aides sociales.",
+   "t": "Expulser les étrangers détenus, délinquants, clandestins, et après six mois de chômage",
+   "d": "Expulser les étrangers détenus ou délinquants, ceux en situation irrégulière, et les étrangers en situation régulière au chômage depuis plus de six mois.",
    "s": [
     "lavenir_zemmour_afp",
-    "ps_zemmour"
+    "sudradio_zemmour_tf1"
    ],
    "aj": "2026-10-01",
    "fin": "n",
@@ -7210,6 +7324,10 @@
      [
       "Les étrangers en situation régulière au chômage depuis « plus de six mois à un an, un an dirons-nous », ou qui vivent uniquement des aides sociales, seraient aussi expulsés.",
       "lavenir_zemmour_afp"
+     ],
+     [
+      "Le 10 novembre 2026, sur TF1, il parle d'expulser « les chômeurs étrangers de plus de six mois », même en situation régulière.",
+      "sudradio_zemmour_tf1"
      ]
     ],
     "pourquoi": [
@@ -7228,7 +7346,7 @@
       "sujet_securite_justice_detention_202608"
      ]
     ],
-    "maj": "2026-10-19"
+    "maj": "2026-11-16"
    },
    "q": "irreguliers"
   },
@@ -9010,6 +9128,10 @@
       "Pour les familles qui travaillent, une réduction d'impôt d'environ 3 000 euros pendant les trois années suivant une naissance.",
       "lcp_philippe_alloc",
       "sudradio_philippe_hdv"
+     ],
+     [
+      "Le 15 novembre 2026, il y ajoute un prêt à taux zéro pour chaque nouvel enfant.",
+      "qz_philippe_logement"
      ]
     ],
     "pourquoi": [
@@ -9030,7 +9152,7 @@
       null
      ]
     ],
-    "maj": "2026-10-19"
+    "maj": "2026-11-16"
    },
    "q": "familles"
   },
@@ -17647,6 +17769,361 @@
     "maj": "2026-11-07"
    },
    "q": "remboursement"
+  },
+  {
+   "c": "riner",
+   "th": "retraites",
+   "t": "Réformer les retraites en gardant la répartition, avec une part de capitalisation",
+   "d": "« Le système actuel ne tient pas », dit-il ; il n'a pas précisé d'âge de départ.",
+   "s": [
+    "lcp_riner_prop"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p388",
+   "k": "retraites",
+   "plus": {
+    "detail": [
+     [
+      "Sur la réforme des retraites : « C'est une nécessité incontournable, car le système actuel ne tient pas ».",
+      "lcp_riner_prop"
+     ],
+     [
+      "Il veut une réforme qui tienne compte de la démographie « tout en gardant notre système solidaire par répartition », sur des critères de pénibilité, et n'exclut pas « une part de capitalisation ».",
+      "lcp_riner_annonce",
+      "lcp_riner_prop"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "capitalisation"
+  },
+  {
+   "c": "riner",
+   "th": "travail",
+   "t": "Assouplir les 35 heures pour ceux qui veulent travailler plus",
+   "d": "« Sortir du carcan figé des 35 heures, mais sans le remettre en question ».",
+   "s": [
+    "lcp_riner_prop"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p389",
+   "k": "35h",
+   "plus": {
+    "detail": [
+     [
+      "Il propose de « sortir du carcan figé des 35 heures, mais sans le remettre en question ».",
+      "lcp_riner_prop"
+     ],
+     [
+      "« Je veux aussi permettre aux Français qui le veulent, d'augmenter leurs revenus en travaillant plus ».",
+      "lcp_riner_prop"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "salaires"
+  },
+  {
+   "c": "riner",
+   "th": "travail",
+   "t": "Réduire l'écart entre salaire brut et salaire net",
+   "d": "En allégeant les « charges » ; le montant n'est pas précisé.",
+   "s": [
+    "lcp_riner_prop"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p390",
+   "k": "brut_net",
+   "plus": {
+    "detail": [
+     [
+      "Il veut réduire l'écart entre salaire brut et salaire net en allégeant les « charges ». En mai 2025, sur BFM Business, il jugeait que pour les entreprises, créer de l'emploi, « c'est un peu compliqué » « tant qu'il y a autant de taxes ».",
+      "lcp_riner_prop"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "salaires"
+  },
+  {
+   "c": "riner",
+   "th": "budget",
+   "t": "Réduire la dette en dépensant moins",
+   "d": "« Savoir dépenser moins et réinjecter mieux » ; les économies ne sont pas détaillées.",
+   "s": [
+    "lcp_riner_prop"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p391",
+   "k": "dette",
+   "plus": {
+    "detail": [
+     [
+      "« Nous ne sommes pas condamnés à subir la dette » ; il faut « savoir dépenser moins et réinjecter mieux ».",
+      "lcp_riner_prop"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "deficit"
+  },
+  {
+   "c": "glucksmann",
+   "th": "ecologie",
+   "t": "200 milliards d'euros d'investissements publics pour sortir des énergies fossiles",
+   "d": "Sur le quinquennat, financés notamment par une contribution exceptionnelle de 5 % sur les patrimoines de plus de 100 millions d'euros ; il veut plus que doubler la production d'énergie renouvelable d'ici 2035.",
+   "s": [
+    "afp_glucksmann_200",
+    "ps_glucksmann_200"
+   ],
+   "aj": "2026-11-16",
+   "fin": "f",
+   "id": "p392",
+   "k": "fossiles_200",
+   "a": {
+    "v": 200,
+    "nature": "cout",
+    "per": "total",
+    "h": "sur le quinquennat, montant annoncé"
+   },
+   "finTxt": "Une contribution exceptionnelle de 5 % sur les patrimoines de plus de 100 millions d'euros, une taxe européenne sur les superprofits pétroliers et gaziers, un grand emprunt écologique européen et des taxes sur l'aérien, les jets privés et les yachts",
+   "plus": {
+    "detail": [
+     [
+      "Présenté le 9 novembre 2026 à Paris, avec le sénateur écologiste Yannick Jadot, « en charge de mettre en place cette révolution écologique ».",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ],
+     [
+      "Des « investissements publics » de 200 milliards d'euros « sur le quinquennat », engagés par l'État, les collectivités et la Sécurité sociale.",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ],
+     [
+      "Objectifs : la neutralité carbone en 2050, « plus que doubler la production d'énergie renouvelable d'ici 2035 » et « pérenniser l'énergie nucléaire ».",
+      "afp_glucksmann_200"
+     ],
+     [
+      "Il veut aussi proclamer « l'état d'urgence écologique », inscrire une « République écologique » dans la Constitution et adopter « une loi de programmation écologique ».",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ]
+    ],
+    "fin_cand": [
+     [
+      "Une « contribution exceptionnelle » d'un an de 5 % sur les patrimoines de plus de 100 millions d'euros, estimée à 50 milliards d'euros par Yannick Jadot.",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ],
+     [
+      "S'y ajoutent une taxe européenne sur les superprofits pétroliers et gaziers, un grand emprunt écologique européen, la fin de l'exonération de taxe sur le kérosène des vols intérieurs, une hausse de la taxe de solidarité sur les billets d'avion et une taxation des jets privés et des yachts.",
+      "afp_glucksmann_200"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "fossiles"
+  },
+  {
+   "c": "glucksmann",
+   "th": "pouvoir",
+   "t": "Un chèque énergie de 500 € pour 6 millions de familles",
+   "d": "Et de 200 € pour 10 millions de familles des classes moyennes, avec un moratoire sur les hausses de taxes sur l'électricité.",
+   "s": [
+    "afp_glucksmann_200",
+    "ps_glucksmann_200"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p393",
+   "k": "cheque_energie",
+   "plus": {
+    "detail": [
+     [
+      "Parmi ses mesures des 100 premiers jours : un « chèque énergie exceptionnel de 500 euros pour 6 millions de familles », et de 200 euros pour 10 millions d'autres familles des classes moyennes.",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ],
+     [
+      "Il y ajoute un « moratoire sur les hausses de taxes sur l'électricité », un leasing social d'un million de petites voitures électriques à 100 euros par mois sans apport, et un million de pompes à chaleur à tarif social (1 euro par jour).",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "energie_prix"
+  },
+  {
+   "c": "glucksmann",
+   "th": "pouvoir",
+   "t": "Un « pass mobilité » à 1 € par jour pour les moins de 25 ans",
+   "d": "Un « Pass Mobilité Durable », parmi ses mesures des 100 premiers jours.",
+   "s": [
+    "afp_glucksmann_200",
+    "ps_glucksmann_200"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p394",
+   "k": "mobilite_25",
+   "plus": {
+    "detail": [
+     [
+      "Parmi ses mesures des 100 premiers jours : un « Pass Mobilité Durable » à 1 euro par jour pour les moins de 25 ans.",
+      "afp_glucksmann_200",
+      "ps_glucksmann_200"
+     ],
+     [
+      "Les transports concernés et le coût ne sont pas précisés.",
+      "afp_glucksmann_200"
+     ]
+    ],
+    "maj": "2026-11-16"
+   }
+  },
+  {
+   "c": "philippe",
+   "th": "logement",
+   "t": "Construire 4 millions de logements en dix ans",
+   "d": "« Construire plus et louer beaucoup plus », avec des normes simplifiées et une fiscalité avantageuse.",
+   "s": [
+    "qz_philippe_logement"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p395",
+   "k": "logements_4m",
+   "plus": {
+    "detail": [
+     [
+      "Dans un entretien au Parisien, le 15 novembre 2026 : « Le pire ennemi du pouvoir d'achat des Français aujourd'hui, c'est le logement ».",
+      "qz_philippe_logement"
+     ],
+     [
+      "Il veut « construire plus et louer beaucoup plus », grâce notamment à « des normes simplifiées et une fiscalité avantageuse ».",
+      "qz_philippe_logement"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "logements"
+  },
+  {
+   "c": "philippe",
+   "th": "logement",
+   "t": "Supprimer les frais de notaire pour les moins de 35 ans",
+   "d": "Pour aider les jeunes à acheter leur logement.",
+   "s": [
+    "qz_philippe_logement"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p396",
+   "k": "notaire_35",
+   "plus": {
+    "detail": [
+     [
+      "Il souhaite « supprimer les taxes appelées frais de notaire pour les moins de 35 ans » (entretien au Parisien, 15 novembre 2026).",
+      "qz_philippe_logement"
+     ],
+     [
+      "Les conditions (premier achat, plafond de prix) ne sont pas précisées.",
+      "qz_philippe_logement"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "loyers"
+  },
+  {
+   "c": "attal",
+   "th": "ecologie",
+   "t": "Des prix plancher et des contrats de 3 à 5 ans pour les agriculteurs",
+   "d": "Des prix minimums indexés sur les coûts de production pour le lait, la viande et les céréales, et des contrats obligatoires de trois à cinq ans avec la grande distribution.",
+   "s": [
+    "agra_attal"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p397",
+   "k": "prix_plancher",
+   "plus": {
+    "detail": [
+     [
+      "« Des prix plancher indexés sur les coûts de production » pour trois filières : lait, viande et céréales.",
+      "agra_attal"
+     ],
+     [
+      "« Des contrats de trois à cinq ans obligatoires entre la grande distribution et les producteurs », au lieu de la renégociation annuelle.",
+      "agra_attal"
+     ],
+     [
+      "Il veut aussi « refuser le traité Mercosur en l'état », intégrer systématiquement des clauses miroir dans les accords commerciaux, renforcer la PAC et simplifier l'extension des bâtiments d'élevage.",
+      "agra_attal"
+     ],
+     [
+      "Ces mesures figurent sur son site de campagne, selon Agra Presse (12 novembre 2026).",
+      "agra_attal"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "agriculture"
+  },
+  {
+   "c": "zemmour",
+   "th": "immigration",
+   "t": "Deux millions d'immigrés en moins à la fin du quinquennat",
+   "d": "Il défend une « immigration négative » ; il n'a pas détaillé comment atteindre ce chiffre.",
+   "s": [
+    "sudradio_zemmour_tf1"
+   ],
+   "aj": "2026-11-16",
+   "fin": "n",
+   "id": "p398",
+   "k": "deux_millions",
+   "plus": {
+    "detail": [
+     [
+      "Au journal de 20 heures de TF1, le 10 novembre 2026, il a promis « deux millions d'immigrés en moins à la fin du quinquennat ».",
+      "sudradio_zemmour_tf1"
+     ],
+     [
+      "Il défend le principe d'une « immigration négative » : plus de départs que d'arrivées.",
+      "sudradio_zemmour_tf1"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "immig_niveau"
+  },
+  {
+   "c": "zemmour",
+   "th": "institutions",
+   "t": "Un référendum sur la politique migratoire",
+   "d": "Pour que les Français décident « globalement » de la politique migratoire : « ce n'est pas à un juge » de gouverner à la place du peuple, dit-il.",
+   "s": [
+    "sudradio_zemmour_tf1"
+   ],
+   "aj": "2026-11-16",
+   "fin": "s",
+   "id": "p399",
+   "k": "referendum_immig",
+   "plus": {
+    "detail": [
+     [
+      "Il promet un référendum sur « la politique migratoire globalement » (TF1, 10 novembre 2026).",
+      "sudradio_zemmour_tf1"
+     ]
+    ],
+    "maj": "2026-11-16"
+   },
+   "q": "referendums"
   }
  ],
  "sources": {
@@ -22696,6 +23173,153 @@
    "d": "2026-11-06",
    "type": "officiel",
    "u": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3"
+  },
+  "lcp_riner_annonce": {
+   "t": "Le judoka Teddy Riner annonce sa candidature à l'élection présidentielle de 2027",
+   "p": "LCP",
+   "d": "2026-11-09",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/le-judoka-teddy-riner-annonce-sa-candidature-a-l-election-presidentielle-de-2027-444920"
+  },
+  "lcp_riner_prop": {
+   "t": "Retraites, salaires, sécurité : que propose Teddy Riner pour la présidentielle ?",
+   "p": "LCP",
+   "d": "2026-11-10",
+   "type": "presse",
+   "u": "https://lcp.fr/actualites/retraites-salaires-securite-que-propose-teddy-riner-pour-la-presidentielle-444935"
+  },
+  "wiki_riner": {
+   "t": "Teddy Riner",
+   "p": "Wikipédia (en anglais)",
+   "d": "2026-11-16",
+   "type": "donnees",
+   "u": "https://en.wikipedia.org/wiki/Teddy_Riner"
+  },
+  "qz_philippe_logement": {
+   "t": "Édouard Philippe propose 4 millions de logements en dix ans",
+   "p": "Quartz (entretien au Parisien, avec l'AFP)",
+   "d": "2026-11-15",
+   "type": "presse",
+   "u": "https://fr.qz.com/edouard-philippe-propose-construire-4-millions-logements-dix-ans-111526"
+  },
+  "capital_attal_fp": {
+   "t": "Une indemnité pour quitter la fonction publique : Gabriel Attal propose 100 000 départs volontaires",
+   "p": "Capital, repris par Yahoo Finance",
+   "d": "2026-11-12",
+   "type": "presse",
+   "u": "https://fr.finance.yahoo.com/actualites/indemnit%C3%A9-quitter-fonction-publique-gabriel-220438244.html"
+  },
+  "agra_attal": {
+   "t": "Présidentielle : Attal propose des prix plancher et des contrats pluriannuels obligatoires",
+   "p": "Agra Presse",
+   "d": "2026-11-12",
+   "type": "presse",
+   "u": "https://www.agra.fr/articles/presidentielle-attal-propose-des-prix-plancher-et-des-contrats-pluriannuels-obligatoires"
+  },
+  "rp_semaine_1116": {
+   "t": "Deux nouveaux candidats à l'élection présidentielle et la réponse de Sébastien Lecornu aux étudiants… Les cinq infos politiques de la semaine",
+   "p": "Regards protestants",
+   "d": "2026-11-16",
+   "type": "presse",
+   "u": "https://regardsprotestants.com/actualites/societe/deux-nouveaux-candidats-a-lelection-presidentielle-et-la-reponse-de-sebastien-lecornu-aux-etudiants-les-cinq-infos-politiques-de-la-semaine/"
+  },
+  "reuters_lepen_retraites": {
+   "t": "Marine Le Pen cherche à concilier promesses électorales et réalité budgétaire",
+   "p": "Boursorama (dépêche Reuters)",
+   "d": "2026-11-16",
+   "type": "presse",
+   "u": "https://www.boursorama.com/actualite-economique/actualites/marine-le-pen-cherche-a-concilier-promesses-electorales-et-realite-budgetaire-e0aec0c412a9d56ea873bc2a4b67a9d4"
+  },
+  "yahoo_ruffin_retrait": {
+   "t": "Présidentielle 2027 : François Ruffin retirera sa candidature « si une solution se dégage pour battre Marine Le Pen »",
+   "p": "BFMTV, repris par Yahoo Actualités",
+   "d": "2026-11-06",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/pr%C3%A9sidentielle-2027-fran%C3%A7ois-ruffin-retirera-092541933.html"
+  },
+  "melenchon_bourget": {
+   "t": "Grand meeting du Bourget - Notre programme de gouvernement",
+   "p": "Blog de Jean-Luc Mélenchon",
+   "d": "2026-11-07",
+   "type": "officiel",
+   "u": "https://melenchon.fr/2026/11/07/grand-meeting-du-bourget-notre-programme-de-gouvernement/"
+  },
+  "afp_larcher": {
+   "t": "Présidentielle : Larcher veut réunir les candidats de la droite et du centre, la pression monte sur Philippe",
+   "p": "Boursorama (dépêche AFP)",
+   "d": "2026-11-14",
+   "type": "presse",
+   "u": "https://www.boursorama.com/actualite-economique/actualites/presidentielle-larcher-veut-reunir-les-candidats-de-la-droite-et-du-centre-la-pression-monte-sur-philippe-c0a73dc48120a2eb7fcbc3a048411956"
+  },
+  "yahoo_retailleau_dates": {
+   "t": "Présidentielle 2027 : Retailleau soumet à Philippe, Attal et Lisnard des dates pour une primaire",
+   "p": "20 Minutes (avec l'AFP), repris par Yahoo Actualités",
+   "d": "2026-11-11",
+   "type": "presse",
+   "u": "https://fr.news.yahoo.com/sport/pr%C3%A9sidentielle-2027-retailleau-soumet-%C3%A0-023425436.html"
+  },
+  "21news_primaire_1117": {
+   "t": "Primaire de la droite et du centre : les équipes d'Attal, Retailleau et Lisnard vont se rencontrer le 17 novembre pour fixer une date de scrutin",
+   "p": "21 News",
+   "d": "2026-11-12",
+   "type": "presse",
+   "u": "https://www.21news.be/primaire-de-la-droite-et-du-centre-les-equipes-dattal-retailleau-et-lisnard-vont-se-rencontrer-le-17-novembre-pour-fixer-une-date-de-scrutin/"
+  },
+  "afp_glucksmann_200": {
+   "t": "Présidentielle : Glucksmann prévoit 200 milliards d'investissements pour sa « révolution écologique »",
+   "p": "L'Info Durable (dépêche AFP)",
+   "d": "2026-11-09",
+   "type": "presse",
+   "u": "https://www.linfodurable.fr/presidentielle-glucksmann-prevoit-200-milliards-dinvestissements-pour-sa-revolution-ecologique"
+  },
+  "ps_glucksmann_200": {
+   "t": "Présidentielle 2027 : Raphaël Glucksmann met 200 milliards sur la table et invite le Sénat à voter en faveur d'une future République écologique",
+   "p": "Public Sénat",
+   "d": "2026-11-09",
+   "type": "presse",
+   "u": "https://www.publicsenat.fr/actualites/politique/presidentielle-2027-raphael-glucksmann-met-200-milliards-sur-la-table-et-invite-le-senat-a-voter-en-faveur-dune-future-republique-ecologique"
+  },
+  "sudradio_zemmour_tf1": {
+   "t": "Éric Zemmour annonce sa candidature à la présidentielle pour « conserver une France française »",
+   "p": "Sud Radio (avec l'AFP)",
+   "d": "2026-11-10",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/societe/eric-zemmour-annonce-sa-candidature-a-la-presidentielle-pour-conserver-une-france-francaise"
+  },
+  "toluna_v9": {
+   "t": "Baromètre d'intentions de vote pour l'élection présidentielle 2027, vague 9",
+   "p": "Toluna Harris Interactive pour M6 et RTL",
+   "d": "2026-11-09",
+   "type": "sondage",
+   "u": "https://tolunacorporate.com/wp-content/uploads/2026/11/Rapport-Toluna-Barometre-Presidentielle-2027-Vague-9-M6-RTL-9-novembre-2026-1.pdf"
+  },
+  "ifop_lci_notice_1103": {
+   "t": "Intentions de vote à l'élection présidentielle 2027 (notice déposée à la Commission des sondages)",
+   "p": "Ifop pour LCI",
+   "d": "2026-11-03",
+   "type": "sondage",
+   "u": "https://www.commission-des-sondages.fr/notices/files/notices/2026/novembre/10352-pres-iv-ifop-lci-3-novembre.pdf"
+  },
+  "thevox_elabe_1114": {
+   "t": "Présidentielle 2027 : Mélenchon confirme sa deuxième place, Teddy Riner fait une entrée remarquée dans les sondages",
+   "p": "TheVox",
+   "d": "2026-11-15",
+   "type": "presse",
+   "u": "https://www.thevox.fr/actualite/societe/presidentielle-2027-melenchon-confirme-sa-deuxieme-place-teddy-riner-fait-une-entree-remarquee-dans-les-sondages-113016/"
+  },
+  "sudradio_lecornu_licence": {
+   "t": "Lecornu formalise la création de 5 000 places supplémentaires en licence",
+   "p": "Sud Radio (avec l'AFP)",
+   "d": "2026-11-11",
+   "type": "presse",
+   "u": "https://www.sudradio.fr/societe/lecornu-formalise-la-creation-de-5-000-places-supplementaires-en-licence"
+  },
+  "te_debat_1116": {
+   "t": "Présidentielle 2027 : candidats, horaires, thèmes… Ce qu'il faut savoir sur le débat du 16 novembre sur TF1 et LCI",
+   "p": "Toute l'Europe",
+   "d": "2026-11-16",
+   "type": "presse",
+   "u": "https://www.touteleurope.eu/vie-politique-des-etats-membres/presidentielle-2027-candidats-horaires-themes-ce-qu-il-faut-savoir-sur-le-debat-du-16-novembre-sur-tf1-et-lci/"
   }
  },
  "presse": [
@@ -23353,9 +23977,313 @@
     "melenchon"
    ],
    "txt": "Jean-Luc Mélenchon publie L'Avenir en commun : 1 069 mesures, l'écologie en tête, 100 % d'énergies renouvelables repoussé à 2060 au plus tard"
+  },
+  {
+   "d": "2026-11-06",
+   "s": "yahoo_ruffin_retrait",
+   "k": "campagne",
+   "c": [
+    "ruffin"
+   ],
+   "txt": "François Ruffin retirera sa candidature « si une solution se dégage pour battre Marine Le Pen au deuxième tour », mais dit ne pas la voir aujourd'hui"
+  },
+  {
+   "d": "2026-11-07",
+   "s": "melenchon_bourget",
+   "k": "programme",
+   "c": [
+    "melenchon"
+   ],
+   "txt": "Jean-Luc Mélenchon présente son programme, L'Avenir en commun, en meeting au Bourget"
+  },
+  {
+   "d": "2026-11-09",
+   "s": "lcp_riner_annonce",
+   "k": "campagne",
+   "c": [
+    "riner"
+   ],
+   "txt": "Le judoka Teddy Riner annonce sa candidature à l'élection présidentielle et se dit « ni de droite, ni de gauche »"
+  },
+  {
+   "d": "2026-11-09",
+   "s": "afp_glucksmann_200",
+   "k": "programme",
+   "c": [
+    "glucksmann"
+   ],
+   "txt": "Raphaël Glucksmann présente un plan de 200 milliards d'euros d'investissements publics pour sortir des énergies fossiles"
+  },
+  {
+   "d": "2026-11-09",
+   "s": "toluna_v9",
+   "k": "sondage",
+   "c": [],
+   "txt": "Baromètre Toluna Harris Interactive, vague 9 : cinq hypothèses de premier tour et trois duels testés"
+  },
+  {
+   "d": "2026-11-10",
+   "s": "sudradio_zemmour_tf1",
+   "k": "campagne",
+   "c": [
+    "zemmour"
+   ],
+   "txt": "Éric Zemmour officialise sa candidature sur TF1 et promet « deux millions d'immigrés en moins à la fin du quinquennat »"
+  },
+  {
+   "d": "2026-11-11",
+   "s": "yahoo_retailleau_dates",
+   "k": "campagne",
+   "c": [
+    "attal",
+    "lisnard",
+    "philippe",
+    "retailleau"
+   ],
+   "txt": "Bruno Retailleau propose une primaire de la droite et du centre les 31 janvier et 7 février 2027"
+  },
+  {
+   "d": "2026-11-11",
+   "s": "sudradio_lecornu_licence",
+   "k": "campagne",
+   "c": [],
+   "txt": "Le Premier ministre confirme 5 000 places supplémentaires en licence, en plus des 15 000 déjà annoncées ; les organisations étudiantes en réclament 250 000"
+  },
+  {
+   "d": "2026-11-12",
+   "s": "agra_attal",
+   "k": "programme",
+   "c": [
+    "attal"
+   ],
+   "txt": "Gabriel Attal propose des prix plancher et des contrats pluriannuels obligatoires pour les agriculteurs"
+  },
+  {
+   "d": "2026-11-12",
+   "s": "capital_attal_fp",
+   "k": "programme",
+   "c": [
+    "attal"
+   ],
+   "txt": "Gabriel Attal précise son plan de 100 000 départs volontaires dans la fonction publique, avec une indemnité fixée par le dialogue social"
+  },
+  {
+   "d": "2026-11-14",
+   "s": "afp_larcher",
+   "k": "campagne",
+   "c": [
+    "attal",
+    "lisnard",
+    "philippe",
+    "retailleau"
+   ],
+   "txt": "Gérard Larcher veut réunir les candidats de la droite et du centre pour choisir une candidature unique ; Édouard Philippe maintient son refus d'une primaire"
+  },
+  {
+   "d": "2026-11-14",
+   "s": "thevox_elabe_1114",
+   "k": "sondage",
+   "c": [],
+   "txt": "Elabe pour BFMTV et La Tribune Dimanche (12 et 13 novembre) : Marine Le Pen entre 31 et 33 %, Jean-Luc Mélenchon entre 17 et 18,5 %, Édouard Philippe entre 9,5 et 15 %, Raphaël Glucksmann entre 10,5 et 14 %, Teddy Riner autour de 4 à 4,5 % selon les hypothèses"
+  },
+  {
+   "d": "2026-11-15",
+   "s": "qz_philippe_logement",
+   "k": "programme",
+   "c": [
+    "philippe"
+   ],
+   "txt": "Édouard Philippe propose de construire 4 millions de logements en dix ans et de supprimer les frais de notaire pour les moins de 35 ans"
+  },
+  {
+   "d": "2026-11-16",
+   "s": "reuters_lepen_retraites",
+   "k": "programme",
+   "c": [
+    "le-pen"
+   ],
+   "txt": "Marine Le Pen présente le 17 novembre sa réforme des retraites ; des responsables du RN évoquent 40 à 42 ans de cotisations pour une retraite complète"
+  },
+  {
+   "d": "2026-11-16",
+   "s": "te_debat_1116",
+   "k": "campagne",
+   "c": [
+    "attal",
+    "glucksmann",
+    "le-pen",
+    "melenchon",
+    "retailleau"
+   ],
+   "txt": "Débat sur TF1 et LCI, « Quelle société pour demain ? », avec cinq candidats ; Édouard Philippe a décliné"
   }
  ],
  "sondages": [
+  {
+   "id": "harris-v9",
+   "inst": "Toluna Harris Interactive",
+   "pour": "M6 et RTL",
+   "terrain": "3 au 5 novembre 2026",
+   "d": "2026-11-09",
+   "n": 2101,
+   "hyp": "Hypothèse 1 : Édouard Philippe, Dominique de Villepin et David Lisnard candidats",
+   "s": [
+    "toluna_v9"
+   ],
+   "scores": {
+    "arthaud": 1,
+    "melenchon": 19,
+    "roussel": 1,
+    "tondelier": 2,
+    "glucksmann": 11,
+    "philippe": 12,
+    "villepin": 2,
+    "lisnard": 9,
+    "retailleau": 5,
+    "dupont-aignan": 1,
+    "le-pen": 34,
+    "zemmour": 3
+   },
+   "hyps": [
+    {
+     "hyp": "Hypothèse 2 : Gabriel Attal, Dominique de Villepin et David Lisnard candidats",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 19,
+      "roussel": 1,
+      "tondelier": 2,
+      "glucksmann": 12,
+      "attal": 9,
+      "villepin": 2,
+      "lisnard": 9,
+      "retailleau": 6,
+      "dupont-aignan": 1,
+      "le-pen": 35,
+      "zemmour": 3
+     }
+    },
+    {
+     "hyp": "Hypothèse 3 : Gabriel Attal et Édouard Philippe candidats",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 18,
+      "roussel": 2,
+      "tondelier": 2,
+      "glucksmann": 11,
+      "attal": 6,
+      "philippe": 11,
+      "retailleau": 7,
+      "dupont-aignan": 2,
+      "le-pen": 36,
+      "zemmour": 4
+     }
+    },
+    {
+     "hyp": "Hypothèse 4 : Édouard Philippe seul candidat du centre",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 19,
+      "roussel": 2,
+      "tondelier": 2,
+      "glucksmann": 12,
+      "philippe": 14,
+      "retailleau": 8,
+      "dupont-aignan": 2,
+      "le-pen": 36,
+      "zemmour": 4
+     }
+    },
+    {
+     "hyp": "Hypothèse 5 : Gabriel Attal seul candidat du centre",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 19,
+      "roussel": 2,
+      "tondelier": 3,
+      "glucksmann": 13,
+      "attal": 10,
+      "retailleau": 10,
+      "dupont-aignan": 2,
+      "le-pen": 36,
+      "zemmour": 4
+     }
+    }
+   ]
+  },
+  {
+   "id": "ifop-lci-1103",
+   "inst": "Ifop",
+   "pour": "LCI",
+   "terrain": "27 au 29 octobre 2026",
+   "d": "2026-11-03",
+   "n": 1501,
+   "hyp": "Hypothèse 1 : Gabriel Attal, Édouard Philippe, Bruno Retailleau et David Lisnard candidats",
+   "s": [
+    "ifop_lci_notice_1103"
+   ],
+   "scores": {
+    "arthaud": 0.5,
+    "melenchon": 18,
+    "roussel": 2,
+    "tondelier": 3,
+    "glucksmann": 10,
+    "attal": 5,
+    "philippe": 9.5,
+    "retailleau": 4,
+    "lisnard": 7,
+    "dupont-aignan": 1.5,
+    "le-pen": 35,
+    "zemmour": 4.5
+   },
+   "hyps": [
+    {
+     "hyp": "Hypothèse 2 : Gabriel Attal seul candidat du centre, avec Bruno Retailleau et David Lisnard",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 17.5,
+      "roussel": 2,
+      "tondelier": 3,
+      "glucksmann": 13,
+      "attal": 9,
+      "retailleau": 5,
+      "lisnard": 7.5,
+      "dupont-aignan": 2,
+      "le-pen": 36,
+      "zemmour": 4.5
+     }
+    },
+    {
+     "hyp": "Hypothèse 3 : Édouard Philippe seul candidat du centre, Bruno Retailleau seul candidat de droite",
+     "scores": {
+      "arthaud": 1,
+      "melenchon": 17.5,
+      "roussel": 1.5,
+      "tondelier": 3.5,
+      "glucksmann": 11.5,
+      "philippe": 15,
+      "retailleau": 7,
+      "dupont-aignan": 2,
+      "le-pen": 37,
+      "zemmour": 4
+     }
+    },
+    {
+     "hyp": "Hypothèse 4 : Édouard Philippe seul candidat du centre, David Lisnard seul candidat de droite",
+     "scores": {
+      "arthaud": 0.5,
+      "melenchon": 17.5,
+      "roussel": 2,
+      "tondelier": 3,
+      "glucksmann": 11,
+      "philippe": 15,
+      "lisnard": 9,
+      "dupont-aignan": 2,
+      "le-pen": 36,
+      "zemmour": 4
+     }
+    }
+   ]
+  },
   {
    "id": "harris-v8",
    "inst": "Toluna Harris Interactive",
@@ -23587,81 +24515,31 @@
      }
     }
    ]
-  },
-  {
-   "id": "harris-v6",
-   "inst": "Toluna Harris Interactive",
-   "pour": "M6 et RTL",
-   "terrain": "22 au 24 septembre 2026",
-   "d": "2026-09-28",
-   "n": 1974,
-   "hyp": "Hypothèse 1 : Raphaël Glucksmann, Gabriel Attal et Édouard Philippe candidats",
-   "s": [
-    "toluna_v6"
-   ],
-   "scores": {
-    "le-pen": 35,
-    "melenchon": 17,
-    "philippe": 13,
-    "glucksmann": 10,
-    "retailleau": 7,
-    "attal": 5,
-    "zemmour": 5,
-    "tondelier": 3,
-    "roussel": 2,
-    "dupont-aignan": 2,
-    "arthaud": 1
-   }
-  },
-  {
-   "id": "elabe-08",
-   "inst": "Elabe",
-   "pour": "BFMTV et La Tribune Dimanche",
-   "terrain": "26 au 28 août 2026",
-   "d": "2026-08-29",
-   "n": 1501,
-   "hyp": "Configuration 1 : Raphaël Glucksmann et Édouard Philippe candidats, sans Gabriel Attal",
-   "s": [
-    "elabe_0829"
-   ],
-   "scores": {
-    "le-pen": 34,
-    "philippe": 17,
-    "melenchon": 14,
-    "glucksmann": 11.5,
-    "retailleau": 6.5,
-    "zemmour": 4,
-    "tondelier": 3.5,
-    "roussel": 3,
-    "dupont-aignan": 3,
-    "arthaud": 1.5,
-    "villepin": 2
-   }
   }
  ],
  "duels": {
   "inst": "Toluna Harris Interactive pour M6 et RTL",
-  "terrain": "19 au 21 octobre 2026",
-  "n": 2094,
-  "s": "toluna_v8",
+  "terrain": "3 au 5 novembre 2026",
+  "n": 2101,
+  "s": "toluna_v9",
   "list": [
    [
     "le-pen",
-    70,
+    68,
     "melenchon",
-    30
+    32
    ],
    [
     "le-pen",
-    59,
+    60,
     "glucksmann",
-    41
+    40
    ],
    [
     "le-pen",
-    57,
+    58,
     "philippe",
-    43
+    42
    ]
   ]
  },
@@ -23780,8 +24658,20 @@
  },
  "agenda": [
   [
+   "2026-11-16",
+   "Débat sur TF1 et LCI, « Quelle société pour demain ? », avec Gabriel Attal, Raphaël Glucksmann, Marine Le Pen, Jean-Luc Mélenchon et Bruno Retailleau"
+  ],
+  [
+   "2026-11-17",
+   "Marine Le Pen présente sa réforme des retraites ; les équipes de Gabriel Attal, Bruno Retailleau et David Lisnard se réunissent pour fixer une date de primaire"
+  ],
+  [
    "2026-12-13",
    "Les adhérents des Écologistes décident s'ils gardent Marine Tondelier comme candidate (vote du 10 au 13 décembre)"
+  ],
+  [
+   "2026-12-14",
+   "L'Assemblée nationale examine le projet de loi qui encadre l'enseignement supérieur privé (semaine du 14 décembre)"
   ],
   [
    "2026-12-16",
@@ -24502,7 +25392,8 @@
       "p334",
       "p341",
       "p376",
-      "p384"
+      "p384",
+      "p388"
      ]
     }
    }
@@ -26368,51 +27259,40 @@
   }
  },
  "semaine": {
-  "d": "2026-11-07",
+  "d": "2026-11-16",
   "titre": [
-   "Mélenchon publie son programme,",
-   "Parcoursup au cœur de la campagne,",
+   "Teddy Riner se lance,",
+   "Éric Zemmour officialise sa candidature,",
    "{n} propositions ajoutées."
   ],
   "ecrans": [
    {
-    "k": "Programme",
-    "t": "Jean-Luc Mélenchon publie « L'Avenir en commun »",
-    "txt": "1 069 mesures, dont 238 nouvelles selon son mouvement. Parmi les changements : 100 % d'énergies renouvelables au plus tard en 2060, contre 2050 en 2022, et une « règle verte » dans la Constitution. L'appli en retient une quarantaine, comme pour les autres candidats, avec le lien vers le programme complet.",
+    "k": "Candidatures",
+    "t": "Teddy Riner se présente",
+    "txt": "Le judoka, quintuple champion olympique, a annoncé sa candidature le 9 novembre. Il se dit « ni de droite, ni de gauche » et doit réunir 500 parrainages d'élus. Ses premières orientations portent sur les retraites, le temps de travail et la dette.",
     "c": [
-     "melenchon"
+     "riner"
     ],
-    "cl": "Sa fiche mise à jour",
+    "cl": "Sa fiche",
     "src": [
-     "ps_aec27",
-     "aec27_livre"
+     "lcp_riner_annonce",
+     "lcp_riner_prop"
     ]
    },
    {
-    "k": "Mobilisation des jeunes",
-    "t": "Le gouvernement annonce un remplaçant à Parcoursup en 2028",
-    "txt": "Après plusieurs semaines de mobilisation lycéenne et étudiante, il annule aussi 836 suppressions de postes dans les lycées publics et crée 500 postes de professeurs. Des organisations lycéennes appellent à continuer.",
-    "src": "lcp_parcoursup_gouv"
-   },
-   {
-    "k": "Parcoursup",
-    "t": "Ce que proposent les candidats",
-    "txt": "Supprimer la plateforme, la remplacer ou la réformer : les positions de six candidats sont ajoutées. Pour les comparer, voir le thème Éducation & Jeunesse, question « Que faire de Parcoursup ? ».",
+    "k": "Candidatures",
+    "t": "Éric Zemmour officialise sa candidature",
+    "txt": "Le 10 novembre, au journal de 20 heures de TF1, il promet « deux millions d'immigrés en moins à la fin du quinquennat » et un référendum sur la politique migratoire.",
     "c": [
-     "glucksmann",
-     "le-pen",
-     "melenchon",
-     "retailleau",
-     "roussel",
-     "tondelier"
+     "zemmour"
     ],
-    "cl": "Nouvelles propositions ajoutées",
-    "src": "lcp_parcoursup_candidats"
+    "cl": "Sa fiche mise à jour",
+    "src": "sudradio_zemmour_tf1"
    },
    {
     "k": "Centre et droite",
-    "t": "Une primaire pour départager les candidats ?",
-    "txt": "Gabriel Attal la juge « inéluctable » et Bruno Retailleau propose de l'organiser en début d'année. Édouard Philippe refuse « une primaire de la division et une primaire de la confusion ».",
+    "t": "Comment départager les candidats ?",
+    "txt": "Bruno Retailleau propose une primaire les 31 janvier et 7 février 2027. Gérard Larcher, président du Sénat, veut réunir les candidats pour choisir une candidature unique ; le parti de Gabriel Attal répond « favorablement ». Édouard Philippe maintient son refus. Les équipes d'Attal, Retailleau et Lisnard se réunissent le 17 novembre.",
     "c": [
      "attal",
      "lisnard",
@@ -26420,43 +27300,54 @@
      "retailleau"
     ],
     "cl": "Les candidats concernés",
-    "src": "lcp_attal_primaire"
+    "src": [
+     "yahoo_retailleau_dates",
+     "afp_larcher",
+     "21news_primaire_1117"
+    ]
    },
    {
-    "k": "Gauche",
-    "t": "Marine Tondelier n'exclut plus de se retirer",
-    "txt": "Elle regrette l'absence de primaire et d'union de toute la gauche. Les adhérents des Écologistes votent du 10 au 13 décembre.",
-    "src": "orange_tondelier_retrait"
+    "k": "Environnement",
+    "t": "Raphaël Glucksmann chiffre sa sortie des énergies fossiles",
+    "txt": "200 milliards d'euros d'investissements publics sur le quinquennat, financés notamment par une contribution exceptionnelle de 5 % sur les patrimoines de plus de 100 millions d'euros. Il promet aussi un chèque énergie de 500 € pour 6 millions de familles et un pass mobilité à 1 € par jour pour les moins de 25 ans.",
+    "c": [
+     "glucksmann"
+    ],
+    "cl": "Nouvelles propositions ajoutées",
+    "src": [
+     "afp_glucksmann_200",
+     "ps_glucksmann_200"
+    ]
    },
    {
-    "k": "Dans l'appli",
-    "t": "Défense, Europe et IA : des thèmes complétés",
-    "txt": "Nous avons recherché les positions des candidats les plus testés dans les sondages sur les thèmes où l'appli n'avait encore rien pour eux, avec une source pour chaque proposition. Quand rien de public n'existe, la comparaison l'indique : « Pas de position trouvée ».",
+    "k": "Logement",
+    "t": "Édouard Philippe veut 4 millions de logements en dix ans",
+    "txt": "Il propose aussi de supprimer les frais de notaire pour les moins de 35 ans. Pour comparer, voir le thème Social & Solidarité, question « Comment construire plus de logements ? ».",
+    "c": [
+     "philippe"
+    ],
+    "cl": "Nouvelles propositions ajoutées",
+    "src": "qz_philippe_logement"
+   },
+   {
+    "k": "Études",
+    "t": "5 000 places de plus en licence",
+    "txt": "Dans une lettre aux présidents d'université, le Premier ministre Sébastien Lecornu confirme 5 000 places supplémentaires en licence, en plus des 15 000 déjà annoncées. Les organisations étudiantes, mobilisées depuis mi-septembre, en réclament 250 000.",
+    "src": "sudradio_lecornu_licence"
+   },
+   {
+    "k": "Débat",
+    "t": "Cinq candidats débattent le 16 novembre sur TF1 et LCI",
+    "txt": "Gabriel Attal, Raphaël Glucksmann, Marine Le Pen, Jean-Luc Mélenchon et Bruno Retailleau débattent du pouvoir d'achat, de la lutte contre la pauvreté et de la solidarité. Édouard Philippe a décliné.",
     "c": [
      "attal",
      "glucksmann",
      "le-pen",
-     "lisnard",
-     "philippe",
-     "retailleau",
-     "zemmour"
+     "melenchon",
+     "retailleau"
     ],
-    "cl": "Propositions ajoutées",
-    "src": [
-     "philippe_site_surete",
-     "attal_eurosatory",
-     "ne_armee"
-    ]
-   },
-   {
-    "k": "Dans l'appli",
-    "t": "Cinq personnes retirées de la liste des candidats",
-    "txt": "Olivier Faure, Ségolène Royal, Emmanuel Maurel et Jérôme Guedj, battus à la primaire du 11 octobre, et Philippe Brun, qui en avait été exclu, ne sont plus candidats. Deux candidats sans parti sont ajoutés : Benoît Mathieu et Manolo Mlekuz.",
-    "src": [
-     "lcp_primaire_resultats",
-     "bio_brun_lcp",
-     "obs_candidats_1012"
-    ]
+    "cl": "Les candidats présents",
+    "src": "te_debat_1116"
    }
   ]
  },
@@ -26563,7 +27454,7 @@
   "interieur": [
    [
     "immig_niveau",
-    "Quel niveau d'immigration légale ?"
+    "Quel niveau d'immigration ?"
    ],
    [
     "irreguliers",
