@@ -27,7 +27,7 @@ Chaque mise à jour est relue avant publication. Les textes des propositions son
 
 ## Signaler une erreur
 
-Dans l'appli, chaque fiche se termine par un lien « Signalez-la » qui ouvre un e-mail déjà rempli (proposition concernée, lien). Vous pouvez aussi ouvrir une « issue » sur ce dépôt en indiquant la proposition et, si possible, la source qui la corrige.
+Dans l'appli, chaque fiche se termine par un lien « Signalez-la » qui ouvre un e-mail déjà rempli (proposition concernée, lien), adressé à signaler.programmes2027@gmail.com. Vous pouvez aussi ouvrir une « issue » sur ce dépôt en indiquant la proposition et, si possible, la source qui la corrige.
 
 ## Vérification des sources
 
