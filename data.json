@@ -27707,5 +27707,59 @@
     "Comment développer l'IA et le cloud en France ?"
    ]
   ]
- }
+ },
+ "retires": [
+  {
+   "nom": "Olivier Faure",
+   "tri": "Faure",
+   "parti": "Parti socialiste",
+   "d": "2026-10-11",
+   "txt": "N'est plus candidat après la primaire sociale-démocrate du 11 octobre 2026, remportée par Raphaël Glucksmann.",
+   "s": [
+    "lcp_primaire_resultats"
+   ]
+  },
+  {
+   "nom": "Ségolène Royal",
+   "tri": "Royal",
+   "parti": "Parti socialiste",
+   "d": "2026-10-11",
+   "txt": "N'est plus candidate après la primaire sociale-démocrate du 11 octobre 2026, remportée par Raphaël Glucksmann.",
+   "s": [
+    "lcp_primaire_resultats"
+   ]
+  },
+  {
+   "nom": "Emmanuel Maurel",
+   "tri": "Maurel",
+   "parti": "Gauche républicaine et socialiste",
+   "d": "2026-10-11",
+   "txt": "N'est plus candidat après la primaire sociale-démocrate du 11 octobre 2026, remportée par Raphaël Glucksmann.",
+   "s": [
+    "lcp_primaire_resultats"
+   ]
+  },
+  {
+   "nom": "Jérôme Guedj",
+   "tri": "Guedj",
+   "parti": "Parti socialiste",
+   "d": "2026-10-11",
+   "txt": "N'est plus candidat après la primaire sociale-démocrate du 11 octobre 2026, remportée par Raphaël Glucksmann.",
+   "s": [
+    "lcp_primaire_resultats"
+   ]
+  },
+  {
+   "nom": "Philippe Brun",
+   "tri": "Brun",
+   "parti": "Parti socialiste (suspendu)",
+   "d": "2026-09-16",
+   "txt": "Suspendu du Parti socialiste en septembre 2026, il n'a pas participé à la primaire sociale-démocrate et ne figure plus parmi les candidats déclarés.",
+   "s": [
+    "bio_brun_lcp",
+    "obs_candidats_1012"
+   ]
+  }
+ ],
+ "contact": ""
 }

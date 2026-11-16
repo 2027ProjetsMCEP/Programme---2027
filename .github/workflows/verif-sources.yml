@@ -1,0 +1,58 @@
+# Chaque lundi matin : vérifie que les sources de l'appli répondent encore,
+# puis ouvre ou met à jour un ticket « Sources à corriger » s'il y a des liens cassés.
+name: Vérification des sources
+
+on:
+  schedule:
+    - cron: "0 5 * * 1"   # lundi, 5 h UTC (6 h à Paris l'hiver, 7 h l'été)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: verif-sources
+  cancel-in-progress: true
+
+jobs:
+  verif:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Tester les liens
+        run: node outils/verif_sources.mjs --archiver
+      - name: Ticket récapitulatif
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -e
+          n=$(node -e 'console.log(require("./verif_sources.json").casses.length)')
+          titre="Sources à corriger : semaine du $(date -u +%d/%m/%Y)"
+          gh label create sources --color BFD4F2 --description "Vérification automatique des sources" 2>/dev/null || true
+          ouvert=$(gh issue list --label sources --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ "$n" = "0" ]; then
+            if [ -n "$ouvert" ]; then
+              gh issue comment "$ouvert" --body "Vérification du $(date -u +%d/%m/%Y) : plus aucun lien cassé. Ticket fermé automatiquement."
+              gh issue close "$ouvert"
+            fi
+            echo "Aucun lien cassé."
+          elif [ -n "$ouvert" ]; then
+            gh issue edit "$ouvert" --title "$titre" --body-file rapport_sources.md
+            gh issue comment "$ouvert" --body "Nouvelle vérification le $(date -u +%d/%m/%Y) : $n lien(s) cassé(s). Le détail est à jour en haut du ticket."
+          else
+            gh issue create --title "$titre" --label sources --body-file rapport_sources.md
+          fi
+      - name: Garder le rapport
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: rapport-sources
+          path: |
+            rapport_sources.md
+            verif_sources.json
+          retention-days: 30

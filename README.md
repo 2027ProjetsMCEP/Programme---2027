@@ -27,4 +27,15 @@ Chaque mise à jour est relue avant publication. Les textes des propositions son
 
 ## Signaler une erreur
 
-Ouvrez une « issue » sur ce dépôt en indiquant la proposition concernée et, si possible, la source qui la corrige.
+Dans l'appli, chaque fiche se termine par un lien « Signalez-la » qui ouvre un e-mail déjà rempli (proposition concernée, lien). Vous pouvez aussi ouvrir une « issue » sur ce dépôt en indiquant la proposition et, si possible, la source qui la corrige.
+
+## Vérification des sources
+
+Chaque lundi matin, une action GitHub (`.github/workflows/verif-sources.yml`) teste tous les liens de `data.json` avec `outils/verif_sources.mjs`. S'il y a des liens cassés, elle ouvre ou met à jour un ticket « Sources à corriger » (étiquette `sources`), avec pour chaque lien l'endroit où il est utilisé et, si elle existe, une copie archivée sur archive.org. Les sources ajoutées dans les 30 derniers jours sont aussi archivées.
+
+## Mettre à jour
+
+1. Modifier `data.json` (ou `outils/app_template.html` pour l'interface).
+2. `node outils/build.js` reconstruit `index.html`.
+3. `python3 -m http.server 8790 &` puis `node outils/test_app.js` : aucune erreur, aucun débordement à 320 et 390 px.
+4. Changer le numéro de cache dans `sw.js` pour que les téléphones récupèrent la nouvelle version.

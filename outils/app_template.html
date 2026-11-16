@@ -253,6 +253,18 @@ main > .rubbar { animation: none; }
 @media (prefers-reduced-motion: reduce) { .rubbar { transition: none; } }
 .card > h2.th-h .cnt { margin-left: auto; }
 .more-props { border-top: 1px solid var(--line); padding-top: 10px; }
+.report { font-size: 0.82rem; color: var(--ink-3); margin: 14px 4px 0; }
+.report a { color: var(--bleu); font-weight: 600; }
+.sheet .report { margin: 12px 0 0; }
+details.retires summary { cursor: pointer; list-style: none; display: flex; align-items: center; gap: 8px; font-weight: 700; font-size: 1.02rem; }
+details.retires summary::-webkit-details-marker { display: none; }
+details.retires summary::after { content: "+"; margin-left: auto; font-weight: 700; color: var(--bleu); }
+details.retires[open] summary::after { content: "−"; }
+details.retires summary .n { font-size: 0.78rem; color: var(--ink-3); font-weight: 600; }
+details.retires > .small { margin-top: 10px; }
+details.retires .rows { margin-top: 4px; }
+details.retires .s { font-size: 0.76rem; color: var(--ink-3); margin-top: 4px; }
+details.retires .s a { color: var(--ink-2); }
 .more-props summary { cursor: pointer; font-size: 0.86rem; font-weight: 600; color: var(--bleu); }
 .more-props .props { margin-top: 8px; }
 .oe-h { font-family: var(--f-body); font-size: 0.86rem; font-weight: 700; color: var(--ink); }
@@ -1032,9 +1044,19 @@ function screenCandidats() {
   <p class="small" id="cnone" style="padding-inline:4px" hidden>Aucun candidat ne correspond.</p>
   <p class="small" style="padding-inline:4px">« Programme en cours » : le candidat a annoncé des mesures mais n'a pas encore publié de programme complet.</p>
   ${np && notes.primaire ? `<p class="small" style="padding-inline:4px">${esc(notes.primaire)}</p>` : ""}
+  ${retiresHtml()}
   <section class="card"><h2>Les dates clés</h2><div class="agenda">${DATA.agenda.map(([d, t]) => `<div class="it">${leaf(d)}<span>${esc(t)}</span></div>`).join("")}</div></section>`;
 }
 
+/* Les personnes qui ne sont plus candidates : seulement dans l'onglet Candidats, repliées, avec la date et la raison */
+function retiresHtml() {
+  const R = (DATA.retires || []).slice().sort((a, b) => b.d.localeCompare(a.d) || a.tri.localeCompare(b.tri, "fr"));
+  if (!R.length) return "";
+  return `<details class="card retires" id="retires"><summary><span>Ils ne sont plus candidats</span><span class="n">${R.length}</span></summary>
+    <p class="small">Ces personnes figuraient dans l'appli. Elles ont perdu une primaire ou renoncé : leurs propositions ne sont plus affichées.</p>
+    <div class="rows" id="rlist">${R.map(r => `<div class="row" data-q="${esc((r.nom + " " + r.parti).toLowerCase())}"><div class="txt"><b>${esc(r.nom)}</b><span>${esc(r.parti)}</span><span class="st-line">${frTypo(r.txt)}</span>${srcLineP(r.s)}</div></div>`).join("")}</div>
+  </details>`;
+}
 /* Les sujets sur lesquels portent ses propositions publiées : même règle pour tous, calculée à partir des données */
 function themeLine(ps) {
   const R = DATA.rubriques, key = R ? rubOf : p => p.th, NAME = R ? Object.fromEntries(R) : THEME_NAME, word = R ? ["la rubrique", "les rubriques"] : ["le sujet", "les sujets"];
@@ -1124,7 +1146,8 @@ function screenCandidat(id) {
   ${c.docs.length && !R ? `<section class="card"><h2>Ses documents</h2><div class="rows docs">${c.docs.map(d => { const s = SRC[d]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(s.t)}</b><span>${esc(s.p)} · ${esc(fmtDate(s.d))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
   ${c.faits.length ? `<section class="card"><h2>À savoir</h2><div class="prose">${c.faits.map(([t, s]) => `<p>${esc(t)} <span class="small">(${ext(SRC[s].u, esc(SRC[s].p))})</span></p>`).join("")}</div></section>` : ""}
   ${press.length ? `<section class="card"><h2>Dans l'actu</h2><div class="rows news">${press.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
-  ${pc && R ? parcoursHtml(pc, X) : ""}`;
+  ${pc && R ? parcoursHtml(pc, X) : ""}
+  ${reportP({ where: `${c.nom} (page candidat)`, ref: c.id, h: "c-" + c.id })}`;
 }
 const parcoursHtml = (pc, X) => `<section class="card parcours" id="parcours"><h2>Son parcours</h2>${pc.paras.map(([h, ss]) => `<div class="blk"><h3>${esc(h)}</h3><p>${ss.map(([t, src]) => esc(t) + X.ref(src)).join(" ")}</p></div>`).join("")}<details class="srcs"><summary>Les sources du parcours</summary>${X.list()}</details></section>`;
 
@@ -1619,7 +1642,8 @@ function screenComprendre(k) {
   ${S.questions && S.questions.length ? `<section class="card"><h2>Les grandes questions du débat</h2><p class="small">Les questions que posent les rapports officiels sur ce sujet. Les propositions des candidats, plus bas, y répondent chacune à sa façon.</p>${list(S.questions, "q")}</section>` : ""}
   ${S.lire && S.lire.length ? `<section class="card"><h2>Pour aller plus loin</h2><div class="rows">${S.lire.filter(id => SRC[id]).map(id => `<a class="row" href="${esc(SRC[id].u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(SRC[id].t)}</b><span>${esc(SRC[id].p)} · ${esc(fmtDate(SRC[id].d))}</span></span>${EXT}</a>`).join("")}</div></section>` : ""}
   <details class="srcs card"><summary>Les sources de cette fiche</summary>${X.list()}</details>` : `<section class="card"><p class="lead">La fiche « Comprendre le sujet », avec la situation actuelle en chiffres officiels, est en préparation pour ce thème.</p></section>`}
-  ${n ? `<a class="more-btn as-link" href="#t-${k}">${n > 1 ? `Ce que proposent les ${n} candidats sur ce sujet` : "Ce que propose le candidat sur ce sujet"}${ARW}</a>` : ""}`;
+  ${n ? `<a class="more-btn as-link" href="#t-${k}">${n > 1 ? `Ce que proposent les ${n} candidats sur ce sujet` : "Ce que propose le candidat sur ce sujet"}${ARW}</a>` : ""}
+  ${S ? reportP({ where: `Comprendre le sujet : ${THEME_NAME[k]}`, ref: k, h: "comprendre-" + k }) : ""}`;
 }
 
 /* Page d'un thème (onglet Propositions) : les candidats et leurs propositions, avec un filtre par sujet quand le thème en regroupe plusieurs */
@@ -1720,7 +1744,8 @@ function screenSondages() {
     <h2>Sondages précédents</h2>
     ${prev.map(s => `<details class="prev"><summary><span>${esc(s.inst)} · ${esc(s.terrain)}</span></summary>${pollBars(s)}<p class="small" style="margin-top:10px">${esc(s.hyp)}. ${nf0.format(s.n)} personnes interrogées. Scores relevés sur ${ext(SRC[s.s[0]].u, esc(SRC[s.s[0]].p))}.</p>${hypsHtml(s)}</details>`).join("")}
   </section>
-  ${news.length ? `<section class="card"><h2>Les sondages dans la presse</h2><div class="rows news">${news.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}`;
+  ${news.length ? `<section class="card"><h2>Les sondages dans la presse</h2><div class="rows news">${news.map(p => { const s = SRC[p.s]; return `<a class="row" href="${esc(s.u)}" target="_blank" rel="noopener"><span class="txt"><b>${esc(p.txt)}</b><span><span class="src">${esc(s.p)}</span> · ${esc(fmtDate(p.d, true))}</span></span>${EXT}</a>`; }).join("")}</div></section>` : ""}
+  ${reportP({ where: "Sondages", ref: (DATA.sondages[0] || {}).id || "sondages", h: "sondages" })}`;
 }
 
 function screenMethode() {
@@ -1729,7 +1754,7 @@ function screenMethode() {
   return `
   <div class="page-h"><h1>Comment l'appli est faite</h1></div>
   <section class="card prose">
-    <p><b>Les candidats.</b> Toutes les personnes qui ont annoncé publiquement leur candidature, avec le même traitement pour chacune. Celles qui renoncent, ou qui perdent une primaire, sont retirées de la liste. À partir de mars 2027, l'appli suivra la liste officielle publiée par le Conseil constitutionnel.</p>
+    <p><b>Les candidats.</b> Toutes les personnes qui ont annoncé publiquement leur candidature, avec le même traitement pour chacune. Celles qui renoncent, ou qui perdent une primaire, sont retirées de la liste : elles restent mentionnées en bas de l'onglet Candidats, avec la date et la raison. À partir de mars 2027, l'appli suivra la liste officielle publiée par le Conseil constitutionnel.</p>
     <p><b>Les propositions.</b> Uniquement des propositions rendues publiques pour 2027. Chacune est résumée en une phrase, avec un lien vers le document ou l'article d'origine. Le texte complet reste chez le candidat ou le média cité. Quand la seule source trouvée est un comparateur, la proposition porte la mention « À confirmer » : elle doit encore être confirmée par un document du candidat ou un média.</p>
     <p><b>Comparer.</b> Dans chaque thème, les propositions sont rangées sous des questions clés communes, formulées de la même façon pour tous (par exemple « À quel âge partir à la retraite ? »). Une proposition n'est rangée sous une question que si elle y répond directement ; les autres restent visibles à part. « Pas de position trouvée » veut dire que nous n'avons trouvé aucune proposition publique du candidat sur cette question, pas qu'il n'en a pas.</p>
     <p><b>Aller plus loin.</b> Chaque proposition a sa fiche : le détail, le coût et le financement, et toutes les sources.${DATA.propositions.some(p => p.plus && p.plus.detail) ? " Quand elle est complète, la fiche donne aussi l'objectif affiché, les arguments du candidat cités tels quels, la situation actuelle avec un chiffre officiel daté, et les chiffrages du candidat comme ceux d'autres organismes." : ""}</p>
@@ -1754,6 +1779,7 @@ function screenMethode() {
     <p class="small">Un candidat qui a chiffré une proposition absente de nos sources peut nous le signaler : le statut est corrigé dès que le document est publié.</p>
   </section>
   <section class="card prose">
+    ${CONTACT ? `<p><b>Signaler une erreur.</b> Les fiches des propositions, les pages des candidats et les fiches « Comprendre » se terminent par un lien « Signalez-la », qui ouvre votre messagerie avec un message déjà rempli. L'appli n'enregistre rien : le message part de votre adresse, qui ne sert qu'à vous répondre. Une correction n'est faite qu'à partir d'une source vérifiable. <a href="${esc(mailtoErr({ where: "L'appli en général", ref: "méthode", h: "methode" }))}">Écrire à l'équipe</a>.</p>` : ""}
     <p><b>Mises à jour.</b> Dernière mise à jour le ${esc(fmtDate(DATA.maj))} : ${DATA.candidats.length} candidats, ${n} propositions, ${DATA.presse.length} articles. Les ajouts récents portent la mention « Nouveau ».</p>
   </section>
   ${sourcesTeaser()}`;
@@ -1778,6 +1804,7 @@ function srcUsage() {
     const set = new Set(); if (c.parcours) { c.parcours.chapo[1].forEach(x => set.add(x)); c.parcours.paras.forEach(([, ss]) => ss.forEach(([, x]) => set.add(x))); }
     set.forEach(s => add(s, "bio")); new Set(c.faits.map(f => f[1]).concat(c.docs)).forEach(s => add(s, "fiche"));
   });
+  (DATA.retires || []).forEach(r => new Set(r.s).forEach(s => add(s, "fiche")));
   (DATA.kit || []).forEach(f => new Set(f.blocs.map(b => b.src)).forEach(s => add(s, "kit")));
   Object.values(DATA.sujets || {}).forEach(S => {
     const set = new Set(), put = x => [].concat(x || []).forEach(y => set.add(y));
@@ -1840,6 +1867,14 @@ function screenSources() {
 }
 
 /* ---------- « Aller plus loin » : la fiche d'une proposition, qui monte du bas de l'écran ---------- */
+/* Signaler une erreur : un e-mail déjà rempli, envoyé depuis la messagerie de la personne. L'appli n'enregistre rien. */
+const CONTACT = DATA.contact || "";
+function mailtoErr(o) {
+  const url = location.origin + location.pathname + "#" + o.h;
+  const body = [`Où : ${o.where}`, `Référence : ${o.ref}`, `Lien : ${url}`, "", "Ce qui est faux ou dépassé :", "", "", "La bonne information, avec sa source si possible (lien) :", "", ""].join("\r\n");
+  return `mailto:${CONTACT}?subject=${encodeURIComponent("Erreur à corriger : " + short(o.where, 90))}&body=${encodeURIComponent(body)}`;
+}
+const reportP = o => CONTACT ? `<p class="report">Une erreur ou une information dépassée ? <a href="${esc(mailtoErr(o))}">Signalez-la</a></p>` : "";
 function moreHtml(p) {
   const c = CAND[p.c], x = p.plus || {}, rich = !!x.detail;
   const others = new Set(DATA.propositions.filter(q => q.th === p.th && q.c !== p.c).map(q => q.c)).size;
@@ -1882,6 +1917,7 @@ function moreHtml(p) {
     ${others ? `<a class="more-btn as-link" href="#t-${p.th}">${others > 1 ? `Ce que proposent les ${others} autres candidats sur ce sujet` : "Ce que propose l'autre candidat sur ce sujet"}${ARW}</a>` : ""}
     <section class="blk"><h3>Les sources</h3>${onlyAnalyse(p) ? `<p class="warn">Seule source trouvée pour l'instant : un comparateur. La proposition reste à confirmer par un document du candidat ou un média.</p>` : ""}<div class="src-list">${srcs.map(srcRow).join("")}</div>
       ${x.maj ? `<p class="lede">Fiche vérifiée le ${esc(fmtDate(x.maj))}.${x.note ? " " + nb(x.note[0]) : ""}</p>` : ""}
+      ${reportP({ where: `${c.nom} : ${p.t}`, ref: p.id, h: "c-" + c.id })}
       ${rich ? "" : `<p class="lede">Bientôt dans cette fiche : le détail de la mesure, l'objectif affiché, les arguments du candidat, la situation actuelle avec un chiffre officiel et les chiffrages disponibles.</p>`}
     </section>
   </div>`;
@@ -2001,7 +2037,10 @@ app.addEventListener("input", e => {
   if (e.target.id !== "qc") return;
   const q = e.target.value.trim().toLowerCase(); let shown = 0;
   document.querySelectorAll("#clist .row").forEach(r => { const ok = !q || r.dataset.q.includes(q); r.hidden = !ok; if (ok) shown++; });
-  const none = document.getElementById("cnone"); if (none) none.hidden = shown > 0;
+  const cl = document.getElementById("clist"); if (cl) cl.closest(".card").style.display = shown ? "" : "none";
+  let gone = 0; document.querySelectorAll("#rlist .row").forEach(r => { const ok = !q || r.dataset.q.includes(q); r.hidden = !ok; if (ok && q) gone++; });
+  const ret = document.getElementById("retires"); if (ret && gone) ret.open = true;
+  const none = document.getElementById("cnone"); if (none) { none.hidden = shown > 0; none.textContent = gone ? "Aucun candidat en lice ne correspond : voir « Ils ne sont plus candidats », plus bas." : "Aucun candidat ne correspond."; }
 });
 app.addEventListener("change", e => {
   if (e.target.id === "cmpA") { ui.cmpA = e.target.value; if (ui.cmpA === ui.cmpB) ui.cmpB = null; rerender(); }
